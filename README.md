@@ -15,9 +15,9 @@ My personal site. Made with [Hugo](https://gohugo.io/)
     ```
 1. Serve site
     ```
-    ./util-hugo-serve.sh
+    ./util-site-serve.sh
     ```
 1. Build site
     ```
-    ./util-hugo-build.sh
+    ./util-site-build.sh
     ```
