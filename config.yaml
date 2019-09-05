@@ -1,0 +1,41 @@
+baseURL: https://zwbetz.com/
+languageCode: en-us
+defaultContentLanguage: en
+title: zwbetz
+theme: uswds-hugo-theme
+enableRobotsTXT: true
+timeout: 45000
+googleAnalytics: UA-115738775-1
+enableGitInfo: true
+
+outputs:
+  home: [HTML, RSS, JSON]
+
+pygmentsCodefences: true
+pygmentsStyle: pygments
+
+disqusShortname: zwbetz
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 90
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: RSS
+      url: /index.xml
+      weight: 4

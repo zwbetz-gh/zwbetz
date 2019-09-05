@@ -1,0 +1,5 @@
+{{ $lorem := "<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan rutrum consectetur. Vivamus eu ex quis leo posuere convallis. Nunc laoreet velit sed ullamcorper mollis. Mauris porta consequat tortor aliquet maximus. Quisque sed purus condimentum orci sodales aliquam non vel tellus. Praesent lorem arcu, scelerisque a semper at, iaculis eget purus. Etiam ullamcorper orci a porttitor sodales. Nullam tincidunt nibh et hendrerit auctor. Quisque vitae quam ut lorem vehicula condimentum. In commodo cursus elit, non volutpat lectus sagittis non.</em></p>" }}
+
+{{ range seq (.Get 0) }}
+  {{ $lorem | safeHTML }}
+{{ end }}

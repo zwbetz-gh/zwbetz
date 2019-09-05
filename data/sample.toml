@@ -1,0 +1,7 @@
+[table]
+  [[row]]
+  data = ["Animal", "Sound"]
+  [[row]]
+  data = ["Cat", "Meow"]
+  [[row]]
+  data = ["Dog", "Woof"]
