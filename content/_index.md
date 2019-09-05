@@ -34,7 +34,7 @@ As for formal education, I have a B.S. in Information Systems and Decision Scien
 
 Wanna get in touch? Email me at `zwbetz@gmail.com`. 
 
-Find me elsewhere on [Hugo's forum](https://discourse.gohugo.io/u/zwbetz/summary), [GitHub](https://github.com/zwbetz-gh), and [stackoverflow](https://stackoverflow.com/users/11499871/zwbetz). 
+Find me elsewhere on [Hugo's support forum](https://discourse.gohugo.io/u/zwbetz/summary) and [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}). 
 
