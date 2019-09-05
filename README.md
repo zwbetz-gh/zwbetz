@@ -1,13 +1,23 @@
 # zwbetz
 
-Clone repo:
+My personal site. Made with [Hugo](https://gohugo.io/)
 
-```
-git clone --recurse-submodules -j8 git@bitbucket.org:zwbetz/zwbetz.git
-```
+## Development
 
-Update repo:
-
-```
-git submodule foreach git pull origin master
-```
+1. Clone repo and change to it
+    ```
+    git clone --recurse-submodules git@github.com:zwbetz-gh/zwbetz.git
+    cd zwbetz
+    ```
+1. Install/upgrade Hugo. Assumes OS is Linux
+    ```
+    ./util-upgrade-hugo.sh <HUGO_VERSION>
+    ```
+1. Serve site
+    ```
+    ./util-hugo-serve.sh
+    ```
+1. Build site
+    ```
+    ./util-hugo-build.sh
+    ```

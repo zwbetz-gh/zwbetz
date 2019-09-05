@@ -1,5 +1,5 @@
-#!/bin/bash
-# 
+#!/usr/bin/env bash
+ 
 # Refactor a page named `X.md` to `content/<section>/X/index.md` to use the
 # new page bundles and featured image system
 #

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 front_matter="show_comments: true"
 dir="content/post"
