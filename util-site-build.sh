@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo --gc
+hugo --gc --cleanDestinationDir
