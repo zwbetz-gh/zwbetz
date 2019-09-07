@@ -19,7 +19,7 @@ For the folks out there thinking, "just show me the money already", here's the f
 - Use Hugo version `0.57.2` or higher
 - Basic knowledge of HTML, CSS, and Hugo templates is nice-to-have, but not necessary
 - File paths will be given in Linux/Mac format (`/`), so adapt them accordingly to Windows (`\`)
-- When I say "restart hugo server", that means doing a `Control` + `C` then re-running `hugo server` 
+- When I say "restart hugo server", that means doing a `Control-C` then re-running `hugo server` 
 - The words "templates" and "layouts" will be used interchangebly, AKA I'm talking about the same thing
 - In normal hugo site development workflow, it's common to check the file tree of the `public` folder to verify the generated site is what you expect. To keep this tutorial concise, I won't be doing that, but it's a habit I encourage you to start
 
