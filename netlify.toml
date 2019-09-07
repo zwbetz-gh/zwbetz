@@ -3,4 +3,4 @@
   command = "chmod +x util-site-build.sh && ./util-site-build.sh"
 
 [build.environment]
-  HUGO_VERSION = "0.58.0"
+  HUGO_VERSION = "0.58.1"
