@@ -6,6 +6,10 @@ toc: false
 show_comments: true
 ---
 
+**Update:** this article is no longer maintained. My dotfiles now live in git. Please see https://github.com/zwbetz-gh/dotfiles
+
+---
+
 ## border
 
 Used by the `log` function to surround a message with borders. If no character is passed in, it uses the default (`=`).  

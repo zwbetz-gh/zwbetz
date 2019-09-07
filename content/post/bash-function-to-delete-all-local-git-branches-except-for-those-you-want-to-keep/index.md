@@ -6,6 +6,10 @@ toc: false
 show_comments: true
 ---
 
+**Update:** a newer, slicker version of this function is available at https://github.com/zwbetz-gh/dotfiles
+
+---
+
 Inspired by this [stackoverflow answer](https://stackoverflow.com/a/28572339), I wanted to write a bash function that could handle more than the scenario of "delete all local git branches except for master". Add the below snippet to your `.bash_profile` or `.bashrc` and you're ready to rock. Some notes on what it can do:
 
 - If run it **without** arguments, it will delete all local branches, except for the current branch
