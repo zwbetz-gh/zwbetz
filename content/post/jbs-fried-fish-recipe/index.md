@@ -4,6 +4,8 @@ date: 2019-07-05T22:48:11-05:00
 tags: [recipe]
 toc: false
 show_comments: false
+aliases:
+  - /jbs-fried-fish/
 ---
 
 Growing up, my dad (JB) was, and still is an avid fisherman. He prepared fish for us often, and taught my brother and I how to fry 'em. This recipe works for all kinds of fish: bass, bream, sacalait, trout, and catfish, just to name a few. I hope you enjoy it as much as our family has. 
