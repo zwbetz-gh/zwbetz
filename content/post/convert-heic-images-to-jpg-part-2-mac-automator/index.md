@@ -1,7 +1,7 @@
 ---
 title: "Convert HEIC images to JPG part 2: Mac Automator"
 date: 2019-09-01T20:47:15-05:00
-tags: ["mac", "mac-automator", "command-line"]
+tags: ["mac", "mac-automator", "command-line", "imagemagick"]
 toc: false
 show_comments: true
 ---
