@@ -91,6 +91,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [The birthday empathy test](https://www.artofmanliness.com/articles/sunday-firesides-the-birthday-empathy-test/)
   * [Podcast #515: Aristotle’s wisdom on living the Good Life](https://www.artofmanliness.com/articles/aristotle-living-the-good-life/)
   * [Tending over weeding](https://www.artofmanliness.com/articles/sunday-firesides-tending-over-weeding/)
+  * [Plans are useless, but ...](https://www.artofmanliness.com/articles/sunday-firesides-plans-are-useless-but/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
