@@ -1,0 +1,571 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.58.1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zachary Betz</title>
+    <style>
+      
+      html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html,
+body {
+  background: #181818;
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+#cv {
+  width: 90%;
+  max-width: 800px;
+  background: #f3f3f3;
+  margin: 30px auto;
+}
+
+.mainDetails {
+  padding: 25px 35px;
+  border-bottom: 2px solid #cf8a05;
+  background: #ededed;
+}
+
+#name h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+}
+
+#name h2 {
+  font-size: 2em;
+  margin-left: 2px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+  padding: 0 40px;
+}
+
+#headshot {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+}
+
+#headshot img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#name {
+  float: left;
+}
+
+#contactDetails {
+  float: right;
+}
+
+#contactDetails ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+#contactDetails ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+#contactDetails ul li a,
+a[href^="tel"] {
+  color: #444;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#contactDetails ul li a:hover {
+  color: #cf8a05;
+}
+
+section {
+  border-top: 1px solid #dedede;
+  padding: 20px 0 0;
+}
+
+section:first-child {
+  border-top: 0;
+}
+
+section:last-child {
+  padding: 20px 0 10px;
+}
+
+.sectionTitle {
+  float: left;
+  width: 25%;
+}
+
+.sectionContent {
+  float: right;
+  width: 72.5%;
+}
+
+.sectionTitle h1 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #cf8a05;
+}
+
+.sectionContent h2 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: -2px;
+}
+
+.subDetails {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.keySkills {
+  list-style-type: none;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #444;
+}
+
+.keySkills ul li {
+  margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+  #headshot {
+    display: none;
+  }
+
+  .keySkills {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media all and (max-width: 601px) {
+  #cv {
+    width: 95%;
+    margin: 10px auto;
+    min-width: 280px;
+  }
+
+  #headshot {
+    display: none;
+  }
+
+  #name,
+  #contactDetails {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectionTitle,
+  .sectionContent {
+    float: none;
+    width: 100%;
+  }
+
+  .sectionTitle {
+    margin-left: -2px;
+    font-size: 1.25em;
+  }
+
+  .keySkills {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .mainDetails {
+    padding: 15px 15px;
+  }
+
+  section {
+    padding: 15px 0 0;
+  }
+
+  #mainArea {
+    padding: 0 25px;
+  }
+
+  .keySkills {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+  #name h1 {
+    line-height: 0.8em;
+    margin-bottom: 4px;
+  }
+}
+
+@media print {
+  #cv {
+    width: 100%;
+  }
+}
+
+    </style>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300">
+  </head>
+  <body id="top">
+    <div id="cv" class="">
+      <div class="mainDetails">
+        
+
+        <div id="name">
+          <h1 class="">Zachary Betz</h1>
+          <h2 class="">Software Developer</h2>
+        </div>
+
+        <div id="contactDetails" class="">
+          <ul>
+            <li>
+              <a href="https://zwbetz.com/">https://zwbetz.com/</a>
+            </li>
+            <li>
+              <a href="mailto:zwbetz@gmail.com" target="_blank">zwbetz@gmail.com</a>
+            </li>
+            <li>225-978-4949</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="mainArea" class="">
+        <section>
+          <article>
+            <div class="sectionTitle">
+              <h1>Profile</h1>
+            </div>
+
+            <div class="sectionContent">
+              <p>
+              TBD
+              </p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Work</h1>
+          </div>
+
+          <div class="sectionContent">
+          
+            <article>
+              <h2>Software Developer at Freelance</h2>
+              <p class="subDetails">2016-02 &mdash; Present</p>
+              <p>
+              
+                * Developed desktop apps for a local petroleum transport company via C#/WinForms, The company&#39;s accountant used these apps to import timesheet spreadsheets into QuickBooks, and export payroll spreadsheets
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Systems Analyst at Geocent, LLC</h2>
+              <p class="subDetails">2016-02 &mdash; Present</p>
+              <p>
+              
+                * Developed extensive functional/accessibility test suites via Selenium/Java
+                <br>
+              
+                * Wrote a Jaspersoft Server reports test framework via Bash/cURL
+                <br>
+              
+                * Maintained clear, concise project documentation
+                <br>
+              
+                * Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Applications Consultant at Capgemini</h2>
+              <p class="subDetails">2015-06 &mdash; 2016-02</p>
+              <p>
+              
+                * Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS
+                <br>
+              
+                * Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders
+                <br>
+              
+                * Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting
+                <br>
+              
+                * Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins
+                <br>
+              
+                * Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Developer Intern at Framework IT Solutions</h2>
+              <p class="subDetails">2014-05 &mdash; 2015-05</p>
+              <p>
+              
+                * Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8
+                <br>
+              
+                * Developed various construction equipment/sales rep reports using SSRS for a major equipment services client
+                <br>
+              
+                * Created stored procedures for data dumps, to be run on a nightly basis
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Data Intern at Louisiana Highway Safety Research Group</h2>
+              <p class="subDetails">2013-08 &mdash; 2014-05</p>
+              <p>
+              
+                * Used Splunk to monitor the network for low traffic points so that the database backups would run at those times
+                <br>
+              
+                * Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Lead Student Computer Techician at Louisiana State University</h2>
+              <p class="subDetails">2011-08 &mdash; 2013-05</p>
+              <p>
+              
+                * Troubleshooted LSU’s wireless network and made requests for additional access points to be installed in low-coverage areas
+                <br>
+              
+                * Trained new employees on helpdesk processes and maintained knowledge management wiki
+                <br>
+              
+                * Repaired and maintained staff/student/lab computers and print servers
+                <br>
+              
+                * Created and distributed system images using Symantec Ghost
+                <br>
+              
+              </p>
+            </article>
+          
+            <article>
+              <h2>Retirement Benefits Analyst at Louisiana State Employees&#39; Retirement System</h2>
+              <p class="subDetails">2011-05 &mdash; 2011-08</p>
+              <p>
+              
+                * Analyzed Retirement Documents and Letters for correct criteria
+                <br>
+              
+                * Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds
+                <br>
+              
+              </p>
+            </article>
+          
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Skills</h1>
+          </div>
+
+          <div class="sectionContent">
+            <ul class="keySkills">
+            
+              
+              <li>HTML</li>
+              
+              <li>CSS</li>
+              
+              <li>JavaScript</li>
+              
+              <li>SQL</li>
+              
+              <li>Shell</li>
+              
+              <li>Bash</li>
+              
+              <li>Hugo</li>
+              
+              <li>Selenium</li>
+              
+              <li>Java</li>
+              
+              <li>Jaspersoft</li>
+              
+              <li>C#</li>
+              
+              <li>SSRS</li>
+              
+              <li>Technical Writing</li>
+              
+              <li>Customer Service</li>
+              
+            
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Education</h1>
+          </div>
+
+          <div class="sectionContent">
+          
+          <article>
+            <h2>Louisiana State University</h2>
+            <p class="subDetails">2011 &mdash; 2015</p>
+            <p>
+              Information Systems and Decision Sciences, Bachelor
+            </p>
+          </article>
+          
+
+          </div>
+          <div class="clear"></div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
