@@ -11,9 +11,9 @@ My personal site
     git clone --recurse-submodules git@github.com:zwbetz-gh/zwbetz.git
     cd zwbetz
     ```
-1. Install/upgrade Hugo. Assumes OS is Linux
+1. Install Hugo. Assumes OS is Linux
     ```
-    ./util-upgrade-hugo.sh <HUGO_VERSION>
+    ./util-install-hugo.sh <HUGO_VERSION>
     ```
 1. Serve site
     ```
