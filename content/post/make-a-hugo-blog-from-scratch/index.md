@@ -16,7 +16,7 @@ For the folks out there thinking, "just show me the money already", here's the f
 
 ## Prerequisities and notes
 
-- Use Hugo version `0.57.2` or higher
+- Use Hugo version `0.58.1` or higher
 - Basic knowledge of HTML, CSS, and Hugo templates is nice-to-have, but not necessary
 - File paths will be given in Linux/Mac format (`/`), so adapt them accordingly to Windows (`\`)
 - When I say "restart hugo server", that means doing a `Control-C` then re-running `hugo server` 
@@ -50,24 +50,24 @@ We won't be using the `data` or `themes` folders in this tutorial, so go ahead a
 At this point, if you run `hugo server`, you should get output like this:
 
 ```
-Building sites … WARN 2019/01/08 22:16:49 Found no layout for "taxonomyTerm", language "en", output format "HTML": create a template below /layouts with one of these filenames: categories/terms.en.html.html, categories/list.en.html.html, categories/terms.html.html, categories/list.html.html, categories/terms.en.html, categories/list.en.html, categories/terms.html, categories/list.html, taxonomy/terms.en.html.html, taxonomy/list.en.html.html, taxonomy/terms.html.html, taxonomy/list.html.html, taxonomy/terms.en.html, taxonomy/list.en.html, taxonomy/terms.html, taxonomy/list.html, _default/terms.en.html.html, _default/list.en.html.html, _default/terms.html.html, _default/list.html.html, _default/terms.en.html, _default/list.en.html, _default/terms.html, _default/list.html
-WARN 2019/01/08 22:16:49 Found no layout for "taxonomyTerm", language "en", output format "HTML": create a template below /layouts with one of these filenames: tags/terms.en.html.html, tags/list.en.html.html, tags/terms.html.html, tags/list.html.html, tags/terms.en.html, tags/list.en.html, tags/terms.html, tags/list.html, taxonomy/terms.en.html.html, taxonomy/list.en.html.html, taxonomy/terms.html.html, taxonomy/list.html.html, taxonomy/terms.en.html, taxonomy/list.en.html, taxonomy/terms.html, taxonomy/list.html, _default/terms.en.html.html, _default/list.en.html.html, _default/terms.html.html, _default/list.html.html, _default/terms.en.html, _default/list.en.html, _default/terms.html, _default/list.html
-WARN 2019/01/08 22:16:49 Found no layout for "home", language "en", output format "HTML": create a template below /layouts with one of these filenames: index.en.html.html, home.en.html.html, list.en.html.html, index.html.html, home.html.html, list.html.html, index.en.html, home.en.html, list.en.html, index.html, home.html, list.html, _default/index.en.html.html, _default/home.en.html.html, _default/list.en.html.html, _default/index.html.html, _default/home.html.html, _default/list.html.html, _default/index.en.html, _default/home.en.html, _default/list.en.html, _default/index.html, _default/home.html, _default/list.html
+Building sites … WARN 2019/09/11 23:57:44 found no layout file for "HTML" for "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2019/09/11 23:57:44 found no layout file for "HTML" for "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2019/09/11 23:57:44 found no layout file for "HTML" for "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
-                   | EN  
+                   | EN
 +------------------+----+
-  Pages            |  3  
-  Paginator pages  |  0  
-  Non-page files   |  0  
-  Static files     |  0  
-  Processed images |  0  
-  Aliases          |  0  
-  Sitemaps         |  1  
-  Cleaned          |  0  
+  Pages            |  3
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Sitemaps         |  1
+  Cleaned          |  0
 
-Total in 8 ms
-Watching for changes in /home/zwbetz/Development/hugo-blog/{content,layouts,static}
-Watching for config changes in /home/zwbetz/Development/hugo-blog/config.toml
+Total in 18 ms
+Watching for changes in /home/zwbetz/tmp/tmp-site/{archetypes,content,data,layouts,static}
+Watching for config changes in /home/zwbetz/tmp/tmp-site/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
