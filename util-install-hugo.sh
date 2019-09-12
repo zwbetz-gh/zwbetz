@@ -8,20 +8,25 @@ if [[ -z $1 ]]; then
   exit 1
 fi
 
+tmp_dir=/tmp/hugo
 version=$1
 tar=hugo_extended_${version}_Linux-64bit.tar.gz
 url=https://github.com/gohugoio/hugo/releases/download/v${version}/${tar}
 
-echo "Before upgrade:"
+echo "Before:"
 hugo version
 
-pushd /tmp >/dev/null
-rm -r ./*
+mkdir -p $tmp_dir
+pushd $tmp_dir >/dev/null
+
 wget -q $url
 tar xf $tar
+
 chmod +x hugo
 cp hugo ~/bin
-popd >/dev/null
 
-echo "After upgrade:"
+popd >/dev/null
+rm -r $tmp_dir
+
+echo "After:"
 hugo version
