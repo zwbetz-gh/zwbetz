@@ -40,4 +40,4 @@ For example, say I wanted to get the info on this page. The following shortcode:
 
 Would give this output:
 
-{{< os-stat "content/post/the-os-stat-function-in-hugo/index.md" >}}
+{{< os-stat "content/blog/the-os-stat-function-in-hugo/index.md" >}}

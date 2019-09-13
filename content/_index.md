@@ -24,7 +24,7 @@ options="200x q100" >}}
 **Attribution**. Icon made by [Freepik](https://www.freepik.com/), from [Flaticon](https://www.flaticon.com/), licensed by [CC 3.0](http://creativecommons.org/licenses/by/3.0/). 
 -->
 
-Welcome to my corner of the internet. My [blog](/post/) is the main attraction, mostly a place to document [things](/tags/) learned.  
+Welcome to my corner of the internet. My [blog](/blog/) is the main attraction, mostly a place to document [things](/tags/) learned.  
 
 `zwbetz` is short for my full name, Zachary Wade Betz. 
 

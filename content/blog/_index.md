@@ -1,4 +1,5 @@
 ---
 title: Blog
-show_comments: true
+aliases:
+  - /post/
 ---

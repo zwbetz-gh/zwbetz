@@ -20,7 +20,7 @@ taxonomies:
   tag: tags
 
 permalinks:
-  post: /:filename/
+  blog: /:filename/
 
 imaging:
   quality: 90
