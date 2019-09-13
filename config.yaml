@@ -31,7 +31,7 @@ menu:
       url: /
       weight: 1
     - name: Blog
-      url: /post/
+      url: /blog/
       weight: 2
     - name: Tags
       url: /tags/
