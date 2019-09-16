@@ -33,7 +33,7 @@ We've made this multiple times. It's legit.
 1. While your pork chops are searing, go ahead and chop your onions.
 1. Once you have browned all of your pork chops, remove, and add your chopped onions to the pan. 
 1. Feel free to add a small amount of cold water to help break up the drippings on the bottom of the pan. 
-1. Sauté the onions for 5 minuets, then add the 1/2 Stick of Butter. Melt the butter completely, then add the flour. 
+1. Sauté the onions for 5 minutes, then add the 1/2 Stick of Butter. Melt the butter completely, then add the flour. 
 1. When your onions are soft and brown, add a small amount of the chicken stock and mix well. You want to get a creamy consistency.
 1. Add most or all of the remaining chicken stock to the pan.
 1. Next layer your pork chops over the onion gravy. Be sure to pour any of the excess liquid from the plate or bowl the pork chops were in, back into the pan. 
