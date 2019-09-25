@@ -16,7 +16,7 @@ For the folks out there thinking, "just show me the money already", here's the f
 
 ## Prerequisities and notes
 
-- Use Hugo version `0.58.1` or higher
+- Use Hugo version `0.58.3` or higher
 - Basic knowledge of HTML, CSS, and Hugo templates is nice-to-have, but not necessary
 - File paths will be given in Linux/Mac format (`/`), so adapt them accordingly to Windows (`\`)
 - When I say "restart hugo server", that means doing a `Control-C` then re-running `hugo server` 
