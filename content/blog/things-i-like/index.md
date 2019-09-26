@@ -160,6 +160,8 @@ A list of things that I like, in no particular order. This is a living document.
   * [Bret Weinstein: Life after Evergreen, evolutionary biology, and gender](https://www.youtube.com/watch?v=o4bMTwIsF4Y)
 * Deep South Ventures:
   * [I sell onions on the internet](https://www.deepsouthventures.com/i-sell-onions-on-the-internet/)
+* What would you do?
+  * [Mother can only afford one meal to share with her family](https://youtu.be/ngpp0z2mb8w)
 
 ## Strength training
 
