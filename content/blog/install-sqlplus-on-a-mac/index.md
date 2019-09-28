@@ -6,15 +6,18 @@ toc: false
 show_comments: true
 ---
 
+Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}}).
+
+## Version 12.2.0.1.0
+
 1. Navigate to [Oracle downloads](https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html), accept the license agreement, and login. If you don't already have an Oracle account, you'll need to create one
 1. Download these zip files:
     1. `instantclient-basic-macos.x64-12.2.0.1.0-2.zip`
     1. `instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip`
 1. Run `mkdir -p ~/bin/instantclient_12_2`
-1. Unzip the contents of both zip files directly into `~/bin/instantclient_12_2`. The file listing should look like:
+1. Unzip the contents of both zip files directly into `~/bin/instantclient_12_2`. The file listing of that dir should now look like:
     ```
-    $ find . | sort
-    .
+    $ cd  ~/bin/instantclient_12_2 && find . -type f | sort
     ./BASIC_README
     ./SQLPLUS_README
     ./adrci
@@ -37,9 +40,12 @@ show_comments: true
     ./uidrvci
     ./xstreams.jar
     ```
-1. Add this line to your `~/.bash_profile`
+1. Add this line to your `~/.bash_profile` to add `sqlplus` to your `PATH`
     ```
     export PATH="$PATH:$HOME/bin/instantclient_12_2"
     ```
-1. Run `source ~/.bash_profile`
-1. Run `sqlplus -V` to confirm it's installed 
+1. Source your `~/.bash_profile`
+    ```
+    source ~/.bash_profile
+    ```
+1. Run `sqlplus -V` to confirm it's installed
