@@ -93,6 +93,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Tending over weeding](https://www.artofmanliness.com/articles/sunday-firesides-tending-over-weeding/)
   * [Plans are useless, but ...](https://www.artofmanliness.com/articles/sunday-firesides-plans-are-useless-but/)
   * [Podcast #541: The art of noticing](https://www.artofmanliness.com/articles/podcast-541-the-art-of-noticing/)
+  * [What would my best self do?](https://www.artofmanliness.com/articles/sunday-firesides-what-would-my-best-self-do/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
