@@ -3,7 +3,7 @@ title: "Combine images using ImageMagick"
 date: 2019-09-09T21:24:28-05:00
 tags: [imagemagick, command-line]
 toc: false
-show_comments: false
+show_comments: true
 ---
 
 I often combine screenshots for documentation purposes. ImageMagick is great for this. Given a dir of images:
