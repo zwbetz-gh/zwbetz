@@ -330,6 +330,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [How to deliver constructive feedback in difficult situations](https://medium.com/s/please-advise/the-essential-guide-to-difficult-conversations-41f736e63ccf)
 * Dax Shepard, Armchair Expert:
   * [Esther Perel](https://armchairexpertpod.com/pods/esther-perel)
+  * [John Gottman](https://armchairexpertpod.com/pods/john-gottman)
 
 ## Personality
 
@@ -508,6 +509,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Big Little Lies](https://en.wikipedia.org/wiki/Big_Little_Lies_(TV_series))
 * [Nate Bargatze: The Tennessee Kid](https://www.netflix.com/title/81002880)
 * [The Boys](https://en.wikipedia.org/wiki/The_Boys_(2019_TV_series))
+* [The Standups: Beth Stelling](https://www.netflix.com/title/80175685)
 
 ## Video games
 
