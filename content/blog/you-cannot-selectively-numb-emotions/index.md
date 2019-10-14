@@ -15,3 +15,13 @@ Was listening the Dax Shepard's [interview](https://armchairexpertpod.com/pods/b
 **Dax:** Well, numbing is one of the topics you've done a lot of writing on and public speaking on. And yeah, tell us about numbing, ‘cause there's a trillion ways to numb, right. You could be online buying shit, etc...
 
 **Brené:** This is what is most shocking for me about the research: that you cannot selectively numb emotion. So when you say, "this is really hard, I’m in grief or disappointment or anxiety", and you use something to take the edge off of the hard stuff, you by default are dumbing the light as well. You cannot selectively numb emotion. So the edge of pain may be dulled, but the edge of joy will also be dulled...
+
+---
+
+The conversation pairs nicely with this bit from [Friedrich Nietzsche](https://www.brainpickings.org/2014/10/15/nietzsche-on-difficulty/):
+
+> What if pleasure and displeasure were so tied together that whoever wanted to have as much as possible of one must also have as much as possible of the other -- that whoever wanted to learn to "jubilate up to the heavens" would also have to be prepared for "depression unto death"?
+>
+> [...]
+>
+> You have the choice: either as little displeasure as possible, painlessness in brief... or as much displeasure as possible as the price for the growth of an abundance of subtle pleasures and joys that have rarely been relished yet? If you decide for the former and desire to diminish and lower the level of human pain, you also have to diminish and lower the level of their capacity for joy.
