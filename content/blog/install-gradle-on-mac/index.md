@@ -8,12 +8,13 @@ show_comments: true
 
 1. [Install Java]({{< relref "install-java-on-mac" >}}), version 8 or higher
 1. Download Gradle from the [releases page](https://gradle.org/releases/). We'll use `v5.6.2` in this example
-1. Navigate to where you downloaded Gradle, make a directory for it, unzip it, then verify directory contents
 
-        cd ~/Downloads
+        curl -O -L https://downloads.gradle-dn.com/distributions/gradle-5.6.2-bin.zip
+
+1. Make dir then unzip it
+
         mkdir -p ~/bin/gradle
         unzip -d ~/bin/gradle gradle-5.6.2-bin.zip
-        ls ~/bin/gradle/gradle-5.6.2
 
 1. Set environment variables in your bash config file, e.g. `~/.bash_profile`
 
