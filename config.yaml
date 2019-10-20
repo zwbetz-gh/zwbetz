@@ -39,3 +39,10 @@ menu:
     - name: RSS
       url: /index.xml
       weight: 4
+
+params:
+  footer: >
+    Made with [Hugo](https://gohugo.io/) &bull;
+    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
+    Deployed to [Netlify](https://www.netlify.com/) &bull;
+    Content in [Git](https://github.com/zwbetz-gh/zwbetz)
