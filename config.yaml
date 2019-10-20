@@ -14,7 +14,7 @@ outputs:
 pygmentsCodefences: true
 pygmentsStyle: pygments
 
-disqusShortname: zwbetz
+disqusShortname:
 
 taxonomies:
   tag: tags
