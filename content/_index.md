@@ -7,22 +7,24 @@ aliases:
   - /contact/
 ---
 
+<!-- 
+**Attribution**. Icon made by [Freepik](https://www.freepik.com/), from [Flaticon](https://www.flaticon.com/), licensed by [CC 3.0](http://creativecommons.org/licenses/by/3.0/). 
+-->
+
+<!--
 {{< figure
 img="headshot.jpg" 
 alt="My headshot" 
 caption="Open your eyes, dude." 
 command="Resize" 
-options="200x q100" >}}
+options="100x q100" >}}
+-->
 
 <style>
   .usa-image-block img {
     border-radius: 5%;
   }
 </style>
-
-<!-- 
-**Attribution**. Icon made by [Freepik](https://www.freepik.com/), from [Flaticon](https://www.flaticon.com/), licensed by [CC 3.0](http://creativecommons.org/licenses/by/3.0/). 
--->
 
 Welcome to my corner of the internet. My [blog](/blog/) is the main attraction, mostly a place to document [things](/tags/) learned.  
 
@@ -38,4 +40,4 @@ Find me elsewhere on [Hugo's support forum](https://discourse.gohugo.io/u/zwbetz
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}). 
 
-Per Google Analytics, my most popular post: [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}). 
+Per Google Analytics, my most popular post: [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}).
