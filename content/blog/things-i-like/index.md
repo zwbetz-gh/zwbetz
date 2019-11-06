@@ -119,6 +119,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [The grandmaster in the corner office: what the study of chess experts teaches us about building a remarkable life](http://calnewport.com/blog/2010/01/06/the-grandmaster-in-the-corner-office-what-the-study-of-chess-experts-teaches-us-about-building-a-remarkable-life/)
   * [Open offices make you less open](http://calnewport.com/blog/2018/07/06/open-offices-make-you-less-open/)
   * [Jerry Seinfeld’s closed door](http://calnewport.com/blog/2018/06/08/jerry-seinfelds-closed-door/)
+  * [On digital minimalism, loneliness and the joys of true connection](https://www.calnewport.com/blog/2019/10/28/on-digital-minimalism-loneliness-and-the-joys-of-true-connection/)
 * Barbell Logic:
   * [Episode #23: Voluntary hardship](https://startingstrengthonlinecoaching.com/barbell-logic-podcast-episode-23-voluntary-hardship/)
   * [Episode #26: Training to survive cancer with John Wilson](https://startingstrengthonlinecoaching.com/26-barbell-logic-extra-training-survive-cancer-john-wilson/)
