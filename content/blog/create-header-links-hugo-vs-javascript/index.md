@@ -44,7 +44,7 @@ I will assume you're already familiar with the "dot", `replaceRE`, and `safeHTML
 
 | Group | Regex                       | Match                   |
 | ----- | --------------------------- | ----------------------- |
-| 1     | `(<h[2-9] id=\"([^\"]+)\">` | `<h2 id="some-header">` |
+| 1     | `(<h[2-9] id=\"([^\"]+)\">)` | `<h2 id="some-header">` |
 | 2     | `([^\"]+)`                  | `some-header`           |
 | 3     | `(.+)`                      | `Some Header`           |
 | 4     | `(</h[2-9]+>)`              | `</h2>`                 |
