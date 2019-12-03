@@ -122,6 +122,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Open offices make you less open](http://calnewport.com/blog/2018/07/06/open-offices-make-you-less-open/)
   * [Jerry Seinfeld’s closed door](http://calnewport.com/blog/2018/06/08/jerry-seinfelds-closed-door/)
   * [On digital minimalism, loneliness and the joys of true connection](https://www.calnewport.com/blog/2019/10/28/on-digital-minimalism-loneliness-and-the-joys-of-true-connection/)
+  * [Reflections on the disconnected life](https://www.calnewport.com/blog/2019/11/24/reflections-on-the-disconnected-life/)
 * Barbell Logic:
   * [Episode #23: Voluntary hardship](https://startingstrengthonlinecoaching.com/barbell-logic-podcast-episode-23-voluntary-hardship/)
   * [Episode #26: Training to survive cancer with John Wilson](https://startingstrengthonlinecoaching.com/26-barbell-logic-extra-training-survive-cancer-john-wilson/)
@@ -342,7 +343,9 @@ A list of things that I like, in no particular order. This is a living document.
 * [16 personalities](https://www.16personalities.com/free-personality-test)
 * [Understand myself](https://www.understandmyself.com/)
 * [The SAPA project](https://sapa-project.org/survey/start.php)
-* Personality Hacker: [Episode #34: INFJ personality type advice](https://personalityhacker.com/podcast-episode-0034-infj-personality-type-advice/)
+* Personality Hacker:
+  * [Episode #34: INFJ personality type advice](https://personalityhacker.com/podcast-episode-0034-infj-personality-type-advice/)
+  * [Episode #303: Personal lessons from INFP and INFJ interviews](https://personalityhacker.com/podcast-episode-0303-personal-lessons-from-infp-and-infj-interviews/)
 * Typology: [Episode #17: Take five! A panel of 5s with Lori Chaffer, Kenny Benge, and Joel Miller](https://www.typologypodcast.com/podcast/2017/10/26/episode17/panelof5s)
 
 ## Tools
