@@ -11,9 +11,9 @@ toc: false
 show_comments: false
 ---
 
-{{% blockquote author="Laura Ingalls" %}}
+{{< blockquote author="Laura Ingalls" >}}
 I am beginning to learn that it is the sweet, simple things of life which are the real ones after all.  
-{{% /blockquote %}}
+{{< /blockquote >}}
 
 After watching [why small pleasures are a big deal](https://www.youtube.com/watch?v=6Gv1CqAQVow), I started a list of my own. With a bit of passing around to family and friends, here's what we ended up with. 
 

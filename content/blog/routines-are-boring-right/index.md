@@ -29,6 +29,6 @@ caption="**Left:** Jan 2017, weighed 175 lbs. **Right:** Dec 2017, weighed 200 l
 
 Reading this back to myself. I sound kinda like an infomercial for routines. And that's okay. Because I really do want to sell you on them. If you think about it, we all follow a routine. It's just a matter of how much of that routine is **intentional**. I think Annie Dillard [says](https://www.brainpickings.org/2013/06/07/annie-dillard-the-writing-life-1/) it best:  
 
-{{% blockquote author="Annie Dillard" %}}
+{{< blockquote author="Annie Dillard" >}}
 How we spend our days is, of course, how we spend our lives. What we do with this hour, and that one, is what we are doing. A schedule defends from chaos and whim. It is a net for catching days. It is a scaffolding on which a worker can stand and labor with both hands at sections of time. A schedule is a mock-up of reason and order—willed, faked, and so brought into being; it is a peace and a haven set into the wreck of time; it is a lifeboat on which you find yourself, decades later, still living. Each day is the same, so you remember the series afterward as a blurred and powerful pattern.
-{{% /blockquote %}}
+{{< /blockquote >}}

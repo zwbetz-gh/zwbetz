@@ -10,7 +10,7 @@ In an excerpt from his book _Antifragile_, Nassim Nicholas Taleb lays out a conv
 
 I've known this deep down, but ironically, did not have the _words_ to express it until reading Taleb. It's really a humbling idea -- it makes you take serious a whole world of people that you otherwise wouldn't.
 
-{{% blockquote %}}
+{{< blockquote >}}
 
 **Fat Tony:** You are asking me to define what characteristic makes a difference between pious and nonpious. Do I really _need_ to be able to tell you what it is to be able to conduct a pious action?
 
@@ -42,4 +42,4 @@ Then, looking at him patronizingly, with a smirk, very calmly:
 
 **Fat Tony:** My dear Socrates... you know why they are putting you to death? It is because you make people feel stupid for blindly following habits, instincts, and traditions. You may be occasionally right. But you may confuse them about things they've been doing just fine without getting in trouble. You are destroying people's illusions about themselves. You are taking the joy of ignorance out of the things we don't understand. And you have _no_ answer; you have _no_ answer to offer them.
 
-{{% /blockquote %}}
+{{< /blockquote >}}

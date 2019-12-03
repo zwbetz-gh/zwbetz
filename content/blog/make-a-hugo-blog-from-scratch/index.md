@@ -328,9 +328,9 @@ Everything within `{{ define "main" }}` and the closing `{{ end }}` will be the 
 
 Since we're cleaning house, let's talk about [partials](https://gohugo.io/templates/partials/#readout). The docs sum them up nicely:
 
-{{% blockquote %}}
+{{< blockquote >}}
 Partials are smaller, context-aware components in your list and page templates that can be used economically to keep your templating DRY (Don't Repeat Yourself).
-{{% /blockquote %}}
+{{< /blockquote >}}
 
 Partials are useful for factoring out repeated code blocks. They're also useful for keeping your code organized and easy-to-read. 
 
