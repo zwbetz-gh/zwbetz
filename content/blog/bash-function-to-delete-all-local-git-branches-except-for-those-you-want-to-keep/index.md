@@ -6,7 +6,7 @@ toc: false
 show_comments: true
 ---
 
-**Update:** a newer, slicker version of this function is available at https://github.com/zwbetz-gh/dotfiles
+**Update:** a newer, slicker version of this function is available at <https://github.com/zwbetz-gh/dotfiles>.
 
 ---
 

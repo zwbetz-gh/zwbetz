@@ -41,5 +41,5 @@ FileUtils.copyURLToFile(connection.getURL(), new File("/path/to/file"));
 
 Credits to these stackoverflow answers:
 
-- https://stackoverflow.com/a/10135259
-- https://stackoverflow.com/a/32346644
+- <https://stackoverflow.com/a/10135259>
+- <https://stackoverflow.com/a/32346644>

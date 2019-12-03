@@ -56,7 +56,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
   * [Podcast #78: The myth of following your passion](https://www.artofmanliness.com/2014/08/22/art-of-manliness-podcast-78-the-myth-of-following-your-passion/)
   * [Podcast #168: The value of deep work in the age of distraction](https://www.artofmanliness.com/2016/01/12/podcast-168-the-value-of-deep-work-in-the-age-of-distraction/)
-  * [How to really avoid living a life of Quiet desperation](https://www.artofmanliness.com/2017/03/20/really-avoid-living-life-quiet-desperation/)
+  * [How to really avoid living a life of quiet desperation](https://www.artofmanliness.com/2017/03/20/really-avoid-living-life-quiet-desperation/)
   * [More load on the arch](https://www.artofmanliness.com/2016/11/27/more-load-on-the-arch/)
   * [You can’t return to Eden](https://www.artofmanliness.com/2017/02/20/cant-return-eden/)
   * [Against the cult of travel, or what everyone gets wrong about The Hobbit](https://www.artofmanliness.com/2016/05/31/against-the-cult-of-travel-or-what-everyone-gets-wrong-about-the-hobbit/)
