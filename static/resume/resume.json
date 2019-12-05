@@ -48,7 +48,8 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Developed extensive functional/accessibility test suites via Selenium/Java.",
+        "Developed extensive functional/accessibility test suites via NightwatchJS.",
+        "Created general development documentation via MkDocs that is used across USCIS.",
         "Wrote a Jaspersoft Server reports test framework via Bash/cURL.",
         "Maintained clear, concise project documentation.",
         "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql."
@@ -96,7 +97,7 @@
     },
     {
       "company": "Louisiana State University",
-      "position": "Lead Student Computer Techician",
+      "position": "Lead Student Computer Technician",
       "website": "https://www.lsu.edu/reslife/",
       "startDate": "2011-08",
       "endDate": "2013-05",
