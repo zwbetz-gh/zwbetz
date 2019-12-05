@@ -30,7 +30,9 @@ Welcome to my corner of the internet. My [blog](/blog/) is the main attraction, 
 
 `zwbetz` is short for my full name, Zachary Wade Betz. 
 
-I'm currently a Systems Analyst at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana. Here's my [resume](/resume.html).
+I'm currently a Software Developer & Tester at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana.
+
+Here's my resume in [JSON](/resume/resume.json), [HTML](/resume/resume.html), and [PDF](/resume/resume.pdf).
 
 As for formal education, I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu/). 
 

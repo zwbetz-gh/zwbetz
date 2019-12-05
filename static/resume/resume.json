@@ -1,0 +1,216 @@
+{
+  "basics": {
+    "name": "Zachary Betz",
+    "label": "Software Developer & Tester",
+    "picture": "https://zwbetz.com/headshot.jpg",
+    "email": "zwbetz@gmail.com",
+    "phone": "225-978-4949",
+    "website": "https://zwbetz.com",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Baton Rouge",
+      "countryCode": "US",
+      "region": "Louisiana"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "zwbetz-gh",
+        "url": "https://github.com/zwbetz-gh"
+      },
+      {
+        "network": "Hugo's Support Forum",
+        "username": "zwbetz",
+        "url": "https://discourse.gohugo.io/u/zwbetz/summary"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Freelance",
+      "position": "Software Developer",
+      "website": "https://zwbetz.com",
+      "startDate": "2016-02",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Developed desktop apps for a local petroleum transport company via C#/WinForms.",
+        "Company accountant used apps to import timesheet spreadsheets into QuickBooks, and export payroll spreadsheets."
+      ]
+    },
+    {
+      "company": "Geocent, LLC",
+      "position": "Systems Analyst",
+      "website": "https://geocent.com",
+      "startDate": "2016-02",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Developed extensive functional/accessibility test suites via Selenium/Java.",
+        "Wrote a Jaspersoft Server reports test framework via Bash/cURL.",
+        "Maintained clear, concise project documentation.",
+        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql."
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "position": "Applications Consultant",
+      "website": "https://capgemini.com",
+      "startDate": "2015-06",
+      "endDate": "2016-02",
+      "summary": "",
+      "highlights": [
+        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS.",
+        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders.",
+        "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting.",
+        "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins.",
+        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues."
+      ]
+    },
+    {
+      "company": "Framework IT Solutions",
+      "position": "Developer Intern",
+      "website": "",
+      "startDate": "2014-05",
+      "endDate": "2015-05",
+      "summary": "",
+      "highlights": [
+        "Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8.",
+        "Developed various construction equipment/sales rep reports using SSRS for a major equipment services client.",
+        "Created stored procedures for data dumps, to be run on a nightly basis."
+      ]
+    },
+    {
+      "company": "Louisiana Highway Safety Research Group",
+      "position": "Data Intern",
+      "website": "http://hsrg.lsu.edu",
+      "startDate": "2013-08",
+      "endDate": "2014-05",
+      "summary": "",
+      "highlights": [
+        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times.",
+        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports."
+      ]
+    },
+    {
+      "company": "Louisiana State University",
+      "position": "Lead Student Computer Techician",
+      "website": "https://www.lsu.edu/reslife/",
+      "startDate": "2011-08",
+      "endDate": "2013-05",
+      "summary": "",
+      "highlights": [
+        "Troubleshooted LSU’s wireless network and made requests for additional access points to be installed in low-coverage areas.",
+        "Trained new employees on helpdesk processes and maintained knowledge management wiki.",
+        "Repaired and maintained staff/student/lab computers and print servers.",
+        "Created and distributed system images using Symantec Ghost."
+      ]
+    },
+    {
+      "company": "Louisiana State Employees' Retirement System",
+      "position": "Retirement Benefits Analyst",
+      "website": "https://lasersonline.org",
+      "startDate": "2011-05",
+      "endDate": "2011-08",
+      "summary": "",
+      "highlights": [
+        "Analyzed Retirement Documents and Letters for correct criteria.",
+        "Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds."
+      ]
+    },
+    {
+      "company": "DETEL Computer Solutions",
+      "position": "System Builder",
+      "website": "",
+      "startDate": "2008-05",
+      "endDate": "2010-08",
+      "summary": "",
+      "highlights": [
+        "Custom built over 600 desktop and laptop computers.",
+        "Assembled and installed SMART boards for various Louisiana schools."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Louisiana State University",
+      "area": "Information Systems and Decision Sciences",
+      "studyType": "Bachelor",
+      "startDate": "2011",
+      "endDate": "2015",
+      "gpa": "3.0",
+      "courses": []
+    }
+  ],
+  "certifications": [
+    {
+      "name": "DHS Section 508 Trusted Tester v4",
+      "date": "2018"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 3 contributor to Hugo's Support Forum",
+      "date": "2019",
+      "awarder": "Hugo's Support Forum",
+      "summary": "As of 2019, I am a top 3 contributor to Hugo's Support Forum."
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "writingSamples": [
+    {
+      "name": "Make a Hugo blog from scratch",
+      "url": "https://zwbetz.com/make-a-hugo-blog-from-scratch/"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SQL",
+    "SchemaSpy",
+    "Shell",
+    "Bash",
+    "Hugo",
+    "Selenium",
+    "NodeJS",
+    "NPM",
+    "NightwatchJS",
+    "Cucumber",
+    "Java",
+    "Jaspersoft",
+    "C#",
+    "SSRS",
+    "Docker",
+    "Docker Compose",
+    "Technical Writing",
+    "Customer Service"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}
