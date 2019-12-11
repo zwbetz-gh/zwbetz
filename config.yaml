@@ -11,9 +11,6 @@ enableGitInfo: true
 outputs:
   home: [HTML, RSS, JSON]
 
-pygmentsCodefences: true
-pygmentsStyle: pygments
-
 disqusShortname:
 
 taxonomies:
@@ -72,7 +69,7 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: monokai
+    style: pygments
     tabWidth: 4
   tableOfContents:
     endLevel: 6
