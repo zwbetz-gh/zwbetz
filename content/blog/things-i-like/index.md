@@ -520,6 +520,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Standups: Beth Stelling](https://www.netflix.com/title/80175685)
 * [Joe Rogan: Strange Times](https://www.netflix.com/title/80215419)
 * [The Departed](https://en.wikipedia.org/wiki/The_Departed)
+* [The Mandalorian](https://en.wikipedia.org/wiki/The_Mandalorian)
 
 ## Video games
 
