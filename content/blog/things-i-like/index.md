@@ -408,6 +408,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Lafayette College – The Mill Series](https://www.youtube.com/watch?v=V32WHDuy-Do)
   * [Warren Farrell – The absolute necessity of fathers](https://www.youtube.com/watch?v=v5O_FLUWYmg)
   * [Australia’s John Anderson & Dr. Jordan B Peterson: In Conversation](https://www.youtube.com/watch?v=U4NijLf3M-A)
+  * [The Great Ideological Lie of Diversity](https://www.jordanbpeterson.com/blog-posts/lie-of-diversity/)
 * Joe Rogan: 
   * [JRE #970: Bret Weinstein](https://www.youtube.com/watch?v=xq4Y87idawk)
   * [JRE #1191: Peter Boghossian & James Lindsay](https://www.youtube.com/watch?v=AZZNvT1vaJg)
