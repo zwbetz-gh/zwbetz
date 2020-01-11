@@ -337,6 +337,7 @@ A list of things that I like, in no particular order. This is a living document.
 * Dax Shepard, Armchair Expert:
   * [Esther Perel](https://armchairexpertpod.com/pods/esther-perel)
   * [John Gottman](https://armchairexpertpod.com/pods/john-gottman)
+* [When you get home to your spouse, put a smile on. It doesn’t matter how crummy your day went](https://www.lovewhatmatters.com/when-you-get-home-to-your-spouse-put-a-smile-on-it-doesnt-matter-how-crummy-your-day-went-man-reminds-us-to-show-gratitude-when-returning-home-your-favorite-people-deserve-the-best-ve/)
 
 ## Personality
 
