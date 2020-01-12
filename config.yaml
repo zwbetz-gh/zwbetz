@@ -42,7 +42,7 @@ params:
     Made with [Hugo](https://gohugo.io/) &bull;
     Themed by [USWDS](https://designsystem.digital.gov/) &bull;
     Deployed to [Netlify](https://www.netlify.com/) &bull;
-    Content in [Git](https://github.com/zwbetz-gh/zwbetz)
+    Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
 
 markup:
   defaultMarkdownHandler: goldmark
