@@ -337,6 +337,7 @@ A list of things that I like, in no particular order. This is a living document.
 * Dax Shepard, Armchair Expert:
   * [Esther Perel](https://armchairexpertpod.com/pods/esther-perel)
   * [John Gottman](https://armchairexpertpod.com/pods/john-gottman)
+* [When you get home to your spouse, put a smile on. It doesn’t matter how crummy your day went](https://www.lovewhatmatters.com/when-you-get-home-to-your-spouse-put-a-smile-on-it-doesnt-matter-how-crummy-your-day-went-man-reminds-us-to-show-gratitude-when-returning-home-your-favorite-people-deserve-the-best-ve/)
 
 ## Personality
 
@@ -408,6 +409,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Lafayette College – The Mill Series](https://www.youtube.com/watch?v=V32WHDuy-Do)
   * [Warren Farrell – The absolute necessity of fathers](https://www.youtube.com/watch?v=v5O_FLUWYmg)
   * [Australia’s John Anderson & Dr. Jordan B Peterson: In Conversation](https://www.youtube.com/watch?v=U4NijLf3M-A)
+  * [The Great Ideological Lie of Diversity](https://www.jordanbpeterson.com/blog-posts/lie-of-diversity/)
 * Joe Rogan: 
   * [JRE #970: Bret Weinstein](https://www.youtube.com/watch?v=xq4Y87idawk)
   * [JRE #1191: Peter Boghossian & James Lindsay](https://www.youtube.com/watch?v=AZZNvT1vaJg)
@@ -521,6 +523,8 @@ A list of things that I like, in no particular order. This is a living document.
 * [Joe Rogan: Strange Times](https://www.netflix.com/title/80215419)
 * [The Departed](https://en.wikipedia.org/wiki/The_Departed)
 * [The Mandalorian](https://en.wikipedia.org/wiki/The_Mandalorian)
+* [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(TV_series))
+* [Dr. Seuss' The Grinch](https://en.wikipedia.org/wiki/The_Grinch_(film))
 
 ## Video games
 
