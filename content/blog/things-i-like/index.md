@@ -525,6 +525,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Mandalorian](https://en.wikipedia.org/wiki/The_Mandalorian)
 * [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(TV_series))
 * [Dr. Seuss' The Grinch](https://en.wikipedia.org/wiki/The_Grinch_(film))
+* [Ronny Chieng: Asian Comedian Destroys America](https://www.imdb.com/title/tt11248800/)
 
 ## Video games
 
