@@ -98,6 +98,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Expect great things](https://www.artofmanliness.com/articles/sunday-firesides-expect-great-things/)
   * [Don't fight the last war](https://www.artofmanliness.com/articles/sunday-firesides-dont-fight-the-last-war/)
   * [A man's guide to etiquette](https://www.artofmanliness.com/articles/a-mans-guide-to-etiquette/)
+  * [The weight of worthy work](https://www.artofmanliness.com/articles/sunday-firesides-the-weight-of-worthy-work/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
