@@ -1,6 +1,6 @@
 ---
 title: "Massage a JSON file with a NodeJS script"
-date: 2020-01-28T03:42:42-05:00
+date: 2020-01-27T03:42:42-05:00
 tags: [json, nodejs]
 ---
 
