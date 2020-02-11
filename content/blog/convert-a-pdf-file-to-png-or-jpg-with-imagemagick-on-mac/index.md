@@ -15,9 +15,17 @@ I needed to convert some large PDF files into images for my wife. All of the fre
 
         brew install imagemagick
 
+1. Check that the version is `7.0.9-21` or higher
+
+        magick --version
+
 1. Install [Ghostscript](https://www.ghostscript.com/), which allows Imagemagick to convert from PDFs
 
         brew install ghostscript
+
+1. Check that the version is `9.50` or higher
+
+        gs --version
 
 ## Convert
 
