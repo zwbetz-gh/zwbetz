@@ -1,0 +1,3 @@
+[submodule "themes/uswds-hugo-theme"]
+	path = themes/uswds-hugo-theme
+	url = https://github.com/zwbetz-gh/uswds-hugo-theme.git
