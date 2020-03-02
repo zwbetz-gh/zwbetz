@@ -100,6 +100,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [A man's guide to etiquette](https://www.artofmanliness.com/articles/a-mans-guide-to-etiquette/)
   * [The weight of worthy work](https://www.artofmanliness.com/articles/sunday-firesides-the-weight-of-worthy-work/)
   * [Put your Loves in order](https://www.artofmanliness.com/articles/sunday-firesides-put-your-loves-in-order/)
+  * [Wry Rules for navigating a flawed universe](https://www.artofmanliness.com/articles/wry-rules-for-navigating-a-flawed-universe/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
@@ -528,6 +529,8 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(TV_series))
 * [Dr. Seuss' The Grinch](https://en.wikipedia.org/wiki/The_Grinch_(film))
 * [Ronny Chieng: Asian Comedian Destroys America](https://www.imdb.com/title/tt11248800/)
+* [The Pharmacist](https://www.imdb.com/title/tt11600174/)
+* [The Other Guys](https://en.wikipedia.org/wiki/The_Other_Guys)
 
 ## Video games
 
