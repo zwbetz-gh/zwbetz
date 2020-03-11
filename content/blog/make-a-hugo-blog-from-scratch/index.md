@@ -443,7 +443,7 @@ Okay cool, now let's make the [list](https://gohugo.io/templates/lists/#readout)
 
 In the above, we list all pages by publish date in reverse, then make the title into a hyperlink. Start hugo server then navigate to `http://localhost:1313/blog/` and test it out. 
 
-Notice how the first usage of `.Title` is grabbing the title from the list page content file. The second usage of `.Title` is inside a `range` statement, so it will grab the title _from each_ page in the list. 
+Notice how the first usage of `.Title`, which generates the title `Blogs`, is inferred from the content path of `content/blog` (we will change this behavior in a later section). The second usage of `.Title` is inside a `range` statement, so it will grab the title _from each_ page in the list.
 
 ## Menu
 
@@ -551,7 +551,7 @@ Navigate to `http://localhost:1313/`, then give the menu a test run.
 
 ## Tweak blog list layout title
 
-Currently, the title of `http://localhost:1313/blog/` is "Blogs". This is intended behavior because Hugo pluralizes the list title according to a set of common English pluralization rules. We don't want this, though, so let's change it to "Blog". 
+Currently, the title of `http://localhost:1313/blog/` is `Blogs`. This is intended behavior because Hugo pluralizes the list title according to a set of common English pluralization rules. We don't want this, though, so let's change it to `Blog`.
 
 Create file `content/blog/_index.md`:
 
