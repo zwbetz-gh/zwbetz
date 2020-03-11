@@ -531,6 +531,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Ronny Chieng: Asian Comedian Destroys America](https://www.imdb.com/title/tt11248800/)
 * [The Pharmacist](https://www.imdb.com/title/tt11600174/)
 * [The Other Guys](https://en.wikipedia.org/wiki/The_Other_Guys)
+* [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(TV_series))
 
 ## Video games
 
