@@ -6,6 +6,8 @@ toc: false
 show_comments: false
 ---
 
+We got this recipe from my parents. They got it from my dad's mom, Mawmaw Betty. I can easily eat four helpings of this stuff in one sitting.
+
 ## Ingredients
 
 - Box of pasta (penne or rotini) x1
