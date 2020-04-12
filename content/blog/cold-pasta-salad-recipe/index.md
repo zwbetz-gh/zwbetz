@@ -15,7 +15,7 @@ show_comments: false
 - Purple onion x1
 - 8 oz block of cheddar cheese x1
 - 16oz Zesty Italian dressing x1
-- Tony's cajun seasoning
+- Tony's Cajun seasoning
 
 ## Directions
 
