@@ -16,7 +16,7 @@ We got this recipe from my parents. They got it from my dad's mom, Mawmaw Betty.
 - Bell pepper (any color) x1
 - Purple onion x1
 - 8 oz block of cheddar cheese x1
-- 16oz Zesty Italian dressing x1
+- 16 oz Zesty Italian dressing x1
 - Tony's Cajun seasoning
 
 ## Directions
