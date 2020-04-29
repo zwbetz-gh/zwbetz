@@ -30,8 +30,8 @@ This is not my recipe, it's [Cajun Ninja's](https://www.youtube.com/watch?v=X5YR
 
 ## Directions
 
-1. Preheat oven to 300 degrees fahrenheit
-1. Heat cast iron pot over medium heat (or high heat, depending on your stove)
+1. Preheat oven to 300 °F
+1. Heat a pot over medium heat (or high heat, depending on your stove)
 1. Chop pork, chicken, and sausage
 1. Chop onion, bell pepper, green onion, and celery, then move to fridge
 1. Season pork well with salt and pepper
@@ -43,7 +43,7 @@ This is not my recipe, it's [Cajun Ninja's](https://www.youtube.com/watch?v=X5YR
 1. After 10 minutes, remove the sausage with a slotted spoon into the same bowl
 1. Add the onion, bell pepper, green onion, celery, garlic, cajun seasoning, and beef cubes
 1. Sauté until completely soft, roughly 30 minutes
-1. Add the water, cream of chicken, hot sauce, and kitchen boquet. Raise the heat
+1. Add the water, cream of chicken, hot sauce, and kitchen bouquet. Raise the heat
 1. When the soup has blended, add the pasta and meat back in. Mix well
 1. Once everything is mixed nicely, press down on the top so that all pasta is covered by liquid
 1. Bring the mix to a boil. Once boiling, cover, turn the fire off, and put the pot in the oven
