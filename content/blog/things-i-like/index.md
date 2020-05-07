@@ -533,6 +533,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Other Guys](https://en.wikipedia.org/wiki/The_Other_Guys)
 * [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(TV_series))
 * [Little Fires Everywhere](https://en.wikipedia.org/wiki/Little_Fires_Everywhere_(miniseries))
+* [Extraction](https://en.wikipedia.org/wiki/Extraction_(2020_film))
 
 ## Video games
 
