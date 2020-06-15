@@ -8,7 +8,7 @@ show_comments: false
 
 This is something that I recently added to my [uswds hugo theme](https://github.com/zwbetz-gh/uswds-hugo-theme). I'm documenting it here for others, and to remind myself in the future. Code samples and a demo are below. In a nutshell, here's how it works:
 
-A text input element to be used for searching, and a paragraph element holds the list count. It's assumed that your blog posts, or whatever content it happens to be, are in a plain old unordered list element, aka a `ul`.
+A text input element is used for searching, and a paragraph element holds the list count. It's assumed that your blog posts, or whatever content it happens to be, are in a plain old unordered list element, aka a `ul`.
 
 The js code is wrapped in a [Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) so that the global scope is not polluted. 
 
