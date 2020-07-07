@@ -416,6 +416,7 @@ A list of things that I like, in no particular order. This is a living document.
 * Joe Rogan: 
   * [JRE #970: Bret Weinstein](https://www.youtube.com/watch?v=xq4Y87idawk)
   * [JRE #1191: Peter Boghossian & James Lindsay](https://www.youtube.com/watch?v=AZZNvT1vaJg)
+  * [JRE #1494: Bret Weinstein](https://youtu.be/pRCzZp1J0v0)
 * More Perfect: [Citizens United](https://www.wnyc.org/story/citizens-united/)
 * AoM: [Podcast #334: When violence is the answer](https://www.artofmanliness.com/2017/08/29/podcast-334-violence-really-answer/)
 * Jack Donovan: [Violence is golden](http://www.jack-donovan.com/axis/2011/03/violence-is-golden/)
@@ -535,6 +536,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Little Fires Everywhere](https://en.wikipedia.org/wiki/Little_Fires_Everywhere_(miniseries))
 * [Extraction](https://en.wikipedia.org/wiki/Extraction_(2020_film))
 * [Inception](https://en.wikipedia.org/wiki/Inception)
+* [Into the Grand Canyon](https://www.imdb.com/title/tt9822474/)
 
 ## Video games
 
