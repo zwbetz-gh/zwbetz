@@ -15,7 +15,7 @@ My wife needed to upload a couple hundred pictures, from her Mac, to an online s
 First, install [Homebrew](https://brew.sh/), which is a popular package manager for Mac.
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ## Install ImageMagick
