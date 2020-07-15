@@ -36,8 +36,7 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Developed desktop apps for a local petroleum transport company via C#/WinForms.",
-        "Company accountant used apps to import timesheet spreadsheets into QuickBooks, and export payroll spreadsheets."
+        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets"
       ]
     },
     {
@@ -48,11 +47,13 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Developed extensive functional/accessibility test suites via NightwatchJS.",
-        "Created general development documentation via MkDocs that is used across USCIS.",
-        "Wrote a Jaspersoft Server reports test framework via Bash/cURL.",
-        "Maintained clear, concise project documentation.",
-        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql."
+        "Did full stack development on a React frontend, Spring Boot backend, and Postgres database",
+        "Wrote a Flyway-like tool that initializes indices then inserts JSON mappings and test data into Elasticsearch, via Spring Boot",
+        "Developed extensive end-to-end test suites via NightwatchJS",
+        "Wrote a Jaspersoft Server Reports test framework via Bash/cURL",
+        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql",
+        "Created general development documentation via MkDocs that is used across USCIS",
+        "Maintained clear, concise project documentation"
       ]
     },
     {
@@ -63,11 +64,11 @@
       "endDate": "2016-02",
       "summary": "",
       "highlights": [
-        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS.",
-        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders.",
-        "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting.",
-        "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins.",
-        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues."
+        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS",
+        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders",
+        "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting",
+        "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins",
+        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues"
       ]
     },
     {
@@ -78,9 +79,9 @@
       "endDate": "2015-05",
       "summary": "",
       "highlights": [
-        "Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8.",
-        "Developed various construction equipment/sales rep reports using SSRS for a major equipment services client.",
-        "Created stored procedures for data dumps, to be run on a nightly basis."
+        "Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8",
+        "Developed various construction equipment/sales rep reports using SSRS for a major equipment services client",
+        "Created stored procedures for data dumps, to be run on a nightly basis"
       ]
     },
     {
@@ -91,8 +92,8 @@
       "endDate": "2014-05",
       "summary": "",
       "highlights": [
-        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times.",
-        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports."
+        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times",
+        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports"
       ]
     },
     {
@@ -103,10 +104,10 @@
       "endDate": "2013-05",
       "summary": "",
       "highlights": [
-        "Troubleshot LSU’s wireless network and made requests for additional access points to be installed in low-coverage areas.",
-        "Trained new employees on helpdesk processes and maintained knowledge management wiki.",
-        "Repaired and maintained staff/student/lab computers and print servers.",
-        "Created and distributed system images using Symantec Ghost."
+        "Troubleshot LSU’s wireless network and made requests for additional access points to be installed in low-coverage areas",
+        "Trained new employees on helpdesk processes and maintained knowledge management wiki",
+        "Repaired and maintained staff/student/lab computers and print servers",
+        "Created and distributed system images using Symantec Ghost"
       ]
     },
     {
@@ -117,8 +118,8 @@
       "endDate": "2011-08",
       "summary": "",
       "highlights": [
-        "Analyzed Retirement Documents and Letters for correct criteria.",
-        "Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds."
+        "Analyzed Retirement Documents and Letters for correct criteria",
+        "Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds"
       ]
     },
     {
@@ -129,8 +130,8 @@
       "endDate": "2010-08",
       "summary": "",
       "highlights": [
-        "Custom built over 600 desktop and laptop computers.",
-        "Assembled and installed SMART boards for various Louisiana schools."
+        "Custom built over 600 desktop and laptop computers",
+        "Assembled and installed SMART boards for various Louisiana schools"
       ]
     }
   ],
@@ -167,7 +168,7 @@
       "title": "Top 3 contributor to Hugo's Support Forum",
       "date": "2019",
       "awarder": "Hugo's Support Forum",
-      "summary": "As of 2019, I am a top 3 contributor to Hugo's Support Forum."
+      "summary": "As of 2019, I am a top 3 contributor to Hugo's Support Forum"
     }
   ],
   "publications": [
@@ -186,27 +187,38 @@
     }
   ],
   "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SQL",
-    "SchemaSpy",
-    "Shell",
     "Bash",
+    "C#",
+    "CSS",
+    "Customer Service",
+    "Docker Compose",
+    "Docker",
+    "Documentation",
+    "Elasticsearch",
+    "Flyway",
+    "Gradle",
+    "HTML",
     "Hugo",
-    "Selenium",
+    "Jaspersoft",
+    "Java",
+    "JavaScript",
+    "Jenkins",
+    "Jest",
+    "Markdown",
+    "NightwatchJS",
     "NodeJS",
     "NPM",
-    "NightwatchJS",
-    "Cucumber",
-    "Java",
-    "Jaspersoft",
-    "C#",
+    "React",
+    "Redux",
+    "SchemaSpy",
+    "Scripting",
+    "Selenium",
+    "Shell",
+    "Spring Boot",
+    "SQL",
     "SSRS",
-    "Docker",
-    "Docker Compose",
     "Technical Writing",
-    "Customer Service"
+    "Windows Forms"
   ],
   "languages": [
     {
