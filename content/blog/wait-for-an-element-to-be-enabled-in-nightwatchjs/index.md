@@ -16,7 +16,7 @@ The sample test below does the following things:
 1. Navigates to the DuckDuckGo URL
 1. Waits for the search bar to be enabled and visible for up to 10 seconds
 1. Sets the search bar value
-1. Sends the `RETURN` key
+1. Sends the RETURN key
 1. Saves a screenshot
 1. Ends the browser session
 
