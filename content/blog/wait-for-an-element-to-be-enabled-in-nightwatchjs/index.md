@@ -13,11 +13,11 @@ In NightwatchJS, you can wait for an element to be [present](https://nightwatchj
 The sample test below does the following things:
 
 1. Maximizes the browser window
-1. Navigates to the URL <https://duckduckgo.com>
-1. Waits for the DuckDuckGo search bar to be enabled for up to 10 seconds
-1. Sets the search bar value to `NightwatchJS`
+1. Navigates to the DuckDuckGo URL
+1. Waits for the search bar to be enabled and visible for up to 10 seconds
+1. Sets the search bar value
 1. Sends the `RETURN` key
-1. Saves a screenshot to `./screenshot.png`
+1. Saves a screenshot
 1. Ends the browser session
 
 ```js
