@@ -26,7 +26,7 @@ options="100x q100" >}}
   }
 </style>
 
-Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, mostly a place to document [Things](/tags/) learned.
+Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, mostly a place to document things learned.
 
 `zwbetz` is short for my full name, Zachary Wade Betz.
 
@@ -42,7 +42,7 @@ Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
 
-Top 3 most popular posts:
+Top 3 most popular blog posts:
 
 1. [Download chromedriver binary and add to your PATH for automated functional testing]({{< relref "download-chromedriver-binary-and-add-to-your-PATH-for-automated-functional-testing" >}})
 1. [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}})
