@@ -8,9 +8,9 @@ toc: true
 show_comments: true
 ---
 
-In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/quick-start/) is ample. It does just what the name says, _gets you started you quickly_. 
+In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/quick-start/) is ample. It does just what the name says, _gets you started you quickly_.
 
-Still, there have many requests on the [forums](https://discourse.gohugo.io/) for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you're reading is my go at that. Starting from scratch, we'll build a Hugo blog. 
+Still, there have many requests on the [forums](https://discourse.gohugo.io/) for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you're reading is my go at that. Starting from scratch, we'll build a Hugo blog.
 
 For the folks out there thinking, "just show me the money already", here's the finished product [source code](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) and [demo](https://make-a-hugo-blog-from-scratch.netlify.com/).
 
@@ -19,7 +19,7 @@ For the folks out there thinking, "just show me the money already", here's the f
 - Use Hugo version `0.58.3` or higher
 - Basic knowledge of HTML, CSS, and Hugo templates is nice-to-have, but not necessary
 - File paths will be given in Linux/Mac format (`/`), so adapt them accordingly to Windows (`\`)
-- When I say "restart hugo server", that means doing a `Control-C` then re-running `hugo server` 
+- When I say "restart hugo server", that means doing a `Control-C` then re-running `hugo server`
 - The words "templates" and "layouts" will be used interchangebly, AKA I'm talking about the same thing
 - In normal hugo site development workflow, it's common to check the file tree of the `public` folder to verify the generated site is what you expect. To keep this tutorial concise, I won't be doing that, but it's a habit I encourage you to start
 
@@ -45,7 +45,7 @@ The file tree should look like:
 └── themes
 ```
 
-We won't be using the `data` or `themes` folders in this tutorial, so go ahead and delete them. 
+We won't be using the `data` or `themes` folders in this tutorial, so go ahead and delete them.
 
 At this point, if you run `hugo server`, you should get output like this:
 
@@ -75,7 +75,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
-Don't let the warnings scare you. They're good, as they let us know what needs fixin'. By the end, they'll be gone. 
+Don't let the warnings scare you. They're good, as they let us know what needs fixin'. By the end, they'll be gone.
 
 ## Homepage layout
 
@@ -87,12 +87,12 @@ Let's make the [homepage template](https://gohugo.io/templates/homepage/#readout
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
     <title>{{ .Title }}</title>
-  </head>  
+  </head>
   <body>
     <div class="container">
       <main id="main">
@@ -119,20 +119,20 @@ title = "Hugo Blog"
 
 Run `hugo server`. The _Found no layout for "home"_ warning should be gone. Then navigate to `http://localhost:1313/` and you'll see the beginnings of your homepage.
 
-Notice how we grabbed data -- `.Title` and `.Site.Params.homeText` in this case -- from our [config](https://gohugo.io/getting-started/configuration/#readout) file into our template? This will be a pattern throughout the tutorial. 
+Notice how we grabbed data -- `.Title` and `.Site.Params.homeText` in this case -- from our [config](https://gohugo.io/getting-started/configuration/#readout) file into our template? This will be a pattern throughout the tutorial.
 
-Also, we're piping the home text through the [`markdownify` function](https://gohugo.io/functions/markdownify/#readout), which runs it through the markdown processor. 
+Also, we're piping the home text through the [`markdownify` function](https://gohugo.io/functions/markdownify/#readout), which runs it through the markdown processor.
 
 ## The static folder
 
-I usually prefer to save off CSS and JS locally instead of getting it from a CDN, so let's create file `static/css/bootstrap.min.css` by pasting in [this CSS](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch/blob/master/static/css/bootstrap.min.css). 
+I usually prefer to save off CSS and JS locally instead of getting it from a CDN, so let's create file `static/css/bootstrap.min.css` by pasting in [this CSS](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch/blob/master/static/css/bootstrap.min.css).
 
 In the homepage template, replace this code:
 
 ```html
-<link rel="stylesheet" 
-href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
-integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 crossorigin="anonymous">
 ```
 
@@ -157,7 +157,7 @@ your-site/css/bootstrap.min.css
 
 In the new CSS code, we declare a variable with the path to the CSS file, then pipe it to `absURL`, which creates an [absolute URL](https://gohugo.io/functions/absurl/).
 
-With hugo server still running, check the homepage and confirm it looks the same. 
+With hugo server still running, check the homepage and confirm it looks the same.
 
 ## Single page layout
 
@@ -172,7 +172,7 @@ Before creating our first blog post, we need a layout for [single pages](https:/
     {{ $css := "css/bootstrap.min.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
     <title>{{ .Title }}</title>
-  </head>  
+  </head>
   <body>
     <div class="container">
       <main id="main">
@@ -213,13 +213,13 @@ title = "Hugo Blog"
   homeText = "You just made a Hugo blog from scratch."
 ```
 
-Okay cool. Now we're ready to create our first post. Stop hugo server, then run: 
+Okay cool. Now we're ready to create our first post. Stop hugo server, then run:
 
 ```
 hugo new blog/if-by-rudyard-kipling.md
 ```
 
-Open the newly created post, located at `content/blog/if-by-rudyard-kipling.md`, and add `tags: ["poetry", "life"]`. It won't do anything now, but will be used later. 
+Open the newly created post, located at `content/blog/if-by-rudyard-kipling.md`, and add `tags: ["poetry", "life"]`. It won't do anything now, but will be used later.
 
 Then paste in the famous Rudyard Kipling poem, **If**. It should now look like (your `date` will be different):
 
@@ -231,48 +231,48 @@ tags: ["poetry", "life"]
 draft: false
 ---
 
-If you can keep your head when all about you  
-Are losing theirs and blaming it on you,  
-If you can trust yourself when all men doubt you,  
-But make allowance for their doubting too;   
-If you can wait and not be tired by waiting,  
-Or being lied about, don’t deal in lies,  
-Or being hated, don’t give way to hating,  
+If you can keep your head when all about you
+Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
 And yet don’t look too good, nor talk too wise:
 
-If you can dream—and not make dreams your master;     
-If you can think—and not make thoughts your aim;   
-If you can meet with Triumph and Disaster  
-And treat those two impostors just the same;   
-If you can bear to hear the truth you’ve spoken  
-Twisted by knaves to make a trap for fools,  
-Or watch the things you gave your life to, broken,  
+If you can dream—and not make dreams your master;
+If you can think—and not make thoughts your aim;
+If you can meet with Triumph and Disaster
+And treat those two impostors just the same;
+If you can bear to hear the truth you’ve spoken
+Twisted by knaves to make a trap for fools,
+Or watch the things you gave your life to, broken,
 And stoop and build ’em up with worn-out tools:
 
-If you can make one heap of all your winnings  
-And risk it on one turn of pitch-and-toss,  
-And lose, and start again at your beginnings  
-And never breathe a word about your loss;  
-If you can force your heart and nerve and sinew  
-To serve your turn long after they are gone,   
-And so hold on when there is nothing in you  
+If you can make one heap of all your winnings
+And risk it on one turn of pitch-and-toss,
+And lose, and start again at your beginnings
+And never breathe a word about your loss;
+If you can force your heart and nerve and sinew
+To serve your turn long after they are gone,
+And so hold on when there is nothing in you
 Except the Will which says to them: ‘Hold on!’
 
-If you can talk with crowds and keep your virtue,     
-Or walk with Kings—nor lose the common touch,  
-If neither foes nor loving friends can hurt you,  
-If all men count with you, but none too much;  
-If you can fill the unforgiving minute  
-With sixty seconds’ worth of distance run,     
-Yours is the Earth and everything that’s in it,     
-And—which is more—you’ll be a Man, my son!  
+If you can talk with crowds and keep your virtue,
+Or walk with Kings—nor lose the common touch,
+If neither foes nor loving friends can hurt you,
+If all men count with you, but none too much;
+If you can fill the unforgiving minute
+With sixty seconds’ worth of distance run,
+Yours is the Earth and everything that’s in it,
+And—which is more—you’ll be a Man, my son!
 ```
 
-Restart hugo server then navigate to `http://localhost:1313/if-by-rudyard-kipling/` to see the blog post. 
+Restart hugo server then navigate to `http://localhost:1313/if-by-rudyard-kipling/` to see the blog post.
 
 ## Baseof layout
 
-Our homepage and single page layouts repeat a lot of code. Wouldn't it be nice if there was a way to share the repeated code, then only have the unique code in each layout? Well, there is, and it's known as the [baseof](https://gohugo.io/templates/base/) layout. 
+Our homepage and single page layouts repeat a lot of code. Wouldn't it be nice if there was a way to share the repeated code, then only have the unique code in each layout? Well, there is, and it's known as the [baseof](https://gohugo.io/templates/base/) layout.
 
 So let's create one at `layouts/_default/baseof.html`:
 
@@ -285,7 +285,7 @@ So let's create one at `layouts/_default/baseof.html`:
     {{ $css := "css/bootstrap.min.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
     <title>{{ .Title }}</title>
-  </head>  
+  </head>
   <body>
     <div class="container">
       <main id="main">
@@ -296,7 +296,7 @@ So let's create one at `layouts/_default/baseof.html`:
 </html>
 ```
 
-The important piece above is `{{ block "main" . }}{{ end }}`, which basically says "unique code from other layouts will go here". Notice the dot (`.`)? It's important. [The dot is how you pass context around](https://gohugo.io/templates/introduction/#the-dot) in Hugo. Also see this [article](https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/) by Regis Philibert. 
+The important piece above is `{{ block "main" . }}{{ end }}`, which basically says "unique code from other layouts will go here". Notice the dot (`.`)? It's important. [The dot is how you pass context around](https://gohugo.io/templates/introduction/#the-dot) in Hugo. Also see this [article](https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/) by Regis Philibert.
 
 Now let's update our other layouts. The homepage layout at `layouts/index.html` should now look like:
 
@@ -322,7 +322,7 @@ And the single page layout at `layouts/_default/single.html` should now look lik
 {{ end }}
 ```
 
-Everything within `{{ define "main" }}` and the closing `{{ end }}` will be the unique code for a given layout. Much cleaner, ehh? 
+Everything within `{{ define "main" }}` and the closing `{{ end }}` will be the unique code for a given layout. Much cleaner, ehh?
 
 ## Partials
 
@@ -332,7 +332,7 @@ Since we're cleaning house, let's talk about [partials](https://gohugo.io/templa
 Partials are smaller, context-aware components in your list and page templates that can be used economically to keep your templating DRY (Don't Repeat Yourself).
 {{< /blockquote >}}
 
-Partials are useful for factoring out repeated code blocks. They're also useful for keeping your code organized and easy-to-read. 
+Partials are useful for factoring out repeated code blocks. They're also useful for keeping your code organized and easy-to-read.
 
 So let's make one for our `<head>` code. Create file `layouts/partials/head.html`:
 
@@ -343,7 +343,7 @@ So let's make one for our `<head>` code. Create file `layouts/partials/head.html
   {{ $css := "css/bootstrap.min.css" | absURL }}
   <link rel="stylesheet" href="{{ $css }}">
   <title>{{ .Title }}</title>
-</head>  
+</head>
 ```
 
 Then update `layouts/_default/baseof.html` to reference it:
@@ -380,14 +380,14 @@ tags: ["poetry", "time"]
 draft: false
 ---
 
-That it will never come again  
-Is what makes life so sweet.  
-Believing what we don’t believe  
+That it will never come again
+Is what makes life so sweet.
+Believing what we don’t believe
 Does not exhilarate.
 
-That if it be, it be at best  
-An ablative estate --  
-This instigates an appetite  
+That if it be, it be at best
+An ablative estate --
+This instigates an appetite
 Precisely opposite.
 ```
 
@@ -407,22 +407,22 @@ tags: ["poetry", "trees"]
 draft: false
 ---
 
-I think that I shall never see  
+I think that I shall never see
 A poem lovely as a tree.
 
-A tree whose hungry mouth is prest  
+A tree whose hungry mouth is prest
 Against the earth’s sweet flowing breast;
 
-A tree that looks at God all day,  
+A tree that looks at God all day,
 And lifts her leafy arms to pray;
 
-A tree that may in Summer wear  
+A tree that may in Summer wear
 A nest of robins in her hair;
 
-Upon whose bosom snow has lain;  
+Upon whose bosom snow has lain;
 Who intimately lives with rain.
 
-Poems are made by fools like me,  
+Poems are made by fools like me,
 But only God can make a tree.
 ```
 
@@ -441,20 +441,20 @@ Okay cool, now let's make the [list](https://gohugo.io/templates/lists/#readout)
 {{ end }}
 ```
 
-In the above, we list all pages by publish date in reverse, then make the title into a hyperlink. Start hugo server then navigate to `http://localhost:1313/blog/` and test it out. 
+In the above, we list all pages by publish date in reverse, then make the title into a hyperlink. Start hugo server then navigate to `http://localhost:1313/blog/` and test it out.
 
 Notice how the first usage of `.Title`, which generates the title `Blogs`, is inferred from the content path of `content/blog` (we will change this behavior in a later section). The second usage of `.Title` is inside a `range` statement, so it will grab the title _from each_ page in the list.
 
 ## Menu
 
-It's inconvenient to manually type the URL of the page we want, so let's make a [menu](https://gohugo.io/templates/menu-templates/#readout), also known as a _nav_ or _navigation_. We'll use a partial for this. 
+It's inconvenient to manually type the URL of the page we want, so let's make a [menu](https://gohugo.io/templates/menu-templates/#readout), also known as a _nav_ or _navigation_. We'll use a partial for this.
 
 Create file `layouts/partials/nav.html`:
 
 ```html
 <div id="nav-border" class="container">
   <nav id="nav" class="nav justify-content-center">
-  {{ range .Site.Menus.main }} 
+  {{ range .Site.Menus.main }}
     {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
     {{ $text := print $icon " " .Name | safeHTML }}
     <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
@@ -463,7 +463,7 @@ Create file `layouts/partials/nav.html`:
 </div>
 ```
 
-The above code loops through menu data specified in the config file. It grabs the icon name, link text, and URL, then builds each nav link element. The [print](https://gohugo.io/functions/print/#readout) and [printf](https://gohugo.io/functions/printf/#readout) functions are great for [string manipulation]({{< relref "coming-from-java-or-a-c-like-language-to-hugo-go-templates" >}}). 
+The above code loops through menu data specified in the config file. It grabs the icon name, link text, and URL, then builds each nav link element. The [print](https://gohugo.io/functions/print/#readout) and [printf](https://gohugo.io/functions/printf/#readout) functions are great for [string manipulation]({{< relref "coming-from-java-or-a-c-like-language-to-hugo-go-templates" >}}).
 
 Let's not forget to add a reference to `layouts/_default/baseof.html`:
 
@@ -515,9 +515,9 @@ title = "Hugo Blog"
   homeText = "You just made a Hugo blog from scratch."
 ```
 
-Each nav link has an associated icon. The `pre` value is the icon name. See [feather icons](https://feathericons.com/) for the full list of icons -- which, as the site says, are indeed simply beautiful. 
+Each nav link has an associated icon. The `pre` value is the icon name. See [feather icons](https://feathericons.com/) for the full list of icons -- which, as the site says, are indeed simply beautiful.
 
-The icons are sourced from a JS file, so we'll need that. Create file `static/js/feather.min.js` then paste in [this JS](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch/blob/master/static/js/feather.min.js). We'll need to reference this JS, so let's make a partial just for it. 
+The icons are sourced from a JS file, so we'll need that. Create file `static/js/feather.min.js` then paste in [this JS](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch/blob/master/static/js/feather.min.js). We'll need to reference this JS, so let's make a partial just for it.
 
 Create file `layouts/partials/script.html`:
 
@@ -547,7 +547,7 @@ Then reference it in `layouts/_default/baseof.html`:
 </html>
 ```
 
-Navigate to `http://localhost:1313/`, then give the menu a test run. 
+Navigate to `http://localhost:1313/`, then give the menu a test run.
 
 ## Tweak blog list layout title
 
@@ -561,13 +561,13 @@ title: Blog
 ---
 ```
 
-The leading underscore in `_index.md` is important. If differentiates a branch bundle vs a page bundle. Read more about this in the [page bundle docs](https://gohugo.io/content-management/page-bundles/#readout). 
+The leading underscore in `_index.md` is important. If differentiates a branch bundle vs a page bundle. Read more about this in the [page bundle docs](https://gohugo.io/content-management/page-bundles/#readout).
 
-Now navigate to `http://localhost:1313/blog/` to see the change. 
+Now navigate to `http://localhost:1313/blog/` to see the change.
 
 ## Date and tags partial
 
-Let's add the date and tags to each post. We want it to show on the blog list page, and the single page for each post, so we'll use a partial. 
+Let's add the date and tags to each post. We want it to show on the blog list page, and the single page for each post, so we'll use a partial.
 
 Create file `layouts/partials/date-and-tags.html`:
 
@@ -601,7 +601,7 @@ We only want to use tags, so add this to `config.toml`:
   tag = "tags"
 ```
 
-The `date-and-tags.html` partial pulls a date [format](https://gohugo.io/functions/format/#readout) from the config file -- if the date format value is not specified, it [defaults](https://gohugo.io/functions/default/#readout) to `Jan 2, 2006`. So update `config.toml` again with the `dateFormat` param. 
+The `date-and-tags.html` partial pulls a date [format](https://gohugo.io/functions/format/#readout) from the config file -- if the date format value is not specified, it [defaults](https://gohugo.io/functions/default/#readout) to `Jan 2, 2006`. So update `config.toml` again with the `dateFormat` param.
 
 ```toml
 [params]
@@ -609,7 +609,7 @@ The `date-and-tags.html` partial pulls a date [format](https://gohugo.io/functio
   homeText = "You just made a Hugo blog from scratch."
 ```
 
-Also, you may be wondering why we used `.PublishDate` instead of `.Date`. We did this because it gives us the [best of both worlds](https://gohugo.io/getting-started/configuration/#configure-dates): if `.PublishDate` is not set in the page front matter, then it falls back to `.Date`. 
+Also, you may be wondering why we used `.PublishDate` instead of `.Date`. We did this because it gives us the [best of both worlds](https://gohugo.io/getting-started/configuration/#configure-dates): if `.PublishDate` is not set in the page front matter, then it falls back to `.Date`.
 
 
 Okay, now update `layouts/_default/single.html` to reference the partial:
@@ -625,7 +625,7 @@ Okay, now update `layouts/_default/single.html` to reference the partial:
 {{ end }}
 ```
 
-And update `layouts/_default/list.html` to reference the partial as well: 
+And update `layouts/_default/list.html` to reference the partial as well:
 
 ```html
 {{ define "main" }}
@@ -642,11 +642,11 @@ And update `layouts/_default/list.html` to reference the partial as well:
 {{ end }}
 ```
 
-Now navigate to `http://localhost:1313/blog/` to see the changes. 
+Now navigate to `http://localhost:1313/blog/` to see the changes.
 
 ## Terms list layout
 
-Let's customize the way our tags (terms) are displayed on `http://localhost:1313/tags/`. They currently show a date, which we don't want. So instead we'll display a "count" next to each tag, showing how many times it's been used. The tags will be ordered alphabetically. 
+Let's customize the way our tags (terms) are displayed on `http://localhost:1313/tags/`. They currently show a date, which we don't want. So instead we'll display a "count" next to each tag, showing how many times it's been used. The tags will be ordered alphabetically.
 
 Create file `layouts/_default/terms.html`:
 
@@ -713,18 +713,18 @@ Then add a reference to it in `layouts/partials/head.html`:
   <link rel="stylesheet" href="{{ $css }}">
   <title>{{ .Title }}</title>
   {{ partial "style.html" . }}
-</head>  
+</head>
 ```
 
 If you would rather not use an internal stylesheet, Hugo's templating features can also be used with an [external stylesheet]({{< relref "use-hugo-templating-in-your-external-css" >}}).
 
-Now navigate to any page to see the style changes. 
+Now navigate to any page to see the style changes.
 
 ## Better title logic
 
-Currently, we're just showing the page title in the `<title>` element. Let's make it so that the homepage only shows the site title, then other pages show both the page title and the site title. 
+Currently, we're just showing the page title in the `<title>` element. Let's make it so that the homepage only shows the site title, then other pages show both the page title and the site title.
 
-Also, let's add `{{ hugo.Generator }}` so that the hugo version used to generate the site shows in the HTML source. 
+Also, let's add `{{ hugo.Generator }}` so that the hugo version used to generate the site shows in the HTML source.
 
 Update `layouts/partials/head.html` to be:
 
@@ -742,7 +742,7 @@ Update `layouts/partials/head.html` to be:
 </head>
 ```
 
-Navigate to a few pages and glance at the browser tab to see the changes. 
+Navigate to a few pages and glance at the browser tab to see the changes.
 
 ## Wrap up
 
@@ -820,8 +820,65 @@ If you stop hugo server and just run `hugo`, which will generate your site to th
         └── feather.min.js
 ```
 
-There you go, you just made a Hugo blog from scratch. Don't forgot to refer back to the [finished product source code](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) if you missed anything along the way. 
+There you go, you just made a Hugo blog from scratch. Don't forgot to refer back to the [finished product source code](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) if you missed anything along the way.
 
-I hope this tutorial was helpful. Hugo can do _many_ things, so it's near impossible to cover all the possibilities in one tutorial. Well then, what's next? I recommend a deep dive into the [docs](https://gohugo.io/documentation/). As for where to deploy your site, since Hugo is a static site generator, you can host the generated files just about anywhere. I personally use Netlify, but do checkout the [hosting and deployment](https://gohugo.io/hosting-and-deployment/) docs as well. 
+I hope this tutorial was helpful. Hugo can do _many_ things, so it's near impossible to cover all the possibilities in one tutorial. Well then, what's next? I recommend a deep dive into the [docs](https://gohugo.io/documentation/). As for where to deploy your site, since Hugo is a static site generator, you can host the generated files just about anywhere. I personally use Netlify, but do checkout the [hosting and deployment](https://gohugo.io/hosting-and-deployment/) docs as well.
 
 Good luck, have fun, and go build that personal site you've been meaning to do :)
+
+## Emails I've received
+
+The following are some of the lovely emails I've received about this post.
+
+{{< blockquote author="Gary" >}}
+I wanted to drop you a quick line to thank you for the tutorial on
+creating a Hugo site/theme from scratch. I've been using Hugo on and off for my site for the last three years and currently use a provided theme (Blackburn). I've searched for and worked my way through the few tutorials on creating a theme that I've come across and want to let you know that I think yours is both the most comprehensive and clearest one I've used.
+{{< /blockquote >}}
+
+{{< blockquote author="Rex" >}}
+Thanks a ton for that blog post. It's helped me quite a bit.
+{{< /blockquote >}}
+
+{{< blockquote author="Paul" >}}
+I found Hugo a few days ago and felt like I found just what I was looking for. Sadly, I attacked it through emacs using ox-hugo which added a good bit of abstraction hiding all the issues going on. So I took a step back and looked for more how-to's on Hugo. After rifling through much junk, I found your Hugo from Scratch article. Thank You ! GREAT write-up. Smart.
+{{< /blockquote >}}
+
+{{< blockquote author="Noah" >}}
+I just clicked on a few of your links and realized that you wrote the most useful Hugo resource that I found! Thank you for writing the guide to building a Hugo blog from scratch! I learned a lot there, now I just need to wrap up this quick project. I really appreciate your assistance!
+{{< /blockquote >}}
+
+{{< blockquote author="Gabriel" >}}
+Hey there. Thanks for this up-to-date and comprehensive tutorial. Helped me a lot to kickstart my gamedev blog!
+{{< /blockquote >}}
+
+{{< blockquote author="Andrew" >}}
+Thanks for your tutorial, it has helped me a lot.
+{{< /blockquote >}}
+
+{{< blockquote author="Ijem" >}}
+Good job on this, very detailed walkthrough. Came here from the gohugo forums
+{{< /blockquote >}}
+
+{{< blockquote author="zig" >}}
+Thanks a lot for this super nice tutorial! This is what I needed :-)
+{{< /blockquote >}}
+
+{{< blockquote author="Jaya" >}}
+Thanks for this great tutorial :)
+{{< /blockquote >}}
+
+{{< blockquote author="hallazzang" >}}
+Great tutorial. I can now build my own theme. Thanks!
+{{< /blockquote >}}
+
+{{< blockquote author="Raghavan" >}}
+Hello, a very detailed tutorial. Thank you for sharing the same.
+{{< /blockquote >}}
+
+{{< blockquote author="Steve" >}}
+Thanks very much for the Hugo tutorial on your site. I’m working on bootstrapping myself into this system - I actually wrote something conceptually very similar in Perl in the mid-90s, for generating static sites from template files and embedded code, though it didn’t have a server mode and was nowhere NEAR as fast :P Anyway, I’ve also struggled with the state of some of the official documentation as has been discussed on the forums, so I know it’s a concern. Your document has been the clearest and most helpful for me out of everything I’ve read so far, including the official docs on the Hugo site.
+{{< /blockquote >}}
+
+{{< blockquote author="Eric" >}}
+I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn’t understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on *Hugo* and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
+{{< /blockquote >}}
