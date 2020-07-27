@@ -157,6 +157,14 @@
       "courses": []
     }
   ],
+  "securityClearances": [
+    {
+      "name": "DHS Public Trust"
+    },
+    {
+      "name": "DoD Confidential (inactive)"
+    }
+  ],
   "certifications": [
     {
       "name": "DHS Section 508 Trusted Tester v4",
