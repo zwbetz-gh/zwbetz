@@ -3,7 +3,6 @@
     "name": "Zachary Betz",
     "label": "Software Developer & Tester",
     "picture": "https://zwbetz.com/headshot.jpg",
-    "email": "zwbetz@gmail.com",
     "phone": "225-978-4949",
     "website": "https://zwbetz.com",
     "summary": "",
@@ -14,16 +13,21 @@
       "countryCode": "US",
       "region": "Louisiana"
     },
+    "emails": [
+      {
+        "type": "work",
+        "email": "zachary.betz@geocent.com"
+      },
+      {
+        "type": "personal",
+        "email": "zwbetz@gmail.com"
+      }
+    ],
     "profiles": [
       {
         "network": "GitHub",
         "username": "zwbetz-gh",
         "url": "https://github.com/zwbetz-gh"
-      },
-      {
-        "network": "Hugo's Support Forum",
-        "username": "zwbetz",
-        "url": "https://discourse.gohugo.io/u/zwbetz/summary"
       }
     ]
   },
