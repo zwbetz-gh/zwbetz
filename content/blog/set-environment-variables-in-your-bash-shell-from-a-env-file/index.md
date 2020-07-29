@@ -1,0 +1,39 @@
+---
+title: "Set Environment Variables in your Bash shell from a .env file"
+date: 2020-07-28T23:13:02-05:00
+tags: [bash, env, command-line]
+toc: false
+show_comments: false
+---
+
+I experimented with many ways of doing this, but my favorite solution was from this [stackoverflow answer](https://stackoverflow.com/a/20909045/11499871). It keeps the `.env` file syntax clean so that is can be used across projects. Here's a minimal, reproducible example.
+
+## .env file
+
+```shell
+# Some comment
+FIRST_NAME=Agnes
+LAST_NAME=Obel
+```
+
+## setenv.sh script
+
+```shell
+#!/usr/bin/env bash
+
+# Show env vars
+grep -v '^#' .env
+
+# Export env vars
+export $(grep -v '^#' .env | xargs)
+```
+
+## Usage
+
+1. Set env vars in your Bash shell
+
+        source ./setenv.sh
+
+1. Confirm env vars
+
+        echo "${FIRST_NAME} ${LAST_NAME}"
