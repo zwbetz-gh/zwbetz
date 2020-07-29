@@ -6,7 +6,7 @@ toc: false
 show_comments: false
 ---
 
-I experimented with many ways of doing this, but my favorite solution was from this [stackoverflow answer](https://stackoverflow.com/a/20909045/11499871). It keeps the `.env` file syntax clean so that is can be used across projects. Here's a minimal, reproducible example.
+I experimented with many ways of doing this, but my favorite solution was from this [stackoverflow answer](https://stackoverflow.com/a/20909045/11499871). It keeps the `.env` file syntax clean so that it can be used across projects. Here's a minimal, reproducible example.
 
 ## .env file
 
