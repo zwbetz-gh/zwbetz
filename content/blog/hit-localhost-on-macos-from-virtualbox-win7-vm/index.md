@@ -69,3 +69,9 @@ You can confirm the default gateway of your VM by doing the following:
     ```
     Default Gateway . . . . . . . . . : 10.0.2.2
     ```
+
+## Network Adapter
+
+To hit internal (vpn-only) sites, keep your network adapter as **NAT**.
+
+To hit external sites such as <https://duckduckgo.com/> then set your network adapter as **Bridged Adapter**.
