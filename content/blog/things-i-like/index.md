@@ -51,6 +51,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [JRE #1124: Robert Schoch](https://www.youtube.com/watch?v=Vka2ZgzZTvo)
   * [JRE #1169: Elon Musk](https://www.youtube.com/watch?v=ycPr5-27vSI)
   * [JRE #1278: Kevin Hart](https://youtu.be/XW_KhFq4LQo)
+  * [JRE #1428: Brian Greene](https://youtu.be/r4wQsmAtZoc)
 * AoM:
   * [Say yes to life: an accessible primer on Nietzsche’s big ideas](https://www.artofmanliness.com/2015/07/20/a-primer-on-nietzsches-big-ideas/)
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
