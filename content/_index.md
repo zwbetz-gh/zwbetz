@@ -42,8 +42,8 @@ Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
 
-Top 3 most popular blog posts:
+Popular blog posts:
 
-1. [Download chromedriver binary and add to your PATH for automated functional testing]({{< relref "download-chromedriver-binary-and-add-to-your-PATH-for-automated-functional-testing" >}})
-1. [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}})
-1. [Convert HEIC images to JPG]({{< relref "convert-heic-images-to-jpg" >}})
+- [Download chromedriver binary and add to your PATH for automated functional testing]({{< relref "download-chromedriver-binary-and-add-to-your-PATH-for-automated-functional-testing" >}})
+- [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}})
+- [Convert HEIC images to JPG]({{< relref "convert-heic-images-to-jpg" >}})
