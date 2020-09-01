@@ -1,7 +1,7 @@
 ---
 title: "Setup and run SonarQube on Mac"
 date: 2020-08-31T19:59:10-05:00
-tags: []
+tags: [mac, java, gradle, bash]
 toc: true
 show_comments: false
 ---
@@ -14,7 +14,7 @@ Sonar has 2 main parts: **sonarqube**, which is a server that displays scan resu
 
 ## Prerequisites
 
-- Java 8 or higher is installed
+- Java version 8 or higher is installed
 - The directory `~/bin` exists
 
 ## Install sonarqube
