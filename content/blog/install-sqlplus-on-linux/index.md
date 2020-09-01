@@ -2,7 +2,7 @@
 title: "Install SQL*Plus on Linux"
 date: 2019-09-28T14:10:28-05:00
 tags: [linux, sqlplus, sql]
-toc: false
+toc: true
 show_comments: true
 ---
 
