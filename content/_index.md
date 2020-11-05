@@ -30,7 +30,7 @@ Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, 
 
 `zwbetz` is short for my full name, Zachary Wade Betz.
 
-I'm currently a Software Developer & Tester at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana.
+I'm currently a Software Developer at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana.
 
 Here's my resume in [JSON](/resume/resume.json), [HTML](/resume/resume.html), and [PDF](/resume/resume.pdf).
 
@@ -41,9 +41,3 @@ Wanna get in touch? Email me at `zwbetz@gmail.com`
 Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
-
-Popular blog posts:
-
-- [Download chromedriver binary and add to your PATH for automated functional testing]({{< relref "download-chromedriver-binary-and-add-to-your-PATH-for-automated-functional-testing" >}})
-- [Make a Hugo blog from scratch]({{< relref "make-a-hugo-blog-from-scratch" >}})
-- [Convert HEIC images to JPG]({{< relref "convert-heic-images-to-jpg" >}})
