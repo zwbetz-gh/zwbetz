@@ -15,11 +15,11 @@
     },
     "emails": [
       {
-        "type": "work",
+        "type": "Work",
         "email": "zachary.betz@geocent.com"
       },
       {
-        "type": "personal",
+        "type": "Personal",
         "email": "zwbetz@gmail.com"
       }
     ],
@@ -45,7 +45,7 @@
     },
     {
       "company": "Geocent, LLC",
-      "position": "Systems Analyst",
+      "position": "Software Engineer",
       "website": "https://geocent.com",
       "startDate": "2016-02",
       "endDate": "Present",
@@ -194,8 +194,12 @@
   ],
   "writingSamples": [
     {
-      "name": "Make a Hugo blog from scratch",
+      "name": "Make a Hugo Blog From Scratch",
       "url": "https://zwbetz.com/make-a-hugo-blog-from-scratch/"
+    },
+    {
+      "name": "Attention Is My Most Valuable Asset for Productivity as a Software Developer",
+      "url": "https://zwbetz.com/attention-is-my-most-valuable-asset-for-productivity-as-a-software-developer/"
     }
   ],
   "skills": [
