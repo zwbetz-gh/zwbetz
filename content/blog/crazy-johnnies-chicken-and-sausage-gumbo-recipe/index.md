@@ -24,7 +24,7 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 - 3 bay leaves
 - 5 oz Heinz 57 Sauce
 - 0.5 lbs Louisiana Fish Fry Crawfish Shrimp & Crab Boil
-- BBQ Shrimp Seasoning
+- 1 packet BBQ Shrimp Seasoning
 
 ## Directions
 
@@ -39,4 +39,4 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 
 ## Notes
 
-- If you like to shed a few tears while eating your gumbo (as I do), feel free to increase the Grab Boil quantity, then add some cayenne
+- If you like to shed a few tears while eating your gumbo (as I do), feel free to increase the Crab Boil quantity, then add some cayenne
