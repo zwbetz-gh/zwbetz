@@ -33,8 +33,8 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 1. Slice sausage thinly
 1. Make roux the hard way, or use Instant Roux Mix (I bet you can't taste the difference in the end result)
 1. Once roux is ready, add vegetables, then cook for 10 minutes to soften them
-1. Add sausage, Creole Seasoning, garlic powder, salt, bay leaves, then cook for 20 minutes
-1. Add chicken stock, water, Heinz 57 Sauce, Crab Boil, BBQ Shrimp Seasoning, then bring to boil
+1. Add sausage, Creole Seasoning, garlic powder, salt, then cook for 20 minutes
+1. Add chicken stock, water, Heinz 57 Sauce, Crab Boil, BBQ Shrimp Seasoning, bay leaves, then bring to boil
 1. Add shredded chicken thighs, then simmer for 2 hours
 
 ## Notes
