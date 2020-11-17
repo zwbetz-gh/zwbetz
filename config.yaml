@@ -44,6 +44,7 @@ params:
     Deployed to [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
   search: true
+  show_prev_next_links: false
 
 markup:
   defaultMarkdownHandler: goldmark
