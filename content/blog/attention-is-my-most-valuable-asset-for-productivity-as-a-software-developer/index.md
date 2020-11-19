@@ -26,7 +26,7 @@ So, how can you increase your attention reserves? The most bang for your buck is
 
 **Build physical strength.** The damage done by sitting 8+ hours a day is underrated. You need a way to offset this damage, especially if you plan to work in this field for decades. Opinions abound on this topic, but I personally prefer deadlifts. There are few movements more primal than picking a heavy object off the ground and standing up with it. You can [learn correct technique in little time](https://www.youtube.com/watch?v=wYREQkVtvEc). I most like deadlifts because you can do them safely, at high weights, into old age. I also like the hand, back, and hip strength they give, to make it that much harder for sitting damage to have its way with you. 
 
-**Make my place of work boring and tidy.** My office is a spare bedroom. The walls are blank. There's no tv. There's a desk, chair, laptop, laptop stand, keyboard, mouse, and mouse pad. There's a window, which lets enough light in so that I don't feel like I'm missing a beautiful day, but not too much light to cause screen glare. If I need to work with paper, it's immediately filed somewhere when done.
+**Make my place of work tidy.** My office is a spare bedroom. There's no tv to distract. There's a desk, chair, laptop, laptop stand, keyboard, mouse, and mouse pad. There's a window, which lets enough light in so that I don't feel like I'm missing a beautiful day, but not too much light to cause screen glare. If I need to work with paper, it's immediately filed somewhere when done.
 
 **Make my smart phone dumb.** My phone has all notifications disabled, except for calls and text messages. Well, and National Hurricane Center alerts, since I live in Louisiana. Unless you're my wife, you know that I don't respond to text messages immediately, that's just how it is. I disabled my social media accounts some time ago. But if you have them, turning off notifications should help curve the urge to compulsively check them. 
 
@@ -59,7 +59,7 @@ Important and Urgent tasks have to be dealt with. For me, these are usually majo
 
 Important and Not Urgent tasks should absorb the bulk of your time. For me, this is the plain old development work of implementing features, fixing bugs, and making existing code more maintainable and performant. Also included are building relationships with others and planning ahead.
 
-Not Important and Urgent tasks are nasty attention thieves. They shout out to you in immediacy, but offer little value in return. You know what these are for you. For me, these are most often lazily asked questions, where the asker did not do their due diligence, and expects a top-notch answer immediately. Also included are last-minute meetings, and over-talkative coworkers.
+Not Important and Urgent tasks are nasty attention thieves. They shout out to you in immediacy, but offer little value in return. You know what these are for you. For me, these are most often lazily asked questions, where the asker did not do their due diligence, and expects a top-notch answer immediately. (I am all for helping out -- I do it on the daily -- but you gotta do your part). Also included are last-minute meetings, and over-talkative coworkers.
 
 Not Important and Not Urgent tasks are usually not known to your users. Take internal documentation updates as an example. Thing is, they're an investment in yourself, which means a more productive future “you”. So don't forget to show them some love in your spare moments. 
 
