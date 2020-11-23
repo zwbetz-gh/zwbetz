@@ -6,7 +6,7 @@ toc: false
 show_comments: false
 ---
 
-_**Note:** This article has made the rounds on [Hacker News](https://news.ycombinator.com/item?id=25030938) and [Reddit](https://www.reddit.com/r/programming/comments/jrlxbh/attention_is_my_most_valuable_asset_for/). The comments have been fun to read, and while I won't address them all, I will say this... What I hope readers take away, is to realize just how interrupted and distraction-ridden their day may be, and that it doesn't have to be that way, that you can improve it. Given that, these methods to guard your attention have worked for me, with "me" being the key word. So, take what's useful for you, and discard the rest. Enjoy._
+_**Note:** According to my analytics dashboard, this article has made the rounds. The comments have been fun to read, and while I won't address them all, I will say this... What I hope readers take away, is to realize just how interrupted and distraction-ridden their day may be, and that it doesn't have to be that way, that you can improve it. Given that, these methods to guard your attention have worked for me, with "me" being the key word. So, take what's useful for you, and discard the rest. Enjoy._
 
 Like a tightly written function, I prefer to exit early if no work should be done. So, if you disagree with these definitions and assumptions, now's a good time to stop reading.
 
@@ -23,8 +23,6 @@ This cycle could repeat many times in a day. Or I could spend days stuck on a si
 How long you can focus on a task varies by person. Some people are very good at it out of the box, some people, not so much. Regardless of the hand you were dealt, I believe that focus (the act of devoting your attention) is a skill, and like any skill, can be improved with practice. 
 
 So, how can you increase your attention reserves? The most bang for your buck is to organize your outside world in such a way that it's distraction free as possible. Once you do that, you'll have more time to practice, and therefore more time to get better. 
-
-**Build physical strength.** The damage done by sitting 8+ hours a day is underrated. You need a way to offset this damage, especially if you plan to work in this field for decades. Opinions abound on this topic, but I personally prefer deadlifts. There are few movements more primal than picking a heavy object off the ground and standing up with it. You can [learn correct technique in little time](https://www.youtube.com/watch?v=wYREQkVtvEc). I most like deadlifts because you can do them safely, at high weights, into old age. I also like the hand, back, and hip strength they give, to make it that much harder for sitting damage to have its way with you. 
 
 **Make my place of work tidy.** My office is a spare bedroom. There's no tv to distract. There's a desk, chair, laptop, laptop stand, keyboard, mouse, and mouse pad. There's a window, which lets enough light in so that I don't feel like I'm missing a beautiful day, but not too much light to cause screen glare. If I need to work with paper, it's immediately filed somewhere when done.
 
@@ -47,6 +45,8 @@ My desktop alternates between clean and dirty states. Files I'm currently workin
 **Organize my browser bookmarks.** When I read something useful that I may need to reference later, I file it under a general archive folder. Then more specific items get their own folders. Frequently accessed links are visible on my bookmarks bar under their own folder. 
 
 **Minimize meetings.** Look, I know some things make sense to discuss face to face, or voice to voice. But if they don't, then you don't need a meeting. An email or instant message will suffice. 
+
+**Build physical strength.** The damage done by sitting 8+ hours a day is underrated. You need a way to offset this damage, especially if you plan to work in this field for decades. Opinions abound on this topic, but I personally prefer deadlifts (Obviously a full routine would be nice, but if you are currently doing nothing, and I can only pick one thing for you start doing, deadlifts are my choice). There are few movements more primal than picking a heavy object off the ground and standing up with it. You can [learn correct technique in little time](https://www.youtube.com/watch?v=wYREQkVtvEc). I most like deadlifts because you can do them safely, at high weights, into old age. I also like the hand, back, and hip strength they give, to make it that much harder for sitting damage to have its way with you.
 
 **Finally, use the [The Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) to categorize my tasks.** Imagine a grid of 4 quadrants:
 
