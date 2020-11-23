@@ -23,7 +23,7 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 - 1 teaspoon salt
 - 3 bay leaves
 - 5 oz Heinz 57 Sauce
-- 0.5 lbs Louisiana Fish Fry Crawfish Shrimp & Crab Boil
+- 1/4 cup Louisiana Fish Fry Crawfish Shrimp & Crab Boil
 - 1 packet BBQ Shrimp Seasoning
 
 ## Directions
