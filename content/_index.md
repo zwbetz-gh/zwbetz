@@ -41,3 +41,5 @@ Wanna get in touch? Email me at `zwbetz@gmail.com`
 Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
+
+> _Leave this world a little better than you found it._ -- Robert Baden-Powell
