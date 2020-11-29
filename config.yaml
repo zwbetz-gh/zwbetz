@@ -30,21 +30,18 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
-    - name: Tags
-      url: /tags/
+    - name: Specs
+      url: /specs/
       weight: 3
     - name: RSS
       url: /index.xml
       weight: 4
 
 params:
-  footer: >
-    Made with [Hugo](https://gohugo.io/) &bull;
-    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
-    Deployed to [Netlify](https://www.netlify.com/) &bull;
-    Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
+  # footer: PLACEHOLDER
   search: true
   show_prev_next_links: false
+  show_tags: false
 
 markup:
   defaultMarkdownHandler: goldmark
