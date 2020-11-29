@@ -165,3 +165,4 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Scratching your shins after taking off your socks 
 1. Freshly picked strawberries
 1. Frozen blueberries
+1. Delaying gratification
