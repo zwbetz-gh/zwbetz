@@ -18,4 +18,4 @@ The [full album is in google photos](https://photos.app.goo.gl/wXuqAnSzkkCrTxT9A
 
 {{< gallery 
 command="Resize" 
-options="700x" >}}
+options="400x" >}}

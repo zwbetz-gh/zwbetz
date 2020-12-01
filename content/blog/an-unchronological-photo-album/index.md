@@ -17,5 +17,6 @@ My wife's Christmas present is a photo album of our son, a timeline ranging from
 
 ## Sneak Peek
 
-<div id="photos"></div>
-<script src="index.js"></script>
+{{< gallery 
+command="Resize" 
+options="400x" >}}
