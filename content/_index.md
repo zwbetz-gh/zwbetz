@@ -26,13 +26,13 @@ options="100x q100" >}}
   }
 </style>
 
-Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, mostly a place to document things learned.
+Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, a loose collection of thoughts, tutorials, and who-knows-whats.
 
 `zwbetz` is short for my full name, Zachary Wade Betz.
 
 I'm currently a Software Developer at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana.
 
-Here's my resume in [JSON](/resume/resume.json), [HTML](/resume/resume.html), and [PDF](/resume/resume.pdf).
+Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
 
 As for formal education, I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu/).
 
@@ -42,4 +42,4 @@ Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
 
-> _Leave this world a little better than you found it._ -- Robert Baden-Powell
+> Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity. -- Carl Jung
