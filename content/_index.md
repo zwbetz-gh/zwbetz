@@ -26,7 +26,7 @@ options="100x q100" >}}
   }
 </style>
 
-Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, a loose collection of thoughts, tutorials, and who-knows-whats.
+Welcome to my corner of the internet. My [Blog](/blog/) is the main attraction, a loose collection of thoughts, things learned, and who-knows-whats.
 
 `zwbetz` is short for my full name, Zachary Wade Betz.
 

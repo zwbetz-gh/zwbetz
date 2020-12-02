@@ -9,11 +9,7 @@ draft: false
 
 The following are some of my favorite snippets from the book [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/). 
 
-Citation:
-
-```
-Martin, Robert C. (2008). Clean Code. Pearson.
-```
+APA Citation: `Martin, Robert C. (2008). Clean Code. Pearson.`
 
 ## Chapter 1: Clean Code, Page 14
 
@@ -31,7 +27,7 @@ The Boy Scouts of America have a simple rule that we can apply to our profession
 
 > Leave the campground cleaner than you found it (5).
 
-If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The cleanup doesn't have to be something big. Change on variable name for the better, break up one function that's a little too large, eliminate one small bit of duplication, clean up one composite `if` statement.
+If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The cleanup doesn't have to be something big. Change a variable name for the better, break up one function that's a little too large, eliminate one small bit of duplication, clean up one composite `if` statement.
 
 Can you imagine working on a project where the code _simply got better_ as time passed? Do you believe that any other option is professional? Indeed, isn't continuous improvement an intrinsic part of professionalism?
 
@@ -75,6 +71,6 @@ So I proceeded to make a large number of very tiny changes ...
 
 It is not enough for code to work. Code that works is often badly broken. Programmers who satisfy themselves with merely working code are behaving unprofessionally. They may fear that they don't have time to improve the structure and design of their code, but I disagree. Nothing has a more profound and long-term degrading effect upon a development project than bad code. Bad schedules can be redone, bad requirements can be refined. Bad team dynamics can be repaired. But bad code rots and ferments, becoming an inexorable weight that drags the team down. Time and time again I have seen teams grind to a crawl because, in their haste, they created a malignant morass of code that forever thereafter dominated their destiny.
 
-Of course bad code can be cleaned up. But it's very expensive. As code rots, the modules insinuate themselves into each other, creating lots of hidden and tangled dependencies. Find and breaking old dependencies is a long and arduous task. On the other hand, keeping code clean is relatively easy. If you made a mess in a module in the morning, it is easy to clean it up in the afternoon. Better yet, if you made a mess five minutes ago, it's very easy to clean it up right now.
+Of course bad code can be cleaned up. But it's very expensive. As code rots, the modules insinuate themselves into each other, creating lots of hidden and tangled dependencies. Finding and breaking old dependencies is a long and arduous task. On the other hand, keeping code clean is relatively easy. If you made a mess in a module in the morning, it is easy to clean it up in the afternoon. Better yet, if you made a mess five minutes ago, it's very easy to clean it up right now.
 
 So the solution is to continuously keep your code as clean and simple as it can be. Never let the rot get started.
