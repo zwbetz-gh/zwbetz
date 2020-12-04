@@ -1,0 +1,18 @@
+#the_text {
+  border: 1px solid #dcdee0;
+  padding: 0.5rem;
+  padding-bottom: 0;
+}
+
+.clamped_text {
+  /* Specify the number of lines to display */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.expanded_text {
+  white-space: pre-wrap;
+}
