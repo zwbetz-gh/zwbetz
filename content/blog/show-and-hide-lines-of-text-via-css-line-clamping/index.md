@@ -14,6 +14,7 @@ I went with a CSS approach. (As opposed to a JS approach of actually manipulatin
 
 - <https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp>
 - <https://developer.mozilla.org/en-US/docs/Web/CSS/white-space>
+- <https://css-tricks.com/line-clampin/>
 
 ## Sample Code
 

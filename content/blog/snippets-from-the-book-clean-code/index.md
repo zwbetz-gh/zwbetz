@@ -2,7 +2,7 @@
 title: "Snippets From the Book Clean Code"
 date: 2020-12-01T21:26:46-06:00
 tags: []
-toc: false
+toc: true
 show_comments: false
 draft: false
 ---
@@ -74,3 +74,13 @@ It is not enough for code to work. Code that works is often badly broken. Progra
 Of course bad code can be cleaned up. But it's very expensive. As code rots, the modules insinuate themselves into each other, creating lots of hidden and tangled dependencies. Finding and breaking old dependencies is a long and arduous task. On the other hand, keeping code clean is relatively easy. If you made a mess in a module in the morning, it is easy to clean it up in the afternoon. Better yet, if you made a mess five minutes ago, it's very easy to clean it up right now.
 
 So the solution is to continuously keep your code as clean and simple as it can be. Never let the rot get started.
+
+## Chapter 16: Refactoring SerialDate, Page 267-268
+
+... The author of `SerialDate` is David Gilbert. David is clearly an experienced and competent programmer. As we shall see, he shows a significant degree of professionalism and discipline within his code. For all intents and purposes, this is "good code". And I am going to rip it to pieces.
+
+This is not an activity of malice. Nor do I think that I am so much better than David that I somehow have a right to pass judgment on his code. Indeed, if you were to find some of my code, I'm sure you could find plenty of things to complain about.
+
+No, this is not an activity of nastiness or arrogance. What I am about to do is nothing more and nothing less than a professional review. It is something that we should all be comfortable doing. And it is something we should welcome when it is done for us. It is only through critiques like these that we will learn. Doctors do it. Pilots do it. Lawyers do it. And we as programmers need to learn how to do it too.
+
+One more thing about David Gilbert. David is more than just a good programmer. David had the courage and good will to offer his code to the community at large for free. He placed it out in the open for all to see and invited public usage and public scrutiny. This was well done! ...
