@@ -542,6 +542,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Devil All the Time](https://en.wikipedia.org/wiki/The_Devil_All_the_Time_(film))
 * [Blood of Zeus](https://en.wikipedia.org/wiki/Blood_of_Zeus)
 * [Trash Truck](https://www.netflix.com/title/80234731)
+* [Mindhunter](https://en.wikipedia.org/wiki/Mindhunter_(TV_series))
 
 ## Video games
 

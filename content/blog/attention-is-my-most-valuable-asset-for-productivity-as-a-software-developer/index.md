@@ -26,7 +26,7 @@ So, how can you increase your attention reserves? The most bang for your buck is
 
 **Make my place of work tidy.** My office is a spare bedroom. There's no tv to distract. There's a desk, chair, laptop, laptop stand, keyboard, mouse, and mouse pad. There's a window, which lets enough light in so that I don't feel like I'm missing a beautiful day, but not too much light to cause screen glare. If I need to work with paper, it's immediately filed somewhere when done.
 
-**Make my smart phone dumb.** My phone has all notifications disabled, except for calls and text messages. Well, and National Hurricane Center alerts, since I live in Louisiana. Unless you're my wife, you know that I don't respond to text messages immediately, that's just how it is. I disabled my social media accounts some time ago. But if you have them, turning off notifications should help curve the urge to compulsively check them. 
+**Make my smart phone dumb.** My phone has all notifications disabled, except for calls and text messages. Well, and National Hurricane Center alerts, since I live in Louisiana. Unless you're my wife, you know that I don't respond to text messages quickly, that's just how it is. I disabled my social media accounts some time ago. But if you have them, turning off notifications should help curve the urge to compulsively check them. 
 
 **Be an OS minimalist.** Apps I use less commonly are a keypress combo away. Given this, my dock has only the apps I use on a daily basis:
 
