@@ -1,5 +1,5 @@
 ---
-title: "Things I like"
+title: "Things I Like"
 date: 2018-03-21T21:28:14-05:00
 publishdate: 2018-03-21
 draft: false
@@ -12,7 +12,7 @@ show_comments: false
 
 A list of things that I like, in no particular order. This is a living document.  
 
-## Life, meaning, character, and work
+## Life, Meaning, Character, and Work
 
 * Joe Rogan:
   * [JRE #877: Jordan B Peterson 1](https://open.spotify.com/episode/4Ks3GyUM8Zsy5Ax5fnm7ev?si=QTgDofvGQhmxjBJL0M8BYg)
@@ -177,7 +177,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [The spiritual disciplines: simplicity](https://www.artofmanliness.com/2017/11/06/spiritual-disciplines-simplicity/)
   * [The spiritual disciplines: fasting](https://www.artofmanliness.com/2017/11/20/spiritual-disciplines-fasting/)
 
-## Strength training
+## Strength Training
 
 * Mark Rippetoe:
   * [Why barbells are better than machines](https://startingstrength.com/article/why-barbells-are-better-than-machines-txt)
@@ -229,7 +229,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [A call for a new strenuous age](https://www.artofmanliness.com/2016/12/21/call-new-strenuous-age/)
   * [Podcast #335: Exploring archetypes with Jordan B Peterson](https://www.artofmanliness.com/2017/08/31/podcast-335-using-power-myths-live-flourishing-life/)
 
-## Theology and evolution
+## Theology and Evolution
 
 * C.S. Lewis:
   * [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity)
@@ -274,7 +274,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [The Liturgists Podcast](http://www.theliturgists.com/podcast)
 * [If the world began again, would life as we know it exist?](http://m.nautil.us/issue/14/mutation/if-the-world-began-again-would-life-as-we-know-it-exist)
 
-## Money and frugality
+## Money and Frugality
 
 * Frugalwoods:
   * [Our low cost, no fuss, DIY money management system](http://www.frugalwoods.com/2017/01/24/our-low-cost-no-fuss-diy-money-management-system/)
@@ -306,7 +306,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Aren’t you embarrassed?](https://www.reddit.com/r/personalfinance/comments/74haip/arent_you_embarrassed/)
   * [Your parents took decades to furnish their house](https://www.reddit.com/r/personalfinance/comments/6mzg27/your_parents_took_decades_to_furnish_their_house/)
 
-## Mental resilience
+## Mental Resilience
 
 * AoM: Depression series:
   * [Leashing the black dog: my struggle with depression](https://www.artofmanliness.com/2015/03/09/leashing-the-black-dog-my-struggle-with-depression/)
@@ -363,7 +363,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Personal capital](https://www.personalcapital.com/)
 * [Dave Ramsey investment calculator](https://www.daveramsey.com/smartvestor/investment-calculator)
 
-## Science fiction, fantasy, and fun
+## Science Fiction, Fantasy, and Fun
 
 * Isaac Asimov: [The last question](http://www.cs.toronto.edu/~gamvrosi/thelastq.html)
 * Arthur Clarke: [The star](https://sites.uni.edu/morgans/astro/course/TheStar.pdf)
@@ -389,7 +389,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Anglerfish](https://youtu.be/Z-BbpaNXbxg)
   * [Sloths](https://youtu.be/XrUM8m2rnP0)
 
-## Fables and fairy tales
+## Fables and Fairy Tales
 
 * [Aesop's Fables](https://www.gutenberg.org/ebooks/11339)
 * [Grimms' Fairy Tales](https://www.gutenberg.org/ebooks/2591)
@@ -428,7 +428,7 @@ A list of things that I like, in no particular order. This is a living document.
 * Rebel Wisdom:
   * [Jordan Peterson, sex, and ideology: with Bret Weinstein](https://youtu.be/qR5yN2G4h54)
 
-## Art and photography
+## Art and Photography
 
 * Wikimedia commons:
   * [Picture of the year 2015 results](https://commons.wikimedia.org/wiki/Commons:Picture_of_the_Year/2015/R2/Results/Candidates/Gallery)
@@ -440,7 +440,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Dawid Planeta](https://www.artstation.com/dawidplaneta)
 * [Zdzisław Beksiński](https://www.wikiart.org/en/zdislav-beksinski)
 
-## Movies and shows
+## Films and TV Shows
 
 * [The Siege of Jadotville](https://en.wikipedia.org/wiki/The_Siege_of_Jadotville_(film))
 * [The Big Short](https://en.wikipedia.org/wiki/The_Big_Short_(film))
@@ -545,7 +545,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Trash Truck](https://www.netflix.com/title/80234731)
 * [Mindhunter](https://en.wikipedia.org/wiki/Mindhunter_(TV_series))
 
-## Video games
+## Video Games
 
 * Arcade:
   * [Hydro Thunder](https://en.wikipedia.org/wiki/Hydro_Thunder)

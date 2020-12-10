@@ -1,5 +1,5 @@
 ---
-title: "Simple pleasures"
+title: "Simple Pleasures"
 date: 2018-03-09T12:07:28-06:00
 publishdate: 2018-03-09
 draft: false
@@ -166,3 +166,4 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Freshly picked strawberries
 1. Frozen blueberries
 1. Delaying gratification
+1. Connecting with someone

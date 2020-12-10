@@ -40,6 +40,6 @@ Wanna get in touch? Email me at `zwbetz@gmail.com`
 
 Find me elsewhere on on [GitHub](https://github.com/zwbetz-gh).
 
-Some blog oldies: [Simple pleasures]({{< relref "simple-pleasures" >}}) and [Things I like]({{< relref "things-i-like" >}}).
+Some blog oldies: [Simple Pleasures]({{< relref "simple-pleasures" >}}) and [Things I Like]({{< relref "things-i-like" >}}).
 
 > Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity. -- Carl Jung
