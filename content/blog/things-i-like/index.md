@@ -29,6 +29,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [JRE #1278: Kevin Hart](https://open.spotify.com/episode/4VS7V8BOKfRgnQcd75tC2c?si=2RTWBsyuRV-mZ_nBNVVv9Q)
   * [JRE #1428: Brian Greene](https://open.spotify.com/episode/0TPjl7Wty6mbhy5LgViSWh?si=18PkFhvZTZiGhwvuf6BVyQ)
   * [JRE #1543: Brian Muraresku & Graham Hancock](https://open.spotify.com/episode/0FwCgmkG2Cfb36etijDIho?si=bnD822_JT7eyz_0bOW8PkA)
+  * [JRE #1518: David Choe](https://open.spotify.com/episode/0Or5eC0ReXHrLgf3X6Olg4)
 * AoM:
   * [Say yes to life: an accessible primer on Nietzsche’s big ideas](https://www.artofmanliness.com/2015/07/20/a-primer-on-nietzsches-big-ideas/)
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
