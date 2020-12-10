@@ -14,30 +14,6 @@ A list of things that I like, in no particular order. This is a living document.
 
 ## Life, meaning, character, and work
 
-* Dr. Jordan Peterson: Psychological significance of the biblical stories series:
-  * [Introduction to the idea of God](https://www.youtube.com/watch?v=f-wWBGo6a2w&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=2&t=0s)
-  * [Genesis: chaos and order](https://www.youtube.com/watch?v=hdrLQ7DpiWs&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=3&t=0s)
-  * [God and the hierarchy of authority](https://www.youtube.com/watch?v=R_GPAl_q2QQ&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=4&t=0s)
-  * [Adam and Eve: self-consciousness, evil, and death](https://www.youtube.com/watch?v=Ifi5KkXig3s&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=5&t=0s)
-  * [Cain and Abel: the hostile brothers](https://www.youtube.com/watch?v=44f3mxcsI50&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=6&t=0s)
-  * [The psychology of the flood](https://www.youtube.com/watch?v=wNjbasba-Qw&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=7&t=0s)
-  * [Walking with God: Noah and the flood](https://www.youtube.com/watch?v=6gFjB9FTN58&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=8&t=0s)
-  * [The phenomenology of the divine](https://www.youtube.com/watch?v=UoQdp2prfmM&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=10&t=0s)
-  * [The call to Abraham](https://www.youtube.com/watch?v=GmuzUZTJ0GA&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=11&t=0s)
-  * [Abraham: father of nations](https://www.youtube.com/watch?v=3Y6bCqT85Pc&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=12&t=0s)
-  * [Sodom and Gomorrah](https://www.youtube.com/watch?v=SKzpj0Ev8Xs&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=13&t=0s)
-  * [The great sacrifice: Abraham and Isaac](https://www.youtube.com/watch?v=-yUP40gwht0&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=14&t=0s)
-  * [Jacob’s ladder](https://www.youtube.com/watch?v=A9JtQN_GoVI&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=15&t=0s)
-  * [Jacob: wrestling with God](https://www.youtube.com/watch?v=DRJKwDfDbco&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=16&t=0s)
-  * [Jacob and the coat of many colors](https://www.youtube.com/watch?v=B7V8eZ1BLiI&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=17&t=0s)
-  * [The death and resurrection of Christ: a commentary in five parts](https://www.youtube.com/watch?v=xPIanlF6IwM&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=18&t=0s)
-* AoM: Soul training series:
-  * [Training the soul](https://www.artofmanliness.com/2017/08/14/training-the-soul/)
-  * [An introduction to the spiritual disciplines](https://www.artofmanliness.com/2017/09/04/introduction-spiritual-disciplines/)
-  * [The spiritual disciplines: study and self-examination](https://www.artofmanliness.com/2017/09/18/spiritual-disciplines-study-self-examination/)
-  * [The spiritual disciplines: solitude and silence](https://www.artofmanliness.com/2017/10/16/spiritual-disciplines-solitude-silence/)
-  * [The spiritual disciplines: simplicity](https://www.artofmanliness.com/2017/11/06/spiritual-disciplines-simplicity/)
-  * [The spiritual disciplines: fasting](https://www.artofmanliness.com/2017/11/20/spiritual-disciplines-fasting/)
 * Joe Rogan:
   * [JRE #877: Jordan B Peterson 1](https://www.youtube.com/watch?v=04wyGK6k6HE)
   * [JRE #958: Jordan B Peterson 2](https://www.youtube.com/watch?v=USg3NR76XpQ)
@@ -175,6 +151,30 @@ A list of things that I like, in no particular order. This is a living document.
   * [I sell onions on the internet](https://www.deepsouthventures.com/i-sell-onions-on-the-internet/)
 * What would you do?
   * [Mother can only afford one meal to share with her family](https://youtu.be/ngpp0z2mb8w)
+* Dr. Jordan Peterson: Psychological significance of the biblical stories series:
+  * [Introduction to the idea of God](https://www.youtube.com/watch?v=f-wWBGo6a2w&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=2&t=0s)
+  * [Genesis: chaos and order](https://www.youtube.com/watch?v=hdrLQ7DpiWs&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=3&t=0s)
+  * [God and the hierarchy of authority](https://www.youtube.com/watch?v=R_GPAl_q2QQ&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=4&t=0s)
+  * [Adam and Eve: self-consciousness, evil, and death](https://www.youtube.com/watch?v=Ifi5KkXig3s&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=5&t=0s)
+  * [Cain and Abel: the hostile brothers](https://www.youtube.com/watch?v=44f3mxcsI50&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=6&t=0s)
+  * [The psychology of the flood](https://www.youtube.com/watch?v=wNjbasba-Qw&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=7&t=0s)
+  * [Walking with God: Noah and the flood](https://www.youtube.com/watch?v=6gFjB9FTN58&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=8&t=0s)
+  * [The phenomenology of the divine](https://www.youtube.com/watch?v=UoQdp2prfmM&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=10&t=0s)
+  * [The call to Abraham](https://www.youtube.com/watch?v=GmuzUZTJ0GA&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=11&t=0s)
+  * [Abraham: father of nations](https://www.youtube.com/watch?v=3Y6bCqT85Pc&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=12&t=0s)
+  * [Sodom and Gomorrah](https://www.youtube.com/watch?v=SKzpj0Ev8Xs&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=13&t=0s)
+  * [The great sacrifice: Abraham and Isaac](https://www.youtube.com/watch?v=-yUP40gwht0&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=14&t=0s)
+  * [Jacob’s ladder](https://www.youtube.com/watch?v=A9JtQN_GoVI&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=15&t=0s)
+  * [Jacob: wrestling with God](https://www.youtube.com/watch?v=DRJKwDfDbco&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=16&t=0s)
+  * [Jacob and the coat of many colors](https://www.youtube.com/watch?v=B7V8eZ1BLiI&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=17&t=0s)
+  * [The death and resurrection of Christ: a commentary in five parts](https://www.youtube.com/watch?v=xPIanlF6IwM&list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&index=18&t=0s)
+* AoM: Soul training series:
+  * [Training the soul](https://www.artofmanliness.com/2017/08/14/training-the-soul/)
+  * [An introduction to the spiritual disciplines](https://www.artofmanliness.com/2017/09/04/introduction-spiritual-disciplines/)
+  * [The spiritual disciplines: study and self-examination](https://www.artofmanliness.com/2017/09/18/spiritual-disciplines-study-self-examination/)
+  * [The spiritual disciplines: solitude and silence](https://www.artofmanliness.com/2017/10/16/spiritual-disciplines-solitude-silence/)
+  * [The spiritual disciplines: simplicity](https://www.artofmanliness.com/2017/11/06/spiritual-disciplines-simplicity/)
+  * [The spiritual disciplines: fasting](https://www.artofmanliness.com/2017/11/20/spiritual-disciplines-fasting/)
 
 ## Strength training
 
