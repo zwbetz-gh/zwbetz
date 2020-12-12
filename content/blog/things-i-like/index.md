@@ -544,6 +544,7 @@ A list of things that I like, in no particular order. This is a living document.
 * [Blood of Zeus](https://en.wikipedia.org/wiki/Blood_of_Zeus)
 * [Trash Truck](https://www.netflix.com/title/80234731)
 * [Mindhunter](https://en.wikipedia.org/wiki/Mindhunter_(TV_series))
+* [The Polar Express](https://en.wikipedia.org/wiki/The_Polar_Express_(film))
 
 ## Video Games
 
