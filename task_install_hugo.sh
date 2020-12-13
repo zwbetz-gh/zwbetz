@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 usage="Usage:
-  $0 <version>"
+  $0 VERSION"
 
 if [[ -z $1 ]]; then
   echo "$usage"

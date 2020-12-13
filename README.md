@@ -13,13 +13,13 @@ My personal site
     ```
 1. Install Hugo. Assumes OS is Linux
     ```
-    ./util-install-hugo.sh <HUGO_VERSION>
+    ./task_install_hugo.sh HUGO_VERSION
     ```
 1. Serve site
     ```
-    ./util-site-serve.sh
+    ./task_site_serve.sh
     ```
 1. Build site
     ```
-    ./util-site-build.sh
+    ./task_site_build.sh
     ```

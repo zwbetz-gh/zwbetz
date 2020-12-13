@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-./util-get-resume.sh
+./task_get_resume.sh
 
 hugo --cleanDestinationDir
