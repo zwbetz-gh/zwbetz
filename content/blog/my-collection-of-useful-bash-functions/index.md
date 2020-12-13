@@ -6,7 +6,7 @@ toc: true
 show_comments: true
 ---
 
-**Update:** this article is no longer maintained. My dotfiles now live in git. Please see <https://github.com/zwbetz-gh/dotfiles>.
+**UPDATE:** THIS ARTICLE IS NO LONGER MAINTAINED. My dotfiles now live in git. Please see <https://github.com/zwbetz-gh/dotfiles>.
 
 ---
 

@@ -1,4 +1,4 @@
-baseURL: https://zwbetz.com/
+baseURL: https://zwbetz.com
 languageCode: en-us
 defaultContentLanguage: en
 title: zwbetz
@@ -30,15 +30,16 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
-    - name: Specs
-      url: /specs/
-      weight: 3
     - name: RSS
       url: /index.xml
-      weight: 4
+      weight: 3
 
 params:
-  # footer: PLACEHOLDER
+  footer: >
+    Made with [Hugo](https://gohugo.io/) &bull;
+    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
+    Deployed by [Netlify](https://www.netlify.com/) &bull;
+    Content in [GitHub](https://github.com/zwbetz-gh/uswds-hugo-theme)
   show_footer_site_last_updated: false
   show_footer_debug: false
   search: true
