@@ -39,6 +39,8 @@ menu:
 
 params:
   # footer: PLACEHOLDER
+  show_footer_site_last_updated: false
+  show_footer_debug: false
   search: true
   show_prev_next_links: false
   show_tags: false
