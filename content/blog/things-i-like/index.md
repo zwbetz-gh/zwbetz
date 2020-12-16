@@ -30,6 +30,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [JRE #1428: Brian Greene](https://open.spotify.com/episode/0TPjl7Wty6mbhy5LgViSWh?si=18PkFhvZTZiGhwvuf6BVyQ)
   * [JRE #1543: Brian Muraresku & Graham Hancock](https://open.spotify.com/episode/0FwCgmkG2Cfb36etijDIho?si=bnD822_JT7eyz_0bOW8PkA)
   * [JRE #1518: David Choe](https://open.spotify.com/episode/0Or5eC0ReXHrLgf3X6Olg4)
+  * [JRE #1577 Terry Virts](https://open.spotify.com/episode/4k7JHPCLoCmSlZY9tvme0s)
 * AoM:
   * [Say yes to life: an accessible primer on Nietzsche’s big ideas](https://www.artofmanliness.com/2015/07/20/a-primer-on-nietzsches-big-ideas/)
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
