@@ -1,0 +1,43 @@
+.base {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2em;
+  width: auto;
+  height: 400px;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-image: url('img/federico-bottos-Z3NceSeZqgI-unsplash.jpg');
+}
+
+.variant-1 {
+  background-color: #72a0bf;
+}
+
+.variant-2 {
+  background-color: #72a0bf;
+  opacity: 0.9;
+}
+
+.variant-3 {
+  background-color: #72a0bf;
+  opacity: 0.5;
+}
+
+.variant-4 {
+  filter: grayscale(0.9);
+}
+
+.variant-5 {
+  filter: grayscale(0.5);
+}
+
+.variant-6 {
+  filter: blur(1px);
+}
+
+.variant-7 {
+  filter: blur(2px);
+}
