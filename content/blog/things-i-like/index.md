@@ -31,6 +31,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [JRE #1543: Brian Muraresku & Graham Hancock](https://open.spotify.com/episode/0FwCgmkG2Cfb36etijDIho?si=bnD822_JT7eyz_0bOW8PkA)
   * [JRE #1518: David Choe](https://open.spotify.com/episode/0Or5eC0ReXHrLgf3X6Olg4)
   * [JRE #1577 Terry Virts](https://open.spotify.com/episode/4k7JHPCLoCmSlZY9tvme0s)
+  * [JRE #1234 David Sinclair](https://open.spotify.com/episode/0Gifr7mhEsQBI5oGzJomz2)
 * AoM:
   * [Say yes to life: an accessible primer on Nietzsche’s big ideas](https://www.artofmanliness.com/2015/07/20/a-primer-on-nietzsches-big-ideas/)
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
@@ -177,6 +178,8 @@ A list of things that I like, in no particular order. This is a living document.
   * [The spiritual disciplines: solitude and silence](https://www.artofmanliness.com/2017/10/16/spiritual-disciplines-solitude-silence/)
   * [The spiritual disciplines: simplicity](https://www.artofmanliness.com/2017/11/06/spiritual-disciplines-simplicity/)
   * [The spiritual disciplines: fasting](https://www.artofmanliness.com/2017/11/20/spiritual-disciplines-fasting/)
+* AvE:
+  * [Summary of every Self-Help Book EVER](https://youtu.be/E7RgtMGL7CA)
 
 ## Strength Training
 
