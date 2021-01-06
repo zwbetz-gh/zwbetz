@@ -39,7 +39,7 @@ params:
     Made with [Hugo](https://gohugo.io/) &bull;
     Themed by [USWDS](https://designsystem.digital.gov/) &bull;
     Deployed by [Netlify](https://www.netlify.com/) &bull;
-    Content in [GitHub](https://github.com/zwbetz-gh/uswds-hugo-theme)
+    Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
   show_footer_site_last_updated: false
   show_footer_debug: false
   search: true
