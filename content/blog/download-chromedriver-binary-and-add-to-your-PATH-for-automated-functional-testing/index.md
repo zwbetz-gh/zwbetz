@@ -34,7 +34,7 @@ You can obviously place the chromedriver binary in any directory you like, I jus
 1. [Download chromedriver](http://chromedriver.chromium.org/downloads) for Windows and save to `C:\bin`
 1. Open Command Prompt and set the `PATH` for your account
     ```
-    setx PATH "%PATH%;%C:\bin%"
+    setx PATH "%PATH%;C:\bin"
     ```
 1. **RESTART** Command Prompt. Changes made by `setx` will only be picked up in new instances of Command Prompt
 1. Verify setup with `chromedriver.exe -v`
