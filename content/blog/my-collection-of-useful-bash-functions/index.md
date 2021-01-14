@@ -254,7 +254,7 @@ $ echo https://gohugo.io/ | http_status_code
 ```
 merge_hugo_themes() {
   git submodule update --remote --merge
-  git add . 
+  git add --all 
   git commit -m "Theme changes" 
   git push 
 }
