@@ -12,6 +12,18 @@ show_comments: false
 
 ---
 
+[How Google Does Code Reviews – Quality Assurance Tips from Google's Documentation](https://www.freecodecamp.org/news/what-google-taught-me-about-code-reviews/)
+
+> Code reviews should be completed quickly. The maximum length of time for a review should be one business day. Why the urgency? I've personally had QA's sometimes take weeks or longer.
+>
+> **It becomes a blocker.** Although the author of the code moves onto new work, new changes start to form a back log, and the delays can build up to weeks or months.
+>
+> **Developers feel frustrated.** If the reviewer asks for major changes but only responds every 3 days, it is frustrating for the developer working on that change. But with quick responses, whenever you require explanation of exactly what you need to do, the frustration fades away.
+>
+> **Code quality can degrade.** If your reviews are always slow, developers are less likely to do code clean ups, refactoring work or general code improvement ("If my reviewer won't reply for 4 days what's even the point?"), and the code quality submitted in the reviews is more likely to go down.
+
+---
+
 [What is REST](https://www.codecademy.com/articles/what-is-rest)
 
 > Requests must contain a path to a resource that the operation should be performed on. In RESTful APIs, paths should be designed to help the client know what is going on.
