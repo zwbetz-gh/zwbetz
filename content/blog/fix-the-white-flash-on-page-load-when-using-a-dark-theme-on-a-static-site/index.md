@@ -13,7 +13,7 @@ Roughly speaking, these events were happening:
 - Request is made for a page
 - Browser parses the file from top to bottom: if present, CSS is applied from the `<head>`, then the `<body>` is parsed and shown
 - First few paints of the page are visible
-- Local Storage is checked. The dark theme is applied if it's active
+- JS is run. Local Storage is checked. The dark theme is applied if it's active
 
 So, the user was seeing an early iteration of the page before the dark theme had been applied.
 
