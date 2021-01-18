@@ -13,7 +13,7 @@ show_comments: false
 - [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme) -- Cayman is a clean, responsive theme for Hugo, ported from the original Jekyll Cayman Theme
 - [Vanilla Bootstrap](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme) -- A vanilla Bootstrap theme for Hugo
 
-## Tutorial
+## Tutorials
 
 - [Make a Hugo Blog From Scratch](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) -- In my opinion, Hugo’s current quick start is ample. It does just what the name says, gets you started you quickly. Still, there have many requests on the forums for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you’re reading is my go at that. Starting from scratch, we’ll build a Hugo blog.
 
@@ -26,7 +26,7 @@ show_comments: false
 
 - [PleaseJS Color Generator](https://github.com/zwbetz-gh/github-pages-deploy-pleasejs) -- Make a random, pleasing color. Courtesy of PleaseJS and GitHub Pages
 
-## Docs
+## Documentation
 
 - [MkDocs Template](https://github.com/zwbetz-gh/mkdocs-template) -- The no-excuses template to document your project
 
