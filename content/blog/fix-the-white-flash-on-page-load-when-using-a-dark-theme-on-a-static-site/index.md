@@ -6,16 +6,16 @@ toc: false
 show_comments: false
 ---
 
-I maintain a Hugo theme called Cupper. Recently a [GitHub issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/47) was opened that described a white flash on page load when the dark theme was active. After some investigation, the bug was indeed real. A boy was it a tricky one.
+I maintain a few Hugo themes, one of them named Cupper. Recently a [GitHub issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/47) was opened that described a white flash on page load when the dark theme was active. After some investigation, the bug was indeed real. A boy was it a tricky one.
 
 Roughly speaking, these events were happening:
 
 - Request is made for a page
-- Browser parses the HTML file, creating object models from the HTML and CSS. The JS is then parsed
+- Browser parses the file from top to bottom: if present, CSS is applied from the `<head>`, then the `<body>` is parsed and shown
 - First few paints of the page are visible
 - Local Storage is checked. The dark theme is applied if it's active
 
-So, the user was seeing an early iteration of the page before all styles, including dark theme styles, had been applied.
+So, the user was seeing an early iteration of the page before the dark theme had been applied.
 
 I needed a way to hide the page, then only show it once the dark theme had been applied. Also, the user experience had to remain smooth, or at least not jarring. 
 
