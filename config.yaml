@@ -30,9 +30,12 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
     - name: RSS
       url: /index.xml
-      weight: 3
+      weight: 4
 
 params:
   footer: >
