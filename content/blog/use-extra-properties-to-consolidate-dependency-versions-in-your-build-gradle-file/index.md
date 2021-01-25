@@ -12,9 +12,9 @@ For example:
 
 ```groovy
 dependencies {
-	implementation "org.springframework.boot:spring-boot-starter-actuator:2.4.2"
-	implementation "org.springframework.boot:spring-boot-starter-data-jpa:2.4.2"
-	implementation "org.springframework.boot:spring-boot-starter-web:2.4.2"
+	implementation 'org.springframework.boot:spring-boot-starter-actuator:2.4.2'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.4.2'
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.4.2'
 }
 ```
 
