@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Zachary Betz",
-    "label": "Software Developer & Tester",
+    "label": "Software Developer",
     "picture": "https://zwbetz.com/headshot.jpg",
-    "phone": "225-978-4949",
+    "phone": "225 978 4949",
     "website": "https://zwbetz.com",
     "summary": "",
     "location": {
@@ -13,16 +13,7 @@
       "countryCode": "US",
       "region": "Louisiana"
     },
-    "emails": [
-      {
-        "type": "Work",
-        "email": "zachary.betz@geocent.com"
-      },
-      {
-        "type": "Personal",
-        "email": "zwbetz@gmail.com"
-      }
-    ],
+    "email": "zwbetz@gmail.com",
     "profiles": [
       {
         "network": "GitHub",
@@ -33,17 +24,6 @@
   },
   "work": [
     {
-      "company": "Freelance",
-      "position": "Software Developer",
-      "website": "https://zwbetz.com",
-      "startDate": "2016-02",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets"
-      ]
-    },
-    {
       "company": "Geocent, LLC",
       "position": "Software Engineer",
       "website": "https://geocent.com",
@@ -52,12 +32,24 @@
       "summary": "",
       "highlights": [
         "Did full stack development on a React frontend, Spring Boot backend, and Postgres database",
+        "Aided our DevOps team in continuously integrating and deploying our services, via Jenkins, into Kubernetes clusters across environments",
+        "Developed extensive end-to-end test suites via NightwatchJS, which run via Selenium Grid in our CI environment",
         "Wrote a Flyway-like tool that initializes indices then inserts JSON mappings and test data into Elasticsearch, via Spring Boot",
-        "Developed extensive end-to-end test suites via NightwatchJS",
         "Wrote a Jaspersoft Server Reports test framework via Bash/cURL",
         "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql",
         "Created general development documentation via MkDocs that is used across USCIS",
         "Maintained clear, concise project documentation"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Software Developer",
+      "website": "https://zwbetz.com",
+      "startDate": "2016-02",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets"
       ]
     },
     {
@@ -208,6 +200,7 @@
     "Documentation",
     "Elasticsearch",
     "Flyway",
+    "Git",
     "Gradle",
     "HTML",
     "Hugo",
@@ -216,6 +209,7 @@
     "JavaScript",
     "Jenkins",
     "Jest",
+    "Kubernetes",
     "Markdown",
     "NightwatchJS",
     "NodeJS",
@@ -225,6 +219,7 @@
     "SchemaSpy",
     "Scripting",
     "Selenium",
+    "Selenium Grid",
     "Shell",
     "Spring Boot",
     "SQL",
