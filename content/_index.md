@@ -9,13 +9,9 @@ aliases:
 
 Welcome to my corner of the internet.
 
-`zwbetz` is short for my full name, Zachary Wade Betz.
+`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and genuinely curious person.
 
-I'm a husband, father, and genuinely curious guy.
-
-My [Blog](/blog/) is a loose collection of thoughts, things learned, and who-knows-whats.
-
-I maintain a few [Projects](/projects/).
+My [Blog](/blog/) is a loose collection of thoughts, things learned, and who-knows-whats. I maintain a few [Projects](/projects/).
 
 ## Work
 
@@ -37,7 +33,7 @@ Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
 
 Some blog oldies: [Simple Pleasures]({{< relref "simple-pleasures" >}}) and [Things I Like]({{< relref "things-i-like" >}}).
 
-A quote by one of my favorite thinkers: Carl Jung.
+A quote by one of my favorite thinkers, Carl Jung.
 
 > Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 
