@@ -9,9 +9,11 @@ aliases:
 
 Welcome to my corner of the internet.
 
-`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and genuinely curious person.
+`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and all-around curious person.
 
-My [Blog](/blog/) is a loose collection of thoughts, things learned, and who-knows-whats. I maintain a few [Projects](/projects/).
+My [Blog](/blog/) is a loose collection of thoughts, things learned, and who-knows-whats.
+
+I maintain a few [Projects](/projects/).
 
 ## Work
 
