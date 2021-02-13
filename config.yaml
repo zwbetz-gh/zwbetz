@@ -44,7 +44,7 @@ params:
     Deployed by [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
   show_footer_site_last_updated: false
-  show_footer_debug: false
+  show_footer_debug: true
   search: true
   show_prev_next_links: false
   show_tags: false
