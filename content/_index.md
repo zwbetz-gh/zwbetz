@@ -11,19 +11,19 @@ Welcome to my corner of the internet.
 
 `zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and all-around curious person.
 
-My [Blog](/blog/) is a loose collection of thoughts, things learned, and who-knows-whats.
+My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats.
 
-I maintain a few [Projects](/projects/).
+I maintain a few [Projects]({{< relref "projects" >}}).
 
 ## Work
 
-I'm currently a Software Developer at [Geocent](https://www.geocent.com/) in Baton Rouge, Louisiana.
+I'm currently a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
 
 Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
 
 ## Education
 
-I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu/).
+I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu).
 
 ## Contact
 
