@@ -9,7 +9,7 @@ aliases:
 
 Welcome to my corner of the internet.
 
-`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and all-around curious person.
+`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person.
 
 My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats.
 
@@ -27,7 +27,7 @@ I have a B.S. in Information Systems and Decision Sciences from [LSU](https://ww
 
 ## Contact
 
-Wanna get in touch? Email me at `zwbetz@gmail.com`
+Wanna get in touch? Email me at `zwbetz` `@` `gmail.com`
 
 Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
 
