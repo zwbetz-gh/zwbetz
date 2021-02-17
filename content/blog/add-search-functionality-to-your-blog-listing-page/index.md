@@ -24,15 +24,15 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
 
 ```html
 <input
-  id="search"
+  id="sample-search"
   type="text"
   placeholder="Search movies by title..."
   aria-label="Search movies by title"
 />
 
-<p id="list-count">Count: 10</p>
+<p id="sample-list-count">Count: 10</p>
 
-<ul id="list">
+<ul id="sample-list">
   <li><a href="https://en.wikipedia.org/wiki/The_Siege_of_Jadotville_(film)">The Siege of Jadotville</a></li>
   <li><a href="https://en.wikipedia.org/wiki/The_Big_Short_(film)">The Big Short</a></li>
   <li><a href="https://en.wikipedia.org/wiki/The_Accountant_(2016_film)">The Accountant</a></li>
@@ -51,14 +51,14 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
 ```js
 (function () {
   function updateCount(count) {
-    var listCount = document.getElementById("list-count");
+    var listCount = document.getElementById("sample-list-count");
     listCount.innerText = "Count: " + count;
   }
 
   function onEvent() {
     var count = 0;
     var filter = search.value.toUpperCase();
-    var list = document.getElementById("list");
+    var list = document.getElementById("sample-list");
     var listItems = list.getElementsByTagName("li");
     for (i = 0; i < listItems.length; i++) {
       var item = listItems[i];
@@ -73,7 +73,7 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
     updateCount(count);
   }
 
-  var search = document.getElementById("search");
+  var search = document.getElementById("sample-search");
   if (search) {
     search.addEventListener("keyup", onEvent);
   }
@@ -84,15 +84,15 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
 
 <input
   class="usa-input"
-  id="search"
+  id="sample-search"
   type="text"
   placeholder="Search movies by title..."
   aria-label="Search movies by title"
 />
 
-<p id="list-count">Count: 10</p>
+<p id="sample-list-count">Count: 10</p>
 
-<ul id="list" style="height: 300px">
+<ul id="sample-list" style="height: 300px">
   <li><a href="https://en.wikipedia.org/wiki/The_Siege_of_Jadotville_(film)">The Siege of Jadotville</a></li>
   <li><a href="https://en.wikipedia.org/wiki/The_Big_Short_(film)">The Big Short</a></li>
   <li><a href="https://en.wikipedia.org/wiki/The_Accountant_(2016_film)">The Accountant</a></li>
@@ -108,14 +108,14 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
 <script>
 (function () {
   function updateCount(count) {
-    var listCount = document.getElementById("list-count");
+    var listCount = document.getElementById("sample-list-count");
     listCount.innerText = "Count: " + count;
   }
 
   function onEvent() {
     var count = 0;
     var filter = search.value.toUpperCase();
-    var list = document.getElementById("list");
+    var list = document.getElementById("sample-list");
     var listItems = list.getElementsByTagName("li");
     for (i = 0; i < listItems.length; i++) {
       var item = listItems[i];
@@ -130,7 +130,7 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
     updateCount(count);
   }
 
-  var search = document.getElementById("search");
+  var search = document.getElementById("sample-search");
   if (search) {
     search.addEventListener("keyup", onEvent);
   }
