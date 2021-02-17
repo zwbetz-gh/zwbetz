@@ -17,7 +17,7 @@ I maintain a few [Projects]({{< relref "projects" >}}).
 
 ## Work
 
-I'm currently a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
+I'm a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
 
 Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
 
