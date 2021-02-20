@@ -1,7 +1,0 @@
-{{- $pathUrl := .Get "pathUrl" -}}
-{{- $path := .Get "path" -}}
-
-{{- $files := readDir $path -}}
-{{- range $files }}
-    <img src="{{$pathUrl | absURL }}/{{.Name}}" alt="" style="margin-bottom: 1rem;">
-{{- end }}

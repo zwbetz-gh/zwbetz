@@ -1,9 +1,0 @@
-{{ $url := .Get 0 }}
-{{ $url = urls.Parse $url }}
-<strong>Scheme:</strong> <code>{{ $url.Scheme }}</code>
-<br>
-<strong>Host: </strong> <code>{{ $url.Host }}</code>
-<br>
-<strong>Path: </strong> <code>{{ $url.Path }}</code>
-<br>
-<strong>Fragment: </strong> <code>{{ $url.Fragment }}</code>
