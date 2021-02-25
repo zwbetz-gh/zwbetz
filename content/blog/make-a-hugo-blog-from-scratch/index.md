@@ -882,3 +882,11 @@ Thanks very much for the Hugo tutorial on your site. I’m working on bootstrapp
 {{< blockquote author="Eric" >}}
 I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn’t understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on *Hugo* and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
 {{< /blockquote >}}
+
+{{< blockquote author="Alistair" >}}
+Hey there,
+Just wanted to say that I really appreciated the Hugo tutorial.  I have had a long history with Jekyll, but only ever at a basic level.  I just got a new Mac M1 and have nothing but trouble getting Ruby, rbenv, RVM or asdf working well enough to start developing in Jekyll again. 
+After a week of real frustration and having to reinstall everything (I completely borked my system after numerous attempts at getting ANY kind of Ruby working for Jekyll), I decided to look around at other SSGs.  I found Hugo, but the documentation was lacking something and I was struggling to get a handle on the basics. 
+After following your introduction, I have a solid understanding of the basics, and much of the detail on the Hugo Docs makes a ton more sense. Appreciate the work you put into it and made it available for people like me.
+Cheers!
+{{< /blockquote >}}
