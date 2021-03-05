@@ -2,7 +2,6 @@
 title: "Install Java on Mac"
 date: 2019-10-11T20:56:27-05:00
 toc: false
-show_comments: true
 ---
 
 ## Java 8

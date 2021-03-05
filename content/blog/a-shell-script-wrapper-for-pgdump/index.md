@@ -2,7 +2,6 @@
 title: "A Shell Script Wrapper for pg_dump"
 date: 2021-02-09T21:54:51-06:00
 toc: false
-show_comments: false
 ---
 
 [`pg_dump`](https://www.postgresql.org/docs/13/app-pgdump.html) is a **sweet** tool to extract a database to a file (tables, functions, triggers... I mean _everything_). It has many CLI options, and I'm documenting the ones that were most useful to me here.

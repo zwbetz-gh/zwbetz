@@ -2,7 +2,6 @@
 title: "Search all database table columns"
 date: 2019-08-16T15:29:14-05:00
 toc: false
-show_comments: true
 ---
 
 Ever wanted to search an entire database for a column by name? Well, put your detective hat on, 'cause it's possible. 

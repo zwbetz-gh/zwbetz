@@ -2,7 +2,6 @@
 title: "Install Yarn on Mac"
 date: 2019-10-19T23:35:38-05:00
 toc: false
-show_comments: true
 ---
 
 This will install `yarn v1.19.1`.

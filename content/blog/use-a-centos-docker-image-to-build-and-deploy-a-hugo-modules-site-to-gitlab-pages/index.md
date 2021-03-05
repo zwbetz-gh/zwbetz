@@ -2,7 +2,6 @@
 title: "Use a CentOS Docker Image to Build and Deploy a Hugo (Modules) Site to GitLab Pages"
 date: 2020-12-22T13:29:09-06:00
 toc: false
-show_comments: false
 ---
 
 Am wrapping up a project for a client that needed a static site. They requested that it be built with Hugo and deployed to GitLab pages. The theme they wanted to base it off uses Hugo Modules, which in turn requires a Golang installation.

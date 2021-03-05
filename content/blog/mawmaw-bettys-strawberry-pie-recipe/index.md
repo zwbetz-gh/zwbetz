@@ -2,7 +2,6 @@
 title: "Mawmaw Betty's strawberry pie recipe"
 date: 2019-04-21T12:01:45-05:00
 toc: false
-show_comments: false
 aliases:
   - /mawmaw-bettys-strawberry-pie/
 ---

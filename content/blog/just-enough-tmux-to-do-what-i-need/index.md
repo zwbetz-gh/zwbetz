@@ -2,7 +2,6 @@
 title: "Just enough tmux to do what I need"
 date: 2019-02-07T10:56:19-06:00
 toc: false
-show_comments: true
 ---
 
 As mentioned in [Export timed query results from SQL*Plus]({{< relref "export-timed-query-results-from-sqlplus" >}}), I have to SSH into an ubuntu box in order to run queries. Sometimes these queries take a while, so if my SSH connection times out, I'm out of luck. 

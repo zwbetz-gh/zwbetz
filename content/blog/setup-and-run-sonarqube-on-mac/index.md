@@ -2,7 +2,6 @@
 title: "Setup and run SonarQube on Mac"
 date: 2020-08-31T19:59:10-05:00
 toc: true
-show_comments: false
 ---
 
 It can be useful to run sonar locally. This doc explains how.

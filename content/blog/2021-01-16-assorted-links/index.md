@@ -2,7 +2,6 @@
 title: "2021-01-16 Assorted Links"
 date: 2021-01-16T20:40:03-06:00
 toc: false
-show_comments: false
 ---
 
 [How Darwin Thought: The Golden Rule of Thinking](https://fs.blog/2016/01/charles-darwin-thinker/)

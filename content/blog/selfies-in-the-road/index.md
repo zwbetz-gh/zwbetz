@@ -4,7 +4,6 @@ date: 2018-10-08T13:31:20-05:00
 publishdate: 2018-10-07
 draft: false
 toc: false
-show_comments: false
 ---
 
 My wife’s family and I took a trip to Canada the beginning of October. We drove through national parks in Jasper and Banff and had the pleasure of seeing their beautiful landscapes. Driving through vast icefields while the Rocky Mountains tower over you has a way of making you feel small. 

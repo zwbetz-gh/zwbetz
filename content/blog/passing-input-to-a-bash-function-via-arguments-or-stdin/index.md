@@ -2,7 +2,6 @@
 title: "Passing input to a Bash function via arguments or stdin"
 date: 2019-06-29T10:44:58-05:00
 toc: false
-show_comments: true
 ---
 
 I have a [collection of Bash functions]({{< relref "my-collection-of-useful-bash-functions" >}}) that I often use. For some of them, I needed to ability to read input from all of the following:

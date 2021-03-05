@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/macbook-tweaks/
 toc: false
-show_comments: true
 ---
 
 Got a new MacBook for work about two weeks ago (macOS High Sierra, 15 inch screen, 16 GB memory). I've been a Windows guy most of my life, so it's been a fun switch. As I was settling in, here are a few tweaks I made so things would feel more homey. 

@@ -4,7 +4,6 @@ date: 2018-10-08T13:28:32-05:00
 publishdate: 2018-10-08
 draft: false
 toc: false
-show_comments: false
 ---
 
 For some, barbell training gives them loads of energy for their day. For me, it does something just as good: it gets me _through_ my day. 

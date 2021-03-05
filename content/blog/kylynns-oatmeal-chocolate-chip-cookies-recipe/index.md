@@ -2,7 +2,6 @@
 title: "Kylynn's oatmeal chocolate chip cookies recipe"
 date: 2019-05-14T21:23:41-05:00
 toc: false
-show_comments: false
 aliases:
   - /kylynns-oatmeal-chocolate-chip-cookies/
 ---

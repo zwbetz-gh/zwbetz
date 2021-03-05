@@ -2,7 +2,6 @@
 title: "Parse a URL in Hugo"
 date: 2019-01-25T12:10:08-06:00
 toc: false
-show_comments: true
 ---
 
 Need to parse a URL in your Hugo templates? Thanks to the [`urls.Parse`](https://gohugo.io/functions/urls.parse/#readout) function, you don't have to do a bunch of string manipulation. Here's a quick example. 

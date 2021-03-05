@@ -2,7 +2,6 @@
 title: "Why is my gradle build in docker so slow?"
 date: 2020-02-26T00:00:00-05:00
 toc: false
-show_comments: false
 ---
 
 _Why is my gradle build in docker so slow?_ I've asked myself this question often recently. Building _outside_ of docker is quick, so what gives?

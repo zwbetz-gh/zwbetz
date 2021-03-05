@@ -2,7 +2,6 @@
 title: "Encourage your children"
 date: 2019-06-18T22:18:45-05:00
 toc: false
-show_comments: false
 ---
 
 If it's not obvious from the other [content]({{< relref "things-i-like" >}}) on my site, I'm a huge Jordan Peterson fan. He has this way of weaving together multiple disciplines -- mythology, psychology, and biology, to name a few -- into a fascinating message (sermon?), that pulls at the deepest parts of you. He recently released a short video named [encourage your children](https://youtu.be/51IciCvDgBo). I liked it so much, I've transcribed it below.  

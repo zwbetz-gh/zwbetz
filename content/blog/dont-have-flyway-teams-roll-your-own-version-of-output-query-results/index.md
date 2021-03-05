@@ -2,7 +2,6 @@
 title: "Don't Have Flyway Teams? Roll Your Own Version of Output Query Results"
 date: 2021-02-11T15:46:07-06:00
 toc: false
-show_comments: false
 ---
 
 Flyway is a popular database migration tool. They offer two versions, a Free edition, and a Teams edition. 

@@ -4,7 +4,6 @@ date: 2018-10-10T12:43:20-05:00
 publishdate: 2018-10-10
 draft: false
 toc: false
-show_comments: true
 ---
 
 This was originally a question posed on the [hugo discussion forums](https://discourse.gohugo.io/t/set-frontmatter-params-in-list-template/14645). 

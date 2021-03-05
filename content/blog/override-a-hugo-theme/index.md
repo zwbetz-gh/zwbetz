@@ -3,7 +3,6 @@ title: "Override a Hugo theme"
 date: 2019-01-21T08:16:32-06:00
 publishdate: 2019-01-20
 toc: false
-show_comments: true
 ---
 
 We've all been there. You're browsing through the [Hugo themes](https://themes.gohugo.io/) and find one that you really like. It meets all your criteria, except for that _one small thing_. So, what are your options?

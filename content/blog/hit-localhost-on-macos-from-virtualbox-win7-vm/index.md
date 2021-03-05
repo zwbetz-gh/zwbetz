@@ -4,7 +4,6 @@ date: 2018-12-03T22:07:04-06:00
 publishdate: 2018-12-03
 draft: false
 toc: false
-show_comments: true
 ---
 
 At work, everyone on my team has Macs, but the users of one of our apps use Internet Explorer 11 (IE). We obviously need to test in IE, but how? This is where a VirtualBox Win7 VM comes in handy. 

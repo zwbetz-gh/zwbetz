@@ -2,7 +2,6 @@
 title: "Bash function to delete all local git branches except for those you want to keep"
 date: 2019-03-22T11:18:57-05:00
 toc: false
-show_comments: true
 ---
 
 **Update:** a newer, slicker version of this function is available at <https://github.com/zwbetz-gh/dotfiles>.

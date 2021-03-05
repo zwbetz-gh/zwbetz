@@ -2,7 +2,6 @@
 title: "Create header links: Hugo vs JavaScript"
 date: 2019-04-11T22:07:22-05:00
 toc: false
-show_comments: true
 ---
 
 **Update:** As of Hugo `v0.62.0` this can now be done with [Markdown Render Hooks](https://gohugo.io/getting-started/configuration-markup/#heading-link-example). Thanks to [@ulab](https://github.com/ulab) for the [heads up](https://github.com/zwbetz-gh/zwbetz/issues/1).

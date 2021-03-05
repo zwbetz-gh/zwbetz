@@ -2,7 +2,6 @@
 title: "Show hidden files in Mac Finder by default"
 date: 2019-10-11T20:55:48-05:00
 toc: false
-show_comments: true
 ---
 
 ## A one-time thing

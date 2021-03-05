@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /script-to-install-latest-hugo-release-on-ubuntu-and-mac/
 toc: false
-show_comments: true
 ---
 
 Running this script will install the latest (non-extended) hugo release. It was originally written for Linux. To make it work for Mac, find/replace occurrences of `Linux` with `macOS`.

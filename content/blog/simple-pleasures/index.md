@@ -7,7 +7,6 @@ aliases:
   - /2018/03/little-pleasures/
   - /2018/03/simple-pleasures/
 toc: false
-show_comments: false
 ---
 
 {{< blockquote author="Laura Ingalls" >}}

@@ -2,7 +2,6 @@
 title: "Naming Environment Variables"
 date: 2021-01-24T20:33:13-06:00
 toc: false
-show_comments: false
 ---
 
 I often go back-and-forth on what to name env vars. Should I put an underscore here? Should I combine these words into one?

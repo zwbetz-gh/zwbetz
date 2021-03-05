@@ -4,7 +4,6 @@ date: 2018-11-02
 publishdate: 2018-11-02
 draft: false
 toc: false
-show_comments: true
 ---
 
 I'm sometimes asked about resources I would recommend for learning how to code. That phrase can mean _a lot_ of things, so pulling from my own experience, here's how I'd narrow it down. Please note that these are my personal recommendations, and are only a _very small_ slice of the "learning to code" pie. 

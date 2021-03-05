@@ -2,7 +2,6 @@
 title: "Set Environment Variables in Your Bash Shell From a .env File"
 date: 2020-07-28T23:13:02-05:00
 toc: false
-show_comments: false
 ---
 
 I experimented with many ways of doing this, but my favorite solution was from this [stackoverflow answer](https://stackoverflow.com/a/20909045/11499871). It keeps the `.env` file syntax clean so that it can be used across projects. Here's a minimal, reproducible example.

@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/optimize-images-and-reduce-page-load-times-with-imagemagick/
 toc: false
-show_comments: true
 ---
 
 **Update:** I now use Hugo's [Image Processing](https://gohugo.io/content-management/image-processing/) feature for image optimization.  

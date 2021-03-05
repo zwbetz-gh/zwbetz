@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/09/quickbooks-windows-desktop-development-docs/
 toc: false
-show_comments: true
 ---
 
 Created a [GitHub repo](https://github.com/zwbetz-gh/qb-win-desktop-dev-docs) with docs and code examples for developing against QuickBooks (QB) Desktop on Windows. It pulls from my experience developing [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/) apps that query from and import data to QB.

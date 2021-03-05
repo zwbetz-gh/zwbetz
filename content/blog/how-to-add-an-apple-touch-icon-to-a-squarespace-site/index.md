@@ -2,7 +2,6 @@
 title: "How to add an Apple Touch Icon to a Squarespace site"
 date: 2020-10-04T22:33:10-05:00
 toc: false
-show_comments: false
 ---
 
 Normally, on say a static site, this would be a matter of uploading files to a server then calling it a day. But, Squarespace makes you jump through hoops. So, documenting this here in case I or someone else has to do this again.

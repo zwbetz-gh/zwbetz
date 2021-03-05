@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/use-grep-to-recursively-search-for-text-for-a-given-file-extension/
 toc: false
-show_comments: true
 ---
 
 Ran into a scenario at work where I needed to search for a piece of text, but only in files with a certain extension, and in all subdirectories (and their subdirectories, and so on). 

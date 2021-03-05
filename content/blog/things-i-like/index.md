@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/03/things-i-like/
 toc: true
-show_comments: false
 ---
 
 A list of things that I like, in no particular order. This is a living document.  

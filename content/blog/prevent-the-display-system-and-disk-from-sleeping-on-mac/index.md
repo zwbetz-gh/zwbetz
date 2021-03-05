@@ -2,7 +2,6 @@
 title: "Prevent the display, system, and disk from sleeping on Mac"
 date: 2020-08-31T19:42:58-05:00
 toc: false
-show_comments: false
 ---
 
 When you step away from your Mac, it can be useful to prevent it from sleeping. Say you want to grab some coffee, but not deal with unlocking your screen and such when you get back. It's as easy as running a quick command.

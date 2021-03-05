@@ -2,7 +2,6 @@
 title: "Change Mac default screenshot save location"
 date: 2019-08-16T15:34:19-05:00
 toc: false
-show_comments: true
 ---
 
 Check the current screenshot save location. It's usually `~/Desktop`

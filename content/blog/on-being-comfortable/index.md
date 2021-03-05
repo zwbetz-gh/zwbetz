@@ -2,7 +2,6 @@
 title: "On being comfortable"
 date: 2019-03-11T14:33:46-05:00
 toc: false
-show_comments: false
 ---
 
 I'm INFJ on the Myers Briggs Type Indicator, and a five on the Enneagram. So if your personality is similar to mine, perhaps the below is useful to you as well.

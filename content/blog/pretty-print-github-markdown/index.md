@@ -2,7 +2,6 @@
 title: "Pretty print Github markdown"
 date: 2019-02-11T15:17:44-06:00
 toc: false
-show_comments: true
 ---
 
 If you want to pretty print your markdown docs in GitHub (GH), and your repo lives on the official github.com, then you can use [gitprint](https://gitprint.com/). But at work our GH is hosted internally, so this gitprint service does not work. 

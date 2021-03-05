@@ -6,7 +6,6 @@ draft: false
 aliases:
 - /2018/09/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/
 toc: true
-show_comments: true
 ---
 
 Many automated functional testing projects these days rely on chromedriver as the main driver. Below are steps for Mac and Windows to download it, add it to your `PATH`, and verify setup. 

@@ -2,7 +2,6 @@
 title: "Bret Weinstein on metaphorical truth"
 date: 2019-02-08T14:01:08-06:00
 toc: false
-show_comments: false
 ---
 
 I recently stumbled upon Dax Shepard's Armchair Expert podcast. His [interview with Bret Weinstein](https://armchairexpertpod.com/pods/bret-weinstein) was very interesting and fun. Just before the 2 hour mark, they get into the topic of _metaphorical truth_. Although I don't fully agree with everything said, it really resonated with me. The following is my lightly paraphrased version of the conversation. 

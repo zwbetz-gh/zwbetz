@@ -2,7 +2,6 @@
 title: "Convert your plain old HTML site to Hugo"
 date: 2019-05-19T20:48:38-05:00
 toc: true
-show_comments: true
 ---
 
 Once you have a grasp of HTML and CSS, we all know how easy it is to throw together a simple site: create your homepage, copy that HTML to other pages, then change the content. This process isn't too bad if your site only has a few pages. But things get out of hand quickly once the number of pages grow.

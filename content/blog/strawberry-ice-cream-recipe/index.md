@@ -2,7 +2,6 @@
 title: "Strawberry ice cream recipe"
 date: 2020-05-26T00:00:00-05:00
 toc: false
-show_comments: false
 ---
 
 ## Ingredients

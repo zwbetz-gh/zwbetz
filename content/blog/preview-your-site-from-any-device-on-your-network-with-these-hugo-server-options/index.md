@@ -2,7 +2,6 @@
 title: "Preview your site from any device on your network with these hugo server options"
 date: 2019-04-23T13:06:04-05:00
 toc: false
-show_comments: true
 ---
 
 When developing your hugo site from your main computer, have you ever wished you could preview it from your phone to see how it looks on a mobile device? Well, you're in luck: it's possible, and can be done with any device connected to your network. Here's the command. 

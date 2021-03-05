@@ -2,7 +2,6 @@
 title: "Install Gradle on Mac"
 date: 2019-10-11T20:58:09-05:00
 toc: false
-show_comments: true
 ---
 
 1. [Install Java]({{< relref "install-java-on-mac" >}}), version 8 or higher

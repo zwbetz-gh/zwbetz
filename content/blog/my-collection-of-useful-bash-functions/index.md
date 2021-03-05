@@ -2,7 +2,6 @@
 title: "My collection of useful bash functions"
 date: 2019-05-30T21:39:48-05:00
 toc: true
-show_comments: true
 ---
 
 **UPDATE:** THIS ARTICLE IS NO LONGER MAINTAINED. My dotfiles now live in git. Please see <https://github.com/zwbetz-gh/dotfiles>.

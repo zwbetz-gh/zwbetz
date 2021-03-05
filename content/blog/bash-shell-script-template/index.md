@@ -2,7 +2,6 @@
 title: "Bash Shell Script Template"
 date: 2020-12-08T19:16:23-06:00
 toc: false
-show_comments: false
 ---
 
 Bash is one of my favorite scripting languages. I often find myself doing a task many times, only to turn it into a shell script for easy usage.

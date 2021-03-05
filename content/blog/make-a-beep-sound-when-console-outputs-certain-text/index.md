@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/09/make-a-beep-sound-when-console-outputs-certain-text/
 toc: false
-show_comments: true
 ---
 
 Originally this was a question posed on the [hugo discussion forums](https://discourse.gohugo.io/t/can-hugo-server-notify-with-audio-on-error/14247). 

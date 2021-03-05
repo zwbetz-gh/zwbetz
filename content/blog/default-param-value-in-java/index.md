@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/default-parameter-values-in-java/
 toc: false
-show_comments: true
 ---
 
 I'm used to C#, so if I want a parameter to have a default value, it can be done like this. 

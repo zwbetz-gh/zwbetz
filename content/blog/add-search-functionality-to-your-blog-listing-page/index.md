@@ -2,7 +2,6 @@
 title: "Add search functionality to your blog listing page"
 date: 2020-06-14T20:22:51-05:00
 toc: false
-show_comments: false
 ---
 
 This is something that I recently added to my [uswds hugo theme](https://github.com/zwbetz-gh/uswds-hugo-theme). I'm documenting it here for others, and to remind myself in the future. Code samples and a demo are below. In a nutshell, here's how it works:

@@ -2,7 +2,6 @@
 title: "Playing With Background Images"
 date: 2020-12-22T22:40:01-06:00
 toc: false
-show_comments: false
 ---
 
 Playing around with CSS background image and filter properties. 

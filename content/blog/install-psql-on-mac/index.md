@@ -2,7 +2,6 @@
 title: "Install Postgres and psql on Mac"
 date: 2019-10-11T20:53:10-05:00
 toc: false
-show_comments: true
 ---
 
 1. Download and install [Postgres.app](https://postgresapp.com/)

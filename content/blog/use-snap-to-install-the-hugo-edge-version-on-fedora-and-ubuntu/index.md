@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /use-snap-to-install-the-hugo-edge-version-on-fedora/
 toc: false
-show_comments: true
 ---
 
 If you are using the Fedora or Ubuntu Linux distributions -- I'm currently on Fedora 28 -- and would like to [help test the latest development version of Hugo](https://discourse.gohugo.io/t/help-test-upcoming-hugo-0-50/14880), or if you just want to be on the bleeding-edge of things, this post is for you. 

@@ -2,7 +2,6 @@
 title: "You cannot selectively numb emotions"
 date: 2019-10-12T14:02:11-05:00
 toc: false
-show_comments: false
 ---
 
 Was listening the Dax Shepard's [interview](https://armchairexpertpod.com/pods/brene-brown) with Brené Brown after one of my friends recommended it to me. They cover many topics -- addiction, vulnerability, political polarization -- to name a few. What really caught my attention, though, was when Brené talked about numbing and its relationship to emotions. That whole concept hits home for me and the snippet was too good not to transcribe. So, enjoy. 

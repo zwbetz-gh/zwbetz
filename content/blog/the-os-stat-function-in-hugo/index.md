@@ -4,7 +4,6 @@ date: 2018-10-29T14:53:11-05:00
 publishdate: 2018-10-29
 draft: false
 toc: false
-show_comments: true
 ---
 
 The `os.Stat` function in Hugo ([see the docs](https://gohugo.io/functions/os.stat/)) is useful for getting info on a file. 

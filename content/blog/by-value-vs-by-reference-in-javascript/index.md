@@ -2,7 +2,6 @@
 title: "By value vs by reference in JavaScript"
 date: 2020-02-25T00:00:00-05:00
 toc: false
-show_comments: false
 ---
 
 Was having a fun debate with my cubicle mate the other day on what happens when you declare a variable with `const` and then assign its value to something else. I said that a plain assignment would copy it by reference, not by value. My words only go so far, so had to whip up a quick example. Maybe you knew this already about JavaScript, but if not, TYL (today you learned?).

@@ -2,7 +2,6 @@
 title: "Attention Is My Most Valuable Asset for Productivity as a Software Developer"
 date: 2020-11-08T20:14:26-06:00
 toc: false
-show_comments: false
 ---
 
 _**Note:** According to my analytics dashboard, this article has made the rounds. The comments have been fun to read, and while I won't address them all, I will say this... What I hope readers take away, is to realize just how interrupted and distraction-ridden their day may be, and that it doesn't have to be that way, that you can improve it. Given that, these methods to guard your attention have worked for me, with "me" being the key word. So, take what's useful for you, and discard the rest. Enjoy._

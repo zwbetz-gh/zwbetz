@@ -4,7 +4,6 @@ date: 2018-12-10T10:36:54-06:00
 publishdate: 2018-12-10
 draft: false
 toc: true
-show_comments: true
 ---
 
 If you have a basic understanding of Java, or any other C-like language, then this post will ease you into Hugo's Go Templates syntax. 

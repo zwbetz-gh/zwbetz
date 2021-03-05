@@ -2,7 +2,6 @@
 title: "Simon Sinek on Performance vs Trust"
 date: 2021-02-14T21:59:45-06:00
 toc: false
-show_comments: false
 ---
 
 There are more factors that go into choosing a Navy Seal than just performance vs trust. But I get what Simon is saying, and it's true for me personally: I would rather work with a _high trust & medium performance_ leader, than a _medium trust & high performance_ leader.

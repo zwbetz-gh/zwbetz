@@ -2,7 +2,6 @@
 title: "How to find a used TCP port and kill the associated process on your Mac"
 date: 2019-01-30T14:34:44-06:00
 toc: false
-show_comments: true
 ---
 
 Sometimes the port you need is already used by another process. To find the offending process:

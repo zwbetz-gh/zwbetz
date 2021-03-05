@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/keeping-my-iphone-6-alive-without-replacing-the-battery/
 toc: false
-show_comments: true
 ---
 
 If you have an older generation iPhone, you've likely felt the effects of a lithium-ion battery nearing the end of its lifespan. If you've update to iOS 11.3 or higher, apple enables "performance management". 

@@ -2,7 +2,6 @@
 title: "One constructive criticism, one good thing"
 date: 2019-01-03T22:33:14-06:00
 toc: false
-show_comments: true
 ---
 
 Once in a blue moon, we play this game. It usually goes by the name "one bad thing, one good thing". The "bad" thing is more of a constructive criticism. The idea is to give the other person something they can realistically work on. Each person gets a chance in the hot-seat, while the others take turns offering words. 

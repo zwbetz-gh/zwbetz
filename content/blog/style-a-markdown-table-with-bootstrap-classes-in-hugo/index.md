@@ -4,7 +4,6 @@ date: 2018-12-12T12:47:56-06:00
 publishdate: 2018-12-12
 draft: false
 toc: false
-show_comments: true
 ---
 
 Inspired by [this discussion](https://discourse.gohugo.io/t/how-to-customise-tables/15661/), I wanted the ability to style a markdown table with [Bootstrap table classes](https://getbootstrap.com/docs/4.1/content/tables/). In the past, I've accomplished this by [defining the table in a data file]({{< relref "create-an-html-table-from-a-toml-data-file-in-hugo" >}}), then building it with a shortcode. 

@@ -2,7 +2,6 @@
 title: "Cold pasta salad recipe"
 date: 2020-04-11T21:01:49-05:00
 toc: false
-show_comments: false
 ---
 
 We got this recipe from my parents. They got it from my dad's mom, Mawmaw Betty. I can easily eat four helpings of this stuff in one sitting.

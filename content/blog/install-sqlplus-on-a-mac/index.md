@@ -2,7 +2,6 @@
 title: "Install SQL*Plus on a Mac"
 date: 2019-06-07T13:06:55-05:00
 toc: true
-show_comments: true
 ---
 
 Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}}).

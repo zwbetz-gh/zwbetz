@@ -4,7 +4,6 @@ date: 2018-11-12T22:54:47-06:00
 publishdate: 2018-11-12
 draft: false
 toc: false
-show_comments: true
 ---
 
 This post was inspired by a recent Hugo [discussion](https://discourse.gohugo.io/t/how-to-create-tables-more-simpler-without-markdown/15254). In a nutshell: instead of writing the table in markdown, the user wanted to build the table from a TOML data file. Below is _one_ way to solve this. 

@@ -2,7 +2,6 @@
 title: "Change Terminal prompt on Mac"
 date: 2019-10-19T14:16:00-05:00
 toc: false
-show_comments: true
 ---
 
 Your Terminal prompt is controlled via the `PS1` Bash environment variable . It's initially defined in `/etc/bashrc`, and its default value is:

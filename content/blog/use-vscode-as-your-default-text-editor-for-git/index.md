@@ -4,7 +4,6 @@ date: 2018-10-24T14:49:17-05:00
 publishdate: 2018-10-24
 draft: false
 toc: false
-show_comments: true
 ---
 
 Single-line commit messages in git are easy from the command line:

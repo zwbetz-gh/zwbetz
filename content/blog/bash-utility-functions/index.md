@@ -2,7 +2,6 @@
 title: "Bash utility functions"
 date: 2019-03-18T14:31:08-05:00
 toc: false
-show_comments: true
 ---
 
 **Update:** this article is no longer maintained. My dotfiles now live in git. Please see <https://github.com/zwbetz-gh/dotfiles>.

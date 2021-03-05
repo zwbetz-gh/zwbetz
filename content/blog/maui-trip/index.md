@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/maui-trip/
 toc: false
-show_comments: false
 ---
 
 My wife and I went to Maui in March of 2017 and I've been meaning to write about it ever since. The landscapes there are just gorgeous. If you ever get a chance to go, here are some of our favorite things to do. 

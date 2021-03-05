@@ -4,7 +4,6 @@ date: 2018-10-13T00:13:49-05:00
 publishdate: 2018-10-13
 draft: false
 toc: false
-show_comments: false
 ---
 
 {{< blockquote author="Henry Ward Beecher" >}}

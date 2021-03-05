@@ -2,7 +2,6 @@
 title: "Deploy a site to GitHub Pages"
 date: 2020-10-11T22:12:49-05:00
 toc: false
-show_comments: false
 ---
 
 GitHub has a cool feature called GitHub Pages. It's basically free web hosting for your repo. Your site is served from branch `gh-pages`. And the url becomes `https://USER_NAME.github.io/REPO_NAME/`

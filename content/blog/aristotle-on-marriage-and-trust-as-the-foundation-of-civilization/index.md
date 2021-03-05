@@ -2,7 +2,6 @@
 title: "Aristotle on marriage and trust as the foundation of civilization"
 date: 2019-09-01T21:43:55-05:00
 toc: false
-show_comments: true
 ---
 
 I was listening to the AoM podcast [#515: Aristotle’s Wisdom on Living the Good Life](https://www.artofmanliness.com/articles/aristotle-living-the-good-life/), and heard a bit that's stuck with me all this week. It's too good not to write down. 

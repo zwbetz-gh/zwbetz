@@ -2,7 +2,6 @@
 title: "Install NodeJS and NPM on Mac"
 date: 2019-10-19T23:34:33-05:00
 toc: false
-show_comments: true
 ---
 
 This will install `node v10.16.3` and `npm v6.9.0`.

@@ -2,7 +2,6 @@
 title: "Those People Who Answer Your Question as a Gift"
 date: 2021-01-10T13:54:10-06:00
 toc: false
-show_comments: false
 ---
 
 The following is an excerpt from [The Stack Overflow Podcast](https://the-stack-overflow-podcast.simplecast.com/episodes/welcome-to-2021-with-special-guest-joel-spolsky/transcript) where Joel Spolsky talks about Stack Overflow as a Gift Economy (among other things).

@@ -2,7 +2,6 @@
 title: "Show and Hide Lines of Text via CSS Line Clamping"
 date: 2020-12-03T19:36:15-06:00
 toc: false
-show_comments: false
 ---
 
 I had to implement a clamp-and-expand feature recently. If you do an internet search for how to do this, the results are sparse, and there seems to be no standard way.

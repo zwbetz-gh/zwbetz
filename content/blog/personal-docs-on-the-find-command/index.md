@@ -7,7 +7,6 @@ aliases:
   - /2018/09/brief-documentation-on-the-unix-find-command/
   - /2018/09/personal-docs-on-the-find-command/
 toc: false
-show_comments: true
 ---
 
 `find` command options that I care about.

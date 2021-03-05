@@ -2,7 +2,6 @@
 title: "Recursively rename file extensions with a Bash script"
 date: 2019-06-12T12:59:22-05:00
 toc: false
-show_comments: true
 ---
 
 I was recently [helping](https://discourse.gohugo.io/t/rendering-code-blocks-properly-from-md-files/19126/3?u=zwbetz) a Hugo user rename all their content files from `.md` to `.mmark`. Posting it here since it's useful for more than just Hugo projects. 

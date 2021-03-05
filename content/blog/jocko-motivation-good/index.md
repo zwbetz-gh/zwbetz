@@ -2,7 +2,6 @@
 title: "Jocko motivation: Good"
 date: 2020-07-20T20:55:52-05:00
 toc: false
-show_comments: false
 ---
 
 My brother-in-law shared this [Jocko motivation video](https://youtu.be/IdTMDpizis8) with me the other day. **Warning:** be careful listening to it, it'll get you all jacked up. Transcription below.

@@ -4,7 +4,6 @@ date: 2018-11-27T11:35:43-06:00
 publishdate: 2018-11-27
 draft: false
 toc: false
-show_comments: true
 ---
 
 Hugo's `.File` variables ([see the docs](https://gohugo.io/variables/files/)) are useful for getting filesystem data on your content files. 

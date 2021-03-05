@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/09/autodial-a-phone-extension-on-ios/
 toc: false
-show_comments: true
 ---
 
 For lines that you often call into, e.g. Daily Standup, it can be annoying to type the extension each time. Fortunately, there is a way to automate this.

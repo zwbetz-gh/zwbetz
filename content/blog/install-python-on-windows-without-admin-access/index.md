@@ -2,7 +2,6 @@
 title: "Install Python on Windows without Admin access"
 date: 2020-07-13T22:08:50-05:00
 toc: false
-show_comments: false
 ---
 
 Sometimes you need to install developer tools on a Windows machine, but you don't have Admin access. How to get around this, you say? Well, instead of running an installer, you download the binaries you need then add them to your `PATH`.

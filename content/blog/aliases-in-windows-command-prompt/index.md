@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/03/aliases-in-windows-command-prompt/
 toc: false
-show_comments: true
 ---
 
 Unix-like operating systems make it easy to add command aliases, e.g. adding a line to `.bashrc`, `.bash_profile`, or `.bash_aliases`. But what about Windows command prompt users?

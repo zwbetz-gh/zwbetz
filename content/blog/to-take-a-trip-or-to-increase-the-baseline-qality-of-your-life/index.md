@@ -7,7 +7,6 @@ aliases:
   - /2018/09/to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life/
   - /2018/09/to-take-a-trip-or-to-increase-the-baseline-quality-of-your-life/
 toc: false
-show_comments: false
 ---
 
 The irony of this post is that I am writing it while on a trip. Yet I think it’s one of those ideas that only strikes you once you’ve walked the grass on both sides of the fence. 

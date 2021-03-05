@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/09/a-minimal-hugo-blog-layout/
 toc: false
-show_comments: true
 ---
 
 I created a minimal hugo blog layout for general use. Although it uses only a subset of the features that hugo offers, it's a good "starting point". It has no CSS styling -- read the [hugo docs](https://gohugo.io/documentation/) and add your own styling to make this look how you want.

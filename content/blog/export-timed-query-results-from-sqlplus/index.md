@@ -2,7 +2,6 @@
 title: "Export timed query results from SQL*Plus"
 date: 2019-01-15T22:10:59-06:00
 toc: false
-show_comments: true
 ---
 
 At work, we have to SSH into an ubuntu box in order to run queries. Since this box has no GUI, all work must be done through command line and SQL*Plus. 

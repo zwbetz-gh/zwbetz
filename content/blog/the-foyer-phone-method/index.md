@@ -2,7 +2,6 @@
 title: "The foyer phone method"
 date: 2019-03-22T15:41:12-05:00
 toc: false
-show_comments: false
 ---
 
 If you've never read Cal Newport's blog, you're missing out -- his content is just plain meaningful to my life (and likely yours). The following excerpt is from his blog post on [Digital Minimalism for Parents](http://calnewport.com/blog/2019/03/01/digital-minimalism-for-parents/). I do something similar to the "foyer phone method", but instead of leaving it in the foyer, I leave it in the car until my wife and I put our son down for bed. It's crazy how much mental energy is freed up when you're not worried about checking your phone. It makes those little conversations and moments all the more enjoyable. 

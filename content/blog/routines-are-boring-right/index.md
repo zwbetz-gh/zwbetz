@@ -4,7 +4,6 @@ date: 2019-04-24T21:26:52-05:00
 aliases:
   - /routines-are-dumb-right/
 toc: false
-show_comments: true
 ---
 
 Growing up, I thought people with routines were silly. Why would you script so much of your life away? Where is the fun if you always know what you're gonna do? Who doesn't love a little chaos, right? 

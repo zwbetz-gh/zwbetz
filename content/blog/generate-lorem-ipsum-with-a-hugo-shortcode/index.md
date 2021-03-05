@@ -4,7 +4,6 @@ date: 2018-12-03T21:34:26-06:00
 publishdate: 2018-12-02
 draft: false
 toc: false
-show_comments: true
 ---
 
 Inspired by this [discussion](https://discourse.gohugo.io/t/lorem-ipsum-shortcode-for-hugo/15604), I thought it'd be useful to generate Lorem Ipsum with a Hugo shortcode. 

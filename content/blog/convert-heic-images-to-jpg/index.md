@@ -4,7 +4,6 @@ date: 2018-12-06T00:03:20-06:00
 publishdate: 2018-12-06
 draft: false
 toc: false
-show_comments: true
 ---
 
 My wife needed to upload a couple hundred pictures, from her Mac, to an online service that makes photo albums. The service didn't accept images with the `.heic` extension, so she needed to convert them to `.jpg`. This would take _many hours_ to do one-by-one, so thankfully ImageMagick supports conversion of HEIC images. Here's how to do it. 

@@ -2,7 +2,6 @@
 title: "Install Docker and Docker Compose on Mac"
 date: 2019-10-28T20:24:04-05:00
 toc: false
-show_comments: false
 ---
 
 1. Download the latest `Docker.dmg` [directly](https://download.docker.com/mac/stable/Docker.dmg), without having to create an account and sign in

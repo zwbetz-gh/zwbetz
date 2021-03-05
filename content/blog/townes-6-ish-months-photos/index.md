@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/townes-6-ish-month-photos/
 toc: false
-show_comments: false
 ---
 
 Townes (or Townes-man as we like to call him) had his 6 month pics recently. Well he was 7 months at the time, but you know how it goes. Millie makes an appearance too. 

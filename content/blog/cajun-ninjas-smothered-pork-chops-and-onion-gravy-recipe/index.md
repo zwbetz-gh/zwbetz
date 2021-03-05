@@ -2,7 +2,6 @@
 title: "Cajun Ninja's smothered pork chops and onion gravy recipe"
 date: 2019-09-15T20:42:20-05:00
 toc: false
-show_comments: false
 ---
 
 _This is not my recipe._ It's [Cajun Ninja's](https://youtu.be/grncwJnydzg). Only posting it here so that I don't have to read a youtube comment for it :)

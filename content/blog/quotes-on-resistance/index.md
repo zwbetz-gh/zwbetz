@@ -7,7 +7,6 @@ aliases:
   - /2018/08/what-emerson-nietzsche-lewis-and-peterson-knew/
   - /what-emerson-nietzsche-lewis-and-peterson-knew/
 toc: false
-show_comments: false
 ---
 
 {{< blockquote author="Ralph Waldo Emerson, 1803-1882" >}}

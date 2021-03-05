@@ -4,7 +4,6 @@ date: 2018-12-30T21:40:38-06:00
 publishdate: 2019-01-13
 draft: false
 toc: true
-show_comments: true
 ---
 
 In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/quick-start/) is ample. It does just what the name says, _gets you started you quickly_.

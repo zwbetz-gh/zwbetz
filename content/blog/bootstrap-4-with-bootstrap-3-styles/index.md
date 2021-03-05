@@ -7,7 +7,6 @@ aliases:
   - /2018/03/bootstrap-4-with-bootstrap-3-styles/
   - /2018/03/bootstrap-4-with-bootstrap-3-code-styles/
 toc: false
-show_comments: true
 ---
 
 I recently moved this site to [Bootstrap 4](https://getbootstrap.com/docs/4.0/content/code/). Some of my favorite things about v4: `margin-top` is avoided, `margin-bottom` uses `rem` instead of `px`, a native font stack is used, and base `font-size` is 16px (a good thing for mobile readers, and accessibility). I feel the typography in v4 is better spaced and the text can "breathe".

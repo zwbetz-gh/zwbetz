@@ -2,7 +2,6 @@
 title: "There is a richness and complexity that is completely inexhaustible right at hand"
 date: 2020-07-20T22:02:02-05:00
 toc: false
-show_comments: false
 ---
 
 The following is an excerpt from a [Jordan Peterson lecture](https://www.youtube.com/watch?v=6gFjB9FTN58&feature=youtu.be&t=479).

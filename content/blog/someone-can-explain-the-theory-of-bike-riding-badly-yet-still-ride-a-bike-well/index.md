@@ -2,7 +2,6 @@
 title: "Someone can explain the theory of bike riding badly, yet still ride a bike well"
 date: 2019-10-21T20:45:45-05:00
 toc: false
-show_comments: false
 ---
 
 In an excerpt from his book _Antifragile_, Nassim Nicholas Taleb lays out a conversation between Fat Tony and Socrates. My gut reaction when reading this was to defend Socrates. But after a few reads this gem soaked in: **a person can know a thing well, and still explain it badly in words**.

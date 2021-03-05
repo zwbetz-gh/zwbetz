@@ -2,7 +2,6 @@
 title: "JB's fried fish recipe"
 date: 2019-07-05T22:48:11-05:00
 toc: false
-show_comments: false
 aliases:
   - /jbs-fried-fish/
 ---

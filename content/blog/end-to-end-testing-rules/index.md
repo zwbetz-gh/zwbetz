@@ -2,7 +2,6 @@
 title: "End-to-End (e2e) Testing Rules"
 date: 2021-02-23T22:15:56-06:00
 toc: true
-show_comments: false
 ---
 
 e2e testing projects have gained a sad reputation over the years. They're known to be slow, flaky, and time-consuming.

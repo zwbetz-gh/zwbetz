@@ -2,7 +2,6 @@
 title: "Generate a random string in Hugo"
 date: 2020-06-17T22:58:08-05:00
 toc: false
-show_comments: false
 ---
 
 I recently fixed an [issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36) where I needed to generate a random string. The string had to be random, even if given the same input seed. 

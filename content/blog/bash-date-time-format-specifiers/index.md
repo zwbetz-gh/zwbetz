@@ -2,7 +2,6 @@
 title: "Bash date time format specifiers"
 date: 2019-05-21T23:04:33-05:00
 toc: false
-show_comments: true
 ---
 
 Given the following bash date, here's what each [specifier](http://man7.org/linux/man-pages/man1/date.1.html) will do. 

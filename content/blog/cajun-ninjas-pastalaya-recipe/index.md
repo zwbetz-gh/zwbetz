@@ -2,7 +2,6 @@
 title: "Cajun Ninja's pastalaya recipe"
 date: 2020-04-28T21:14:09-05:00
 toc: false
-show_comments: false
 ---
 
 This is not my recipe, it's [Cajun Ninja's](https://www.youtube.com/watch?v=X5YR9pGxH0E). Transcribing and tweaking it for archival purposes. It's a keeper.

@@ -4,7 +4,6 @@ date: 2018-10-24T13:02:52-05:00
 publishdate: 2018-10-24
 draft: false
 toc: false
-show_comments: true
 ---
 
 Does your freshly created VirtualBox Fedora Linux VM feel slow? Mine sure did. After much trial and error over many days, the following steps worked for me to speed things up. 

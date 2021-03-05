@@ -2,7 +2,6 @@
 title: "NightwatchJS Template"
 date: 2020-08-28T22:37:24-05:00
 toc: false
-show_comments: false
 ---
 
 The following are README excerpts from a repo I've been working on. If you do end-to-end testing on your project, check it out, it's a good resource. And, I'm quite happy with it.

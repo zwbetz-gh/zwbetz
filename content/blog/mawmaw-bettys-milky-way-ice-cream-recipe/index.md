@@ -8,7 +8,6 @@ aliases:
   - /2018/09/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/
   - /mawmaw-bettys-homemade-milky-way-ice-cream-recipe/
 toc: false
-show_comments: false
 ---
 
 This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad made this growing up. We've experimented with different candy bars over the years. My wife likes it with Butterfingers or Reese's. But I think Milky Ways still taste best. 

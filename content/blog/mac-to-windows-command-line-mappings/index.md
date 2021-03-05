@@ -7,7 +7,6 @@ aliases:
   - /2018/09/mac-and-linux-to-windows-command-line-mappings/
   - /mac-and-linux-to-windows-command-line-mappings/
 toc: true
-show_comments: true
 ---
 
 Until late 2018, I'd been a Windows guy most of my life. Then a new project at work required everyone to get Macs, so it was time to learn. This post is basically a "note to self" for command syntax when switching back-n-forth. 

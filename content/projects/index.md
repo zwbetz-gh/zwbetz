@@ -2,7 +2,6 @@
 title: "Projects"
 date: 2021-01-18T13:05:50-06:00
 toc: false
-show_comments: false
 ---
 
 ## Hugo Themes

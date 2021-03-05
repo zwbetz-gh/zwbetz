@@ -2,7 +2,6 @@
 title: "Open a new Google Chrome tab (or window) via command line on Mac"
 date: 2019-09-16T20:34:33-05:00
 toc: false
-show_comments: true
 ---
 
 Ever been in your terminal and wanted to open a new chrome tab (or window), without actually switching to chrome? Well, it's possible. Checkout these examples:

@@ -4,7 +4,6 @@ date: 2018-10-24T22:58:24-05:00
 publishdate: 2018-10-25
 draft: false
 toc: false
-show_comments: true
 ---
 
 The idea originally came from this [hugo discussion forum post](https://discourse.gohugo.io/t/help-test-upcoming-hugo-0-50/14880). 

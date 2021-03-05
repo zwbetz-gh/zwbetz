@@ -2,7 +2,6 @@
 title: "Wait for an element to be enabled in NightwatchJS"
 date: 2020-07-16T13:31:21-05:00
 toc: false
-show_comments: false
 ---
 
 In NightwatchJS, you can wait for an element to be [present](https://nightwatchjs.org/api/commands/#waitForElementPresent), or to be [visible](https://nightwatchjs.org/api/commands/#waitForElementVisible). But there is no built-in command to wait for an element to be enabled. Luckily, this can be done by using the `:enabled` CSS pseudo-class, see [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled).
