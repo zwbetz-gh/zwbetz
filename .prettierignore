@@ -1,0 +1,8 @@
+*.html
+*.md
+*.yaml
+node_modules/
+public/
+resources/
+static/
+themes/

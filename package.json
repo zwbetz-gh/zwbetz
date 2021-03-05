@@ -1,0 +1,20 @@
+{
+  "name": "zwbetz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwbetz-gh/zwbetz.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwbetz-gh/zwbetz/issues"
+  },
+  "homepage": "https://github.com/zwbetz-gh/zwbetz#readme",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}

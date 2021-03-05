@@ -1,4 +1,7 @@
 # Hugo
-/public/
-/resources/
+public/
+resources/
 .DS_Store
+
+# Node
+node_modules/
