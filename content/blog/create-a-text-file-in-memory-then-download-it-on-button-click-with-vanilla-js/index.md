@@ -22,7 +22,7 @@ JS:
    *
    * @param filename The filename that the file will download as
    * @param contents The file contents
-   * @param mimeType The MIME type. Defaults to 'text/csv'
+   * @param mimeType The MIME type
    */
   const download = (filename, contents, mimeType = 'text/plain') => {
     const blob = new Blob([contents], {type: mimeType});
