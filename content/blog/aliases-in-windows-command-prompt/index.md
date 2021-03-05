@@ -5,7 +5,6 @@ publishdate: 2018-03-13
 draft: false
 aliases:
   - /2018/03/aliases-in-windows-command-prompt/
-tags: ["command-line", "windows"]
 toc: false
 show_comments: true
 ---

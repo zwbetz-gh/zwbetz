@@ -1,7 +1,6 @@
 ---
 title: "Fix the White Flash on Page Load When Using a Dark Theme on a Static Site"
 date: 2021-01-17T19:24:27-06:00
-tags: []
 toc: false
 show_comments: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Use Extra Properties to Consolidate Dependency Versions in Your build.gradle File"
 date: 2021-01-24T20:46:03-06:00
-tags: []
 toc: false
 show_comments: false
 ---

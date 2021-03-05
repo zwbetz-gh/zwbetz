@@ -3,7 +3,6 @@ title: "Quotes on endurance"
 date: 2018-10-13T00:13:49-05:00
 publishdate: 2018-10-13
 draft: false
-tags: ["life", "quotes"]
 toc: false
 show_comments: false
 ---

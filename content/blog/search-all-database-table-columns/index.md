@@ -1,7 +1,6 @@
 ---
 title: "Search all database table columns"
 date: 2019-08-16T15:29:14-05:00
-tags: [sql, oracle, postgresql]
 toc: false
 show_comments: true
 ---

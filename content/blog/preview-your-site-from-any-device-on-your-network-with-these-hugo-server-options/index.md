@@ -1,7 +1,6 @@
 ---
 title: "Preview your site from any device on your network with these hugo server options"
 date: 2019-04-23T13:06:04-05:00
-tags: [hugo, networking]
 toc: false
 show_comments: true
 ---

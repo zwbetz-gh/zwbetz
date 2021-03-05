@@ -1,7 +1,6 @@
 ---
 title: "Convert a PDF file to PNG or JPG with Imagemagick on Mac"
 date: 2020-02-10T21:30:43-06:00
-tags: [command-line, mac, imagemagick, pdf, png, jpg]
 toc: false
 show_comments: false
 ---

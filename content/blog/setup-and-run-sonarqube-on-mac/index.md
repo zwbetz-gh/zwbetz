@@ -1,7 +1,6 @@
 ---
 title: "Setup and run SonarQube on Mac"
 date: 2020-08-31T19:59:10-05:00
-tags: [mac, java, gradle, bash]
 toc: true
 show_comments: false
 ---

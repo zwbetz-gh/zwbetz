@@ -5,7 +5,6 @@ publishdate: 2018-09-16
 draft: false
 aliases:
   - /2018/09/a-minimal-hugo-blog-layout/
-tags: ["hugo"]
 toc: false
 show_comments: true
 ---

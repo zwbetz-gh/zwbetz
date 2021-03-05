@@ -1,7 +1,6 @@
 ---
 title: "Open a new Google Chrome tab (or window) via command line on Mac"
 date: 2019-09-16T20:34:33-05:00
-tags: [mac, command-line, chrome]
 toc: false
 show_comments: true
 ---

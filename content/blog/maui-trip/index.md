@@ -5,7 +5,6 @@ publishdate: 2018-09-17
 draft: false
 aliases:
   - /2018/08/maui-trip/
-tags: ["travel"]
 toc: false
 show_comments: false
 ---

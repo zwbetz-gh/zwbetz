@@ -1,7 +1,6 @@
 ---
 title: "The Microsoft Console Colortool"
 date: 2019-03-26T15:57:02-05:00
-tags: [command-line, windows]
 toc: false
 show_comments: true
 ---

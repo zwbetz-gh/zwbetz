@@ -1,7 +1,6 @@
 ---
 title: "2021-01-16 Assorted Links"
 date: 2021-01-16T20:40:03-06:00
-tags: []
 toc: false
 show_comments: false
 ---

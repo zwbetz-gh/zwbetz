@@ -1,7 +1,6 @@
 ---
 title: "Install Ruby Version Manager (RVM) on Mac"
 date: 2019-10-19T23:37:06-05:00
-tags: [mac, ruby, rvm, command-line]
 toc: false
 show_comments: true
 ---

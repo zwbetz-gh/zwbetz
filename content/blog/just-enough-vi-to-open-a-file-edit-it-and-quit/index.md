@@ -5,7 +5,6 @@ publishdate: 2018-09-19
 draft: false
 aliases:
   - /2018/09/just-enough-vi-to-open-a-file-edit-it-and-quit/
-tags: ["vi", "command-line"]
 toc: false
 show_comments: true
 ---

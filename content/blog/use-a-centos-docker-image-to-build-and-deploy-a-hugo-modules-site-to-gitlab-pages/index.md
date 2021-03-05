@@ -1,7 +1,6 @@
 ---
 title: "Use a CentOS Docker Image to Build and Deploy a Hugo (Modules) Site to GitLab Pages"
 date: 2020-12-22T13:29:09-06:00
-tags: []
 toc: false
 show_comments: false
 ---

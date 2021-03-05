@@ -1,7 +1,6 @@
 ---
 title: "Bash Shell Script Template"
 date: 2020-12-08T19:16:23-06:00
-tags: []
 toc: false
 show_comments: false
 ---

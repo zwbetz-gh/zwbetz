@@ -1,7 +1,6 @@
 ---
 title: "Log docker stats to a file"
 date: 2019-10-01T00:10:13-05:00
-tags: [docker, command-line]
 toc: false
 show_comments: true
 ---

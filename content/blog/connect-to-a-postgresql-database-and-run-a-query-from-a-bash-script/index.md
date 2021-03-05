@@ -1,7 +1,6 @@
 ---
 title: "Connect to a Postgresql database and run a query from a Bash script"
 date: 2019-06-07T13:10:14-05:00
-tags: [postgresql, sql, command-line]
 toc: false
 show_comments: true
 ---

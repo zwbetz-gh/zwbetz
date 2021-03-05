@@ -6,7 +6,6 @@ draft: false
 aliases: 
   - /2018/03/bootstrap-4-with-bootstrap-3-styles/
   - /2018/03/bootstrap-4-with-bootstrap-3-code-styles/
-tags: ["css", "bootstrap"]
 toc: false
 show_comments: true
 ---

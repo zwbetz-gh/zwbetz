@@ -1,7 +1,6 @@
 ---
 title: "Snippets From the Book Clean Code"
 date: 2020-12-01T21:26:46-06:00
-tags: []
 toc: true
 show_comments: false
 draft: false

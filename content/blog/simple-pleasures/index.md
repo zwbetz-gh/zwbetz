@@ -6,7 +6,6 @@ draft: false
 aliases: 
   - /2018/03/little-pleasures/
   - /2018/03/simple-pleasures/
-tags: ["life"]
 toc: false
 show_comments: false
 ---

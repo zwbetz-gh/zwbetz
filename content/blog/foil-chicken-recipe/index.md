@@ -1,7 +1,6 @@
 ---
 title: "Foil Chicken Recipe"
 date: 2021-01-15T21:25:27-06:00
-tags: []
 toc: false
 show_comments: false
 ---

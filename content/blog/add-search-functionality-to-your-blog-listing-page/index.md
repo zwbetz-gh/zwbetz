@@ -1,7 +1,6 @@
 ---
 title: "Add search functionality to your blog listing page"
 date: 2020-06-14T20:22:51-05:00
-tags: [javascript, search]
 toc: false
 show_comments: false
 ---

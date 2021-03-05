@@ -5,7 +5,6 @@ publishdate: 2018-09-21
 draft: false
 aliases:
   - /2018/09/quickbooks-windows-desktop-development-docs/
-tags: ["windows", "quickbooks", "c-sharp"]
 toc: false
 show_comments: true
 ---

@@ -1,7 +1,6 @@
 ---
 title: "One constructive criticism, one good thing"
 date: 2019-01-03T22:33:14-06:00
-tags: [life]
 toc: false
 show_comments: true
 ---

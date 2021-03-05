@@ -1,7 +1,6 @@
 ---
 title: "How to add an Apple Touch Icon to a Squarespace site"
 date: 2020-10-04T22:33:10-05:00
-tags: [apple, icon, squarespace]
 toc: false
 show_comments: false
 ---

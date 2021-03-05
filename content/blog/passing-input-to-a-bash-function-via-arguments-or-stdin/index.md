@@ -1,7 +1,6 @@
 ---
 title: "Passing input to a Bash function via arguments or stdin"
 date: 2019-06-29T10:44:58-05:00
-tags: [command-line]
 toc: false
 show_comments: true
 ---

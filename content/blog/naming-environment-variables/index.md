@@ -1,7 +1,6 @@
 ---
 title: "Naming Environment Variables"
 date: 2021-01-24T20:33:13-06:00
-tags: []
 toc: false
 show_comments: false
 ---

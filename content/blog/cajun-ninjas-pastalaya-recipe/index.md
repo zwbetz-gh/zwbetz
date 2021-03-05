@@ -1,7 +1,6 @@
 ---
 title: "Cajun Ninja's pastalaya recipe"
 date: 2020-04-28T21:14:09-05:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

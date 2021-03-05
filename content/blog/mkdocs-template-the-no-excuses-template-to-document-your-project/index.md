@@ -1,7 +1,6 @@
 ---
 title: "Mkdocs Template: The No-Excuses Template to Document Your Project"
 date: 2020-12-12T16:04:48-06:00
-tags: []
 toc: false
 show_comments: false
 ---

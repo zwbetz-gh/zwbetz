@@ -1,7 +1,6 @@
 ---
 title: "Rebuild your Docker Compose stack"
 date: 2020-10-06T21:17:47-05:00
-tags: [docker, docker-compose]
 toc: false
 show_comments: false
 ---

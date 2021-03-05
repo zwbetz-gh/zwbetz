@@ -1,7 +1,6 @@
 ---
 title: "Recursively rename file extensions with a Bash script"
 date: 2019-06-12T12:59:22-05:00
-tags: [command-line, hugo]
 toc: false
 show_comments: true
 ---

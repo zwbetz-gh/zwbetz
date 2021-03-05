@@ -3,7 +3,6 @@ title: "Resources for learning to code"
 date: 2018-11-02
 publishdate: 2018-11-02
 draft: false
-tags: ["html", "css", "javascript", "command-line", "git", "hugo", "c-sharp", "java", "ruby", "sql", "jenkins", "docker"]
 toc: false
 show_comments: true
 ---

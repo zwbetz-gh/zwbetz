@@ -1,7 +1,6 @@
 ---
 title: "Cold pasta salad recipe"
 date: 2020-04-11T21:01:49-05:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

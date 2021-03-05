@@ -1,7 +1,6 @@
 ---
 title: "Install NodeJS and NPM on Mac"
 date: 2019-10-19T23:34:33-05:00
-tags: [mac, nodejs, npm, command-line]
 toc: false
 show_comments: true
 ---

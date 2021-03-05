@@ -3,7 +3,6 @@ title: "Barbell training to get me through the day"
 date: 2018-10-08T13:28:32-05:00
 publishdate: 2018-10-08
 draft: false
-tags: ["life", "strength-training"]
 toc: false
 show_comments: false
 ---

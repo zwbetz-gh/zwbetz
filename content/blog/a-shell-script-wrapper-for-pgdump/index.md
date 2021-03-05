@@ -1,7 +1,6 @@
 ---
 title: "A Shell Script Wrapper for pg_dump"
 date: 2021-02-09T21:54:51-06:00
-tags: []
 toc: false
 show_comments: false
 ---

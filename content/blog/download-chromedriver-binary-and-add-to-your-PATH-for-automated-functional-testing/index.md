@@ -5,7 +5,6 @@ publishdate: 2018-09-19
 draft: false
 aliases:
 - /2018/09/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/
-tags: ["chromedriver", "command-line", "selenium", "mac", "windows"]
 toc: true
 show_comments: true
 ---

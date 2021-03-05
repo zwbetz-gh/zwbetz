@@ -3,7 +3,6 @@ title: "File variables in Hugo"
 date: 2018-11-27T11:35:43-06:00
 publishdate: 2018-11-27
 draft: false
-tags: ["hugo"]
 toc: false
 show_comments: true
 ---

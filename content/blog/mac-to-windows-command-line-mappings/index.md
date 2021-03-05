@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/09/mac-and-linux-to-windows-command-line-mappings/
   - /mac-and-linux-to-windows-command-line-mappings/
-tags: ["command-line", "mac", "windows", "linux"]
 toc: true
 show_comments: true
 ---

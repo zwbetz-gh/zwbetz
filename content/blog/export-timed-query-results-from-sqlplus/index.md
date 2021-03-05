@@ -1,7 +1,6 @@
 ---
 title: "Export timed query results from SQL*Plus"
 date: 2019-01-15T22:10:59-06:00
-tags: [sql, sqlplus, oracle, command-line]
 toc: false
 show_comments: true
 ---

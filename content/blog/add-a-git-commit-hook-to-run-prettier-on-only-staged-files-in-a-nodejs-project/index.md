@@ -1,7 +1,6 @@
 ---
 title: "Add a git commit hook to run Prettier on only staged files in a NodeJS project"
 date: 2020-09-16T20:45:10-05:00
-tags: [git, prettier, nodejs, javascript]
 toc: true
 show_comments: false
 ---

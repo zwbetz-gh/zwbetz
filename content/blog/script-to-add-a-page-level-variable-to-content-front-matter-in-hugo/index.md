@@ -3,7 +3,6 @@ title: "Script to add a page-level variable to content front matter in Hugo"
 date: 2018-10-10T12:43:20-05:00
 publishdate: 2018-10-10
 draft: false
-tags: ["hugo", "command-line"]
 toc: false
 show_comments: true
 ---

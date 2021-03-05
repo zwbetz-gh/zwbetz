@@ -1,7 +1,6 @@
 ---
 title: "Wait for element text to equal a specific value in NightwatchJS"
 date: 2020-08-01T13:58:47-05:00
-tags: [nightwatchjs, nodejs, javascript]
 toc: false
 show_comments: false
 ---

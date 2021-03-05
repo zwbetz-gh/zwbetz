@@ -1,7 +1,6 @@
 ---
 title: "Don't Have Flyway Teams? Roll Your Own Version of Output Query Results"
 date: 2021-02-11T15:46:07-06:00
-tags: []
 toc: false
 show_comments: false
 ---

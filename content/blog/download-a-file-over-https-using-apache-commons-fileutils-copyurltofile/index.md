@@ -1,7 +1,6 @@
 ---
 title: "Download a file over HTTPS using Apache Commons' FileUtils"
 date: 2019-01-30T15:00:16-06:00
-tags: [java, selenium]
 toc: false
 show_comments: true
 ---

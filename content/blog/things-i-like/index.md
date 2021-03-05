@@ -5,7 +5,6 @@ publishdate: 2018-03-21
 draft: false
 aliases:
   - /2018/03/things-i-like/
-tags: ["life"]
 toc: true
 show_comments: false
 ---

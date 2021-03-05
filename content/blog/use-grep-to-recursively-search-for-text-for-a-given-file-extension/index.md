@@ -5,7 +5,6 @@ publishdate: 2018-08-22
 draft: false
 aliases:
   - /2018/08/use-grep-to-recursively-search-for-text-for-a-given-file-extension/
-tags: ["command-line"]
 toc: false
 show_comments: true
 ---

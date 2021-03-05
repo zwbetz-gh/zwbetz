@@ -1,7 +1,6 @@
 ---
 title: "My collection of useful bash functions"
 date: 2019-05-30T21:39:48-05:00
-tags: [command-line]
 toc: true
 show_comments: true
 ---

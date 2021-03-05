@@ -1,7 +1,6 @@
 ---
 title: "Grant current and future objects to a user (role) in Postgres"
 date: 2020-05-21T00:00:00-05:00
-tags: [postgresql,flyway]
 toc: false
 show_comments: false
 ---

@@ -5,7 +5,6 @@ publishdate: 2018-08-14
 draft: false
 aliases:
   - /2018/08/keeping-my-iphone-6-alive-without-replacing-the-battery/
-tags: ["iphone"]
 toc: false
 show_comments: true
 ---

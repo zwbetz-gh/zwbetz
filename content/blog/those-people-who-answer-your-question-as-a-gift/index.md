@@ -1,7 +1,6 @@
 ---
 title: "Those People Who Answer Your Question as a Gift"
 date: 2021-01-10T13:54:10-06:00
-tags: []
 toc: false
 show_comments: false
 ---

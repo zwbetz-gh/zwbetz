@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 date: 2021-01-18T13:05:50-06:00
-tags: []
 toc: false
 show_comments: false
 ---

@@ -5,7 +5,6 @@ publishdate: 2018-08-16
 draft: false
 aliases:
   - /2018/08/townes-6-ish-month-photos/
-tags: ["life"]
 toc: false
 show_comments: false
 ---

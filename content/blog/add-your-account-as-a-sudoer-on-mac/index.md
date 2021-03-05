@@ -1,7 +1,6 @@
 ---
 title: "Add your account as a sudoer on Mac"
 date: 2019-04-17T11:54:33-05:00
-tags: [mac, command-line]
 toc: false
 show_comments: true
 ---

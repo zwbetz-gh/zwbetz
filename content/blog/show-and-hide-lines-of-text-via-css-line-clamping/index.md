@@ -1,7 +1,6 @@
 ---
 title: "Show and Hide Lines of Text via CSS Line Clamping"
 date: 2020-12-03T19:36:15-06:00
-tags: []
 toc: false
 show_comments: false
 ---

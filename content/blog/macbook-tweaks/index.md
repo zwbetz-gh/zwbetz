@@ -5,7 +5,6 @@ publishdate: 2018-08-06
 draft: false
 aliases:
   - /2018/08/macbook-tweaks/
-tags: ["mac"]
 toc: false
 show_comments: true
 ---

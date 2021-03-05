@@ -1,7 +1,6 @@
 ---
 title: "Change Terminal prompt on Mac"
 date: 2019-10-19T14:16:00-05:00
-tags: [mac, command-line]
 toc: false
 show_comments: true
 ---

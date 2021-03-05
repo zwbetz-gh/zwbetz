@@ -1,7 +1,6 @@
 ---
 title: "Install SQL*Plus on a Mac"
 date: 2019-06-07T13:06:55-05:00
-tags: [mac, sqlplus, sql]
 toc: true
 show_comments: true
 ---

@@ -3,7 +3,6 @@ title: "Convert HEIC images to JPG"
 date: 2018-12-06T00:03:20-06:00
 publishdate: 2018-12-06
 draft: false
-tags: ["imagemagick", "homebrew", "mac", "command-line"]
 toc: false
 show_comments: true
 ---

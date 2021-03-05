@@ -2,7 +2,6 @@
 title: "Make a Hugo blog from scratch"
 date: 2018-12-30T21:40:38-06:00
 publishdate: 2019-01-13
-tags: [hugo, html, css, javascript, bootstrap]
 draft: false
 toc: true
 show_comments: true

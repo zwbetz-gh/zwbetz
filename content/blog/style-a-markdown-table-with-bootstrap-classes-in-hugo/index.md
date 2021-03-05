@@ -3,7 +3,6 @@ title: "Style a markdown table with Bootstrap classes in Hugo"
 date: 2018-12-12T12:47:56-06:00
 publishdate: 2018-12-12
 draft: false
-tags: ["css", "bootstrap", "hugo"]
 toc: false
 show_comments: true
 ---

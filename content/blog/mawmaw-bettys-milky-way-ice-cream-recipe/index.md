@@ -7,7 +7,6 @@ aliases:
   - /2018/09/mawmaw-bettys-homemade-milky-way-ice-cream/
   - /2018/09/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/
   - /mawmaw-bettys-homemade-milky-way-ice-cream-recipe/
-tags: ["recipe"]
 toc: false
 show_comments: false
 ---

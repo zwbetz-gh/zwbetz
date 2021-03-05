@@ -5,7 +5,6 @@ publishdate: 2018-08-10
 draft: false
 aliases:
   - /2018/08/default-parameter-values-in-java/
-tags: ["java", "c-sharp"]
 toc: false
 show_comments: true
 ---

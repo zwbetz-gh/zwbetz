@@ -1,7 +1,6 @@
 ---
 title: "Check if a program exists from your bash script"
 date: 2019-04-12T13:55:35-05:00
-tags: [command-line, mac, linux]
 toc: false
 show_comments: true
 ---

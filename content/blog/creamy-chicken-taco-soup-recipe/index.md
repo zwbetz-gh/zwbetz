@@ -1,7 +1,6 @@
 ---
 title: "Creamy chicken taco soup recipe"
 date: 2020-02-22T00:00:00-05:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

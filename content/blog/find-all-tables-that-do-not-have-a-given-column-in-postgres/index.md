@@ -1,7 +1,6 @@
 ---
 title: "Find all tables that do not have a given column in Postgres"
 date: 2020-06-15T15:23:05-05:00
-tags: [postgresql, sql]
 toc: false
 show_comments: false
 ---

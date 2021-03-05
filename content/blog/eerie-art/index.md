@@ -1,7 +1,6 @@
 ---
 title: "Eerie art"
 date: 2019-05-09T20:36:21-05:00
-tags: [art]
 toc: false
 show_comments: true
 ---

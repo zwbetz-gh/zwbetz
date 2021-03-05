@@ -6,7 +6,6 @@ draft: false
 aliases: 
   - /2018/09/to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life/
   - /2018/09/to-take-a-trip-or-to-increase-the-baseline-quality-of-your-life/
-tags: ["life", "travel"]
 toc: false
 show_comments: false
 ---

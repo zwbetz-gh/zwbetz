@@ -5,7 +5,6 @@ publishdate: 2018-09-18
 draft: false
 aliases:
   - /2018/09/make-a-beep-sound-when-console-outputs-certain-text/
-tags: ["command-line", "mac", "windows"]
 toc: false
 show_comments: true
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Aristotle on marriage and trust as the foundation of civilization"
 date: 2019-09-01T21:43:55-05:00
-tags: ["life"]
 toc: false
 show_comments: true
 ---

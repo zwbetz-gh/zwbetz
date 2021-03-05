@@ -5,7 +5,6 @@ publishdate: 2018-08-19
 draft: false
 aliases:
   - /2018/08/optimize-images-and-reduce-page-load-times-with-imagemagick/
-tags: ["imagemagick"]
 toc: false
 show_comments: true
 ---

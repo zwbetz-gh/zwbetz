@@ -1,7 +1,6 @@
 ---
 title: "Install Postgres and psql on Mac"
 date: 2019-10-11T20:53:10-05:00
-tags: [command-line, mac, postgresql]
 toc: false
 show_comments: true
 ---

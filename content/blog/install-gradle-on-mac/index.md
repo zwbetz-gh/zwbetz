@@ -1,7 +1,6 @@
 ---
 title: "Install Gradle on Mac"
 date: 2019-10-11T20:58:09-05:00
-tags: [command-line, mac, gradle, java]
 toc: false
 show_comments: true
 ---

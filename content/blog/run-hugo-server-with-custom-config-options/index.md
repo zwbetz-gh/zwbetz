@@ -3,7 +3,6 @@ title: "Run hugo server with custom config options"
 date: 2018-10-24T22:58:24-05:00
 publishdate: 2018-10-25
 draft: false
-tags: ["hugo", "command-line"]
 toc: false
 show_comments: true
 ---

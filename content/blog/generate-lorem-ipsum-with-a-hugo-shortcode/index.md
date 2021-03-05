@@ -3,7 +3,6 @@ title: "Generate Lorem Ipsum with a Hugo shortcode"
 date: 2018-12-03T21:34:26-06:00
 publishdate: 2018-12-02
 draft: false
-tags: ["hugo"]
 toc: false
 show_comments: true
 ---

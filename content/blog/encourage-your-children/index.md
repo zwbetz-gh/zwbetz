@@ -1,7 +1,6 @@
 ---
 title: "Encourage your children"
 date: 2019-06-18T22:18:45-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

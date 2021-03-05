@@ -1,7 +1,6 @@
 ---
 title: "How to find a used TCP port and kill the associated process on your Mac"
 date: 2019-01-30T14:34:44-06:00
-tags: [mac, linux, command-line]
 toc: false
 show_comments: true
 ---

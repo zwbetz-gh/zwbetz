@@ -1,7 +1,6 @@
 ---
 title: "On being comfortable"
 date: 2019-03-11T14:33:46-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

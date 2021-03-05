@@ -3,7 +3,6 @@ title: "Coming from Java (or a C-like language) to Hugo's Go Templates"
 date: 2018-12-10T10:36:54-06:00
 publishdate: 2018-12-10
 draft: false
-tags: ["java", "hugo"]
 toc: true
 show_comments: true
 ---

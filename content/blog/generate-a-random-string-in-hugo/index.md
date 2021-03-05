@@ -1,7 +1,6 @@
 ---
 title: "Generate a random string in Hugo"
 date: 2020-06-17T22:58:08-05:00
-tags: [hugo, javascript]
 toc: false
 show_comments: false
 ---

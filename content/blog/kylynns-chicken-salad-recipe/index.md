@@ -1,7 +1,6 @@
 ---
 title: "Kylynn's chicken salad recipe"
 date: 2019-09-08T13:51:19-05:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

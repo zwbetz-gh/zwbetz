@@ -1,7 +1,6 @@
 ---
 title: "Syntax highlighting in Hugo with Chroma"
 date: 2019-01-21T13:08:15-06:00
-tags: [hugo]
 toc: false
 show_comments: true
 ---

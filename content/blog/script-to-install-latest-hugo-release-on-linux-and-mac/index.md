@@ -5,7 +5,6 @@ publishdate: 2018-10-19
 draft: false
 aliases:
   - /script-to-install-latest-hugo-release-on-ubuntu-and-mac/
-tags: ["hugo", "command-line", "linux", "mac"]
 toc: false
 show_comments: true
 ---

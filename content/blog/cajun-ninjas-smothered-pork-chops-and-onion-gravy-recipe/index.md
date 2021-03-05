@@ -1,7 +1,6 @@
 ---
 title: "Cajun Ninja's smothered pork chops and onion gravy recipe"
 date: 2019-09-15T20:42:20-05:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "The foyer phone method"
 date: 2019-03-22T15:41:12-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

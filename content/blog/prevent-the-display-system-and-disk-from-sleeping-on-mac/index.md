@@ -1,7 +1,6 @@
 ---
 title: "Prevent the display, system, and disk from sleeping on Mac"
 date: 2020-08-31T19:42:58-05:00
-tags: [mac, bash]
 toc: false
 show_comments: false
 ---

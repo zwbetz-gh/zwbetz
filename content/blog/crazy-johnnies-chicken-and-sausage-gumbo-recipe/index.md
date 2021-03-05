@@ -1,7 +1,6 @@
 ---
 title: "Crazy Johnnie's Chicken and Sausage Gumbo Recipe"
 date: 2020-11-16T20:55:51-06:00
-tags: [recipe]
 toc: false
 show_comments: false
 ---

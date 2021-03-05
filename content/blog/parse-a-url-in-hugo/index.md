@@ -1,7 +1,6 @@
 ---
 title: "Parse a URL in Hugo"
 date: 2019-01-25T12:10:08-06:00
-tags: [hugo]
 toc: false
 show_comments: true
 ---

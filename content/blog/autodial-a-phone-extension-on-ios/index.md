@@ -5,7 +5,6 @@ publishdate: 2018-09-14
 draft: false
 aliases:
   - /2018/09/autodial-a-phone-extension-on-ios/
-tags: ["iphone"]
 toc: false
 show_comments: true
 ---

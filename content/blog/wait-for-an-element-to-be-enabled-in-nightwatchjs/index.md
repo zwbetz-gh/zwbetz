@@ -1,7 +1,6 @@
 ---
 title: "Wait for an element to be enabled in NightwatchJS"
 date: 2020-07-16T13:31:21-05:00
-tags: [nightwatchjs, nodejs, javascript]
 toc: false
 show_comments: false
 ---

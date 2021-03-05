@@ -1,7 +1,6 @@
 ---
 title: "You cannot selectively numb emotions"
 date: 2019-10-12T14:02:11-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

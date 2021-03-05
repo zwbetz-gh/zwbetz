@@ -1,7 +1,6 @@
 ---
 title: "NightwatchJS Template"
 date: 2020-08-28T22:37:24-05:00
-tags: [chromedriver, nightwatchjs, nodejs, javascript, selenium]
 toc: false
 show_comments: false
 ---

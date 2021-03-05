@@ -3,7 +3,6 @@ title: "Selfies in the road"
 date: 2018-10-08T13:31:20-05:00
 publishdate: 2018-10-07
 draft: false
-tags: ["life"]
 toc: false
 show_comments: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Attention Is My Most Valuable Asset for Productivity as a Software Developer"
 date: 2020-11-08T20:14:26-06:00
-tags: [life, attention, productivity]
 toc: false
 show_comments: false
 ---

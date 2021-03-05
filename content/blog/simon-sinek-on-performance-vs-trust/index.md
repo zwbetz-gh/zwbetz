@@ -1,7 +1,6 @@
 ---
 title: "Simon Sinek on Performance vs Trust"
 date: 2021-02-14T21:59:45-06:00
-tags: []
 toc: false
 show_comments: false
 ---

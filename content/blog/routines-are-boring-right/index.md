@@ -1,7 +1,6 @@
 ---
 title: "Routines are boring, right?"
 date: 2019-04-24T21:26:52-05:00
-tags: [life, strength-training]
 aliases:
   - /routines-are-dumb-right/
 toc: false

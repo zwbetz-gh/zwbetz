@@ -1,7 +1,6 @@
 ---
 title: "There is a richness and complexity that is completely inexhaustible right at hand"
 date: 2020-07-20T22:02:02-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

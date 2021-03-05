@@ -1,7 +1,6 @@
 ---
 title: "Install Docker and Docker Compose on Mac"
 date: 2019-10-28T20:24:04-05:00
-tags: [mac, docker, docker-compose]
 toc: false
 show_comments: false
 ---

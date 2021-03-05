@@ -6,7 +6,6 @@ draft: false
 aliases:
   - /2018/08/what-emerson-nietzsche-lewis-and-peterson-knew/
   - /what-emerson-nietzsche-lewis-and-peterson-knew/
-tags: ["life", "quotes"]
 toc: false
 show_comments: false
 ---

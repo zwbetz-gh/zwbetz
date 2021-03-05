@@ -1,7 +1,6 @@
 ---
 title: "Pretty print Github markdown"
 date: 2019-02-11T15:17:44-06:00
-tags: [javascript, github]
 toc: false
 show_comments: true
 ---

@@ -13,8 +13,9 @@ outputs:
 
 disqusShortname:
 
-taxonomies:
-  tag: tags
+disableKinds:
+  - taxonomy
+  - term
 
 permalinks:
   blog: /:filename/

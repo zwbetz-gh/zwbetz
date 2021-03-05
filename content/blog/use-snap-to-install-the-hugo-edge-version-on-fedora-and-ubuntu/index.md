@@ -5,7 +5,6 @@ publishdate: 2018-10-26
 draft: false
 aliases:
   - /use-snap-to-install-the-hugo-edge-version-on-fedora/
-tags: ["hugo", "snap", "linux"]
 toc: false
 show_comments: true
 ---

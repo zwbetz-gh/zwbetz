@@ -1,7 +1,6 @@
 ---
 title: "Bash utility functions"
 date: 2019-03-18T14:31:08-05:00
-tags: [command-line, mac, linux]
 toc: false
 show_comments: true
 ---

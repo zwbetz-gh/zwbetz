@@ -1,7 +1,6 @@
 ---
 title: "Why is my gradle build in docker so slow?"
 date: 2020-02-26T00:00:00-05:00
-tags: [gradle, java, docker]
 toc: false
 show_comments: false
 ---

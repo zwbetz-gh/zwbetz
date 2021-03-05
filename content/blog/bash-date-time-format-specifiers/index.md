@@ -1,7 +1,6 @@
 ---
 title: "Bash date time format specifiers"
 date: 2019-05-21T23:04:33-05:00
-tags: [command-line]
 toc: false
 show_comments: true
 ---

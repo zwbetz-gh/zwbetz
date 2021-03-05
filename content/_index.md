@@ -1,7 +1,6 @@
 ---
 title: "Home"
 date: 2019-02-13T15:51:29-06:00
-tags: []
 aliases:
   - /about/
   - /contact/

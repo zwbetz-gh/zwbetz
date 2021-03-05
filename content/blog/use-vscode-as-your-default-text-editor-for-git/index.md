@@ -3,7 +3,6 @@ title: "Use Visual Studio Code as your default text editor for Git"
 date: 2018-10-24T14:49:17-05:00
 publishdate: 2018-10-24
 draft: false
-tags: ["git", "vscode", "command-line"]
 toc: false
 show_comments: true
 ---

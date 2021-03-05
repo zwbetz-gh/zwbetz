@@ -1,7 +1,6 @@
 ---
 title: "Bret Weinstein on metaphorical truth"
 date: 2019-02-08T14:01:08-06:00
-tags: [life]
 toc: false
 show_comments: false
 ---

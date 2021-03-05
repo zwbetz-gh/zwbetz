@@ -1,7 +1,6 @@
 ---
 title: "Override a Hugo theme"
 date: 2019-01-21T08:16:32-06:00
-tags: [hugo]
 publishdate: 2019-01-20
 toc: false
 show_comments: true

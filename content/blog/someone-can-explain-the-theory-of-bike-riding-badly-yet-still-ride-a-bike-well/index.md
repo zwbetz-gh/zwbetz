@@ -1,7 +1,6 @@
 ---
 title: "Someone can explain the theory of bike riding badly, yet still ride a bike well"
 date: 2019-10-21T20:45:45-05:00
-tags: [life]
 toc: false
 show_comments: false
 ---

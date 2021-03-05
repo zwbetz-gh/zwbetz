@@ -1,7 +1,6 @@
 ---
 title: "Convert your plain old HTML site to Hugo"
 date: 2019-05-19T20:48:38-05:00
-tags: [hugo, html]
 toc: true
 show_comments: true
 ---

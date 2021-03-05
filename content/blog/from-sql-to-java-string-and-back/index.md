@@ -1,7 +1,6 @@
 ---
 title: "From SQL to Java string and back"
 date: 2019-06-21T22:16:20-05:00
-tags: [sql, java, command-line]
 toc: false
 show_comments: true
 ---

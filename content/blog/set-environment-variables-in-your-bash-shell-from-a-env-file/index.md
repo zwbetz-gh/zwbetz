@@ -1,7 +1,6 @@
 ---
 title: "Set Environment Variables in Your Bash Shell From a .env File"
 date: 2020-07-28T23:13:02-05:00
-tags: [bash, env, command-line]
 toc: false
 show_comments: false
 ---

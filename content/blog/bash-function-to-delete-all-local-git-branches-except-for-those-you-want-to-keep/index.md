@@ -1,7 +1,6 @@
 ---
 title: "Bash function to delete all local git branches except for those you want to keep"
 date: 2019-03-22T11:18:57-05:00
-tags: [command-line, mac, linux]
 toc: false
 show_comments: true
 ---

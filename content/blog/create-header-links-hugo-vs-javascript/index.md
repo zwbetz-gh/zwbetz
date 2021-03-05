@@ -1,7 +1,6 @@
 ---
 title: "Create header links: Hugo vs JavaScript"
 date: 2019-04-11T22:07:22-05:00
-tags: [hugo, javascript]
 toc: false
 show_comments: true
 ---

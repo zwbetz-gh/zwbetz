@@ -1,7 +1,6 @@
 ---
 title: "Connect to an Oracle Database and run a query from a Bash script"
 date: 2019-06-07T13:09:06-05:00
-tags: [sqlplus, oracle, sql, command-line]
 toc: false
 show_comments: true
 ---
