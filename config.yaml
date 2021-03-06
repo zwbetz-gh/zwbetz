@@ -9,7 +9,10 @@ googleAnalytics: UA-115738775-1
 enableGitInfo: true
 
 outputs:
-  home: [HTML, RSS, JSON]
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 disqusShortname:
 
