@@ -14,6 +14,8 @@ My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learn
 
 I maintain a few [Projects]({{< relref "projects" >}}).
 
+This site is also available as [JSON](/index.json) and [RSS](index.xml).
+
 ## Work
 
 I'm a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
