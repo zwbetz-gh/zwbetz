@@ -3,4 +3,4 @@
   command = "chmod 777 task_get_resume.sh task_site_build.sh && ./task_site_build.sh"
 
 [build.environment]
-  HUGO_VERSION = "0.80.0"
+  HUGO_VERSION = "0.81.0"
