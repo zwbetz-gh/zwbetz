@@ -14,8 +14,8 @@ I'm documenting the relevant bits in case it's useful for someone else. Let's di
 
 ## Sister Links
 
-- Demo: <https://build-a-search-bar-for-your-hugo-blog.netlify.app>
-- GitHub: <https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js>
+- **Demo:** <https://build-a-search-bar-for-your-hugo-blog.netlify.app>
+- **GitHub:** <https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js>
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ params:
 
 [`layouts/blog/list.html`](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/blob/main/layouts/blog/list.html)
 
-This is a fairly normal blog list template, with two extras: a search bar, and a count of filtered pages.
+This is a fairly normal blog list template, with two extras: a search bar, and a page count.
 
 ```html
 {{ define "main" }}
@@ -236,6 +236,7 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
     - [Homepage layout lookup order](https://gohugo.io/templates/lookup-order/#examples-layout-lookup-for-home-page)
     - [`jsonify` function](https://gohugo.io/functions/jsonify/#readout)
     - [Newlines in template dictionaries](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
+    - [`.Plain` page variable](https://gohugo.io/variables/page/#page-variables)
 - JS
     - [`document.querySelector()` function](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
     - [`addEventListener()` function](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
