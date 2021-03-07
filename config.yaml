@@ -53,6 +53,7 @@ params:
   show_footer_site_last_updated: false
   show_footer_debug: true
   search: true
+  search_minify: true
   show_prev_next_links: false
   show_tags: false
 

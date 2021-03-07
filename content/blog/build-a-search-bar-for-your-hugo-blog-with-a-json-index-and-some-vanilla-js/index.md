@@ -27,7 +27,7 @@ I'm documenting the relevant bits in case it's useful for someone else. Let's di
 
 [`config.yaml`](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/blob/main/config.yaml)
 
-In your config file, set the output formats for the homepage and add a new param to enable (or disable) search.
+In your config file, set the output formats for the homepage. Then add search-related params.
 
 ```yaml
 # ...
@@ -40,6 +40,7 @@ outputs:
 
 params:
   search: true
+  search_minify: false
 ```
 
 ### Blog List Template
@@ -77,7 +78,7 @@ This is a fairly normal blog list template, with two extras: a search bar, and a
 
 [`layouts/index.json.json`](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/blob/main/layouts/index.json.json)
 
-This is part 1 of 2 of the magic. It iterates all blog posts, then creates a list of relevant fields: `Title`, `PublishDateFormatted`, and `PlainContent`. By default, `jsonify` will minify the JSON output. But we tell it to indent with 2 spaces for readability.
+This is part 1 of 2 of the magic. It iterates all blog posts, then creates a list of relevant fields: `Title`, `PublishDateFormatted`, and `PlainContent`. We configure whether to minify the JSON output with the `search_minify` param.
 
 ```go
 {{- $blog := slice -}}
@@ -94,9 +95,12 @@ This is part 1 of 2 of the magic. It iterates all blog posts, then creates a lis
 
 {{- $object := dict "blog" $blog -}}
 
-{{- $jsonifyOptions := dict "indent" "  " -}}
-
-{{- $object | jsonify $jsonifyOptions -}}
+{{- if (eq site.Params.search_minify true) -}}
+  {{- $object | jsonify -}}
+{{- else -}}
+  {{- $jsonifyOptions := dict "indent" "  " -}}
+  {{- $object | jsonify $jsonifyOptions -}}
+{{- end -}}
 ```
 
 ### JS
@@ -115,17 +119,18 @@ This is part 2 of 2 of the magic. Here's how it works:
 
 ```js
 (function () {
+  const SEARCH_ID = 'search';
+  const COUNT_ID = 'count';
+  const LIST_ID = 'list';
+
   let list = null;
   let listFiltered = null;
 
   const getDuration = (startTime, endTime) => (endTime - startTime).toFixed(2);
 
-  const getSearchEl = () => document.querySelector('#search');
-
-  const getCountEl = () => document.querySelector('#count');
-
-  const listId = 'list';
-  const getListEl = () => document.querySelector(`#${listId}`);
+  const getSearchEl = () => document.getElementById(SEARCH_ID);
+  const getCountEl = () => document.getElementById(COUNT_ID);
+  const getListEl = () => document.getElementById(LIST_ID);
 
   const disableSearchEl = () => {
     getSearchEl().disabled = true;
@@ -174,7 +179,7 @@ This is part 2 of 2 of the magic. Here's how it works:
 
   const renderList = () => {
     const newList = document.createElement('ul');
-    newList.id = listId;
+    newList.id = LIST_ID;
 
     listFiltered.forEach((item) => {
       const li = document.createElement('li');
