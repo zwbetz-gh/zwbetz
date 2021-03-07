@@ -14,7 +14,7 @@ toc: false
 ## Teaching
 
 - [Make a Hugo Blog From Scratch](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) -- In my opinion, Hugo’s current quick start is ample. It does just what the name says, gets you started you quickly. Still, there have many requests on the forums for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you’re reading is my go at that. Starting from scratch, we’ll build a Hugo blog.
-- [Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS](https://zwbetz.com/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/) -- My blog has become a personal knowledge base of sorts. As it’s grown, doing the usual Command + F for browser-search doesn’t always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that’s my problem, but how to fix it?
+- [Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js) -- My blog has become a personal knowledge base of sorts. As it’s grown, doing the usual Command + F for browser-search doesn’t always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that’s my problem, but how to fix it?
 
 ## End-to-End Testing
 
