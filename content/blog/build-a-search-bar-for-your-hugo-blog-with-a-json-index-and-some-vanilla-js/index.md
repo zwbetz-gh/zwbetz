@@ -229,7 +229,7 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
 
 ```html
 {{ if site.Params.search }}
-  {{ $searchJs := resources.Get "js/search.js" | fingerprint }}
+  {{ $searchJs := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" . | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}"></script>
 {{ end }}
 ```
