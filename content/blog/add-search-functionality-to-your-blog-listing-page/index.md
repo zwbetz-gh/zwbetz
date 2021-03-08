@@ -4,11 +4,15 @@ date: 2020-06-14T20:22:51-05:00
 toc: false
 ---
 
+**UPDATE:** THIS POST IS DEPRECATED. Instead, see [Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS]({{< relref "build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js" >}})
+
+---
+
 This is something that I recently added to my [uswds hugo theme](https://github.com/zwbetz-gh/uswds-hugo-theme). I'm documenting it here for others, and to remind myself in the future. Code samples and a demo are below. In a nutshell, here's how it works:
 
 A text input element is used for searching, and a paragraph element holds the list count. It's assumed that your blog posts, or whatever content it happens to be, are in a plain old unordered list element, aka a `ul`.
 
-The js code is wrapped in a [Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) so that the global scope is not polluted. 
+The js code is wrapped in a [Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) so that the global scope is not polluted.
 
 A function is defined that updates the count, `updateCount`. Another function is defined that runs when an event happens, `onEvent`, which does a few things
 - Gets the entered search term then converts it to uppercase
