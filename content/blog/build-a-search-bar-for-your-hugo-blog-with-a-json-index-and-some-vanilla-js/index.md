@@ -47,7 +47,11 @@ params:
 
 [`layouts/blog/list.html`](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/blob/main/layouts/blog/list.html)
 
-This is a fairly normal blog list template, with two extras: a search bar, and a page count.
+This is a fairly normal blog list template, with a few extras:
+
+- search bar
+- regex mode checkbox
+- page count
 
 ```html
 {{ define "main" }}
@@ -57,8 +61,14 @@ This is a fairly normal blog list template, with two extras: a search bar, and a
     id="search"
     class="form-control"
     type="text"
-    aria-label="Search by title, content, or publish date"
-  />
+    aria-label="Case-insensitive search by title, content, or publish date"
+  >
+  <div id="regex_mode_form" class="form-check">
+    <input id="regex_mode" class="form-check-input" type="checkbox">
+    <label class="form-check-label" for="regex_mode">
+      Regex mode
+    </label>
+  </div>
   {{ end }}
   <p id="count">
     Count: {{ len .Pages }}
@@ -113,22 +123,24 @@ This is part 2 of 2 of the magic. Here's how it works:
     - Fetch the JSON index. Before the request, disable the search bar and show a loading message. Once the request completes, enable the search bar and show a placeholder. Keep two copies of the JSON index. One original, one filtered, so they can be compared
     - Add an event listener to the search bar to listen for `keyup` events
 - On each `keyup` event:
-    - Uppercase the search term and compare it against the uppercased `Title`, `PublishDateFormatted`, and `PlainContent` fields. If there are matches, add those to the filtered list
+    - If regex mode is **not** checked, then uppercase the search query and compare it against the uppercased index fields. If regex mode **is** checked, then test the regex query against the uppercased index fields. Either way, if there is a match, add it to the filtered list
     - Re-render the count by checking the length of the filtered list
     - Re-render the blog list. This code will look different for your blog because you must represent your UI in JS. Mine is fairly simple because it's just a `ul` element
 
 ```js
 (function () {
   const SEARCH_ID = 'search';
+  const REGEX_MODE_ID = 'regex_mode';
   const COUNT_ID = 'count';
   const LIST_ID = 'list';
 
   let list = null;
-  let listFiltered = null;
+  let filteredList = null;
 
   const getDuration = (startTime, endTime) => (endTime - startTime).toFixed(2);
 
   const getSearchEl = () => document.getElementById(SEARCH_ID);
+  const getRegexModeEl = () => document.getElementById(REGEX_MODE_ID);
   const getCountEl = () => document.getElementById(COUNT_ID);
   const getListEl = () => document.getElementById(LIST_ID);
 
@@ -139,7 +151,8 @@ This is part 2 of 2 of the magic. Here's how it works:
 
   const enableSearchEl = () => {
     getSearchEl().disabled = false;
-    getSearchEl().placeholder = 'Search by title, content, or publish date';
+    getSearchEl().placeholder =
+      'Case-insensitive search by title, content, or publish date';
   };
 
   const fetchJson = () => {
@@ -150,30 +163,42 @@ This is part 2 of 2 of the magic. Here's how it works:
       .then((response) => response.json())
       .then((data) => {
         list = data.blog;
-        listFiltered = data.blog;
+        filteredList = data.blog;
         enableSearchEl();
         console.log(
           `fetchJson took ${getDuration(startTime, performance.now())} ms`
         );
-      });
+      })
+      .catch((error) =>
+        console.error(`Failed to fetch JSON index: ${error.message}`)
+      );
   };
 
-  const filterList = () => {
-    const searchTerm = getSearchEl().value.toUpperCase();
-    listFiltered = list.filter((item) => {
+  const filterList = (regexMode) => {
+    const regexQuery = new RegExp(getSearchEl().value, 'i');
+    const query = getSearchEl().value.toUpperCase();
+    filteredList = list.filter((item) => {
       const title = item.Title.toUpperCase();
       const content = item.PlainContent.toUpperCase();
       const publishDate = item.PublishDateFormatted.toUpperCase();
-      return (
-        title.includes(searchTerm) ||
-        content.includes(searchTerm) ||
-        publishDate.includes(searchTerm)
-      );
+      if (regexMode) {
+        return (
+          regexQuery.test(title) ||
+          regexQuery.test(content) ||
+          regexQuery.test(publishDate)
+        );
+      } else {
+        return (
+          title.includes(query) ||
+          content.includes(query) ||
+          publishDate.includes(query)
+        );
+      }
     });
   };
 
   const renderCount = () => {
-    const count = `Count: ${listFiltered.length}`;
+    const count = `Count: ${filteredList.length}`;
     getCountEl().textContent = count;
   };
 
@@ -181,7 +206,7 @@ This is part 2 of 2 of the magic. Here's how it works:
     const newList = document.createElement('ul');
     newList.id = LIST_ID;
 
-    listFiltered.forEach((item) => {
+    filteredList.forEach((item) => {
       const li = document.createElement('li');
 
       const publishDate = document.createElement('span');
@@ -202,20 +227,26 @@ This is part 2 of 2 of the magic. Here's how it works:
     oldList.replaceWith(newList);
   };
 
-  const handleKeyupEvent = () => {
+  const handleEvent = () => {
     const startTime = performance.now();
-    filterList();
+    const regexMode = getRegexModeEl().checked;
+    filterList(regexMode);
     renderCount();
     renderList();
     console.log(
-      `handleKeyupEvent took ${getDuration(startTime, performance.now())} ms`
+      `handleEvent took ${getDuration(startTime, performance.now())} ms`
     );
+  };
+
+  const addEventListeners = () => {
+    getSearchEl().addEventListener('keyup', handleEvent);
+    getRegexModeEl().addEventListener('change', handleEvent);
   };
 
   const main = () => {
     if (getSearchEl()) {
       fetchJson();
-      getSearchEl().addEventListener('keyup', handleKeyupEvent);
+      addEventListeners();
     }
   };
 
@@ -229,7 +260,9 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
 
 ```html
 {{ if site.Params.search }}
-  {{ $searchJs := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" . | fingerprint }}
+  {{ $searchJs := resources.Get "js/search.js"
+    | resources.ExecuteAsTemplate "js/search.js" .
+    | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}"></script>
 {{ end }}
 ```
@@ -250,3 +283,6 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
     - [`window.location.origin`](https://developer.mozilla.org/en-US/docs/Web/API/Location/origin#examples)
     - [`filter()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
     - [`replaceWith()` function](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith)
+    - [`RegExp` flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters)
+    - [`test()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+    - [`change` event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
