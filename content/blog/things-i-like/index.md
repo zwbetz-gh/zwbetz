@@ -8,7 +8,7 @@ aliases:
 toc: true
 ---
 
-A list of things that I like, in no particular order. This is a living document.  
+A list of things that I like, in no particular order. This is a **living** document.  
 
 ## Life, Meaning, Character, and Work
 
@@ -145,10 +145,6 @@ A list of things that I like, in no particular order. This is a living document.
 * Michael Shermer: 
   * [Giving the Devil his due: why freedom of inquiry in science and politics is inviolable](https://quillette.com/2018/06/10/giving-devil-due-freedom-inquiry-science-politics-inviolable/)
   * [The Evolution-Creationism controversy as a test case in equal time and free speech](https://michaelshermer.com/2018/05/evolution-creationism-controversy-as-test-case-in-equal-time-free-speech/)
-* The Rubin Report:
-  * [Things have never been better for humanity (Marian Tupy interview)](https://www.youtube.com/watch?v=XD28sQIsS9I)
-  * [Jordan Peterson and Ben Shapiro: Religion, trans activism, and censorship](https://www.youtube.com/watch?v=1opHWsHr798)
-  * [Bret Weinstein: Life after Evergreen, evolutionary biology, and gender](https://www.youtube.com/watch?v=o4bMTwIsF4Y)
 * Deep South Ventures:
   * [I sell onions on the internet](https://www.deepsouthventures.com/i-sell-onions-on-the-internet/)
 * What would you do?
@@ -186,21 +182,11 @@ A list of things that I like, in no particular order. This is a living document.
   * [Why barbells are better than machines](https://startingstrength.com/article/why-barbells-are-better-than-machines-txt)
   * [Who wants to be a novice? You do](https://startingstrength.com/article/programming/who_wants_to_be_a_novice_you_do)
   * [Maybe you should gain weight](https://startingstrength.com/article/maybe-you-should-gain-weight)
-  * [The first three questions](https://startingstrength.com/article/the_first_three_questions)
-  * [Deep squats](https://startingstrength.com/article/deep_squats)
-  * [Strength training for people my age](https://startingstrength.com/article/strength-training-for-people-my-age)
 * Matt Reynolds: [Barbell Safety](https://startingstrength.com/article/barbell_safety)
 * Barbell Logic: [Episode #27: Embracing the grind](https://startingstrengthonlinecoaching.com/27-embracing-grind/)
 * Andy Baker: Basically any [article](http://www.andybaker.com/blog/) or [video](https://www.youtube.com/channel/UCqAWkW0bgtmDdLSZue6zBOA) by him
-* Alan Thrall:
-  * [How to squat: low-bar](https://www.youtube.com/watch?v=vmNPOjaGrVE)
   * [How to press (overhead...)](https://www.youtube.com/watch?v=eNFXEEdfQp4)
   * [How to deadlift: Starting Strength 5 step deadlift](https://www.youtube.com/watch?v=wYREQkVtvEc)
-* Greg Nuckols:
-  * [Hi-bar vs. low-bar squatting](https://www.strongerbyscience.com/its-time-to-end-this-nonsense-high-bar-vs-low-bar-squatting/)
-  * [The hypertrophy range - fact or fiction?](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/)
-  * [How to squat](https://www.strongerbyscience.com/how-to-squat/)
-  * [How to deadlift](https://www.strongerbyscience.com/how-to-deadlift/)
 * Dan John: [Minimalist training](http://danjohn.net/2011/01/minimalist-training/)
 * AoM:
   * [Getting ripped vs getting strong](https://www.artofmanliness.com/2017/03/08/getting-ripped-vs-getting-strong/)
@@ -218,7 +204,6 @@ A list of things that I like, in no particular order. This is a living document.
 
 ## Manhood
 
-* Roy Baumeister: [Is there anything good about men?](https://psy.fsu.edu/~baumeisterticelab/GoodAbtMenAPATalk.doc)
 * AoM: Manhood series:
   * [Protect](https://www.artofmanliness.com/2014/02/24/the-3-ps-of-manhood-protect/)
   * [Procreate](https://www.artofmanliness.com/2014/03/03/the-3-ps-of-manhood-procreate/)
@@ -231,9 +216,11 @@ A list of things that I like, in no particular order. This is a living document.
 * AoM:
   * [A call for a new strenuous age](https://www.artofmanliness.com/2016/12/21/call-new-strenuous-age/)
   * [Podcast #335: Exploring archetypes with Jordan B Peterson](https://www.artofmanliness.com/2017/08/31/podcast-335-using-power-myths-live-flourishing-life/)
+* Roy Baumeister: [Is there anything good about men?](https://www.amazon.com/There-Anything-Good-About-Men/dp/019537410X)
 
 ## Theology and Evolution
 
+* BioLogos: [Common Questions](https://biologos.org/common-questions)
 * C.S. Lewis:
   * [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity)
   * [The Screwtape Letters](https://en.wikipedia.org/wiki/The_Screwtape_Letters)
@@ -243,39 +230,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [Evolution and God?](https://www.youtube.com/watch?v=n4l1ossYjB8&index=2&list=PL65Q9wV23I-yjfW4bI4rERneqXSuV9m52&t=0s)
   * [Evolution and theology](https://youtu.be/Luk4xj4GU40)
   * [The mathematics of evolutionary biology](https://youtu.be/qJ02G91ZmzQ)
-* BioLogos: common questions
-  * [How is BioLogos different from Evolutionism, Intelligent Design, and Creationism?](https://biologos.org/common-questions/christianity-and-science/biologos-id-creationism)
-  * [Why should Christians consider evolutionary creation?](https://biologos.org/common-questions/christianity-and-science/why-should-christians-consider-evolutionary-creation)
-  * [Are science and Christianity at war?](https://biologos.org/common-questions/christianity-and-science/science-and-religion)
-  * [Can science and Scripture be reconciled?](https://biologos.org/common-questions/christianity-and-science/scientific-and-scriptural-truth)
-  * [How have Christians responded to Darwin’s “Origin of Species”?](https://biologos.org/common-questions/christianity-and-science/christian-response-to-darwin)
-  * [What is evolution?](https://biologos.org/common-questions/scientific-evidence/what-is-evolution)
-  * [What is the evidence for evolution?](https://biologos.org/common-questions/scientific-evidence/evolution-evidence)
-  * [Is evolution a "theory in crisis"?](https://biologos.org/common-questions/scientific-evidence/is-evolution-a-theory-in-crisis)
-  * [How are the ages of the Earth and universe calculated?](https://biologos.org/common-questions/scientific-evidence/ages-of-the-earth-and-universe)
-  * [Can evolution generate new information?](https://biologos.org/common-questions/scientific-evidence/can-evolution-generate-new-information)
-  * [What does the fossil record show?](https://biologos.org/common-questions/scientific-evidence/fossil-record)
-  * [How can evolution account for the complexity of life on Earth today?](https://biologos.org/common-questions/scientific-evidence/complexity-of-life)
-  * [Does thermodynamics disprove evolution?](https://biologos.org/common-questions/scientific-evidence/evolution-and-the-second-law)
-  * [How did life begin?](https://biologos.org/common-questions/scientific-evidence/the-origin-of-life)
-  * [Does the Cambrian Explosion pose a challenge to evolution?](https://biologos.org/common-questions/scientific-evidence/cambrian-explosion)
-  * [Is historical science reliable?](https://biologos.org/common-questions/scientific-evidence/is-historical-science-reliable)
-  * [How should we interpret the Bible?](https://biologos.org/common-questions/biblical-interpretation/scripture-interpretation)
-  * [How long are the days of Genesis 1?](https://biologos.org/common-questions/biblical-interpretation/how-long-are-the-days-of-genesis-1)
-  * [How was the Genesis account of creation interpreted before Darwin?](https://biologos.org/common-questions/biblical-interpretation/early-interpretations-of-genesis)
-  * [How should we interpret the Genesis flood account?](https://biologos.org/common-questions/biblical-interpretation/genesis-flood)
-  * [Is Genesis real history?](https://biologos.org/common-questions/biblical-interpretation/is-genesis-real-history)
-  * [Does modern science make miracles impossible?](https://biologos.org/common-questions/gods-relationship-to-creation/biologos-and-miracles)
-  * [Are gaps in scientific knowledge evidence for God?](https://biologos.org/common-questions/gods-relationship-to-creation/god-of-the-gaps)
-  * [What do “fine-tuning” and the “multiverse” say about God?](https://biologos.org/common-questions/gods-relationship-to-creation/fine-tuning)
-  * [On what grounds can one claim that the Christian God is the creator?](https://biologos.org/common-questions/gods-relationship-to-creation/biologos-and-christianity)
-  * [What created God?](https://biologos.org/common-questions/gods-relationship-to-creation/what-created-god)
-  * [Were Adam and Eve historical figures?](https://biologos.org/common-questions/human-origins/were-adam-and-eve-historical-figures)
-  * [What is the genetic evidence for human evolution?](https://biologos.org/common-questions/human-origins/what-scientific-evidence-do-we-have-about-the-first-humans)
-  * [How could humans have evolved and still be in the "Image of God"?](https://biologos.org/common-questions/human-origins/image-of-god)
-  * [Did death occur before the Fall?](https://biologos.org/common-questions/human-origins/death-before-the-fall)
 * [The Liturgists Podcast](http://www.theliturgists.com/podcast)
-* [If the world began again, would life as we know it exist?](http://m.nautil.us/issue/14/mutation/if-the-world-began-again-would-life-as-we-know-it-exist)
 
 ## Money and Frugality
 
@@ -341,7 +296,6 @@ A list of things that I like, in no particular order. This is a living document.
   * [Love is all you need: insights from the longest longitudinal study on men ever conducted](https://www.artofmanliness.com/2014/09/02/love-is-all-you-need-insights-from-the-longest-longitudinal-study-on-men-ever-conducted/)
   * [Marriage isn't a game of Russian Roulette](https://www.artofmanliness.com/articles/sunday-firesides-marriage-isnt-a-game-of-russian-roulette/?mc_cid=832f4f9e43&mc_eid=38939e19be)
 * Patricia McGerr: [Johnny Lingo’s eight-cow wife](https://www.biblegateway.com/devotionals/night-light-couples/2013/04/30)
-* Smart marriages: [Marriage quotes](http://www.smartmarriages.com/marriage.quotes.html)
 * [How to deliver constructive feedback in difficult situations](https://medium.com/s/please-advise/the-essential-guide-to-difficult-conversations-41f736e63ccf)
 * Dax Shepard, Armchair Expert:
   * [Esther Perel](https://armchairexpertpod.com/pods/esther-perel)
@@ -360,11 +314,10 @@ A list of things that I like, in no particular order. This is a living document.
 
 ## Tools
 
-* [Strength standards](https://symmetricstrength.com/standards#/)
-* [TDEE calculator](https://symmetricstrength.com/calculator/tdee)
 * [Self authoring](https://www.selfauthoring.com/)
 * [Personal capital](https://www.personalcapital.com/)
 * [Dave Ramsey investment calculator](https://www.daveramsey.com/smartvestor/investment-calculator)
+* [TDEE calculator](https://symmetricstrength.com/calculator/tdee)
 
 ## Science Fiction, Fantasy, and Fun
 
@@ -377,7 +330,7 @@ A list of things that I like, in no particular order. This is a living document.
   * [S3 E1: Extra: Crowley recap](http://www.unexplainedpodcast.com/episodes/2018/3/27/s03-episode-1-pt1-extra-crowley-recap)
   * [S3 E4: From eternity to here](http://www.unexplainedpodcast.com/episodes/2018/5/30/s03-episode-4-from-eternity-to-here)
   * [S3 E5: When apples fall](http://www.unexplainedpodcast.com/episodes/2018/6/20/s03-episode-5-extra-when-apples-fall)
-* [2AM: The smiling man](https://www.youtube.com/watch?v%3D_u6Tt3PqIfQ)
+* [2AM: The smiling man](https://youtu.be/_u6Tt3PqIfQ)
 * [S Town](https://stownpodcast.org/)
 * [Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter)
 * [Perry Bible Fellowship Comics](http://pbfcomics.com/)
@@ -411,25 +364,8 @@ A list of things that I like, in no particular order. This is a living document.
 
 * [The political compass test](https://www.politicalcompass.org/test)
 * Kurt Vonnegut Jr: [Harrison Bergeron](http://www.tnellen.com/cybereng/harrison.html)
-* Jordan B Peterson:
-  * [Camille Paglia: Modern times](https://www.youtube.com/watch?v=v-hIVnmUdXM)
-  * [An incendiary discussion at Ryerson U](https://www.youtube.com/watch?v%3D8ABa4RdNPxU)
-  * [Jordan Peterson’s Rules for Life with Richard Fidler](https://www.youtube.com/watch?v=bSeBjzGEZLU)
-  * [Lafayette College – The Mill Series](https://www.youtube.com/watch?v=V32WHDuy-Do)
-  * [Warren Farrell – The absolute necessity of fathers](https://www.youtube.com/watch?v=v5O_FLUWYmg)
-  * [Australia’s John Anderson & Dr. Jordan B Peterson: In Conversation](https://www.youtube.com/watch?v=U4NijLf3M-A)
-  * [The Great Ideological Lie of Diversity](https://www.jordanbpeterson.com/blog-posts/lie-of-diversity/)
-* Joe Rogan: 
-  * [JRE #970: Bret Weinstein](https://open.spotify.com/episode/5Q466N7ocayZSwmv8fCsbu?si=6RNkH_6dQxygkooq0O0V8Q)
-  * [JRE #1191: Peter Boghossian & James Lindsay](https://open.spotify.com/episode/4H5SKpubfylmMroqgDnM0X?si=FMfULACwQtGJzRTw7YVMQw)
-  * [JRE #1494: Bret Weinstein](https://open.spotify.com/episode/7h7IQbsEui8KPhTKdtkUO6?si=cTckjon9ReSWYiTHqcg8pw)
 * More Perfect: [Citizens United](https://www.wnyc.org/story/citizens-united/)
-* AoM: [Podcast #334: When violence is the answer](https://www.artofmanliness.com/2017/08/29/podcast-334-violence-really-answer/)
-* Jack Donovan: [Violence is golden](http://www.jack-donovan.com/axis/2011/03/violence-is-golden/)
-* The Rubin Report: [Jordan Peterson and Ben Shapiro](https://www.youtube.com/watch?v=iRPDGEgaATU)
-* PragerU: [Was the civil war about slavery?](https://www.youtube.com/watch?time_continue=2&v=pcy7qV-BGF4)
-* Rebel Wisdom:
-  * [Jordan Peterson, sex, and ideology: with Bret Weinstein](https://youtu.be/qR5yN2G4h54)
+* AoM: [Podcast #334: When Violence Is the Answer](https://www.artofmanliness.com/2017/08/29/podcast-334-violence-really-answer/)
 
 ## Art and Photography
 
