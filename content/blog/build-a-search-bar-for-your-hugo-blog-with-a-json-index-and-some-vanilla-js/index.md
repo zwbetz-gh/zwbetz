@@ -276,7 +276,6 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
     - [Newlines in template dictionaries](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
     - [`.Plain` page variable](https://gohugo.io/variables/page/#page-variables)
 - JS
-    - [`document.querySelector()` function](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
     - [`addEventListener()` function](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
     - [`keyup` event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event)
     - [`fetch()` api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
