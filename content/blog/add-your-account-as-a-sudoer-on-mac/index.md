@@ -4,6 +4,7 @@ date: 2019-04-17T11:54:33-05:00
 toc: false
 ---
 
+1. Run `whoami`. You will use this value later to replace `YOUR_ACCOUNT`
 1. Switch to an admin account by running
 
         su ADMIN_ACCOUNT
@@ -16,7 +17,7 @@ toc: false
 
         sudo visudo -f /etc/sudoers.d/sudoers
 
-1. Press the `i` key for "insert" mode, then type the following line. If you don't know what `YOUR_ACCOUNT` is, you can find out by running `whoami`
+1. Press the `i` key for "insert" mode, then type the following line
 
         YOUR_ACCOUNT ALL=(ALL) ALL
 
