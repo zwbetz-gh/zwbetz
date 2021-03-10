@@ -61,8 +61,7 @@ This is a fairly normal blog list template, with a few extras:
     id="search"
     class="form-control"
     type="text"
-    aria-label="Case-insensitive search by title, content, or publish date"
-  >
+    aria-label="Case-insensitive search by title, content, or publish date">
   <div id="regex_mode_form" class="form-check">
     <input id="regex_mode" class="form-check-input" type="checkbox">
     <label class="form-check-label" for="regex_mode">
@@ -137,7 +136,10 @@ This is part 2 of 2 of the magic. Here's how it works:
   let list = null;
   let filteredList = null;
 
-  const getDuration = (startTime, endTime) => (endTime - startTime).toFixed(2);
+  const logPerformance = (work, startTime, endTime) => {
+    const duration = (endTime - startTime).toFixed(2);
+    console.log(`${work} took ${duration} ms`);
+  };
 
   const getSearchEl = () => document.getElementById(SEARCH_ID);
   const getRegexModeEl = () => document.getElementById(REGEX_MODE_ID);
@@ -165,9 +167,7 @@ This is part 2 of 2 of the magic. Here's how it works:
         list = data.blog;
         filteredList = data.blog;
         enableSearchEl();
-        console.log(
-          `fetchJson took ${getDuration(startTime, performance.now())} ms`
-        );
+        logPerformance('fetchJson', startTime, performance.now());
       })
       .catch((error) =>
         console.error(`Failed to fetch JSON index: ${error.message}`)
@@ -233,9 +233,7 @@ This is part 2 of 2 of the magic. Here's how it works:
     filterList(regexMode);
     renderCount();
     renderList();
-    console.log(
-      `handleEvent took ${getDuration(startTime, performance.now())} ms`
-    );
+    logPerformance('handleEvent', startTime, performance.now());
   };
 
   const addEventListeners = () => {
