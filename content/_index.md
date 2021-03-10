@@ -44,14 +44,9 @@ A quote by one of my favorite thinkers, Carl Jung.
 
 <br>
 
-<style>
-  .usa-image-block img {
-    border-radius: 5%;
-  }
-</style>
 {{< figure
-img="headshot.jpg"
-alt="My headshot"
-caption="Open your eyes, dude."
+img="family.jpg"
+alt="The fam."
+caption="The fam."
 command="Resize"
-options="200x q100" >}}
+options="300x q100" >}}
