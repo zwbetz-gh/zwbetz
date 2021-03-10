@@ -34,15 +34,15 @@ Name the file `dump.sh`
 ```shell
 #!/usr/bin/env bash
 
-set -o allexport;
-source .env;
-set +o allexport;
+set -o allexport
+source .env
+set +o allexport
 
 pg_dump \
 --inserts \
 --column-inserts \
 --rows-per-insert=1000 \
---file=dump.sql;
+--file=dump.sql
 
-echo "Completed in ${SECONDS}s";
+echo "Completed in ${SECONDS}s"
 ```
