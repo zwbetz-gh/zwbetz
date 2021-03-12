@@ -1,5 +1,5 @@
 ---
-title: "Why is my gradle build in docker so slow?"
+title: "Why Is My Gradle Build in Docker So Slow?"
 date: 2020-02-26T00:00:00-05:00
 toc: false
 ---
@@ -8,7 +8,9 @@ _Why is my gradle build in docker so slow?_ I've asked myself this question ofte
 
 Docker caches each of its steps in a layer. So if a given step hasn't changed, it's cached, and should make the image build quickly. So why wasn't this happening for gradle builds? 
 
-In the original `Dockerfile`, when the gradle build was run, it would re-download **all dependencies** each time. This was the cause of the slowness. The solution was to cache the downloaded dependencies. Unfortunately, gradle doesn't have a built-in task to only download dependencies, but I worked around this. 
+In the original `Dockerfile`, when the gradle build was run, it would **re-download all dependencies each time**. This was the cause of the slowness. 
+
+The solution was to **cache the downloaded dependencies**. Unfortunately, gradle doesn't have a built-in task to only download dependencies, but I worked around this. 
 
 Now the dependencies are only downloaded if dependency-related files are changed. Otherwise, the dependency cache is used, and only the source code is built.
 
