@@ -55,6 +55,7 @@ const main = () => {
       .replace('Psql', 'psql')
       .replace('Tmux', 'tmux')
       .replace('.Env', '.env');
+
     console.log(oldTitle);
     console.log(newTitle);
 
