@@ -4,6 +4,8 @@ date: 2021-03-12T00:08:35-06:00
 toc: false
 ---
 
+I recently converted all my blog post titles to title-case with a [little NodeJS script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_title_case.js). So, am taking the teachable bits and sharing them here.
+
 Let's pretend you have a file tree that looks like this:
 
 ```
@@ -61,7 +63,7 @@ main();
 Sample output:
 
 ```
-$ node demo.js 
+$ node demo.js
 Edited file: dir-1/dir-2/dir-3/file-3.txt
 Edited file: dir-1/dir-2/file-2.txt
 Edited file: dir-1/file-1.txt
