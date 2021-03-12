@@ -17,7 +17,7 @@ Let's pretend you have a file tree that looks like this:
     └── file-1.txt
 ```
 
-Then in each of these files, you need to replace the string `BEFORE` with with string `AFTER`. It can be done with the following NodeJS code:
+Then let's pretend in each of these files, you need to replace the string `BEFORE` with the string `AFTER`. It can be done with the following NodeJS code:
 
 ```js
 const fs = require('fs');
