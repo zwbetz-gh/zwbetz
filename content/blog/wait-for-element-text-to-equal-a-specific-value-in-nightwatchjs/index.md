@@ -1,5 +1,5 @@
 ---
-title: "Wait for element text to equal a specific value in NightwatchJS"
+title: "Wait for Element Text to Equal a Specific Value in NightwatchJS"
 date: 2020-08-01T13:58:47-05:00
 toc: false
 ---

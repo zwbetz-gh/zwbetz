@@ -1,5 +1,5 @@
 ---
-title: "Create an HTML table from a TOML data file in Hugo"
+title: "Create an HTML Table From a TOML Data File in Hugo"
 date: 2018-11-12T22:54:47-06:00
 publishdate: 2018-11-12
 draft: false

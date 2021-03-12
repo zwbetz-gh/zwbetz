@@ -1,5 +1,5 @@
 ---
-title: "Generate a random string in Hugo"
+title: "Generate a Random String in Hugo"
 date: 2020-06-17T22:58:08-05:00
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "From SQL to Java string and back"
+title: "From SQL to Java String and Back"
 date: 2019-06-21T22:16:20-05:00
 toc: false
 ---

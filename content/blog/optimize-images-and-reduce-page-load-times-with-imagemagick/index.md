@@ -1,5 +1,5 @@
 ---
-title: "Optimize images and reduce page load times with ImageMagick"
+title: "Optimize Images and Reduce Page Load Times With ImageMagick"
 date: 2018-08-19T11:44:14-05:00
 publishdate: 2018-08-19
 draft: false

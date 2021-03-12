@@ -1,5 +1,5 @@
 ---
-title: "Just enough tmux to do what I need"
+title: "Just Enough tmux to Do What I Need"
 date: 2019-02-07T10:56:19-06:00
 toc: false
 ---

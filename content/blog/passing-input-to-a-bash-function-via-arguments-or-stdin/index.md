@@ -1,5 +1,5 @@
 ---
-title: "Passing input to a Bash function via arguments or stdin"
+title: "Passing Input to a Bash Function via Arguments or Stdin"
 date: 2019-06-29T10:44:58-05:00
 toc: false
 ---

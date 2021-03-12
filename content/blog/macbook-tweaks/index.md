@@ -1,5 +1,5 @@
 ---
-title: "MacBook tweaks"
+title: "MacBook Tweaks"
 date: 2018-08-06T15:55:49-05:00
 publishdate: 2018-08-06
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Add search functionality to your blog listing page"
+title: "Add Search Functionality to Your Blog Listing Page"
 date: 2020-06-14T20:22:51-05:00
 toc: false
 ---

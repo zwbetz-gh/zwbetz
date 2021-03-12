@@ -1,5 +1,5 @@
 ---
-title: "Cajun Ninja's smothered pork chops and onion gravy recipe"
+title: "Cajun Ninja's Smothered Pork Chops and Onion Gravy Recipe"
 date: 2019-09-15T20:42:20-05:00
 toc: false
 ---

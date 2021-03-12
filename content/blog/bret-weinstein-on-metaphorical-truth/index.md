@@ -1,5 +1,5 @@
 ---
-title: "Bret Weinstein on metaphorical truth"
+title: "Bret Weinstein on Metaphorical Truth"
 date: 2019-02-08T14:01:08-06:00
 toc: false
 ---

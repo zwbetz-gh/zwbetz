@@ -1,5 +1,5 @@
 ---
-title: "Hit localhost on macOS from VirtualBox Win7 VM"
+title: "Hit localhost on macOS From VirtualBox Windows 7 VM"
 date: 2018-12-03T22:07:04-06:00
 publishdate: 2018-12-03
 draft: false

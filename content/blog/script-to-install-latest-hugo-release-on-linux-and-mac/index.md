@@ -1,5 +1,5 @@
 ---
-title: "Script to install latest hugo release on Linux and Mac"
+title: "Script to Install Latest Hugo Release on Linux and Mac"
 date: 2018-10-19T13:36:39-05:00
 publishdate: 2018-10-19
 draft: false

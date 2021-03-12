@@ -1,5 +1,5 @@
 ---
-title: "Just enough vi to open a file, edit it, and quit"
+title: "Just Enough vi to Open a File, Edit It, and Quit"
 date: 2018-09-19T23:19:26-05:00
 publishdate: 2018-09-19
 draft: false

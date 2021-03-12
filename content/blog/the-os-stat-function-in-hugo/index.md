@@ -1,5 +1,5 @@
 ---
-title: "The os.Stat function in Hugo"
+title: "The os.Stat Function in Hugo"
 date: 2018-10-29T14:53:11-05:00
 publishdate: 2018-10-29
 draft: false

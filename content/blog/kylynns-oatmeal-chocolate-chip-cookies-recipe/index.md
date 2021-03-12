@@ -1,5 +1,5 @@
 ---
-title: "Kylynn's oatmeal chocolate chip cookies recipe"
+title: "Kylynn's Oatmeal Chocolate Chip Cookies Recipe"
 date: 2019-05-14T21:23:41-05:00
 toc: false
 aliases:

@@ -1,5 +1,5 @@
 ---
-title: "Setup and run SonarQube on Mac"
+title: "Setup and Run SonarQube on Mac"
 date: 2020-08-31T19:59:10-05:00
 toc: true
 ---

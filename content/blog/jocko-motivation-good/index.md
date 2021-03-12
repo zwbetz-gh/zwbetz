@@ -1,5 +1,5 @@
 ---
-title: "Jocko motivation: Good"
+title: "Jocko Motivation: Good"
 date: 2020-07-20T20:55:52-05:00
 toc: false
 ---

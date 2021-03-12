@@ -1,5 +1,5 @@
 ---
-title: "How to find a used TCP port and kill the associated process on your Mac"
+title: "How to Find a Used TCP Port and Kill the Associated Process on Your Mac"
 date: 2019-01-30T14:34:44-06:00
 toc: false
 ---

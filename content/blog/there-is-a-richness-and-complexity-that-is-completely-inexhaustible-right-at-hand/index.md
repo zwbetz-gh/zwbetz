@@ -1,5 +1,5 @@
 ---
-title: "There is a richness and complexity that is completely inexhaustible right at hand"
+title: "There Is a Richness and Complexity That Is Completely Inexhaustible Right at Hand"
 date: 2020-07-20T22:02:02-05:00
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Wait for an element to be enabled in NightwatchJS"
+title: "Wait for an Element to Be Enabled in NightwatchJS"
 date: 2020-07-16T13:31:21-05:00
 toc: false
 ---

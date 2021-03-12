@@ -1,5 +1,5 @@
 ---
-title: "Connect to an Oracle Database and run a query from a Bash script"
+title: "Connect to an Oracle Database and Run a Query From a Bash Script"
 date: 2019-06-07T13:09:06-05:00
 toc: false
 ---

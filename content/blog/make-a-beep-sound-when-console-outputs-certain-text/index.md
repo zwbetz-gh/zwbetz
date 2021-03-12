@@ -1,5 +1,5 @@
 ---
-title: "Make a beep sound when console outputs certain text"
+title: "Make a Beep Sound When Console Outputs Certain Text"
 date: 2018-09-18T21:07:39-05:00
 publishdate: 2018-09-18
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Combine images using ImageMagick"
+title: "Combine Images Using ImageMagick"
 date: 2019-09-09T21:24:28-05:00
 toc: false
 ---

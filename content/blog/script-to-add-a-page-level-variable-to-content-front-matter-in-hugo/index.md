@@ -1,5 +1,5 @@
 ---
-title: "Script to add a page-level variable to content front matter in Hugo"
+title: "Script to Add a Page-Level Variable to Content Front Matter in Hugo"
 date: 2018-10-10T12:43:20-05:00
 publishdate: 2018-10-10
 draft: false

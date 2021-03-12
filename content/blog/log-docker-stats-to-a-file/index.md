@@ -1,5 +1,5 @@
 ---
-title: "Log docker stats to a file"
+title: "Log Docker Stats to a File"
 date: 2019-10-01T00:10:13-05:00
 toc: false
 ---

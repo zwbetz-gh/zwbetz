@@ -1,5 +1,5 @@
 ---
-title: "Convert your plain old HTML site to Hugo"
+title: "Convert Your Plain Old HTML Site to Hugo"
 date: 2019-05-19T20:48:38-05:00
 toc: true
 ---

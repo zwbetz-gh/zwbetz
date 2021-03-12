@@ -1,5 +1,5 @@
 ---
-title: "Find all tables that do not have a given column in Postgres"
+title: "Find All Tables That Do Not Have a Given Column in Postgres"
 date: 2020-06-15T15:23:05-05:00
 toc: false
 ---

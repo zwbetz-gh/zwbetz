@@ -1,5 +1,5 @@
 ---
-title: "Massage a JSON file with a NodeJS script"
+title: "Massage a JSON File With a NodeJS Script"
 date: 2020-01-27T03:42:42-05:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Open a new Google Chrome tab (or window) via command line on Mac"
+title: "Open a New Google Chrome Tab (Or Window) via Command Line on Mac"
 date: 2019-09-16T20:34:33-05:00
 toc: false
 ---

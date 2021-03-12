@@ -1,5 +1,5 @@
 ---
-title: "To take a trip or to increase the baseline quality of your life"
+title: "To Take a Trip or to Increase the Baseline Quality of Your Life"
 date: 2018-09-12T22:42:22-05:00
 publishdate: 2018-09-12
 draft: false

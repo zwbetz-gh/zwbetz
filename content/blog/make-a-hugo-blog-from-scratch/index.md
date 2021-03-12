@@ -1,5 +1,5 @@
 ---
-title: "Make a Hugo blog from scratch"
+title: "Make a Hugo Blog From Scratch"
 date: 2018-12-30T21:40:38-06:00
 publishdate: 2019-01-13
 draft: false

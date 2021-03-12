@@ -1,5 +1,5 @@
 ---
-title: "Pretty print Github markdown"
+title: "Pretty Print Github Markdown"
 date: 2019-02-11T15:17:44-06:00
 toc: false
 ---

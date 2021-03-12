@@ -1,5 +1,5 @@
 ---
-title: "Use Hugo templating in your external CSS"
+title: "Use Hugo Templating in Your External CSS"
 date: 2019-02-18T15:40:29-06:00
 toc: false
 ---

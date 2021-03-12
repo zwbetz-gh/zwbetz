@@ -1,5 +1,5 @@
 ---
-title: "Convert HEIC images to JPG"
+title: "Convert HEIC Images to JPG"
 date: 2018-12-06T00:03:20-06:00
 publishdate: 2018-12-06
 draft: false

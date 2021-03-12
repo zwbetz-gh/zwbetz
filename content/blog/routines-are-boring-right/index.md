@@ -1,5 +1,5 @@
 ---
-title: "Routines are boring, right?"
+title: "Routines Are Boring, Right?"
 date: 2019-04-24T21:26:52-05:00
 aliases:
   - /routines-are-dumb-right/

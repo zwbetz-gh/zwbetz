@@ -1,5 +1,5 @@
 ---
-title: "Check if a program exists from your bash script"
+title: "Check if a Program Exists From Your Bash Script"
 date: 2019-04-12T13:55:35-05:00
 toc: false
 ---

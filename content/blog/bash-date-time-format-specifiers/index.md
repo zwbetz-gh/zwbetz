@@ -1,5 +1,5 @@
 ---
-title: "Bash date time format specifiers"
+title: "Bash Date Time Format Specifiers"
 date: 2019-05-21T23:04:33-05:00
 toc: false
 ---

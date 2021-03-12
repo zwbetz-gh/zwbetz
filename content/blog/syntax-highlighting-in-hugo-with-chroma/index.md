@@ -1,5 +1,5 @@
 ---
-title: "Syntax highlighting in Hugo with Chroma"
+title: "Syntax Highlighting in Hugo With Chroma"
 date: 2019-01-21T13:08:15-06:00
 toc: false
 ---

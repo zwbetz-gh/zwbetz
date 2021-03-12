@@ -1,5 +1,5 @@
 ---
-title: "You cannot selectively numb emotions"
+title: "You Cannot Selectively Numb Emotions"
 date: 2019-10-12T14:02:11-05:00
 toc: false
 ---

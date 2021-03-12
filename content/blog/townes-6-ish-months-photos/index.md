@@ -1,5 +1,5 @@
 ---
-title: "Townes' 6 (ish) month photos"
+title: "Townes' 6 (Ish) Month Photos"
 date: 2018-08-16T21:54:15-05:00
 publishdate: 2018-08-16
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Convert HEIC images to JPG part 2: Mac Automator"
+title: "Convert HEIC Images to JPG Part 2: Mac Automator"
 date: 2019-09-01T20:47:15-05:00
 toc: false
 ---

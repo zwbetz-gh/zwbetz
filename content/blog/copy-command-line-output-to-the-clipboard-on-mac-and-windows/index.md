@@ -1,5 +1,5 @@
 ---
-title: "Copy command line output to the clipboard on Mac and Windows"
+title: "Copy Command Line Output to the Clipboard on Mac and Windows"
 date: 2018-10-12T20:07:57-05:00
 publishdate: 2018-10-12
 draft: false

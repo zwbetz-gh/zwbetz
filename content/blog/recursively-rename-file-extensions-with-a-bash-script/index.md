@@ -1,5 +1,5 @@
 ---
-title: "Recursively rename file extensions with a Bash script"
+title: "Recursively Rename File Extensions With a Bash Script"
 date: 2019-06-12T12:59:22-05:00
 toc: false
 ---

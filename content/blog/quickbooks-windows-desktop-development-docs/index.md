@@ -1,5 +1,5 @@
 ---
-title: "QuickBooks Windows desktop development docs"
+title: "QuickBooks Windows Desktop Development Docs"
 date: 2018-09-21T15:07:37-05:00
 publishdate: 2018-09-21
 draft: false

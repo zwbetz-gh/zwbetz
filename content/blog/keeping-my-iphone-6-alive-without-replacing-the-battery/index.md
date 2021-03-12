@@ -1,5 +1,5 @@
 ---
-title: "Keeping my iPhone 6 alive without replacing the battery"
+title: "Keeping My iPhone 6 Alive Without Replacing the Battery"
 date: 2018-08-14T22:10:07-05:00
 publishdate: 2018-08-14
 draft: false

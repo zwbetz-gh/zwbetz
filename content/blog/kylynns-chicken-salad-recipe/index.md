@@ -1,5 +1,5 @@
 ---
-title: "Kylynn's chicken salad recipe"
+title: "Kylynn's Chicken Salad Recipe"
 date: 2019-09-08T13:51:19-05:00
 toc: false
 ---

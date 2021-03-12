@@ -1,5 +1,5 @@
 ---
-title: "Bash function to delete all local git branches except for those you want to keep"
+title: "Bash Function to Delete All Local Git Branches Except for Those You Want to Keep"
 date: 2019-03-22T11:18:57-05:00
 toc: false
 ---

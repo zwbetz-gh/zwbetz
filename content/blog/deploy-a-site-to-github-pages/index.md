@@ -1,5 +1,5 @@
 ---
-title: "Deploy a site to GitHub Pages"
+title: "Deploy a Site to GitHub Pages"
 date: 2020-10-11T22:12:49-05:00
 toc: false
 ---

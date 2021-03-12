@@ -1,5 +1,5 @@
 ---
-title: "Download chromedriver binary and add to your PATH for automated functional testing"
+title: "Download Chromedriver Binary and Add to Your PATH for Automated Functional Testing"
 date: 2018-09-19T23:28:02-05:00
 publishdate: 2018-09-19
 draft: false

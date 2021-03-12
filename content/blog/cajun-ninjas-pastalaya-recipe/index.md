@@ -1,5 +1,5 @@
 ---
-title: "Cajun Ninja's pastalaya recipe"
+title: "Cajun Ninja's Pastalaya Recipe"
 date: 2020-04-28T21:14:09-05:00
 toc: false
 ---

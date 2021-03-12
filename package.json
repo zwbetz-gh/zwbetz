@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/zwbetz-gh/zwbetz#readme",
   "dependencies": {
+    "@gouch/to-title-case": "^2.2.1",
     "prettier": "^2.2.1"
   }
 }

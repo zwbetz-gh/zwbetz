@@ -1,5 +1,5 @@
 ---
-title: "Change Mac default screenshot save location"
+title: "Change Mac Default Screenshot Save Location"
 date: 2019-08-16T15:34:19-05:00
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "On being comfortable"
+title: "On Being Comfortable"
 date: 2019-03-11T14:33:46-05:00
 toc: false
 ---

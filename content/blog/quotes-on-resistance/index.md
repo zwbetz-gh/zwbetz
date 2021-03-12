@@ -1,5 +1,5 @@
 ---
-title: "Quotes on resistance"
+title: "Quotes on Resistance"
 date: 2018-08-20
 publishdate: 2018-08-20
 draft: false

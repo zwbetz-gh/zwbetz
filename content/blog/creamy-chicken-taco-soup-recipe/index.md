@@ -1,5 +1,5 @@
 ---
-title: "Creamy chicken taco soup recipe"
+title: "Creamy Chicken Taco Soup Recipe"
 date: 2020-02-22T00:00:00-05:00
 toc: false
 ---

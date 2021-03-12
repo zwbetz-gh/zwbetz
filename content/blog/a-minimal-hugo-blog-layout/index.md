@@ -1,5 +1,5 @@
 ---
-title: "A minimal hugo blog layout"
+title: "A Minimal Hugo Blog Layout"
 date: 2018-09-16T14:29:12-05:00
 publishdate: 2018-09-16
 draft: false

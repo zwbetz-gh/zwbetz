@@ -1,5 +1,5 @@
 ---
-title: "Mawmaw Betty's Milky Way ice cream recipe"
+title: "Mawmaw Betty's Milky Way Ice Cream Recipe"
 date: 2018-09-14T14:48:33-05:00
 publishdate: 2018-09-14
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Bash utility functions"
+title: "Bash Utility Functions"
 date: 2019-03-18T14:31:08-05:00
 toc: false
 ---

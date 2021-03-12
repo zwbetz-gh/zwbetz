@@ -1,5 +1,5 @@
 ---
-title: "Mac (Bash) to Windows (Command Prompt) mappings"
+title: "Mac (Bash) to Windows (Command Prompt) Mappings"
 date: 2018-09-21T22:31:25-05:00
 publishdate: 2018-09-22
 draft: false

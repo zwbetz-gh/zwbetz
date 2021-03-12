@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap 4 with Bootstrap 3 code styles"
+title: "Bootstrap 4 With Bootstrap 3 Code Styles"
 date: 2018-03-30T00:10:54-05:00
 publishdate: 2018-03-30
 draft: false

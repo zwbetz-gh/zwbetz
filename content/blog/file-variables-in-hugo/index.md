@@ -1,5 +1,5 @@
 ---
-title: "File variables in Hugo"
+title: "File Variables in Hugo"
 date: 2018-11-27T11:35:43-06:00
 publishdate: 2018-11-27
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Download a file over HTTPS using Apache Commons' FileUtils"
+title: "Download a File Over HTTPS Using Apache Commons' FileUtils"
 date: 2019-01-30T15:00:16-06:00
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "The foyer phone method"
+title: "The Foyer Phone Method"
 date: 2019-03-22T15:41:12-05:00
 toc: false
 ---

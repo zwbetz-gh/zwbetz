@@ -1,5 +1,5 @@
 ---
-title: "By value vs by reference in JavaScript"
+title: "By Value vs by Reference in JavaScript"
 date: 2020-02-25T00:00:00-05:00
 toc: false
 ---

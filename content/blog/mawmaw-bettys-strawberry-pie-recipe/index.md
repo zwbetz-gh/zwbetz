@@ -1,5 +1,5 @@
 ---
-title: "Mawmaw Betty's strawberry pie recipe"
+title: "Mawmaw Betty's Strawberry Pie Recipe"
 date: 2019-04-21T12:01:45-05:00
 toc: false
 aliases:

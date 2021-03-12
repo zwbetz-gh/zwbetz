@@ -1,5 +1,5 @@
 ---
-title: "Preview your site from any device on your network with these hugo server options"
+title: "Preview Your Site From Any Device on Your Network With These Hugo Server Options"
 date: 2019-04-23T13:06:04-05:00
 toc: false
 ---

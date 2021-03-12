@@ -1,5 +1,5 @@
 ---
-title: "Use Snap to install the Hugo edge version on Fedora and Ubuntu"
+title: "Use Snap to Install the Hugo Edge Version on Fedora and Ubuntu"
 date: 2018-10-26T12:59:51-05:00
 publishdate: 2018-10-26
 draft: false

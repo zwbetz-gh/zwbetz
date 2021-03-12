@@ -1,5 +1,5 @@
 ---
-title: "Generate Lorem Ipsum with a Hugo shortcode"
+title: "Generate Lorem Ipsum With a Hugo Shortcode"
 date: 2018-12-03T21:34:26-06:00
 publishdate: 2018-12-02
 draft: false

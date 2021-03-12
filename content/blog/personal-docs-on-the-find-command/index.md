@@ -1,5 +1,5 @@
 ---
-title: "Personal docs on the find command"
+title: "Personal Docs on the Find Command"
 date: 2018-09-17T11:52:00-05:00
 publishdate: 2018-09-17
 draft: false

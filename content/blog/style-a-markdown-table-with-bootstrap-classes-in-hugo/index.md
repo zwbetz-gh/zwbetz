@@ -1,5 +1,5 @@
 ---
-title: "Style a markdown table with Bootstrap classes in Hugo"
+title: "Style a Markdown Table With Bootstrap Classes in Hugo"
 date: 2018-12-12T12:47:56-06:00
 publishdate: 2018-12-12
 draft: false

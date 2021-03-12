@@ -1,5 +1,5 @@
 ---
-title: "Barbell training to get me through the day"
+title: "Barbell Training to Get Me Through the Day"
 date: 2018-10-08T13:28:32-05:00
 publishdate: 2018-10-08
 draft: false

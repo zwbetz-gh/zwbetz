@@ -1,5 +1,5 @@
 ---
-title: "How to add an Apple Touch Icon to a Squarespace site"
+title: "How to Add an Apple Touch Icon to a Squarespace Site"
 date: 2020-10-04T22:33:10-05:00
 toc: false
 ---

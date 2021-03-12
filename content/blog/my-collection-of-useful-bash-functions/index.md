@@ -1,5 +1,5 @@
 ---
-title: "My collection of useful bash functions"
+title: "My Collection of Useful Bash Functions"
 date: 2019-05-30T21:39:48-05:00
 toc: true
 ---

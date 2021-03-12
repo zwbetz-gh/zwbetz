@@ -1,5 +1,5 @@
 ---
-title: "Add your account as a sudoer on Mac"
+title: "Add Your Account as a Sudoer on Mac"
 date: 2019-04-17T11:54:33-05:00
 toc: false
 ---

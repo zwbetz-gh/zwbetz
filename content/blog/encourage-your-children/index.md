@@ -1,5 +1,5 @@
 ---
-title: "Encourage your children"
+title: "Encourage Your Children"
 date: 2019-06-18T22:18:45-05:00
 toc: false
 ---

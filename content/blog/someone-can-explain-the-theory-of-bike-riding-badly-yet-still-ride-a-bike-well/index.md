@@ -1,5 +1,5 @@
 ---
-title: "Someone can explain the theory of bike riding badly, yet still ride a bike well"
+title: "Someone Can Explain the Theory of Bike Riding Badly, Yet Still Ride a Bike Well"
 date: 2019-10-21T20:45:45-05:00
 toc: false
 ---

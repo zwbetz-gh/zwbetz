@@ -1,5 +1,5 @@
 ---
-title: "One constructive criticism, one good thing"
+title: "One Constructive Criticism, One Good Thing"
 date: 2019-01-03T22:33:14-06:00
 toc: false
 ---

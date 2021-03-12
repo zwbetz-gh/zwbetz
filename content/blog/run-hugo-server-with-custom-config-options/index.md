@@ -1,5 +1,5 @@
 ---
-title: "Run hugo server with custom config options"
+title: "Run Hugo Server With Custom Config Options"
 date: 2018-10-24T22:58:24-05:00
 publishdate: 2018-10-25
 draft: false

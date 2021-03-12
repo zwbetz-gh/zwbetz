@@ -1,5 +1,5 @@
 ---
-title: "Grant current and future objects to a user (role) in Postgres"
+title: "Grant Current and Future Objects to a User (Role) in Postgres"
 date: 2020-05-21T00:00:00-05:00
 toc: false
 ---

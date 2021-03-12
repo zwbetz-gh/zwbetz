@@ -1,5 +1,5 @@
 ---
-title: "Override a Hugo theme"
+title: "Override a Hugo Theme"
 date: 2019-01-21T08:16:32-06:00
 publishdate: 2019-01-20
 toc: false

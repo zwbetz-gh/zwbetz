@@ -1,5 +1,5 @@
 ---
-title: "Install Python on Windows without Admin access"
+title: "Install Python on Windows Without Admin Access"
 date: 2020-07-13T22:08:50-05:00
 toc: false
 ---

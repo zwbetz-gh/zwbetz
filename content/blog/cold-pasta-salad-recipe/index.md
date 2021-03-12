@@ -1,5 +1,5 @@
 ---
-title: "Cold pasta salad recipe"
+title: "Cold Pasta Salad Recipe"
 date: 2020-04-11T21:01:49-05:00
 toc: false
 ---

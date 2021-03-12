@@ -1,5 +1,5 @@
 ---
-title: "Use grep to recursively search for text for a given file extension"
+title: "Use Grep to Recursively Search for Text for a Given File Extension"
 date: 2018-08-22T14:19:00-05:00
 publishdate: 2018-08-22
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Resources for learning to code"
+title: "Resources for Learning to Code"
 date: 2018-11-02
 publishdate: 2018-11-02
 draft: false

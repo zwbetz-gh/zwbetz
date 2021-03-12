@@ -1,5 +1,5 @@
 ---
-title: "Eerie art"
+title: "Eerie Art"
 date: 2019-05-09T20:36:21-05:00
 toc: false
 ---

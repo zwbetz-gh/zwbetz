@@ -1,5 +1,5 @@
 ---
-title: "Maui trip"
+title: "Maui Trip"
 date: 2018-08-14T22:02:31-05:00
 publishdate: 2018-09-17
 draft: false

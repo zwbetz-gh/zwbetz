@@ -1,5 +1,5 @@
 ---
-title: "Use Visual Studio Code as your default text editor for Git"
+title: "Use Visual Studio Code as Your Default Text Editor for Git"
 date: 2018-10-24T14:49:17-05:00
 publishdate: 2018-10-24
 draft: false

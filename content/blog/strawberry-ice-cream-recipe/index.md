@@ -1,5 +1,5 @@
 ---
-title: "Strawberry ice cream recipe"
+title: "Strawberry Ice Cream Recipe"
 date: 2020-05-26T00:00:00-05:00
 toc: false
 ---

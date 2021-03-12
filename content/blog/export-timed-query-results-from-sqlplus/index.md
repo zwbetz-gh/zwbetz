@@ -1,5 +1,5 @@
 ---
-title: "Export timed query results from SQL*Plus"
+title: "Export Timed Query Results From SQL*Plus"
 date: 2019-01-15T22:10:59-06:00
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Default parameter values in Java"
+title: "Default Parameter Values in Java"
 date: 2018-08-10T13:35:32-05:00
 publishdate: 2018-08-10
 draft: false
