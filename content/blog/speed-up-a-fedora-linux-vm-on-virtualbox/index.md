@@ -1,5 +1,5 @@
 ---
-title: "Speed Up a Fedora Linux vm on VirtualBox"
+title: "Speed Up a Fedora Linux VM on VirtualBox"
 date: 2018-10-24T13:02:52-05:00
 publishdate: 2018-10-24
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Passing Input to a Bash Function via Arguments or Stdin"
+title: "Passing Input to a Bash Function via Arguments or stdin"
 date: 2019-06-29T10:44:58-05:00
 toc: false
 ---
@@ -7,7 +7,7 @@ toc: false
 I have a [collection of Bash functions]({{< relref "my-collection-of-useful-bash-functions" >}}) that I often use. For some of them, I needed to ability to read input from all of the following:
 
 - positional arguments
-- stdin
+- stdin (standard input)
 - here-strings
 
 This was not as straight-forward as I would have hoped. After much trial and error, though, here's what I came to. We'll use the `length` function as an example:
