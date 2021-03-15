@@ -54,7 +54,9 @@ const main = () => {
       .replace('Localhost', 'localhost')
       .replace('Psql', 'psql')
       .replace('Tmux', 'tmux')
-      .replace('.Env', '.env');
+      .replace('.Env', '.env')
+      .replace('Stdin', 'stdin')
+      .replace('vm', 'VM');
 
     console.log(oldTitle);
     console.log(newTitle);
