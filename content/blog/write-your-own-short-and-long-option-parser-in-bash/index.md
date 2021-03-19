@@ -6,7 +6,19 @@ toc: false
 
 Writing your own option parser in Bash is not so bad once you know the syntax. You can even support short and long options. An option can be a flag, or it can accept an argument.
 
-We'll showcase this in a simple greeter script. Enjoy.
+We'll showcase this in a simple greeter script. In a nutshell, the script will do the following:
+
+- Iterate an array of required tools. If they're not installed, exit
+- Parse options via a `while` statement and a nested `case` statement
+    - If an option equals a valid option, handle it
+    - If an option is unknown, exit
+    - If the `--` separator is detected, there are no more options to parse
+- If `stdin` exists, use it, else use the positional argument for `NAME`
+- If `NAME` length is `0`, exit
+- Do logic for each given option
+- Print the greeting
+
+Enjoy.
 
 ## Usage
 
