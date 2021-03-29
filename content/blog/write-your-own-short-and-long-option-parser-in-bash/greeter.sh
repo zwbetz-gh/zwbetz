@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+HELP_USAGE="For help, run: ${0} --help"
+
 NAME_USAGE="NAME must be a string of 1 or more characters"
 
 USAGE="Usage:
@@ -52,7 +54,7 @@ while [[ ${#} -gt 0 ]]; do
       ;;
     *)
       echo "Unknown option: ${1}"
-      echo "For help, run: ${0} --help"
+      echo "${HELP_USAGE}"
       exit 1
       ;;
   esac
@@ -73,7 +75,7 @@ LENGTH=${#NAME}
 
 if [[ ${LENGTH} -eq 0 ]]; then
   echo "${NAME_USAGE}"
-  echo "For help, run: ${0} --help"
+  echo "${HELP_USAGE}"
   exit 1
 fi
 
