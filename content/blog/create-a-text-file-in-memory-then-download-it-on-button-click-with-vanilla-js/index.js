@@ -67,7 +67,7 @@
       button
     ];
 
-    formEls.forEach((el) => form.appendChild(el));
+    formEls.forEach(el => form.appendChild(el));
     document.getElementById('demo').appendChild(form);
   };
 

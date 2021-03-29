@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const process = require('process');
 
-const makePrettyJson = (data) => {
+const makePrettyJson = data => {
   const string = JSON.stringify(data, null, 2);
   return string;
 };

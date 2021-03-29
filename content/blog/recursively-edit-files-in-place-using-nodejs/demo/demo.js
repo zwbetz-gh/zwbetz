@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const walk = (dir) => {
+const walk = dir => {
   try {
     let results = [];
     const list = fs.readdirSync(dir);
-    list.forEach((file) => {
+    list.forEach(file => {
       file = path.join(dir, file);
       const stat = fs.statSync(file);
       if (stat && stat.isDirectory()) {
@@ -25,7 +25,7 @@ const walk = (dir) => {
 const main = () => {
   const dir = 'dir-1';
   const filePaths = walk(dir);
-  filePaths.forEach((filePath) => {
+  filePaths.forEach(filePath => {
     const oldContent = fs.readFileSync(filePath, {encoding: 'utf8'});
     const regex = /BEFORE/;
     const replaceVal = 'AFTER';

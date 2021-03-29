@@ -13,11 +13,11 @@ const SPECIAL_WORDS = [
   {old: 'vm', new: 'VM'}
 ];
 
-const walk = (dir) => {
+const walk = dir => {
   try {
     let results = [];
     const list = fs.readdirSync(dir);
-    list.forEach((file) => {
+    list.forEach(file => {
       file = path.join(dir, file);
       const stat = fs.statSync(file);
       if (stat && stat.isDirectory()) {
@@ -34,7 +34,7 @@ const walk = (dir) => {
   }
 };
 
-const convertBlogPostTitleToTitleCase = (blogPostPath) => {
+const convertBlogPostTitleToTitleCase = blogPostPath => {
   const oldContent = fs.readFileSync(blogPostPath, {encoding: 'utf8'});
   const regex = /---\ntitle: ".*"/;
   const results = regex.exec(oldContent);
@@ -52,7 +52,7 @@ const convertBlogPostTitleToTitleCase = (blogPostPath) => {
     .replace(endQuote, '');
 
   let newTitle = oldTitle.toTitleCase();
-  SPECIAL_WORDS.forEach((word) => {
+  SPECIAL_WORDS.forEach(word => {
     newTitle = newTitle.replace(word.old, word.new);
   });
 
@@ -64,10 +64,10 @@ const convertBlogPostTitleToTitleCase = (blogPostPath) => {
 const main = () => {
   const blogDir = 'content/blog';
   const filePaths = walk(blogDir);
-  const blogPostPaths = filePaths.filter((filePath) => {
+  const blogPostPaths = filePaths.filter(filePath => {
     return filePath.endsWith('.md');
   });
-  blogPostPaths.forEach((blogPostPath) => {
+  blogPostPaths.forEach(blogPostPath => {
     convertBlogPostTitleToTitleCase(blogPostPath);
   });
 };

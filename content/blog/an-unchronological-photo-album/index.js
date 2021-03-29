@@ -4,7 +4,7 @@ const container = document.querySelector('#photos');
 
 const html = [];
 
-filenames.forEach((filename) => {
+filenames.forEach(filename => {
   const img = `<img src="img/${filename}">`;
   const br = '<br>';
   html.push(img);

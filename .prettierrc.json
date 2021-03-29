@@ -6,7 +6,7 @@
   "singleQuote": true,
   "trailingComma": "none",
   "bracketSpacing": false,
-  "arrowParens": "always",
+  "arrowParens": "avoid",
   "proseWrap": "never",
   "endOfLine": "lf"
 }
