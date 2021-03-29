@@ -4,8 +4,10 @@ date: 2019-10-11T20:58:09-05:00
 toc: false
 ---
 
+This will install gradle version `6.8.3`
+
 1. [Install Java]({{< relref "install-java-on-mac" >}}) version 8 or higher
-1. Download Gradle from the [releases page](https://gradle.org/releases/). We'll use version `6.8.3` in this example
+1. Download Gradle from the [releases page](https://gradle.org/releases/)
 
         curl -O -L https://downloads.gradle-dn.com/distributions/gradle-6.8.3-bin.zip
 

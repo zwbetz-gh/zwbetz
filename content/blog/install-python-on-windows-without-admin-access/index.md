@@ -6,7 +6,7 @@ toc: false
 
 Sometimes you need to install developer tools on a Windows machine, but you don't have Admin access. How to get around this, you say? Well, instead of running an installer, you download the binaries you need then add them to your `PATH`.
 
-## Python version 3.9.2
+This will install python version `3.9.2`
 
 1. Download a zip of the 64-bit Windows binary <https://www.python.org/ftp/python/3.9.2/python-3.9.2-embed-amd64.zip>
 1. Create folder `%USERPROFILE%\bin\python`, then extract the zip contents into this folder

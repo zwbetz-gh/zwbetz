@@ -6,7 +6,7 @@ toc: false
 
 Sometimes you need to install developer tools on a Windows machine, but you don't have Admin access. How to get around this, you say? Well, instead of running an installer, you download the binaries you need then add them to your `PATH`.
 
-## NodeJS version 14.16.0
+This will install node version `14.16.0`
 
 1. Download a zip of the 64-bit Windows binary <https://nodejs.org/dist/v14.16.0/node-v14.16.0-win-x64.zip>
 1. Create folder `%USERPROFILE%\bin\nodejs`, then extract the zip contents into this folder
