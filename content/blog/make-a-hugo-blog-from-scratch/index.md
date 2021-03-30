@@ -828,6 +828,26 @@ Good luck, have fun, and go build that personal site you've been meaning to do :
 
 The following are some of the lovely emails I've received about this post.
 
+{{< blockquote author="MrSimsek" >}}
+Your article should be included in the docs. It was exactly what I was looking for since I was struggling just to display navigation links on the page. Thank you for writing this guide. It was structured like the Jekyll quickstart guide and I really liked it for that reason.
+{{< /blockquote >}}
+
+{{< blockquote author="theadle" >}}
+Can’t thank you enough for this! That’s a lot of well organized work friend.
+{{< /blockquote >}}
+
+{{< blockquote author="nnise" >}}
+Thank you so much for this. Amazing contribution!
+{{< /blockquote >}}
+
+{{< blockquote author="Ij888" >}}
+I’ve been meaning to write for a few years now, hopefully this should get me liftoff.
+{{< /blockquote >}}
+
+{{< blockquote author="pawsys" >}}
+Thanks for writing this tutorial. Stuff like this is very helpful for beginners.
+{{< /blockquote >}}
+
 {{< blockquote author="Gary" >}}
 I wanted to drop you a quick line to thank you for the tutorial on
 creating a Hugo site/theme from scratch. I've been using Hugo on and off for my site for the last three years and currently use a provided theme (Blackburn). I've searched for and worked my way through the few tutorials on creating a theme that I've come across and want to let you know that I think yours is both the most comprehensive and clearest one I've used.
