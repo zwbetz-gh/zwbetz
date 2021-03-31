@@ -49,9 +49,10 @@ params:
 
 This is a fairly normal blog list template, with a few extras:
 
-- search bar
-- regex mode checkbox
-- page count
+- Search bar
+- Enable search checkbox
+- Regex mode checkbox
+- Page count
 
 ```html
 {{ define "main" }}
@@ -61,12 +62,22 @@ This is a fairly normal blog list template, with a few extras:
     id="search"
     class="form-control"
     type="text"
-    aria-label="Case-insensitive search by title, content, or publish date">
-  <div id="regex_mode_form" class="form-check">
-    <input id="regex_mode" class="form-check-input" type="checkbox">
-    <label class="form-check-label" for="regex_mode">
-      Regex mode
-    </label>
+    aria-label="Case-insensitive search by title, content, or publish date"
+    placeholder="Disabled ..."
+    disabled>
+  <div id="search_form">
+    <div class="form-check">
+      <input id="enable_search" class="form-check-input" type="checkbox">
+      <label class="form-check-label" for="enable_search">
+        Enable search
+      </label>
+    </div>
+    <div class="form-check">
+      <input id="regex_mode" class="form-check-input" type="checkbox">
+      <label class="form-check-label" for="regex_mode">
+        Regex mode
+      </label>
+    </div>
   </div>
   {{ end }}
   <p id="count">
@@ -119,8 +130,8 @@ This is part 1 of 2 of the magic. It iterates all blog posts, then creates a lis
 This is part 2 of 2 of the magic. Here's how it works:
 
 - If the search bar exists on the page, then:
-    - Fetch the JSON index. Before the request, disable the search bar and show a loading message. Once the request completes, enable the search bar and show a placeholder. Keep two copies of the JSON index. One original, one filtered, so they can be compared
-    - Add an event listener to the search bar to listen for `keyup` events
+    - Add the event listeners. Listen for checkbox `change` events, and search bar `keyup` events
+    - If the enable search checkbox is checked, fetch the JSON index. During the request, disable the search bar and show a loading placeholder. Once the request completes, enable the search bar. Keep two copies of the JSON index. One original, one filtered, so they can be compared
 - On each `keyup` event:
     - If regex mode is **not** checked, then uppercase the search query and compare it against the uppercased index fields. If regex mode **is** checked, then test the regex query against the uppercased index fields. Either way, if there is a match, add it to the filtered list
     - Re-render the count by checking the length of the filtered list
@@ -129,6 +140,7 @@ This is part 2 of 2 of the magic. Here's how it works:
 ```js
 (function () {
   const SEARCH_ID = 'search';
+  const ENABLE_SEARCH_ID = 'enable_search';
   const REGEX_MODE_ID = 'regex_mode';
   const COUNT_ID = 'count';
   const LIST_ID = 'list';
@@ -142,13 +154,14 @@ This is part 2 of 2 of the magic. Here's how it works:
   };
 
   const getSearchEl = () => document.getElementById(SEARCH_ID);
+  const getEnableSearchEl = () => document.getElementById(ENABLE_SEARCH_ID);
   const getRegexModeEl = () => document.getElementById(REGEX_MODE_ID);
   const getCountEl = () => document.getElementById(COUNT_ID);
   const getListEl = () => document.getElementById(LIST_ID);
 
-  const disableSearchEl = () => {
+  const disableSearchEl = placeholder => {
     getSearchEl().disabled = true;
-    getSearchEl().placeholder = 'Loading ...';
+    getSearchEl().placeholder = placeholder;
   };
 
   const enableSearchEl = () => {
@@ -157,27 +170,35 @@ This is part 2 of 2 of the magic. Here's how it works:
       'Case-insensitive search by title, content, or publish date';
   };
 
-  const fetchJson = () => {
+  const disableRegexModeEl = () => {
+    getRegexModeEl().disabled = true;
+  };
+
+  const enableRegexModeEl = () => {
+    getRegexModeEl().disabled = false;
+  };
+
+  const fetchJsonIndex = () => {
     const startTime = performance.now();
-    disableSearchEl();
+    disableSearchEl('Loading ...');
     const url = `${window.location.origin}/index.json`;
     fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
+      .then(response => response.json())
+      .then(data => {
         list = data.blog;
         filteredList = data.blog;
         enableSearchEl();
-        logPerformance('fetchJson', startTime, performance.now());
+        logPerformance('fetchJsonIndex', startTime, performance.now());
       })
-      .catch((error) =>
+      .catch(error =>
         console.error(`Failed to fetch JSON index: ${error.message}`)
       );
   };
 
-  const filterList = (regexMode) => {
+  const filterList = regexMode => {
     const regexQuery = new RegExp(getSearchEl().value, 'i');
     const query = getSearchEl().value.toUpperCase();
-    filteredList = list.filter((item) => {
+    filteredList = list.filter(item => {
       const title = item.Title.toUpperCase();
       const content = item.PlainContent.toUpperCase();
       const publishDate = item.PublishDateFormatted.toUpperCase();
@@ -206,7 +227,7 @@ This is part 2 of 2 of the magic. Here's how it works:
     const newList = document.createElement('ul');
     newList.id = LIST_ID;
 
-    filteredList.forEach((item) => {
+    filteredList.forEach(item => {
       const li = document.createElement('li');
 
       const publishDate = document.createElement('span');
@@ -227,23 +248,31 @@ This is part 2 of 2 of the magic. Here's how it works:
     oldList.replaceWith(newList);
   };
 
-  const handleEvent = () => {
-    const startTime = performance.now();
+  const handleSearchEvent = () => {
     const regexMode = getRegexModeEl().checked;
     filterList(regexMode);
     renderCount();
     renderList();
-    logPerformance('handleEvent', startTime, performance.now());
+  };
+
+  const handleEnableSearchEvent = () => {
+    if (getEnableSearchEl().checked) {
+      fetchJsonIndex();
+      enableRegexModeEl();
+    } else {
+      disableSearchEl('Disabled ...');
+      disableRegexModeEl();
+    }
   };
 
   const addEventListeners = () => {
-    getSearchEl().addEventListener('keyup', handleEvent);
-    getRegexModeEl().addEventListener('change', handleEvent);
+    getEnableSearchEl().addEventListener('change', handleEnableSearchEvent);
+    getSearchEl().addEventListener('keyup', handleSearchEvent);
+    getRegexModeEl().addEventListener('change', handleSearchEvent);
   };
 
   const main = () => {
     if (getSearchEl()) {
-      fetchJson();
       addEventListeners();
     }
   };
@@ -283,3 +312,4 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
     - [`RegExp` flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters)
     - [`test()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
     - [`change` event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
+    - [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
