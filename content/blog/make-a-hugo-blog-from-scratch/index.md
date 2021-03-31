@@ -12,7 +12,7 @@ Still, there have many requests on the [forums](https://discourse.gohugo.io/) fo
 
 For the folks out there thinking, "just show me the money already", here's the finished product [source code](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) and [demo](https://make-a-hugo-blog-from-scratch.netlify.com/).
 
-## Prerequisities and notes
+## Prerequisities and Notes
 
 - Use Hugo version `0.58.3` or higher
 - Basic knowledge of HTML, CSS, and Hugo templates is nice-to-have, but not necessary
@@ -21,7 +21,7 @@ For the folks out there thinking, "just show me the money already", here's the f
 - The words "templates" and "layouts" will be used interchangeably, AKA I'm talking about the same thing
 - In normal hugo site development workflow, it's common to check the file tree of the `public` folder to verify the generated site is what you expect. To keep this tutorial concise, I won't be doing that, but it's a habit I encourage you to start
 
-## Create the site
+## Create the Site
 
 Okay, let's generate a site skeleton:
 
@@ -75,7 +75,7 @@ Press Ctrl+C to stop
 
 Don't let the warnings scare you. They're good, as they let us know what needs fixin'. By the end, they'll be gone.
 
-## Homepage layout
+## Homepage Layout
 
 Let's make the [homepage template](https://gohugo.io/templates/homepage/#readout). Create file `layouts/index.html`, with this content:
 
@@ -121,7 +121,7 @@ Notice how we grabbed data -- `.Title` and `.Site.Params.homeText` in this case 
 
 Also, we're piping the home text through the [`markdownify` function](https://gohugo.io/functions/markdownify/#readout), which runs it through the markdown processor.
 
-## The static folder
+## The `static` Folder
 
 I usually prefer to save off CSS and JS locally instead of getting it from a CDN, so let's create file `static/css/bootstrap.min.css` by pasting in [this CSS](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch/blob/master/static/css/bootstrap.min.css).
 
@@ -157,7 +157,7 @@ In the new CSS code, we declare a variable with the path to the CSS file, then p
 
 With hugo server still running, check the homepage and confirm it looks the same.
 
-## Single page layout
+## `single` Page Layout
 
 Before creating our first blog post, we need a layout for [single pages](https://gohugo.io/templates/single-page-templates/#readout), else our blog post will not "know" how to display itself. Create file `layouts/_default/single.html`:
 
@@ -182,7 +182,7 @@ Before creating our first blog post, we need a layout for [single pages](https:/
 </html>
 ```
 
-## Create the first blog post
+## Create the First Blog Post
 
 A little more prep work: let's edit the default [archetype](https://gohugo.io/content-management/archetypes/#readout) file, which lives at `archetypes/default.md`. To keep it from tripping us up, let's replace `draft: true` with `draft: false`. Then add a line above for tags, `tags: []`, which we'll use later. The file should now look like:
 
@@ -268,7 +268,7 @@ And—which is more—you’ll be a Man, my son!
 
 Restart hugo server then navigate to `http://localhost:1313/if-by-rudyard-kipling/` to see the blog post.
 
-## Baseof layout
+## `baseof` Layout
 
 Our homepage and single page layouts repeat a lot of code. Wouldn't it be nice if there was a way to share the repeated code, then only have the unique code in each layout? Well, there is, and it's known as the [baseof](https://gohugo.io/templates/base/) layout.
 
@@ -360,7 +360,7 @@ Then update `layouts/_default/baseof.html` to reference it:
 </html>
 ```
 
-## List page layout
+## `list` Page Layout
 
 Since a list with one thing would be sad, let's create two more blog posts. Stop hugo server, then run:
 
@@ -547,7 +547,7 @@ Then reference it in `layouts/_default/baseof.html`:
 
 Navigate to `http://localhost:1313/`, then give the menu a test run.
 
-## Tweak blog list layout title
+## Tweak Blog List Layout Title
 
 Currently, the title of `http://localhost:1313/blog/` is `Blogs`. This is intended behavior because Hugo pluralizes the list title according to a set of common English pluralization rules. We don't want this, though, so let's change it to `Blog`.
 
@@ -563,7 +563,7 @@ The leading underscore in `_index.md` is important. If differentiates a branch b
 
 Now navigate to `http://localhost:1313/blog/` to see the change.
 
-## Date and tags partial
+## Date and Tags Partial
 
 Let's add the date and tags to each post. We want it to show on the blog list page, and the single page for each post, so we'll use a partial.
 
@@ -642,7 +642,7 @@ And update `layouts/_default/list.html` to reference the partial as well:
 
 Now navigate to `http://localhost:1313/blog/` to see the changes.
 
-## Terms list layout
+## `terms` List Layout
 
 Let's customize the way our tags (terms) are displayed on `http://localhost:1313/tags/`. They currently show a date, which we don't want. So instead we'll display a "count" next to each tag, showing how many times it's been used. The tags will be ordered alphabetically.
 
@@ -666,7 +666,7 @@ Create file `layouts/_default/terms.html`:
 
 Navigate to `http://localhost:1313/tags/` to checkout the new tags listing.
 
-## Style tweaks
+## Style Tweaks
 
 Let's add a few style tweaks with some custom CSS. Create file `layouts/partials/style.html`:
 
@@ -718,7 +718,7 @@ If you would rather not use an internal stylesheet, Hugo's templating features c
 
 Now navigate to any page to see the style changes.
 
-## Better title logic
+## Better Title Logic
 
 Currently, we're just showing the page title in the `<title>` element. Let's make it so that the homepage only shows the site title, then other pages show both the page title and the site title.
 
@@ -742,7 +742,7 @@ Update `layouts/partials/head.html` to be:
 
 Navigate to a few pages and glance at the browser tab to see the changes.
 
-## Wrap up
+## Wrap Up
 
 If you stop hugo server and just run `hugo`, which will generate your site to the `public` folder, your full project file tree should now look like:
 
@@ -824,7 +824,7 @@ I hope this tutorial was helpful. Hugo can do _many_ things, so it's near imposs
 
 Good luck, have fun, and go build that personal site you've been meaning to do :)
 
-## Emails I've received
+## Emails I've Received
 
 The following are some of the lovely emails I've received about this post.
 
