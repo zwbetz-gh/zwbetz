@@ -24,10 +24,13 @@ toc: false
 | List local branches                                | `git branch`                                                     |
 | List remote branches                               | `git branch -r`                                                  |
 | Show status                                        | `git status`                                                     |
+| Show diff                                          | `git diff`                                                       |
 | Stage all changes                                  | `git add .`                                                      |
 | Commit staged changes                              | `git commit -m "MESSAGE"`                                        |
 | Push local branch to remote branch                 | `git push`                                                       |
 | Merge remote branch into local branch              | `git pull origin BRANCH`                                         |
+| Show commit log                                    | `git log`                                                        |
+| Show pretty commit log                             | `git log --oneline`                                              |
 | Unstage all changes                                | `git reset`                                                      |
 | Undo all modified files                            | `git checkout .`                                                 |
 | Delete untracked files                             | `git clean -f -d`                                                |
