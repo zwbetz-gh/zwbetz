@@ -2,17 +2,17 @@
 
 HELP_USAGE="For help, run: ${0} --help"
 
-NAME_USAGE="NAME must be a string of 1 or more characters"
+NAME_USAGE="<NAME> must be a string of 1 or more characters"
 
 USAGE="Usage:
-  ${0} [OPTIONS] -- NAME
+  ${0} [OPTIONS] -- <NAME>
 
 ${NAME_USAGE}
 
 OPTIONS:
-  -h, --help            Show this help
-  -u, --uppercase       Uppercase the greeting
-  -p, --prefix PREFIX   Change the greeting prefix. Defaults to \"Hello\"
+  -h, --help              Show this help
+  -u, --uppercase         Uppercase the greeting
+  -p, --prefix <PREFIX>   Change the greeting prefix. Defaults to \"Hello\"
 
 Samples:
   ${0} -- \"Townes\"

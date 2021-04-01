@@ -9,29 +9,30 @@ Writing your own option parser in Bash is not so bad once you know the syntax. Y
 We'll showcase this in a simple greeter script. In a nutshell, the script will do the following:
 
 - Iterate an array of required tools. If they're not installed, exit
-- Parse options via a `while` statement and a nested `case` statement
+- Parse `[OPTIONS]` via a `while` statement and a nested `case` statement
     - If an option equals a valid option, handle it
     - If an option is unknown, exit
     - If the `--` separator is detected, there are no more options to parse
-- If `stdin` exists, use it, else use the positional argument for `NAME`
-- If `NAME` length is `0`, exit
+- If `stdin` exists, use it, else use the positional argument for `<NAME>`
+- If `<NAME>` length is `0`, exit
 - Do logic for each given option
-- Print the greeting
+- Show the greeting
 
 Enjoy.
 
 ## Usage
 
 ```
+$ ./greeter.sh --help
 Usage:
-  ./greeter.sh [OPTIONS] -- NAME
+  ./greeter.sh [OPTIONS] -- <NAME>
 
-NAME must be a string of 1 or more characters
+<NAME> must be a string of 1 or more characters
 
 OPTIONS:
-  -h, --help            Show this help
-  -u, --uppercase       Uppercase the greeting
-  -p, --prefix PREFIX   Change the greeting prefix. Defaults to "Hello"
+  -h, --help              Show this help
+  -u, --uppercase         Uppercase the greeting
+  -p, --prefix <PREFIX>   Change the greeting prefix. Defaults to "Hello"
 
 Samples:
   ./greeter.sh -- "Townes"
@@ -43,7 +44,7 @@ Samples:
 
 ```
 $ ./greeter.sh --
-NAME must be a string of 1 or more characters
+<NAME> must be a string of 1 or more characters
 For help, run: ./greeter.sh --help
 ```
 
@@ -78,17 +79,17 @@ YO, STDIN
 
 HELP_USAGE="For help, run: ${0} --help"
 
-NAME_USAGE="NAME must be a string of 1 or more characters"
+NAME_USAGE="<NAME> must be a string of 1 or more characters"
 
 USAGE="Usage:
-  ${0} [OPTIONS] -- NAME
+  ${0} [OPTIONS] -- <NAME>
 
 ${NAME_USAGE}
 
 OPTIONS:
-  -h, --help            Show this help
-  -u, --uppercase       Uppercase the greeting
-  -p, --prefix PREFIX   Change the greeting prefix. Defaults to \"Hello\"
+  -h, --help              Show this help
+  -u, --uppercase         Uppercase the greeting
+  -p, --prefix <PREFIX>   Change the greeting prefix. Defaults to \"Hello\"
 
 Samples:
   ${0} -- \"Townes\"
