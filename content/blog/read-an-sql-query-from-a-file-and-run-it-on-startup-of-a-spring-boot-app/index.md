@@ -92,3 +92,14 @@ public class SqlQueryApplicationRunner implements ApplicationRunner {
 
 }
 ```
+
+## Sample Output
+
+```
+2021-03-31 23:53:47.645  INFO 4820 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.277 seconds (JVM running for 1.535)
+2021-03-31 23:53:47.647  INFO 4820 --- [           main] c.e.demo.SqlQueryApplicationRunner       : Running an SQL query to check TODOs
+2021-03-31 23:53:47.653  WARN 4820 --- [           main] c.e.demo.SqlQueryApplicationRunner       : {ID=1, CONTENT=Brew coffee}
+2021-03-31 23:53:47.653  WARN 4820 --- [           main] c.e.demo.SqlQueryApplicationRunner       : {ID=2, CONTENT=Wash the dog}
+2021-03-31 23:53:47.653  WARN 4820 --- [           main] c.e.demo.SqlQueryApplicationRunner       : {ID=3, CONTENT=Make dinner}
+2021-03-31 23:53:47.653  WARN 4820 --- [           main] c.e.demo.SqlQueryApplicationRunner       : You have TODOs ...
+```
