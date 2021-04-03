@@ -4,10 +4,10 @@ date: 2019-04-17T11:54:33-05:00
 toc: false
 ---
 
-1. Run `whoami`. You will use this value later to replace `YOUR_ACCOUNT`
+1. Run `whoami`. You will use this value later to replace `<YOUR_ACCOUNT>`
 1. Switch to an admin account by running
 
-        su ADMIN_ACCOUNT
+        su <ADMIN_ACCOUNT>
 
 1. Run `sudo cat /etc/sudoers` and verify that the following line exists somewhere in that file [^private_symlink]
 
@@ -17,9 +17,9 @@ toc: false
 
         sudo visudo -f /etc/sudoers.d/sudoers
 
-1. Press the `i` key for "insert" mode, then type the following line
+1. Press the `i` key for Insert mode, then type the following line
 
-        YOUR_ACCOUNT ALL=(ALL) ALL
+        <YOUR_ACCOUNT> ALL=(ALL) ALL
 
 1. Press `ESC`, then type `:x` followed by the `ENTER` key to save your changes
 1. Verify your changes by running

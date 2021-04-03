@@ -4,9 +4,9 @@ date: 2020-10-11T22:12:49-05:00
 toc: false
 ---
 
-GitHub has a cool feature called GitHub Pages. It's basically free web hosting for your repo. Your site is served from branch `gh-pages`. And the url becomes `https://USER_NAME.github.io/REPO_NAME/`
+GitHub has a cool feature called GitHub Pages. It's basically free web hosting for your repo. Your site is served from branch `gh-pages`. And the url becomes `https://<USER_NAME>.github.io/<REPO_NAME>`
 
-There's a python package called `ghp-import` that does the heavy lifting for you. All you have to do is build your site as normal. 
+There's a python package called `ghp-import` that does the heavy lifting for you. All you have to do is build your site as normal.
 
 The following is a stripped-down version of necessary steps. For a more fleshed-out version, see <https://github.com/zwbetz-gh/github-pages-deploy-pleasejs>
 
@@ -17,14 +17,14 @@ The following is a stripped-down version of necessary steps. For a more fleshed-
 ## Steps
 
 1. Install Python version 3.8 or higher
-1. Install package `GitHub Pages Import`
+1. Install the GitHub Pages Import package
 
         pip install ghp-import
 
-1. Build your site. This assumes the built site is under `DIR`
+1. Build your site. This assumes the built site is under `<DIR>`
 1. Deploy your site
 
-        ghp-import -n -m COMMIT_MSG -p -f DIR
+        ghp-import -n -p -f -m <COMMIT_MSG> <DIR>
 
 ## ghp-import arguments
 
@@ -55,4 +55,4 @@ Options:
 
 Optionally preview your site locally before you deploy it, with python's built-in HTTP server:
 
-    python -m http.server PORT --bind HOST --directory DIR
+    python -m http.server <PORT> --bind <HOST> --directory <DIR>

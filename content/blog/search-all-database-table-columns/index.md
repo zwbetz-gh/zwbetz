@@ -11,7 +11,7 @@ Ever wanted to search an entire database for a column by name? Well, put your de
 ```sql
 SELECT * 
 FROM all_tab_cols
-WHERE column_name LIKE '%FOO%';
+WHERE column_name LIKE '%<FOO>%';
 ```
 
 ## Postgres
@@ -19,5 +19,5 @@ WHERE column_name LIKE '%FOO%';
 ```sql
 SELECT * 
 FROM information_schema.columns
-WHERE column_name LIKE '%foo%';
+WHERE column_name LIKE '%<foo>%';
 ```
