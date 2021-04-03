@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-HELP_USAGE="For help, run: ${0} --help"
+SCRIPT_NAME="./script"
+HELP_USAGE="For help, run: ${SCRIPT_NAME} --help"
 NAME_USAGE="<NAME> cannot be empty"
 PREFIX_USAGE="<PREFIX> cannot be empty"
 USAGE="\
 Usage:
-  ${0} [OPTIONS] -- <NAME>
+  ${SCRIPT_NAME} [OPTIONS] -- <NAME>
 
 ${NAME_USAGE}
 
@@ -21,6 +22,28 @@ backwards_name=""
 today=""
 output=""
 
+handle_help() {
+  echo -e "${USAGE}"
+  exit 0
+}
+
+die() {
+  echo "${HELP_USAGE}"
+  exit 1
+}
+
+handle_empty_arg() {
+  if [[ -z "${2}" ]]; then
+    echo "${1}"
+    die
+  fi
+}
+
+handle_unknown_option() {
+  echo "Unknown option: ${1}"
+  die
+}
+
 uppercase() {
   echo "$(tr '[:lower:]' '[:upper:]' <<< ${1})"
 }
@@ -31,29 +54,6 @@ reverse() {
 
 get_today() {
   echo "$(date '+%F')"
-}
-
-get_duration() {
-  echo "${SECONDS}"
-}
-
-handle_help() {
-  echo -e "${USAGE}"
-  exit 0
-}
-
-handle_empty_arg() {
-  if [[ -z "${2}" ]]; then
-    echo "${1}"
-    echo "${HELP_USAGE}"
-    exit 1
-  fi
-}
-
-handle_unknown_option() {
-  echo "Unknown option: ${1}"
-  echo "${HELP_USAGE}"
-  exit 1
 }
 
 while [[ ${#} -gt 0 ]]; do
@@ -84,7 +84,7 @@ done
 name=${1}
 
 if [[ -p /dev/stdin ]]; then
-  name="$(cat -)"
+  name="$(< /dev/stdin)"
 fi
 
 handle_empty_arg "${NAME_USAGE}" "${name}"
@@ -95,7 +95,6 @@ fi
 
 backwards_name="$(reverse ${name})"
 today="$(get_today)"
-duration="$(get_duration)"
 
 output="\
 ${prefix_option}, ${name}
@@ -103,4 +102,5 @@ Your name backwards is ${backwards_name}
 Today is ${today}"
 
 echo "${output}"
-echo "Completed in ${duration} s"
+
+echo "Completed in ${SECONDS} s"
