@@ -41,7 +41,7 @@ These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-sto
 ## Thoughts
 
 - Quoting variables in Bash is safe, but tedious
-- Bash has an interesting built-in called `shift`. When called, it removes arguments from the beginning of the argument list. When used inside a while loop / case statement combo, it's like you're calling `pop()` on a list that you're currently iterating. Spooky
+- Bash has an interesting built-in called `shift`. When called, it removes 1 argument from the beginning of the argument list. When used inside a while loop / case statement combo, it's like you're calling `shift()` on an array that you're currently iterating. Spooky
 - This was my first substantial Python script. I was forced to dive deep into the docs. The syntax reminded me of Visual Basic (in a good way), which I first learned to program on
 - When accessing an array index that does not exist, JS returns `undefined`, but Python throws an `IndexError`
 - All of these languages support multi-line template literal strings, which is nice
