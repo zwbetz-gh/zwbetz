@@ -6,9 +6,9 @@ toc: false
 
 ## Teaching
 
+- [Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and NodeJS]({{< relref "rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages" >}}) -- To really appreciate what a language does for you, it helps to compare it to other languages. Then you can see how (differently) common tasks are done. In this fun little exercise, we’ll write the same option parser script in multiple languages.
 - [Make a Hugo Blog From Scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}) -- In my opinion, Hugo’s current quick start is ample. It does just what the name says, gets you started you quickly. Still, there have many requests on the forums for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you’re reading is my go at that. Starting from scratch, we’ll build a Hugo blog.
 - [Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS]({{< relref "build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js" >}}) -- My blog has become a personal knowledge base of sorts. As it’s grown, doing the usual Command + F for browser-search doesn’t always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that’s my problem, but how to fix it?
-- [Write Your Own Short and Long Option Parser in Bash]({{< relref "write-your-own-short-and-long-option-parser-in-bash" >}}) -- Writing your own option parser in Bash is not so bad once you know the syntax. You can even support short and long options. An option can be a flag, or it can accept an argument. We'll showcase this in a simple greeter script.
 
 ## Hugo Themes
 
