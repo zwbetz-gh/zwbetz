@@ -6,7 +6,7 @@ toc: false
 
 ## Prerequisites 
 
-- `sqlplus` (SQL*Plus) 12.2.x or higher is installed and on your `PATH`. See install steps for [Mac]({{< relref "install-sqlplus-on-a-mac" >}}) and [Linux]({{< relref "install-sqlplus-on-linux" >}})
+- `sqlplus` (SQL*Plus) version 12.2.x or higher is installed and on your `PATH`. See install steps for [Mac]({{< relref "install-sqlplus-on-a-mac" >}}) and [Linux]({{< relref "install-sqlplus-on-linux" >}})
 - The following files are in the same directory
 
 ## Files 

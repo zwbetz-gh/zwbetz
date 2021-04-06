@@ -1,0 +1,5 @@
+SELECT 'foo'
+WHERE 1 = 1
+UNION ALL
+SELECT 'bar'
+WHERE 2 = 2;

@@ -6,7 +6,7 @@ toc: false
 
 ## Prerequisites 
 
-- `psql` (PostgreSQL) 9.0.x or higher is installed and on your PATH
+- `psql` (PostgreSQL) version 9.0.x or higher is installed and on your `PATH`. See install steps for [Mac]({{< relref "install-psql-on-mac" >}})
 - The following files are in the same directory
 
 ## Files 
@@ -23,48 +23,58 @@ WHERE 2 = 2;
 
 An `.env` file:
 ```bash
-export POSTGRES_HOST="some-host.com"
+export POSTGRES_HOST="localhost"
 export POSTGRES_PORT="5432"
 export POSTGRES_DATABASE="some_database"
 export POSTGRES_USERNAME="some_user"
 export POSTGRES_PASSWORD="some_password"
 ```
 
-A `script.bash` file:
+A `script.sh` file:
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Load database connection info
-source .env 
+source .env
 
 # Read query into a variable
-sql="$(cat query.sql)"
+sql="$(<"query.sql")"
 
-# If psql is not installed, then exit
-if ! command -v psql > /dev/null; then 
-  echo "PostgreSQL is required..."
-  exit 1 
-fi 
+# If psql is not available, then exit
+if ! command -v psql > /dev/null; then
+  echo "This script requires psql to be installed and on your PATH ..."
+  exit 1
+fi
 
 # Connect to the database, run the query, then disconnect
-PGPASSWORD="$POSTGRES_PASSWORD" psql -t -A \
--h "$POSTGRES_HOST" \
--p "$POSTGRES_PORT" \
--d "$POSTGRES_DATABASE" \
--U "$POSTGRES_USERNAME" \
--c "$sql" 
+PGPASSWORD="${POSTGRES_PASSWORD}" psql -t -A \
+-h "${POSTGRES_HOST}" \
+-p "${POSTGRES_PORT}" \
+-d "${POSTGRES_DATABASE}" \
+-U "${POSTGRES_USERNAME}" \
+-c "${sql}"
 ```
 
-Usage:
+## Usage
+
+Make it executable:
 ```
-$ ./script.bash
+$ chmod 755 script.sh
+```
+
+Print results to stdout:
+```
+$ ./script.sh
 foo
 bar
-
-$ ./script.bash > results.txt
 ```
 
-Notes:
+Write results to file:
+```
+$ ./script.sh > results.txt
+```
+
+## Notes
 
 - There isn't an option to pass the password, so that's why the `PGPASSWORD` environment variable is set
 - The `-t` option turns off printing of column names and result row count footers
