@@ -1,7 +1,7 @@
 ---
 title: "Connect to a Postgresql Database and Run a Query From a Bash Script"
 date: 2019-06-07T13:10:14-05:00
-toc: false
+toc: true
 ---
 
 ## Prerequisites 
@@ -79,3 +79,7 @@ $ ./script.sh > results.txt
 - There isn't an option to pass the password, so that's why the `PGPASSWORD` environment variable is set
 - The `-t` option turns off printing of column names and result row count footers
 - The `-A` option switches to unaligned output mode
+
+## Related
+
+- [Connect to an Oracle Database and Run a Query From a Bash Script]({{< relref "connect-to-an-oracle-database-and-run-a-query-from-a-bash-script" >}})

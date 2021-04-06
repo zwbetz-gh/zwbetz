@@ -1,7 +1,7 @@
 ---
 title: "Connect to an Oracle Database and Run a Query From a Bash Script"
 date: 2019-06-07T13:09:06-05:00
-toc: false
+toc: true
 ---
 
 ## Prerequisites 
@@ -78,3 +78,7 @@ $ ./script.sh > results.txt
 - The `SET FEEDBACK OFF` option suppresses the number of records returned by a script
 - The `-S` option sets silent mode which suppresses the display of the SQL*Plus banner, prompts, and echoing of commands
 - The `-L` option attempts to log on just once, instead of reprompting on error
+
+## Related
+
+- [Connect to a Postgresql Database and Run a Query From a Bash Script]({{< relref "connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script" >}})
