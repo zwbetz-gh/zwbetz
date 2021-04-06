@@ -37,21 +37,15 @@ menu:
     - name: Projects
       url: /projects/
       weight: 3
-    - name: JSON
-      url: /index.json
-      weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
 
 params:
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
-    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
+    Themed by [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) &bull;
     Deployed by [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
   show_footer_site_last_updated: false
-  show_footer_debug: true
+  show_footer_debug: false
   search: true
   search_minify: true
   show_prev_next_links: false
