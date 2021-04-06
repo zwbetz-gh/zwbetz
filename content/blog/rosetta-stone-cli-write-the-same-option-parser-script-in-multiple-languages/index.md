@@ -32,7 +32,7 @@ These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-sto
     Today is <TODAY>
     Completed in <TIME> s
     ```
-1. Read `<NAME>` from the 1st positional parameter. If the 1st positional parameter is empty, read from piped `stdin`. If piped `stdin` is empty, handle the error
+1. Read `<NAME>` from an argument. If the argument is empty, read from piped `stdin`. If piped `stdin` is empty, handle the error
 1. `<BACKWARDS_NAME>` is the reverse string of `<NAME>`
 1. `<TODAY>` is the current date as format `yyyy-MM-dd` in UTC
 1.  `<TIME>` is in seconds. Use 2 decimal places if possible
