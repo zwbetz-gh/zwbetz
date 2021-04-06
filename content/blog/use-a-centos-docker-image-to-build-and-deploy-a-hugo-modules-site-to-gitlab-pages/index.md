@@ -29,10 +29,10 @@ variables:
 
 before_script:
   - yum install -y curl git
-  - chmod +x task_ci_config.sh
-  - chmod +x task_ci_install_go.sh
-  - chmod +x task_ci_install_hugo.sh
-  - chmod +x task_ci_build.sh
+  - chmod 755 task_ci_config.sh
+  - chmod 755 task_ci_install_go.sh
+  - chmod 755 task_ci_install_hugo.sh
+  - chmod 755 task_ci_build.sh
   - ./task_ci_install_go.sh $GO_VERSION
   - ./task_ci_install_hugo.sh $HUGO_VERSION
 

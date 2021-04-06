@@ -34,7 +34,7 @@ curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
 tarball="$(find . -name "*Linux-64bit.tar.gz")"
 tar -xzf $tarball
 
-chmod +x hugo
+chmod 755 hugo
 
 mv hugo /usr/local/bin/
 
@@ -159,7 +159,7 @@ tar -xzf $tarball
 Give the hugo binary executable permissions:
 
 ```
-chmod +x hugo
+chmod 755 hugo
 ```
 
 Move the hugo binary from `/tmp/` to `/usr/local/bin/`, which is already on your `PATH`:

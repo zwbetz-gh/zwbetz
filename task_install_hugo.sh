@@ -22,7 +22,7 @@ pushd $tmp_dir >/dev/null
 wget -q $url
 tar xf $tar
 
-chmod +x hugo
+chmod 755 hugo
 cp hugo ~/bin
 
 popd >/dev/null

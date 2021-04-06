@@ -18,7 +18,7 @@ You can obviously place the chromedriver binary in any directory you like, I jus
 
 1. Create directory `${HOME}/bin`
 1. [Download chromedriver](http://chromedriver.chromium.org/downloads) for Mac and save to `${HOME}/bin`
-1. `cd ${HOME}/bin && chmod +x chromedriver` to make it executable
+1. `cd ${HOME}/bin && chmod 755 chromedriver` to make it executable
 1. Open `${HOME}/.bash_profile` in a text editor
 1. Add line `export PATH="${PATH}:${HOME}/bin"` then save the file
 1. Restart your terminal
