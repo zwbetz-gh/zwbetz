@@ -23,11 +23,11 @@ Then let's pretend in each of these files, you need to replace the string `BEFOR
 const fs = require('fs');
 const path = require('path');
 
-const walk = (dir) => {
+const walk = dir => {
   try {
     let results = [];
     const list = fs.readdirSync(dir);
-    list.forEach((file) => {
+    list.forEach(file => {
       file = path.join(dir, file);
       const stat = fs.statSync(file);
       if (stat && stat.isDirectory()) {
@@ -44,17 +44,19 @@ const walk = (dir) => {
   }
 };
 
+const edit = filePath => {
+  const oldContent = fs.readFileSync(filePath, {encoding: 'utf8'});
+  const regex = /BEFORE/;
+  const replaceVal = 'AFTER';
+  const newContent = oldContent.replace(regex, replaceVal);
+  fs.writeFileSync(filePath, newContent, {encoding: 'utf-8'});
+  console.log(`Edited file: ${filePath}`);
+};
+
 const main = () => {
   const dir = 'dir-1';
   const filePaths = walk(dir);
-  filePaths.forEach((filePath) => {
-    const oldContent = fs.readFileSync(filePath, {encoding: 'utf8'});
-    const regex = /BEFORE/;
-    const replaceVal = 'AFTER';
-    const newContent = oldContent.replace(regex, replaceVal);
-    fs.writeFileSync(filePath, newContent, {encoding: 'utf-8'});
-    console.log(`Edited file: ${filePath}`);
-  });
+  filePaths.forEach(filePath => edit(filePath));
 };
 
 main();
@@ -63,7 +65,7 @@ main();
 Sample output:
 
 ```
-$ node demo.js
+$ node script.js
 Edited file: dir-1/dir-2/dir-3/file-3.txt
 Edited file: dir-1/dir-2/file-2.txt
 Edited file: dir-1/file-1.txt
