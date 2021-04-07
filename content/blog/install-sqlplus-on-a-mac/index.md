@@ -103,4 +103,5 @@ toc: true
 
 ## Related
 
-- Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}})
+- [Connect to an Oracle Database and Run a Query From a Bash Script]({{< relref "connect-to-an-oracle-database-and-run-a-query-from-a-bash-script" >}})
+- [Install SQL*Plus on Linux]({{< relref "install-sqlplus-on-linux" >}})

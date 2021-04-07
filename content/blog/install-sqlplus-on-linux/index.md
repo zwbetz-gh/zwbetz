@@ -113,4 +113,5 @@ sqlplus: error while loading shared libraries: libaio.so.1: cannot open shared o
 
 ## Related
 
-- [Install SQL*Plus on Mac]({{< relref "/install-sqlplus-on-a-mac" >}})
+- [Connect to an Oracle Database and Run a Query From a Bash Script]({{< relref "connect-to-an-oracle-database-and-run-a-query-from-a-bash-script" >}})
+- [Install SQL*Plus on Mac]({{< relref "install-sqlplus-on-a-mac" >}})
