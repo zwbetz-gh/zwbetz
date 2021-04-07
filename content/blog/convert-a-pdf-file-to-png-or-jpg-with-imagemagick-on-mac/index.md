@@ -34,3 +34,8 @@ magick file.pdf file.png
 # PDF to JPG
 magick file.pdf file.jpg
 ```
+
+## Related
+
+- [Convert HEIC Images to JPG]({{< relref "convert-heic-images-to-jpg" >}})
+- [Combine Images Using ImageMagick]({{< relref "combine-images-using-imagemagick" >}})

@@ -13,7 +13,7 @@ My wife needed to upload a couple hundred pictures, from her Mac, to an online s
 First, install [Homebrew](https://brew.sh/), which is a popular package manager for Mac.
 
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## Install ImageMagick
@@ -43,3 +43,8 @@ rm *.heic
 ## Make a simple GUI using Mac Automator
 
 See [Convert HEIC images to JPG part 2: Mac Automator]({{< relref "convert-heic-images-to-jpg-part-2-mac-automator" >}}).
+
+## Related
+
+- [Convert a PDF File to PNG or JPG With Imagemagick on Mac]({{< relref "convert-a-pdf-file-to-png-or-jpg-with-imagemagick-on-mac" >}})
+- [Combine Images Using ImageMagick]({{< relref "combine-images-using-imagemagick" >}})
