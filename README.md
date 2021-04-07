@@ -6,14 +6,17 @@ My personal site
 
 ## Development
 
-1. Clone repo and change to it
+1. Clone repo
     ```
     git clone --recurse-submodules git@github.com:zwbetz-gh/zwbetz.git
+    ```
+1. Change to it
+    ```
     cd zwbetz
     ```
 1. Install Hugo. Assumes OS is Linux
     ```
-    ./task_install_hugo.sh HUGO_VERSION
+    ./task_install_hugo.sh <HUGO_VERSION>
     ```
 1. Serve site
     ```
