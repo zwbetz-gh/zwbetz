@@ -48,7 +48,7 @@ params:
     Themed by [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) &bull;
     Deployed by [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz) <br>
-    See something wrong? [Open an issue](https://github.com/zwbetz-gh/zwbetz/issues)
+    See an issue? [Let me know](https://github.com/zwbetz-gh/zwbetz/issues)
   show_footer_site_last_updated: false
   show_footer_debug: false
   search: true
