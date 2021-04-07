@@ -4,8 +4,6 @@ date: 2019-06-07T13:06:55-05:00
 toc: true
 ---
 
-Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}}).
-
 ## SQL*Plus Version 12.2.0.1.0
 
 1. Navigate to [Oracle downloads](https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html), accept the license agreement, and login. If you don't already have an Oracle account, you'll need to create one
@@ -102,3 +100,7 @@ Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}}
         source ~/.bash_profile
     
 1. Run `sqlplus -V` to confirm it's installed
+
+## Related
+
+- Also see: [Install SQL*Plus on Linux]({{< relref "/install-sqlplus-on-linux" >}})

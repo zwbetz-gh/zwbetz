@@ -4,8 +4,6 @@ date: 2019-09-28T14:10:28-05:00
 toc: true
 ---
 
-Also see: [Install SQL*Plus on Mac]({{< relref "/install-sqlplus-on-a-mac" >}}).
-
 ## SQL*Plus Version 12.2.0.1.0
 
 1. Navigate to [Instant Client Downloads for Linux x86-64 (64-bit)](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
@@ -112,3 +110,7 @@ Note: If you get the following error, then see potential solutions at <https://s
 ```
 sqlplus: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory
 ```
+
+## Related
+
+- [Install SQL*Plus on Mac]({{< relref "/install-sqlplus-on-a-mac" >}})
