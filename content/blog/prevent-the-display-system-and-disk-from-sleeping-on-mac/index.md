@@ -18,9 +18,10 @@ caffe() {
     return 1
   fi
   local hr=${1}
+  local min=$(python -c "print(${hr} * 60)")
   local sec=$(python -c "print(${hr} * 60 * 60)")
-  local day=$(python -c "print(round(${hr} / 24))")
-  echo "${hr} hr == ${sec} sec == ${day} day"
+  local day=$(python -c "print(round(${hr} / 24, 2))")
+  echo "${hr} hr == ${min} min == ${sec} sec == ${day} day"
   echo "Creating an assertion to prevent the display, system, and disk from sleeping"
   caffeinate -d -i -m -s -u -t ${sec}
 }
@@ -42,6 +43,6 @@ Sample:
 
 ```
 $ caffe 24
-24 hr == 86400 sec == 1 day
+24 hr == 1440 min == 86400 sec == 1.0 day
 Creating an assertion to prevent the display, system, and disk from sleeping
 ```
