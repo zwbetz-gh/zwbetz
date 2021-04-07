@@ -1,7 +1,7 @@
 ---
 title: "Windows Environment Variables in Command Prompt"
 date: 2021-04-07T13:00:11-05:00
-toc: false
+toc: true
 ---
 
 ## Get an Environment Variable
@@ -34,13 +34,29 @@ C:\Users\foo
 setx <VAR_NAME> "<VAR_VALUE>"
 ```
 
-Changes made by `setx` will only be picked up in **new** instances of Command Prompt. In other words: **restart** Command Prompt to pick up the new env var.
-
 **Usage:**
 
 ```
 setx MY_NAME "Jane Doe"
 ```
+
+**Note:** Changes made by `setx` will only be picked up in new instances of Command Prompt. So, **restart** Command Prompt to pick up the change.
+
+## Unset an Environment Variable
+
+**Syntax:**
+
+```
+reg delete "HKCU\Environment" /v <VAR_NAME> /f
+```
+
+**Usage:**
+
+```
+reg delete "HKCU\Environment" /v MY_NAME /f
+```
+
+**Note:** Changes made by `reg` will only be picked up in new instances of Command Prompt. So, **restart** Command Prompt to pick up the change.
 
 ## Related
 
