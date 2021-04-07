@@ -27,7 +27,7 @@ An `.env` file:
 ```bash
 export ORACLE_HOST="localhost"
 export ORACLE_PORT="1521"
-export ORACLE_DATABASE="some_service"
+export ORACLE_DATABASE="some_database"
 export ORACLE_USERNAME="some_user"
 export ORACLE_PASSWORD="some_password"
 ```
