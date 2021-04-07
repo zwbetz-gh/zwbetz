@@ -41,3 +41,8 @@ Changes made by `setx` will only be picked up in **new** instances of Command Pr
 ```
 setx MY_NAME "Jane Doe"
 ```
+
+## Related
+
+- [Install Python on Windows Without Admin Access]({{< relref "install-python-on-windows-without-admin-access" >}})
+- [Install NodeJS on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}})
