@@ -1,14 +1,3 @@
----
-title: "Get the Approximate Size of a JavaScript Object in Bytes"
-date: 2021-04-06T20:33:43-05:00
-toc: false
----
-
-Sure, I can look at the Chrome DevTools Network tab to see the size of a resource. But what if I wanted to get the approximate size of a JS object programmatically? Well, it can be done. See the following:
-
-## JavaScript
-
-```js
 const getSizeInBytes = obj => {
   let str = null;
   if (typeof obj === 'string') {
@@ -33,11 +22,9 @@ const logSizeInKilobytes = (description, obj) => {
   const kb = (bytes / 1000).toFixed(2);
   console.log(`${description} is approximately ${kb} kB`);
 };
-```
 
-## Usage
+// ##########
 
-```js
 const str = 'foo';
 
 const obj = {
@@ -54,8 +41,3 @@ logSizeInBytes('obj', obj);
 
 logSizeInKilobytes('obj', obj);
 // => obj is approximately 0.05 kB
-```
-
-## Notes
-
-When writing this post, I fell into the rabbit hole of whether 1000 or 1024 bytes are in a kilobyte (or should I say _kibibyte_ ...). Mr. Atwood has a nice [summary](https://blog.codinghorror.com/gigabyte-decimal-vs-binary/).
