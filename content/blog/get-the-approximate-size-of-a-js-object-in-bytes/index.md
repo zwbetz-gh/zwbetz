@@ -25,13 +25,13 @@ const getSizeInBytes = (obj) => {
 
 const logSizeInBytes = (description, obj) => {
   const bytes = getSizeInBytes(obj);
-  console.log(`${description} is approximately ${bytes} bytes`);
+  console.log(`${description} is approximately ${bytes} B`);
 };
 
 const logSizeInKilobytes = (description, obj) => {
   const bytes = getSizeInBytes(obj);
   const kb = (bytes / 1000).toFixed(2);
-  console.log(`${description} is approximately ${kb} kb`);
+  console.log(`${description} is approximately ${kb} kB`);
 };
 ```
 
@@ -47,13 +47,13 @@ const obj = {
 };
 
 logSizeInBytes('str', str);
-// => str is approximately 3 bytes
+// => str is approximately 3 B
 
 logSizeInBytes('obj', obj);
-// => obj is approximately 51 bytes
+// => obj is approximately 51 B
 
 logSizeInKilobytes('obj', obj);
-// => obj is approximately 0.05 kb
+// => obj is approximately 0.05 kB
 ```
 
 ## Notes
