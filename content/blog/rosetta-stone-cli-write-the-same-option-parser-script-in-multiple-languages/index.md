@@ -203,16 +203,16 @@ handle_empty_arg() {
 
 uppercase_string() {
   local str="${1}"
-  echo "$(echo "${str}" | tr '[:lower:]' '[:upper:]')"
+  echo "${str}" | tr '[:lower:]' '[:upper:]'
 }
 
 reverse_string() {
   local str="${1}"
-  echo "$(echo "${str}" | rev)"
+  echo "${str}" | rev
 }
 
 get_today() {
-  echo "$(date -u '+%F')"
+  date -u '+%F'
 }
 
 if [[ ${#} == 0 ]]; then
