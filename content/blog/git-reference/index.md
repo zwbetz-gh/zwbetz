@@ -145,5 +145,12 @@ toc: false
 <td><code>git mv -f &lt;OLD_FILE_PATH&gt; &lt;NEW_FILE_PATH&gt;</code></td>
 </tr>
 
+<tr>
+<td>Ignore a file that was already committed</td>
+<td><pre><code>echo &lt;FILE&gt; &gt;&gt; .gitignore \
+&& git rm -r --cached . \
+&& git add .</code></pre></td>
+</tr>
+
 </tbody>
 </table>
