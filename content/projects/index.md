@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2021-01-18T13:05:50-06:00
-toc: false
+toc: true
 ---
 
 ## Teaching
@@ -17,16 +17,21 @@ toc: false
 - [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme) -- Cayman is a clean, responsive theme for Hugo, ported from the original Jekyll Cayman Theme
 - [Vanilla Bootstrap](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme) -- A vanilla Bootstrap theme for Hugo
 
+## Templates
+
+- [MkDocs Template](https://github.com/zwbetz-gh/mkdocs-template) -- The no-excuses template to document your project
+- [SchemaSpy Postgres GitHub Pages Sample](https://github.com/zwbetz-gh/schemaspy-postgres-github-pages) -- Document your database simply and easily
+
 ## End-to-End Testing
 
 - [NightwatchJS Template](https://github.com/zwbetz-gh/nightwatchjs-template) -- Nightwatch is a fun, robust end-to-end testing framework. As with any popular framework, inevitably there are opinions of how things should be organized, and what you should or should not do. This repo is a distillation of personal lessons learned, providing a template to jump start your own end-to-end testing project. It comes with sensible defaults, but you can configure it however you like
+
 
 ## Various
 
 - [Dotfiles](https://github.com/zwbetz-gh/dotfiles) -- Gluing things together with Bash
 - [TODO CLI](https://github.com/zwbetz-gh/todo-cli) -- Get sh*t done via command line
-- [PleaseJS Color Generator](https://github.com/zwbetz-gh/github-pages-deploy-pleasejs) -- Make a random, pleasing color. Courtesy of PleaseJS and GitHub Pages
-- [MkDocs Template](https://github.com/zwbetz-gh/mkdocs-template) -- The no-excuses template to document your project
+- [PleaseJS Color Generator](https://github.com/zwbetz-gh/github-pages-deploy-pleasejs) -- Make a random, pleasing color
 
 ## This Site
 
