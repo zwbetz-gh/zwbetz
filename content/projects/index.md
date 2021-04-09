@@ -26,7 +26,6 @@ toc: true
 
 - [NightwatchJS Template](https://github.com/zwbetz-gh/nightwatchjs-template) -- Nightwatch is a fun, robust end-to-end testing framework. As with any popular framework, inevitably there are opinions of how things should be organized, and what you should or should not do. This repo is a distillation of personal lessons learned, providing a template to jump start your own end-to-end testing project. It comes with sensible defaults, but you can configure it however you like
 
-
 ## Various
 
 - [Dotfiles](https://github.com/zwbetz-gh/dotfiles) -- Gluing things together with Bash
@@ -37,4 +36,4 @@ toc: true
 
 - [zwbetz](https://github.com/zwbetz-gh/zwbetz) -- Content
 - [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) -- Theme
-- [JSON Resume](https://github.com/zwbetz-gh/json-resume) -- Resume, in JSON
+- [JSON Resume](https://github.com/zwbetz-gh/json-resume) -- Resume
