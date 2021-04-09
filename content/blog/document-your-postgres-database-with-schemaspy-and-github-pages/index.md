@@ -1,7 +1,9 @@
 ---
-title: "Visualize Your Postgres Database With SchemaSpy and GitHub Pages"
+title: "Document Your Postgres Database With SchemaSpy and GitHub Pages"
 date: 2021-04-09T11:06:29-05:00
 toc: false
+aliases:
+  - /visualize-your-postgres-database-with-schemaspy-and-github-pages/
 ---
 
 SchemaSpy is a nifty tool that, using their words, let's you _document your database simply and easily_. (Can confirm, it's nice). 
