@@ -147,9 +147,7 @@ toc: false
 
 <tr>
 <td>Ignore a file that was already committed</td>
-<td><pre><code>echo &lt;FILE&gt; &gt;&gt; .gitignore \
-&& git rm -r --cached . \
-&& git add .</code></pre></td>
+<td><code>git rm -r --cached . && git add .</code></td>
 </tr>
 
 </tbody>
