@@ -100,5 +100,4 @@ reg delete "HKCU\Environment" /v MY_NAME /f
 
 ## Related
 
-- [Install Python on Windows Without Admin Access]({{< relref "install-python-on-windows-without-admin-access" >}})
-- [Install NodeJS on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}})
+- [List, Get, Set, and Unset Mac and Linux Environment Variables in Terminal]({{< relref "mac-and-linux-environment-variables-in-terminal" >}})
