@@ -10,7 +10,10 @@ In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/qu
 
 Still, there have many requests on the [forums](https://discourse.gohugo.io/) for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you're reading is my go at that. Starting from scratch, we'll build a Hugo blog.
 
-For the folks out there thinking, "just show me the money already", here's the finished product [source code](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch) and [demo](https://make-a-hugo-blog-from-scratch.netlify.com/).
+## Sister Links
+
+- **GitHub:** <https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch>
+- **Demo:** <https://make-a-hugo-blog-from-scratch.netlify.app>
 
 ## Prerequisities and Notes
 
@@ -903,8 +906,8 @@ I just wanted to let you know that I found your blog post this past weekend and 
 
 {{< blockquote author="Alistair" >}}
 Hey there,
-Just wanted to say that I really appreciated the Hugo tutorial.  I have had a long history with Jekyll, but only ever at a basic level.  I just got a new Mac M1 and have nothing but trouble getting Ruby, rbenv, RVM or asdf working well enough to start developing in Jekyll again. 
-After a week of real frustration and having to reinstall everything (I completely borked my system after numerous attempts at getting ANY kind of Ruby working for Jekyll), I decided to look around at other SSGs.  I found Hugo, but the documentation was lacking something and I was struggling to get a handle on the basics. 
+Just wanted to say that I really appreciated the Hugo tutorial.  I have had a long history with Jekyll, but only ever at a basic level.  I just got a new Mac M1 and have nothing but trouble getting Ruby, rbenv, RVM or asdf working well enough to start developing in Jekyll again.
+After a week of real frustration and having to reinstall everything (I completely borked my system after numerous attempts at getting ANY kind of Ruby working for Jekyll), I decided to look around at other SSGs.  I found Hugo, but the documentation was lacking something and I was struggling to get a handle on the basics.
 After following your introduction, I have a solid understanding of the basics, and much of the detail on the Hugo Docs makes a ton more sense. Appreciate the work you put into it and made it available for people like me.
 Cheers!
 {{< /blockquote >}}
