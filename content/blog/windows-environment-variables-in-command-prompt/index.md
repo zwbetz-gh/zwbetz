@@ -22,15 +22,9 @@ echo %<VAR_NAME>%
 
 Let's pretend that your Windows account is named `foo`. On a traditional Windows machine, here's what you'd see:
 
-```
-echo %USERNAME%
-foo
-```
+`echo %USERNAME%` will output `foo`
 
-```
-echo %USERPROFILE%
-C:\Users\foo
-```
+`echo %USERPROFILE%` will output `C:\Users\foo`
 
 ## Set an Environment Variable (Only for Current Session)
 

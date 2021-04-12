@@ -4,7 +4,11 @@ date: 2021-04-11T00:20:51-05:00
 toc: true
 ---
 
-**Note:** This doc assumes you will use the Bash (`bash`) shell. You can check which shell you're using by running `/bin/ps -p $$ -ocomm=`
+**Note:** This doc assumes you will use the Bash (`bash`) shell. You can check which shell you're using by running:
+
+```
+/bin/ps -p ${$} -ocomm=
+```
 
 ## List All Environment Variables
 
@@ -48,7 +52,9 @@ Add:
 export MY_NAME="Jane Doe"
 ```
 
-to your `~/.bash_profile`. Then source it with `source ~/.bash_profile` or restart your Terminal
+to your `~/.bash_profile` file.
+
+Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
 
 **Persist on Linux:**
 
@@ -58,7 +64,9 @@ Add:
 export MY_NAME="Jane Doe"
 ```
 
-to your `~/.bashrc`. Then source it with `source ~/.bashrc` or restart your Terminal
+to your `~/.bashrc` file.
+
+Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
 
 ## Unset an Environment Variable
 
@@ -82,7 +90,9 @@ Add:
 unset MY_NAME
 ```
 
-to your `~/.bash_profile`. Then source it with `source ~/.bash_profile` or restart your Terminal
+to your `~/.bash_profile` file.
+
+Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
 
 **Persist on Linux:**
 
@@ -92,7 +102,9 @@ Add:
 unset MY_NAME
 ```
 
-to your `~/.bashrc`. Then source it with `source ~/.bashrc` or restart your Terminal
+to your `~/.bashrc` file.
+
+Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
 
 ## Related
 
