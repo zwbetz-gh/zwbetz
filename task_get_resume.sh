@@ -5,4 +5,4 @@ mkdir -p static/resume
 cp -a /tmp/json-resume/public/. static/resume/
 rm -rf /tmp/json-resume
 
-echo "Completed ${0} in ${SECONDS}s"
+echo "Completed ${0} in ${SECONDS} s"

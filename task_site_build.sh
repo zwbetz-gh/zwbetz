@@ -4,4 +4,4 @@
 
 hugo --cleanDestinationDir
 
-echo "Completed ${0} in ${SECONDS}s"
+echo "Completed ${0} in ${SECONDS} s"
