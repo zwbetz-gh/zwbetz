@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-REQUIRED_TOOLS=()
+REQUIRED_TOOLS=(foo)
 
 for tool in ${REQUIRED_TOOLS[@]}; do
   if ! command -v ${tool} >/dev/null; then
-     echo "Tool ${tool} is required. Exiting"; exit 1
+    echo "${tool} is required ... "
+    exit 1
   fi
 done
 
