@@ -58,6 +58,7 @@ params:
   search_minify: true
   show_prev_next_links: false
   show_tags: false
+  use_purged_css: false
 
 markup:
   defaultMarkdownHandler: goldmark

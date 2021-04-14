@@ -239,7 +239,6 @@
       "loops",
       "mac",
       "mac-cli",
-      "mac-via-cli",
       "main-content",
       "make-a-simple-gui-using-mac-automator",
       "make-it-permanent",
@@ -380,8 +379,6 @@
       "windows",
       "windows-cli",
       "windows-gui",
-      "windows-via-cli",
-      "windows-via-gui",
       "work",
       "wrap-up",
       "xfce-desktop-environment"
