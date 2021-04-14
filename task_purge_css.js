@@ -12,6 +12,7 @@ const {PurgeCSS} = require('purgecss');
     },
     css: [originalCssFilePath],
     safelist: {
+      // TODO make this list work well on mobile
       greedy: [/:focus/, /usa-nav/, /usa-accordion/]
     }
   });
