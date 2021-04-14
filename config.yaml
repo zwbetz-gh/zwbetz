@@ -8,6 +8,9 @@ timeout: 45000
 googleAnalytics: UA-115738775-1
 enableGitInfo: true
 
+build:
+  writeStats: true
+
 outputs:
   home:
     - HTML
