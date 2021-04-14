@@ -12,7 +12,7 @@ const {PurgeCSS} = require('purgecss');
     },
     css: [originalCssFilePath],
     safelist: {
-      greedy: [/:focus/]
+      greedy: [/:focus/, /usa-nav/, /usa-accordion/]
     }
   });
 
