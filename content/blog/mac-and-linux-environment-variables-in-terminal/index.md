@@ -35,36 +35,24 @@ echo ${MY_NAME}
 **Syntax:**
 
 ```
-<VAR_NAME>="<VAR_VALUE>"
+export <VAR_NAME>="<VAR_VALUE>"
 ```
 
 **Usage:**
 
 ```
-MY_NAME="Jane Doe"
+export MY_NAME="Jane Doe"
 ```
 
 **Persist on Mac:**
 
-Add:
-
-```
-export MY_NAME="Jane Doe"
-```
-
-to your `~/.bash_profile` file.
+Add `export MY_NAME="Jane Doe"` to your `~/.bash_profile` file.
 
 Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
 
 **Persist on Linux:**
 
-Add:
-
-```
-export MY_NAME="Jane Doe"
-```
-
-to your `~/.bashrc` file.
+Add `export MY_NAME="Jane Doe"` to your `~/.bashrc` file.
 
 Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
 
@@ -84,25 +72,13 @@ unset MY_NAME
 
 **Persist on Mac:**
 
-Add:
-
-```
-unset MY_NAME
-```
-
-to your `~/.bash_profile` file.
+Add `unset MY_NAME` to your `~/.bash_profile` file.
 
 Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
 
 **Persist on Linux:**
 
-Add:
-
-```
-unset MY_NAME
-```
-
-to your `~/.bashrc` file.
+Add `unset MY_NAME` to your `~/.bashrc` file.
 
 Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
 
