@@ -21,10 +21,7 @@ toc: true
 
 - [MkDocs Template](https://github.com/zwbetz-gh/mkdocs-template) -- The no-excuses template to document your project
 - [SchemaSpy Postgres GitHub Pages Sample](https://github.com/zwbetz-gh/schemaspy-postgres-github-pages) -- Document your database simply and easily
-
-## End-to-End Testing
-
-- [NightwatchJS Template](https://github.com/zwbetz-gh/nightwatchjs-template) -- Nightwatch is a fun, robust end-to-end testing framework. As with any popular framework, inevitably there are opinions of how things should be organized, and what you should or should not do. This repo is a distillation of personal lessons learned, providing a template to jump start your own end-to-end testing project. It comes with sensible defaults, but you can configure it however you like
+- [NightwatchJS Template](https://github.com/zwbetz-gh/nightwatchjs-template) -- This repo is a distillation of personal lessons learned, providing a template to jump start your own end-to-end testing project
 
 ## Various
 
