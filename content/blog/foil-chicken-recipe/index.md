@@ -7,8 +7,8 @@ toc: false
 ## Ingredients
 
 - Chicken leg quarters
-- Link of sausage
-- Tony Chachere’s Creole Seasoning
+- Sausage link
+- Cajun seasoning
 - Garlic powder
 - Lemon pepper
 - Tin foil
@@ -17,6 +17,6 @@ toc: false
 
 1. Trim extra fat off of leg quarters
 1. Season leg quarters to taste
-1. For each leg quarter, add a piece of sausage, then wrap it in tin foil. Make sure it's completely wrapped. Use 2 pieces of tin foil if needed
-1. Place tin foil wraps on grill for 1 hour on medium-low heat. 
-1. Depending on charcoal vs gas grill, heat output, etc., they may be ready after 1 hour. If not, keep 'em on and check 'em every 10 minutes or so
+1. For each leg quarter, add a piece of sausage, then wrap it in tin foil. Make sure it's completely wrapped. Repeat this, so that it's double-wrapped
+1. Place tin foil wraps on grill for 30 minutes on medium heat
+1. Depending on charcoal vs gas grill, heat output, etc., they may be ready after 30 minutes. If not, keep 'em on and check 'em every 5 minutes
