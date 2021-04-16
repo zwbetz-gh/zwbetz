@@ -339,6 +339,7 @@
       "style-tweaks",
       "subtraction",
       "summary",
+      "syntax",
       "task_ci_buildsh",
       "task_ci_configsh",
       "task_ci_install_gosh",
