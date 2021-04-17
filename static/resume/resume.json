@@ -30,14 +30,13 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Did full stack development on a React frontend, Spring Boot backend, and Postgres database",
+        "Did full stack development on a React frontend, Spring Boot backend, and Postgres database to support mission-critical software",
         "Aided our DevOps team in continuously integrating and deploying our services, via Jenkins, into Kubernetes clusters across environments",
-        "Developed extensive end-to-end test suites via NightwatchJS, which run via Selenium Grid in our CI environment",
+        "Developed extensive end-to-end test suites via NightwatchJS, which run via Selenium Grid in our CI environments",
         "Wrote a Flyway-like tool that initializes indices then inserts JSON mappings and test data into Elasticsearch, via Spring Boot",
         "Wrote a Jaspersoft Server Reports test framework via Bash/cURL",
         "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql",
-        "Created general development documentation via MkDocs that is used across USCIS",
-        "Maintained clear, concise project documentation"
+        "Created and maintained development documentation that is used across USCIS"
       ]
     },
     {
@@ -59,11 +58,11 @@
       "endDate": "2016-02",
       "summary": "",
       "highlights": [
-        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS",
-        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders",
         "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting",
         "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins",
-        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues"
+        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS",
+        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues",
+        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders"
       ]
     },
     {
@@ -87,8 +86,8 @@
       "endDate": "2014-05",
       "summary": "",
       "highlights": [
-        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times",
-        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports"
+        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports",
+        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times"
       ]
     },
     {
@@ -210,15 +209,17 @@
     "Jest",
     "Kubernetes",
     "Markdown",
+    "MkDocs",
     "NightwatchJS",
     "NodeJS",
     "NPM",
+    "Python",
     "React",
     "Redux",
     "SchemaSpy",
     "Scripting",
-    "Selenium",
     "Selenium Grid",
+    "Selenium",
     "Shell",
     "Spring Boot",
     "SQL",

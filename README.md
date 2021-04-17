@@ -20,9 +20,9 @@ My personal site
     ```
 1. Serve site
     ```
-    ./task_site_serve.sh
+    ./task_serve.sh
     ```
 1. Build site
     ```
-    ./task_site_build.sh
+    ./task_build.sh
     ```
