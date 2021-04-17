@@ -50,6 +50,7 @@
     ],
     "classes": [
       "clamped_text",
+      "custom-icon",
       "footnote-backref",
       "footnote-ref",
       "footnotes",

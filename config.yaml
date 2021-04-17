@@ -40,7 +40,7 @@ menu:
       url: /
       weight: 1
     - name: Blog
-      pre: folder
+      pre: lightbulb
       url: /blog/
       weight: 2
     - name: Projects
