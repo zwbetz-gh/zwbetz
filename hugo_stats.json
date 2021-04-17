@@ -37,6 +37,7 @@
       "span",
       "strong",
       "sup",
+      "svg",
       "table",
       "tbody",
       "td",
@@ -44,7 +45,8 @@
       "thead",
       "title",
       "tr",
-      "ul"
+      "ul",
+      "use"
     ],
     "classes": [
       "clamped_text",
@@ -89,6 +91,7 @@
       "usa-footer__secondary-section",
       "usa-header",
       "usa-header--basic",
+      "usa-icon",
       "usa-image-block",
       "usa-image-text",
       "usa-image-text-block",

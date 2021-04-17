@@ -36,12 +36,15 @@ imaging:
 menu:
   nav:
     - name: Home
+      pre: home
       url: /
       weight: 1
     - name: Blog
+      pre: folder
       url: /blog/
       weight: 2
     - name: Projects
+      pre: build
       url: /projects/
       weight: 3
 
@@ -59,6 +62,7 @@ params:
   show_prev_next_links: false
   show_tags: false
   use_purged_css: false
+  use_nav_icon: true
 
 markup:
   defaultMarkdownHandler: goldmark
