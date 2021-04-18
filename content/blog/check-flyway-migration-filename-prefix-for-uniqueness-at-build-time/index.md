@@ -14,11 +14,11 @@ Shift Left when you can :)
 
 ## Usage
 
-For example, say two developers accidentally committed the same prefix.
+For example, say two developers accidentally committed the same prefix:
 
 ```
-V99__foo.sql
-V99__bar.sql
+V1.0.0__migration_1.sql
+V1.0.0__migration_2.sql
 ```
 
 The second developer would see this error on a build:
@@ -26,14 +26,14 @@ The second developer would see this error on a build:
 ```
 * What went wrong:
 Execution failed for task ':checkFlywayMigrationFilenamePrefixForUniqueness'.
-> Flyway migration filename prefix is not unique for: V99
-  V99__foo.sql
-  V99__bar.sql
+> Flyway migration filename prefix is not unique for: V1.0.0
+  V1.0.0__migration_1.sql
+  V1.0.0__migration_2.sql
 ```
 
 ## Syntax
 
-**Note:** Assumes you're using the gradle wrapper.
+**Note:** These snippets assume you're using the gradle wrapper.
 
 View all gradle tasks with:
 
@@ -55,7 +55,7 @@ Do a build with:
 
 ## Code
 
-Add the following to your `build.gradle` file:
+Add the following to your [`build.gradle`](https://github.com/zwbetz-gh/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time/blob/main/build.gradle) file:
 
 ```groovy
 task checkFlywayMigrationFilenamePrefixForUniqueness() {
@@ -89,7 +89,7 @@ task checkFlywayMigrationFilenamePrefixForUniqueness() {
       if (count > 1) {
 
         // Get a list of guilty filenames
-        def guiltyFilenames = filenames.findAll { it.startsWith(prefix) }
+        def guiltyFilenames = filenames.findAll { it.startsWith("${prefix}__") }
 
         // Create an error message
         def message = "Flyway migration filename prefix is not unique for: ${prefix}"
@@ -107,3 +107,7 @@ task checkFlywayMigrationFilenamePrefixForUniqueness() {
 // Tell it to run after the build task
 build.finalizedBy(checkFlywayMigrationFilenamePrefixForUniqueness)
 ```
+
+## Sister Repo
+
+<https://github.com/zwbetz-gh/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time>
