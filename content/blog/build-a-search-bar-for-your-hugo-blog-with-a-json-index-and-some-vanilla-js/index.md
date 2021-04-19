@@ -249,10 +249,12 @@ This is part 2 of 2 of the magic. Here's how it works:
   };
 
   const handleSearchEvent = () => {
+    const startTime = performance.now();
     const regexMode = getRegexModeEl().checked;
     filterList(regexMode);
     renderCount();
     renderList();
+    logPerformance('handleSearchEvent', startTime, performance.now());
   };
 
   const handleEnableSearchEvent = () => {
