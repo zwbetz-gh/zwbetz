@@ -7,7 +7,7 @@ toc: true
 **Note:** This doc assumes you will use the Bash (`bash`) shell. You can check which shell you're using by running:
 
 ```
-/bin/ps -p ${$} -ocomm=
+/bin/ps -p ${$} -o comm=
 ```
 
 ## List All Environment Variables
