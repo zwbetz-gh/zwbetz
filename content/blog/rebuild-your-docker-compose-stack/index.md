@@ -16,7 +16,7 @@ When using volumes with Docker Compose, especially with NodeJS projects, sometim
 
 1. If volumes still exist, remove them one-by-one
 
-        docker volume rm VOLUME_NAME
+        docker volume rm <VOLUME_NAME>
 
 1. Build and up everything in detached mode
 
