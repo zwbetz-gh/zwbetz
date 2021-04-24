@@ -12,13 +12,13 @@ Well, thanks to Hugo's [lookup order](https://gohugo.io/templates/lookup-order/)
 Let's say you really like theme `foo`, but you wish the homepage was different. All you have to do is copy the homepage template:
 
 ```
-your-site/themes/foo/layouts/index.html
+themes/foo/layouts/index.html
 ```
 
 And paste it under your own `layouts` folder:
 
 ```
-your-site/layouts/index.html
+layouts/index.html
 ```
 
 Then you're free to make any changes you want to the homepage. When Hugo builds your site, your copy of `index.html` will be used instead of the theme's `index.html`. 
