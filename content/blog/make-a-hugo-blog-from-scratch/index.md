@@ -140,7 +140,7 @@ crossorigin="anonymous">
 With this code:
 
 ```html
-{{ $css := "css/bootstrap.min.css" | absURL }}
+{{ $css := "css/bootstrap.min.css" | relURL }}
 <link rel="stylesheet" href="{{ $css }}">
 ```
 
@@ -153,10 +153,10 @@ static/css/bootstrap.min.css
 Becomes:
 
 ```
-your-site/css/bootstrap.min.css
+css/bootstrap.min.css
 ```
 
-In the new CSS code, we declare a variable with the path to the CSS file, then pipe it to `absURL`, which creates an [absolute URL](https://gohugo.io/functions/absurl/).
+In the new CSS code, we declare a variable with the path to the CSS file, then pipe it to `relURL`, which creates a [relative URL](https://gohugo.io/functions/relurl/#readout).
 
 With hugo server still running, check the homepage and confirm it looks the same.
 
@@ -170,7 +170,7 @@ Before creating our first blog post, we need a layout for [single pages](https:/
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ $css := "css/bootstrap.min.css" | absURL }}
+    {{ $css := "css/bootstrap.min.css" | relURL }}
     <link rel="stylesheet" href="{{ $css }}">
     <title>{{ .Title }}</title>
   </head>
@@ -283,7 +283,7 @@ So let's create one at `layouts/_default/baseof.html`:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ $css := "css/bootstrap.min.css" | absURL }}
+    {{ $css := "css/bootstrap.min.css" | relURL }}
     <link rel="stylesheet" href="{{ $css }}">
     <title>{{ .Title }}</title>
   </head>
@@ -341,7 +341,7 @@ So let's make one for our `<head>` code. Create file `layouts/partials/head.html
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  {{ $css := "css/bootstrap.min.css" | absURL }}
+  {{ $css := "css/bootstrap.min.css" | relURL }}
   <link rel="stylesheet" href="{{ $css }}">
   <title>{{ .Title }}</title>
 </head>
@@ -523,10 +523,10 @@ The icons are sourced from a JS file, so we'll need that. Create file `static/js
 Create file `layouts/partials/script.html`:
 
 ```html
-{{ $js := "js/feather.min.js" | absURL }}
+{{ $js := "js/feather.min.js" | relURL }}
 <script src="{{ $js }}"></script>
 <script>
-  feather.replace()
+  feather.replace();
 </script>
 ```
 
@@ -580,7 +580,7 @@ Create file `layouts/partials/date-and-tags.html`:
   <br>
   <i data-feather="tag"></i>
   {{ range . }}
-  {{ $href := print (absURL "tags/") (urlize .) }}
+  {{ $href := print (relURL "tags/") (urlize .) }}
   <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
   {{ end }}
 {{ end }}
@@ -710,7 +710,7 @@ Then add a reference to it in `layouts/partials/head.html`:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  {{ $css := "css/bootstrap.min.css" | absURL }}
+  {{ $css := "css/bootstrap.min.css" | relURL }}
   <link rel="stylesheet" href="{{ $css }}">
   <title>{{ .Title }}</title>
   {{ partial "style.html" . }}
@@ -734,7 +734,7 @@ Update `layouts/partials/head.html` to be:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ hugo.Generator }}
-  {{ $css := "css/bootstrap.min.css" | absURL }}
+  {{ $css := "css/bootstrap.min.css" | relURL }}
   <link rel="stylesheet" href="{{ $css }}">
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
