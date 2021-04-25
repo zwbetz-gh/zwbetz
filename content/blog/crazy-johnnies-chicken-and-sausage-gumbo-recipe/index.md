@@ -18,7 +18,6 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 - 4 cups water
 - 1 tablespoon Tony Chachere's Creole Seasoning
 - 1 tablespoon garlic powder
-- 1 teaspoon salt
 - 3 bay leaves
 - 5 oz Heinz 57 Sauce
 - 1/4 cup Louisiana Fish Fry Crawfish Shrimp & Crab Boil
