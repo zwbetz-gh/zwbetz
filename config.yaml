@@ -5,7 +5,6 @@ title: zwbetz
 theme: uswds-hugo-theme
 enableRobotsTXT: true
 timeout: 45000
-googleAnalytics: UA-115738775-1
 enableGitInfo: true
 
 build:
@@ -49,6 +48,7 @@ menu:
       weight: 3
 
 params:
+  ga_measurement_id: 270732816
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
     Themed by [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) &bull;
