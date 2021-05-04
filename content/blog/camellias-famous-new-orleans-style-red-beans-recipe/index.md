@@ -6,9 +6,11 @@ toc: false
 
 Sourced from the back of the Camellia's Red Kidney Beans package.
 
+<!--more-->
+
 ## Ingredients
 
-- 1 lb. Cammelia Red Kidney Beans
+- 1 lb. Camellia Red Kidney Beans
 - 1 lb. smoked sausage, sliced
 - 0.5 cup green bell pepper, chopped
 - 1 medium onion, chopped

@@ -6,5 +6,7 @@ toc: false
 
 I started to write a Bash reference table, but there's no way I could do a better job than these resources. Hope you enjoy them as much as I do:
 
+<!--more-->
+
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 - [GNU Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)

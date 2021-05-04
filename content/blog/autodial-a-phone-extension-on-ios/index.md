@@ -10,6 +10,8 @@ toc: false
 
 For lines that you often call into, e.g. Daily Standup, it can be annoying to type the extension each time. Fortunately, there is a way to automate this.
 
+<!--more-->
+
 In the examples below, `111-222-3333` is the line number, and `12345#` is the extension.
 
 ## Option 1

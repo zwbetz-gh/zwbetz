@@ -10,6 +10,8 @@ toc: false
 
 Unix-like operating systems make it easy to add command aliases, e.g. adding a line to `.bashrc`, `.bash_profile`, or `.bash_aliases`. But what about Windows command prompt users?
 
+<!--more-->
+
 Well, we have [doskey](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey). For example, entering `doskey ls=dir` will allow you to list directories with `ls`. While this is nice, you have to run your doskey commands every time you open command prompt, which... isn't nice. Fortunately, there's a way to load your aliases when command prompt starts up. 
 
 First, create a file to hold your aliases. For example `C:\cmd\aliases.cmd`.

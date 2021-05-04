@@ -6,6 +6,8 @@ toc: false
 
 Given the following bash date, here's what each [specifier](http://man7.org/linux/man-pages/man1/date.1.html) will do. 
 
+<!--more-->
+
 ```
 Mon May 27 18:11:12 DST 2019
 ```

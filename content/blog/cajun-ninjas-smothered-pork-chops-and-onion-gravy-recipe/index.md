@@ -8,6 +8,8 @@ _This is not my recipe._ It's [Cajun Ninja's](https://youtu.be/grncwJnydzg). Onl
 
 We've made this multiple times. It's legit.
 
+<!--more-->
+
 ## Ingredients
 
 - 6-8 Bone-in Pork Chops

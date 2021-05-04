@@ -6,6 +6,8 @@ toc: true
 
 [Prettier](https://www.npmjs.com/package/prettier) is a popular code formatter, and I especially like it for JS projects. You can add a script to run it with something like `npm run prettier`, but wouldn't it be nice if it would run automatically every time you did a git commit? On top of that, say your project is huge with thousands of files, wouldn't it be nice if prettier only ran on staged (changed) files?
 
+<!--more-->
+
 Well, all of this is possible. See below for details. Make sure to update dependency versions as needed.
 
 ## Sample file tree

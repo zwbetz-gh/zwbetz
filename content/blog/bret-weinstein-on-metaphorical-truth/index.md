@@ -6,6 +6,8 @@ toc: false
 
 I recently stumbled upon Dax Shepard's Armchair Expert podcast. His [interview with Bret Weinstein](https://armchairexpertpod.com/pods/bret-weinstein) was very interesting and fun. Just before the 2 hour mark, they get into the topic of _metaphorical truth_. Although I don't fully agree with everything said, it really resonated with me. The following is my lightly paraphrased version of the conversation. 
 
+<!--more-->
+
 **Dax:** ...I really like your thing about metaphorical truth, and just, explain that to us. 
 
 **Bret:** Sure, metaphorical truth is a concept I came up with to solve a problem. Which is that it's clear religious belief in particular is driving a tremendous amount of human behavior, at least historically. And a lot of expense is spent on it, right. Elaborate buildings, rituals, time taken away from productive activities is spent on these belief structures. And the belief structures, I think we can say, they just aren't an accurate description of the universe. Many of them are unfalsifiable, but there just isn't any evidence for the things described in these religious texts. But these texts cannot be nonsense. If they were nonsense, then those who simply didn't believe them would have a massive advantage because they weren't spending all of that on buildings and rituals and time taken out of their schedule.

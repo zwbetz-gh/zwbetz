@@ -5,3 +5,5 @@ toc: false
 ---
 
 This article has been removed. Bash functions now live in my [dotfiles](https://github.com/zwbetz-gh/dotfiles).
+
+<!--more-->

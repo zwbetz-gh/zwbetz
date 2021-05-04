@@ -6,6 +6,8 @@ toc: false
 
 [`pg_dump`](https://www.postgresql.org/docs/13/app-pgdump.html) is a **sweet** tool to extract a database to a file (tables, functions, triggers... I mean _everything_). It has many CLI options, and I'm documenting the ones that were most useful to me here.
 
+<!--more-->
+
 The shell script reads in a `.env` file with [database connection info](https://www.postgresql.org/docs/13/libpq-envars.html), then exports each env var by using the [bash set builtin](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html).
 
 Next, `pg_dump` is called with the following options:

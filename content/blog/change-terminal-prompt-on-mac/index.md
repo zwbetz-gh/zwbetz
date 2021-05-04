@@ -6,6 +6,8 @@ toc: false
 
 Your Terminal prompt is controlled via the `PS1` Bash environment variable . It's initially defined in `/etc/bashrc`, and its default value is:
 
+<!--more-->
+
 ```
 '\h:\W \u\$ '
 ```

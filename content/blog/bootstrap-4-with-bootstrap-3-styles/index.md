@@ -11,6 +11,8 @@ toc: false
 
 I recently moved this site to [Bootstrap 4](https://getbootstrap.com/docs/4.0/content/code/). Some of my favorite things about v4: `margin-top` is avoided, `margin-bottom` uses `rem` instead of `px`, a native font stack is used, and base `font-size` is 16px (a good thing for mobile readers, and accessibility). I feel the typography in v4 is better spaced and the text can "breathe".
 
+<!--more-->
+
 However, I missed how [Bootstrap 3](http://getbootstrap.com/docs/3.3/css/#code) styled inline code and code blocks. I find v3 styling of those items easier to read. 
 
 Optimally you would want to edit the actual bootstrap css, but here is a quick-n-dirty way to use v3 styles. Just paste this in your custom css.

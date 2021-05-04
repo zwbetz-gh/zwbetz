@@ -1,5 +1,6 @@
 ---
 title: "Attention Is My Most Valuable Asset for Productivity as a Software Developer"
+summary: "My high-level workflow looks something like this: identify the problem to solve; think on the problem and let ideas percolate; research, discuss, and experiment with these ideas; implement and test the solution; deliver and maintain the solution."
 date: 2020-11-08T20:14:26-06:00
 toc: false
 ---

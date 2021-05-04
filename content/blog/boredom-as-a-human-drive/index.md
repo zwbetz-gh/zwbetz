@@ -8,6 +8,8 @@ I was listening to [Lex Fridman interview Cal Newport](https://youtu.be/y3Umo_jd
 
 The following part of their conversation really stood out to me. I had never thought of boredom in this way, as an _action instinct_.
 
+<!--more-->
+
 > **Lex:** ... I think David Foster Wallace said the key to life is to be unborable. I've always kind of taken that to heart, which is like you should be able to, maybe artificially, generate anything. Like find something in your environment, your surroundings that's a source of joy. Like everything is fun.
 >
 > **Cal:** Yeah. Did you read the Pale King? It goes deep on boredom. I mean it's uncomfortable, it's like an uncomfortable meditation on boredom. Like the characters in that are just driven to the extremes ... I just bought 3 books on boredom the other day. So, I'm really interested in this topic. Because I was anxious about my book launch happening this week. So, I was like okay I need something else. So, I have this idea, that I might do as an article first, then as a book. Like okay, I need something cool to be thinking about because I was worried about is the launch gonna work with the pandemic? What's going to happen? This is exactly what I'm talking about. So, I went out and bought a bunch of books, and I'm beginning like whole sort of intellectual exploration.

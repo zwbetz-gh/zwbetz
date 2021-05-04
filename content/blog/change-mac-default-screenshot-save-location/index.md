@@ -1,5 +1,6 @@
 ---
 title: "Change Mac Default Screenshot Save Location"
+summary: "Sometimes the Desktop isn't enough."
 date: 2019-08-16T15:34:19-05:00
 toc: false
 ---

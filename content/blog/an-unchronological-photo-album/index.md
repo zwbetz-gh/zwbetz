@@ -6,6 +6,8 @@ draft: false
 
 My wife's Christmas present is a photo album of our son, a timeline ranging from newborn until now (he'll be 3 soon). I was tempted to organize them in chronological order, but that'd no fun. Instead, I grouped 'em by theme:
 
+<!--more-->
+
 - Fresh out of the baby oven
 - Sleepy time
 - Holding Tigtig, his stuffed Tiger from Winnie-the-Pooh

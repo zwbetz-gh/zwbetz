@@ -6,6 +6,8 @@ toc: false
 
 I was listening to the AoM podcast [#515: Aristotle’s Wisdom on Living the Good Life](https://www.artofmanliness.com/articles/aristotle-living-the-good-life/), and heard a bit that's stuck with me all this week. It's too good not to write down. 
 
+<!--more-->
+
 {{< blockquote >}}
 **Brett McKay:** Okay, well let’s think about ... let’s talk about our relationship with other humans, because this is another part of Aristotle’s Ethics, that a lot of times when people talk about philosophy, or how to live a good life, it’s very self centered, it’s like how can I take care of myself? It’s just like ... how can I control my emotions? But Aristotle also thought about no, in order to live a good life, you have to have relationships, or friendships, with other people. So talk about that a bit.
 

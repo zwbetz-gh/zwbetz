@@ -6,6 +6,8 @@ toc: true
 
 My blog has become a personal knowledge base of sorts. As it's grown, doing the usual `Command` + `F` for browser-search doesn't always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that's my problem, but how to fix it?
 
+<!--more-->
+
 Solutions do exist, but they entail connecting to an external search service, or pulling in a large JS framework. I wanted to keep things as close to home as possible and use good ole vanilla JS.
 
 After much consideration, I added a simple search bar. In a nutshell, it uses a JSON index to search against, then re-renders the blog list on each `keyup` event.
