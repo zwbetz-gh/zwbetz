@@ -10,6 +10,8 @@ toc: true
 
 A list of things that I like, in no particular order. This is a **living** document.  
 
+<!--more-->
+
 ## Life, Meaning, Character, and Work
 
 * Joe Rogan:

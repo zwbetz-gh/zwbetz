@@ -11,6 +11,8 @@ toc: false
 
 The irony of this post is that I am writing it while on a trip. Yet I think it’s one of those ideas that only strikes you once you’ve walked the grass on both sides of the fence. 
 
+<!--more-->
+
 Let’s say you take a trip to an all-inclusive hotel on an exotic island for 5 days, and because you’re frugal, you book it months in advance through Costco Travel. Let’s say it runs you $2,000.
 
 That comes out to $400 a day, assuming you don’t buy anything extra. 

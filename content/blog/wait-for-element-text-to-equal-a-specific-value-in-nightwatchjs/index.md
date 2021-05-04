@@ -6,6 +6,8 @@ toc: false
 
 It can be useful to wait for an element's text to equal a specific value before doing the rest of your test steps. This is possible in NightwatchJS, you just have to dig in the docs a little. **Note:** Instead of `text`, you can also wait for an element's `attribute` to equal something. And instead of `equal`, you can do `contain`, or use `not` to check the inverse. Many other variants are available in the [Expect API docs](https://nightwatchjs.org/api/expect/).
 
+<!--more-->
+
 ## Sample
 
 The sample test below does the following things:

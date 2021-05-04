@@ -6,6 +6,8 @@ toc: false
 
 I recently converted all my blog post titles to title-case with a [little NodeJS script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_title_case.js). So, am taking the teachable bits and sharing them here.
 
+<!--more-->
+
 Let's pretend you have a file tree that looks like this:
 
 ```

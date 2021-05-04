@@ -8,6 +8,8 @@ toc: false
 
 Growing up, I thought people with routines were silly. Why would you script so much of your life away? Where is the fun if you always know what you're gonna do? Who doesn't love a little chaos, right? 
 
+<!--more-->
+
 It was not until college that I discovered the power and necessity of a routine. I was a decent student in that I virtually always went to class and participated, but my study habits were, well, poopoo. "Studying" consisted of cramming and coffee a few days before the exam. Something had to give. So, enter my first voluntary routine. I opened up Excel and created a row for each hour in the day. I [literally planned](http://www.calnewport.com/blog/2008/04/07/monday-master-class-how-to-reduce-stress-and-get-more-done-by-building-an-autopilot-schedule/) all 24 hours: sleep, school, work, **study**, meals, workout, etc. I followed this for two semesters, getting 4.0s in both. 
 
 Fast forward to the beginning of 2017. I was feeling all around "meh" about my body, so I decided to do something about it. I'd always wanted to strength train, so after [reading up]({{< relref "things-i-like" >}}) on lifting (see the strength training section), I was hooked. Each week I did something along these lines:

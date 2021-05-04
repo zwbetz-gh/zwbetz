@@ -6,6 +6,8 @@ toc: false
 
 In an excerpt from his book _Antifragile_, Nassim Nicholas Taleb lays out a conversation between Fat Tony and Socrates. My gut reaction when reading this was to defend Socrates. But after a few reads this gem soaked in: **a person can know a thing well, and still explain it badly in words**.
 
+<!--more-->
+
 I've known this deep down, but ironically, did not have the _words_ to express it until reading Taleb. It's really a humbling idea -- it makes you take serious a whole world of people that you otherwise wouldn't.
 
 {{< blockquote >}}

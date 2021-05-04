@@ -6,6 +6,8 @@ toc: false
 
 Ever wanted to search an entire database for a column by name? Well, put your detective hat on, 'cause it's possible. 
 
+<!--more-->
+
 ## Oracle
 
 ```sql

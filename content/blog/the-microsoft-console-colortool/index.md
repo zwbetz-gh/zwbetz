@@ -6,6 +6,8 @@ toc: false
 
 Today I stumbled upon Microsoft's [Console ColorTool](https://github.com/microsoft/terminal/tree/master/src/tools/ColorTool). I've long played around with the color scheme of my Windows Console to make things more readable and improve the aesthetic (with not much luck). This awesome tool let's me make color changes easily, and the changes show up in **Command Prompt**, **PowerShell**, and **Windows Subsystem for Linux Console**. Nice. 
 
+<!--more-->
+
 To quickly get started with ColorTool, here are some steps: 
 
 1. Download the latest `ColorTool.zip` from [GitHub Releases](https://github.com/Microsoft/console/releases) and unzip it

@@ -6,6 +6,8 @@ toc: false
 
 When defining dependency versions in your `build.gradle` file, if dependencies share the same version, you have to repeat it each time. 
 
+<!--more-->
+
 For example:
 
 ```groovy

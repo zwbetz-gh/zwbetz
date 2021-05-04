@@ -6,6 +6,8 @@ toc: false
 
 I had to implement a clamp-and-expand feature recently. If you do an internet search for how to do this, the results are sparse, and there seems to be no standard way.
 
+<!--more-->
+
 I went with a CSS approach. (As opposed to a JS approach of actually manipulating the text string). The disadvantage of the CSS approach is you cannot have bottom padding, else the hidden text will bleed through.
 
 ## References

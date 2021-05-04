@@ -5,3 +5,5 @@ toc: false
 ---
 
 This article has been merged into [Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and NodeJS]({{< relref "rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages" >}}).
+
+<!--more-->

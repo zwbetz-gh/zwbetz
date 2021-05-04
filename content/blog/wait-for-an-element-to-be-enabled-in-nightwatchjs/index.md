@@ -6,6 +6,8 @@ toc: false
 
 In NightwatchJS, you can wait for an element to be [present](https://nightwatchjs.org/api/commands/#waitForElementPresent), or to be [visible](https://nightwatchjs.org/api/commands/#waitForElementVisible). But there is no built-in command to wait for an element to be enabled. Luckily, this can be done by using the `:enabled` CSS pseudo-class, see [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled).
 
+<!--more-->
+
 ## Sample
 
 The sample test below does the following things:

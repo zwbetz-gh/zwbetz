@@ -8,6 +8,8 @@ toc: false
 
 I'm sometimes asked about resources I would recommend for learning how to code. That phrase can mean _a lot_ of things, so pulling from my own experience, here's how I'd narrow it down. Please note that these are my personal recommendations, and are only a _very small_ slice of the "learning to code" pie. 
 
+<!--more-->
+
 All resources linked below are free, except those by TeamTreehouse. Yes, their content is paid, but it's well worth it, as they have the best cost-to-value ratio of any online video course I've used. They offer a free trial, so if you hustle, you can finish a full course before the trail expires. 
 
 ## Basic Web Design

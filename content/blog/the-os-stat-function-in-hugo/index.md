@@ -8,6 +8,8 @@ toc: false
 
 The `os.Stat` function in Hugo ([see the docs](https://gohugo.io/functions/os.stat/)) is useful for getting info on a file. 
 
+<!--more-->
+
 For example, say I wanted to get the info on this page. The following shortcode:
 
 ```

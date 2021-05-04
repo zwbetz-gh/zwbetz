@@ -10,6 +10,8 @@ This was originally a question posed on the [hugo discussion forums](https://dis
 
 The user wanted to loop through all her content files and add a `weight` page-level variable to the front matter. The value of `weight` needed to be the first 2 characters of the content filename, since her content was named like `01_content.md`, `02_content.md`, etc.
 
+<!--more-->
+
 She then wanted to `range` through her pages by their weight, like so:
 
 ```

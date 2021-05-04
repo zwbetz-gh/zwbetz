@@ -4,6 +4,8 @@ date: 2020-05-26T00:00:00-05:00
 toc: false
 ---
 
+Don't take it too seriously. Experiment, experiment, experiment.
+
 ## Ingredients
 
 - 10 eggs

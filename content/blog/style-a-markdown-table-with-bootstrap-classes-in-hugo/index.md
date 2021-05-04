@@ -8,6 +8,8 @@ toc: false
 
 Inspired by [this discussion](https://discourse.gohugo.io/t/how-to-customise-tables/15661/), I wanted the ability to style a markdown table with [Bootstrap table classes](https://getbootstrap.com/docs/4.1/content/tables/). In the past, I've accomplished this by [defining the table in a data file]({{< relref "create-an-html-table-from-a-toml-data-file-in-hugo" >}}), then building it with a shortcode. 
 
+<!--more-->
+
 While this works fine, it's better for a different use case. I wanted something that meets the following criteria:
 
 - The table is defined in markdown

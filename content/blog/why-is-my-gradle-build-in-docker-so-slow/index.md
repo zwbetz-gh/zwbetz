@@ -6,6 +6,8 @@ toc: false
 
 _Why is my gradle build in docker so slow?_ I've asked myself this question often recently. Building _outside_ of docker is quick, so what gives?
 
+<!--more-->
+
 Docker caches each of its steps in a layer. So if a given step hasn't changed, it's cached, and should make the image build quickly. So why wasn't this happening for gradle builds? 
 
 In the original `Dockerfile`, when the gradle build was run, it would **re-download all dependencies each time**. This was the cause of the slowness. 

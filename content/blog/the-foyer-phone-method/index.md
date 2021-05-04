@@ -6,6 +6,8 @@ toc: false
 
 If you've never read Cal Newport's blog, you're missing out -- his content is just plain meaningful to my life (and likely yours). The following excerpt is from his blog post on [Digital Minimalism for Parents](http://calnewport.com/blog/2019/03/01/digital-minimalism-for-parents/). I do something similar to the "foyer phone method", but instead of leaving it in the foyer, I leave it in the car until my wife and I put our son down for bed. It's crazy how much mental energy is freed up when you're not worried about checking your phone. It makes those little conversations and moments all the more enjoyable. 
 
+<!--more-->
+
 {{< blockquote >}}
 Most digital minimalist parents I’ve talked with recently haven’t gone so far as to give up their smartphones, but they share the same serious interest in reshaping their digital lives — even if it’s a pain — to provide a better model for their kids. 
 

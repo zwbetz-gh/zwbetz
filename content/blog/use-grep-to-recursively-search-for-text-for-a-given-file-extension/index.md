@@ -12,6 +12,8 @@ Ran into a scenario at work where I needed to search for a piece of text, but on
 
 I knew of `grep`, but had only used it to search for text in a single file. Well, turns out it can do _way_ more than that. 
 
+<!--more-->
+
 After peeking at the manual (`man grep`) and consulting the google machine for more examples, here's the command that did what I needed. 
 
 Note: `.txt` should be replaced with the desired extension.

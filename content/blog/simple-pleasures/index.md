@@ -17,6 +17,8 @@ After watching [why small pleasures are a big deal](https://www.youtube.com/watc
 
 The original list consisted of just a few. As more come to mind, I add them here. 
 
+<!--more-->
+
 1. A haircut 
 1. When the hairdresser massages your head while washing it 
 1. Back rubs 

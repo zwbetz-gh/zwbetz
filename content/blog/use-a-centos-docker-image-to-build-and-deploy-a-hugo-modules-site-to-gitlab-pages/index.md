@@ -6,6 +6,8 @@ toc: false
 
 Am wrapping up a project for a client that needed a static site. They requested that it be built with Hugo and deployed to GitLab pages. The theme they wanted to base it off uses Hugo Modules, which in turn requires a Golang installation.
 
+<!--more-->
+
 I set things up so that when a commit is pushed to the `master` branch, a CI job is triggered. This job does the following:
 
 - Pulls a CentOS docker image

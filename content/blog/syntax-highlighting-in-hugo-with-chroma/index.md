@@ -6,6 +6,8 @@ toc: false
 
 [Hugo](https://gohugo.io/) has built-in syntax highlighting, provided by [Chroma](https://github.com/alecthomas/chroma). To use it, you just need 2 lines in your `config.toml` file:
 
+<!--more-->
+
 ```
 pygmentsCodefences = true
 pygmentsStyle = "pygments"

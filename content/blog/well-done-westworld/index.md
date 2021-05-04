@@ -10,6 +10,8 @@ I love thinking about consciousness. What is it? What are its requirements? How 
 
 If you like questions like these, you'll love Westworld. It explores these topics, while sucking you into multiple story lines.
 
+<!--more-->
+
 In Westworld there are hosts, which are like General Artificial Intelligence. Well, one of these hosts, Bernard, who you thought was a human all along, learns he's actually a host.
 
 The following scenes, while dark, show this fascinating wrestling match between Determinism and Free Will.

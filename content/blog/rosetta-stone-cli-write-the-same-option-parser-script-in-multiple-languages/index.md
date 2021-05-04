@@ -6,6 +6,8 @@ toc: true
 
 To really appreciate what a language does for you, it helps to compare it to other languages. Then you can see how (differently) common tasks are done. In this fun little exercise, we'll write the same option parser script in multiple languages.
 
+<!--more-->
+
 ## Sister Links
 
 These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages). The repo includes a TAP-compliant test script.

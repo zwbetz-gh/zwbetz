@@ -6,6 +6,8 @@ toc: false
 
 I experimented with many ways of doing this, but my favorite solution was from this [stackoverflow answer](https://stackoverflow.com/a/20909045/11499871). It keeps the `.env` file syntax clean so that it can be used across projects. Here's a minimal, reproducible example.
 
+<!--more-->
+
 Also see [Version 2]({{< relref "set-environment-variables-in-your-bash-shell-from-a-env-file-version-2" >}}) of this post.
 
 ## .env file

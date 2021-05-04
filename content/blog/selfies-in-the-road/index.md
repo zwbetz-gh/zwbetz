@@ -8,6 +8,8 @@ toc: false
 
 My wife’s family and I took a trip to Canada the beginning of October. We drove through national parks in Jasper and Banff and had the pleasure of seeing their beautiful landscapes. Driving through vast icefields while the Rocky Mountains tower over you has a way of making you feel small. 
 
+<!--more-->
+
 While typically more Fall-ish this time of year, there was an unusual early snow (being from the south where everything is flat and warm, it felt like a blizzard to us). The layers of snow on everything made for nice sights but hard driving. Our rental van had all-season tires, when it really needed snow tires. Thankfully, though, it was front-wheel drive. 
 
 As we made it to our first big climb, we hit a choke point (I later learned this area was called Tangle Ridge by the locals). A tour bus had slid off the road up ahead, effectively blocking traffic both ways. About an hour later once the driver was able to move his bus to the side of the road, traffic could flow again.

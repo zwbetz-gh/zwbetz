@@ -8,6 +8,8 @@ When first making this site, one of the goals was to brand myself online. (The o
 
 Since that time, I've published a small set of articles. And funny enough, articles I thought were obscure one-offs, are now top hits...
 
+<!--more-->
+
 It's interesting, because I don't do anything to game the system. I don't do marketing. I don't have associated social media accounts. Heck, I don't even have a publishing schedule. I'll go months writing nothing. Then I'll bang out a few ideas back-to-back.
 
 Yet there is one thing I intentionally do: Write things that are useful or fun for me, in the hopes they'll be useful or fun for someone else.

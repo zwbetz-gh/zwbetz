@@ -8,6 +8,8 @@ This post is version 2 of [Set Environment Variables in Your Bash Shell From a E
 
 The advantage is it supports quoted values that contain spaces.
 
+<!--more-->
+
 ## .env file
 
 ```shell

@@ -7,6 +7,8 @@ draft: false
 
 The following are some of my favorite snippets from the book [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/). 
 
+<!--more-->
+
 APA Citation: `Martin, Robert C. (2008). Clean Code. Pearson.`
 
 ## Chapter 1: Clean Code, Page 14

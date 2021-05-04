@@ -4,6 +4,10 @@ date: 2019-10-11T20:55:48-05:00
 toc: false
 ---
 
+Show Finder the light.
+
+<!--more-->
+
 ## A one-time thing
 
 1. Press `Command` - `Shift` - `.`  to toggle hidden files when in Finder

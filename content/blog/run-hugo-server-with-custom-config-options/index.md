@@ -10,6 +10,8 @@ The idea originally came from this [hugo discussion forum post](https://discours
 
 There was a commit (it has since been reverted) that removed the `disableFastRender` flag from the `config.toml` options. So instead of running `hugo server` and it picking up the flag from your config file, you'd now have to run `hugo server --disableFastRender`. 
 
+<!--more-->
+
 I figured there had to be a way to alias this command in bash, and of course, there was. After reading through many examples of how others accomplished this with a bash function, the following did the trick for me. 
 
 ## Bash Function

@@ -6,6 +6,8 @@ toc: false
 
 [Hugo Pipes](https://gohugo.io/hugo-pipes/resource-from-template/) allows resource creation from an asset file that contains templating. As an example, let's say you want to make your site's background color and text color configurable. In your `config.toml` file, you would have the below: 
 
+<!--more-->
+
 ```toml
 [params]
   backgroundColor = "#fff"

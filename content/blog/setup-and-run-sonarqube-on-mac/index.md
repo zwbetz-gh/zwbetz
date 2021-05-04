@@ -8,6 +8,8 @@ It can be useful to run sonar locally. This doc explains how.
 
 Sonar has 2 main parts: **sonarqube**, which is a server that displays scan results (among other things), and **sonar-scanner**, which does the actual scanning.
 
+<!--more-->
+
 **Note:** This doc uses SonarQube version 8.4.2
 
 ## Prerequisites

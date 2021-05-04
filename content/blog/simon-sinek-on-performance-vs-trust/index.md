@@ -6,6 +6,8 @@ toc: false
 
 There are more factors that go into choosing a Navy Seal than just performance vs trust. But I get what Simon is saying, and it's true for me personally: I would rather work with a _high trust & medium performance_ leader, than a _medium trust & high performance_ leader.
 
+<!--more-->
+
 [Video source](https://youtu.be/ljLlpOAGRsQ).
 
 > I worked with the Navy Seals. and I asked them, "How do you pick the guys that go on Seal Team Six? Because they're the best of the best of the best."

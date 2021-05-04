@@ -8,6 +8,8 @@ toc: false
 
 Does your freshly created VirtualBox Fedora Linux VM feel slow? Mine sure did. After much trial and error over many days, the following steps worked for me to speed things up. 
 
+<!--more-->
+
 At the time of this writing, I was using [Fedora Workstation 28](https://getfedora.org/en/workstation/download/). If you've never installed Linux on a VirtualBox VM before, see the Fedora Magazine article on [how to install Fedora as a VirtualBox guest](https://fedoramagazine.org/install-fedora-virtualbox-guest/). 
 
 ## Storage Space

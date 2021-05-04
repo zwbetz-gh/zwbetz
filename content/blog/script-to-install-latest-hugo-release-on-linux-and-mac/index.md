@@ -10,6 +10,8 @@ toc: false
 
 Running this script will install the latest (non-extended) hugo release. It was originally written for Linux. To make it work for Mac, find/replace occurrences of `Linux` with `macOS`.
 
+<!--more-->
+
 Since this script writes to `/usr/local/bin/`, it will likely need to be run with `sudo`. For example:
 
 ```
