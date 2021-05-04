@@ -1,0 +1,34 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ if site.Params.search }}
+<input
+  class="usa-input"
+  id="search"
+  type="text"
+  aria-label="Case-insensitive search by title, content, or publish date"
+  placeholder="Disabled ..."
+  disabled>
+<div id="enable_search_div" class="usa-checkbox">
+  <input id="enable_search" class="usa-checkbox__input" type="checkbox">
+  <label class="usa-checkbox__label" for="enable_search">
+    Enable search
+  </label>
+</div>
+<div class="usa-checkbox">
+  <input id="regex_mode" class="usa-checkbox__input" type="checkbox" disabled>
+  <label class="usa-checkbox__label" for="regex_mode">
+    Regex mode
+  </label>
+</div>
+{{ end }}
+<p class="text-gray-50" id="count">Count: {{ len .Pages }}</p>
+<ul id="list">
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <li>
+    {{ $dateFormat := (partial "date-format.html" | string) }}
+    <span class="text-gray-50">{{ .PublishDate.Format $dateFormat }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

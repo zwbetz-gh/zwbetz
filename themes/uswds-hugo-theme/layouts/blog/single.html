@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  
+  <p class="text-gray-50">
+    {{ $dateFormat := (partial "date-format.html" | string) }}
+    {{ $publishDate := .PublishDate }}
+    {{ $formattedPublishDate := $publishDate.Format $dateFormat }}
+    <strong>Published: </strong>{{ $formattedPublishDate }}
+    
+    {{ with .Lastmod }}
+      {{ $formattedLastmod := .Format $dateFormat }}
+      {{ if gt $formattedLastmod $formattedPublishDate }}
+        &bull; <strong>Last updated: </strong>{{ $formattedLastmod }}
+      {{ end }}
+    {{ end }}
+    
+    {{ if eq site.Params.show_tags true }}
+      {{ $tags := slice }}
+
+      {{ with .Params.tags }}
+        {{ range . }}
+          {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
+          {{ $element := printf "<a href=\"%s\">%s</a>" $href . }}
+          {{ $tags = $tags | append $element }}
+        {{ end }}
+      {{ end }}
+
+        <br>
+        <span class="post-tags">
+          <strong>Tags: </strong>{{ delimit $tags " &bull; " }}
+        </span>
+    {{ end }}
+  </p>
+  
+  {{ if eq .Params.toc true }}
+    {{ partial "toc.html" . }}
+  {{ end }}
+  
+  {{ .Content }}
+
+  {{ if eq site.Params.show_prev_next_links true }}
+    <div id="next-and-prev">
+      {{ with .NextInSection }}
+        <div class="text-gray-50">
+          <strong>Next:</strong> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+      {{ with .PrevInSection }}
+        <div class="text-gray-50">
+          <strong>Previous:</strong> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+  
+  {{ if ne .Params.show_comments false }}
+    {{ partial "comments.html" . }}
+  {{ end }}
+
+  {{ partial "google-ads.html" . }}
+
+{{ end }}

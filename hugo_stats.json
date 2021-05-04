@@ -1,7 +1,7 @@
 {
   "htmlElements": {
     "tags": [
-      "!doctype",
+      "",
       "a",
       "blockquote",
       "body",
@@ -21,7 +21,6 @@
       "html",
       "img",
       "input",
-      "input\nclass=\"usa-input\"\nid=\"sample-search\"\ntype=\"text\"\nplaceholder=\"search",
       "label",
       "li",
       "link",
@@ -41,7 +40,6 @@
       "table",
       "tbody",
       "td",
-      "th",
       "thead",
       "title",
       "tr",
@@ -312,6 +310,7 @@
       "sample-list",
       "sample-list-count",
       "sample-output",
+      "sample-search",
       "sample-usage",
       "samples",
       "science-fiction-fantasy-and-fun",

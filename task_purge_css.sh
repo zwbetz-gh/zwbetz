@@ -6,5 +6,4 @@ hugo
 echo "Purging the CSS ..."
 node task_purge_css.js
 
-echo "Moving the purged CSS file to the theme ..."
-mv -v uswds-purged.css ../uswds-hugo-theme/assets/css/
+echo "Completed ${0} in ${SECONDS} s"

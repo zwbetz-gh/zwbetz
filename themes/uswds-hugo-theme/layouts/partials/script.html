@@ -1,0 +1,14 @@
+{{ $themeJs := resources.Get "js/uswds.js" 
+  | fingerprint 
+  | minify }}
+<script src="{{ $themeJs.RelPermalink }}" async></script>
+
+{{ if eq site.Params.search true }}
+  {{ $searchJs := resources.Get "js/search.js" 
+    | resources.ExecuteAsTemplate "js/search.js" . 
+    | fingerprint 
+    | minify }}
+  <script src="{{ $searchJs.RelPermalink }}" async></script>
+{{ end }}
+
+{{ partial "google-analytics.html" . }}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "skipnav.html" . }}
+    {{ partial "header.html" . }}
+    <main class="usa-section" id="main-content">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col usa-prose">
+            {{ block "main" . }}{{ end }}
+          </div>
+        </div>
+      </div>
+    </main>    
+    {{ partial "footer.html" . }}
+    {{ partial "script.html" . }}
+  </body>
+</html>

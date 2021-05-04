@@ -1,0 +1,324 @@
+{{ $class := "usa-table" }}
+
+<h2>Page</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>.Date</td>
+    <td>{{ .Date }}</td>
+  </tr>
+  <tr>
+    <td>.Draft</td>
+    <td>{{ .Draft }}</td>
+  </tr>
+  <tr>
+    <td>.FuzzyWordCount</td>
+    <td>{{ .FuzzyWordCount }}</td>
+  </tr>
+  <tr>
+    <td>.IsHome</td>
+    <td>{{ .IsHome }}</td>
+  </tr>
+  <tr>
+    <td>.IsNode</td>
+    <td>{{ .IsNode }}</td>
+  </tr>
+  <tr>
+    <td>.IsPage</td>
+    <td>{{ .IsPage }}</td>
+  </tr>
+  <tr>
+    <td>.Kind</td>
+    <td>{{ .Kind }}</td>
+  </tr>
+  <tr>
+    <td>.Lastmod</td>
+    <td>{{ .Lastmod }}</td>
+  </tr>
+  <tr>
+    <td>.NextInSection</td>
+    <td>{{ .NextInSection }}</td>
+  </tr>
+  <tr>
+    <td>.OutputFormats</td>
+    <td>
+      <details>
+        <summary>{{ len .OutputFormats }}</summary>
+        {{ range .OutputFormats }}
+          {{ .Name }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>.Pages</td>
+    <td>
+      <details>
+        <summary>{{ .Pages }}</summary>
+        {{ range .Pages }}
+          {{ . }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>.Permalink</td>
+    <td>{{ .Permalink }}</td>
+  </tr>
+  <tr>
+    <td>.PrevInSection</td>
+    <td>{{ .PrevInSection }}</td>
+  </tr>
+  <tr>
+    <td>.PublishDate</td>
+    <td>{{ .PublishDate }}</td>
+  </tr>
+  <tr>
+    <td>.ReadingTime</td>
+    <td>{{ .ReadingTime }}</td>
+  </tr>
+  <tr>
+    <td>.RelPermalink</td>
+    <td>{{ .RelPermalink }}</td>
+  </tr>
+  <tr>
+    <td>.Title</td>
+    <td>{{ .Title }}</td>
+  </tr>
+  <tr>
+    <td>.Type</td>
+    <td>{{ .Type }}</td>
+  </tr>
+  <tr>
+    <td>.Weight</td>
+    <td>{{ .Weight }}</td>
+  </tr>
+  <tr>
+    <td>.WordCount</td>
+    <td>{{ .WordCount }}</td>
+  </tr>
+</table>
+
+<h2>File</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>.File.Path</td>
+    <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.LogicalName</td>
+    <td>{{ with .File }}{{ .LogicalName }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.TranslationBaseName</td>
+    <td>{{ with .File }}{{ .TranslationBaseName }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.ContentBaseName</td>
+    <td>{{ with .File }}{{ .ContentBaseName }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.BaseFileName</td>
+    <td>{{ with .File }}{{ .BaseFileName }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.Ext</td>
+    <td>{{ with .File }}{{ .Ext }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.Lang</td>
+    <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.Dir</td>
+    <td>{{ with .File }}{{ .Dir }}{{ end }}</td>
+  </tr>
+  <tr>
+    <td>.File.UniqueID</td>
+    <td>{{ with .File }}{{ .UniqueID }}{{ end }}</td>
+  </tr>
+</table>
+
+<h2>Section</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>.CurrentSection</td>
+    <td>{{ .CurrentSection }}</td>
+  </tr>
+  <tr>
+    <td>.FirstSection</td>
+    <td>{{ .FirstSection }}</td>
+  </tr>
+  <tr>
+    <td>.Parent</td>
+    <td>{{ .Parent }}</td>
+  </tr>
+  <tr>
+    <td>.Section</td>
+    <td>{{ .Section }}</td>
+  </tr>
+  <tr>
+    <td>.Sections</td>
+    <td>
+      <details>
+        <summary>{{ .Sections }}</summary>
+        {{ range .Sections }}
+          {{ . }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+</table>
+
+<h2>Hugo</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>hugo.Version</td>
+    <td>{{ hugo.Version }}</td>
+  </tr>
+  <tr>
+    <td>hugo.BuildDate</td>
+    <td>{{ hugo.BuildDate }}</td>
+  </tr>
+  <tr>
+    <td>hugo.CommitHash</td>
+    <td>{{ hugo.CommitHash }}</td>
+  </tr>
+  <tr>
+    <td>hugo.Environment</td>
+    <td>{{ hugo.Environment }}</td>
+  </tr>
+</table>
+
+<h2>Site</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>site.BaseURL</td>
+    <td>{{ site.BaseURL }}</td>
+  </tr>
+  <tr>
+    <td>site.BuildDrafts</td>
+    <td>{{ site.BuildDrafts }}</td>
+  </tr>
+  <tr>
+    <td>site.Home</td>
+    <td>{{ site.Home }}</td>
+  </tr>
+  <tr>
+    <td>site.IsMultiLingual</td>
+    <td>{{ site.IsMultiLingual }}</td>
+  </tr>
+  <tr>
+    <td>site.IsServer</td>
+    <td>{{ site.IsServer }}</td>
+  </tr>
+  <tr>
+    <td>site.Language.Lang</td>
+    <td>{{ site.Language.Lang }}</td>
+  </tr>
+  <tr>
+    <td>site.LastChange</td>
+    <td>{{ site.LastChange }}</td>
+  </tr>
+  <tr>
+    <td>site.Pages</td>
+    <td>
+      <details>
+        <summary>{{ site.Pages }}</summary>
+        {{ range site.Pages }}
+          {{ . }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>site.RegularPages</td>
+    <td>
+      <details>
+        <summary>{{ site.RegularPages }}</summary>
+        {{ range site.RegularPages }}
+          {{ . }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>site.Sections</td>
+    <td>
+      <details>
+        <summary>{{ site.Sections }}</summary>
+        {{ range site.Sections }}
+          {{ . }}<br>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>site.Taxonomies</td>
+    <td>
+      <details>
+        <summary>{{ site.Taxonomies }}</summary>
+        {{ range site.Taxonomies }}
+          <details>
+            <summary>{{ len . }}</summary>
+            {{ range . }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        {{ end }}
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>site.Title</td>
+    <td>{{ site.Title }}</td>
+  </tr>
+</table>
+
+<h2>os.Stat</h2>
+<table class="{{ $class }}">
+  <tr>
+    <td>.IsDir</td>
+    <td>
+      {{ with.File }}
+        {{ $path := print "content/" .Path }}
+        {{ (os.Stat $path).IsDir }}
+      {{ end }}
+    </td>
+  </tr>
+  <tr>
+    <td>.Mode</td>
+    <td>
+      {{ with.File }}
+        {{ $path := print "content/" .Path }}
+        {{ (os.Stat $path).Mode }}
+      {{ end }}
+    </td>
+  </tr>
+  <tr>
+    <td>.ModTime</td>
+    <td>
+      {{ with.File }}
+        {{ $path := print "content/" .Path }}
+        {{ (os.Stat $path).ModTime }}
+      {{ end }}
+    </td>
+  </tr>
+  <tr>
+    <td>.Name</td>
+    <td>
+      {{ with.File }}
+        {{ $path := print "content/" .Path }}
+        {{ (os.Stat $path).Name }}
+      {{ end }}
+    </td>
+  </tr>
+  <tr>
+    <td>.Size</td>
+    <td>
+      {{ with.File }}
+        {{ $path := print "content/" .Path }}
+        {{ print (os.Stat $path).Size " bytes" }}
+      {{ end }}
+    </td>
+  </tr>
+</table>

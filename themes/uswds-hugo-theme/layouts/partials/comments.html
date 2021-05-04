@@ -1,0 +1,25 @@
+<div id="disqus-container">
+  {{ with site.DisqusShortname }}
+    <button id="disqus-button" class="usa-button" onclick="showComments()">Load comments</button>
+    <div id="disqus-comments">
+      {{ if site.IsServer }}
+        <p><em>Disqus comments are disabled when running local server.</em></p>
+        <script>
+          function showComments() {
+            {{ partial "comments-common.js" . | safeJS }}
+          }
+        </script>
+      {{ else }}
+        <div id="disqus_thread">
+        </div>
+        <script>
+          function showComments() {
+            {{ partial "comments-disqus.js" . | safeJS }}
+            {{ partial "comments-common.js" . | safeJS }}
+          }
+        </script>
+      {{ end }}
+      <noscript>Enable JavaScript to view Disqus comments.</noscript>
+    </div>
+  {{ end }}
+</div>

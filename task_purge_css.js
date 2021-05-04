@@ -12,12 +12,12 @@ const {PurgeCSS} = require('purgecss');
     },
     css: [originalCssFilePath],
     safelist: {
-      // TODO make this list work well on mobile
+      // TODO make this list work well on mobile, especially for wide code blocks
       greedy: [/:focus/, /usa-nav/, /usa-accordion/]
     }
   });
 
-  const purgedCssFilePath = 'uswds-purged.css';
+  const purgedCssFilePath = 'themes/uswds-hugo-theme/assets/css/uswds-purged.css';
   const purgedCssContent = result[0].css;
 
   fs.writeFileSync(purgedCssFilePath, purgedCssContent, {encoding: 'utf-8'});

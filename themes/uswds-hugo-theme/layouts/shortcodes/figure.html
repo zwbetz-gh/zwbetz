@@ -1,0 +1,31 @@
+{{ $img := .Get "img" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+{{ $command := .Get "command" }}
+{{ $options := .Get "options" }}
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
+{{ $new := "" }}
+
+{{ if eq $command "Fit" }}
+  {{ $new = $original.Fit $options }}
+{{ else if eq $command "Fill" }}
+  {{ $new = $original.Fill $options }}
+{{ else if eq $command "Resize" }}
+  {{ $new = $original.Resize $options }}
+{{ else if eq $command "Original" }}
+  {{ $new = $original }}
+{{ else }}
+  {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, Original." }}
+{{ end }}
+
+<div class="usa-image-block">
+  <a href="{{ $original.RelPermalink }}">
+    <img src="{{ $new.RelPermalink }}" alt="{{ $alt }}">
+  </a>
+  <div class="usa-image-text-block">
+    <small>
+      <p class="usa-image-text text-gray-50">{{ $caption | markdownify }}</p>
+    </small>
+  </div>
+</div>
