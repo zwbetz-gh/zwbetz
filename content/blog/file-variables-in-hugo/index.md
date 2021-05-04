@@ -8,6 +8,8 @@ toc: false
 
 Hugo's `.File` variables ([see the docs](https://gohugo.io/variables/files/)) are useful for getting filesystem data on your content files. 
 
+<!--more-->
+
 For example, this shortcode:
 
 ```

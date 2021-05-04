@@ -8,6 +8,8 @@ Flyway is a popular database migration tool. They offer two versions, a Free edi
 
 I was using the Free edition on a project. When creating the migration files, I did a [`pg_dump` of an existing database]({{< relref "a-shell-script-wrapper-for-pgdump" >}}). This worked out fine and dandy, except for one thing... 
 
+<!--more-->
+
 When `pg_dump` extracts data, it generates `INSERT` statements with the `OVERRIDING SYSTEM VALUE` clause, which allows explicit values into an identity column (as opposed to letting the column auto-increment). 
 
 This means statements like `SELECT pg_catalog.setval('foo', 42, false)` are then needed to set the identity column sequence to its correct value.

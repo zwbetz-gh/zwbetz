@@ -8,6 +8,8 @@ At work, we have to SSH into an ubuntu box in order to run queries. Since this b
 
 Sadly, pasting multi-line queries into SQL*Plus is a no-go. And copying query results, if they're more than a few dozen lines, isn't much better. So, after trial and error, here's my solution:
 
+<!--more-->
+
 - Copy the multi-line query from my host (macOS)
 - Create a file on ubuntu box using [vi]({{< relref "just-enough-vi-to-open-a-file-edit-it-and-quit" >}}), then paste in the query. Save it as `file.sql`
 - Open SQL*Plus and make a connection to the Oracle database

@@ -10,6 +10,8 @@ At work, everyone on my team has Macs, but the users of one of our apps use Inte
 
 Our app has a React front-end, so local development/testing is done on `http://localhost:3000`. But how do we hit this URL from the Win7 VM? I'll show you, but first let's setup the VM. 
 
+<!--more-->
+
 ## Import and Configure the Win7 VM
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads). If you get a permission error when installing VirtualBox, see [this fix](https://stackoverflow.com/a/46549654)

@@ -6,6 +6,8 @@ toc: false
 
 This post builds on [part 1]({{< relref "convert-heic-images-to-jpg" >}}). In that post, I described the command-line steps necessary to convert hundreds of my wife's pictures from `.heic` to `.jpg`. Well, turns out this isn't a one-time-thing. She works in real estate, and lately has been needing to do the task more often. So I added a simple GUI using Mac Automator. A rough version of the steps follow:
 
+<!--more-->
+
 1. Open Mac Automator and choose **Application**
 1. Drag over action **Ask for Finder Items**
     1. Choose a folder to start at

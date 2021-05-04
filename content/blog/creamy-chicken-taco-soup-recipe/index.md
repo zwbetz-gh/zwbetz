@@ -4,6 +4,10 @@ date: 2020-02-22T00:00:00-05:00
 toc: false
 ---
 
+Satisfy your inner Chihuahua.
+
+<!--more-->
+
 ## Ingredients
 
 - Chicken breast x2

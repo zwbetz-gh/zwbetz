@@ -6,6 +6,8 @@ toc: false
 
 I recently fixed an [issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36) where I needed to generate a random string. The string had to be random, even if given the same input seed. 
 
+<!--more-->
+
 In short, the cupper theme (which had the issue) has a shortcode that creates "expandables" with a little JavaScript. Each expandable generates its html id based off the md5 hash of the shortcode's `.Inner` content (which is whatever text you want to show when the expandable is clicked). Well, if two expandables had the same inner content, then things would break. My solution was:
 
 - Get the md5 hash of the seed string (in this case, the inner content of the expandable)

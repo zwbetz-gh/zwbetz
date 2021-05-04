@@ -6,6 +6,8 @@ toc: false
 
 I needed to convert some large PDF files into images for my wife. All of the free online converters had a file size limit of around 25 MB... but the files I was working with were a few hundred MB. Once again, Imagemagick comes to the rescue. Here's how to do it:
 
+<!--more-->
+
 ## Setup
 
 1. Install [Homebrew](https://brew.sh/)

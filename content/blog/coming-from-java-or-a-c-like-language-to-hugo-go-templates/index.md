@@ -8,6 +8,8 @@ toc: true
 
 If you have a basic understanding of Java, or any other C-like language, then this post will ease you into Hugo's Go Templates syntax. 
 
+<!--more-->
+
 ## Arithmetic operators
 
 Arithmatic operators are provided by [Hugo's Math functions](https://gohugo.io/functions/math/).

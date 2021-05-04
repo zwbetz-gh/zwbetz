@@ -8,6 +8,8 @@ toc: false
 
 In each example below, the contents of a file are copied to the clipboard. 
 
+<!--more-->
+
 ## Mac
 
 ```

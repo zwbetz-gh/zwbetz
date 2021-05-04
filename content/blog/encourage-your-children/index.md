@@ -6,6 +6,8 @@ toc: false
 
 If it's not obvious from the other [content]({{< relref "things-i-like" >}}) on my site, I'm a huge Jordan Peterson fan. He has this way of weaving together multiple disciplines -- mythology, psychology, and biology, to name a few -- into a fascinating message (sermon?), that pulls at the deepest parts of you. He recently released a short video named [encourage your children](https://youtu.be/51IciCvDgBo). I liked it so much, I've transcribed it below.  
 
+<!--more-->
+
 {{< blockquote >}}
 When you love someone you love them not only despite their fragility but also because of it. They wouldn’t be who they were if they weren’t fragile and limited in their particular way. When you have a sick kid it’s like, “Oh my God, how can the world be constituted so that a child can unfairly suffer in this manner?” You can’t have them being vulnerable and cute and interesting and small and needing care, but striving to develop and grow without them also being prone to pain and destruction and vulnerability. 
 

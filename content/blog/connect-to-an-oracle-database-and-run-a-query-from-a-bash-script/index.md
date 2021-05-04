@@ -1,5 +1,6 @@
 ---
 title: "Connect to an Oracle Database and Run a Query From a Bash Script"
+summary: "Get Oracle and Bash to play nice."
 date: 2019-06-07T13:09:06-05:00
 toc: true
 ---

@@ -8,6 +8,8 @@ toc: false
 
 Inspired by this [discussion](https://discourse.gohugo.io/t/lorem-ipsum-shortcode-for-hugo/15604), I thought it'd be useful to generate Lorem Ipsum with a Hugo shortcode. 
 
+<!--more-->
+
 ## Definition
 
 Let's say you wanted to generate 20 paragraphs of dummy text. You could create a shortcode called `loremGen.html` and define it like:

@@ -10,6 +10,8 @@ toc: false
 
 GitHub adds header links to markdown documents by default. I like the way this looks and how it makes sharing link fragments easier, so I added the feature to my [lil boot](https://github.com/zwbetz-gh/lil-boot-hugo-theme) theme.
 
+<!--more-->
+
 The first iteration was with JavaScript.
 
 ```js

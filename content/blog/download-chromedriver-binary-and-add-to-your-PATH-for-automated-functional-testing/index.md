@@ -12,6 +12,8 @@ Many automated functional testing projects these days rely on chromedriver as th
 
 You can obviously place the chromedriver binary in any directory you like, I just used Mac `${HOME}/bin` and Windows `C:\bin` for this example. 
 
+<!--more-->
+
 ## Mac CLI
 
 1. Get familiar with [Mac Environment Variables in Terminal]({{< relref "mac-and-linux-environment-variables-in-terminal" >}})

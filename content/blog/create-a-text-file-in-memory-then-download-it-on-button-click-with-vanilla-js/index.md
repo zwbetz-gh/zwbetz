@@ -4,6 +4,10 @@ date: 2021-03-04T23:27:02-06:00
 toc: false
 ---
 
+This solution is simple. It's the coming up with this solution that took time. But, what's new.
+
+<!--more-->
+
 ## Code
 
 HTML:

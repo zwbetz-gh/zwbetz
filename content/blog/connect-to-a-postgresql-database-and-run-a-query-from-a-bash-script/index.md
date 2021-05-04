@@ -1,5 +1,6 @@
 ---
-title: "Connect to a Postgresql Database and Run a Query From a Bash Script"
+title: "Connect to a Postgres Database and Run a Query From a Bash Script"
+summary: "Get Postgres and Bash to play nice."
 date: 2019-06-07T13:10:14-05:00
 toc: true
 ---

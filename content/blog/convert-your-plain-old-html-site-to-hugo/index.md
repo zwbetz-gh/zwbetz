@@ -6,6 +6,8 @@ toc: true
 
 Once you have a grasp of HTML and CSS, we all know how easy it is to throw together a simple site: create your homepage, copy that HTML to other pages, then change the content. This process isn't too bad if your site only has a few pages. But things get out of hand quickly once the number of pages grow.
 
+<!--more-->
+
 This is where the static site generator, Hugo, comes in handy. Its templating language keeps things DRY, and its built-in HTTP server allows you to preview local changes instantly. 
 
 ## Original HTML

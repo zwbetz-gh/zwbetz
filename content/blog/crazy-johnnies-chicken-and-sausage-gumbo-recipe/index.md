@@ -6,6 +6,8 @@ toc: false
 
 This recipe is an amalgamation of a few things: My dad had made some Crazy Johnnie's BBQ shrimp for a family event. Once I peeled the leftovers, I couldn't bring myself to throw away the juice because it smelled so good. My wife suggested making a chicken and sausage gumbo and adding the juice in. I had never made gumbo before, but my sister-in-law makes a good one. Between her recipe, and [Cajun Ninja's](https://www.youtube.com/watch?v=FqUOBaSVHZE) recipe, this one was born.
 
+<!--more-->
+
 ## Ingredients
 
 - 1 cup Tony Chachere's Instant Roux Mix

@@ -6,6 +6,8 @@ toc: false
 
 If you have hundreds of tables, it can be a pain to search each individual one to check if it has a given column. This query left joins all tables for a given schema, `<some_schema>`, against itself, then shows tables that do not have a given column, `<some_column>`.
 
+<!--more-->
+
 ```sql
 SELECT
   *

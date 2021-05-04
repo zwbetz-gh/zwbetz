@@ -8,6 +8,8 @@ When using Flyway, each migration filename prefix must be unique. If they're not
 
 This was not good enough (for me), because it meant that duplicate prefixes could be merged, and would not be discovered until the app was deployed.
 
+<!--more-->
+
 What to do about this? A small gradle task can be added that checks prefixes for uniqueness at **build-time**.
 
 Shift Left when you can :)

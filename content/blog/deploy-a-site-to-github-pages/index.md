@@ -6,6 +6,8 @@ toc: false
 
 GitHub has a cool feature called GitHub Pages. It's basically free web hosting for your repo. Your site is served from branch `gh-pages`. And the url becomes `https://<USER_NAME>.github.io/<REPO_NAME>`
 
+<!--more-->
+
 There's a python package called `ghp-import` that does the heavy lifting for you. All you have to do is build your site as normal.
 
 The following is a stripped-down version of necessary steps. For a more fleshed-out version, see <https://github.com/zwbetz-gh/github-pages-deploy-pleasejs>

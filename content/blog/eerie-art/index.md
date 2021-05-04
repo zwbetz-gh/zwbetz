@@ -6,6 +6,8 @@ toc: false
 
 I've always been attracted to eerie art. Hard to say what it is exactly that draws me. The strangeness and darkness of it are just appealing. The following are some of my favorites pieces. Hope you enjoy them as much as I have. 
 
+<!--more-->
+
 Artists and links to their work: 
 
 - [Dawid Planeta](https://www.behance.net/dawidplaneta)

@@ -10,4 +10,6 @@ SchemaSpy is a nifty tool that, using their words, let's you _document your data
 
 When combined with GitHub Pages, it takes the headache out of deploying the generated SchemaSpy site.
 
+<!--more-->
+
 I made a template repo for easy reuse, check it out: <https://github.com/zwbetz-gh/schemaspy-postgres-github-pages>

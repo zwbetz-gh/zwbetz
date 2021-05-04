@@ -6,6 +6,8 @@ toc: false
 
 I often combine screenshots for documentation purposes. ImageMagick is great for this. Given a dir of images:
 
+<!--more-->
+
 ```bash
 # Make output dir
 mkdir -p output

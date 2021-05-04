@@ -6,6 +6,8 @@ toc: false
 
 Manually converting SQL to a Java string, or vice versa, isn't bad if it's only a few lines. But when your query is hundreds of lines, that's no fun. So I wrote Bash scripts to do the heavy lifting. Each script is below, followed by an example usage. 
 
+<!--more-->
+
 ## From SQL to Java string
 
 ```bash

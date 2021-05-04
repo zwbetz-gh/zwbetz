@@ -10,6 +10,8 @@ toc: false
 
 I'm used to C#, so if I want a parameter to have a default value, it can be done like this. 
 
+<!--more-->
+
 ```
 private static void sayHi(string message = "Hi") 
 {

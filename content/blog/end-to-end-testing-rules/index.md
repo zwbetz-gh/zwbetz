@@ -8,6 +8,8 @@ e2e testing projects have gained a sad reputation over the years. They're known 
 
 Yet, it doesn't have to be this way. Can you imagine e2e tests that are fast, reliable, and clean? It's possible. And by following this small set of rules, you can set yourself up for success.
 
+<!--more-->
+
 ## Tests Must Be Independent
 
 Tests cannot depend on each other. A given test must handle its own setup and teardown logic and should be able to run by itself.

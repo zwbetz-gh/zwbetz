@@ -6,6 +6,8 @@ toc: false
 
 Normally, on say a static site, this would be a matter of uploading files to a server then calling it a day. But, Squarespace makes you jump through hoops. So, documenting this here in case I or someone else has to do this again.
 
+<!--more-->
+
 ## Steps
 
 1. Navigate to <https://realfavicongenerator.net>

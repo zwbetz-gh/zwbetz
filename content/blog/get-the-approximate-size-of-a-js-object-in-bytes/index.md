@@ -6,6 +6,8 @@ toc: false
 
 Sure, I can look at the Chrome DevTools Network tab to see the size of a resource. But what if I wanted to get the approximate size of a JS object programmatically? Well, it can be done. See the following:
 
+<!--more-->
+
 ## JavaScript
 
 ```js

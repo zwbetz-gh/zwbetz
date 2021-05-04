@@ -6,6 +6,8 @@ toc: false
 
 I maintain a few Hugo themes, one of them named Cupper. Recently a [GitHub issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/47) was opened that described a white flash on page load when the dark theme was active. After some investigation, the bug was indeed real. A boy was it a tricky one.
 
+<!--more-->
+
 Roughly speaking, these events were happening:
 
 - Request is made for a page
