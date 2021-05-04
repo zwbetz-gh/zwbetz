@@ -6,6 +6,8 @@ toc: false
 
 My brother-in-law shared this [Jocko motivation video](https://youtu.be/IdTMDpizis8) with me the other day. **Warning:** be careful listening to it, it'll get you all jacked up. Transcription below.
 
+<!--more-->
+
 ---
 
 One of my direct subordinates, one of my guys who work for me. He would call me up or pull me aside with some major problem, some issue that was going on. And he would say, "Boss we got this and that and other thing". I would look at him and say, "Good".

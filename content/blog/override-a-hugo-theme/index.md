@@ -7,6 +7,8 @@ toc: false
 
 We've all been there. You're browsing through the [Hugo themes](https://themes.gohugo.io/) and find one that you really like. It meets all your criteria, except for that _one small thing_. So, what are your options?
 
+<!--more-->
+
 Well, thanks to Hugo's [lookup order](https://gohugo.io/templates/lookup-order/), you can override any part of a theme that you want. The following is a quick example. 
 
 Let's say you really like theme `foo`, but you wish the homepage was different. All you have to do is copy the homepage template:

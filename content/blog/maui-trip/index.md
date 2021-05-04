@@ -10,6 +10,8 @@ toc: false
 
 My wife and I went to Maui in March of 2017 and I've been meaning to write about it ever since. The landscapes there are just gorgeous. If you ever get a chance to go, here are some of our favorite things to do. 
 
+<!--more-->
+
 ## Nature
 
 **Watching the sunrise at [Haleakalā National Park](https://www.nps.gov/hale/index.htm), aka "House of the Sun"**. You drive up a massive shield volcano in the middle of the night until you reach 10,023 ft. elevation, just to watch the sunrise through the clouds. Sounds awesome, right? It was. 

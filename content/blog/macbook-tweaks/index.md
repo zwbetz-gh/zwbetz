@@ -10,6 +10,8 @@ toc: false
 
 Got a new MacBook for work about two weeks ago (macOS High Sierra, 15 inch screen, 16 GB memory). I've been a Windows guy most of my life, so it's been a fun switch. As I was settling in, here are a few tweaks I made so things would feel more homey. 
 
+<!--more-->
+
 I didn't like how minimized apps took up additional space in the dock, so I set them to minimze into the app icon.
 
 _System Preferences_ > _Dock_ > check _Minimize windows into application icon_

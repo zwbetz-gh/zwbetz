@@ -10,6 +10,8 @@ toc: false
 
 If you have an older generation iPhone, you've likely felt the effects of a lithium-ion battery nearing the end of its lifespan. If you've update to iOS 11.3 or higher, apple enables "performance management". 
 
+<!--more-->
+
 According to a support [article](https://support.apple.com/en-us/HT208387), in cases that require more extreme forms of performance management (i.e. my iPhone), the user may notice: longer app launch times, lower frame rates while scrolling, backlight dimming, lower speaker volume, gradual frame rate reductions in some apps, and/or apps refreshing in background may require reloading upon launch. 
 
 Umm, check.

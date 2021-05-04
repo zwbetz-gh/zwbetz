@@ -4,6 +4,10 @@ date: 2019-09-08T13:51:19-05:00
 toc: false
 ---
 
+Perfect for beach snacking.
+
+<!--more-->
+
 ## Ingredients
 
 - 2 chicken breasts

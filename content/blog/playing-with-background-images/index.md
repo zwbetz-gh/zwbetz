@@ -6,6 +6,8 @@ toc: false
 
 Playing around with CSS background image and filter properties. 
 
+<!--more-->
+
 See [index.css](index.css) and [index.js](index.js).
 
 <link href="index.css" rel="stylesheet">

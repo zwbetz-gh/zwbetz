@@ -6,6 +6,8 @@ toc: true
 
 This is useful when you need to check the output of an SQL query on startup of a Spring Boot app. There are no template literal strings in Java 11, so for maintainability, the multi-line query is read from a file.
 
+<!--more-->
+
 In this minimal sample, a table of TODOs is queried. If rows are returned, a warning message is logged. Else, success.
 
 ## Data

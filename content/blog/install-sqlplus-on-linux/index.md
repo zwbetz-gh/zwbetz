@@ -4,6 +4,10 @@ date: 2019-09-28T14:10:28-05:00
 toc: true
 ---
 
+When some random guy's blog ranks higher than the Oracle docs, what does that tell you?
+
+<!--more-->
+
 ## SQL*Plus Version 12.2.0.1.0
 
 1. Navigate to [Instant Client Downloads for Linux x86-64 (64-bit)](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)

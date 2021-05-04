@@ -6,6 +6,8 @@ toc: false
 
 The following are README excerpts from a repo I've been working on. If you do end-to-end testing on your project, check it out, it's a good resource. And, I'm quite happy with it.
 
+<!--more-->
+
 <https://github.com/zwbetz-gh/nightwatchjs-template>
 
 ## Summary

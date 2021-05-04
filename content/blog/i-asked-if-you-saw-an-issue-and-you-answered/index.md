@@ -6,6 +6,8 @@ toc: false
 
 Every now and then the internet surprises you.
 
+<!--more-->
+
 I recently added a [footer link](https://github.com/zwbetz-gh/zwbetz/blob/971cfdf4c0daa92ba86033082fd86f7c96246c0c/config.yaml#L57) that lets people (with a GitHub account) tell me when something is wrong. I often include code snippets in my blog posts. And while I strive to keep them accurate, sometimes I miss things, or an API has changed since I originally wrote the post, etc...
 
 Well, 13 days after adding that footer link, I got my first [bite](https://github.com/zwbetz-gh/zwbetz/issues/3).

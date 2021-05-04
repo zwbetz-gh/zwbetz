@@ -10,6 +10,8 @@ toc: false
 
 `vi` is something I use rarely, usually when I don't have access to a GUI text editor. For those times, here's just enough to do what I need: 
 
+<!--more-->
+
 1. `vi <file>` to open the file
 1. Press `i` for "INSERT" mode
 1. Make changes

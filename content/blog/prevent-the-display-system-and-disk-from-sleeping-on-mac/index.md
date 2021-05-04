@@ -6,6 +6,8 @@ toc: false
 
 When you step away from your Mac, it can be useful to prevent it from sleeping. Say you want to grab some coffee, but not deal with unlocking your screen and such when you get back. It's as easy as running a quick command.
 
+<!--more-->
+
 Just add the below function to your `~/.bash_profile` then pick up the change with `source ~/.bash_profile`.
 
 ## Bash function

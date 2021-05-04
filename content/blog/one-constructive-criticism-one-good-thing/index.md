@@ -6,6 +6,8 @@ toc: false
 
 Once in a blue moon, we play this game. It usually goes by the name "one bad thing, one good thing". The "bad" thing is more of a constructive criticism. The idea is to give the other person something they can realistically work on. Each person gets a chance in the hot-seat, while the others take turns offering words. 
 
+<!--more-->
+
 As you can imagine, playing this with people you hardly know is no fun -- as you haven't known them long enough to share anything of value. So play with folks you know. Pay attention, you may be surprised at what is said, so it's important to have a humble mindset. See the critiques as an opportunity for self-improvement, and don't let the good things go to your head. 
 
 {{< blockquote author="Marcus Aurelius, Meditations" >}}

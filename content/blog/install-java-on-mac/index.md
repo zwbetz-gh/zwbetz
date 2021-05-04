@@ -1,5 +1,6 @@
 ---
 title: "Install Java on Mac"
+summary: "Good old Java, let me install you."
 date: 2019-10-11T20:56:27-05:00
 toc: false
 ---

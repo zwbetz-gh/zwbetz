@@ -4,6 +4,10 @@ date: 2019-10-19T23:37:06-05:00
 toc: false
 ---
 
+I agree, it shouldn't be this hard. Alas.
+
+<!--more-->
+
 1. Install [Homebrew](https://brew.sh/)
 1. Install GPG
 

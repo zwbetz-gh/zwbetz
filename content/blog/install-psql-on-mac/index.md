@@ -4,6 +4,10 @@ date: 2019-10-11T20:53:10-05:00
 toc: false
 ---
 
+For your local database needs.
+
+<!--more-->
+
 1. Download and install [Postgres.app](https://postgresapp.com/)
 1. Set environment variables in your bash config file, e.g. `~/.bash_profile`
 

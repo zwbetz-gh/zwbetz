@@ -11,6 +11,8 @@ toc: true
 
 Until late 2018, I'd been a Windows guy most of my life. Then a new project at work required everyone to get Macs, so it was time to learn. This post is basically a "note to self" for command syntax when switching back-n-forth. 
 
+<!--more-->
+
 ## Clear the screen
 
 **Mac:**

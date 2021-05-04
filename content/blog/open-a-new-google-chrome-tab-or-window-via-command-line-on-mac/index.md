@@ -5,6 +5,9 @@ toc: false
 ---
 
 Ever been in your terminal and wanted to open a new chrome tab (or window), without actually switching to chrome? Well, it's possible. Checkout these examples:
+
+<!--more-->
+
 ```bash
 # Open URL in new tab
 open --new -a "Google Chrome" --args "duckduckgo.com"

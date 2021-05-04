@@ -6,6 +6,8 @@ toc: false
 
 If you want to pretty print your markdown docs in GitHub (GH), and your repo lives on the official github.com, then you can use [gitprint](https://gitprint.com/). But at work our GH is hosted internally, so this gitprint service does not work. 
 
+<!--more-->
+
 So, I made my own. It grabs the div that contains the markdown doc (which from what I've seen always has an id of `readme`), clears the body, appends said div, then creates and appends a style to remove anchor coloring. 
 
 To use it, (1) copy the below code:

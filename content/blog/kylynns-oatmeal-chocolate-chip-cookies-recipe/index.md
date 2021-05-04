@@ -6,6 +6,10 @@ aliases:
   - /kylynns-oatmeal-chocolate-chip-cookies/
 ---
 
+I dare you to eat only one.
+
+<!--more-->
+
 ## Ingredients
 
 - 1 cup (2 sticks) unsalted butter, softened

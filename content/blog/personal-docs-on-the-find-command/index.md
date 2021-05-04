@@ -11,6 +11,8 @@ toc: false
 
 `find` command options that I care about.
 
+<!--more-->
+
 ```
 find . -type f -name ".*keep"
 ```

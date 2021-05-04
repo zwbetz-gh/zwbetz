@@ -6,6 +6,8 @@ toc: false
 
 Sometimes you need to install developer tools on a Windows machine, but you don't have Admin access. How to get around this, you say? Well, instead of running an installer, you download the binaries you need then add them to your `PATH`.
 
+<!--more-->
+
 This will install python version `3.9.2`
 
 ## Install

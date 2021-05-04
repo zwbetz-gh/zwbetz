@@ -6,6 +6,8 @@ toc: false
 
 When developing your hugo site from your main computer, have you ever wished you could preview it from your phone to see how it looks on a mobile device? Well, you're in luck: it's possible, and can be done with any device connected to your network. Here's the command. 
 
+<!--more-->
+
 ```
 hugo server --bind 0.0.0.0 --baseURL http://<your-host-ip>:1313
 ```

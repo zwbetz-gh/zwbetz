@@ -10,6 +10,8 @@ toc: false
 
 **Update:** I now use Hugo's [Image Processing](https://gohugo.io/content-management/image-processing/) feature for image optimization.  
 
+<!--more-->
+
 ---
 
 Images often account for the majority of page size, so by making them smaller, you reduce page load times. Enter [ImageMagick](https://www.imagemagick.org/script/index.php). This many-featured, open-source software is a solid tool for doing just that. 

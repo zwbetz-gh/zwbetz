@@ -1,5 +1,6 @@
 ---
 title: "Install NodeJS and NPM on Mac"
+summary: "Who needs nvm."
 date: 2019-10-19T23:34:33-05:00
 toc: false
 ---

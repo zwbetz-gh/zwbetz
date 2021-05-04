@@ -6,6 +6,10 @@ aliases:
   - /mawmaw-bettys-strawberry-pie/
 ---
 
+Surprise yourself.
+
+<!--more-->
+
 ## Ingredients
 
 - 4oz cream cheese (room temp)

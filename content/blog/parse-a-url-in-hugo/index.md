@@ -6,6 +6,8 @@ toc: false
 
 Need to parse a URL in your Hugo templates? Thanks to the [`urls.Parse`](https://gohugo.io/functions/urls.parse/#readout) function, you don't have to do a bunch of string manipulation. Here's a quick example. 
 
+<!--more-->
+
 We'll start with this code:
 
 ```

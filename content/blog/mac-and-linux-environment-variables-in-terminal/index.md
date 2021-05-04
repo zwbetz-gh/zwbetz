@@ -1,5 +1,6 @@
 ---
 title: "List, Get, Set, and Unset Mac and Linux Environment Variables in Terminal"
+summary: "Say 'Environment Variables' 5 times fast."
 date: 2021-04-11T00:20:51-05:00
 toc: true
 ---

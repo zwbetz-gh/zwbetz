@@ -9,6 +9,10 @@ aliases:
 toc: false
 ---
 
+My boi Lewis laying it down.
+
+<!--more-->
+
 {{< blockquote author="Ralph Waldo Emerson, 1803-1882" >}}
 We gain the strength of the temptation we resist. 
 {{< /blockquote >}}

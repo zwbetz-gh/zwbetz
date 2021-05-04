@@ -1,5 +1,6 @@
 ---
 title: "List, Get, Set, and Unset Windows Environment Variables in Command Prompt"
+summary: "Say 'Environment Variables' 5 times fast."
 date: 2021-04-07T13:00:11-05:00
 toc: true
 ---

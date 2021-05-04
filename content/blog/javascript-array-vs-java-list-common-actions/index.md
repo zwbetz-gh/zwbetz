@@ -6,6 +6,8 @@ toc: true
 
 I've found myself doing more Java-related work lately (project duty calls). So, with JS being as friendly as it is, thought it'd be fun to write a little comparison post.
 
+<!--more-->
+
 The Java language sometimes gets a bad rap for being verbose. And look, I get it, it's not my first pick. Yet, it's not so bad. Things have come a long way over the years. (And who can argue with Java's maturity). Just to prove it, checkout these common actions.
 
 ## Sister Links

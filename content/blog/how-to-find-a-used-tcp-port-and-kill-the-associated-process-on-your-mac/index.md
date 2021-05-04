@@ -6,6 +6,8 @@ toc: false
 
 Sometimes the port you need is already used by another process. To find the offending process:
 
+<!--more-->
+
 ```
 sudo lsof -i tcp:<port>
 ```

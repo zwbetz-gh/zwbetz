@@ -14,6 +14,8 @@ When running `hugo server`, the user wanted to be notified with a beep of any er
 
 This isn't a use case for me personally but I thought it was a fun problem to solve. 
 
+<!--more-->
+
 ---
 
 My original solution for Mac:

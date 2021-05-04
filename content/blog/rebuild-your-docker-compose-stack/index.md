@@ -6,6 +6,8 @@ toc: false
 
 When using volumes with Docker Compose, especially with NodeJS projects, sometimes vague errors show up, like file permission errors for reading or writing a file. When this happens, it can be helpful to rebuild your Docker Compose stack from scratch to resolve these errors.
 
+<!--more-->
+
 1. Down everything, which stops and removes containers, and removes volumes
 
         docker-compose down -v

@@ -10,6 +10,8 @@ In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/qu
 
 Still, there have many requests on the [forums](https://discourse.gohugo.io/) for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you're reading is my go at that. Starting from scratch, we'll build a Hugo blog.
 
+<!--more-->
+
 ## Sister Links
 
 - **GitHub:** <https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch>

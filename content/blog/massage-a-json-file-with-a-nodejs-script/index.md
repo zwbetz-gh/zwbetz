@@ -5,6 +5,8 @@ date: 2020-01-27T03:42:42-05:00
 
 At work, some of our projects keep test data in large JSON files. These files are usually structured as an array of objects, which can be thousands of lines long. When I need to make changes, manually find-and-replacing can only get me so far. I can get cleverer with vscode's regex mode, but still, I am limited. 
 
+<!--more-->
+
 I need an object-oriented way to massage these JSON files. Most languages these days support working with JSON, but I find JavaScript's syntax to be the most pleasant. Enter NodeJS -- it's JavaScript, for your local filesystem, and so much more. 
 
 Given a JSON file named `input.json` that is an array of objects. 

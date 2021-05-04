@@ -14,6 +14,8 @@ This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad
 
 Eating a cup of this ice cream after eating spicy boiled seafood always hits the spot. 
 
+<!--more-->
+
 ## Ingredients 
 
 * 8 large Milky Way bars
