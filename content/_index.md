@@ -10,6 +10,8 @@ Welcome to my corner of the internet.
 
 `zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person.
 
+<!--more-->
+
 My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats.
 
 I maintain a few [Projects]({{< relref "projects" >}}).

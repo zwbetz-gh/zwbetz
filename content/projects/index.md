@@ -4,6 +4,10 @@ date: 2021-01-18T13:05:50-06:00
 toc: true
 ---
 
+Things I may work on in spare moments of time.
+
+<!--more-->
+
 ## Teaching
 
 - [Make a Hugo Blog From Scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}) -- In my opinion, Hugo’s current quick start is ample. It does just what the name says, gets you started you quickly. Still, there have many requests on the forums for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you’re reading is my go at that. Starting from scratch, we’ll build a Hugo blog.
