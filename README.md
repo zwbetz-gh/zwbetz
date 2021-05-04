@@ -8,7 +8,7 @@ My personal site
 
 1. Clone repo
     ```
-    git clone --recurse-submodules git@github.com:zwbetz-gh/zwbetz.git
+    git clone git@github.com:zwbetz-gh/zwbetz.git
     ```
 1. Change to it
     ```
