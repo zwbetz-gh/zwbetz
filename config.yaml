@@ -48,7 +48,7 @@ menu:
       weight: 3
 
 params:
-  ga_measurement_id: G-8Y7T26BQ2T
+  goat_counter_code: zwbetz
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
     Themed by [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) &bull;
