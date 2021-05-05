@@ -51,7 +51,7 @@ params:
   goat_counter_code: zwbetz
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
-    Themed by [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) &bull;
+    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
     Deployed by [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz) &bull;
     See an issue? [Let me know 🙂](https://github.com/zwbetz-gh/zwbetz/issues/new/choose)
