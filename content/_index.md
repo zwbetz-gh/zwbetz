@@ -1,6 +1,7 @@
 ---
 title: "Home"
 date: 2019-02-13T15:51:29-06:00
+toc: true
 aliases:
   - /about/
   - /contact/
