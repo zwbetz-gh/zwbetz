@@ -349,6 +349,7 @@
       "style-tweaks",
       "subtraction",
       "summary",
+      "switch-java-versions-on-the-fly",
       "syntax",
       "task_ci_buildsh",
       "task_ci_configsh",
