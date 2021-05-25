@@ -36,5 +36,4 @@ Things I may work on in spare moments of time.
 ## This Site
 
 - [zwbetz](https://github.com/zwbetz-gh/zwbetz) -- Content
-- [USWDS](https://github.com/zwbetz-gh/uswds-hugo-theme) -- Theme
 - [JSON Resume](https://github.com/zwbetz-gh/json-resume) -- Resume
