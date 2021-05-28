@@ -9,7 +9,7 @@ aliases:
 
 Welcome to my corner of the internet.
 
-`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person.
+`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person. Go on, have a look around.
 
 <!--more-->
 
@@ -21,7 +21,7 @@ This site is also available as [JSON](/index.json) and [RSS](index.xml).
 
 ## Work
 
-I'm a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
+I'm a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana. I'm thankful for the opportunity to solve problems for our clients. And I especially enjoy making someone's life easier with task automation.
 
 Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
 
