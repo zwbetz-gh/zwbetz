@@ -20,6 +20,6 @@ Some tips:
 - If you find yourself explaining a topic multiple times, extract that prose into a new doc, then link it accordingly
 - Avoid acronyms. Or use them, but give their meaning
 
-Believe it or not, there's actually [US Government guidance how to write in plain language](https://www.plainlanguage.gov/). It's a useful stuff and I recommend it.
+Believe it or not, there's actually [US Government guidance on how to write in plain language](https://www.plainlanguage.gov/). It's useful stuff and I recommend it.
 
 Good luck out there.
