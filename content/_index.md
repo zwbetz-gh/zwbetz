@@ -7,9 +7,9 @@ aliases:
   - /contact/
 ---
 
-Welcome to my corner of the internet.
+Welcome to my corner of the internet. Come on in and make yourself at home.
 
-`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person. Go on, have a look around.
+`zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person.
 
 <!--more-->
 
@@ -53,3 +53,7 @@ alt="The fam."
 caption="The fam."
 command="Resize"
 options="300x q100" >}}
+
+## Disclaimer
+
+Opinions expressed here are my own and not those of my employer or any past employer.
