@@ -8,7 +8,7 @@ Ever wondered where all those JAR files go?
 
 <!--more-->
 
-The Gradle dependency cache usually lives at `${HOME}/.gradle/`. So to list out top-level packages, you would run:
+The Gradle dependency cache usually lives at `${HOME}/.gradle/`. So, to list out top-level packages, you would run:
 
 ```
 ls -al ${HOME}/.gradle/caches/modules-2/files-2.1/
@@ -72,7 +72,7 @@ RUN gradle clean build --no-daemon
 CMD java -jar build/libs/*.jar
 ```
 
-Now when building, the dependency download is skipped and the dependency cache is used 🤗.
+Now when building, the dependency download is skipped, and the dependency cache is used 🤗.
 
 ```
 docker build --no-cache -f Dockerfile-app-cached -t app-cached .
