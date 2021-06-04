@@ -67,3 +67,7 @@ bin/
 build/
 gradle/
 ```
+
+## Related
+
+- [Reuse the Gradle Dependency Cache With Docker]({{< relref "reuse-the-gradle-dependency-cache-with-docker" >}})
