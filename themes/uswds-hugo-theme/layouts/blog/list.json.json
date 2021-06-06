@@ -4,8 +4,7 @@
 	{{- $item := dict
     "Title" .Title
     "PublishDateFormatted" (.PublishDate.Format "2006-01-02")
-    "RelPermalink" .RelPermalink
-    "PlainContent" .Plain -}}
+    "RelPermalink" .RelPermalink -}}
 
 	{{- $blog = $blog | append $item -}}
 {{- end -}}

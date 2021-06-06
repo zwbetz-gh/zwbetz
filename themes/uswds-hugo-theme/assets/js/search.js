@@ -29,8 +29,7 @@
 
   const enableSearchEl = () => {
     getSearchEl().disabled = false;
-    getSearchEl().placeholder =
-      'Case-insensitive search by title, content, or publish date';
+    getSearchEl().placeholder = 'Search by title or publish date';
   };
 
   const disableRegexModeEl = () => {
@@ -86,18 +85,15 @@
     const query = getSearchEl().value.toUpperCase();
     filteredList = list.filter(item => {
       const title = item.Title.toUpperCase();
-      const content = item.PlainContent.toUpperCase();
       const publishDate = item.PublishDateFormatted.toUpperCase();
       if (regexMode) {
         return (
           regexQuery.test(title) ||
-          regexQuery.test(content) ||
           regexQuery.test(publishDate)
         );
       } else {
         return (
           title.includes(query) ||
-          content.includes(query) ||
           publishDate.includes(query)
         );
       }
