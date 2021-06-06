@@ -10,7 +10,7 @@ Things I may work on in spare moments of time.
 
 ## Teaching
 
-- [Make a Hugo Blog From Scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}) -- Starting from scratch, we’ll build a Hugo BLOG
+- [Make a Hugo Blog From Scratch]({{< relref "make-a-hugo-blog-from-scratch" >}}) -- Starting from scratch, we’ll build a Hugo blog
 - [Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and NodeJS]({{< relref "rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages" >}}) -- In this fun little exercise, we’ll write the same option parser script in multiple languages
 
 ## Hugo Themes
