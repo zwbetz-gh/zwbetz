@@ -17,7 +17,8 @@ const {PurgeCSS} = require('purgecss');
     }
   });
 
-  const purgedCssFilePath = 'themes/uswds-hugo-theme/assets/css/uswds-purged.css';
+  const purgedCssFilePath =
+    'themes/uswds-hugo-theme/assets/css/uswds-purged.css';
   const purgedCssContent = result[0].css;
 
   fs.writeFileSync(purgedCssFilePath, purgedCssContent, {encoding: 'utf-8'});
