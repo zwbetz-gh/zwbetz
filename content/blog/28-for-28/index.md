@@ -16,7 +16,7 @@ I'm 28 years old this month. It only makes sense to pair it with a list.
 1. As a kid, I thought routines were silly. Now, I can't live without them
 1. Emotions are funny. They don't hit me in the moment. But you can bet that 3 days later when I'm driving through town, they'll come on heavy
 1. Investing in quality tools is worth it
-1. I'm amazed at people who can recall with detail what they're read / listened to / watched
+1. I'm amazed at people who can recall with detail what they've read / listened to / watched
 1. Deep conversations with small groups scratch an itch that is seldom scratched
 1. Consciousness is so much fun to think about
 1. The "glue work" people. The people who quietly hold everything together, with indifference to the spotlight. You know who you are. Thank you
