@@ -6,6 +6,8 @@ toc: false
 
 Don't take it too seriously. Experiment, experiment, experiment.
 
+<!--more-->
+
 ## Ingredients
 
 - 10 eggs
