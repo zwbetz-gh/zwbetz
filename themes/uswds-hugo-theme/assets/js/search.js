@@ -88,13 +88,13 @@
       const publishDate = item.PublishDateFormatted.toUpperCase();
       if (regexMode) {
         return (
-          regexQuery.test(title) ||
-          regexQuery.test(publishDate)
+          regexQuery.test(title)
+          || regexQuery.test(publishDate)
         );
       } else {
         return (
-          title.includes(query) ||
-          publishDate.includes(query)
+          title.includes(query)
+          || publishDate.includes(query)
         );
       }
     });
@@ -106,11 +106,14 @@
   };
 
   const renderList = () => {
-    const newList = document.createElement('ul');
-    newList.id = LIST_ID;
+    const newDiv = document.createElement('div');
+    newDiv.id = LIST_ID;
+    newDiv.className = 'usa-prose';
 
     filteredList.forEach(item => {
-      const li = document.createElement('li');
+      const h3 = document.createElement('h3');
+      const p = document.createElement('p');
+      const br = document.createElement('br');
 
       const publishDate = document.createElement('span');
       publishDate.className = 'text-gray-50';
@@ -120,15 +123,18 @@
       titleLink.href = item.RelPermalink;
       titleLink.textContent = item.Title;
 
-      li.appendChild(publishDate);
-      li.appendChild(document.createTextNode(' '));
-      li.appendChild(titleLink);
+      h3.appendChild(titleLink);
 
-      newList.appendChild(li);
+      p.innerHTML = publishDate.outerHTML
+        + br.outerHTML
+        + item.Summary;
+
+      newDiv.appendChild(h3);
+      newDiv.appendChild(p);
     });
 
-    const oldList = getListEl();
-    oldList.replaceWith(newList);
+    const oldDiv = getListEl();
+    oldDiv.replaceWith(newDiv);
   };
 
   const handleSearchEvent = () => {
