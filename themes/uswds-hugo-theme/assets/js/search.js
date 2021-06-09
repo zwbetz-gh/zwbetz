@@ -105,33 +105,35 @@
     getCountEl().textContent = count;
   };
 
-  const renderList = () => {
+  const buildListItem = (item) => {
+    const html = `\
+    <h3>
+      <a href="${item.RelPermalink}">${item.Title}</a>
+    </h3>
+    <p>
+      <span class="text-gray-50">${item.PublishDateFormatted}</span>
+      <br>
+      ${item.Summary}
+    </p>`
+    return html;
+  }
+
+  const buildDiv = () => {
     const newDiv = document.createElement('div');
     newDiv.id = LIST_ID;
     newDiv.className = 'usa-prose';
+    return newDiv;
+  }
+
+  const renderList = () => {
+    const htmlArr = [];
 
     filteredList.forEach(item => {
-      const h3 = document.createElement('h3');
-      const p = document.createElement('p');
-      const br = document.createElement('br');
-
-      const publishDate = document.createElement('span');
-      publishDate.className = 'text-gray-50';
-      publishDate.textContent = item.PublishDateFormatted;
-
-      const titleLink = document.createElement('a');
-      titleLink.href = item.RelPermalink;
-      titleLink.textContent = item.Title;
-
-      h3.appendChild(titleLink);
-
-      p.innerHTML = publishDate.outerHTML
-        + br.outerHTML
-        + item.Summary;
-
-      newDiv.appendChild(h3);
-      newDiv.appendChild(p);
+      htmlArr.push(buildListItem(item))
     });
+
+    const newDiv = buildDiv()
+    newDiv.innerHTML = htmlArr.join('\n');
 
     const oldDiv = getListEl();
     oldDiv.replaceWith(newDiv);
