@@ -30,9 +30,10 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Did full stack development on a React frontend, Spring Boot backend, and Postgres database to support mission-critical software",
-        "Aided our DevOps team in continuously integrating and deploying our services, via Jenkins, into Kubernetes clusters across environments",
+        "Performed full stack development on a React frontend, Spring Boot backend, and Postgres database to support mission-critical software",
+        "Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
         "Developed extensive end-to-end test suites via NightwatchJS, which run via Selenium Grid in our CI environments",
+        "Cut our pipeline build times in half by reusing Node and Gradle dependency caches and optimizing Jenkins stages",
         "Wrote a Flyway-like tool that initializes indices then inserts JSON mappings and test data into Elasticsearch, via Spring Boot",
         "Wrote a Jaspersoft Server Reports test framework via Bash/cURL",
         "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql",
@@ -189,13 +190,17 @@
     }
   ],
   "skills": [
+    "Conflict Resolution",
+    "Process Improvement",
+    "Software Development",
+    "Technical Writing"
+  ],
+  "tools": [
     "Bash",
     "C#",
     "CSS",
-    "Customer Service",
     "Docker Compose",
     "Docker",
-    "Documentation",
     "Elasticsearch",
     "Flyway",
     "Git",
@@ -207,6 +212,7 @@
     "JavaScript",
     "Jenkins",
     "Jest",
+    "JUnit",
     "Kubernetes",
     "Markdown",
     "MkDocs",
@@ -217,14 +223,13 @@
     "React",
     "Redux",
     "SchemaSpy",
-    "Scripting",
     "Selenium Grid",
     "Selenium",
     "Shell",
+    "Sonar",
     "Spring Boot",
     "SQL",
     "SSRS",
-    "Technical Writing",
     "Windows Forms"
   ],
   "languages": [
