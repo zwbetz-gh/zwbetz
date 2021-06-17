@@ -1,8 +1,21 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/zwbetz-gh/json-resume.git /tmp/json-resume
-mkdir -p static/resume
-cp -a /tmp/json-resume/public/. static/resume/
-rm -rf /tmp/json-resume
+TEMP_DIR="/tmp/json-resume"
+LOCAL_DIR="static/resume"
+
+FILES=(
+  "resume.html"
+  "resume.json"
+)
+
+git clone https://github.com/zwbetz-gh/json-resume.git ${TEMP_DIR}
+
+mkdir -p ${LOCAL_DIR}
+
+for f in ${FILES[@]}; do
+  cp -v ${TEMP_DIR}/public/${f} ${LOCAL_DIR}/${f}
+done
+
+rm -rf ${TEMP_DIR}
 
 echo "Completed ${0} in ${SECONDS} s"

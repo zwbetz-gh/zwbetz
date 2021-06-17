@@ -61,7 +61,7 @@
       "highlights": [
         "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting",
         "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins",
-        "Authored the documentation for migration of apps/databases from Solaris/WebLogic app servers to Linux/JBOSS",
+        "Authored the app server migration documentation from Solaris/WebLogic to Linux/JBOSS",
         "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues",
         "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders"
       ]
@@ -201,7 +201,6 @@
     "CSS",
     "Docker Compose",
     "Docker",
-    "Elasticsearch",
     "Flyway",
     "Git",
     "Gradle",
@@ -213,7 +212,6 @@
     "Jenkins",
     "Jest",
     "JUnit",
-    "Kubernetes",
     "Markdown",
     "MkDocs",
     "NightwatchJS",
@@ -226,7 +224,7 @@
     "Selenium Grid",
     "Selenium",
     "Shell",
-    "Sonar",
+    "SonarQube",
     "Spring Boot",
     "SQL",
     "SSRS",
