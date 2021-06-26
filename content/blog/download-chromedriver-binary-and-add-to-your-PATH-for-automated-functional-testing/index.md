@@ -14,6 +14,10 @@ You can obviously place the chromedriver binary in any directory you like, I jus
 
 <!--more-->
 
+## Sister Links
+
+This article is basically a more specific version of [How to Add a Binary (or Executable, or Program) to Your PATH on macOS, Linux, or Windows]({{< relref "how-to-add-a-binary-to-your-path-on-macos-linux-windows" >}}).
+
 ## Mac CLI
 
 1. Get familiar with [Mac Environment Variables in Terminal]({{< relref "mac-and-linux-environment-variables-in-terminal" >}})
