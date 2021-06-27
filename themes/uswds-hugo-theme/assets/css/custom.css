@@ -63,6 +63,10 @@ blockquote {
   max-width: initial;
 }
 
+#count {
+  margin-bottom: 1.5em;
+}
+
 /* Table of contents */
 .toc {
   border: 1px solid;
