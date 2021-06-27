@@ -88,8 +88,12 @@ blockquote {
 }
 
 /* Header links */
-.header-link {
+a.header-link {
   text-decoration: none;
+  color: inherit !important;
+}
+a.header-link:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -108,20 +112,6 @@ blockquote {
 
 #footer-main * {
   color: var(--gray);
-}
-
-/* Disqus comments */
-#disqus-container {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-#disqus-button {
-  width: 100%;
-}
-
-#disqus-comments {
-  display: none;
 }
 
 /* Icons */
