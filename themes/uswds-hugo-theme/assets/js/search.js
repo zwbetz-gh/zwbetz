@@ -101,8 +101,8 @@
   };
 
   const renderCount = () => {
-    const count = `Count: ${filteredList.length}`;
-    getCountEl().textContent = count;
+    const count = `<strong>Count: </strong>${filteredList.length}`;
+    getCountEl().innerHTML = count;
   };
 
   const buildListItem = (item) => {
@@ -111,7 +111,9 @@
       <a href="${item.RelPermalink}">${item.Title}</a>
     </h3>
     <p>
-      <span class="">${item.PublishDateFormatted}</span>
+      <span class="">
+        <strong>Published: </strong>${item.PublishDateFormatted}
+      </span>
       <br>
       ${item.Summary}
     </p>`
