@@ -65,15 +65,14 @@ blockquote {
 
 /* Table of contents */
 .toc {
-  border: 1px solid var(--gray);
+  border: 1px solid;
   padding: 1rem;
   margin-top: 1rem;
-  color: var(--gray);
 }
 
 .toc a,
 .toc a:visited {
-  color: var(--gray);
+  color: inherit !important;
 }
 
 /* Navbar */
@@ -88,7 +87,8 @@ blockquote {
 }
 
 /* Header links */
-a.header-link {
+a.header-link,
+a.header-link:visited {
   text-decoration: none;
   color: inherit !important;
 }
