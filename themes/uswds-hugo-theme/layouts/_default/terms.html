@@ -1,10 +1,10 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  <p class="text-gray-50">Count: {{ len .Pages }}</p>
+  <p class="">Count: {{ len .Pages }}</p>
   <ul>
     {{ range .Data.Terms.Alphabetical }}
       <li>
-        <span class="text-gray-50">({{ .Count }})</span>
+        <span class="">({{ .Count }})</span>
         <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
       </li>
     {{ end }}

@@ -26,7 +26,7 @@
 </div>
 {{ end }}
 
-<p class="text-gray-50" id="count">Count: {{ len .Pages }}</p>
+<p class="" id="count">Count: {{ len .Pages }}</p>
 
 <div id="list" class="usa-prose">
 {{ range .Pages.ByPublishDate.Reverse }}
@@ -38,7 +38,7 @@
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h3>
   <p>
-    <span class="text-gray-50">{{ $date }}</span>
+    <span class="">{{ $date }}</span>
     <br>
     {{ $summary }}
   </p>

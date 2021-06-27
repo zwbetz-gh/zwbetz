@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   
-  <p class="text-gray-50">
+  <p class="">
     {{ $dateFormat := (partial "date-format.html" | string) }}
     {{ $publishDate := .PublishDate }}
     {{ $formattedPublishDate := $publishDate.Format $dateFormat }}
@@ -41,12 +41,12 @@
   {{ if eq site.Params.show_prev_next_links true }}
     <div id="next-and-prev">
       {{ with .NextInSection }}
-        <div class="text-gray-50">
+        <div class="">
           <strong>Next:</strong> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </div>
       {{ end }}
       {{ with .PrevInSection }}
-        <div class="text-gray-50">
+        <div class="">
           <strong>Previous:</strong> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </div>
       {{ end }}

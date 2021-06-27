@@ -111,7 +111,7 @@
       <a href="${item.RelPermalink}">${item.Title}</a>
     </h3>
     <p>
-      <span class="text-gray-50">${item.PublishDateFormatted}</span>
+      <span class="">${item.PublishDateFormatted}</span>
       <br>
       ${item.Summary}
     </p>`
