@@ -114,10 +114,6 @@ a.header-link:hover {
   border-top: 1px solid var(--gray-light);
 }
 
-#footer-main * {
-  color: var(--gray);
-}
-
 /* Icons */
 .custom-icon {
   vertical-align: text-bottom;
