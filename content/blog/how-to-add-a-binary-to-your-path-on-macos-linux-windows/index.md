@@ -23,7 +23,7 @@ Enjoy.
     mkdir ${HOME}/bin
     ```
 1. Save the `binary` to directory `${HOME}/bin`
-1. Make the `binary` executable (by only you) by running
+1. Make the `binary` executable by running
     ```
     chmod 755 ${HOME}/bin/binary
     ```
