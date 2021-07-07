@@ -1,5 +1,5 @@
 ---
-title: "Snippets From the Book Clean Code"
+title: "Book Snippets: Clean Code"
 date: 2020-12-01T21:26:46-06:00
 toc: true
 draft: false
