@@ -89,6 +89,8 @@ Contrast this with binary search:
 
 On each iteration we guess the middle item. If it's not the middle item, then we narrow our search to **half** of the list items. Since the list is sorted, if our guess is too high, then we search the bottom half, and if our guess is too low, then we search the top half. Rinse and repeat.
 
+In "Big-O Notation" speak, we say that linear search is `O(n)`, and binary search is `O(log n)`. 
+
 ## Hammer it Home
 
 The difference is even more apparent as the array size grows. For an array with 1 million items, linear search takes, well, 1 million iterations, while binary search only takes 20 ...
