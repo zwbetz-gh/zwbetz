@@ -18,7 +18,7 @@ The following are some of my favorite snippets from this book. Thanks, Uncle Bob
 
 > ... You get the drift. Indeed, the ratio of time spent reading vs. writing is well over 10:1. We are _constantly_ reading old code as part of the effort to write new code.
 >
-> Because this ratio is so high, we want the reading of the code to be easy, even if it makes the writing harder. Of course there's no way to write code without reading it, _so making it easy to ready actually makes it easier to write._
+> Because this ratio is so high, we want the reading of the code to be easy, even if it makes the writing harder. Of course there's no way to write code without reading it, _so making it easy to read actually makes it easier to write._
 >
 > There is no escape from this logic. You cannot write code if you cannot read the surrounding code. The code you are trying to write today will be hard or easy to write depending on how hard or easy the surrounding code is to read. So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.
 >
