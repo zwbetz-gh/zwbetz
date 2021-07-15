@@ -29,7 +29,7 @@
 
   const enableSearchEl = () => {
     getSearchEl().disabled = false;
-    getSearchEl().placeholder = 'Search by title or publish date';
+    getSearchEl().placeholder = 'Search by title';
   };
 
   const disableRegexModeEl = () => {
