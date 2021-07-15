@@ -1,24 +1,23 @@
 (function () {
+  const LOG_ENABLED = true;
   const SEARCH_ID = 'search';
   const ENABLE_SEARCH_DIV_ID = 'enable_search_div';
   const ENABLE_SEARCH_ID = 'enable_search';
-  const REGEX_MODE_ID = 'regex_mode';
   const COUNT_ID = 'count';
   const LIST_ID = 'list';
 
-  let list = null;
-  let filteredList = null;
+  let list = [];
+  let filteredList = [];
 
   const logPerformance = (work, startTime, endTime) => {
     const duration = (endTime - startTime).toFixed(2);
-    console.log(`${work} took ${duration} ms`);
+    LOG_ENABLED && console.log(`${work} took ${duration} ms`);
   };
 
   const getSearchEl = () => document.getElementById(SEARCH_ID);
   const getEnableSearchDivEl = () =>
     document.getElementById(ENABLE_SEARCH_DIV_ID);
   const getEnableSearchEl = () => document.getElementById(ENABLE_SEARCH_ID);
-  const getRegexModeEl = () => document.getElementById(REGEX_MODE_ID);
   const getCountEl = () => document.getElementById(COUNT_ID);
   const getListEl = () => document.getElementById(LIST_ID);
 
@@ -30,14 +29,6 @@
   const enableSearchEl = () => {
     getSearchEl().disabled = false;
     getSearchEl().placeholder = 'Search by title';
-  };
-
-  const disableRegexModeEl = () => {
-    getRegexModeEl().disabled = true;
-  };
-
-  const enableRegexModeEl = () => {
-    getRegexModeEl().disabled = false;
   };
 
   const getSizeInBytes = obj => {
@@ -58,7 +49,7 @@
     const bytes = getSizeInBytes(obj);
     const kb = (bytes / 1000).toFixed(2);
     // 'approximately' is the keyword here ...
-    console.log(`${description} is approximately ${kb} kB`);
+    LOG_ENABLED && console.log(`${description} is approximately ${kb} kB`);
   };
 
   const fetchJsonIndex = () => {
@@ -80,23 +71,11 @@
       );
   };
 
-  const filterList = regexMode => {
-    const regexQuery = new RegExp(getSearchEl().value, 'i');
+  const filterList = () => {
     const query = getSearchEl().value.toUpperCase();
     filteredList = list.filter(item => {
       const title = item.Title.toUpperCase();
-      const publishDate = item.PublishDateFormatted.toUpperCase();
-      if (regexMode) {
-        return (
-          regexQuery.test(title)
-          || regexQuery.test(publishDate)
-        );
-      } else {
-        return (
-          title.includes(query)
-          || publishDate.includes(query)
-        );
-      }
+      return title.includes(query);
     });
   };
 
@@ -143,8 +122,7 @@
 
   const handleSearchEvent = () => {
     const startTime = performance.now();
-    const regexMode = getRegexModeEl().checked;
-    filterList(regexMode);
+    filterList();
     renderCount();
     renderList();
     logPerformance('handleSearchEvent', startTime, performance.now());
@@ -153,17 +131,14 @@
   const handleEnableSearchEvent = () => {
     if (getEnableSearchEl().checked) {
       fetchJsonIndex();
-      enableRegexModeEl();
     } else {
       disableSearchEl('Disabled ...');
-      disableRegexModeEl();
     }
   };
 
   const addEventListeners = () => {
     getEnableSearchEl().addEventListener('change', handleEnableSearchEvent);
     getSearchEl().addEventListener('keyup', handleSearchEvent);
-    getRegexModeEl().addEventListener('change', handleSearchEvent);
   };
 
   const askPermission = flag => {
