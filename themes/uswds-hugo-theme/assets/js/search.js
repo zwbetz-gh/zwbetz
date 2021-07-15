@@ -74,11 +74,17 @@
   };
 
   const filterList = () => {
+    let iterations = 0;
     const query = getSearchEl().value.toUpperCase();
+    const queryWords = query.split(' ');
     filteredList = list.filter(item => {
       const title = item.Title.toUpperCase();
-      return title.includes(query);
+      return queryWords.every(queryWord => {
+        iterations++;
+        return title.includes(queryWord);
+      })
     });
+    LOG_ENABLED && console.log(`filterList iterations: ${iterations}`);
   };
 
   const renderCount = () => {
