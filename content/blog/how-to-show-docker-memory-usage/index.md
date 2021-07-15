@@ -30,6 +30,8 @@ mem_percent_used=$(docker stats --no-stream --format '{{.MemPerc}}' \
 | paste -s -d '+' - \
 | bc)
 
+mem_percent_used=${mem_percent_used:-0}
+
 mem_amount_used=$(echo "scale=2; ${mem_amount_total} * ${mem_percent_used} / 100" \
 | bc)
 
