@@ -1,5 +1,7 @@
 (function () {
   const LOG_ENABLED = true;
+  const ASK_PERMISSION = false;
+
   const SEARCH_ID = 'search';
   const ENABLE_SEARCH_DIV_ID = 'enable_search_div';
   const ENABLE_SEARCH_ID = 'enable_search';
@@ -152,7 +154,7 @@
   const main = () => {
     if (getSearchEl()) {
       addEventListeners();
-      askPermission(false);
+      askPermission(ASK_PERMISSION);
     }
   };
 
