@@ -1,5 +1,5 @@
 (function () {
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
   const ASK_PERMISSION = false;
 
   const SEARCH_ID = 'search';
