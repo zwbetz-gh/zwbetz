@@ -54,6 +54,7 @@ params:
     Themed by [USWDS](https://designsystem.digital.gov/) &bull;
     Deployed by [Netlify](https://www.netlify.com/) &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz) &bull;
+    Analytics by [GoatCounter](https://zwbetz.goatcounter.com/) &bull;
     See an issue? [Let me know](https://github.com/zwbetz-gh/zwbetz/issues/new/choose)
   show_footer_site_last_updated: false
   show_footer_debug: false
