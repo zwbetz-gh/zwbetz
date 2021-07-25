@@ -20,7 +20,7 @@ The title is a bit over-the-top. The gist of the book is about rejecting the thi
 
 Page 9.
 
-> ... Because here's the thing that's wrong with all of the "How to Be Happy" sh*t that's been shared eight million times on Facebook in the past few years -- here's what nobody realizes about all of this crap:
+> ... Because here's the thing that's wrong with all of the "How to Be Happy" sh\*t that's been shared eight million times on Facebook in the past few years -- here's what nobody realizes about all of this crap:
 >
 > The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one's negative experience is itself a positive experience.
 >
@@ -38,7 +38,7 @@ Page 20.
 >
 > The idea of not giving a f\*ck is a simple way of reorienting our expectations for life and choosing what is important and what is not. Developing this ability leads to something I like to think of as a kind of "practical enlightenment".
 >
-> No, not that airy-fairy, eternal bliss, end-of-all-suffering, bullsh*tty kind of enlightenment. On the contrary, I see practical enlightenment as becoming comfortable with the idea that some suffering is always inevitable -- that no matter what you do, life is comprised of failures, loss, regrets, and even death. Because once you become comfortable with all the sh*t that life throws at you (and it will throw a lot of sh*t, trust me), you become invincible in a sort of low-level spiritual way. After all, the only way to overcome pain is to first learn how to bear it.
+> No, not that airy-fairy, eternal bliss, end-of-all-suffering, bullsh\*tty kind of enlightenment. On the contrary, I see practical enlightenment as becoming comfortable with the idea that some suffering is always inevitable -- that no matter what you do, life is comprised of failures, loss, regrets, and even death. Because once you become comfortable with all the sh\*t that life throws at you (and it will throw a lot of sh\*t, trust me), you become invincible in a sort of low-level spiritual way. After all, the only way to overcome pain is to first learn how to bear it.
 
 ## Hope for a Life Full of Good Problems
 
