@@ -48,7 +48,7 @@ Page 30.
 >
 > "Life is essentially an endless series of problems, Mark", the panda told me. He sipped his drink and adjusted the little pink umbrella. "The solution to one problem is merely the creation of the next one".
 >
-> A moment passed, and then I wondered where the f\*ck the talk panda came from. And while we're at it, who made these margaritas?
+> A moment passed, and then I wondered where the f\*ck the talking panda came from. And while we're at it, who made these margaritas?
 >
 > "Don't hope for a life without problems", the panda said. "There's no such thing. Instead, hope for a life full of good problems."
 
