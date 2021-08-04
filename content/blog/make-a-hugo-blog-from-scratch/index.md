@@ -913,3 +913,7 @@ After a week of real frustration and having to reinstall everything (I completel
 After following your introduction, I have a solid understanding of the basics, and much of the detail on the Hugo Docs makes a ton more sense. Appreciate the work you put into it and made it available for people like me.
 Cheers!
 {{< /blockquote >}}
+
+{{< blockquote author="Scott" >}}
+I appreciate your blog and it has helped me a lot. I am currently developing in Hugo right now and your post on developing hugo from scratch really got me started. Most of the other tutorials were very cryptic. You laid it out more effectively so I was able to put something out. Thank you for finding the time to write so many great things.
+{{< /blockquote >}}
