@@ -13,6 +13,7 @@ toc: true
 ## Files 
 
 A `query.sql` file:
+
 ```sql
 -- this file must end in a new line
 SELECT 'foo'
@@ -23,20 +24,24 @@ WHERE 2 = 2;
 ```
 
 An `.env` file:
+
 ```bash
-export POSTGRES_HOST="localhost"
-export POSTGRES_PORT="5432"
-export POSTGRES_DATABASE="some_database"
-export POSTGRES_USERNAME="some_user"
-export POSTGRES_PASSWORD="some_password"
+PGHOST="localhost"
+PGPORT="5432"
+PGDATABASE="some_database"
+PGUSER="some_user"
+PGPASSWORD="some_password"
 ```
 
 A `script.sh` file:
+
 ```bash
 #!/usr/bin/env bash
 
 # Load database connection info
+set -o allexport
 source .env
+set +o allexport
 
 # Read query into a variable
 sql="$(<"query.sql")"
@@ -48,12 +53,7 @@ if ! command -v psql > /dev/null; then
 fi
 
 # Connect to the database, run the query, then disconnect
-PGPASSWORD="${POSTGRES_PASSWORD}" psql -t -A \
--h "${POSTGRES_HOST}" \
--p "${POSTGRES_PORT}" \
--d "${POSTGRES_DATABASE}" \
--U "${POSTGRES_USERNAME}" \
--c "${sql}"
+psql -t -A -c "${sql}"
 ```
 
 ## Usage
@@ -77,10 +77,10 @@ $ ./script.sh > results.txt
 
 ## Notes
 
-- There isn't an option to pass the password, so that's why the `PGPASSWORD` environment variable is set
 - The `-t` option turns off printing of column names and result row count footers
 - The `-A` option switches to unaligned output mode
 
 ## Related
 
 - [Connect to an Oracle Database and Run a Query From a Bash Script]({{< relref "connect-to-an-oracle-database-and-run-a-query-from-a-bash-script" >}})
+- [Set Environment Variables in Your Bash Shell From a .env File (Version 2)]({{< relref "set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/index.md" >}})

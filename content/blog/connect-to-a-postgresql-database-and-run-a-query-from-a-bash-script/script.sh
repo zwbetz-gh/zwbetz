@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 # Load database connection info
+set -o allexport
 source .env
+set +o allexport
 
 # Read query into a variable
 sql="$(<"query.sql")"
@@ -13,9 +15,4 @@ if ! command -v psql > /dev/null; then
 fi
 
 # Connect to the database, run the query, then disconnect
-PGPASSWORD="${POSTGRES_PASSWORD}" psql -t -A \
--h "${POSTGRES_HOST}" \
--p "${POSTGRES_PORT}" \
--d "${POSTGRES_DATABASE}" \
--U "${POSTGRES_USERNAME}" \
--c "${sql}"
+psql -t -A -c "${sql}"
