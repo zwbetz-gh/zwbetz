@@ -59,11 +59,13 @@ psql -t -A -c "${sql}"
 ## Usage
 
 Make it executable:
+
 ```
 $ chmod 755 script.sh
 ```
 
 Print results to stdout:
+
 ```
 $ ./script.sh
 foo
@@ -71,6 +73,7 @@ bar
 ```
 
 Write results to file:
+
 ```
 $ ./script.sh > results.txt
 ```

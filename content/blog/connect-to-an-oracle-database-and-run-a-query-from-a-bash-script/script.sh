@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 # Load database connection info
-source .env 
+set -o allexport
+source .env
+set +o allexport
 
 # Read sql query into a variable
 sql="$(<"query.sql")"

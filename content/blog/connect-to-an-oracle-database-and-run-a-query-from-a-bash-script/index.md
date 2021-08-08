@@ -13,6 +13,7 @@ toc: true
 ## Files 
 
 A `query.sql` file:
+
 ```sql
 -- this file must end in a new line
 SELECT 'foo'
@@ -25,20 +26,24 @@ WHERE 2 = 2;
 ```
 
 An `.env` file:
+
 ```bash
-export ORACLE_HOST="localhost"
-export ORACLE_PORT="1521"
-export ORACLE_DATABASE="some_database"
-export ORACLE_USERNAME="some_user"
-export ORACLE_PASSWORD="some_password"
+ORACLE_HOST="localhost"
+ORACLE_PORT="1521"
+ORACLE_DATABASE="some_database"
+ORACLE_USERNAME="some_user"
+ORACLE_PASSWORD="some_password"
 ```
 
 A `script.sh` file:
+
 ```bash
 #!/usr/bin/env bash
 
 # Load database connection info
-source .env 
+set -o allexport
+source .env
+set +o allexport
 
 # Read sql query into a variable
 sql="$(<"query.sql")"
@@ -57,11 +62,13 @@ sqlplus -S -L ${ORACLE_USERNAME}/${ORACLE_PASSWORD}@${ORACLE_HOST}:${ORACLE_PORT
 ## Usage
 
 Make it executable:
+
 ```
 $ chmod 755 script.sh
 ```
 
 Print results to stdout:
+
 ```
 $ ./script.sh
 foo
@@ -69,6 +76,7 @@ bar
 ```
 
 Write results to file:
+
 ```
 $ ./script.sh > results.txt
 ```
@@ -83,3 +91,4 @@ $ ./script.sh > results.txt
 ## Related
 
 - [Connect to a Postgresql Database and Run a Query From a Bash Script]({{< relref "connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script" >}})
+- [Set Environment Variables in Your Bash Shell From a .env File (Version 2)]({{< relref "set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/index.md" >}})
