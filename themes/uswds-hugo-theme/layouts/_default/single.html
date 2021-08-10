@@ -1,9 +1,7 @@
 {{ define "main" }}
+
   <h1>{{ .Title }}</h1>
-
-  {{ if eq .Params.toc true }}
-    {{ partial "toc.html" . }}
-  {{ end }}
-
+  {{ partial "toc.html" . }}
   {{ .Content }}
+
 {{ end }}
