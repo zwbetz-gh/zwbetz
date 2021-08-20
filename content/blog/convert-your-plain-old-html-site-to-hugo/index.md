@@ -125,16 +125,16 @@ You'll notice a `static` folder in your project. Everything in that folder gets 
 
 ## Migrate content
 
-Now that your templates are setup, you'll need to migrate the `<main>` element content from each page into a markdown file. Don't worry, you can write HTML in markdown, so it can be a direct copy-paste. Let's say your current site has a homepage and a few regular pages. You can generate these markdown files by running:
+Now that your templates are setup, you'll need to migrate the `<main>` element content from each page into an HTML file. Let's say your current site has a homepage and a few regular pages. You can generate these files by running:
 
 ```
-hugo new _index.md
-hugo new page-1.md
-hugo new page-2.md
-hugo new page-3.md
+hugo new _index.html
+hugo new page-1.html
+hugo new page-2.html
+hugo new page-3.html
 ```
 
-`_index.md` is your homepage content. The other pages will be regular page content. 
+`_index.html` is your homepage content. The other pages will be regular page content. 
 
 
 ## Edit config file
@@ -154,37 +154,46 @@ Preview your site with `hugo server -D`. Then once you're satisfied, generate it
 Once you're finished, your project structure will look like:
 
 ```
+$ tree
 .
 ├── archetypes
-│   └── default.md
+│   └── default.md
 ├── config.toml
 ├── content
-│   ├── _index.md
-│   ├── page-1.md
-│   ├── page-2.md
-│   └── page-3.md
+│   ├── _index.html
+│   ├── page-1.html
+│   ├── page-2.html
+│   └── page-3.html
 ├── data
 ├── layouts
-│   ├── _default
-│   │   ├── baseof.html
-│   │   └── single.html
-│   └── index.html
+│   ├── _default
+│   │   ├── baseof.html
+│   │   └── single.html
+│   └── index.html
 ├── public
-│   ├── index.html
-│   ├── index.xml
-│   ├── page-1
-│   │   └── index.html
-│   ├── page-2
-│   │   └── index.html
-│   ├── page-3
-│   │   └── index.html
-│   └── sitemap.xml
+│   ├── css
+│   │   └── some-style.css
+│   ├── index.html
+│   ├── index.xml
+│   ├── page-1
+│   │   └── index.html
+│   ├── page-2
+│   │   └── index.html
+│   ├── page-3
+│   │   └── index.html
+│   └── sitemap.xml
 ├── resources
-│   └── _gen
-│       ├── assets
-│       └── images
+│   └── _gen
+│       ├── assets
+│       └── images
 ├── static
-├── themes
+│   └── css
+│       └── some-style.css
+└── themes
 
-15 directories, 15 files
+17 directories, 17 files
 ```
+
+## Fixes
+
+- Thanks to [@stefan-scholl](https://github.com/stefan-scholl) for [pointing out](https://github.com/zwbetz-gh/zwbetz/issues/6) that HTML-in-Markdown is disabled by default in newer versions of Hugo. You _could_ enable this in your config file. But since Hugo supports `.html` as a content type, I prefer to use that.
