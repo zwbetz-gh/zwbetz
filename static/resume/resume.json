@@ -24,7 +24,7 @@
   "work": [
     {
       "company": "Geocent, LLC",
-      "position": "Software Engineer",
+      "position": "Software Engineer 3",
       "website": "https://geocent.com",
       "startDate": "2016-02",
       "endDate": "Present",
@@ -48,7 +48,8 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets"
+        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets",
+        "Developed a static website for a venture capital company"
       ]
     },
     {
