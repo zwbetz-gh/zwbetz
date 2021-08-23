@@ -8,7 +8,7 @@ aliases:
 toc: true
 ---
 
-A list of things that I like, in no particular order. This is a **living** document.  
+A list of things that I like, in no particular order. This is a **living** document.
 
 <!--more-->
 
@@ -33,6 +33,8 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [JRE #1518: David Choe](https://open.spotify.com/episode/0Or5eC0ReXHrLgf3X6Olg4)
   * [JRE #1577 Terry Virts](https://open.spotify.com/episode/4k7JHPCLoCmSlZY9tvme0s)
   * [JRE #1234 David Sinclair](https://open.spotify.com/episode/0Gifr7mhEsQBI5oGzJomz2)
+  * [JRE #1683 Andrew Huberman](https://open.spotify.com/episode/0ScxTKuC8EaZpIxAfWZNpu?si=7fx92E9FQCiCboY5S2yQfA&dl_branch=1)
+  * [JRE #1678 Michael Pollan](https://open.spotify.com/episode/3fMorDEYl8YUJgfNIVliLV?si=tFDnRr7DQGSFH5zIX73BSA&dl_branch=1)
 * AoM:
   * [Say yes to life: an accessible primer on Nietzsche’s big ideas](https://www.artofmanliness.com/2015/07/20/a-primer-on-nietzsches-big-ideas/)
   * [Are you missing the forbidden city?](https://www.artofmanliness.com/2015/12/14/are-you-missing-the-forbidden-city/)
@@ -88,9 +90,6 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
   * [Wisdom: The interval between the notes](http://www.foundationsmag.com/wisdom2.html)
   * [Bob Welch: If you could see us now, Pop Youngberg](http://www.foundationsmag.com/welch.html)
-* The School of Life:
-  * [In praise of the quiet life](https://www.youtube.com/watch?v%3DnpNc5P_66tQ)
-  * [Why small pleasures are a big deal](https://www.youtube.com/watch?v%3D6Gv1CqAQVow)
 * Cal Newport:
   * [Have we lost our tolerance for a little boredom?](http://calnewport.com/blog/2009/02/04/have-we-lost-our-tolerance-for-a-little-boredom/)
   * [Is allowing your child to study while on facebook morally irresponsible?](http://calnewport.com/blog/2010/06/10/is-allowing-your-child-to-study-while-on-facebook-morally-equivalent-to-drinking-while-pregnant/)
@@ -108,12 +107,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Jerry Seinfeld’s closed door](http://calnewport.com/blog/2018/06/08/jerry-seinfelds-closed-door/)
   * [On digital minimalism, loneliness and the joys of true connection](https://www.calnewport.com/blog/2019/10/28/on-digital-minimalism-loneliness-and-the-joys-of-true-connection/)
   * [Reflections on the disconnected life](https://www.calnewport.com/blog/2019/11/24/reflections-on-the-disconnected-life/)
-* Barbell Logic:
-  * [Episode #23: Voluntary hardship](https://startingstrengthonlinecoaching.com/barbell-logic-podcast-episode-23-voluntary-hardship/)
-  * [Episode #26: Training to survive cancer with John Wilson](https://startingstrengthonlinecoaching.com/26-barbell-logic-extra-training-survive-cancer-john-wilson/)
-* Nassim Taleb: [Commencement speech at American University of Beirut](https://www.youtube.com/watch?v%3DFzmr3urk28I)
-* David Foster Wallace: [Commencement speech at Kenyon University](https://www.youtube.com/watch?v%3D8CrOL-ydFMI)
-* Isaac Asimov: [The relativity of wrong](http://chem.tufts.edu/answersinscience/relativityofwrong.htm)
+* Isaac Asimov: [The relativity of wrong](https://www.sas.upenn.edu/~dbalmer/eportfolio/Nature%20of%20Science_Asimov.pdf)
 * Bronnie Ware: [Top 5 regrets of the dying](http://www.bronnieware.com/blog/regrets-of-the-dying)
 * Paul Graham:
   * [The age of the essay](http://www.paulgraham.com/essay.html)
@@ -138,13 +132,12 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [20-year-old Hunter S. Thompson’s surprisingly sage advice on how to find your purpose and live a meaningful life](https://www.brainpickings.org/2013/11/04/hunter-s-thomspon-letters-of-note-advice/)
   * [Young Tolstoy’s diaries: time, moral development, and the search for self](https://www.brainpickings.org/2015/01/28/leo-tolstoy-irina-paperno-self/)
   * [10 learnings from 10 years of brain pickings](https://www.brainpickings.org/2016/10/23/10-years-of-brain-pickings/)
-* Barry Schwartz: [The paradox of choice](https://www.youtube.com/watch?v%3DVO6XEQIsCoM)
 * Frugalwoods: [How I let go of caring what people think](http://www.frugalwoods.com/2015/03/09/how-i-let-go-of-caring-what-others-think/)
 * PragerU: [Fix yourself](https://www.youtube.com/watch?v=o73pqQ9Gzt4)
-* Dr. Jordan Peterson: 
+* Dr. Jordan Peterson:
   * [The master and his emissary: Dr. Iain McGilchrist](https://www.youtube.com/watch?v=xtf4FDlpPZ8)
   * [Susan Blackmore -- Do we need God to make sense of life?](https://www.youtube.com/watch?v=syP-OtdCIho)
-* Michael Shermer: 
+* Michael Shermer:
   * [Giving the Devil his due: why freedom of inquiry in science and politics is inviolable](https://quillette.com/2018/06/10/giving-devil-due-freedom-inquiry-science-politics-inviolable/)
   * [The Evolution-Creationism controversy as a test case in equal time and free speech](https://michaelshermer.com/2018/05/evolution-creationism-controversy-as-test-case-in-equal-time-free-speech/)
 * Deep South Ventures:
@@ -187,6 +180,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Matt Reynolds: [Barbell Safety](https://startingstrength.com/article/barbell_safety)
 * Barbell Logic: [Episode #27: Embracing the grind](https://startingstrengthonlinecoaching.com/27-embracing-grind/)
 * Andy Baker: Basically any [article](http://www.andybaker.com/blog/) or [video](https://www.youtube.com/channel/UCqAWkW0bgtmDdLSZue6zBOA) by him
+* Alan Thrall:
   * [How to press (overhead...)](https://www.youtube.com/watch?v=eNFXEEdfQp4)
   * [How to deadlift: Starting Strength 5 step deadlift](https://www.youtube.com/watch?v=wYREQkVtvEc)
 * Dan John: [Minimalist training](http://danjohn.net/2011/01/minimalist-training/)
@@ -199,7 +193,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Beast Skills: [Tutorials](http://www.beastskills.com/tutorials/)
 * Joe Rogan: [JRE #989: Dorian Yates](https://open.spotify.com/episode/37oiQgSHlql6cJp6l93Te0?si=Nq-kXOVERfKN5I4LgVAvoA)
 * Barbell medicine: [3 doctors respond to CrossFit's Instagram Post: Coke, health, and orthorexia](https://www.youtube.com/watch?v=3xfR4CZg2hI)
-* The JuggLife: 
+* The JuggLife:
   * [Dr. Mike Israetel: Training & nutrition for beginners](https://www.youtube.com/watch?v=6k_O9nsG-nQ)
   * [Fitness myths with Dr. Mike Isratel](https://www.youtube.com/watch?v=sBiIms4lOHc&list=PL1rSl6Pd49IkJxMvqncfwI7UdgFI1kzbB)
 * Jonathon Sullivan: [Barbell training is big medicine](https://startingstrength.com/article/barbell_training_is_big_medicine)
@@ -226,7 +220,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * C.S. Lewis:
   * [Mere Christianity](https://en.wikipedia.org/wiki/Mere_Christianity)
   * [The Screwtape Letters](https://en.wikipedia.org/wiki/The_Screwtape_Letters)
-* Sarah Coakley: 
+* Sarah Coakley:
   * [Why believe in God?](https://www.youtube.com/watch?v=w1RBsgOO4lA)
   * [Why study theology?](https://www.youtube.com/watch?v=DoBqBXHOQs8)
   * [Evolution and God?](https://www.youtube.com/watch?v=n4l1ossYjB8&index=2&list=PL65Q9wV23I-yjfW4bI4rERneqXSuV9m52&t=0s)
@@ -242,7 +236,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Smoothing out the happiness curve](http://www.frugalwoods.com/2016/06/24/smoothing-out-the-happiness-curve/)
   * [Perfection is the enemy of frugality](http://www.frugalwoods.com/2015/07/13/perfection-is-the-enemy-of-frugality/)
   * [19 reasons why frugality is the best thing that's ever happened to me](http://www.frugalwoods.com/2017/05/17/19-reasons-why-frugality-is-the-best-thing-thats-ever-happened-to-me/)
-* Dave Ramsey: 
+* Dave Ramsey:
   * [The 7 baby steps](https://www.daveramsey.com/baby-steps)
   * [The Total Money Makeover](https://www.daveramsey.com/store/books/dave-s-bestsellers/the-total-money-makeover/prodtmmoclassic.html)
 * Foundations Magazine: [Elbert Hubbard: Let thrift be your ruling habit](http://www.foundationsmag.com/thrift.html)
@@ -255,9 +249,8 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Safety net funds: why traditional advice is wrong](https://www.betterment.com/resources/personal-finance/safety-net-funds-why-traditional-advice-is-wrong/)
   * [Long-term returns have a cost, and it's well worth the price](https://www.betterment.com/resources/investment-strategy/behavioral-finance-investing-strategy/long-term-returns-cost/)
 * Bogleheads: [Investment philosophy](https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy)
-* William Bernstein: [If You Can](https://www.dropbox.com/s/5tj8480ji58j00f/If%2520You%2520Can.pdf?dl%3D0)
 * Gates Notes: [Warren Buffett’s best investment](https://www.gatesnotes.com/2017-Annual-Letter)
-* How I Built This: 
+* How I Built This:
   * [Mark Cuban](https://one.npr.org/?sharedMediaId=503982480:504126060)
   * [Drybar: Alli Webb](https://one.npr.org/?sharedMediaId=508578306:508583931)
 * Stuart Diamond: [Getting More: How you can negotiate to succeed in work and life](http://a.co/7TxnVAK)
@@ -277,7 +270,6 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Jordan B Peterson: Quora answers:
   * [What are the most valuable things everyone should know?](https://www.quora.com/What-are-the-most-valuable-things-everyone-should-know/answer/Jordan-B-Peterson)
   * [Existentialism: how to overcome a compulsive sense of despair?](https://www.quora.com/Existentialism-How-to-overcome-a-compulsive-sense-of-despair/answer/Jordan-B-Peterson)
-* Brene Brown: [The power of vulnerability](https://www.youtube.com/watch?v%3DiCvmsMzlF7o)
 * Mr. Money Mustache: [How big is your circle of control?](https://www.mrmoneymustache.com/2013/10/07/how-big-is-your-circle-of-control/)
 * Invisibilia:
   * [The secret history of thoughts](http://www.npr.org/podcasts/510307/invisibilia)
@@ -294,7 +286,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * AoM: Relationship Bank Account series
   * [Why the secret of a happy, successful marriage is treating it like a bank account](https://www.artofmanliness.com/2017/02/13/secret-happy-successful-marriage-treating-like-bank-account/)
   * [The best ways to fund your relationship bank account](https://www.artofmanliness.com/2017/03/06/best-ways-fund-relationship-bank-account/)
-* AoM: 
+* AoM:
   * [Love is all you need: insights from the longest longitudinal study on men ever conducted](https://www.artofmanliness.com/2014/09/02/love-is-all-you-need-insights-from-the-longest-longitudinal-study-on-men-ever-conducted/)
   * [Marriage isn't a game of Russian Roulette](https://www.artofmanliness.com/articles/sunday-firesides-marriage-isnt-a-game-of-russian-roulette/?mc_cid=832f4f9e43&mc_eid=38939e19be)
 * Patricia McGerr: [Johnny Lingo’s eight-cow wife](https://www.biblegateway.com/devotionals/night-light-couples/2013/04/30)
@@ -337,7 +329,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter)
 * [Perry Bible Fellowship Comics](http://pbfcomics.com/)
 * [xkcd](https://xkcd.com/)
-* [Ether podcast by Tricia and Chris Tollins](https://itunes.apple.com/us/podcast/ether/id1435720098?mt=2)
+* Ether podcast by Tricia and Chris Tollins -- Sadly, it has been discontinued
 * Dax Shepard, Armchair Expert:
   * [Bret Weinstein](https://armchairexpertpod.com/pods/bret-weinstein)
 * True facts by zefrank1:
