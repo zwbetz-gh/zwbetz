@@ -94,7 +94,10 @@
       "usa-table"
     ],
     "ids": [
+      "1st-layer",
+      "2nd-layer",
       "3d-acceleration",
+      "3rd-layer",
       "TableOfContents",
       "a-one-time-thing",
       "a-solution",
