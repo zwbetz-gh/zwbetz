@@ -23,6 +23,7 @@ Things I may work on in spare moments of time.
 - [Dotfiles](https://github.com/zwbetz-gh/dotfiles) -- Gluing things together with Bash
 - [TODO CLI](https://github.com/zwbetz-gh/todo-cli) -- Get sh\*t done via command line
 - [PleaseJS Color Generator](https://github.com/zwbetz-gh/github-pages-deploy-pleasejs) -- Make a random, pleasing color
+- [Sample Calculator App v2](https://github.com/zwbetz-gh/sample-calculator-app-v2) -- Used for end-to-end testing code challenges
 
 ## Templates
 
