@@ -38,4 +38,5 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 
 ## Notes
 
+- If you don't have BBQ Shrimp Seasoning, you can use any BBQ Seasoning
 - If you like to shed a few tears while eating your gumbo (as I do), feel free to increase the Crab Boil quantity, then add some cayenne
