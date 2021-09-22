@@ -4,7 +4,7 @@ date: 2021-09-21T20:23:16-05:00
 toc: false
 ---
 
-Why didn't I just use NodeJS or Python? Hey, you're getting distracted. That's not what this post is about. Just enjoy how hard someone else had to work to achive this in Bash.
+Why didn't I just use NodeJS or Python? Hey, you're getting distracted. That's not what this post is about. Just enjoy how hard someone else had to work to achieve this in Bash.
 
 <!--more-->
 
