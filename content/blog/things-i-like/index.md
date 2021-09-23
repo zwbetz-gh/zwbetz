@@ -353,6 +353,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [Microcosmos](https://en.wikipedia.org/wiki/Microcosmos_(film))
 * Ask a Mathematician / Ask a Physicist:
   * [Why was it so hard to take a picture of a black hole? What are we even looking at?](https://www.askamathematician.com/2019/04/q-why-was-it-so-hard-to-take-a-picture-of-a-black-hole-what-are-we-even-looking-at/)
+* [STRANGE LIGHTNING STRIKES - Caught on Camera and explained](https://youtu.be/KO3H285CFRo)
 
 ## Political
 
