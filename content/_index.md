@@ -21,7 +21,7 @@ This site is also available as [JSON](/index.json) and [RSS](index.xml).
 
 ## Work
 
-I'm a Software Developer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
+I'm a Software Engineer at [Geocent](https://www.geocent.com) in Baton Rouge, Louisiana.
 
 Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
 
