@@ -278,6 +278,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Jennifer Sowle: [The Everything Guide to Codependency](http://a.co/dAVaWOB)
 * David Puder and Amul Shah: [The prescription of strength training for treating depression and optimizing cognitive performance](https://startingstrength.com/article/the-prescription-of-strength-training-for-treating-depression-and-optimizing-cognitive-performance)
 * AoM: [Podcast #440: The 3 great untruths that are setting up a generation for failure](https://www.artofmanliness.com/articles/coddling-of-the-american-mind-lukianoff-interview/)
+* [Two Arms and a Head: The Death of a Newly Paraplegic Philosopher](http://www.2arms1head.com/)
 
 ## Relationships
 
