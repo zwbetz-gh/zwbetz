@@ -35,7 +35,7 @@ static int searchListWithForLoop(List<String> letters, String letterToFind) {
 }
 ```
 
-## Search list with IntStream (linear)
+## Search list with int stream (linear)
 
 ```java
 static int searchListWithIntStream(List<String> letters, String letterToFind) {
@@ -68,13 +68,36 @@ static List<String> filterListWithForEachLoop(List<String> letters, String lette
 }
 ```
 
-## Filter list with Stream
+## Filter list with stream
 
 ```java
 static List<String> filterListWithStream(List<String> letters, String letterToExclude) {
   return letters
     .stream()
     .filter(letter -> !letter.equals(letterToExclude))
+    .collect(Collectors.toList());
+}
+```
+
+## Transform list with foreach loop
+
+```java
+static List<String> transformListWithForEachLoop(List<String> letters) {
+  List<String> transformed = new ArrayList<>();
+  for (String letter : letters) {
+    transformed.add(letter.toUpperCase());
+  }
+  return transformed;
+}
+```
+
+## Transform list with stream
+
+```java
+static List<String> transformListWithStream(List<String> letters) {
+  return letters
+    .stream()
+    .map(String::toUpperCase)
     .collect(Collectors.toList());
 }
 ```

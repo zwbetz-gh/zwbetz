@@ -10,11 +10,15 @@ public class App {
     String letterToFind = "c";
     String letterToExclude = "c";
 
+    List<Integer> numbers = createListOfNumbers();
+
     log("search list with for loop: " + searchListWithForLoop(letters, letterToFind));
     log("search list with int stream: " + searchListWithIntStream(letters, letterToFind));
     log("search list with binary search: " + searchListWithBinarySearch(letters, letterToFind));
-    log("filter list with for each loop: " + filterListWithForEachLoop(letters, letterToExclude));
+    log("filter list with foreach loop: " + filterListWithForEachLoop(letters, letterToExclude));
     log("filter list stream: " + filterListWithStream(letters, letterToExclude));
+    log("transform list with foreach loop: " + transformListWithForEachLoop(letters));
+    log("transform list with stream: " + transformListWithStream(letters));
   }
 
   static void log(Object message) {
@@ -71,6 +75,21 @@ public class App {
     return letters
       .stream()
       .filter(letter -> !letter.equals(letterToExclude))
+      .collect(Collectors.toList());
+  }
+
+  static List<String> transformListWithForEachLoop(List<String> letters) {
+    List<String> transformed = new ArrayList<>();
+    for (String letter : letters) {
+      transformed.add(letter.toUpperCase());
+    }
+    return transformed;
+  }
+
+  static List<String> transformListWithStream(List<String> letters) {
+    return letters
+      .stream()
+      .map(String::toUpperCase)
       .collect(Collectors.toList());
   }
 }
