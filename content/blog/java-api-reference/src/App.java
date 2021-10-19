@@ -13,6 +13,7 @@ public class App {
     log("search list with for loop: " + searchListWithForLoop(letters, letterToFind));
     log("search list with int stream: " + searchListWithIntStream(letters, letterToFind));
     log("search list with binary search: " + searchListWithBinarySearch(letters, letterToFind));
+    log("filter list with for each loop: " + filterListWithForEachLoop(letters, letterToExclude));
     log("filter list stream: " + filterListWithStream(letters, letterToExclude));
   }
 
@@ -47,6 +48,16 @@ public class App {
   static int searchListWithBinarySearch(List<String> sortedLetters, String letterToFind) {
     int i = Collections.binarySearch(sortedLetters, letterToFind);
     return i >= 0 ? i : -1;
+  }
+
+  static List<String> filterListWithForEachLoop(List<String> letters, String letterToExclude) {
+    List<String> filtered = new ArrayList<>();
+    for (String letter : letters) {
+      if (!letter.equals(letterToExclude)) {
+        filtered.add(letter);
+      }
+    }
+    return filtered;
   }
 
   static List<String> filterListWithStream(List<String> letters, String letterToExclude) {
