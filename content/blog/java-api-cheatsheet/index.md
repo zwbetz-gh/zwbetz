@@ -1,11 +1,11 @@
 ---
-title: "Java API Reference"
+title: "Java API Cheatsheet"
 date: 2021-10-17T21:58:46-05:00
 toc: true
 draft: true
 ---
 
-While at the hospital for the birth of our second child, I was reading [Java by Comparison](https://pragprog.com/titles/javacomp/java-by-comparison/) and liked how they taught using, well, comparison. Fast-forward to our last day there, taking a scalding hot shower, I thought, "Hey, it would be cool if there was a cheatsheet on how to do common stuff in Java". The thing you're reading is my go at that.
+While at the hospital for the birth of our second child, I was reading [Java by Comparison](https://pragprog.com/titles/javacomp/java-by-comparison/) and liked their approach. Fast-forward to our last day there, taking a scalding hot shower, I thought, "Hey, it would be cool if there was a cheatsheet on how to do common stuff in Java". The thing you're reading is my go at that.
 
 <!--more-->
 
@@ -50,8 +50,7 @@ static int searchListWithIntStream(List<String> letters, String letterToFind) {
 
 ```java
 static int searchListWithBinarySearch(List<String> sortedLetters, String letterToFind) {
-  int i = Collections.binarySearch(sortedLetters, letterToFind);
-  return i >= 0 ? i : -1;
+  return Collections.binarySearch(sortedLetters, letterToFind);
 }
 ```
 

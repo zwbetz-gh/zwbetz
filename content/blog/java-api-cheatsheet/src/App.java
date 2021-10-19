@@ -29,6 +29,14 @@ public class App {
     return letters;
   }
 
+  static List<Integer> createListOfNumbers() {
+    List<Integer> numbers = new ArrayList<>();
+    numbers.add(1);
+    numbers.add(2);
+    numbers.add(3);
+    return numbers;
+  }
+
   static int searchListWithForLoop(List<String> letters, String letterToFind) {
     for (int i = 0; i < letters.size(); i++) {
       if (letters.get(i).equals(letterToFind)) {
@@ -46,8 +54,7 @@ public class App {
   }
 
   static int searchListWithBinarySearch(List<String> sortedLetters, String letterToFind) {
-    int i = Collections.binarySearch(sortedLetters, letterToFind);
-    return i >= 0 ? i : -1;
+    return Collections.binarySearch(sortedLetters, letterToFind);
   }
 
   static List<String> filterListWithForEachLoop(List<String> letters, String letterToExclude) {
