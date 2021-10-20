@@ -55,7 +55,10 @@ public class App {
 
   static void binarySearch() {
     List<String> letters = createLetters();
-    Collections.sort(letters);
+
+    // Reminder that binarySearch requires a sorted list. 
+    // For this sample, letters is already sorted.
+    // Collections.sort(letters);
 
     int index = Collections.binarySearch(letters, "c");
 
@@ -81,7 +84,7 @@ public class App {
       .map(String::toUpperCase)
       .collect(Collectors.toList());
 
-    log(String.format("When %s are uppercased they become %s", letters, uppercasedLetters));
+    log(String.format("When %s is uppercased it becomes %s", letters, uppercasedLetters));
   }
 
   static void unique() {
@@ -143,7 +146,7 @@ public class App {
       .stream()
       .anyMatch(number -> number % 2 == 0);
 
-    log(String.format("Any numbers in %s are even? %s", numbers, result));
+    log(String.format("Some numbers in %s are even? %s", numbers, result));
   }
 
   static void all() {

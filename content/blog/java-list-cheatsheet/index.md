@@ -1,17 +1,17 @@
 ---
-title: "Java API Cheatsheet"
+title: "Java List Cheatsheet"
 date: 2021-10-17T21:58:46-05:00
 toc: true
-draft: true
+draft: false
 ---
 
-While at the hospital for the birth of our second child, I was reading [Java by Comparison](https://pragprog.com/titles/javacomp/java-by-comparison/) during down time, and liked their teaching style. Fast-forward to our last day there, I was taking a quick, scalding-hot shower, and thought, "Hey, it would be cool if there was a cheatsheet on how to do everyday stuff in Java". The thing you're reading is my go at that.
+While at the hospital for the birth of our second child, I was reading [Java by Comparison](https://pragprog.com/titles/javacomp/java-by-comparison/), and liked their teaching style. Fast-forward to our last day there, I was taking a quick, scalding-hot shower, and thought, "Hey, it would be cool if there was a cheatsheet on how to do common list operations in Java". The thing you're reading is my go at that.
 
 <!--more-->
 
 ## Rules
 
-1. Only the Java API can be used to solve problems. No external libraries allowed
+1. Only the Java API can be used. No external libraries allowed
 1. All code samples must work with Java 11
 
 ## Boilerplate
@@ -68,7 +68,10 @@ log(String.format("The first index of c in %s is %s", letters, index));
 
 ```java
 List<String> letters = createLetters();
-Collections.sort(letters);
+
+// Reminder that binarySearch requires a sorted list.
+// For this sample, letters is already sorted.
+// Collections.sort(letters);
 
 int index = Collections.binarySearch(letters, "c");
 
@@ -100,8 +103,8 @@ List<String> uppercasedLetters = letters
   .map(String::toUpperCase)
   .collect(Collectors.toList());
 
-log(String.format("When %s are uppercased they become %s", letters, uppercasedLetters));
-// When [a, b, c, c] are uppercased they become [A, B, C, C]
+log(String.format("When %s is uppercased it becomes %s", letters, uppercasedLetters));
+// When [a, b, c, c] is uppercased it becomes [A, B, C, C]
 ```
 
 ## Remove duplicate values from a list
@@ -180,8 +183,8 @@ boolean result = numbers
   .stream()
   .anyMatch(number -> number % 2 == 0);
 
-log(String.format("Any numbers in %s are even? %s", numbers, result));
-// Any numbers in [1, 2, 3] are even? true
+log(String.format("Some numbers in %s are even? %s", numbers, result));
+// Some numbers in [1, 2, 3] are even? true
 ```
 
 ## Does every list value meet the condition?
