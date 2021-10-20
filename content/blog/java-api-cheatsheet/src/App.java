@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class App {
+
   public static void main(String[] args) {
     linearSearch();
     binarySearch();
@@ -48,7 +49,7 @@ public class App {
       .filter(i -> letters.get(i).equals("c"))
       .findFirst()
       .orElse(-1);
-    
+
     log(String.format("The first index of c in %s is %s", letters, index));
   }
 
@@ -68,7 +69,7 @@ public class App {
       .stream()
       .filter(letter -> letter % 2 == 0)
       .collect(Collectors.toList());
-    
+
     log(String.format("The even numbers in %s are %s", numbers, evenNumbers));
   }
 
@@ -79,7 +80,7 @@ public class App {
       .stream()
       .map(String::toUpperCase)
       .collect(Collectors.toList());
-    
+
     log(String.format("When %s are uppercased they become %s", letters, uppercasedLetters));
   }
 
@@ -89,7 +90,7 @@ public class App {
     Set<String> uniqueLetters = letters
       .stream()
       .collect(Collectors.toSet());
-    
+
     log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
   }
 
@@ -97,7 +98,7 @@ public class App {
     List<String> letters = createLetters();
 
     int frequency = Collections.frequency(letters, "c");
-    
+
     log(String.format("%s appears %s times in %s", "c", frequency, letters));
   }
 
@@ -107,7 +108,7 @@ public class App {
     int sum = numbers
       .stream()
       .reduce(0, Integer::sum);
-    
+
     log(String.format("The sum of %s is %s", numbers, sum));
   }
 
@@ -119,7 +120,7 @@ public class App {
       .mapToInt(Integer::valueOf)
       .max()
       .orElseThrow();
-    
+
     log(String.format("The max of %s is %s", numbers, max));
   }
 
@@ -131,7 +132,7 @@ public class App {
       .mapToInt(Integer::valueOf)
       .min()
       .orElseThrow();
-    
+
     log(String.format("The min of %s is %s", numbers, min));
   }
 
@@ -141,7 +142,7 @@ public class App {
     boolean result = numbers
       .stream()
       .anyMatch(number -> number % 2 == 0);
-    
+
     log(String.format("Any numbers in %s are even? %s", numbers, result));
   }
 
@@ -151,7 +152,8 @@ public class App {
     boolean result = numbers
       .stream()
       .allMatch(number -> number % 2 == 0);
-    
+
     log(String.format("All numbers in %s are even? %s", numbers, result));
   }
+
 }
