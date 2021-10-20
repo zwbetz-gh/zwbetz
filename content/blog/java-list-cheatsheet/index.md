@@ -187,7 +187,7 @@ log(String.format("Some numbers in %s are even? %s", numbers, result));
 // Some numbers in [1, 2, 3] are even? true
 ```
 
-## Does every list value meet the condition?
+## Do all list values meet the condition?
 
 ```java
 List<Integer> numbers = createNumbers();
