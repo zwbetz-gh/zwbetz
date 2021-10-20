@@ -1,39 +1,39 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class App {
   public static void main(String[] args) {
-    List<String> letters = createListOfLetters();
-    String letterToFind = "c";
-    String letterToExclude = "c";
-
-    List<Integer> numbers = createListOfNumbers();
-
-    log("search list with for loop: " + searchListWithForLoop(letters, letterToFind));
-    log("search list with int stream: " + searchListWithIntStream(letters, letterToFind));
-    log("search list with binary search: " + searchListWithBinarySearch(letters, letterToFind));
-    log("filter list with foreach loop: " + filterListWithForEachLoop(letters, letterToExclude));
-    log("filter list stream: " + filterListWithStream(letters, letterToExclude));
-    log("transform list with foreach loop: " + transformListWithForEachLoop(letters));
-    log("transform list with stream: " + transformListWithStream(letters));
+    linearSearch();
+    binarySearch();
+    filter();
+    transform();
+    unique();
+    frequency();
+    sum();
+    max();
+    min();
+    any();
+    all();
   }
 
   static void log(Object message) {
     System.out.println(message);
   }
 
-  static List<String> createListOfLetters() {
+  static List<String> createLetters() {
     List<String> letters = new ArrayList<>();
     letters.add("a");
     letters.add("b");
     letters.add("c");
+    letters.add("c");
     return letters;
   }
 
-  static List<Integer> createListOfNumbers() {
+  static List<Integer> createNumbers() {
     List<Integer> numbers = new ArrayList<>();
     numbers.add(1);
     numbers.add(2);
@@ -41,55 +41,117 @@ public class App {
     return numbers;
   }
 
-  static int searchListWithForLoop(List<String> letters, String letterToFind) {
-    for (int i = 0; i < letters.size(); i++) {
-      if (letters.get(i).equals(letterToFind)) {
-        return i;
-      }
-    }
-    return -1;
-  }
+  static void linearSearch() {
+    List<String> letters = createLetters();
 
-  static int searchListWithIntStream(List<String> letters, String letterToFind) {
-    return IntStream.range(0, letters.size())
-      .filter(i -> letters.get(i).equals(letterToFind))
+    int index = IntStream.range(0, letters.size())
+      .filter(i -> letters.get(i).equals("c"))
       .findFirst()
       .orElse(-1);
+    
+    log(String.format("The first index of c in %s is %s", letters, index));
   }
 
-  static int searchListWithBinarySearch(List<String> sortedLetters, String letterToFind) {
-    return Collections.binarySearch(sortedLetters, letterToFind);
+  static void binarySearch() {
+    List<String> letters = createLetters();
+    Collections.sort(letters);
+
+    int index = Collections.binarySearch(letters, "c");
+
+    log(String.format("The first index of c in %s is %s", letters, index));
   }
 
-  static List<String> filterListWithForEachLoop(List<String> letters, String letterToExclude) {
-    List<String> filtered = new ArrayList<>();
-    for (String letter : letters) {
-      if (!letter.equals(letterToExclude)) {
-        filtered.add(letter);
-      }
-    }
-    return filtered;
-  }
+  static void filter() {
+    List<Integer> numbers = createNumbers();
 
-  static List<String> filterListWithStream(List<String> letters, String letterToExclude) {
-    return letters
+    List<Integer> evenNumbers = numbers
       .stream()
-      .filter(letter -> !letter.equals(letterToExclude))
+      .filter(letter -> letter % 2 == 0)
       .collect(Collectors.toList());
+    
+    log(String.format("The even numbers in %s are %s", numbers, evenNumbers));
   }
 
-  static List<String> transformListWithForEachLoop(List<String> letters) {
-    List<String> transformed = new ArrayList<>();
-    for (String letter : letters) {
-      transformed.add(letter.toUpperCase());
-    }
-    return transformed;
-  }
+  static void transform() {
+    List<String> letters = createLetters();
 
-  static List<String> transformListWithStream(List<String> letters) {
-    return letters
+    List<String> uppercasedLetters = letters
       .stream()
       .map(String::toUpperCase)
       .collect(Collectors.toList());
+    
+    log(String.format("When %s are uppercased they become %s", letters, uppercasedLetters));
+  }
+
+  static void unique() {
+    List<String> letters = createLetters();
+
+    Set<String> uniqueLetters = letters
+      .stream()
+      .collect(Collectors.toSet());
+    
+    log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
+  }
+
+  static void frequency() {
+    List<String> letters = createLetters();
+
+    int frequency = Collections.frequency(letters, "c");
+    
+    log(String.format("%s appears %s times in %s", "c", frequency, letters));
+  }
+
+  static void sum() {
+    List<Integer> numbers = createNumbers();
+
+    int sum = numbers
+      .stream()
+      .reduce(0, Integer::sum);
+    
+    log(String.format("The sum of %s is %s", numbers, sum));
+  }
+
+  static void max() {
+    List<Integer> numbers = createNumbers();
+
+    int max = numbers
+      .stream()
+      .mapToInt(Integer::valueOf)
+      .max()
+      .orElseThrow();
+    
+    log(String.format("The max of %s is %s", numbers, max));
+  }
+
+  static void min() {
+    List<Integer> numbers = createNumbers();
+
+    int min = numbers
+      .stream()
+      .mapToInt(Integer::valueOf)
+      .min()
+      .orElseThrow();
+    
+    log(String.format("The min of %s is %s", numbers, min));
+  }
+
+  static void any() {
+    List<Integer> numbers = createNumbers();
+
+    boolean result = numbers
+      .stream()
+      .anyMatch(number -> number % 2 == 0);
+    
+    log(String.format("Any numbers in %s are even? %s", numbers, result));
+  }
+
+  static void all() {
+    List<Integer> numbers = createNumbers();
+
+    boolean result = numbers
+      .stream()
+      .allMatch(number -> number % 2 == 0);
+    
+    log(String.format("All numbers in %s are even? %s", numbers, result));
   }
 }
