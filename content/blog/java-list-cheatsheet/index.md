@@ -79,6 +79,20 @@ log(String.format("The first index of c in %s is %s", letters, index));
 // The first index of c in [a, b, c, c] is 2
 ```
 
+## Sort a list
+
+```java
+List<String> letters = createLetters();
+
+List<String> reversed = letters
+  .stream()
+  .sorted(Comparator.reverseOrder())
+  .collect(Collectors.toList());
+
+log(String.format("When %s is reversed it becomes %s", letters, reversed));
+// When [a, b, c, c] is reversed it becomes [c, c, b, a]
+```
+
 ## Filter a list
 
 ```java

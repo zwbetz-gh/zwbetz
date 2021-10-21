@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -10,6 +11,7 @@ public class App {
   public static void main(String[] args) {
     linearSearch();
     binarySearch();
+    sort();
     filter();
     transform();
     unique();
@@ -56,13 +58,24 @@ public class App {
   static void binarySearch() {
     List<String> letters = createLetters();
 
-    // Reminder that binarySearch requires a sorted list. 
+    // Reminder that binarySearch requires a sorted list.
     // For this sample, letters is already sorted.
     // Collections.sort(letters);
 
     int index = Collections.binarySearch(letters, "c");
 
     log(String.format("The first index of c in %s is %s", letters, index));
+  }
+
+  static void sort() {
+    List<String> letters = createLetters();
+
+    List<String> reversed = letters
+      .stream()
+      .sorted(Comparator.reverseOrder())
+      .collect(Collectors.toList());
+
+    log(String.format("When %s is reversed it becomes %s", letters, reversed));
   }
 
   static void filter() {
