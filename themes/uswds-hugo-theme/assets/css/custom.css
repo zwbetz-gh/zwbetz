@@ -21,7 +21,7 @@ details summary:focus {
 code,
 pre {
   font-size: 0.9rem;
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.04);
   font-weight: 400;
   overflow-x: auto;
 }
