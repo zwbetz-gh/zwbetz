@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -15,7 +14,7 @@ public class App {
     filter();
     transform();
     unique();
-    frequency();
+    count();
     sum();
     max();
     min();
@@ -103,19 +102,23 @@ public class App {
   static void unique() {
     List<String> letters = createLetters();
 
-    Set<String> uniqueLetters = letters
+    List<String> uniqueLetters = letters
       .stream()
-      .collect(Collectors.toSet());
+      .distinct()
+      .collect(Collectors.toList());
 
     log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
   }
 
-  static void frequency() {
+  static void count() {
     List<String> letters = createLetters();
 
-    int frequency = Collections.frequency(letters, "c");
+    long count = letters
+      .stream()
+      .filter(letter -> letter.equals("c"))
+      .count();
 
-    log(String.format("%s appears %s times in %s", "c", frequency, letters));
+    log(String.format("%s appears %s times in %s", "c", count, letters));
   }
 
   static void sum() {

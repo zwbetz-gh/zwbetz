@@ -126,22 +126,26 @@ log(String.format("When %s is uppercased it becomes %s", letters, uppercasedLett
 ```java
 List<String> letters = createLetters();
 
-Set<String> uniqueLetters = letters
+List<String> uniqueLetters = letters
   .stream()
-  .collect(Collectors.toSet());
+  .distinct()
+  .collect(Collectors.toList());
 
 log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
 // These are duplicated [a, b, c, c] but these are unique [a, b, c]
 ```
 
-## Find the frequency of a value in a list
+## Count how many times a value appears in a list
 
 ```java
 List<String> letters = createLetters();
 
-int frequency = Collections.frequency(letters, "c");
+ long count = letters
+  .stream()
+  .filter(letter -> letter.equals("c"))
+  .count();
 
-log(String.format("%s appears %s times in %s", "c", frequency, letters));
+log(String.format("%s appears %s times in %s", "c", count, letters));
 // c appears 2 times in [a, b, c, c]
 ```
 
