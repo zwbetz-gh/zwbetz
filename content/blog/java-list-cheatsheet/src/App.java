@@ -82,7 +82,7 @@ public class App {
 
     List<Integer> evenNumbers = numbers
       .stream()
-      .filter(letter -> letter % 2 == 0)
+      .filter(number -> number % 2 == 0)
       .collect(Collectors.toList());
 
     log(String.format("The even numbers in %s are %s", numbers, evenNumbers));
