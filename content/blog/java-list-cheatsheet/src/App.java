@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -27,20 +28,11 @@ public class App {
   }
 
   static List<String> createLetters() {
-    List<String> letters = new ArrayList<>();
-    letters.add("a");
-    letters.add("b");
-    letters.add("c");
-    letters.add("c");
-    return letters;
+    return Arrays.asList("a", "b", "c", "c");
   }
 
   static List<Integer> createNumbers() {
-    List<Integer> numbers = new ArrayList<>();
-    numbers.add(1);
-    numbers.add(2);
-    numbers.add(3);
-    return numbers;
+    return Arrays.asList(1, 2, 3);
   }
 
   static void linearSearch() {
