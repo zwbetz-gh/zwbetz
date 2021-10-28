@@ -14,7 +14,7 @@ While at the hospital for the birth of our second child, I was reading [Java by 
 1. Only the Java API can be used. No external libraries allowed
 1. All code samples must work with Java 11
 
-## Build it
+## Run it
 
 The samples are also available in [src/App.java](src/App.java). You can build them with:
 
