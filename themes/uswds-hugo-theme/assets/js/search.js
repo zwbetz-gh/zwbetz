@@ -50,13 +50,13 @@
   const logSizeInKilobytes = (description, obj) => {
     const bytes = getSizeInBytes(obj);
     const kb = (bytes / 1000).toFixed(2);
-    // 'approximately' is the keyword here ...
+    // 'approximately' is the keyword here...
     LOG_ENABLED && console.log(`${description} is approximately ${kb} kB`);
   };
 
   const fetchJsonIndex = () => {
     const startTime = performance.now();
-    disableSearchEl('Loading ...');
+    disableSearchEl('Loading...');
     const path = '/blog/index.json';
     const url = `${window.location.origin}${path}`;
     fetch(url)
@@ -140,7 +140,7 @@
     if (getEnableSearchEl().checked) {
       fetchJsonIndex();
     } else {
-      disableSearchEl('Disabled ...');
+      disableSearchEl('Disabled...');
     }
   };
 
