@@ -16,7 +16,7 @@ While at the hospital for the birth of our second child, I was reading [Java by 
 
 ## Run it
 
-The samples are also available in [src/App.java](src/App.java). You can build them with:
+The samples are also available in [src/App.java](src/App.java). You can run them with:
 
 ```sh
 javac src/*.java && java -cp src App
