@@ -5,14 +5,8 @@ import java.util.List;
 public class App {
 
   public static void main(String[] args) {
-    timeRunnable(
-      "runAllActionsSequential",
-      () -> runAllActionsSequential()
-    );
-    timeRunnable(
-      "runAllActionsParallel",
-      () -> runAllActionsParallel()
-    );
+    timeRunnable("runAllActionsSequential", App::runAllActionsSequential);
+    timeRunnable("runAllActionsParallel", App::runAllActionsParallel);
   }
 
   static void runAllActionsSequential() {
@@ -31,9 +25,9 @@ public class App {
 
   static List<Runnable> getAllActions() {
     return Arrays.asList(
-      () -> costlyAction1(),
-      () -> costlyAction2(),
-      () -> costlyAction3()
+      App::costlyAction1,
+      App::costlyAction2,
+      App::costlyAction3
     );
   }
 
