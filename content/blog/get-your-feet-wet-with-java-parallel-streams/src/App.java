@@ -8,13 +8,10 @@ public class App {
   public static void main(String[] args) {
     timeRunnable("sumSequential", App::sumSequential);
     log("");
-
     timeRunnable("sumParallel", App::sumParallel);
     log("");
-
     logAvailableProcessors();
     logCommonPool();
-    log("");
   }
 
   static void sumSequential() {
