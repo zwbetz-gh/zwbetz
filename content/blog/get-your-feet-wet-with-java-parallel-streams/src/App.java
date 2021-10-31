@@ -8,8 +8,10 @@ public class App {
   public static void main(String[] args) {
     timeRunnable("sumSequential", App::sumSequential);
     log("");
+
     timeRunnable("sumParallel", App::sumParallel);
     log("");
+
     logAvailableProcessors();
     logCommonPool();
   }
@@ -41,13 +43,7 @@ public class App {
     return i * 1;
   }
 
-  static void logAvailableProcessors() {
-    log("processors: %s", Runtime.getRuntime().availableProcessors());
-  }
-
-  static void logCommonPool() {
-    log("pool: %s", ForkJoinPool.commonPool());
-  }
+  // BEGIN BOILERPLATE
 
   static void log(String format, Object... args) {
     System.out.println(String.format(format, args));
@@ -69,6 +65,14 @@ public class App {
     long duration = endTime - startTime;
     String formattedDuration = new DecimalFormat("0.00").format((double) duration / 1_000_000_000);
     log("Completed %s in %s second(s)", name, formattedDuration);
+  }
+
+  static void logAvailableProcessors() {
+    log("processors: %s", Runtime.getRuntime().availableProcessors());
+  }
+
+  static void logCommonPool() {
+    log("pool: %s", ForkJoinPool.commonPool());
   }
 
 }
