@@ -23,8 +23,8 @@ public class App {
     all();
   }
 
-  static void log(Object message) {
-    System.out.println(message);
+  static void log(String format, Object... args) {
+    System.out.println(String.format(format, args));
   }
 
   static List<String> createLetters() {
@@ -43,7 +43,7 @@ public class App {
       .findFirst()
       .orElse(-1);
 
-    log(String.format("The first index of c in %s is %s", letters, index));
+    log("The first index of c in %s is %s", letters, index);
   }
 
   static void binarySearch() {
@@ -55,7 +55,7 @@ public class App {
 
     int index = Collections.binarySearch(letters, "c");
 
-    log(String.format("The first index of c in %s is %s", letters, index));
+    log("The first index of c in %s is %s", letters, index);
   }
 
   static void sort() {
@@ -66,7 +66,7 @@ public class App {
       .sorted(Comparator.reverseOrder())
       .collect(Collectors.toList());
 
-    log(String.format("When %s is reversed it becomes %s", letters, reversed));
+    log("When %s is reversed it becomes %s", letters, reversed);
   }
 
   static void filter() {
@@ -77,7 +77,7 @@ public class App {
       .filter(number -> number % 2 == 0)
       .collect(Collectors.toList());
 
-    log(String.format("The even numbers in %s are %s", numbers, evenNumbers));
+    log("The even numbers in %s are %s", numbers, evenNumbers);
   }
 
   static void transform() {
@@ -88,7 +88,7 @@ public class App {
       .map(String::toUpperCase)
       .collect(Collectors.toList());
 
-    log(String.format("When %s is uppercased it becomes %s", letters, uppercasedLetters));
+    log("When %s is uppercased it becomes %s", letters, uppercasedLetters);
   }
 
   static void unique() {
@@ -99,7 +99,7 @@ public class App {
       .distinct()
       .collect(Collectors.toList());
 
-    log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
+    log("These are duplicated %s but these are unique %s", letters, uniqueLetters);
   }
 
   static void count() {
@@ -110,7 +110,7 @@ public class App {
       .filter(letter -> letter.equals("c"))
       .count();
 
-    log(String.format("%s appears %s times in %s", "c", count, letters));
+    log("%s appears %s times in %s", "c", count, letters);
   }
 
   static void sum() {
@@ -120,7 +120,7 @@ public class App {
       .stream()
       .reduce(0, Integer::sum);
 
-    log(String.format("The sum of %s is %s", numbers, sum));
+    log("The sum of %s is %s", numbers, sum);
   }
 
   static void max() {
@@ -132,7 +132,7 @@ public class App {
       .max()
       .orElseThrow();
 
-    log(String.format("The max of %s is %s", numbers, max));
+    log("The max of %s is %s", numbers, max);
   }
 
   static void min() {
@@ -144,7 +144,7 @@ public class App {
       .min()
       .orElseThrow();
 
-    log(String.format("The min of %s is %s", numbers, min));
+    log("The min of %s is %s", numbers, min);
   }
 
   static void any() {
@@ -154,7 +154,7 @@ public class App {
       .stream()
       .anyMatch(number -> number % 2 == 0);
 
-    log(String.format("Some numbers in %s are even? %s", numbers, result));
+    log("Some numbers in %s are even? %s", numbers, result);
   }
 
   static void all() {
@@ -164,7 +164,7 @@ public class App {
       .stream()
       .allMatch(number -> number % 2 == 0);
 
-    log(String.format("All numbers in %s are even? %s", numbers, result));
+    log("All numbers in %s are even? %s", numbers, result);
   }
 
 }

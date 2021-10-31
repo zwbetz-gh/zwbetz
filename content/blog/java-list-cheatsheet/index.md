@@ -27,8 +27,8 @@ javac src/*.java && java -cp src App
 To reduce boilerplate, the following functions will be used:
 
 ```java
-static void log(Object message) {
-  System.out.println(message);
+static void log(String format, Object... args) {
+  System.out.println(String.format(format, args));
 }
 
 static List<String> createLetters() {
@@ -50,7 +50,7 @@ int index = IntStream.range(0, letters.size())
   .findFirst()
   .orElse(-1);
 
-log(String.format("The first index of c in %s is %s", letters, index));
+log("The first index of c in %s is %s", letters, index);
 // The first index of c in [a, b, c, c] is 2
 ```
 
@@ -65,7 +65,7 @@ List<String> letters = createLetters();
 
 int index = Collections.binarySearch(letters, "c");
 
-log(String.format("The first index of c in %s is %s", letters, index));
+log("The first index of c in %s is %s", letters, index);
 // The first index of c in [a, b, c, c] is 2
 ```
 
@@ -79,7 +79,7 @@ List<String> reversed = letters
   .sorted(Comparator.reverseOrder())
   .collect(Collectors.toList());
 
-log(String.format("When %s is reversed it becomes %s", letters, reversed));
+log("When %s is reversed it becomes %s", letters, reversed);
 // When [a, b, c, c] is reversed it becomes [c, c, b, a]
 ```
 
@@ -93,7 +93,7 @@ List<Integer> evenNumbers = numbers
   .filter(number -> number % 2 == 0)
   .collect(Collectors.toList());
 
-log(String.format("The even numbers in %s are %s", numbers, evenNumbers));
+log("The even numbers in %s are %s", numbers, evenNumbers);
 // The even numbers in [1, 2, 3] are [2]
 ```
 
@@ -107,7 +107,7 @@ List<String> uppercasedLetters = letters
   .map(String::toUpperCase)
   .collect(Collectors.toList());
 
-log(String.format("When %s is uppercased it becomes %s", letters, uppercasedLetters));
+log("When %s is uppercased it becomes %s", letters, uppercasedLetters);
 // When [a, b, c, c] is uppercased it becomes [A, B, C, C]
 ```
 
@@ -121,7 +121,7 @@ List<String> uniqueLetters = letters
   .distinct()
   .collect(Collectors.toList());
 
-log(String.format("These are duplicated %s but these are unique %s", letters, uniqueLetters));
+log("These are duplicated %s but these are unique %s", letters, uniqueLetters);
 // These are duplicated [a, b, c, c] but these are unique [a, b, c]
 ```
 
@@ -135,7 +135,7 @@ List<String> letters = createLetters();
   .filter(letter -> letter.equals("c"))
   .count();
 
-log(String.format("%s appears %s times in %s", "c", count, letters));
+log("%s appears %s times in %s", "c", count, letters);
 // c appears 2 times in [a, b, c, c]
 ```
 
@@ -148,7 +148,7 @@ int sum = numbers
   .stream()
   .reduce(0, Integer::sum);
 
-log(String.format("The sum of %s is %s", numbers, sum));
+log("The sum of %s is %s", numbers, sum);
 // The sum of [1, 2, 3] is 6
 ```
 
@@ -163,7 +163,7 @@ int max = numbers
   .max()
   .orElseThrow();
 
-log(String.format("The max of %s is %s", numbers, max));
+log("The max of %s is %s", numbers, max);
 // The max of [1, 2, 3] is 3
 ```
 
@@ -178,7 +178,7 @@ int min = numbers
   .min()
   .orElseThrow();
 
-log(String.format("The min of %s is %s", numbers, min));
+log("The min of %s is %s", numbers, min);
 // The min of [1, 2, 3] is 1
 ```
 
@@ -191,7 +191,7 @@ boolean result = numbers
   .stream()
   .anyMatch(number -> number % 2 == 0);
 
-log(String.format("Some numbers in %s are even? %s", numbers, result));
+log("Some numbers in %s are even? %s", numbers, result);
 // Some numbers in [1, 2, 3] are even? true
 ```
 
@@ -204,6 +204,6 @@ boolean result = numbers
   .stream()
   .allMatch(number -> number % 2 == 0);
 
-log(String.format("All numbers in %s are even? %s", numbers, result));
+log("All numbers in %s are even? %s", numbers, result);
 // All numbers in [1, 2, 3] are even? false
 ```
