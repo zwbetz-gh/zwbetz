@@ -19,7 +19,7 @@ While at the hospital for the birth of our second child, I was reading [Java by 
 These samples are also available in [src/App.java](src/App.java). You can run them with:
 
 ```sh
-javac src/*.java && java -cp src App
+javac App.java && java App
 ```
 
 ## Boilerplate

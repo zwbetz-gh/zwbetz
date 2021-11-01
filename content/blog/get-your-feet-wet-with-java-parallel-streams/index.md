@@ -13,7 +13,7 @@ Parallelism in Java can be spooky, but it doesn't have to be. Let's see how stre
 These samples are also available in [src/App.java](src/App.java). You can run them with:
 
 ```sh
-javac src/*.java && java -cp src App
+javac App.java && java App
 ```
 
 ## Boilerplate
@@ -84,7 +84,7 @@ Completed sumSequential in 3.01 second(s)
 
 ## Parallel Streams
 
-Okay, now onto the main event. This is what you came for, right? 
+Okay, now onto the main event. This is what you came for, right?
 
 Let's sum the numbers again, but this time, in parallel:
 
@@ -150,7 +150,7 @@ Common pool parallelism: 11
 
 11 threads? What?! Did they short us? Nope. The _missing_ thread is actually the main thread.
 
-I hope this little exploration gave you more confidence with parallel streams. See the below references for deeper dives as well as Do's and Don'ts. Happy computing. 
+I hope this little exploration gave you more confidence with parallel streams. See the below references for deeper dives as well as Do's and Don'ts. Happy computing.
 
 ## References
 
