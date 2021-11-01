@@ -6,22 +6,23 @@ import java.util.concurrent.ForkJoinPool;
 public class App {
 
   public static void main(String[] args) {
-    timeRunnable("sumSequential", App::sumSequential);
+    time("sumSequential", App::sumSequential);
     log("");
 
-    timeRunnable("sumParallel", App::sumParallel);
+    time("sumParallel", App::sumParallel);
     log("");
 
     logAvailableProcessors();
-    logCommonPool();
+    logCommonPoolParallelism();
   }
 
   static void sumSequential() {
     int sum = createNumbers()
       .stream()
+      .sequential()
       .mapToInt(App::costlyMapper)
       .sum();
-    log("sum: %s", sum);
+    log("Sum: %s", sum);
   }
 
   static void sumParallel() {
@@ -30,15 +31,15 @@ public class App {
       .parallel()
       .mapToInt(App::costlyMapper)
       .sum();
-      log("sum: %s", sum);
-    }
+      log("Sum: %s", sum);
+  }
 
   static List<Integer> createNumbers() {
     return Arrays.asList(1, 2, 3);
   }
 
   static Integer costlyMapper(Integer i) {
-    log("costlyMapper, val: %s, thread: %s", i, Thread.currentThread().getName());
+    log("costlyMapper | val: %s | thread: %s", i, Thread.currentThread().getName());
     sleep(1000);
     return i * 1;
   }
@@ -57,7 +58,7 @@ public class App {
     }
   }
 
-  static void timeRunnable(String name, Runnable runnable) {
+  static void time(String name, Runnable runnable) {
     log("Started %s", name);
     long startTime = System.nanoTime();
     runnable.run();
@@ -68,11 +69,11 @@ public class App {
   }
 
   static void logAvailableProcessors() {
-    log("processors: %s", Runtime.getRuntime().availableProcessors());
+    log("Available processors: %s", Runtime.getRuntime().availableProcessors());
   }
 
-  static void logCommonPool() {
-    log("pool: %s", ForkJoinPool.commonPool());
+  static void logCommonPoolParallelism() {
+    log("Common pool parallelism: %s", ForkJoinPool.getCommonPoolParallelism());
   }
 
 }
