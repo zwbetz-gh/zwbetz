@@ -3,6 +3,8 @@
   --gray: #757575;
   --gray-light: #dcdee0;
   --custom-icon-size: 1.4em;
+  --link-color: rgb(0, 0, 238);
+  --link-color-active: rgb(255, 0, 0);
 }
 
 /* Links */
@@ -112,6 +114,14 @@ a.header-link:hover {
 #footer-main {
   background-color: #fff;
   border-top: 1px solid var(--gray-light);
+}
+
+#footer-main a {
+  color: var(--link-color);
+}
+
+#footer-main a:active {
+  color: var(--link-color-active);
 }
 
 /* Icons */
