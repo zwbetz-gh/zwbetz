@@ -33,13 +33,7 @@ A quote by one of my favorite thinkers, Carl Jung.
 
 > Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 
-## Disclaimer
-
-Opinions expressed here are my own and not those of my employer or any past employer.
-
 ## Photo
-
-<br>
 
 {{< figure
 img="family.jpg"
@@ -47,3 +41,7 @@ alt="The family"
 caption="The family"
 command="Resize"
 options="200x q100" >}}
+
+## Disclaimer
+
+Opinions expressed here are my own and not those of my employer or any past employer.
