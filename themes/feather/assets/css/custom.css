@@ -571,18 +571,23 @@ blockquote {
   text-decoration: none;
 }
 
+/* icon text */
+
+.custom-icon-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* nav */
 
 .custom-nav {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1rem;
-  /* border-bottom: 1px solid #000; */
 }
 
 .custom-nav-item {
-  /* flex-grow: 1; */
+  flex-grow: 1;
   padding: 1rem;
   font-weight: bold;
   text-align: center;
@@ -628,7 +633,7 @@ a.custom-nav-item-active {
 /* table of contents */
 
 .custom-toc {
-  margin-top: 1rem; 
+  margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
   padding-bottom: 0;

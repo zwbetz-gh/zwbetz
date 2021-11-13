@@ -1,12 +1,17 @@
 <p>
-  {{ $dateFormat := (partial "date-format.html" | string) }}
-  {{ $publishDate := .PublishDate }}
-  {{ $formattedPublishDate := $publishDate.Format $dateFormat }}
-  <strong>Published:</strong> {{ $formattedPublishDate }}
-  {{ with .Lastmod }}
-    {{ $formattedLastmod := .Format $dateFormat }}
-    {{ if gt $formattedLastmod $formattedPublishDate }}
-      &bull; <strong>Last updated:</strong> {{ $formattedLastmod }}
+  <span class="custom-icon-text">
+    {{ partial "feather-icons/calendar.html" . }}
+  </span>
+  <span class="custom-icon-text">
+    {{ $dateFormat := (partial "date-format.html" | string) }}
+    {{ $publishDate := .PublishDate }}
+    {{ $formattedPublishDate := $publishDate.Format $dateFormat }}
+    <strong>Published:</strong> {{ $formattedPublishDate }}
+    {{ with .Lastmod }}
+      {{ $formattedLastmod := .Format $dateFormat }}
+      {{ if gt $formattedLastmod $formattedPublishDate }}
+        &bull; <strong>Last updated:</strong> {{ $formattedLastmod }}
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </span>
 </p>
