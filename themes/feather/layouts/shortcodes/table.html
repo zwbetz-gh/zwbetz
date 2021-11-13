@@ -1,0 +1,6 @@
+{{ $htmlTable := .Inner | markdownify }}
+{{ $class := .Get 0 }}
+{{ $oldTag := "<table>" }}
+{{ $newTag := printf "<table class=\"usa-table %s\">" $class }}
+{{ $htmlTable := replace $htmlTable $oldTag $newTag }}
+{{ $htmlTable | safeHTML }}

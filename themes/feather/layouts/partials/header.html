@@ -1,0 +1,23 @@
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        {{ $current := . }}
+        {{ range site.Menus.nav }}
+          {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+          {{ $active = or $active (eq .Name $current.Title) }}
+          {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog")) }}
+          {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+          <li >
+            <a class="{{ if $active }}TODO{{ end }}" href="{{ .URL }}">
+              {{ if eq site.Params.show_nav_icon true }}
+                ICON
+              {{ end }}
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

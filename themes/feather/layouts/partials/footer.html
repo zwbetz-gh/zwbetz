@@ -1,0 +1,17 @@
+<footer>
+  <div class="container">
+    {{ with site.Params.footer_text }}
+      <div>
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
+    {{ if eq site.Params.show_debug_table true }}
+      <div>
+        <details>
+          <summary>Debug info</summary>
+          {{ partial "debug-table.html" . }}
+        </details>
+      </div>
+    {{ end }}
+  </div>
+</footer>

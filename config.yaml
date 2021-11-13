@@ -2,7 +2,7 @@ baseURL: https://zwbetz.com
 languageCode: en-us
 defaultContentLanguage: en
 title: zwbetz
-theme: uswds-hugo-theme
+theme: feather
 enableRobotsTXT: true
 timeout: 45000
 enableGitInfo: true
@@ -20,8 +20,6 @@ outputs:
     - RSS
     - JSON
 
-disqusShortname:
-
 disableKinds:
   - taxonomy
   - term
@@ -30,7 +28,7 @@ permalinks:
   blog: /:filename/
 
 imaging:
-  quality: 90
+  quality: 100
 
 menu:
   nav:
@@ -48,27 +46,20 @@ menu:
       weight: 3
 
 params:
+  show_nav_icon: true
+  show_search: true
+  show_debug_table: true
   goat_counter_code: zwbetz
-  footer: >
+  footer_text: >
     Made with [Hugo](https://gohugo.io/)
     &bull;
     Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
-    &bull;
-    Themed by [USWDS](https://designsystem.digital.gov/)
     &bull;
     Deployed by [Netlify](https://www.netlify.com/)
     &bull;
     Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
     &bull;
     See an issue? [Let me know](https://github.com/zwbetz-gh/zwbetz/issues/new/choose)
-  show_footer_site_last_updated: false
-  show_footer_debug: false
-  search: true
-  search_minify: true
-  show_prev_next_links: false
-  show_tags: false
-  use_purged_css: false
-  use_nav_icon: true
 
 markup:
   defaultMarkdownHandler: goldmark
