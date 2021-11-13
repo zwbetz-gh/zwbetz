@@ -44,10 +44,13 @@
       "ul"
     ],
     "classes": [
-      "TODO",
       "clamped_text",
       "container",
+      "custom-footer",
       "custom-header-link",
+      "custom-nav",
+      "custom-nav-item",
+      "custom-nav-item-active",
       "footnote-backref",
       "footnote-ref",
       "footnotes",

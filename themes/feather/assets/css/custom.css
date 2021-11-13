@@ -528,3 +528,38 @@ progress {
 .custom-header-link {
   text-decoration: none;
 }
+
+.custom-nav {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+.custom-nav-item {
+  flex-grow: 1;
+  /* align-self: auto; */
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.custom-nav-item-active {
+  background-color: #000;
+}
+
+a.custom-nav-item {
+  text-decoration: none;
+  color: #000;
+}
+
+a.custom-nav-item-active {
+  color: #fff;
+}
+
+.custom-footer {
+  border-top: 1px solid #000;
+}
