@@ -56,7 +56,8 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  /* --bs-body-bg: #fff; */
+  --bs-body-bg: rgba(255, 255, 255, 0.95);
 }
 
 *,
@@ -523,3 +524,7 @@ progress {
 }
 
 /* custom */
+
+.custom-header-link {
+  text-decoration: none;
+}
