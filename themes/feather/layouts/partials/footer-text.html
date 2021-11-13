@@ -1,0 +1,5 @@
+{{ with .Site.Params.footer_text }}
+  <p>
+    {{ delimit . "<br>" | markdownify }}
+  </p>
+{{ end }}

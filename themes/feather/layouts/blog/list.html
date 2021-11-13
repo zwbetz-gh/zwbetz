@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="container">
     <h1>{{ .Title }}</h1>
-    {{ if site.Params.show_search }}
+    {{ if .Site.Params.show_search }}
       <input
         class=""
         id="search"

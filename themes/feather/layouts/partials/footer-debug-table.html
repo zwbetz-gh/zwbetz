@@ -1,0 +1,8 @@
+{{ if eq .Site.Params.show_debug_table true }}
+<div>
+  <details>
+    <summary>Debug</summary>
+    {{ partial "debug-table.html" . }}
+  </details>
+</div>
+{{ end }}

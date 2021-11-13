@@ -96,7 +96,7 @@
         <a href="${item.RelPermalink}">${item.Title}</a>
       </li>
       `;
-    }).join('');
+    }).join('\n');
 
     return `\
     <ul>

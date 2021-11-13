@@ -5,17 +5,17 @@
   "Environment" hugo.Environment -}}
 
 {{- $site := dict
-  "BaseURL" site.BaseURL
-  "IsMultiLingual" site.IsMultiLingual
-  "IsServer" site.IsServer
-  "LastChange" site.LastChange
-  "RSSLink" site.RSSLink
-  "Title" site.Title
-  "Language" site.Language -}}
+  "BaseURL" .Site.BaseURL
+  "IsMultiLingual" .Site.IsMultiLingual
+  "IsServer" .Site.IsServer
+  "LastChange" .Site.LastChange
+  "RSSLink" .Site.RSSLink
+  "Title" .Site.Title
+  "Language" .Site.Language -}}
 
 {{- $pages := slice -}}
 
-{{- range site.RegularPages.ByPublishDate.Reverse -}}
+{{- range .Site.RegularPages.ByPublishDate.Reverse -}}
   {{- $file := dict
     "Path" .File.Path
     "LogicalName" .File.LogicalName
@@ -60,7 +60,7 @@
 
 {{- $blog := slice -}}
 
-{{- range where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
+{{- range where .Site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
 	{{- $item := dict
     "Title" .Title
     "PublishDateFormatted" (.PublishDate.Format "2006-01-02")

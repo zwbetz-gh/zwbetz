@@ -32,7 +32,7 @@ imaging:
 
 menu:
   nav:
-    - name: Home
+    - name: zwbetz
       pre: home
       url: /
       weight: 1
@@ -50,16 +50,12 @@ params:
   show_search: true
   show_debug_table: true
   goat_counter_code: zwbetz
-  footer_text: >
-    Made with [Hugo](https://gohugo.io/)
-    &bull;
-    Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
-    &bull;
-    Deployed by [Netlify](https://www.netlify.com/)
-    &bull;
-    Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
-    &bull;
-    See an issue? [Let me know](https://github.com/zwbetz-gh/zwbetz/issues/new/choose)
+  footer_text:
+    - Made with [Hugo](https://gohugo.io/)
+    - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
+    - Deployed by [Netlify](https://www.netlify.com/)
+    - Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
+    - See an issue? [Let me know](https://github.com/zwbetz-gh/zwbetz/issues/new/choose)
 
 markup:
   defaultMarkdownHandler: goldmark
