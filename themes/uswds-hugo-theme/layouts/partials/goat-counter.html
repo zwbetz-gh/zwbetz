@@ -1,9 +1,0 @@
-{{ if not site.IsServer }}
-  {{ with site.Params.goat_counter_code }}
-  <script 
-    data-goatcounter="https://{{ . }}.goatcounter.com/count" 
-    src="//gc.zgo.at/count.js"
-    async>
-  </script>
-  {{ end }}
-{{ end }}
