@@ -1,6 +1,6 @@
 <head>
   {{ hugo.Generator }}
-  {{ $title := printf "%s | %s" .Title .Site.Title }}
+  {{ $title := printf "%s | %s" .Title site.Title }}
   {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" 
     | default .Title }}
   {{ $customCss := resources.Get "css/custom.css"

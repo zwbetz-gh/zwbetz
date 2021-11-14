@@ -1,6 +1,6 @@
 {{- $blog := slice -}}
 
-{{- range where .Site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
+{{- range where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
 	{{- $item := dict
     "Title" .Title
     "RelPermalink" .RelPermalink -}}

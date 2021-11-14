@@ -1,4 +1,4 @@
-{{ if eq .Site.Params.show_search true }}
+{{ if eq site.Params.show_search true }}
   {{ $searchJs := resources.Get "js/search.js"
     | fingerprint
     | minify }}
