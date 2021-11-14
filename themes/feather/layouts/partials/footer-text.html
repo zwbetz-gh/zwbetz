@@ -1,5 +1,5 @@
-{{ with site.Params.footer_text }}
+{{ if eq site.Params.show_built_with true }}
   <p>
-    {{ delimit . "<br>" | markdownify }}
+    <a href="/built-with">Built With</a>
   </p>
 {{ end }}
