@@ -20,7 +20,7 @@ For example, it may take me hours to research, experiment, and solve a problem. 
 
 As of 2021-04-11:
 
-<table>
+<table class="table">
 <thead>
 
 <tr>

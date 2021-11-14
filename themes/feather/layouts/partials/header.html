@@ -1,0 +1,26 @@
+<header>
+  <div class="container">
+    <nav>
+      <div class="custom-nav">
+        {{ $current := . }}
+        {{ range site.Menus.nav }}
+          {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+          {{ $active = or $active (eq .Name $current.Title) }}
+          {{ $active = or $active (eq .URL $current.RelPermalink) }}
+          {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog")) }}
+            <a class="custom-nav-item {{ if $active }}custom-nav-item-active{{ end }}" href="{{ .URL }}">
+              {{ if eq site.Params.show_nav_icon true }}
+                {{ $partial := printf "feather-icons/%s.html" .Pre }}
+                <span class="custom-icon-text">
+                  {{ partial $partial . }}
+                </span>
+              {{ end }}
+              <span class="custom-icon-text">
+                {{ .Name }}
+              </span>
+            </a>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>

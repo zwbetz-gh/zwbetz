@@ -71,4 +71,5 @@ Be selective about what you e2e test. Aim to keep your total e2e test count rela
 img="test-pyramid.png"
 alt="Test Pyramid"
 caption="The Test Pyramid, courtesy of <https://martinfowler.com/articles/practical-test-pyramid.html>"
-command="Original" >}}
+command="Resize"
+options="200x" >}}

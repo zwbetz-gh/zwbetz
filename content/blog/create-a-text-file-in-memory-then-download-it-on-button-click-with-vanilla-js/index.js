@@ -19,26 +19,26 @@
 
   const setupDemo = () => {
     const form = document.createElement('form');
-    form.className = 'usa-form';
+    form.style.fontSize = '1rem';
 
     const filenameLabel = document.createElement('label');
-    filenameLabel.className = 'usa-label';
+    filenameLabel.style.display = 'block';
     filenameLabel.htmlFor = 'demo_filename';
     filenameLabel.textContent = 'Filename:';
 
     const filenameInput = document.createElement('input');
-    filenameInput.className = 'usa-input';
+    filenameInput.style.display = 'block';
     filenameInput.id = 'demo_filename';
     filenameInput.type = 'text';
     filenameInput.value = 'demo.txt';
 
     const contentsLabel = document.createElement('label');
-    contentsLabel.className = 'usa-label';
+    contentsLabel.style.display = 'block';
     contentsLabel.htmlFor = 'demo_contents';
     contentsLabel.textContent = 'Contents:';
 
     const contentsInput = document.createElement('textarea');
-    contentsInput.className = 'usa-textarea';
+    contentsInput.style.display = 'block';
     contentsInput.id = 'demo_contents';
     contentsInput.value = [
       'The quick brown fox jumps over the lazy dog.',
@@ -53,7 +53,7 @@
     };
 
     const button = document.createElement('button');
-    button.className = 'usa-button';
+    button.className = '';
     button.id = 'demo_button';
     button.textContent = 'Download';
     button.type = 'button';

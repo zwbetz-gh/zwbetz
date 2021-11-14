@@ -8,7 +8,7 @@ A living doc.
 
 <!--more-->
 
-<table class="usa-table">
+<table class="table">
 <thead>
 
 <tr>

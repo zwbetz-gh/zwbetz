@@ -30,6 +30,6 @@ document.head.append(style);
 
 {{< figure 
 img="chrome-bookmark.png" 
-command="Resize" 
-options="700x" 
-caption="Google Chrome bookmark" >}}
+caption="Google Chrome bookmark"
+command="Resize"
+options="200x" >}}

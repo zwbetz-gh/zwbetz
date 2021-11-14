@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ if site.Params.show_search }}
+      <input
+        class=""
+        id="search"
+        type="text"
+        aria-label="Search by title"
+        placeholder="Disabled..."
+        disabled
+      >
+    {{ end }}
+    <p class="" id="count">
+      <strong>Count:</strong> {{ len .Pages }}
+    </p>
+    <div id="list" class="">
+      <ul>
+        {{ range .Pages.ByPublishDate.Reverse }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}
