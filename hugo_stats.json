@@ -68,15 +68,10 @@
       "footnote-ref",
       "footnotes",
       "highlight",
-      "margin-top-2",
       "table",
       "table-bordered",
       "usa-button",
-      "usa-image-block",
-      "usa-image-text",
-      "usa-image-text-block",
-      "usa-input",
-      "usa-table"
+      "usa-input"
     ],
     "ids": [
       "1st-layer",

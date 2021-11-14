@@ -19,7 +19,7 @@
       {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, Original." }}
     {{ end }}
 
-    <div class="usa-image-block margin-top-2">
+    <div style="margin-bottom: 1rem;">
       <a href="{{ $original.RelPermalink }}">
         <img src="{{ $new.RelPermalink }}">
       </a>

@@ -130,4 +130,5 @@ export default App;
 img="screenshot.png"
 alt="Screenshot of the app"
 caption="Behold, git info."
-command="Original" >}}
+command="Resize"
+options="200x" >}}

@@ -34,4 +34,5 @@ How it works: The user runs the application and is prompted with a Finder window
 img="screenshot-1.png" 
 alt="Screenshot of Mac Automator application" 
 caption="Screenshot of Mac Automator application" 
-command="Original" >}}
+command="Resize"
+options="200x" >}}
