@@ -10,6 +10,10 @@
   </thead>
   <tbody>
     <tr>
+      <th scope="row">.Aliases</th>
+      <td>{{ .Aliases }}</td>
+    </tr>
+    <tr>
       <th scope="row">.Date</th>
       <td>{{ .Date }}</td>
     </tr>
@@ -32,6 +36,10 @@
     <tr>
       <th scope="row">.IsPage</th>
       <td>{{ .IsPage }}</td>
+    </tr>
+    <tr>
+      <th scope="row">.IsSection</th>
+      <td>{{ .IsSection }}</td>
     </tr>
     <tr>
       <th scope="row">.Kind</th>
@@ -86,6 +94,10 @@
     <tr>
       <th scope="row">.RelPermalink</th>
       <td>{{ .RelPermalink }}</td>
+    </tr>
+    <tr>
+      <th scope="row">.Summary</th>
+      <td>{{ .Summary }}</td>
     </tr>
     <tr>
       <th scope="row">.Title</th>
@@ -231,72 +243,72 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">.Site.BaseURL</th>
-      <td>{{ .Site.BaseURL }}</td>
+      <th scope="row">site.BaseURL</th>
+      <td>{{ site.BaseURL }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.BuildDrafts</th>
-      <td>{{ .Site.BuildDrafts }}</td>
+      <th scope="row">site.BuildDrafts</th>
+      <td>{{ site.BuildDrafts }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.Home</th>
-      <td>{{ .Site.Home }}</td>
+      <th scope="row">site.Home</th>
+      <td>{{ site.Home }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.IsMultiLingual</th>
-      <td>{{ .Site.IsMultiLingual }}</td>
+      <th scope="row">site.IsMultiLingual</th>
+      <td>{{ site.IsMultiLingual }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.IsServer</th>
-      <td>{{ .Site.IsServer }}</td>
+      <th scope="row">site.IsServer</th>
+      <td>{{ site.IsServer }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.Language.Lang</th>
-      <td>{{ .Site.Language.Lang }}</td>
+      <th scope="row">site.Language.Lang</th>
+      <td>{{ site.Language.Lang }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.LastChange</th>
-      <td>{{ .Site.LastChange }}</td>
+      <th scope="row">site.LastChange</th>
+      <td>{{ site.LastChange }}</td>
     </tr>
     <tr>
-      <th scope="row">.Site.Pages</th>
+      <th scope="row">site.Pages</th>
       <td>
         <details>
-          <summary>{{ .Site.Pages }}</summary>
-          {{ range .Site.Pages }}
+          <summary>{{ site.Pages }}</summary>
+          {{ range site.Pages }}
             {{ . }}<br>
           {{ end }}
         </details>
       </td>
     </tr>
     <tr>
-      <th scope="row">.Site.RegularPages</th>
+      <th scope="row">site.RegularPages</th>
       <td>
         <details>
-          <summary>{{ .Site.RegularPages }}</summary>
-          {{ range .Site.RegularPages }}
+          <summary>{{ site.RegularPages }}</summary>
+          {{ range site.RegularPages }}
             {{ . }}<br>
           {{ end }}
         </details>
       </td>
     </tr>
     <tr>
-      <th scope="row">.Site.Sections</th>
+      <th scope="row">site.Sections</th>
       <td>
         <details>
-          <summary>{{ .Site.Sections }}</summary>
-          {{ range .Site.Sections }}
+          <summary>{{ site.Sections }}</summary>
+          {{ range site.Sections }}
             {{ . }}<br>
           {{ end }}
         </details>
       </td>
     </tr>
     <tr>
-      <th scope="row">.Site.Taxonomies</th>
+      <th scope="row">site.Taxonomies</th>
       <td>
         <details>
-          <summary>{{ .Site.Taxonomies }}</summary>
-          {{ range .Site.Taxonomies }}
+          <summary>{{ site.Taxonomies }}</summary>
+          {{ range site.Taxonomies }}
             <details>
               <summary>{{ len . }}</summary>
               {{ range . }}
@@ -308,8 +320,8 @@
       </td>
     </tr>
     <tr>
-      <th scope="row">.Site.Title</th>
-      <td>{{ .Site.Title }}</td>
+      <th scope="row">site.Title</th>
+      <td>{{ site.Title }}</td>
     </tr>
   </tbody>
 </table>
