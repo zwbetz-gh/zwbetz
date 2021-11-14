@@ -32,7 +32,7 @@ imaging:
 
 menu:
   nav:
-    - name: zwbetz
+    - name: Home
       pre: home
       url: /
       weight: 1

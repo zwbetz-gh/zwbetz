@@ -14,19 +14,19 @@ Enjoy.
 
 ## macOS and Linux CLI
 
-**Note:** `${HOME}` or `$HOME` is also known as `~`
+**Note:** `${HOME}` is also known as `~`
 
 1. Get familiar with [macOS and Linux Environment Variables in Terminal]({{< relref "mac-and-linux-environment-variables-in-terminal" >}})
 1. Open Terminal
 1. Create directory `${HOME}/bin` by running
-    ```
-    mkdir ${HOME}/bin
-    ```
+
+        mkdir ${HOME}/bin
+
 1. Save the `binary` to directory `${HOME}/bin`
 1. Make the `binary` executable by running
-    ```
-    chmod 755 ${HOME}/bin/binary
-    ```
+
+        chmod 755 ${HOME}/bin/binary
+
 1. **macOS** specific step
     1. Open file `${HOME}/.bash_profile` in a text editor. If the file doesn't exist, create it
 1. **Linux** specific step
@@ -34,28 +34,26 @@ Enjoy.
 1. Add line `export PATH="${PATH}:${HOME}/bin"` to the file, then save it
 1. **Restart** your Terminal
 1. Verify the `binary` is on your `PATH` by running
-    ```
-    command -v binary
-    ```
+
+        command -v binary
 
 ## Windows CLI
 
 1. Get familiar with [Windows Environment Variables in Command Prompt]({{< relref "windows-environment-variables-in-command-prompt" >}})
 1. Open Command Prompt
 1. Create folder `C:\bin` by running
-    ```
-    mkdir C:\bin
-    ```
+
+        mkdir C:\bin
+
 1. Save the `binary.exe` to folder `C:\bin`
 1. Edit the `PATH` for your account
-    ```
-    setx PATH "%PATH%;C:\bin"
-    ```
+
+        setx PATH "%PATH%;C:\bin"
+
 1. **Restart** Command Prompt
 1. Verify the `binary.exe` is on your `PATH` by running
-    ```
-    where.exe binary.exe
-    ```
+
+        where.exe binary.exe
 
 ## Windows GUI
 
@@ -71,6 +69,5 @@ Enjoy.
 1. Click **OK**
 1. Open Command Prompt
 1. Verify the `binary.exe` is on your `PATH` by running
-    ```
-    where.exe binary.exe
-    ```
+
+        where.exe binary.exe
