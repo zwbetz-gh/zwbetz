@@ -49,7 +49,7 @@ params:
   show_nav_icon: true
   show_search: true
   show_built_with: true
-  show_debug_table: true
+  show_debug_table: false
   goat_counter_code: zwbetz
 
 markup:
