@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./task_get_resume.sh
+./task_resume_get.sh
 
 git add static/resume
 

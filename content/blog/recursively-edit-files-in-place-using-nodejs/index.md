@@ -4,7 +4,7 @@ date: 2021-03-12T00:08:35-06:00
 toc: false
 ---
 
-I recently converted all my blog post titles to title-case with a [little NodeJS script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_title_case.js). So, am taking the teachable bits and sharing them here.
+I recently converted all my blog post titles to title-case with a [little NodeJS script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_various_title_case.js). So, am taking the teachable bits and sharing them here.
 
 <!--more-->
 

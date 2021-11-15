@@ -16,13 +16,13 @@ My personal site
     ```
 1. Install Hugo. Assumes OS is Linux
     ```
-    ./task_install_hugo.sh <HUGO_VERSION>
+    ./task_hugo_install.sh <HUGO_VERSION>
     ```
 1. Serve site
     ```
-    ./task_serve.sh
+    ./task_site_serve.sh
     ```
 1. Build site
     ```
-    ./task_build.sh
+    ./task_site_build.sh
     ```
