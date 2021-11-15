@@ -557,6 +557,11 @@ progress {
   border-top: 2px solid currentColor;
 }
 
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* prose */
 
 p,

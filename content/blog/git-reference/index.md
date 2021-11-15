@@ -8,6 +8,7 @@ A living doc.
 
 <!--more-->
 
+<div class="table-responsive">
 <table class="table">
 <thead>
 
@@ -156,3 +157,4 @@ A living doc.
 
 </tbody>
 </table>
+</div>

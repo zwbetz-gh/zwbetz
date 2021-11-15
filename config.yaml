@@ -41,7 +41,7 @@ menu:
       url: /blog/
       weight: 2
     - name: Projects
-      pre: tool
+      pre: box
       url: /projects/
       weight: 3
 

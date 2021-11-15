@@ -20,6 +20,7 @@ For example, it may take me hours to research, experiment, and solve a problem. 
 
 As of 2021-04-11:
 
+<div class="table-responsive">
 <table class="table">
 <thead>
 
@@ -130,3 +131,4 @@ As of 2021-04-11:
 
 </tbody>
 </table>
+</div>

@@ -85,7 +85,6 @@
   const createDiv = () => {
     const newDiv = document.createElement('div');
     newDiv.id = LIST_ID;
-    newDiv.className = 'TODO';
     return newDiv;
   }
 

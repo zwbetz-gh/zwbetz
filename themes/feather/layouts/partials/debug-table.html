@@ -1,380 +1,382 @@
-{{ $class := "table" }}
+{{ $tableClass := "table" }}
 
-<h2>Page</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">.Aliases</th>
-      <td>{{ .Aliases }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Date</th>
-      <td>{{ .Date }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Draft</th>
-      <td>{{ .Draft }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.FuzzyWordCount</th>
-      <td>{{ .FuzzyWordCount }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.IsHome</th>
-      <td>{{ .IsHome }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.IsNode</th>
-      <td>{{ .IsNode }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.IsPage</th>
-      <td>{{ .IsPage }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.IsSection</th>
-      <td>{{ .IsSection }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Kind</th>
-      <td>{{ .Kind }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Lastmod</th>
-      <td>{{ .Lastmod }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.NextInSection</th>
-      <td>{{ .NextInSection }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.OutputFormats</th>
-      <td>
-        <details>
-          <summary>{{ len .OutputFormats }}</summary>
-          {{ range .OutputFormats }}
-            {{ .Name }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.Pages</th>
-      <td>
-        <details>
-          <summary>{{ .Pages }}</summary>
-          {{ range .Pages }}
-            {{ . }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.Permalink</th>
-      <td>{{ .Permalink }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.PrevInSection</th>
-      <td>{{ .PrevInSection }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.PublishDate</th>
-      <td>{{ .PublishDate }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.ReadingTime</th>
-      <td>{{ .ReadingTime }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.RelPermalink</th>
-      <td>{{ .RelPermalink }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Summary</th>
-      <td>{{ .Summary }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Title</th>
-      <td>{{ .Title }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Type</th>
-      <td>{{ .Type }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Weight</th>
-      <td>{{ .Weight }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.WordCount</th>
-      <td>{{ .WordCount }}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <h2>Page</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.Aliases</th>
+        <td>{{ .Aliases }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Date</th>
+        <td>{{ .Date }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Draft</th>
+        <td>{{ .Draft }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.FuzzyWordCount</th>
+        <td>{{ .FuzzyWordCount }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsHome</th>
+        <td>{{ .IsHome }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsNode</th>
+        <td>{{ .IsNode }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsPage</th>
+        <td>{{ .IsPage }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsSection</th>
+        <td>{{ .IsSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Kind</th>
+        <td>{{ .Kind }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Lastmod</th>
+        <td>{{ .Lastmod }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.NextInSection</th>
+        <td>{{ .NextInSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.OutputFormats</th>
+        <td>
+          <details>
+            <summary>{{ len .OutputFormats }}</summary>
+            {{ range .OutputFormats }}
+              {{ .Name }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Pages</th>
+        <td>
+          <details>
+            <summary>{{ .Pages }}</summary>
+            {{ range .Pages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Permalink</th>
+        <td>{{ .Permalink }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.PrevInSection</th>
+        <td>{{ .PrevInSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.PublishDate</th>
+        <td>{{ .PublishDate }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.ReadingTime</th>
+        <td>{{ .ReadingTime }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.RelPermalink</th>
+        <td>{{ .RelPermalink }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Summary</th>
+        <td>{{ .Summary }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Title</th>
+        <td>{{ .Title }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Type</th>
+        <td>{{ .Type }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Weight</th>
+        <td>{{ .Weight }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.WordCount</th>
+        <td>{{ .WordCount }}</td>
+      </tr>
+    </tbody>
+  </table>
 
-<h2>File</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">.File.Path</th>
-      <td>{{ with .File }}{{ .Path }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.LogicalName</th>
-      <td>{{ with .File }}{{ .LogicalName }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.TranslationBaseName</th>
-      <td>{{ with .File }}{{ .TranslationBaseName }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.ContentBaseName</th>
-      <td>{{ with .File }}{{ .ContentBaseName }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.BaseFileName</th>
-      <td>{{ with .File }}{{ .BaseFileName }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.Ext</th>
-      <td>{{ with .File }}{{ .Ext }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.Lang</th>
-      <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.Dir</th>
-      <td>{{ with .File }}{{ .Dir }}{{ end }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.File.UniqueID</th>
-      <td>{{ with .File }}{{ .UniqueID }}{{ end }}</td>
-    </tr>
-  </tbody>
-</table>
+  <h2>File</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.File.Path</th>
+        <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.LogicalName</th>
+        <td>{{ with .File }}{{ .LogicalName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.TranslationBaseName</th>
+        <td>{{ with .File }}{{ .TranslationBaseName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.ContentBaseName</th>
+        <td>{{ with .File }}{{ .ContentBaseName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.BaseFileName</th>
+        <td>{{ with .File }}{{ .BaseFileName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.Ext</th>
+        <td>{{ with .File }}{{ .Ext }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.Lang</th>
+        <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.Dir</th>
+        <td>{{ with .File }}{{ .Dir }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.UniqueID</th>
+        <td>{{ with .File }}{{ .UniqueID }}{{ end }}</td>
+      </tr>
+    </tbody>
+  </table>
 
-<h2>Section</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">.CurrentSection</th>
-      <td>{{ .CurrentSection }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.FirstSection</th>
-      <td>{{ .FirstSection }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Parent</th>
-      <td>{{ .Parent }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Section</th>
-      <td>{{ .Section }}</td>
-    </tr>
-    <tr>
-      <th scope="row">.Sections</th>
-      <td>
-        <details>
-          <summary>{{ .Sections }}</summary>
-          {{ range .Sections }}
-            {{ . }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <h2>Section</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.CurrentSection</th>
+        <td>{{ .CurrentSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.FirstSection</th>
+        <td>{{ .FirstSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Parent</th>
+        <td>{{ .Parent }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Section</th>
+        <td>{{ .Section }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Sections</th>
+        <td>
+          <details>
+            <summary>{{ .Sections }}</summary>
+            {{ range .Sections }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-<h2>Hugo</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">hugo.Version</th>
-      <td>{{ hugo.Version }}</td>
-    </tr>
-    <tr>
-      <th scope="row">hugo.BuildDate</th>
-      <td>{{ hugo.BuildDate }}</td>
-    </tr>
-    <tr>
-      <th scope="row">hugo.CommitHash</th>
-      <td>{{ hugo.CommitHash }}</td>
-    </tr>
-    <tr>
-      <th scope="row">hugo.Environment</th>
-      <td>{{ hugo.Environment }}</td>
-    </tr>
-  </tbody>
-</table>
+  <h2>Hugo</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">hugo.Version</th>
+        <td>{{ hugo.Version }}</td>
+      </tr>
+      <tr>
+        <th scope="row">hugo.BuildDate</th>
+        <td>{{ hugo.BuildDate }}</td>
+      </tr>
+      <tr>
+        <th scope="row">hugo.CommitHash</th>
+        <td>{{ hugo.CommitHash }}</td>
+      </tr>
+      <tr>
+        <th scope="row">hugo.Environment</th>
+        <td>{{ hugo.Environment }}</td>
+      </tr>
+    </tbody>
+  </table>
 
-<h2>Site</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">site.BaseURL</th>
-      <td>{{ site.BaseURL }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.BuildDrafts</th>
-      <td>{{ site.BuildDrafts }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.Home</th>
-      <td>{{ site.Home }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.IsServer</th>
-      <td>{{ site.IsServer }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.Language.Lang</th>
-      <td>{{ site.Language.Lang }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.LastChange</th>
-      <td>{{ site.LastChange }}</td>
-    </tr>
-    <tr>
-      <th scope="row">site.Pages</th>
-      <td>
-        <details>
-          <summary>{{ site.Pages }}</summary>
-          {{ range site.Pages }}
-            {{ . }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">site.RegularPages</th>
-      <td>
-        <details>
-          <summary>{{ site.RegularPages }}</summary>
-          {{ range site.RegularPages }}
-            {{ . }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">site.Sections</th>
-      <td>
-        <details>
-          <summary>{{ site.Sections }}</summary>
-          {{ range site.Sections }}
-            {{ . }}<br>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">site.Taxonomies</th>
-      <td>
-        <details>
-          <summary>{{ site.Taxonomies }}</summary>
-          {{ range site.Taxonomies }}
-            <details>
-              <summary>{{ len . }}</summary>
-              {{ range . }}
-                {{ . }}<br>
-              {{ end }}
-            </details>
-          {{ end }}
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">site.Title</th>
-      <td>{{ site.Title }}</td>
-    </tr>
-  </tbody>
-</table>
+  <h2>Site</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">site.BaseURL</th>
+        <td>{{ site.BaseURL }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.BuildDrafts</th>
+        <td>{{ site.BuildDrafts }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Home</th>
+        <td>{{ site.Home }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.IsServer</th>
+        <td>{{ site.IsServer }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Language.Lang</th>
+        <td>{{ site.Language.Lang }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.LastChange</th>
+        <td>{{ site.LastChange }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Pages</th>
+        <td>
+          <details>
+            <summary>{{ site.Pages }}</summary>
+            {{ range site.Pages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.RegularPages</th>
+        <td>
+          <details>
+            <summary>{{ site.RegularPages }}</summary>
+            {{ range site.RegularPages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Sections</th>
+        <td>
+          <details>
+            <summary>{{ site.Sections }}</summary>
+            {{ range site.Sections }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Taxonomies</th>
+        <td>
+          <details>
+            <summary>{{ site.Taxonomies }}</summary>
+            {{ range site.Taxonomies }}
+              <details>
+                <summary>{{ len . }}</summary>
+                {{ range . }}
+                  {{ . }}<br>
+                {{ end }}
+              </details>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Title</th>
+        <td>{{ site.Title }}</td>
+      </tr>
+    </tbody>
+  </table>
 
-<h2>os.Stat</h2>
-<table class="{{ $class }}">
-  <thead>
-    <tr>
-      <th scope="col">Variable</th>
-      <th scope="col">Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">.IsDir</th>
-      <td>
-        {{ with.File }}
-          {{ $path := print "content/" .Path }}
-          {{ (os.Stat $path).IsDir }}
-        {{ end }}
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.Mode</th>
-      <td>
-        {{ with.File }}
-          {{ $path := print "content/" .Path }}
-          {{ (os.Stat $path).Mode }}
-        {{ end }}
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.ModTime</th>
-      <td>
-        {{ with.File }}
-          {{ $path := print "content/" .Path }}
-          {{ (os.Stat $path).ModTime }}
-        {{ end }}
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.Name</th>
-      <td>
-        {{ with.File }}
-          {{ $path := print "content/" .Path }}
-          {{ (os.Stat $path).Name }}
-        {{ end }}
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">.Size</th>
-      <td>
-        {{ with.File }}
-          {{ $path := print "content/" .Path }}
-          {{ print (os.Stat $path).Size " bytes" }}
-        {{ end }}
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <h2>os.Stat</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.IsDir</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).IsDir }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Mode</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).Mode }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.ModTime</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).ModTime }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Name</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).Name }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Size</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ print (os.Stat $path).Size " bytes" }}
+          {{ end }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

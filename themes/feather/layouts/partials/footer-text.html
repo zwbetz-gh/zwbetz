@@ -1,5 +1,11 @@
 {{ if eq site.Params.show_built_with true }}
   <p>
-    <a href="/built-with">Built With</a>
+    <a href="/built-with">
+      <span class="custom-icon-text">
+        {{ partial "partials/feather-icons/tool.html" . }}
+        Built With
+        {{ partial "partials/feather-icons/heart.html" . }}
+      </span>
+    </a>
   </p>
 {{ end }}
