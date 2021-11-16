@@ -47,6 +47,8 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fcfcfc;
   --custom-border-radius: 6px;
+  --custom-link-color: #005ea2;
+  --custom-link-color-hover: #1a4480;
 }
 
 *,
@@ -217,19 +219,6 @@ sub {
 
 sup {
   top: -0.5em;
-}
-
-a {
-  color: #0d6efd;
-  text-decoration: underline;
-}
-a:hover {
-  color: #0a58ca;
-}
-
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none;
 }
 
 kbd {
@@ -518,6 +507,26 @@ progress {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+/* links */
+
+a {
+  color: var(--custom-link-color);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--custom-link-color);
+}
+
+a:hover {
+  color: var(--custom-link-color-hover);
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* prose */
