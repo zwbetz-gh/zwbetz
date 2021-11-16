@@ -8,9 +8,9 @@ aliases:
 toc: true
 ---
 
-Many automated functional testing projects these days rely on chromedriver as the main driver. Below are steps for Mac and Windows to download it, add it to your `PATH`, and verify setup. 
+Many automated functional testing projects these days rely on chromedriver as the main driver. Below are steps for Mac and Windows to download it, add it to your `PATH`, and verify setup.
 
-You can obviously place the chromedriver binary in any directory you like, I just used Mac `${HOME}/bin` and Windows `C:\bin` for this example. 
+You can obviously place the chromedriver binary in any directory you like, I just used Mac `${HOME}/bin` and Windows `C:\bin` for this example.
 
 <!--more-->
 
@@ -35,9 +35,9 @@ This article is basically a more specific version of [How to Add a Binary (or Ex
 1. Create directory `C:\bin`
 1. [Download chromedriver](http://chromedriver.chromium.org/downloads) for Windows and save to `C:\bin`
 1. Open Command Prompt and set the `PATH` for your account
-    ```
-    setx PATH "%PATH%;C:\bin"
-    ```
+
+        setx PATH "%PATH%;C:\bin"
+
 1. **Restart** Command Prompt
 1. Verify setup with `chromedriver.exe -v`
 

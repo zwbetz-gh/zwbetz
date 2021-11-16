@@ -16,23 +16,23 @@ This post builds on [part 1]({{< relref "convert-heic-images-to-jpg" >}}). In th
     1. Choose shell `/bin/bash`
     1. Change **Pass input** to **as arguments**
     1. Paste in this script:
-    ```bash
-    dir="$@"
-    cd "$dir"
-    shopt -s nocaseglob
-    for f in *.heic; do
-      echo "Converting $f"
-      /usr/local/bin/mogrify -format jpg $f
-    done
-    ```
+
+            dir="$@"
+            cd "$dir"
+            shopt -s nocaseglob
+            for f in *.heic; do
+              echo "Converting $f"
+              /usr/local/bin/mogrify -format jpg $f
+            done
+
 1. Drag over action **Display Notification**
     1. Enter the **Title** and **Message** you want to display
 
-How it works: The user runs the application and is prompted with a Finder window to choose a folder. Once a folder is chosen, the script changes to it, then does a case-insensitive search for all `.heic` images and converts them. When done, it displays a notification to the user. 
+How it works: The user runs the application and is prompted with a Finder window to choose a folder. Once a folder is chosen, the script changes to it, then does a case-insensitive search for all `.heic` images and converts them. When done, it displays a notification to the user.
 
 {{< figure
-img="screenshot-1.png" 
-alt="Screenshot of Mac Automator application" 
-caption="Screenshot of Mac Automator application" 
+img="screenshot-1.png"
+alt="Screenshot of Mac Automator application"
+caption="Screenshot of Mac Automator application"
 command="Resize"
 options="200x" >}}

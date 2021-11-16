@@ -16,9 +16,9 @@ These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-sto
 
 1. Use as few external binaries and libraries as possible. **This means option parser libraries are off limits**
 1. Accept input in the form of
-    ```
-    ./script [OPTIONS] -- <NAME>
-    ```
+
+        ./script [OPTIONS] -- <NAME>
+
 1. `[OPTIONS]` can be zero or multiple of
       1. `-h` or `--help`
       1. `-u` or `--uppercase`
@@ -28,12 +28,12 @@ These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-sto
 1. If `-p <PREFIX>` or ` --prefix <PREFIX>` is passed, change the greeting prefix. If `<PREFIX>` is empty, handle the error
 1. If an unknown option is passed, handle the error
 1. Print this line
-    ```
-    Hello, <NAME>
-    Your name backwards is <BACKWARDS_NAME>
-    Today is <TODAY>
-    Completed in <TIME> s
-    ```
+
+        Hello, <NAME>
+        Your name backwards is <BACKWARDS_NAME>
+        Today is <TODAY>
+        Completed in <TIME> s
+
 1. Read `<NAME>` from an argument. If the argument is empty, read from piped `stdin`. If piped `stdin` is empty, handle the error
 1. `<BACKWARDS_NAME>` is the reverse string of `<NAME>`
 1. `<TODAY>` is the current date as format `yyyy-MM-dd` in UTC
