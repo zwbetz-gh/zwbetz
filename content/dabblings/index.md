@@ -1,7 +1,9 @@
 ---
-title: "Projects"
+title: "Dabblings"
 date: 2021-01-18T13:05:50-06:00
 toc: true
+aliases:
+  - /projects/
 ---
 
 Things I may work on in spare moments of time.

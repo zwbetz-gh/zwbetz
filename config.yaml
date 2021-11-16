@@ -40,9 +40,9 @@ menu:
       pre: edit
       url: /blog/
       weight: 2
-    - name: Projects
+    - name: Dabblings
       pre: box
-      url: /projects/
+      url: /dabblings/
       weight: 3
 
 params:
