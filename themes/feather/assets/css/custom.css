@@ -46,6 +46,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fcfcfc;
+  --custom-border-radius: 6px;
 }
 
 *,
@@ -546,6 +547,12 @@ samp {
   unicode-bidi: bidi-override;
 }
 
+pre,
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: var(--custom-border-radius);
+}
+
 pre {
   display: block;
   margin-top: 0;
@@ -555,11 +562,6 @@ pre {
   font-size: 0.875em;
 }
 
-pre,
-pre code {
-  overflow-x: scroll;
-}
-
 pre code {
   font-size: inherit;
   word-break: normal;
@@ -567,11 +569,6 @@ pre code {
   color: inherit;
   background-color: transparent;
   border: none;
-}
-
-pre,
-code {
-  background-color: rgba(0, 0, 0, 0.05);
 }
 
 code {
@@ -625,7 +622,7 @@ a.custom-nav-item-active {
 /* main */
 
 main {
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 /* footer */
@@ -651,6 +648,7 @@ main {
   padding: 1rem;
   padding-bottom: 0;
   border: 1px solid;
+  border-radius: var(--custom-border-radius);
 }
 
 /* header link */
