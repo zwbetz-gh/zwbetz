@@ -231,38 +231,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-pre,
-code,
-kbd,
-samp {
-  font-family: var(--bs-font-monospace);
-  font-size: 1em;
-  direction: ltr /* rtl:ignore */;
-  unicode-bidi: bidi-override;
-}
-
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  font-size: 0.875em;
-}
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
-}
-
-code {
-  font-size: 0.875em;
-  color: #d63384;
-  word-wrap: break-word;
-}
-a > code {
-  color: inherit;
-}
-
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
@@ -568,9 +536,33 @@ blockquote {
 
 /* code */
 
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--bs-font-monospace);
+  font-size: 1em;
+  direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
+}
+
 pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
   padding: 1rem;
+  overflow: auto;
   overflow-x: scroll;
+  font-size: 0.875em;
+}
+
+pre code {
+  font-size: inherit;
+  word-break: normal;
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: none;
 }
 
 pre,
@@ -578,14 +570,14 @@ code {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-pre code {
-  padding: 0;
-  background-color: transparent;
-  border: none;
+code {
+  font-size: 0.875em;
+  word-wrap: break-word;
+  padding: 0.2em 0.4em;
+  color: inherit;
 }
 
-code {
-  padding: 0.2em 0.4em;
+a > code {
   color: inherit;
 }
 
