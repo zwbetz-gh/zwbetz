@@ -552,8 +552,12 @@ pre {
   margin-bottom: 1rem;
   padding: 1rem;
   overflow: auto;
-  overflow-x: scroll;
   font-size: 0.875em;
+}
+
+pre,
+pre code {
+  overflow-x: scroll;
 }
 
 pre code {
