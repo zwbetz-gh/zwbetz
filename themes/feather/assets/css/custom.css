@@ -578,6 +578,11 @@ code {
   color: inherit;
 }
 
+pre,
+pre code {
+  white-space: pre;
+}
+
 a > code {
   color: inherit;
 }
