@@ -1,4 +1,8 @@
-{{ if eq site.Params.show_search true }}
+{{ $showSearch := eq site.Params.show_search true }}
+{{ $isBlog := eq .RelPermalink "/blog/" }}
+{{ $loadScript := and $showSearch $isBlog }}
+
+{{ if $loadScript }}
   {{ $searchJs := resources.Get "js/search.js"
     | fingerprint
     | minify }}
