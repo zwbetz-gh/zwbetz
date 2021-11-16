@@ -599,7 +599,7 @@ code {
 
 .custom-nav-item {
   flex-grow: 1;
-  padding: 1rem;
+  padding: 0.5rem;
   font-weight: bold;
   text-align: center;
   border: 1px solid;
