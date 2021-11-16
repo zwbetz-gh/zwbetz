@@ -1,7 +1,7 @@
 <head>
   {{ hugo.Generator }}
   {{ $title := printf "%s | %s" .Title site.Title }}
-  {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" 
+  {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
   {{ $customCss := resources.Get "css/custom.css"
     | fingerprint
@@ -11,7 +11,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ $customCss.RelPermalink }}">
+  <!-- See https://web.dev/defer-non-critical-css/ -->
+  <link
+    rel="preload"
+    href="{{ $customCss.RelPermalink }}"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  >
+  <noscript>
+    <link rel="stylesheet" href="{{ $customCss.RelPermalink }}">
+  </noscript>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>{{ $title }}</title>
