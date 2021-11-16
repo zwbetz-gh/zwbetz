@@ -560,6 +560,7 @@ pre {
   padding: 1rem;
   overflow: auto;
   font-size: 0.875em;
+  overflow-wrap: normal;
 }
 
 pre code {
@@ -576,11 +577,6 @@ code {
   word-wrap: break-word;
   padding: 0.2em 0.4em;
   color: inherit;
-}
-
-pre,
-pre code {
-  white-space: pre;
 }
 
 a > code {
