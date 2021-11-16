@@ -560,7 +560,11 @@ pre {
   padding: 1rem;
   overflow: auto;
   font-size: 0.875em;
-  overflow-wrap: normal;
+}
+
+pre,
+pre code {
+  word-wrap: normal;
 }
 
 pre code {
