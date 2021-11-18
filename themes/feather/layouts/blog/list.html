@@ -15,13 +15,11 @@
       <strong>Count:</strong> {{ len .Pages }}
     </p>
     <div id="list" class="">
-      <ul>
-        {{ range .Pages.ByPublishDate.Reverse }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-        {{ end }}
-      </ul>
+      {{ range .Pages.ByPublishDate.Reverse }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </p>
+      {{ end }}
     </div>
   </div>
 {{ end }}

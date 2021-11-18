@@ -89,19 +89,13 @@
   }
 
   const createHtml = () => {
-    const listItems = filteredList.map(item => {
+    return filteredList.map(item => {
       return `\
-      <li>
+      <p>
         <a href="${item.RelPermalink}">${item.Title}</a>
-      </li>
+      </p>
       `;
     }).join('\n');
-
-    return `\
-    <ul>
-      ${listItems}
-    </ul>
-    `;
   }
 
   const renderList = () => {
