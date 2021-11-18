@@ -16,6 +16,7 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fcfcfc;
   --custom-border-radius: 6px;
+  --custom-border-line-width: 2px;
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
   --custom-link-color-visited: #54278f;
@@ -579,12 +580,12 @@ a > code {
   padding: 0.5rem;
   font-weight: bold;
   text-align: center;
-  border: 1px solid;
+  border: var(--custom-border-line-width) solid;
   border-right: 0;
 }
 
 .custom-nav-item:last-child {
-  border-right: 1px solid;
+  border-right: var(--custom-border-line-width) solid;
 }
 
 a.custom-nav-item {
@@ -612,7 +613,7 @@ main {
 /* footer */
 
 .custom-footer {
-  border-top: 1px solid;
+  border-top: var(--custom-border-line-width) solid;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -631,7 +632,7 @@ main {
   margin-bottom: 1rem;
   padding: 1rem;
   padding-bottom: 0;
-  border: 1px solid;
+  border: var(--custom-border-line-width) solid;
   border-radius: var(--custom-border-radius);
 }
 
