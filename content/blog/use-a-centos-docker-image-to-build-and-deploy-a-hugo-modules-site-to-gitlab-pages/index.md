@@ -1,7 +1,7 @@
 ---
 title: "Use a CentOS Docker Image to Build and Deploy a Hugo (Modules) Site to GitLab Pages"
 date: 2020-12-22T13:29:09-06:00
-toc: false
+toc: true
 ---
 
 Am wrapping up a project for a client that needed a static site. They requested that it be built with Hugo and deployed to GitLab pages. The theme they wanted to base it off uses Hugo Modules, which in turn requires a Golang installation.
@@ -19,7 +19,7 @@ Sample files are below.
 
 Also, this was my first time doing any CI work in GitLab, and I must say, the `.gitlab-ci.yml` is very cool. Their documentation is good too.
 
-## `.gitlab-ci.yml`
+## .gitlab-ci.yml
 
 ```yml
 image: centos:8
@@ -49,7 +49,7 @@ pages:
     - master
 ```
 
-## `task_ci_config.sh`
+## task_ci_config.sh
 
 ```shell
 #!/usr/bin/env bash
@@ -58,7 +58,7 @@ export PATH=${PATH}:/usr/local/go/bin
 export PATH=${PATH}:/usr/local
 ```
 
-## `task_ci_install_go.sh`
+## task_ci_install_go.sh
 
 ```shell
 #!/usr/bin/env bash
@@ -80,7 +80,7 @@ tar -C /usr/local -xzf ${TAR}
 go version
 ```
 
-## `task_ci_install_hugo.sh`
+## task_ci_install_hugo.sh
 
 ```shell
 #!/usr/bin/env bash
@@ -102,7 +102,7 @@ tar -C /usr/local -xzf ${TAR}
 hugo version
 ```
 
-## `task_ci_build.sh`
+## task_ci_build.sh
 
 ```shell
 #!/usr/bin/env bash
