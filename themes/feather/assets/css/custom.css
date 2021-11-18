@@ -631,6 +631,13 @@ main {
   padding-bottom: 1rem;
 }
 
+.custom-footer a,
+.custom-footer a:visited,
+.custom-footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* search */
 
 #search {
