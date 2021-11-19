@@ -169,4 +169,5 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Connecting with someone
 1. Frozen mango chunks
 1. Clear, concise, up-to-date documentation
-1. Dinner: looking forward to it and savoring it
+1. Looking forward to dinner and savoring it
+1. When you fold your socks and there's a match for each one
