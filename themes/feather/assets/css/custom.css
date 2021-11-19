@@ -490,7 +490,7 @@ iframe:focus,
 [href]:focus,
 [tabindex]:focus,
 [contentEditable=true]:focus {
-  outline: 0.25rem solid var(--custom-body-color);
+  outline: 0.25rem solid var(--custom-link-color);
   outline-offset: 0;
 }
 
@@ -607,14 +607,14 @@ a.custom-nav-item-active {
   color: var(--custom-body-bg);
 }
 
-.custom-nav-item:last-child,
-.custom-nav-item-active:last-child {
-  border-right: var(--custom-border-line-width) solid;
-}
-
 .custom-nav-item-active {
   background-color: var(--custom-body-color);
   border-color: var(--custom-body-color);
+}
+
+.custom-nav-item:last-child,
+.custom-nav-item-active:last-child {
+  border-right: var(--custom-border-line-width) solid var(--custom-body-color);
 }
 
 /* main */
