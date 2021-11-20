@@ -13,7 +13,7 @@ Welcome to my corner of the internet. Come on in and make yourself at home. `zwb
 
 My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. This site also has a [RSS feed](index.xml).
 
-I'm a Software Engineer at [Sev1Tech](https://sev1tech.com) (formerly [Geocent](https://geocent.com)). Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json).
+I'm a Software Engineer at [Sev1Tech](https://sev1tech.com) (formerly [Geocent](https://geocent.com)). Here's my [Resume](/resume/resume.html).
 
 I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu).
 
