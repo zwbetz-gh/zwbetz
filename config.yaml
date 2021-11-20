@@ -40,10 +40,6 @@ menu:
       pre: edit
       url: /blog/
       weight: 2
-    - name: Dabblings
-      pre: box
-      url: /dabblings/
-      weight: 3
 
 params:
   show_nav_icon: true
