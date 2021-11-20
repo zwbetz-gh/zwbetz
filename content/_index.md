@@ -19,7 +19,7 @@ I have a B.S. in Information Systems and Decision Sciences from [LSU](https://ww
 
 Wanna get in touch? Email me at `zwbetz` `@` `gmail.com`. Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
 
-Some blog oldies: [Simple Pleasures]({{< relref "simple-pleasures" >}}) and [Things I Like]({{< relref "things-i-like" >}}).
+A blog oldie: [Simple Pleasures]({{< relref "simple-pleasures" >}}).
 
 A quote by one of my favorite thinkers:
 
