@@ -17,6 +17,8 @@
     <div id="list" class="">
       {{ range .Pages.ByPublishDate.Reverse }}
         <p>
+          {{ .PublishDate.Format site.Params.date_format }}
+          <br>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </p>
       {{ end }}

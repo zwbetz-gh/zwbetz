@@ -3,11 +3,10 @@
     {{ partial "feather-icons/calendar.html" . }}
   </span>
   <span class="custom-icon-text">
-    {{ $dateFormat := (partial "date-format.html" | string) }}
-    {{ $formattedPublishDate := .PublishDate.Format $dateFormat }}
+    {{ $formattedPublishDate := .PublishDate.Format site.Params.date_format }}
     <strong>Published:</strong> {{ $formattedPublishDate }}
     {{ if .Lastmod }}
-      {{ $formattedLastmod := .Lastmod.Format $dateFormat }}
+      {{ $formattedLastmod := .Lastmod.Format site.Params.date_format }}
       {{ if gt .Lastmod .PublishDate }}
         &bull; <strong>Updated:</strong> {{ $formattedLastmod }}
       {{ end }}

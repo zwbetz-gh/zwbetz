@@ -3,6 +3,7 @@
 {{- range where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
 	{{- $item := dict
     "Title" .Title
+    "PublishDateFormatted" (.PublishDate.Format site.Params.date_format)
     "RelPermalink" .RelPermalink -}}
 
 	{{- $blog = $blog | append $item -}}

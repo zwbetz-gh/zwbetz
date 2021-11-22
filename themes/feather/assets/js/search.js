@@ -92,6 +92,8 @@
     return filteredList.map(item => {
       return `\
       <p>
+        ${item.PublishDateFormatted}
+        <br>
         <a href="${item.RelPermalink}">${item.Title}</a>
       </p>
       `;

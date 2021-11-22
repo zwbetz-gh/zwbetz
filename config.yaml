@@ -47,6 +47,7 @@ params:
   show_built_with: true
   show_debug_table: false
   goat_counter_code: zwbetz
+  date_format: Jan 2, 2006
 
 markup:
   defaultMarkdownHandler: goldmark
