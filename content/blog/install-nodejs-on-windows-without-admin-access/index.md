@@ -28,4 +28,5 @@ This will install node version `14.16.0`
 
 ## Related
 
+- [How to Add a Binary (or Executable, or Program) to Your PATH on macOS, Linux, or Windows]({{< relref "how-to-add-a-binary-to-your-path-on-macos-linux-windows" >}})
 - [Install Python on Windows Without Admin Access]({{< relref "install-python-on-windows-without-admin-access" >}})
