@@ -6,6 +6,7 @@ theme: feather
 enableRobotsTXT: true
 timeout: 45000
 enableGitInfo: true
+buildDrafts: true
 
 build:
   writeStats: true
@@ -45,7 +46,7 @@ params:
   show_nav_icon: true
   show_search: true
   show_built_with: true
-  show_debug_table: false
+  show_debug_table: true
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
 
