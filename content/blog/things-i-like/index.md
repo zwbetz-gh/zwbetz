@@ -296,6 +296,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Esther Perel](https://armchairexpertpod.com/pods/esther-perel)
   * [John Gottman](https://armchairexpertpod.com/pods/john-gottman)
 * [When you get home to your spouse, put a smile on. It doesn’t matter how crummy your day went](https://www.lovewhatmatters.com/when-you-get-home-to-your-spouse-put-a-smile-on-it-doesnt-matter-how-crummy-your-day-went-man-reminds-us-to-show-gratitude-when-returning-home-your-favorite-people-deserve-the-best-ve/)
+* [3 Things No One Ever Told You About Making Friends in Adulthood](https://www.artofmanliness.com/people/social-skills/3-things-no-one-ever-told-you-about-making-friends-in-adulthood/)
 
 ## Personality
 
