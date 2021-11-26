@@ -490,7 +490,7 @@ iframe:focus,
 [href]:focus,
 [tabindex]:focus,
 [contentEditable=true]:focus {
-  outline: 0.25rem solid var(--custom-link-color);
+  outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
 
