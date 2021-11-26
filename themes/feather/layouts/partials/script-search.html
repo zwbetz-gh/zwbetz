@@ -1,6 +1,5 @@
-{{ $showSearch := eq site.Params.show_search true }}
 {{ $isBlog := eq .RelPermalink "/blog/" }}
-{{ $loadScript := and $showSearch $isBlog }}
+{{ $loadScript := and $isBlog site.Params.show_search }}
 
 {{ if $loadScript }}
   {{ $searchJs := resources.Get "js/search.js"

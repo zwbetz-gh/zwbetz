@@ -1,13 +1,17 @@
+{{ $ISO_FORMAT := "2006-01-02" }}
+
 <p>
   <span class="custom-icon-text">
     {{ partial "feather-icons/calendar.html" . }}
   </span>
   <span class="custom-icon-text">
     {{ $formattedPublishDate := .PublishDate.Format site.Params.date_format }}
+    {{ $isoPublishDate := .PublishDate.Format $ISO_FORMAT }}
     <strong>Published:</strong> {{ $formattedPublishDate }}
     {{ if .Lastmod }}
       {{ $formattedLastmod := .Lastmod.Format site.Params.date_format }}
-      {{ if gt .Lastmod .PublishDate }}
+      {{ $isoLastmodDate := .Lastmod.Format $ISO_FORMAT }}
+      {{ if gt $isoLastmodDate $isoPublishDate }}
         &bull; <strong>Updated:</strong> {{ $formattedLastmod }}
       {{ end }}
     {{ end }}
