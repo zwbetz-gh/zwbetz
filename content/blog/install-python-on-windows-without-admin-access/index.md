@@ -8,7 +8,7 @@ Sometimes you need to install developer tools on a Windows machine, but you don'
 
 <!--more-->
 
-**Note:** This will only install the [embeddable package](https://docs.python.org/3.9/using/windows.html#windows-embeddable) of `python`, which means `pip` will **not** be included. If you need `pip`, then use the [full package](https://docs.python.org/3.9/using/windows.html#windows-full) (whic may require admin access).
+**Note:** This will only install the [embeddable package](https://docs.python.org/3.9/using/windows.html#windows-embeddable) of `python`, which does **not** include `pip`. If you need `pip`, then use the [full package](https://docs.python.org/3.9/using/windows.html#windows-full), which may require admin access, sigh.
 
 ## Install
 
