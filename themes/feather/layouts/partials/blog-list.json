@@ -1,0 +1,23 @@
+{{- $isBlog := eq .RelPermalink "/blog/" -}}
+{{- $pages := where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
+
+{{- if $isBlog -}}
+  {{- $pages = where $pages "Draft" "==" false -}}
+{{- else }}
+  {{- $pages = where $pages "Draft" "==" true -}}
+{{- end -}}
+
+{{- $blog := slice -}}
+
+{{- range $pages -}}
+	{{- $item := dict
+    "Title" .Title
+    "PublishDateFormatted" (.PublishDate.Format site.Params.date_format)
+    "RelPermalink" .RelPermalink -}}
+
+	{{- $blog = $blog | append $item -}}
+{{- end -}}
+
+{{- $object := dict "blog" $blog -}}
+
+{{- $object | jsonify -}}

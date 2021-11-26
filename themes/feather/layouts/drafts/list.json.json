@@ -1,17 +1,1 @@
-{{- $blog := slice -}}
-
-{{- $pages := where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
-{{- $pages = where $pages "Draft" "==" true }}
-
-{{- range $pages -}}
-	{{- $item := dict
-    "Title" .Title
-    "PublishDateFormatted" (.PublishDate.Format site.Params.date_format)
-    "RelPermalink" .RelPermalink -}}
-
-	{{- $blog = $blog | append $item -}}
-{{- end -}}
-
-{{- $object := dict "blog" $blog -}}
-
-{{- $object | jsonify -}}
+{{- partial "blog-list.json" . }}
