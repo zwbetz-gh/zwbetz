@@ -17,7 +17,7 @@ I made a [minimal, reproducible example on GitHub](https://github.com/zwbetz-gh/
 
 ## Requirements
 
-Before we dive into _how_ to do it, let's talk about _what_ it would look like. Also, note that my blog list relative URL is `/blog/`, but to keep things generic, we'll use `/posts/` since that is more common in Hugo-land. Okay, the requirements:
+Before we dive into _how_ to do it, let's talk about _what_ it would look like. Also, note that my blog list relative URL is `/blog/`, but to keep things generic, we'll use `/posts/` since that's more common in Hugo-land. Okay, the requirements:
 
 - The existing relative URL for the `/posts/` list would remain unchanged, and would still show "ready for the world" posts
 - A new relative URL for the `/drafts/` list would be created, which would show only draft posts
@@ -35,7 +35,7 @@ We'll start by telling Hugo to build drafts. Do one of the following steps:
 
 Your `content/posts/_index.md` file likely already exists, since this lets you define the title for the post list template. But if it doesn't, create it.
 
-Create a `content/drafts/_index.md` file as well. The `_index.md` should be the **only** file in the `content/drafts` directory. We just need it there so that Hugo will render the drafts template correctly.
+Create a `content/drafts/_index.md` file as well. The `_index.md` file should be the **only** file in the `content/drafts` directory. We just need it there so that Hugo will render the drafts template correctly.
 
 ## List Templates
 
@@ -81,7 +81,7 @@ Finally, we do some things you're used to: show the page title, and iterate the 
 </ul>
 ```
 
-## RSS Feed
+## RSS Feed Template
 
 When writing this tutorial, an unexpected, but pleasant [issue](https://github.com/zwbetz-gh/zwbetz/issues/9) was opened 🙂. Since drafts are now built by Hugo, we must tell the RSS feed template to exclude them.
 
@@ -90,6 +90,8 @@ Don't let this code scare you. It's the [default Hugo RSS template](https://gith
 ```xml
 {{- $pages = where $pages "Draft" "==" false -}}
 ```
+
+The full template:
 
 ```xml
 {{- $pctx := . -}}
@@ -136,12 +138,12 @@ Don't let this code scare you. It's the [default Hugo RSS template](https://gith
 
 ## Closing Thoughts
 
-The `draft` front matter param is arbitrary in this case. You could have picked a new param, like `preview`, and maybe even saved yourself some trouble. (I'm looking at you, RSS feed).
+The `draft` front matter param is personal preference in this case. You could have created a new param, like `preview`. I chose to use `draft` since its meaning is clear.
 
 With this setup, the drafts are still public, in the sense that anyone with the right URL can read them. The idea is that you _don't advertise_ the drafts list, and only share it as needed.
 
 You could take it further and sprinkle a little JavaScript to add password-protection. But if someone really wants to read it, they will open DevTools and tinker their way in.
 
-Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify give you this option, as you can specify different build configuration per environment.
+Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify allow this, letting you can specify different build configuration per environment.
 
 Anyways, I hope this was helpful. If only I would spend more time writing, and less time tweaking. Alas, ha.
