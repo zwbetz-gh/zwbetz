@@ -2,7 +2,7 @@
 title: "Discreet Drafts in Hugo"
 date: 2021-11-26T14:41:50-06:00
 toc: true
-draft: true
+draft: false
 ---
 
 I sometimes pass around blog post drafts to friends and family for review. It's usually by email or text, which is fine. Yet it would be cool if I could give them a real link. A _discreet draft_, if you will.
