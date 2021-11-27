@@ -5,7 +5,7 @@ toc: true
 draft: false
 ---
 
-I sometimes pass around blog post drafts to friends and family for review. It's usually by email or text, which is fine. Yet it would be cool if I could give them a real link. A _discreet draft_, if you will.
+I sometimes pass around blog post drafts to friends and family for review. It's usually by email or text, which is fine. Yet, it would be cool if I could give them a real link, a _discreet draft_, if you will.
 
 <!--more-->
 
@@ -91,7 +91,7 @@ Don't let this code scare you. It's the [default Hugo RSS template](https://gith
 {{- $pages = where $pages "Draft" "==" false -}}
 ```
 
-The full template:
+Create file `layouts/index.rss.xml` with the following:
 
 ```xml
 {{- $pctx := . -}}
@@ -134,6 +134,53 @@ The full template:
     {{ end }}
   </channel>
 </rss>
+```
+
+## Sitemap Template
+
+I posted this tutorial on the [forums](https://discourse.gohugo.io/t/discreet-drafts/35779) and [@davidsneighbour](https://discourse.gohugo.io/u/davidsneighbour) pointed out that the sitemap template would need updating as well.
+
+So let's fix that. Similarly to the previous section, we can tweak the [default Hugo sitemap template](https://github.com/gohugoio/hugo/blob/5f42590144579c318a444ea2ce46d5c3fbbbfe6e/tpl/tplimpl/embedded/templates/_default/sitemap.xml).
+
+I changed this:
+
+```
+{{ range .Data.Pages }}
+```
+
+To be this:
+
+```
+{{ $pages := where .Data.Pages "Draft" "==" false }}
+{{ range $pages }}
+```
+
+Create file `layouts/sitemap.xml` with the following:
+
+```xml
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ $pages := where .Data.Pages "Draft" "==" false }}
+  {{ range $pages }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
+    <xhtml:link
+                rel="alternate"
+                hreflang="{{ .Language.Lang }}"
+                href="{{ .Permalink }}"
+                />{{ end }}
+    <xhtml:link
+                rel="alternate"
+                hreflang="{{ .Language.Lang }}"
+                href="{{ .Permalink }}"
+                />{{ end }}
+  </url>
+  {{ end }}
+</urlset>
 ```
 
 ## Closing Thoughts
