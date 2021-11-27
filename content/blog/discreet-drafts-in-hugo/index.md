@@ -25,7 +25,7 @@ Before we dive into _how_ to do it, let's talk about _what_ it would look like. 
 
 ## Build Drafts
 
-We'll start by telling Hugo to build drafts. You can do this one of a few ways:
+We'll start by telling Hugo to build drafts. Do one of the following steps:
 
 - Pass the `-D` or `--buildDrafts` flag to `hugo`
 - Set the `buildDrafts` param to `true` in your site config file (this is my personal preference)
@@ -39,7 +39,7 @@ Create a `content/drafts/_index.md` file as well. The `_index.md` should be the 
 
 ## List Templates
 
-The `layouts/drafts/list.html` and `layouts/posts/list.html` list templates will be the same, since they both reference the partial.
+The `layouts/drafts/list.html` and `layouts/posts/list.html` list templates will be the same since they both reference the partial.
 
 ```html
 {{ define "main" }}
@@ -49,7 +49,15 @@ The `layouts/drafts/list.html` and `layouts/posts/list.html` list templates will
 
 ## Partial Posts List Template
 
-Create a partial template at `layouts/partials/posts-list.html`. We use a partial because the layout logic for post vs draft list is virtually the same. The only difference is whether drafts are shown.
+Create a partial template at `layouts/partials/posts-list.html`. We use a partial here because the layout logic for the post vs draft list is virtually the same. The only difference is whether drafts are shown.
+
+Okay, let's break it down. We start by defining an `$isPosts` variable. If `$isPosts` is true, we know the current context is the posts list. Otherwise, we know the drafts list is the current context.
+
+Then we define a `$pages` variable which gets all the pages in the posts section.
+
+Then we do our filtering. If `$isPosts` is true, we reassign `$pages` with all **non-draft** posts. Otherwise, we reassign `$pages` with all **draft** posts.
+
+Finally, we do some things you're used to: show the page title, and iterate the `$pages` to create a list of posts.
 
 ```html
 {{ $isPosts := eq .RelPermalink "/posts/" }}
@@ -72,3 +80,68 @@ Create a partial template at `layouts/partials/posts-list.html`. We use a partia
 {{ end }}
 </ul>
 ```
+
+## RSS Feed
+
+When writing this tutorial, an unexpected, but pleasant [issue](https://github.com/zwbetz-gh/zwbetz/issues/9) was opened 🙂. Since drafts are now built by Hugo, we must tell the RSS feed template to exclude them.
+
+Don't let this code scare you. It's the [default Hugo RSS template](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml), and I copied it as-is. I only added this line:
+
+```xml
+{{- $pages = where $pages "Draft" "==" false -}}
+```
+
+```xml
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $pages = where $pages "Draft" "==" false -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
+    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | html }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
+```
+
+## Closing Thoughts
+
+The `draft` front matter param is arbitrary in this case. You could have picked a new param, like `preview`, and maybe even saved yourself some trouble. (I'm looking at you, RSS feed).
+
+With this setup, the drafts are still public, in the sense that anyone with the right URL can read them. The idea is that you _don't advertise_ the drafts list, and only share it as needed.
+
+You could take it further and sprinkle a little JavaScript to add password-protection. But if someone really wants to read it, they will open DevTools and tinker their way in.
+
+Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify give you this option, as you can specify different build configuration per environment.
+
+Anyways, I hope this was helpful. If only I would spend more time writing, and less time tweaking. Alas, ha.
