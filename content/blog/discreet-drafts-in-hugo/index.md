@@ -33,9 +33,17 @@ We'll start by telling Hugo to build drafts. Do one of the following steps:
 
 ## Branch Bundles
 
-Your `content/posts/_index.md` file likely already exists, since this lets you define the title for the post list template. But if it doesn't, create it.
+Your `content/posts/_index.md` file _likely_ already exists, since this lets you define the title for the post list template. But if it doesn't, create it.
 
-Create a `content/drafts/_index.md` file as well. The `_index.md` file should be the **only** file in the `content/drafts` directory. We just need it there so that Hugo will render the drafts template correctly.
+Create a `content/drafts/_index.md` file. Then in the front matter set `draft` to `true`. This `_index.md` file should be the **only** file in the `content/drafts` directory. We just need it there so that Hugo will render the drafts template correctly.
+
+```markdown
+---
+title: "Drafts"
+draft: true
+---
+
+```
 
 ## List Templates
 
