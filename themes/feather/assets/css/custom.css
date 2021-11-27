@@ -21,6 +21,7 @@
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
   --custom-link-color-visited: #54278f;
+  --custom-container-max-width: 620px;
 }
 
 *,
@@ -404,7 +405,7 @@ progress {
 /* container */
 
 .container {
-  max-width: 600px;
+  max-width: var(--custom-container-max-width);
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
