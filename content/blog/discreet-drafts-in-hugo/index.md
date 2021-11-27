@@ -199,6 +199,6 @@ With this setup, the drafts are still public, in the sense that anyone with the 
 
 You could take it further and sprinkle a little JavaScript to add password-protection. But if someone really wants to read it, they will open DevTools and tinker their way in.
 
-Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify allow this, letting you can specify different build configuration per environment.
+Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify allow this, letting you specify a different build configuration per environment.
 
 Anyways, I hope this was helpful. If only I would spend more time writing, and less time tweaking. Alas, ha.
