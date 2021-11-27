@@ -17,6 +17,7 @@
   --custom-body-bg: #fcfcfc;
   --custom-border-radius: 6px;
   --custom-border-line-width: 2px;
+  --custom-border-line-style: solid;
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
   --custom-link-color-visited: #54278f;
@@ -546,8 +547,10 @@ a > code {
 
 .custom-nav {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 2rem;
+  border-width: var(--custom-border-line-width);
+  border-style: var(--custom-border-line-style);
 }
 
 .custom-nav-item {
@@ -555,27 +558,17 @@ a > code {
   padding: 0.5rem;
   font-weight: bold;
   text-align: center;
-  border: var(--custom-border-line-width) solid;
-  border-right: 0;
+  border-right-width: var(--custom-border-line-width);
+  border-right-style: var(--custom-border-line-style);
+}
+
+.custom-nav-item:last-child {
+  border-right-style: none;
 }
 
 a.custom-nav-item {
   text-decoration: none;
   color: inherit;
-}
-
-a.custom-nav-item-active {
-  color: var(--custom-body-bg);
-}
-
-.custom-nav-item-active {
-  background-color: var(--custom-body-color);
-  border-color: var(--custom-body-color);
-}
-
-.custom-nav-item:last-child,
-.custom-nav-item-active:last-child {
-  border-right: var(--custom-border-line-width) solid var(--custom-body-color);
 }
 
 /* main */
@@ -590,6 +583,7 @@ main {
   border-top: var(--custom-border-line-width) solid;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 a.custom-footer-link {
