@@ -85,7 +85,7 @@ Finally, we do some things you're used to: show the page title, and iterate the 
 
 When writing this tutorial, an unexpected, but pleasant [issue](https://github.com/zwbetz-gh/zwbetz/issues/9) was opened 🙂. Since drafts are now built by Hugo, we must tell the RSS feed template to exclude them.
 
-Don't let this code scare you. It's the [default Hugo RSS template](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml), and I copied it as-is. I only added this line:
+Don't let this code scare you. It's the [default Hugo RSS template](https://github.com/gohugoio/hugo/blob/5f42590144579c318a444ea2ce46d5c3fbbbfe6e/tpl/tplimpl/embedded/templates/_default/rss.xml), and I copied it as-is. I only added this line:
 
 ```xml
 {{- $pages = where $pages "Draft" "==" false -}}
