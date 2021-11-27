@@ -71,8 +71,7 @@
       "table",
       "table-bordered",
       "table-responsive",
-      "usa-button",
-      "usa-input"
+      "usa-button"
     ],
     "ids": [
       "1st-layer",
@@ -311,7 +310,6 @@
       "sample-list-count",
       "sample-output",
       "sample-problem",
-      "sample-search",
       "sample-usage",
       "samples",
       "science-fiction-fantasy-and-fun",
