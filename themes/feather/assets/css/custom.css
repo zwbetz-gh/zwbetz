@@ -403,7 +403,7 @@ progress {
 /* container */
 
 .container {
-  max-width: 720px;
+  max-width: 600px;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
@@ -480,13 +480,6 @@ a:visited {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
-}
-
-/* prose */
-
-p,
-blockquote {
-  max-width: 68ex;
 }
 
 /* blockquote */
