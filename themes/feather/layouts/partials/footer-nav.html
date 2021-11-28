@@ -1,0 +1,23 @@
+{{ if eq site.Params.show_built_with true }}
+  <div class="custom-footer-nav">
+    <a
+      href="/built-with"
+      class="custom-footer-link custom-footer-nav-item"
+    >
+      <span class="custom-icon-text">
+        {{ partial "partials/feather-icons/tool.html" . }}
+        Built With
+        {{ partial "partials/feather-icons/heart.html" . }}
+      </span>
+    </a>
+    <a
+      href="https://github.com/zwbetz-gh/zwbetz/issues/new/choose"
+      class="custom-footer-link custom-footer-nav-item"
+    >
+      <span class="custom-icon-text">
+        See an issue? Let me know
+        {{ partial "partials/feather-icons/smile.html" . }}
+      </span>
+    </a>
+  </div>
+{{ end }}
