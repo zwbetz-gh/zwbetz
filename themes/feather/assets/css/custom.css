@@ -557,7 +557,7 @@ a > code {
 
 .custom-nav-item {
   flex-grow: 1;
-  padding: 1rem;
+  padding: 0.5rem;
   font-weight: bold;
   text-align: center;
   border-right-width: var(--custom-border-line-width);
@@ -596,7 +596,7 @@ main {
 }
 
 .custom-footer-nav-item {
-  padding: 0.5rem;
+  padding: 0.25rem;
   margin-bottom: 1rem;
   text-align: center;
   border-width: var(--custom-border-line-width);
