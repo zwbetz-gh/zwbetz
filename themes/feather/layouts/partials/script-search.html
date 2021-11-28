@@ -3,10 +3,11 @@
 
 {{ if $loadScript }}
   {{ $searchJs := resources.Get "js/search.js"
-    | fingerprint
-    | minify }}
+    | minify
+    | fingerprint }}
   <script
     src="{{ $searchJs.RelPermalink }}"
+    integrity="{{ $searchJs.Data.Integrity }}"
     async
   ></script>
 {{ end }}

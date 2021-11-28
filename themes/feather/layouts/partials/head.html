@@ -4,14 +4,17 @@
   {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
   {{ $customCss := resources.Get "css/custom.css"
-    | fingerprint
-    | minify }}
+    | minify
+    | fingerprint }}
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ $customCss.RelPermalink }}">
+  <link rel="stylesheet"
+    href="{{ $customCss.RelPermalink }}"
+    integrity="{{ $customCss.Data.Integrity }}"
+  >
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>{{ $title }}</title>
