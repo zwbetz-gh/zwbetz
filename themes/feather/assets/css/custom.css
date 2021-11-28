@@ -552,6 +552,7 @@ a > code {
   margin-bottom: 2rem;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
+  border-radius: var(--custom-border-radius);
 }
 
 .custom-nav-item {
