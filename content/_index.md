@@ -11,7 +11,7 @@ Welcome to my corner of the internet. Come on in and make yourself at home. `zwb
 
 <!--more-->
 
-My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. This site also has a [RSS feed](index.xml).
+My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. Here's the [RSS feed](/blog/index.xml).
 
 I'm a Software Engineer at [Sev1Tech](https://sev1tech.com) (formerly [Geocent](https://geocent.com)). Here's my [Resume](/resume/resume.html).
 

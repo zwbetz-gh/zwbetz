@@ -15,6 +15,13 @@
     href="{{ $customCss.RelPermalink }}"
     integrity="{{ $customCss.Data.Integrity }}"
   >
+  {{ if eq .RelPermalink "/blog/" }}
+    {{ range .AlternativeOutputFormats }}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />`
+        .Rel .MediaType.Type .Permalink site.Title
+        | safeHTML }}
+    {{ end }}
+  {{ end }}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>{{ $title }}</title>
