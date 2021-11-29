@@ -191,14 +191,100 @@ Create file `layouts/sitemap.xml` with the following:
 </urlset>
 ```
 
+## Password Protection
+
+For fun, let's add (naive) password protection. This will keep out nontechnical folks. But savvy readers will be able to bypass this with DevTools.
+
+This little sprinkling of vanilla JavaScript does the job:
+
+- Create `div`, `form`, and `input` elements
+- Append the `input` to the `form`, the `form` to the `div`, and the `div` to the `body`
+- Listen for the `submit` event of the `form`
+- If the password is `please` then _"open sesame"_
+
+Create file `assets/js/draft.js` with the following:
+
+```js
+(function () {
+  const PASSWORD = 'please';
+  const DIV_BACKGROUND_COLOR = '#fcfcfc';
+  const DIV_ID = 'draft_div';
+  const INPUT_ID = 'draft_input';
+
+  const createDiv = () => {
+    const div = document.createElement('div');
+    div.id = DIV_ID;
+    div.style.display = 'flex';
+    div.style.justifyContent = 'center';
+    div.style.alignItems = 'center';
+    div.style.position = 'absolute';
+    div.style.top = 0;
+    div.style.left = 0;
+    div.style.width = '100%';
+    div.style.height = '100%';
+    div.style.backgroundColor = DIV_BACKGROUND_COLOR;
+    return div;
+  };
+
+  const removeDiv = () => {
+    const div = document.getElementById(DIV_ID);
+    div.remove();
+  };
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    const inputPassword = document.getElementById(INPUT_ID).value;
+    if (inputPassword === PASSWORD) {
+      removeDiv();
+    }
+  };
+
+  const createForm = () => {
+    const form = document.createElement('form');
+    form.addEventListener('submit', handleSubmit);
+    return form;
+  };
+
+  const createInput = () => {
+    const input = document.createElement('input');
+    input.id = INPUT_ID;
+    input.type = 'password';
+    input.autocomplete = 'one-time-code';
+    input.placeholder = 'Password';
+    return input;
+  };
+
+  const main = () => {
+    const div = createDiv();
+    const form = createForm();
+    const input = createInput();
+    form.appendChild(input);
+    div.appendChild(form);
+    document.body.appendChild(div);
+  };
+
+  main();
+})();
+```
+
+Edit file `layouts/_default/baseof.html` with the following. Add it to the end of the `body` element:
+
+```html
+{{ if eq .Draft true }}
+  {{ $draftJs := resources.Get "js/draft.js"
+    | minify
+    | fingerprint }}
+  <script
+    src="{{ $draftJs.RelPermalink }}"
+    integrity="{{ $draftJs.Data.Integrity }}"
+  ></script>
+{{ end }}
+```
+
 ## Closing Thoughts
 
 The `draft` front matter param is personal preference in this case. You could have created a new param, like `preview`. I chose to use `draft` since its meaning is clear.
 
 With this setup, the drafts are still public, in the sense that anyone with the right URL can read them. The idea is that you _don't advertise_ the drafts list, and only share it as needed.
-
-You could take it further and sprinkle a little JavaScript to add password-protection. But if someone really wants to read it, they will open DevTools and tinker their way in.
-
-Another potential solution for this problem is to deploy your draft posts to a different environment. Platforms like Netlify allow this, letting you specify a different build configuration per environment.
 
 Anyways, I hope this was helpful. If only I would spend more time writing, and less time tweaking. Alas, ha.
