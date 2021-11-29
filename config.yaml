@@ -34,7 +34,7 @@ imaging:
 menu:
   nav:
     - name: Home
-      pre: home
+      pre: coffee
       url: /
       weight: 1
     - name: Blog
