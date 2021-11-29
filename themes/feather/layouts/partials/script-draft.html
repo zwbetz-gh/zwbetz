@@ -1,5 +1,5 @@
 {{ if eq .Draft true }}
-  {{ $draftJs := resources.Get "js/drafts.js"
+  {{ $draftJs := resources.Get "js/draft.js"
     | minify
     | fingerprint }}
   <script
