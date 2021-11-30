@@ -306,3 +306,11 @@ The `draft` front matter param is personal preference in this case. You could ha
 With this setup, the drafts are still public, in the sense that anyone with the right URL can read them. The idea is that you _don't advertise_ the drafts list, and only share it as needed.
 
 Anyways, I hope this was helpful. If only I would spend more time writing, and less time tweaking. Alas, ha.
+
+## Alternatives
+
+Rereading this tutorial, I admit it's a bit... involved. Here are some less friction alternatives.
+
+You could make a new git branch for your (non draft) post, let your CI platform build it, then send that link to your readers. This is what [Mark Allison](https://markallison.co.uk/) does.
+
+Another variant: Deploy a separate environment where drafts are built, then send your readers here.
