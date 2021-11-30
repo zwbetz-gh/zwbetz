@@ -45,9 +45,14 @@ draft: true
 
 ```
 
-## List Templates
+## List Template
 
-The `layouts/drafts/list.html` and `layouts/posts/list.html` list templates will be the same since they both reference the partial.
+The following list templates will be the **same** because they both reference the partial.
+
+- `layouts/drafts/list.html`
+- `layouts/posts/list.html`
+
+Create **each** file with the following:
 
 ```html
 {{ define "main" }}
@@ -55,9 +60,7 @@ The `layouts/drafts/list.html` and `layouts/posts/list.html` list templates will
 {{ end }}
 ```
 
-## Partial Posts List Template
-
-Create a partial template at `layouts/partials/posts-list.html`. We use a partial here because the layout logic for the post vs draft list is virtually the same. The only difference is whether drafts are shown.
+We use a partial here because the layout logic for the post vs draft list is virtually the same. The only difference is whether drafts are shown.
 
 Okay, let's break it down. We start by defining an `$isPosts` variable. If `$isPosts` is true, we know the current context is the posts list. Otherwise, we know the drafts list is the current context.
 
@@ -66,6 +69,8 @@ Then we define a `$pages` variable which gets all the pages in the posts section
 Then we do our filtering. If `$isPosts` is true, we reassign `$pages` with all **non-draft** posts. Otherwise, we reassign `$pages` with all **draft** posts.
 
 Finally, we do some things you're used to: show the page title, and iterate the `$pages` to create a list of posts.
+
+Create file `layouts/partials/posts-list.html` with the following:
 
 ```html
 {{ $isPosts := eq .RelPermalink "/posts/" }}
@@ -99,7 +104,20 @@ Don't let this code scare you. It's the [default Hugo RSS template](https://gith
 {{- $pages = where $pages "Draft" "==" false -}}
 ```
 
-Create file `layouts/index.rss.xml` with the following:
+The following list templates will be the **same** because they both reference the partial.
+
+- `layouts/rss.xml`
+- `layouts/posts/rss.xml`
+
+Create **each** file with the following:
+
+```xml
+{{- partial "rss.xml" . -}}
+```
+
+We use a partial again because for the RSS template, the code is actually the same, and only the context is different.
+
+Create file `layouts/partials/rss.xml` with the following:
 
 ```xml
 {{- $pctx := . -}}
