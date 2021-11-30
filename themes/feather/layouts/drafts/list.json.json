@@ -1,1 +1,1 @@
-{{- partial "blog-list.json" . }}
+{{- partial "blog-list.json" . -}}
