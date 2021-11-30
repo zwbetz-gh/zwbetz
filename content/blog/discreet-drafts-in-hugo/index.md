@@ -313,4 +313,4 @@ Rereading this tutorial, I admit it's a bit... involved. Here are some less fric
 
 You could make a new git branch for your (non draft) post, let your CI platform build it, then send that link to your readers. This is what [Mark Allison](https://markallison.co.uk/) does.
 
-Another variant: Deploy a separate environment where drafts are built, then send your readers here.
+Another variant: Deploy a separate environment where drafts are built, then send your readers there.
