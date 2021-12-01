@@ -28,7 +28,7 @@ This will install node version `14.16.0`
 
 ## Known Issues
 
-[@cgronseth](https://github.com/cgronseth) opened an [issue](https://github.com/zwbetz-gh/zwbetz/issues/12) where he ran into a character limit issue. Turns out the [setx docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx#remarks) mention this too. 
+[@cgronseth](https://github.com/cgronseth) opened an [issue](https://github.com/zwbetz-gh/zwbetz/issues/12) where he hit the character limit max. Turns out the [setx docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx#remarks) mention this too.
 
 > Be aware there's a limit of 1024 characters when assigning contents to a variable using setx.
 >
