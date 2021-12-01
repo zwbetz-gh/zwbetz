@@ -26,6 +26,20 @@ This will install node version `14.16.0`
         node --version
         npm --version
 
+## Known Issues
+
+[@cgronseth](https://github.com/cgronseth) opened an [issue](https://github.com/zwbetz-gh/zwbetz/issues/12) where he ran into a character limit issue. Turns out the [setx docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx#remarks) mention this too. 
+
+> Be aware there's a limit of 1024 characters when assigning contents to a variable using setx.
+>
+> This means that the content is cropped if you go over 1024 characters, and that the cropped text is what's applied to the target variable. If this cropped text is applied to an existing variable, it can result in loss of data previously held by the target variable.
+
+He was able to resolve the issue by running this in PowerShell:
+
+```
+setx PATH ("%NODEJS_HOME%;"+[System.Environment]::GetEnvironmentVariables('User').Path)
+```
+
 ## Related
 
 - [How to Add a Binary (or Executable, or Program) to Your PATH on macOS, Linux, or Windows]({{< relref "how-to-add-a-binary-to-your-path-on-macos-linux-windows" >}})
