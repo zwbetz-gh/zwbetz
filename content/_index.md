@@ -13,9 +13,7 @@ Welcome to my corner of the internet. Come on in and make yourself at home. `zwb
 
 My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. Here's the [RSS feed](/blog/index.xml).
 
-I'm a Software Engineer at [Sev1Tech](https://sev1tech.com) (formerly [Geocent](https://geocent.com)). Here's my [Resume](/resume/resume.html).
-
-I have a B.S. in Information Systems and Decision Sciences from [LSU](https://www.lsu.edu).
+I'm a Software Engineer at Sev1Tech (formerly Geocent). I have a B.S. in Information Systems and Decision Sciences from Louisiana State University. Here's my [Resume](/resume/resume.html).
 
 Wanna get in touch? Email me at `zwbetz` `@` `gmail.com`. Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
 
