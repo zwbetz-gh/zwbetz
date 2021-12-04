@@ -21,6 +21,6 @@ The blog list page is special. It requires an extra script that enables searchin
 
 You may be wondering, why bother writing your own search? Well, it's mostly for mobile usage. I can `Command` + `F` in a desktop browser, but I still need a way to search on mobile. Plus, my search matches on multiple substrings, which is useful when you only know a few keywords of the thing you're looking for.
 
-The HTML size will obviously differ per page. But let's pick [one of the most text heavy pages]({{< relref "make-a-hugo-blog-from-scratch" >}}), which weighs in at 70 kilobytes.
+The HTML size will obviously differ per page. But let's pick [one of the most text-heavy pages]({{< relref "make-a-hugo-blog-from-scratch" >}}), which weighs in at 70 kilobytes.
 
-Going with the worst-case scenario, that comes to about 88 kilobytes per page (9 kilobytes CSS + 9 kilobytes JavaScript + 70 kilobytes HTML). Not too bad. Keep in mind this is raw file size. It doesn't consider web server compression.
+Going with the worst-case scenario (for a text-heavy page, not a page with many images, which is not the norm for this blog), that comes to about 88 kilobytes per page (9 kilobytes CSS + 9 kilobytes JavaScript + 70 kilobytes HTML). Not too bad. Keep in mind this is raw file size. It doesn't consider web server compression.
