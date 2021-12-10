@@ -18,21 +18,30 @@
       id="search"
       type="text"
       aria-label="Search by title"
-      placeholder="Disabled..."
+      placeholder="Loading..."
       disabled
     >
   {{ end }}
 
-  <p class="" id="count">
-    <strong>Count:</strong> {{ len $pages }}
+  <p id="count">
+    <span id="count-label">
+      <strong>Count:</strong>
+    </span>
+    <span id="count-value">
+      {{ len $pages }}
+    </span>
   </p>
 
   <div id="list" class="">
     {{ range $pages }}
       <p>
-        {{ .PublishDate.Format site.Params.date_format }}
+        <span class="post-date">
+          {{ .PublishDate.Format site.Params.date_format }}
+        </span>
         <br>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </span>
       </p>
     {{ end }}
   </div>
