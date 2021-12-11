@@ -1,9 +1,9 @@
 (function () {
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
 
-  const SEARCH_ID_STR = 'search';
-  const COUNT_ID_STR = 'count-value';
-  const LIST_ID_STR = 'list';
+  const SEARCH_SELECTOR_STR = '#search';
+  const COUNT_SELECTOR_STR = '#count-value';
+  const POSTS_SELECTOR_STR = '#list p';
 
   const DISPLAY_BLOCK_STR = 'block';
   const DISPLAY_NONE_STR = 'none';
@@ -26,11 +26,15 @@
   };
 
   const getSearchEl = () => {
-    return document.getElementById(SEARCH_ID_STR);
+    return document.querySelector(SEARCH_SELECTOR_STR);
   };
 
   const getCountEl = () => {
-    return document.getElementById(COUNT_ID_STR);
+    return document.querySelector(COUNT_SELECTOR_STR);
+  };
+
+  const getPostEls = () => {
+    return document.querySelectorAll(POSTS_SELECTOR_STR);
   };
 
   const getQueryWordsArr = () => {
@@ -39,10 +43,6 @@
       .trim()
       .toUpperCase()
       .split(' ');
-  };
-
-  const getPostEls = () => {
-    return document.querySelectorAll(`#${LIST_ID_STR} p`);
   };
 
   const getPostTitleStr = (postEl) => {
@@ -78,11 +78,12 @@
 
     postEls.forEach(postEl => {
       const titleStr = getPostTitleStr(postEl);
+      const hit = isHit(queryWordsArr, titleStr);
 
       logObj('queryWordsArr', queryWordsArr);
       logObj('titleStr', titleStr);
 
-      if (isHit(queryWordsArr, titleStr)) {
+      if (hit) {
         showPost(postEl);
       } else {
         hidePost(postEl);
