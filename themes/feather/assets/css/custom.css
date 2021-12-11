@@ -584,8 +584,8 @@ main {
 .custom-footer {
   border-top-width: var(--custom-border-line-width);
   border-top-style: var(--custom-border-line-style);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .custom-footer-nav {
