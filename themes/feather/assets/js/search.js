@@ -1,23 +1,37 @@
 (function () {
-  const LOG_ENABLED = false;
-  const SEARCH_ID = 'search';
-  const COUNT_VALUE_ID = 'count-value';
-  const LIST_ID = 'list';
+  const LOG_ENABLED = true;
 
-  const logPerformance = (funcNameStr, func) => {
-    const startTime = performance.now();
-    func();
-    const endTime = performance.now();
-    const duration = (endTime - startTime).toFixed(2);
+  const SEARCH_ID_STR = 'search';
+  const COUNT_ID_STR = 'count-value';
+  const LIST_ID_STR = 'list';
 
+  const DISPLAY_BLOCK_STR = 'block';
+  const DISPLAY_NONE_STR = 'none';
+
+  const logObj = (objNameStr, obj) => {
     if (LOG_ENABLED) {
-      console.log(`${funcNameStr} took ${duration} ms`);
+      console.log(objNameStr, JSON.stringify(obj));
     }
   };
 
-  const getSearchEl = () => document.getElementById(SEARCH_ID);
+  const logPerformance = (funcNameStr, func) => {
+    const startTimeNum = performance.now();
+    func();
+    const endTimeNum = performance.now();
+    const durationStr = (endTimeNum - startTimeNum).toFixed(2);
 
-  const getCountValueEl = () => document.getElementById(COUNT_VALUE_ID);
+    if (LOG_ENABLED) {
+      console.log(`${funcNameStr} took ${durationStr} ms`);
+    }
+  };
+
+  const getSearchEl = () => {
+    return document.getElementById(SEARCH_ID_STR);
+  };
+
+  const getCountEl = () => {
+    return document.getElementById(COUNT_ID_STR);
+  };
 
   const getQueryWordsArr = () => {
     return getSearchEl()
@@ -28,7 +42,7 @@
   };
 
   const getPostEls = () => {
-    return document.querySelectorAll(`#${LIST_ID} p`);
+    return document.querySelectorAll(`#${LIST_ID_STR} p`);
   };
 
   const getPostTitleStr = (postEl) => {
@@ -46,33 +60,37 @@
   };
 
   const showPost = (postEl) => {
-    postEl.style.display = 'block';
+    postEl.style.display = DISPLAY_BLOCK_STR;
   };
 
   const hidePost = (postEl) => {
-    postEl.style.display = 'none';
+    postEl.style.display = DISPLAY_NONE_STR;
   };
 
-  const updateCount = (countNum) => {
-    getCountValueEl().textContent = countNum;
+  const updateCountEl = (countNum) => {
+    getCountEl().textContent = countNum;
   };
 
   const filterPosts = () => {
-    let countNum = 0;
     const queryWordsArr = getQueryWordsArr();
     const postEls = getPostEls();
+    let countNum = postEls.length;
 
     postEls.forEach(postEl => {
       const titleStr = getPostTitleStr(postEl);
 
+      logObj('queryWordsArr', queryWordsArr);
+      logObj('titleStr', titleStr);
+
       if (isHit(queryWordsArr, titleStr)) {
         showPost(postEl);
-        countNum++;
-        updateCount(countNum);
       } else {
         hidePost(postEl);
+        countNum--;
       }
     });
+
+    updateCountEl(countNum);
   };
 
   const handleSearchEvent = () => {
