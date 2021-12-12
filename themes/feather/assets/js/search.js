@@ -1,13 +1,6 @@
 (function () {
   const LOG_ENABLED = false;
 
-  const SEARCH_SELECTOR_STR = '#search';
-  const COUNT_SELECTOR_STR = '#count-value';
-  const POSTS_SELECTOR_STR = '#list p';
-
-  const DISPLAY_BLOCK_STR = 'block';
-  const DISPLAY_NONE_STR = 'none';
-
   const logObj = (objNameStr, obj) => {
     if (LOG_ENABLED) {
       console.log(objNameStr, JSON.stringify(obj));
@@ -26,15 +19,15 @@
   };
 
   const getSearchEl = () => {
-    return document.querySelector(SEARCH_SELECTOR_STR);
+    return document.querySelector('#search');
   };
 
   const getCountEl = () => {
-    return document.querySelector(COUNT_SELECTOR_STR);
+    return document.querySelector('#count-value');
   };
 
   const getPostEls = () => {
-    return document.querySelectorAll(POSTS_SELECTOR_STR);
+    return document.querySelectorAll('#list p');
   };
 
   const getQueryWordsArr = () => {
@@ -60,11 +53,11 @@
   };
 
   const showPost = (postEl) => {
-    postEl.style.display = DISPLAY_BLOCK_STR;
+    postEl.style.display = 'block';
   };
 
   const hidePost = (postEl) => {
-    postEl.style.display = DISPLAY_NONE_STR;
+    postEl.style.display = 'none';
   };
 
   const updateCountEl = (countNum) => {
