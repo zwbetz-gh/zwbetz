@@ -10,6 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
+  {{ if eq .Draft true }}
+    <meta name="robots" content="noindex">
+  {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet"
     href="{{ $customCss.RelPermalink }}"
