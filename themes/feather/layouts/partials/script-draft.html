@@ -1,4 +1,7 @@
-{{ if eq .Draft true }}
+{{ $isDraft := eq .Draft true }}
+{{ $isNotServer := eq site.IsServer false }}
+
+{{ if and $isDraft $isNotServer }}
   {{ $draftJs := resources.Get "js/draft.js"
     | minify
     | fingerprint }}
