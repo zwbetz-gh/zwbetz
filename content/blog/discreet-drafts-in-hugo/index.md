@@ -209,6 +209,18 @@ Create file `layouts/sitemap.xml` with the following:
 </urlset>
 ```
 
+## Block Search Indexing
+
+We don't want search engines to index draft pages, so let's use a [noindex meta tag](https://developers.google.com/search/docs/advanced/crawling/block-indexing) to prevent this.
+
+Edit file `layouts/_default/baseof.html` with the following. Add it within the `head` element:
+
+```html
+{{ if eq .Draft true }}
+  <meta name="robots" content="noindex">
+{{ end }}
+```
+
 ## Password Protection
 
 For fun, let's add (naive) password protection. This will keep out nontechnical folks. But savvy readers will be able to bypass this with DevTools.
