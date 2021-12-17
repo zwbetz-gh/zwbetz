@@ -487,6 +487,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [Zack Snyder's Justice League](https://en.wikipedia.org/wiki/Zack_Snyder%27s_Justice_League)
 * [Westworld](https://en.wikipedia.org/wiki/Westworld_(TV_series))
 * [Midnight Mass](https://en.wikipedia.org/wiki/Midnight_Mass_(miniseries))
+* [Shang-Chi and the Legend of the Ten Rings](https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings)
 
 ## Video Games
 
