@@ -18,10 +18,10 @@ This is one of those weird tasks where the time it takes to automate the thing [
 1. Commit and push the changes. Git will output a pull request URL for you. Profit
 
 ```sh
-export main_branch="master" && \
+export main_branch="develop" && \
 export feature_branch="some-name" && \
 export commit_message="some message" && \
-git checkout "${main_branch}" && \
+git checkout "${main_branch}" ; \
 git pull origin "${main_branch}" && \
 git checkout -b "${feature_branch}"
 
