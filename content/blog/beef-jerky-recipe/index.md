@@ -5,13 +5,13 @@ toc: false
 draft: false
 ---
 
-My dad let me borrow his jerky maker over the holidays and now I have the bug. No, not covid, the other one, the jerky-bug. Anyways, these make for nice, little Christmas baggies. Let's geaux.
+My dad let me borrow his jerky maker -- a [NESCO FD-28JX JerkyXpress Dehydrator](https://www.nesco.com/product/fd-28jx-jerky-xpress-food-dehydrator/) -- over the holidays and now I have the bug. No, not covid, the other one, the jerky-bug. Anyways, these make for nice, little Christmas baggies. Let's geaux.
 
 <!--more-->
 
 ## Ingredients
 
-- Beef (eye of round, etc.)
+- Beef (eye of round, sizzle steaks, etc.)
 - Cajun seasoning
 - Garlic powder
 - Course black pepper
