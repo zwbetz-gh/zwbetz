@@ -207,10 +207,6 @@ kbd kbd {
   font-weight: 700;
 }
 
-figure {
-  margin: 0 0 1rem;
-}
-
 img,
 svg {
   vertical-align: middle;
@@ -554,10 +550,18 @@ img {
 /* figure */
 
 figure {
-  padding: 1rem;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
-  border-radius: var(--custom-border-radius);
+}
+
+figcaption {
+  padding: 1rem;
+  border-top-width: var(--custom-border-line-width);
+  border-top-style: var(--custom-border-line-style);
 }
 
 /* nav */
@@ -568,7 +572,6 @@ figure {
   margin-bottom: 2rem;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
-  border-radius: var(--custom-border-radius);
 }
 
 .custom-nav-item {
