@@ -544,6 +544,22 @@ a > code {
   color: inherit;
 }
 
+/* img */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* figure */
+
+figure {
+  padding: 1rem;
+  border-width: var(--custom-border-line-width);
+  border-style: var(--custom-border-line-style);
+  border-radius: var(--custom-border-radius);
+}
+
 /* nav */
 
 .custom-nav {

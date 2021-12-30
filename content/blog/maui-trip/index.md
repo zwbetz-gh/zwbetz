@@ -40,4 +40,4 @@ There are [many places to stop along the way](https://roadtohana.com/sights.php)
 
 {{< gallery 
 command="Resize" 
-options="400x" >}}
+options="600x" >}}

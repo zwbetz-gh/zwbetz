@@ -72,4 +72,4 @@ img="test-pyramid.png"
 alt="Test Pyramid"
 caption="The Test Pyramid, courtesy of <https://martinfowler.com/articles/practical-test-pyramid.html>"
 command="Resize"
-options="200x" >}}
+options="600x" >}}

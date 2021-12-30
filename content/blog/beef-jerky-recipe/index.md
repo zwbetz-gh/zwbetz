@@ -1,7 +1,7 @@
 ---
 title: "Beef Jerky Recipe"
 date: 2021-12-14T00:00:00-06:00
-toc: false
+toc: true
 draft: false
 ---
 
@@ -11,13 +11,12 @@ My dad let me borrow his jerky maker -- a [NESCO FD-28JX JerkyXpress Dehydrator]
 
 ## Ingredients
 
-- Beef (eye of round, sizzle steaks, etc.)
+- Beef: eye of round, sizzle steak, milanesa, etc.
 - Cajun seasoning
 - Garlic powder
 - Course black pepper
 - Crab boil
 - Brown sugar
-- Tiger sauce
 - Worcestershire sauce
 
 ## Directions
@@ -32,8 +31,50 @@ The [National Center for Home Food Preservation](https://nchfp.uga.edu/how/dry/j
 
 On prep:
 
-> Partially freeze meat to make slicing easier. The thickness of the meat strips will make a difference in the safety of the methods recommended in this book. Slice meat no thicker than ¼ inch. Trim and discard all fat from meat because it becomes rancid quickly. If a chewy jerky is desired, slice with the grain. Slice across the grain if a more tender, brittle jerky is preferred. A tenderizer can be used according to package directions, if desired. The meat can be marinated for flavor and tenderness. Marinade recipes may include oil, salt, spices and acid ingredients such as vinegar, lemon juice, teriyaki, or soy sauce or wine.
+> Partially freeze meat to make slicing easier. The thickness of the meat strips will make a difference in the safety of the methods recommended in this book. Slice meat no thicker than 1/4 inch. Trim and discard all fat from meat because it becomes rancid quickly. If a chewy jerky is desired, slice with the grain. Slice across the grain if a more tender, brittle jerky is preferred. A tenderizer can be used according to package directions, if desired. The meat can be marinated for flavor and tenderness. Marinade recipes may include oil, salt, spices and acid ingredients such as vinegar, lemon juice, teriyaki, or soy sauce or wine.
 
 On storage:
 
 > Properly dried jerky will keep at room temperature two weeks in a sealed container. For best results, to increase shelf life and maintain best flavor and quality, refrigerate or freeze jerky.
+
+## Results
+
+{{< figure
+img="img/jerky-1.jpg"
+caption="Jerky trial 1. Dehydrated for about 5 hours. Not too bad. Not quite chewy enough, though."
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/jerky-2.jpg"
+caption="Jerky trial 2. Dehydrated for about 6 hours. This was my favorite batch so far."
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/jerky-3.jpg"
+caption="Jerky trial 3. Dehydrated for about 6 hours. NESCO sent some seasoning packs with the maker. I'm glad I tried them, but I'll be returning to my own recipe."
+command="Resize"
+options="600x" >}}
+
+## Beef
+
+I've used eye of round and sizzle steaks with success. Other folks on the internet say milanesa works too. I'll give it a try once Walmart restocks it.
+
+{{< figure
+img="img/walmart-beef-eye-of-round.jpg"
+caption="Walmart beef eye of round"
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/walmart-beef-milanesa.jpg"
+caption="Walmart beef milanesa"
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/walmart-beef-sizzle-steak.jpg"
+caption="Walmart beef sizzle steak"
+command="Resize"
+options="600x" >}}

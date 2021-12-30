@@ -25,7 +25,7 @@ img="before-and-after.jpg"
 alt="Before and after of my back"
 caption="**Left:** Jan 2017, weighed 175 lbs. **Right:** Dec 2017, weighed 200 lbs."
 command="Resize"
-options="200x" >}}
+options="600x" >}}
 
 Reading this back to myself. I sound kinda like an infomercial for routines. And that's okay. Because I really do want to sell you on them. If you think about it, we all follow a routine. It's just a matter of how much of that routine is **intentional**. I think Annie Dillard [says](https://www.brainpickings.org/2013/06/07/annie-dillard-the-writing-life-1/) it best:
 

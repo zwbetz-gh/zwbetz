@@ -30,6 +30,6 @@ img="family.jpg"
 alt="The family"
 caption="The family"
 command="Resize"
-options="200x" >}}
+options="600x" >}}
 
 Disclaimer: Opinions expressed here are my own and not those of my employer or any past employer.

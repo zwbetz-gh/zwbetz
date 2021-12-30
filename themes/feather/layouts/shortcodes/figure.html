@@ -1,6 +1,6 @@
 {{ $img := .Get "img" }}
-{{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
+{{ $alt := .Get "alt" | default $caption }}
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
 
@@ -19,15 +19,13 @@
   {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, Original." }}
 {{ end }}
 
-<div>
+{{ $figcaption := $caption | markdownify }}
+
+<figure>
   <a href="{{ $original.RelPermalink }}">
     <img src="{{ $new.RelPermalink }}" alt="{{ $alt }}">
   </a>
-  <div>
-    <small>
-      <p>
-        {{ $caption | markdownify }}
-      </p>
-    </small>
-  </div>
-</div>
+  <figcaption>
+    {{ $figcaption }}
+  </figcaption>
+</figure>
