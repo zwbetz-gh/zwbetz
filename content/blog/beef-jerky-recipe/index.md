@@ -5,7 +5,7 @@ toc: true
 draft: false
 ---
 
-My dad let me borrow his jerky maker -- a [NESCO FD-28JX JerkyXpress Dehydrator](https://www.nesco.com/product/fd-28jx-jerky-xpress-food-dehydrator/) -- over the holidays and now I have the bug. No, not covid, the other one, the jerky-bug. Anyways, these make for nice, little Christmas baggies. Let's geaux.
+My dad let me borrow his jerky maker (I've since bought my own) -- a [NESCO FD-28JX JerkyXpress Dehydrator](https://www.nesco.com/product/fd-28jx-jerky-xpress-food-dehydrator/) -- over the holidays and now I have the bug. No, not covid, the other one, the jerky-bug. Anyways, these make for nice, little Christmas baggies. Let's geaux.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ My dad let me borrow his jerky maker -- a [NESCO FD-28JX JerkyXpress Dehydrator]
 
 1. Cut beef into thin strips
 1. Mix everything together and let marinate for a few hours. Quantities were intentionally not specified. My unpopular opinion is that each batch of jerky should be different
-1. Place in dehydrator. The pieces can lightly touch but should not stack. Let it ride for 6 hours or more
+1. Place in the dehydrator. The pieces can lightly touch but should not stack. Let it ride for 6 hours or more
 
 ## Notes
 
@@ -35,7 +35,7 @@ On prep:
 
 On storage:
 
-> Properly dried jerky will keep at room temperature two weeks in a sealed container. For best results, to increase shelf life and maintain best flavor and quality, refrigerate or freeze jerky.
+> Properly dried jerky will keep at room temperature for two weeks in a sealed container. For best results, to increase shelf life and maintain best flavor and quality, refrigerate or freeze jerky.
 
 ## Results
 
