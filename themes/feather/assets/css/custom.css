@@ -569,6 +569,7 @@ figcaption {
 .custom-nav {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
@@ -592,19 +593,17 @@ a.custom-nav-item {
   color: inherit;
 }
 
-/* main */
-
-main {
-  margin-bottom: 8rem;
-}
-
 /* footer */
 
 .custom-footer {
-  border-top-width: var(--custom-border-line-width);
-  border-top-style: var(--custom-border-line-style);
+  margin-top: 8rem;
+  margin-bottom: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: var(--custom-border-line-width);
+  border-style: var(--custom-border-line-style);
 }
 
 .custom-footer-nav {
@@ -620,7 +619,6 @@ main {
   text-align: center;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
-  border-radius: var(--custom-border-radius);
 }
 
 .custom-footer-nav-item:last-child {
@@ -647,7 +645,6 @@ a.custom-footer-link {
   padding: 1rem;
   padding-bottom: 0;
   border: var(--custom-border-line-width) solid;
-  border-radius: var(--custom-border-radius);
 }
 
 /* header link */
