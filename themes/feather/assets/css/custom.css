@@ -7,8 +7,11 @@
  */
 
 :root {
-  --custom-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --custom-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --custom-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --custom-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
   --custom-body-font-family: var(--custom-font-sans-serif);
   --custom-body-font-size: 16px;
   --custom-body-font-weight: 400;
@@ -61,7 +64,12 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, h5, h4, h3, h2, h1 {
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -268,7 +276,7 @@ select {
   text-transform: none;
 }
 
-[role=button] {
+[role='button'] {
   cursor: pointer;
 }
 
@@ -284,15 +292,15 @@ select:disabled {
 }
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled) {
   cursor: pointer;
 }
 
@@ -343,7 +351,7 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
+[type='search'] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
 }
@@ -455,7 +463,7 @@ button:not([disabled]):focus,
 iframe:focus,
 [href]:focus,
 [tabindex]:focus,
-[contentEditable=true]:focus {
+[contentEditable='true']:focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
@@ -475,7 +483,8 @@ a:visited {
   color: var(--custom-link-color-visited);
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
@@ -568,8 +577,8 @@ figcaption {
 
 .custom-shared-nav {
   display: flex;
-	flex-direction: column;
-	justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   align-items: stretch;
 }
 

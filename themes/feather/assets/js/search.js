@@ -31,18 +31,13 @@
   };
 
   const getQueryWordsArr = () => {
-    return getSearchEl()
-      .value
-      .trim()
-      .toUpperCase()
-      .split(' ');
+    return getSearchEl().value.trim().toUpperCase().split(' ');
   };
 
-  const getPostTitleStr = (postEl) => {
+  const getPostTitleStr = postEl => {
     return postEl
       .querySelector('span.post-title')
-      .textContent
-      .trim()
+      .textContent.trim()
       .toUpperCase();
   };
 
@@ -52,15 +47,15 @@
     });
   };
 
-  const showPost = (postEl) => {
+  const showPost = postEl => {
     postEl.style.display = 'block';
   };
 
-  const hidePost = (postEl) => {
+  const hidePost = postEl => {
     postEl.style.display = 'none';
   };
 
-  const updateCountEl = (countNum) => {
+  const updateCountEl = countNum => {
     getCountEl().textContent = countNum;
   };
 
