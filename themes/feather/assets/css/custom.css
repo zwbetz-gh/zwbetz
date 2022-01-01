@@ -574,17 +574,16 @@ figcaption {
 }
 
 .custom-shared-nav-item {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
   text-align: center;
-  font-weight: bold;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
   border-color: var(--custom-link-color);
+  border-bottom-style: none;
 }
 
 .custom-shared-nav-item:last-child {
-  margin-bottom: 0;
+  border-bottom-style: var(--custom-border-line-style);
 }
 
 .custom-shared-nav-item:hover {
@@ -615,7 +614,6 @@ a.custom-shared-nav-item:hover {
 }
 
 .custom-footer .custom-shared-nav-item {
-  padding: 0.25rem;
   font-weight: normal;
 }
 
