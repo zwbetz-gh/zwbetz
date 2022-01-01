@@ -5,7 +5,6 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@gouch/to-title-case": "^2.2.1",
     "prettier": "^2.5.1"
   }
 }
