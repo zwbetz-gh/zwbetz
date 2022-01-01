@@ -570,10 +570,10 @@ figcaption {
   display: flex;
 	flex-direction: column;
 	justify-content: center;
+  align-items: stretch;
 }
 
 .custom-shared-nav-item {
-  flex-grow: 1;
   padding: 0.5rem;
   margin-bottom: 1rem;
   text-align: center;
