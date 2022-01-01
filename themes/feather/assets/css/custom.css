@@ -14,7 +14,7 @@
   --custom-body-font-weight: 400;
   --custom-body-line-height: 1.6;
   --custom-body-color: #212529;
-  --custom-body-bg: #fcfcfc;
+  --custom-body-background-color: #fcfcfc;
   --custom-border-radius: 6px;
   --custom-border-line-width: 2px;
   --custom-border-line-style: solid;
@@ -44,7 +44,7 @@ body {
   line-height: var(--custom-body-line-height);
   color: var(--custom-body-color);
   text-align: var(--custom-body-text-align);
-  background-color: var(--custom-body-bg);
+  background-color: var(--custom-body-background-color);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -573,6 +573,7 @@ figcaption {
   margin-bottom: 2rem;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
+  border-color: var(--custom-link-color);
 }
 
 .custom-nav-item {
@@ -582,6 +583,11 @@ figcaption {
   text-align: center;
   border-right-width: var(--custom-border-line-width);
   border-right-style: var(--custom-border-line-style);
+  border-right-color: var(--custom-link-color);
+}
+
+.custom-nav-item:hover {
+  background-color: var(--custom-link-color);
 }
 
 .custom-nav-item:last-child {
@@ -590,7 +596,11 @@ figcaption {
 
 a.custom-nav-item {
   text-decoration: none;
-  color: inherit;
+  color: var(--custom-link-color);
+}
+
+a.custom-nav-item:hover {
+  color: var(--custom-body-background-color);
 }
 
 /* footer */
@@ -598,12 +608,6 @@ a.custom-nav-item {
 .custom-footer {
   margin-top: 8rem;
   margin-bottom: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-width: var(--custom-border-line-width);
-  border-style: var(--custom-border-line-style);
 }
 
 .custom-footer-nav {
@@ -619,6 +623,11 @@ a.custom-nav-item {
   text-align: center;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
+  border-color: var(--custom-link-color);
+}
+
+.custom-footer-nav-item:hover {
+  background-color: var(--custom-link-color);
 }
 
 .custom-footer-nav-item:last-child {
@@ -627,7 +636,11 @@ a.custom-nav-item {
 
 a.custom-footer-link {
   text-decoration: none;
-  color: inherit;
+  color: var(--custom-link-color);
+}
+
+a.custom-footer-link:hover {
+  color: var(--custom-body-background-color);
 }
 
 /* search */
