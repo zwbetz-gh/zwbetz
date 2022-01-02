@@ -583,7 +583,7 @@ figcaption {
 }
 
 .custom-shared-nav-item {
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   border-width: var(--custom-border-line-width);
   border-style: var(--custom-border-line-style);
