@@ -41,25 +41,31 @@ On storage:
 
 {{< figure
 img="img/jerky-1.jpg"
-caption="Jerky trial 1. Dehydrated for about 5 hours. Not too bad. Not quite chewy enough, though."
+caption="Jerky trial 1 with sizzle steak. Dehydrated for about 5 hours. Not too bad. Not quite chewy enough, though."
 command="Resize"
 options="600x" >}}
 
 {{< figure
 img="img/jerky-2.jpg"
-caption="Jerky trial 2. Dehydrated for about 6 hours. This was my favorite batch so far."
+caption="Jerky trial 2 with eye of round. Dehydrated for about 6 hours. ~~This was my favorite batch so far.~~"
 command="Resize"
 options="600x" >}}
 
 {{< figure
 img="img/jerky-3.jpg"
-caption="Jerky trial 3. Dehydrated for about 6 hours. NESCO sent some seasoning packs with the maker. I'm glad I tried them, but I'll be returning to my own recipe."
+caption="Jerky trial 3 with sizzle steak. Dehydrated for about 6 hours. NESCO sent some seasoning packs with the maker. I'm glad I tried them, but I'll be returning to my own recipe."
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/jerky-4.jpg"
+caption="Jerky trial 4 with milanesa. Dehydrated for about 6 hours. Walmart finally had milanesa in stock. I like how thin these turned out. My favorite batch so far."
 command="Resize"
 options="600x" >}}
 
 ## Beef
 
-I've used eye of round and sizzle steaks with success. Other folks on the internet say milanesa works too. I'll give it a try once Walmart restocks it.
+I've used eye of round and sizzle steaks with success. Other folks on the internet say milanesa works too. ~~I'll give it a try once Walmart restocks it.~~ -- I tried it. Can confirm, it works well.
 
 {{< figure
 img="img/walmart-beef-eye-of-round.jpg"
