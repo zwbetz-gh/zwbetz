@@ -489,6 +489,8 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [Midnight Mass](https://en.wikipedia.org/wiki/Midnight_Mass_(miniseries))
 * [Shang-Chi and the Legend of the Ten Rings](https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings)
 * [The Silent Sea](https://en.wikipedia.org/wiki/The_Silent_Sea_(TV_series))
+* [Encanto](https://en.wikipedia.org/wiki/Encanto_(film))
+* [Eternals](https://en.wikipedia.org/wiki/Eternals_(film))
 
 ## Video Games
 
