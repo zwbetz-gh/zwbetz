@@ -1,9 +1,10 @@
 {{ $htmlTable := .Inner | markdownify }}
-{{ $class := .Get 0 }}
-{{ $oldTag := "<table>" }}
-{{ $newTag := printf "<table class=\"table %s\">" $class }}
+{{ $class := .Get 0 | default "" }}
+{{ $oldTag := `<table>` }}
+{{ $newTag := printf `<table class="table %s">` $class }}
 {{ $htmlTable := replace $htmlTable $oldTag $newTag }}
+{{ $safeHtmlTable := $htmlTable | safeHTML }}
 
 <div class="table-responsive">
-  {{ $htmlTable | safeHTML }}
+  {{ $safeHtmlTable }}
 </div>

@@ -17,7 +17,7 @@ We'll start with this code:
 
 The `urls.Parse` function returns a [URL struct](https://godoc.org/net/url#URL), so the value of each struct field would be:
 
-{{< table "table table-bordered" >}}
+{{< table >}}
 | Field           | Value                             |
 |-----------------|-----------------------------------|
 | `$url.Scheme`   | `https`                           |

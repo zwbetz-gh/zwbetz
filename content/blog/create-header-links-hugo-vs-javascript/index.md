@@ -44,7 +44,7 @@ I will assume you're already familiar with the "dot", `replaceRE`, and `safeHTML
 
 `(<h[2-9] id=\"([^\"]+)\">)(.+)(</h[2-9]+>)` is a regular expression. Each set of parentheses is a "group" and will return a "match". Given the header `<h2 id="some-header">Some Header</h2>`, see the following table for how it will be parsed. 
 
-{{< table "table table-bordered" >}}
+{{< table >}}
 
 | Group | Regex                       | Match                   |
 | ----- | --------------------------- | ----------------------- |
