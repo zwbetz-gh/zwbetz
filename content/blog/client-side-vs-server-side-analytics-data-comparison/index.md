@@ -7,15 +7,15 @@ draft: false
 
 I currently use GoatCounter for client-side analytics and am pleased with it. Shout-out to [Martin Tournoij](https://github.com/arp242) for creating it -- Google Analytics needed some quality competition.
 
+<!--more-->
+
 Netlify currently hosts my site. They happen to collect analytics, which they'll show you for $9 a month. I figured, why not, I'll pay it once just to compare.
 
-The results were interesting. Seemingly 1483 visitors went under the client-side analytics radar.
+I compared data for the last month: Dec 14, 2021 to Jan 14, 2022. The results were interesting.
 
-Why? Who knows. It could be any number of things: they're behind a (strict) VPN or proxy, they use browser extensions that block the counter script, they navigated away before the counter script loaded, etc.
+Seemingly 1483 visitors went under the client-side analytics radar. Why? Who knows. It could be any number of things: they're behind a (strict) VPN or proxy, they use browser extensions that block the counter script, they navigated away before the counter script loaded, etc.
 
 Regardless, now I feel like I can safely overestimate total unique visits reported by client-side analytics. Zing!
-
-<!--more-->
 
 {{< table >}}
 | Metric | Client-Side | Server-Side | Diff |
