@@ -605,7 +605,6 @@ figcaption {
 a.custom-shared-nav-item {
   text-decoration: none;
   color: var(--custom-link-color);
-  transition: 0.5s;
 }
 
 a.custom-shared-nav-item:hover {
