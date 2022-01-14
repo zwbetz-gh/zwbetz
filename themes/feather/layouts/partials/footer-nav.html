@@ -5,8 +5,10 @@
       class="custom-footer-link custom-shared-nav-item"
     >
       <span class="custom-icon-text">
-        Built with
-        {{ partial "partials/feather-icons/heart.html" . }}
+        Built With
+        {{ if eq site.Params.show_footer_nav_icon true }}
+          {{ partial "partials/feather-icons/heart.html" . }}
+        {{ end }}
       </span>
     </a>
     <a
@@ -14,8 +16,10 @@
       class="custom-footer-link custom-shared-nav-item"
     >
       <span class="custom-icon-text">
-        See an issue? Let me know
-        {{ partial "partials/feather-icons/check.html" . }}
+        See an Issue? Let me Know
+        {{ if eq site.Params.show_footer_nav_icon true }}
+          {{ partial "partials/feather-icons/check.html" . }}
+        {{ end }}
       </span>
     </a>
   </div>

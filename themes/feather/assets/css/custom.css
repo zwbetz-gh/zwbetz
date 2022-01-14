@@ -19,8 +19,9 @@
   --custom-body-color: #212529;
   --custom-body-background-color: #fcfcfc;
   --custom-border-radius: 6px;
-  --custom-border-line-width: 2px;
-  --custom-border-line-style: solid;
+  --custom-border-width: 2px;
+  --custom-border-width-thick: 0.25rem;
+  --custom-border-style: solid;
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
   --custom-link-color-visited: #54278f;
@@ -492,7 +493,8 @@ a:not([href]):not([class]):hover {
 /* blockquote */
 
 blockquote {
-  border-left: 0.25rem solid;
+  border-left-width: var(--custom-border-width-thick);
+  border-left-style: var(--custom-border-style);
   padding-left: 1rem;
   margin-left: 0;
 }
@@ -563,14 +565,14 @@ figure {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 1rem;
-  border-width: var(--custom-border-line-width);
-  border-style: var(--custom-border-line-style);
+  border-width: var(--custom-border-width);
+  border-style: var(--custom-border-style);
 }
 
 figcaption {
   padding: 1rem;
-  border-top-width: var(--custom-border-line-width);
-  border-top-style: var(--custom-border-line-style);
+  border-top-width: var(--custom-border-width);
+  border-top-style: var(--custom-border-style);
 }
 
 /* shared nav */
@@ -584,15 +586,16 @@ figcaption {
 
 .custom-shared-nav-item {
   padding: 0.5rem;
+  font-weight: bold;
   text-align: center;
-  border-width: var(--custom-border-line-width);
-  border-style: var(--custom-border-line-style);
+  border-width: var(--custom-border-width-thick);
+  border-style: var(--custom-border-style);
   border-color: var(--custom-link-color);
   border-bottom-style: none;
 }
 
 .custom-shared-nav-item:last-child {
-  border-bottom-style: var(--custom-border-line-style);
+  border-bottom-style: var(--custom-border-style);
 }
 
 .custom-shared-nav-item:hover {
@@ -602,6 +605,7 @@ figcaption {
 a.custom-shared-nav-item {
   text-decoration: none;
   color: var(--custom-link-color);
+  transition: 0.5s;
 }
 
 a.custom-shared-nav-item:hover {
@@ -622,10 +626,6 @@ a.custom-shared-nav-item:hover {
   margin-bottom: 1rem;
 }
 
-.custom-footer .custom-shared-nav-item {
-  font-weight: normal;
-}
-
 /* search */
 
 #search {
@@ -640,7 +640,7 @@ a.custom-shared-nav-item:hover {
   margin-bottom: 1rem;
   padding: 1rem;
   padding-bottom: 0;
-  border: var(--custom-border-line-width) solid;
+  border: var(--custom-border-width) solid;
 }
 
 /* header link */

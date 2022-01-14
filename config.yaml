@@ -42,7 +42,8 @@ menu:
       weight: 2
 
 params:
-  show_nav_icon: true
+  show_nav_icon: false
+  show_footer_nav_icon: false
   show_search: true
   show_built_with: true
   show_debug_table: false
