@@ -34,7 +34,7 @@ After a bit of tinkering, here's the shortcode I came up with. To use it, pass t
 
 ```
 {{ $htmlTable := .Inner | markdownify }}
-{{ $class := .Get 0 }}
+{{ $class := .Get 0 | default "" }}
 {{ $old := "<table>" }}
 {{ $new := printf "<table class=\"%s\">" $class }}
 {{ $htmlTable := replace $htmlTable $old $new }}
