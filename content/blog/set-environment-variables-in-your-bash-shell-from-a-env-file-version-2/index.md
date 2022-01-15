@@ -35,12 +35,14 @@ set +o allexport
 ## Usage
 1. Unset env vars
 
-        unset FULL_NAME; unset FOO;
+        unset FULL_NAME
+        unset FOO
 
 1. Set env vars in your Bash shell
 
-        source setenv.sh;
+        source setenv.sh
 
 1. Confirm env vars
 
-        echo ${FULL_NAME}; echo ${FOO};
+        echo ${FULL_NAME}
+        echo ${FOO}
