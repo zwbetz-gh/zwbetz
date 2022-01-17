@@ -19,8 +19,7 @@
   --custom-body-color: #212529;
   --custom-body-background-color: #fcfcfc;
   --custom-border-radius: 6px;
-  --custom-border-width: 2px;
-  --custom-border-width-thick: 0.25rem;
+  --custom-border-width: 0.25rem;
   --custom-border-style: solid;
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
@@ -167,10 +166,6 @@ dt {
 dd {
   margin-bottom: 0.5rem;
   margin-left: 0;
-}
-
-blockquote {
-  margin: 0 0 1rem;
 }
 
 b,
@@ -493,10 +488,13 @@ a:not([href]):not([class]):hover {
 /* blockquote */
 
 blockquote {
-  border-left-width: var(--custom-border-width-thick);
-  border-left-style: var(--custom-border-style);
-  padding-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
   margin-left: 0;
+  margin-right: 0;
+  padding-left: 1rem;
+  border-left-width: var(--custom-border-width);
+  border-left-style: var(--custom-border-style);
 }
 
 /* code */
@@ -588,7 +586,7 @@ figcaption {
   padding: 0.5rem;
   font-weight: bold;
   text-align: center;
-  border-width: var(--custom-border-width-thick);
+  border-width: var(--custom-border-width);
   border-style: var(--custom-border-style);
   border-color: var(--custom-link-color);
   border-bottom-style: none;
@@ -639,7 +637,8 @@ a.custom-shared-nav-item:hover {
   margin-bottom: 1rem;
   padding: 1rem;
   padding-bottom: 0;
-  border: var(--custom-border-width) solid;
+  border-width: var(--custom-border-width);
+  border-style: var(--custom-border-style);
 }
 
 /* header link */
