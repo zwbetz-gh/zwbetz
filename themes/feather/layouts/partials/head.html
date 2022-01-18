@@ -1,23 +1,30 @@
 <head>
   {{ hugo.Generator }}
+
   {{ $title := printf "%s | %s" .Title site.Title }}
+
   {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
+
   {{ $customCss := resources.Get "css/custom.css"
     | minify
     | fingerprint }}
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
+
   {{ if eq .Draft true }}
     <meta name="robots" content="noindex">
   {{ end }}
+
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet"
     href="{{ $customCss.RelPermalink }}"
     integrity="{{ $customCss.Data.Integrity }}"
   >
+
   {{ if eq .RelPermalink "/blog/" }}
     {{ range .AlternativeOutputFormats }}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />`
@@ -25,7 +32,11 @@
         | safeHTML }}
     {{ end }}
   {{ end }}
+
+  {{ partial "script-draft.html" . }}
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
   <title>{{ $title }}</title>
 </head>

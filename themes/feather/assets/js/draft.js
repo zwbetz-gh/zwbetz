@@ -47,13 +47,17 @@
     return input;
   };
 
-  const main = () => {
+  const handleDomContentLoaded = () => {
     const div = createDiv();
     const form = createForm();
     const input = createInput();
     form.appendChild(input);
     div.appendChild(form);
     document.body.appendChild(div);
+  };
+
+  const main = () => {
+    window.addEventListener('DOMContentLoaded', handleDomContentLoaded);
   };
 
   main();

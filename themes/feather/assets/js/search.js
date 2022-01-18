@@ -82,12 +82,8 @@
     updateCountEl(countNum);
   };
 
-  const handleSearchEvent = () => {
+  const handleKeyupEvent = () => {
     logPerformance('filterPosts', filterPosts);
-  };
-
-  const addEventListeners = () => {
-    getSearchEl().addEventListener('keyup', handleSearchEvent);
   };
 
   const enableSearchEl = () => {
@@ -96,7 +92,7 @@
   };
 
   const main = () => {
-    addEventListeners();
+    getSearchEl().addEventListener('keyup', handleKeyupEvent);
     enableSearchEl();
   };
 
