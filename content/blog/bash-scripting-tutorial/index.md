@@ -20,9 +20,17 @@ Okay, let's go!
 
 ## 2. Prerequisites
 
-- You'll need a text editor. If you already use one, great. Otherwise, I recommend [Visual Studio Code](https://code.visualstudio.com/).
-- Command-line experience is nice to have, but not required.
-- Code from this tutorial is compatible with Bash version `3.2.x` and higher. Bash is currently on version `5.x`, so, why limit ourselves to an earlier version? Because, allegedly, Apple. Long story short, Bash version `4.x` switched to the GPLv3 license, and some folks on the interwebs [suspect](https://apple.stackexchange.com/a/197172) this makes it (legally) complicated for Apple to update Bash. So, why should you care? Well, if you're a Mac user, and you haven't manually updated Bash, then it's very likely at version `3.2.x`. You can check by running `bash --version`. Nothing like a limitation to get the creative juices flowing!
+### 2.1 Text Editor
+
+You'll need a text editor. If you already use one, great. Otherwise, I recommend [Visual Studio Code](https://code.visualstudio.com/).
+
+### 2.2 Bash Version
+
+Code from this tutorial is compatible with Bash version `3.2.x` and higher. Bash is currently on version `5.x`, so, why limit ourselves to an earlier version?
+
+Because, allegedly, Apple. Bash version `4.x` switched to the GPLv3 license, and some folks on the interwebs [suspect](https://apple.stackexchange.com/a/197172) this makes it legally complicated for Apple to update Bash.
+
+So, why should you care? Well, if you're a Mac user, and you haven't manually updated Bash, then it's very likely at version `3.2.x`. You can check by running `bash --version`. Nothing like a limitation to get the creative juices flowing!
 
 ## 3. Intro
 
@@ -55,9 +63,9 @@ Hello world :)
 
 ### 3.2 Naming
 
-Notice how we named the script. Everything before the extension, `hello_world`, is lowercase, separated by underscores. We call this [snake_case](https://en.wikipedia.org/wiki/Snake_case). You could've used [kebab-case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case). But my preference is snake_case.
+Notice how we named the script. Everything before the extension, `hello_world`, is lowercase, separated by underscores. We call this [snake_case](https://en.wikipedia.org/wiki/Snake_case). We could've used [kebab-case](https://en.wikipedia.org/wiki/Letter_case#Kebab_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case). But I prefer snake_case.
 
-The extension itself, `.sh`, needs a bit of explanation. The predecessor to Bash was a shell called `sh`, or [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell). The name [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) is a play on that:
+The extension, `.sh`, needs a bit of explanation. The predecessor to Bash was a shell called `sh`, or [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell). The name [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) is a play on that:
 
 {{< blockquote author="Wikipedia" >}}
 The shell's name is an acronym for Bourne Again Shell, a pun on the name of the Bourne shell that it replaces and the notion of being "born again".
@@ -72,7 +80,7 @@ A deep dive into [chmod](https://www.linode.com/docs/guides/modify-file-permissi
 {{< table >}}
 | Octal | Who? | Meaning |
 | --- | --- | --- |
-| `7` | User | The current user can read, write, and execute the file |
+| `7` | User | The current user (you) can read, write, and execute the file |
 | `5` | Group | The group can read and execute, but not write, the file |
 | `5` | Global | Everyone else can read and execute, but not write, the file |
 {{< /table >}}
@@ -87,16 +95,27 @@ The part that follows, `/usr/bin/env bash`, is called the interpretor.
 
 In a nutshell, when you execute the script, it tells your computer how to "interpret" it. Which, in our case, is via `bash`.
 
-You'll likely see this variant in the wild: `#!/bin/bash`. Let's breakdown the differences.
+You'll likely see another variant in the wild: `#!/bin/bash`. Though, my preference is `#!/usr/bin/env bash`.
 
-{{< table >}}
-| Snippet | Meaning |
-| --- | --- |
-| `#!/bin/bash` | Execute the script using `bash` at the absolute path `/bin/bash` |
-| `#!/usr/bin/env bash` | Execute the script with the first `bash` found on the `PATH`. This is useful when someone has installed a higher version of Bash and you'd like to target it |
-{{< /table >}}
+Unfortunately, much [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality) has been spent on this. So, don't die on this hill. Either way will do.
 
-My preference is `#!/usr/bin/env bash`. Unfortunately, much [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality) has been spent on this. So, don't die on this hill. Either way will do.
+Let's breakdown the differences.
+
+#### 3.4.1 Find the First Bash on the PATH
+
+```bash
+#!/usr/bin/env bash
+```
+
+This way will execute the script with the first `bash` found on the `PATH`. It's useful when someone has installed a higher version of Bash and you'd like to target it. And, even if they only have the default installation at `/bin/bash`, it still works.
+
+#### 3.4.2 Absolute Path to Bash
+
+```bash
+#!/bin/bash
+```
+
+This way will execute the script using `bash` at the absolute path `/bin/bash`.
 
 ### 3.5 Local vs PATH
 
