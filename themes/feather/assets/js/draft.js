@@ -1,5 +1,5 @@
 (function () {
-  const PASSWORD = 'please';
+  const PASSWORD = 'admin';
   const DIV_BACKGROUND_COLOR = '#fcfcfc';
   const PARENT_DIV_ID = 'draft_parent_div';
   const INPUT_ID = 'draft_input';
@@ -65,7 +65,7 @@
 
   const createH1 = () => {
     const h1 = document.createElement('h1');
-    h1.textContent = `This is a DRAFT`;
+    h1.textContent = `DRAFT`;
     return h1;
   };
 
@@ -74,7 +74,7 @@
     label.htmlFor = INPUT_ID;
     label.innerHTML = `Type the password then hit <strong>Enter</strong> `;
     label.style.display = 'block';
-    label.style.marginBottom = '0.5rem';
+    label.style.marginBottom = '1rem';
     return label;
   };
 
