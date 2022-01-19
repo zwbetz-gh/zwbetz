@@ -1,16 +1,31 @@
 (function () {
   const PASSWORD = 'please';
   const DIV_BACKGROUND_COLOR = '#fcfcfc';
-  const DIV_ID = 'draft_div';
+  const PARENT_DIV_ID = 'draft_parent_div';
   const INPUT_ID = 'draft_input';
+  const SELECTORS_TO_TOGGLE = ['header', 'main', 'footer'];
 
-  const createDiv = () => {
+  const showSelectors = () => {
+    SELECTORS_TO_TOGGLE.forEach(selector => {
+      const el = document.querySelector(selector);
+      el.style.display = 'block';
+    });
+  };
+
+  const hideSelectors = () => {
+    SELECTORS_TO_TOGGLE.forEach(selector => {
+      const el = document.querySelector(selector);
+      el.style.display = 'none';
+    });
+  };
+
+  const createParentDiv = () => {
     const div = document.createElement('div');
-    div.id = DIV_ID;
+    div.id = PARENT_DIV_ID;
     div.style.display = 'flex';
     div.style.justifyContent = 'center';
     div.style.alignItems = 'center';
-    div.style.position = 'absolute';
+    div.style.position = 'fixed';
     div.style.top = 0;
     div.style.left = 0;
     div.style.width = '100%';
@@ -19,8 +34,17 @@
     return div;
   };
 
-  const removeDiv = () => {
-    const div = document.getElementById(DIV_ID);
+  const createChildDiv = () => {
+    const div = document.createElement('div');
+    div.style.padding = '2rem';
+    div.style.borderWidth = '0.25rem';
+    div.style.borderStyle = 'solid';
+    div.style.backgroundColor = DIV_BACKGROUND_COLOR;
+    return div;
+  };
+
+  const removeParentDiv = () => {
+    const div = document.getElementById(PARENT_DIV_ID);
     div.remove();
   };
 
@@ -28,7 +52,8 @@
     event.preventDefault();
     const inputPassword = document.getElementById(INPUT_ID).value;
     if (inputPassword === PASSWORD) {
-      removeDiv();
+      showSelectors();
+      removeParentDiv();
     }
   };
 
@@ -36,6 +61,21 @@
     const form = document.createElement('form');
     form.addEventListener('submit', handleSubmit);
     return form;
+  };
+
+  const createH1 = () => {
+    const h1 = document.createElement('h1');
+    h1.textContent = `This is a DRAFT`;
+    return h1;
+  };
+
+  const createLabel = () => {
+    const label = document.createElement('label');
+    label.htmlFor = INPUT_ID;
+    label.innerHTML = `Type the password then hit <strong>Enter</strong> `;
+    label.style.display = 'block';
+    label.style.marginBottom = '0.5rem';
+    return label;
   };
 
   const createInput = () => {
@@ -47,13 +87,30 @@
     return input;
   };
 
-  const handleDomContentLoaded = () => {
-    const div = createDiv();
+  const render = () => {
+    const parentDiv = createParentDiv();
+    const childDiv = createChildDiv();
     const form = createForm();
+    const h1 = createH1();
+    const label = createLabel();
     const input = createInput();
+    form.appendChild(h1);
+    form.appendChild(label);
     form.appendChild(input);
-    div.appendChild(form);
-    document.body.appendChild(div);
+    childDiv.appendChild(form);
+    parentDiv.appendChild(childDiv);
+    document.body.appendChild(parentDiv);
+  };
+
+  const focusInput = () => {
+    const input = document.getElementById(INPUT_ID);
+    input.focus();
+  };
+
+  const handleDomContentLoaded = () => {
+    hideSelectors();
+    render();
+    focusInput();
   };
 
   const main = () => {

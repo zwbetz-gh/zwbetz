@@ -247,7 +247,7 @@ Create file `assets/js/draft.js` with the following:
     div.style.display = 'flex';
     div.style.justifyContent = 'center';
     div.style.alignItems = 'center';
-    div.style.position = 'absolute';
+    div.style.position = 'fixed';
     div.style.top = 0;
     div.style.left = 0;
     div.style.width = '100%';
