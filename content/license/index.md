@@ -5,15 +5,19 @@ toc: false
 draft: false
 ---
 
-Unless otherwise specified, prose and code are licensed by the following:
+Unless otherwise specified, prose is licensed under CC BY 4.0, and code is licensed under MIT.
 
 <!--more-->
 
-## Creative Commons Attribution 4.0 International License for Prose
+## Prose
+
+Creative Commons Attribution 4.0 International License:
 
 <https://creativecommons.org/licenses/by/4.0/>
 
-## MIT License for Code
+## Code
+
+MIT License:
 
 > Copyright (c) {{< current-date "2006" >}} Zachary Betz
 >

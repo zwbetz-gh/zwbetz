@@ -1,37 +1,10 @@
-{{ if eq site.Params.show_built_with true }}
-  <div class="custom-shared-nav">
+<div class="custom-shared-nav">
+  {{ range site.Menus.footer_nav }}
     <a
-      href="/built-with"
+      href="{{ .URL }}"
       class="custom-footer-link custom-shared-nav-item"
     >
-      <span class="custom-icon-text">
-        Built With
-        {{ if eq site.Params.show_footer_nav_icon true }}
-          {{ partial "partials/feather-icons/heart.html" . }}
-        {{ end }}
-      </span>
+      {{ .Name }}
     </a>
-    <a
-      href="https://github.com/zwbetz-gh/zwbetz/issues"
-      class="custom-footer-link custom-shared-nav-item"
-    >
-      <span class="custom-icon-text">
-        See an Issue? Let me Know
-        {{ if eq site.Params.show_footer_nav_icon true }}
-          {{ partial "partials/feather-icons/check.html" . }}
-        {{ end }}
-      </span>
-    </a>
-    <a
-      href="/license"
-      class="custom-footer-link custom-shared-nav-item"
-    >
-      <span class="custom-icon-text">
-        License
-        {{ if eq site.Params.show_footer_nav_icon true }}
-          {{ partial "partials/feather-icons/check.html" . }}
-        {{ end }}
-      </span>
-    </a>
-  </div>
-{{ end }}
+  {{ end }}
+</div>

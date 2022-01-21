@@ -33,19 +33,24 @@ imaging:
 menu:
   nav:
     - name: Home
-      pre: coffee
       url: /
       weight: 1
     - name: Blog
-      pre: edit
       url: /blog/
       weight: 2
+  footer_nav:
+    - name: Built With
+      url: /built-with/
+      weight: 1
+    - name: See an Issue? Let me Know
+      url: https://github.com/zwbetz-gh/zwbetz/issues
+      weight: 2
+    - name: License
+      url: /license/
+      weight: 3
 
 params:
-  show_nav_icon: false
-  show_footer_nav_icon: false
   show_search: true
-  show_built_with: true
   show_debug_table: false
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
