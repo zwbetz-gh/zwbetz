@@ -22,5 +22,16 @@
         {{ end }}
       </span>
     </a>
+    <a
+      href="/license"
+      class="custom-footer-link custom-shared-nav-item"
+    >
+      <span class="custom-icon-text">
+        License
+        {{ if eq site.Params.show_footer_nav_icon true }}
+          {{ partial "partials/feather-icons/check.html" . }}
+        {{ end }}
+      </span>
+    </a>
   </div>
 {{ end }}
