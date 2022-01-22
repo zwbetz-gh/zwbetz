@@ -1,5 +1,5 @@
 ---
-title: "Bash Scripting Tutorial"
+title: "Bash Shell Scripting Tutorial"
 date: 2022-01-15T21:57:44-06:00
 toc: true
 draft: true
