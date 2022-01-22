@@ -33,5 +33,3 @@ command="Resize"
 options="600x" >}}
 
 Disclaimer: Opinions expressed here are my own and not those of my employer or any past employer.
-
-[Legal Stuff]({{< relref "license" >}})

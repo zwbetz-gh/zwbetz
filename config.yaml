@@ -38,6 +38,7 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
+
   footer_nav:
     - name: Built With
       url: /built-with/
@@ -45,6 +46,9 @@ menu:
     - name: See an Issue? Let me Know
       url: https://github.com/zwbetz-gh/zwbetz/issues
       weight: 2
+    - name: License
+      url: /license/
+      weight: 3
 
 params:
   show_search: true
