@@ -26,9 +26,8 @@ Even a happy life cannot be without a measure of darkness, and the word happy wo
 {{< /blockquote >}}
 
 {{< figure
-img="family.jpg"
-alt="The family"
-caption="The family"
+img="headshot.jpg"
+caption="Headshot"
 command="Resize"
 options="600x" >}}
 
