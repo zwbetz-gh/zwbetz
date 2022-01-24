@@ -115,15 +115,19 @@ This way will execute the script with the first `bash` found on the `PATH`. It's
 #!/bin/bash
 ```
 
-This way will execute the script using `bash` at the absolute path `/bin/bash`.
+This way will execute the script using the `bash` located at absolute path `/bin/bash`.
 
 ### 3.5 Local vs PATH
 
-## Variables
+## 4. Variables
 
 Quoting
 Saving command output (substitution)
 Special variables
+
+### 4.1 TODO
+
+
 
 ## Control Flow
 
