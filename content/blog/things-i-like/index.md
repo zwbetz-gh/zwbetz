@@ -486,6 +486,8 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [The Silent Sea](https://en.wikipedia.org/wiki/The_Silent_Sea_(TV_series))
 * [Encanto](https://en.wikipedia.org/wiki/Encanto_(film))
 * [Eternals](https://en.wikipedia.org/wiki/Eternals_(film))
+* [Archive 81](https://en.wikipedia.org/wiki/Archive_81)
+* [Grizzy and the Lemmings](https://en.wikipedia.org/wiki/Grizzy_and_the_Lemmings)
 
 ## Video Games
 
