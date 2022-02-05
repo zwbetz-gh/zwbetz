@@ -19,7 +19,8 @@
   --custom-body-color: #212529;
   --custom-body-background-color: #fcfcfc;
   --custom-border-radius: 6px;
-  --custom-border-width: 0.25rem;
+  --custom-border-width: 2px;
+  --custom-border-width-thick: 0.25rem;
   --custom-border-style: solid;
   --custom-link-color: #005ea2;
   --custom-link-color-hover: #1a4480;
@@ -493,7 +494,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding-left: 1rem;
-  border-left-width: var(--custom-border-width);
+  border-left-width: var(--custom-border-width-thick);
   border-left-style: var(--custom-border-style);
 }
 
