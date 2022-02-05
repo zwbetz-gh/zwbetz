@@ -15,4 +15,4 @@ I've polled family members, and this seems to be true for them too. (We all know
 
 My mother-in-law thinks it's because the taste buds that taste "sweet" are the first ones to come into contact. Seems plausible?
 
-I guess that's why they called it "sweet heat", not "heat sweet".
+I guess that's why they call it "sweet heat", not "heat sweet".
