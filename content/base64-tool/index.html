@@ -1,0 +1,83 @@
+---
+title: "Base64 Tool"
+date: 2022-02-06T13:08:13-06:00
+draft: false
+---
+
+<style>
+  textarea {
+    width: 100%;
+  }
+
+  #error {
+    color: red;
+  }
+</style>
+
+<form id="form">
+  <div>
+    <label for="input">Input:</label>
+  </div>
+  <div>
+    <textarea id="input" rows="3"></textarea>
+  </div>
+  <br>
+  <div>
+    <label for="action">Action:</label>
+  </div>
+  <div>
+    <select id="action">
+      <option value="encode">Encode</option>
+      <option value="decode">Decode</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    <label for="output">Output:</label>
+  </div>
+  <div>
+    <textarea id="output" rows="3" disabled></textarea>
+  </div>
+  <br>
+  <div>
+    <button id="button" type="submit">Submit</button>
+  </div>
+  <br>
+  <p id="error"></p>
+</form>
+
+<script>
+  (function () {
+    function createOutput() {
+      const inputVal = document.getElementById('input').value;
+      const actionVal = document.getElementById('action').value;
+      const errorEl = document.getElementById('error');
+
+      errorEl.textContent = '';
+      let result = '';
+
+      try {
+        if (actionVal == 'encode') {
+          result = btoa(inputVal);
+        }
+
+        if (actionVal == 'decode') {
+          result = atob(inputVal);
+        }
+      } catch (error) {
+        errorEl.textContent = String(error);
+      }
+
+      return result;
+    }
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      const outputEl = document.getElementById('output');
+      outputEl.value = createOutput();
+    }
+
+    const form = document.getElementById('form');
+    form.addEventListener('submit', handleSubmit);
+  })();
+</script>
