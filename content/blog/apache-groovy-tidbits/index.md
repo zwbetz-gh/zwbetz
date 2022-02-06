@@ -69,7 +69,7 @@ You can add any field or method you want:
 def expando = new Expando();
 
 expando.name = 'Jane'
-expando.add = { a, b -> a + b}
+expando.add = { a, b -> a + b }
 
 assert 'Jane' == expando.name
 assert 4 == expando.add(2, 2)
