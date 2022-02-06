@@ -15,7 +15,9 @@ My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learn
 
 I'm a Software Engineer at Sev1Tech (formerly Geocent). I have a B.S. in Information Systems and Decision Sciences from Louisiana State University. Here's my [Resume](/resume/resume.html).
 
-Wanna get in touch? Email me at `zwbetz` `@` `gmail.com`. Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
+Wanna get in touch? Email me at `endiZXR6QGdtYWlsLmNvbQ==` (yes, that's a [Base64]({{< relref "base64-tool" >}}) encoded string).
+
+Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
 
 A blog oldie: [Simple Pleasures]({{< relref "simple-pleasures" >}}).
 
