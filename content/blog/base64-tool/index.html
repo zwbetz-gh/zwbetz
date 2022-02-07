@@ -36,7 +36,7 @@ draft: false
   </div>
   <br>
   <div>
-    <label for="output">Output:</label>
+    <label for="output">Output (readonly):</label>
   </div>
   <div>
     <textarea id="output" rows="3" readonly></textarea>
@@ -63,7 +63,7 @@ draft: false
     }
 
     function parseInput() {
-      const inputVal = document.getElementById('input').value;
+      const inputVal = document.getElementById('input').value.trim();
       const actionVal = document.getElementById('action').value;
       if (actionVal == 'encode') {
         return btoa(inputVal);
