@@ -12,7 +12,7 @@ draft: false
   }
 
   #error {
-    color: red;
+    color: #dc3545;
   }
 </style>
 
@@ -23,6 +23,7 @@ draft: false
   <div>
     <textarea id="input" rows="3"></textarea>
   </div>
+  <div id="error" style="display: none;"></div>
   <br>
   <div>
     <label for="action">Action:</label>
@@ -38,39 +39,47 @@ draft: false
     <label for="output">Output:</label>
   </div>
   <div>
-    <textarea id="output" rows="3" disabled></textarea>
+    <textarea id="output" rows="3" readonly></textarea>
   </div>
   <br>
   <div>
     <button id="button" type="submit">Submit</button>
   </div>
   <br>
-  <p id="error"></p>
 </form>
 
 <script>
   (function () {
-    function createOutput() {
+    function hideError() {
+      const errorEl = document.getElementById('error');
+      errorEl.textContent = '';
+      errorEl.style.display = 'none';
+    }
+
+    function showError(error) {
+      const errorEl = document.getElementById('error');
+      errorEl.textContent = String(error);
+      errorEl.style.display = 'block';
+    }
+
+    function parseInput() {
       const inputVal = document.getElementById('input').value;
       const actionVal = document.getElementById('action').value;
-      const errorEl = document.getElementById('error');
-
-      errorEl.textContent = '';
-      let result = '';
-
-      try {
-        if (actionVal == 'encode') {
-          result = btoa(inputVal);
-        }
-
-        if (actionVal == 'decode') {
-          result = atob(inputVal);
-        }
-      } catch (error) {
-        errorEl.textContent = String(error);
+      if (actionVal == 'encode') {
+        return btoa(inputVal);
       }
+      return atob(inputVal);
+    }
 
-      return result;
+    function createOutput() {
+      hideError();
+      let output = '';
+      try {
+        output = parseInput();
+      } catch (error) {
+        showError(error);
+      }
+      return output;
     }
 
     function handleSubmit(event) {
@@ -79,7 +88,11 @@ draft: false
       outputEl.value = createOutput();
     }
 
-    const form = document.getElementById('form');
-    form.addEventListener('submit', handleSubmit);
+    function main() {
+      const form = document.getElementById('form');
+      form.addEventListener('submit', handleSubmit);
+    }
+
+    main();
   })();
 </script>
