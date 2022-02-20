@@ -14,6 +14,7 @@ Mon May 27 18:11:12 DST 2019
 
 ## Specifiers
 
+{{< table >}}
 | Specifier | Output | Description |
 | --- | --- | --- |
 | `%%` | `%` | a literal % |
@@ -55,6 +56,7 @@ Mon May 27 18:11:12 DST 2019
 | `%Y` | `2019` | year |
 | `%z` | `-0500` | +hhmm numeric time zone (e.g., -0400) |
 | `%Z` | `DST` | alphabetic time zone abbreviation (e.g., EDT) |
+{{< /table >}}
 
 ## Source
 
