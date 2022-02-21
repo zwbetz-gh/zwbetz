@@ -26,11 +26,11 @@ WHERE 2 = 2;
 An `.env` file:
 
 ```bash
-PGHOST="localhost"
-PGPORT="5432"
-PGDATABASE="some_database"
-PGUSER="some_user"
-PGPASSWORD="some_password"
+PGHOST='localhost'
+PGPORT='5432'
+PGDATABASE='some_database'
+PGUSER='some_user'
+PGPASSWORD='some_password'
 ```
 
 A `script.sh` file:

@@ -28,11 +28,11 @@ WHERE 2 = 2;
 An `.env` file:
 
 ```bash
-ORACLE_HOST="localhost"
-ORACLE_PORT="1521"
-ORACLE_DATABASE="some_database"
-ORACLE_USERNAME="some_user"
-ORACLE_PASSWORD="some_password"
+ORACLE_HOST='localhost'
+ORACLE_PORT='1521'
+ORACLE_DATABASE='some_database'
+ORACLE_USERNAME='some_user'
+ORACLE_PASSWORD='some_password'
 ```
 
 A `script.sh` file:
