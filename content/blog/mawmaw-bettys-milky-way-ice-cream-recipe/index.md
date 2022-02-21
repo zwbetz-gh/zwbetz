@@ -10,7 +10,7 @@ aliases:
 toc: false
 ---
 
-This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad made this growing up. We've experimented with different candy bars over the years. My wife likes it with Butterfingers or Reese's. But I think Milky Ways still taste best. 
+This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad made this growing up. We've experimented with different candy bars over the years. My wife likes it with Twix. But I think Milky Ways still taste best. 
 
 Eating a cup of this ice cream after eating spicy boiled seafood always hits the spot. 
 
