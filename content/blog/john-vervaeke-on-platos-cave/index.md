@@ -13,8 +13,6 @@ Watch the full video. It's worth your time.
 
 <!--more-->
 
-> ...
->
 > Plato had an interesting idea. (Draws Man-Lion-Monster on whiteboard). He said, "the man can learn", the man is capable of grasping theory, abstract symbolic representation of the case. Now, the lion isn't really capable of theory, but what the lion can do, is the lion can be trained. You can use your reason to train your lion. How do you do this?
 >
 > Well, this is where Socrates is so relevant. Right, this is why Plato writes dialogues. Because what Socrates did was he took reason into the social arena. Socrates goes into the marketplace and dialogues with people. This social interaction is happening, and the social interaction is being wed to rational reflection, and to inspiring people to try and overcome self-deception.
@@ -52,5 +50,3 @@ Watch the full video. It's worth your time.
 > And you may say, "This is kind of a crazy story." Is it? Is it? Because here's a story from 1999: There's all these people, and they're trapped in a world of shadows and unreality. It's called The Matrix. And they need to wake up and be welcomed to the "real world." And the character that's in there is Neo -- from Neoplatinism, the "new man." People flock to that movie! And all it is, is this (Plato's Cave), with some great martial arts and some interesting science-fiction special effects.
 >
 > This is what I mean about a _myth_! This isn't a story from the past... right. The reason why you go to the Matrix and people still watch it and talk about it is because it's a myth. It _sings_ to you, it speaks to you _now_. Because it talks about perennial problems that you face. Problems of the psyche being in conflict with each other. The problem of being caught up in illusion and being out of touch with reality. And it presents the possibility of liberation and self-transcendence and a fullness and an enhanced meaning in life. It's a _myth_ of _wisdom_ that is perennially relevant. Because it's not about the past, it's about what's happening in you right here, right now.
->
-> ...
