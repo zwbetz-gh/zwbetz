@@ -16,7 +16,7 @@ I figured there had to be a way to alias this command in bash, and of course, th
 
 ## Bash Function
 
-For Mac users, add this to your `.bash_profile`. For Linux users, add this to your `.bashrc`. 
+For Mac users, add this to your [shell config file]({{< relref "shell-config-file-on-mac" >}}). For Linux users, add this to your `.bashrc`. 
 
 ```
 hugo() {

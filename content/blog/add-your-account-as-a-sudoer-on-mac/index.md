@@ -36,5 +36,7 @@ With great power comes great responsibility.
         sudo echo "hello world"
 
 [^private_symlink]: On Mac, `/etc` is a symlink to `/private/etc`
+
 [^visudo_command]: To learn more about this command, type `info visudo` into Terminal and read up
+
 [^why_use_new_file]: We're creating a new sudoers file instead of editing the existing one at `/etc/sudoers` because this is a best practice. For more info see [this stackoverflow thread](https://superuser.com/questions/869144/why-does-the-system-have-etc-sudoers-d-how-should-i-edit-it)

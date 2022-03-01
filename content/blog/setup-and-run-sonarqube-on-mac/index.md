@@ -29,7 +29,7 @@ Sonar has 2 main parts: **sonarqube**, which is a server that displays scan resu
 
 ## Bash helper functions
 
-Add the following bash helper functions to your `~/.bash_profile` then restart terminal
+Add the following helper functions to your [shell config file]({{< relref "shell-config-file-on-mac" >}}) then restart Terminal
 
 ```shell
 SONARQUBE_PATH="${HOME}/bin/sonarqube-8.4.2.36762/bin/macosx-universal-64/sonar.sh"

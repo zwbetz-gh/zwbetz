@@ -9,15 +9,12 @@ For your local database needs.
 <!--more-->
 
 1. Download and install [Postgres.app](https://postgresapp.com/)
-1. Set environment variables in your bash config file, e.g. `~/.bash_profile`
+1. Set environment variables in your [shell config file]({{< relref "shell-config-file-on-mac" >}})
 
         export POSTGRES_HOME=/Applications/Postgres.app/Contents/Versions/latest
-        export PATH=$POSTGRES_HOME/bin:$PATH
+        export PATH=${POSTGRES_HOME}/bin:${PATH}
 
-1. Source bash config file
-
-        source ~/.bash_profile
-
+1. Restart Terminal
 1. Confirm installation
 
         psql --version

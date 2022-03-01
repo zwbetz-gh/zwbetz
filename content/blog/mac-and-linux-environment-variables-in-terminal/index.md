@@ -8,7 +8,7 @@ toc: true
 **Note:** This doc assumes you will use the Bash (`bash`) shell. You can check which shell you're using by running:
 
 ```
-/bin/ps -p ${$} -o comm=
+ps -p $$
 ```
 
 ## List All Environment Variables
@@ -47,15 +47,15 @@ export MY_NAME="Jane Doe"
 
 **Persist on Mac:**
 
-Add `export MY_NAME="Jane Doe"` to your `~/.bash_profile` file.
+Add `export MY_NAME="Jane Doe"` to your [shell config file]({{< relref "shell-config-file-on-mac" >}}).
 
-Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
+Restart your Terminal.
 
 **Persist on Linux:**
 
 Add `export MY_NAME="Jane Doe"` to your `~/.bashrc` file.
 
-Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
+Restart your Terminal.
 
 ## Unset an Environment Variable
 
@@ -73,15 +73,15 @@ unset MY_NAME
 
 **Persist on Mac:**
 
-Add `unset MY_NAME` to your `~/.bash_profile` file.
+Add `unset MY_NAME` to your [shell config file]({{< relref "shell-config-file-on-mac" >}}).
 
-Then source it by running `source ~/.bash_profile`. Or, restart your Terminal.
+Restart your Terminal.
 
 **Persist on Linux:**
 
 Add `unset MY_NAME` to your `~/.bashrc` file.
 
-Then source it by running `source ~/.bashrc`. Or, restart your Terminal.
+Restart your Terminal.
 
 ## Related
 

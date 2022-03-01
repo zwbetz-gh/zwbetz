@@ -27,14 +27,11 @@ I agree, it shouldn't be this hard. Alas.
 
         \curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 
-1. To source RVM, add this line to your bash config file, e.g. `~/.bash_profile`
+1. To source RVM, add this line to your [shell config file]({{< relref "shell-config-file-on-mac" >}})
 
-        source $HOME/.rvm/scripts/rvm
+        source ${HOME}/.rvm/scripts/rvm
 
-1. Source bash config file
-
-        source ~/.bash_profile
-
+1. Restart Terminal
 1. Confirm installation
 
         rvm --version

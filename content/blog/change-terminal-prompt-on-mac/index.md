@@ -14,7 +14,7 @@ Your Terminal prompt is controlled via the `PS1` Bash environment variable . It'
 
 See the [GNU Bash reference manual](https://www.gnu.org/software/bash/manual/html_node/Controlling-the-Prompt.html) for available prompt config options.
 
-Once you find the options you like, update `PS1` in your Bash config file, e.g. `~/.bash_profile`, for example:
+Once you find the options you like, update `PS1` in your [Bash config file]({{< relref "shell-config-file-on-mac" >}}). For example:
 
 ```
 current_git_branch() {

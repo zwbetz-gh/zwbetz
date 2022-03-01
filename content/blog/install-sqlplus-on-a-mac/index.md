@@ -21,7 +21,7 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         unzip -d ~/bin/oracle instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip
 
 1. The file listing of that dir should now look like:
-    
+
         $ cd  ~/bin/oracle/instantclient_12_2 && find . -type f | sort
         ./BASIC_README
         ./SQLPLUS_README
@@ -44,16 +44,13 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./sqlplus
         ./uidrvci
         ./xstreams.jar
-    
-1. Add this line to your bash config file, e.g. `~/.bash_profile`, to add `sqlplus` to your `PATH`
-    
-        export LD_LIBRARY_PATH=$HOME/bin/oracle/instantclient_12_2:$LD_LIBRARY_PATH
-        export PATH=$LD_LIBRARY_PATH:$PATH
-    
-1. Source your `~/.bash_profile`
-    
-        source ~/.bash_profile
-    
+
+1. Add this line to your [shell config file]({{< relref "shell-config-file-on-mac" >}}), which will add `sqlplus` to your `PATH`
+
+        export LD_LIBRARY_PATH=${HOME}/bin/oracle/instantclient_12_2:${LD_LIBRARY_PATH}
+        export PATH=${LD_LIBRARY_PATH}:${PATH}
+
+1. Restart Terminal
 1. Run `sqlplus -V` to confirm it's installed
 
 ## SQL*Plus Version 19.3.0.0.0
@@ -69,7 +66,7 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         unzip -d ~/bin/oracle instantclient-sqlplus-macos.x64-19.3.0.0.0dbru.zip
 
 1. The file listing of that dir should now look like:
-    
+
         $ cd  ~/bin/oracle/instantclient_19_3 && find . -type f | sort
         ./BASIC_LICENSE
         ./BASIC_README
@@ -93,16 +90,13 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./ucp.jar
         ./uidrvci
         ./xstreams.jar
-    
-1. Add this line to your bash config file, e.g. `~/.bash_profile`, to add `sqlplus` to your `PATH`
-    
-        export LD_LIBRARY_PATH=$HOME/bin/oracle/instantclient_19_3:$LD_LIBRARY_PATH
-        export PATH=$LD_LIBRARY_PATH:$PATH
-    
-1. Source your `~/.bash_profile`
-    
-        source ~/.bash_profile
-    
+
+1. Add this line to your [shell config file]({{< relref "shell-config-file-on-mac" >}}), which will add `sqlplus` to your `PATH`
+
+        export LD_LIBRARY_PATH=${HOME}/bin/oracle/instantclient_19_3:${LD_LIBRARY_PATH}
+        export PATH=${LD_LIBRARY_PATH}:${PATH}
+
+1. Restart Terminal
 1. Run `sqlplus -V` to confirm it's installed
 
 ## Related

@@ -8,9 +8,9 @@ When you step away from your Mac, it can be useful to prevent it from sleeping. 
 
 <!--more-->
 
-Just add the below function to your `~/.bash_profile` then pick up the change with `source ~/.bash_profile`.
+Add the below function to your [shell config file]({{< relref "shell-config-file-on-mac" >}}) then restart Terminal.
 
-## Bash function
+## Shell Function
 
 ```shell
 caffe() {
