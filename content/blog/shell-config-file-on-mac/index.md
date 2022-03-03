@@ -36,4 +36,4 @@ ps -p $$
 
 [^explained]: Explained: `ps` is a tool for checking the status of a process. The `-p` option accepts a comma-separated list of process ids. `$$` is a special variable that holds the process id of the currently running shell.
 
-[^login_vs_interactive]: Read more about [login vs interactive config files](https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc).
+[^login_vs_interactive]: Read more about [login vs interactive config files](https://apple.stackexchange.com/a/51038).
