@@ -85,6 +85,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [The weight of worthy work](https://www.artofmanliness.com/articles/sunday-firesides-the-weight-of-worthy-work/)
   * [Put your Loves in order](https://www.artofmanliness.com/articles/sunday-firesides-put-your-loves-in-order/)
   * [Wry Rules for navigating a flawed universe](https://www.artofmanliness.com/articles/wry-rules-for-navigating-a-flawed-universe/)
+  * [Sunday Firesides: Give Them the Cream](https://www.artofmanliness.com/people/family/sunday-firesides-give-them-the-cream/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
