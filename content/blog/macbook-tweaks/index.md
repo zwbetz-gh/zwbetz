@@ -23,7 +23,7 @@ _Terminal_ > _Preferences_ > _Profiles_ tab > set _Pro_ as default, change font 
 I like to keep my desktop tidy, so I changed the default screenshot save location to a folder in my home.  
 
 ```
-mkdir ~/Screenshots
+mkdir -p ~/Screenshots
 defaults write com.apple.screencapture location ~/Screenshots
 ```
 

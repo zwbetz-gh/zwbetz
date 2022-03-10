@@ -20,7 +20,7 @@ Enjoy.
 1. Open Terminal
 1. Create directory `${HOME}/bin` by running
 
-        mkdir ${HOME}/bin
+        mkdir -p ${HOME}/bin
 
 1. Save the `binary` to directory `${HOME}/bin`
 1. Make the `binary` executable by running
