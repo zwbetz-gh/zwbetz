@@ -490,6 +490,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [Archive 81](https://en.wikipedia.org/wiki/Archive_81)
 * [Grizzy and the Lemmings](https://en.wikipedia.org/wiki/Grizzy_and_the_Lemmings)
 * [The Alpinist](https://www.imdb.com/title/tt11790780/)
+* [The Batman](https://en.wikipedia.org/wiki/The_Batman_(film))
 
 ## Video Games
 
