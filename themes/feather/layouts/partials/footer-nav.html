@@ -1,10 +1,5 @@
-<div class="custom-shared-nav">
+<nav>
   {{ range site.Menus.footer_nav }}
-    <a
-      href="{{ .URL }}"
-      class="custom-footer-link custom-shared-nav-item"
-    >
-      {{ .Name }}
-    </a>
+    <a class="btn btn-outline-primary" href="{{ .URL }}" role="button">{{ .Name }}</a>
   {{ end }}
-</div>
+</nav>

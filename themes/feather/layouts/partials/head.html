@@ -6,7 +6,12 @@
   {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
 
-  {{ $customCss := resources.Get "css/custom.css"
+  {{ $bootstrapCss := resources.Get "css/bootstrap.css" }}
+
+  {{ $customCss := resources.Get "css/custom.css" }}
+
+  {{ $bundledCss := slice $bootstrapCss $customCss
+    | resources.Concat "css/bundled.css"
     | minify
     | fingerprint }}
 
@@ -20,9 +25,10 @@
   {{ end }}
 
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet"
-    href="{{ $customCss.RelPermalink }}"
-    integrity="{{ $customCss.Data.Integrity }}"
+  <link
+    rel="stylesheet"
+    href="{{ $bundledCss.RelPermalink }}"
+    integrity="{{ $bundledCss.Data.Integrity }}"
   >
 
   {{ if eq .RelPermalink "/blog/" }}
