@@ -12,13 +12,10 @@
   --custom-body-line-height: 1.6;
   --custom-body-color: #212529;
   --custom-body-background-color: #fcfcfc;
-  --custom-border-radius: 6px;
+  --custom-border-radius: 0.25rem;
   --custom-border-width: 2px;
   --custom-border-width-thick: 0.25rem;
   --custom-border-style: solid;
-  --custom-link-color: #005ea2;
-  --custom-link-color-hover: #1a4480;
-  --custom-link-color-visited: #54278f;
   --custom-container-max-width: 620px;
 }
 
@@ -134,6 +131,16 @@ figcaption {
 }
 
 /* nav */
+
+.custom-shared-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #212529;
+  border-radius: var(--custom-border-radius);
+}
 
 .custom-nav {
   margin-top: 1rem;

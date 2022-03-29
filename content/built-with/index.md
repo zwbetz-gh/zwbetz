@@ -10,7 +10,7 @@ Things used in the making of this site.
 <!--more-->
 
 - Made with [Hugo](https://gohugo.io/)
-- Styles by [Bootstrap](https://getbootstrap.com/) and [USWDS](https://designsystem.digital.gov/)
+- Styled with [Bootstrap](https://getbootstrap.com/)
 - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
 - Deployed by [Netlify](https://www.netlify.com/)
 - Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)

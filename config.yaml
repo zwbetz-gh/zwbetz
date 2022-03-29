@@ -46,7 +46,7 @@ menu:
     - name: License
       url: /license/
       weight: 2
-    - name: See an Issue? Let me Know
+    - name: See an Issue?
       url: https://github.com/zwbetz-gh/zwbetz/issues
       weight: 3
 

@@ -1,5 +1,7 @@
-<nav>
-  {{ range site.Menus.footer_nav }}
-    <a class="btn btn-outline-primary" href="{{ .URL }}" role="button">{{ .Name }}</a>
-  {{ end }}
+<nav class="custom-nav">
+  <div class="custom-shared-nav">
+    {{ range site.Menus.footer_nav }}
+      <a class="btn btn-outline-light" href="{{ .URL }}" role="button">{{ .Name }}</a>
+    {{ end }}
+  </div>
 </nav>
