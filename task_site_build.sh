@@ -2,6 +2,8 @@
 
 ./task_resume_get.sh
 
-hugo --cleanDestinationDir
+npm install
 
-echo "Completed ${0} in ${SECONDS} s"
+hugo
+
+echo "Completed ${0} in ${SECONDS}s"

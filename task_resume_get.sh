@@ -18,4 +18,4 @@ done
 
 rm -rf ${TEMP_DIR}
 
-echo "Completed ${0} in ${SECONDS} s"
+echo "Completed ${0} in ${SECONDS}s"

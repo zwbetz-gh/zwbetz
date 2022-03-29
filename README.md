@@ -4,25 +4,17 @@
 
 My personal site
 
-## Development
+## One-Time Setup
 
-1. Clone repo
+1. Install Hugo
+1. Install Node
+1. Install Node packages
     ```
-    git clone git@github.com:zwbetz-gh/zwbetz.git
+    npm install
     ```
-1. Change to it
-    ```
-    cd zwbetz
-    ```
-1. Install Hugo. Assumes OS is Linux
-    ```
-    ./task_hugo_install.sh <HUGO_VERSION>
-    ```
-1. Serve site
-    ```
-    ./task_site_serve.sh
-    ```
-1. Build site
-    ```
-    ./task_site_build.sh
-    ```
+
+## Serve
+
+```
+hugo serve
+```

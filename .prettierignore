@@ -1,4 +1,5 @@
 *.html
+*.css
 *.md
 *.yaml
 *.json

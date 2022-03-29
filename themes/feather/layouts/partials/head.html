@@ -12,8 +12,10 @@
 
   {{ $bundledCss := slice $bootstrapCss $customCss
     | resources.Concat "css/bundled.css"
+    | resources.PostCSS
     | minify
-    | fingerprint }}
+    | fingerprint
+    | resources.PostProcess }}
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">

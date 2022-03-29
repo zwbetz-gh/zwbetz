@@ -66,7 +66,7 @@ From the docs:
 You can add any field or method you want:
 
 ```groovy
-def expando = new Expando();
+def expando = new Expando()
 
 expando.name = 'Jane'
 expando.add = { a, b -> a + b }

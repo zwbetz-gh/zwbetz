@@ -6,4 +6,4 @@ git add static/resume
 
 git commit -m "sync resume"
 
-echo "Completed ${0} in ${SECONDS} s"
+echo "Completed ${0} in ${SECONDS}s"
