@@ -4,6 +4,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.96.0"
+  NODE_VERSION = "16"
 
 [build.processing.images]
   compress = true
