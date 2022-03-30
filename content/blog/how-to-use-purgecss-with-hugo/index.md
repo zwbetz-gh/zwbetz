@@ -48,6 +48,8 @@ npm install postcss postcss-cli @fullhuman/postcss-purgecss
 
 If the `package.json` file at the project root doesn't exist yet, this will create it.
 
+If it's not already there, add `node_modules/` to your `.gitignore` file.
+
 ## PostCSS Config File
 
 Create a `postcss.config.js` file at the project root with these contents:
