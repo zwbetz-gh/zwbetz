@@ -3,9 +3,9 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   defaultExtractor: content => {
     const els = JSON.parse(content).htmlElements;
     return [
-      ...els.tags,
-      ...els.classes,
-      ...els.ids
+      ...(els.tags || []),
+      ...(els.classes || []),
+      ...(els.ids || []),
     ];
   }
 });
