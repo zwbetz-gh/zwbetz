@@ -2,11 +2,9 @@
 {{ $isNotServer := eq site.IsServer false }}
 
 {{ if and $isDraft $isNotServer }}
-  {{ $draftJs := resources.Get "js/draft.js"
-    | minify
-    | fingerprint }}
+  {{ $js := resources.Get "js/draft.js" | minify | fingerprint }}
   <script
-    src="{{ $draftJs.RelPermalink }}"
-    integrity="{{ $draftJs.Data.Integrity }}"
+    src="{{ $js.RelPermalink }}"
+    integrity="{{ $js.Data.Integrity }}"
   ></script>
 {{ end }}

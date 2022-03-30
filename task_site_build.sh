@@ -4,6 +4,6 @@
 
 npm install
 
-hugo
+hugo --environment production
 
 echo "Completed ${0} in ${SECONDS}s"

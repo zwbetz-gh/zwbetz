@@ -1,22 +1,19 @@
+{{ $title := printf "%s | %s" .Title site.Title }}
+
+{{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
+
+{{ $bootstrapCss := resources.Get "css/bootstrap.css" }}
+
+{{ $customCss := resources.Get "css/custom.css" }}
+
+{{ $bundleCss := slice $bootstrapCss $customCss | resources.Concat "css/bundle.css" | resources.PostCSS }}
+
+{{ if hugo.IsProduction }}
+  {{ $bundleCss = $bundleCss | minify | fingerprint | resources.PostProcess }}
+{{ end }}
+
 <head>
   {{ hugo.Generator }}
-
-  {{ $title := printf "%s | %s" .Title site.Title }}
-
-  {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
-    | default .Title }}
-
-  {{ $bootstrapCss := resources.Get "css/bootstrap.css" }}
-
-  {{ $customCss := resources.Get "css/custom.css" }}
-
-  {{ $bundledCss := slice $bootstrapCss $customCss
-    | resources.Concat "css/bundled.css"
-    | resources.PostCSS
-    | minify
-    | fingerprint
-    | resources.PostProcess }}
-
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,11 +24,7 @@
   {{ end }}
 
   <link rel="canonical" href="{{ .Permalink }}">
-  <link
-    rel="stylesheet"
-    href="{{ $bundledCss.RelPermalink }}"
-    integrity="{{ $bundledCss.Data.Integrity }}"
-  >
+  <link rel="stylesheet" href="{{ $bundleCss.RelPermalink }}" integrity="{{ $bundleCss.Data.Integrity }}">
 
   {{ if eq .RelPermalink "/blog/" }}
     {{ range .AlternativeOutputFormats }}

@@ -2,12 +2,10 @@
 {{ $loadScript := and $isBlog site.Params.show_search }}
 
 {{ if $loadScript }}
-  {{ $searchJs := resources.Get "js/search.js"
-    | minify
-    | fingerprint }}
+  {{ $js := resources.Get "js/search.js" | minify | fingerprint }}
   <script
-    src="{{ $searchJs.RelPermalink }}"
-    integrity="{{ $searchJs.Data.Integrity }}"
+    src="{{ $js.RelPermalink }}"
+    integrity="{{ $js.Data.Integrity }}"
     async
   ></script>
 {{ end }}
