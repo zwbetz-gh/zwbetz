@@ -5,7 +5,7 @@ toc: false
 draft: false
 ---
 
-[Joe Mooring](https://discourse.gohugo.io/u/jmooring/summary) is a contributor (among other useful things) over at the Hugo forum. At the time of this writing, if you look at [all-time users ordered by likes received](https://discourse.gohugo.io/u?order=likes_received&period=all), you'll see he's in 3rd place. 
+[Joe Mooring](https://discourse.gohugo.io/u/jmooring/summary) is a contributor (among other useful things) over at the Hugo forum. At the time of this writing, if you look at [all-time users ordered by likes received](https://discourse.gohugo.io/u?order=likes_received&period=all), you'll see he's in 3rd place.
 
 <!--more-->
 
@@ -26,3 +26,5 @@ hugo server
 ```
 
 How convenient is that?! It's white-glove treatment as far as I'm concerned.
+
+_This page was [linked](https://discourse.gohugo.io/t/great-community-management/37334) on the Hugo forum. See what kind words other folks are saying about Mr. Mooring._
