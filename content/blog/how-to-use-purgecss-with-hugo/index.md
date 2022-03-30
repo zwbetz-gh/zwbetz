@@ -95,7 +95,7 @@ In the HTML Template for your `<head>`, add this:
 This assumes:
 
 - Your CSS file is at `assets/css/bootstrap.css`
-- You want to minity and fingerprint the production version of this file
+- You want to minify and fingerprint the production version of this file
 
 If these assumptions aren't true for you, modify the code accordingly.
 
