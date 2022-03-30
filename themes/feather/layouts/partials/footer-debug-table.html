@@ -1,13 +1,8 @@
 {{ if eq site.Params.show_debug_table true }}
-<div>
-  <details>
-    <summary>
-      <span class="custom-icon-text">
-        {{ partial "partials/feather-icons/eye.html" . }}
-        Debug
-      </span>
-    </summary>
-    {{ partial "debug-table.html" . }}
-  </details>
-</div>
+  <div>
+    <details>
+      <summary>Debug</summary>
+      {{ partial "debug-table.html" . }}
+    </details>
+  </div>
 {{ end }}

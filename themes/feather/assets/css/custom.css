@@ -132,7 +132,7 @@ figcaption {
 
 /* nav */
 
-.custom-shared-nav {
+.custom-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -142,7 +142,9 @@ figcaption {
   border-radius: var(--custom-border-radius);
 }
 
-.custom-nav {
+/* header */
+
+.custom-header {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }

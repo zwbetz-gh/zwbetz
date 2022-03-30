@@ -1,11 +1,11 @@
 <header>
   <div class="container">
-    <nav class="custom-nav">
-      <div class="custom-shared-nav">
+    <div class="custom-header">
+      <nav class="custom-nav">
         {{ range site.Menus.nav }}
           <a class="btn btn-outline-light" href="{{ .URL }}" role="button">{{ .Name }}</a>
         {{ end }}
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
 </header>
