@@ -64,7 +64,8 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
       ...(els.classes || []),
       ...(els.ids || []),
     ];
-  }
+  },
+  safelist: []
 });
 
 module.exports = {
@@ -73,6 +74,10 @@ module.exports = {
   ]
 };
 ```
+
+See the [PurgeCSS configuration docs](https://purgecss.com/configuration.html) for details on each option.
+
+**Note:** `safelist` is an empty array (for now). Remember, only elements from your HTML templates are extracted. So, if your JS adds elements, you'll need to safelist them.
 
 ## HTML Template
 
