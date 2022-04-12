@@ -171,3 +171,4 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Clear, concise, up-to-date documentation
 1. Looking forward to dinner and savoring it
 1. When you fold your socks and there's a match for each one
+1. Fetching with your dogs on a beautiful day
