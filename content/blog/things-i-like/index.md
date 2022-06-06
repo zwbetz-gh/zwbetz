@@ -128,6 +128,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * [The Batman](https://en.wikipedia.org/wiki/The_Batman_(film))
 * [How to Train Your Dragon](https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(film))
 * [Yellowstone](https://en.wikipedia.org/wiki/Yellowstone_(American_TV_series))
+* [Top Gun: Maverick](https://en.wikipedia.org/wiki/Top_Gun:_Maverick)
 
 ## Art and Photography
 
@@ -246,6 +247,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Put your Loves in order](https://www.artofmanliness.com/articles/sunday-firesides-put-your-loves-in-order/)
   * [Wry Rules for navigating a flawed universe](https://www.artofmanliness.com/articles/wry-rules-for-navigating-a-flawed-universe/)
   * [Sunday Firesides: Give Them the Cream](https://www.artofmanliness.com/people/family/sunday-firesides-give-them-the-cream/)
+  * [Feed Your Individuality on Non-Regurgitated Food](https://www.artofmanliness.com/character/advice/feed-your-individuality-on-non-regurgitated-food/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
