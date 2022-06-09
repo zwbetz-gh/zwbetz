@@ -39,6 +39,20 @@ From a coworker, a Database Administrator:
 
 ---
 
+From a coworker, another Database Administrator:
+
+> **Her:** I just went for vacation only 2 weeks. Lol. As I return back, many things have changed.
+>
+> **Me:** same ish scenario. was on internal project for 2 weeks. i come back and all envs have issues
+>
+> **Her:** Lol .. Zach's presence in REDACTED is ultimately important... Now, do you realize?
+>
+> **Me:** i would like to document and automate my self out of a job lol
+>
+> **Her:** Document what is required. You would get a best job you dream of in this whole wide world anywhere you prefer for your potential, actually.
+
+---
+
 From a guy that opened a pull request on one of my Hugo themes:
 
 > **Him:** Dear Zachary, I just wanted to say Thank you for promptly revising my pull requests and for sharing your beautiful hugo theme in the first place. I recently happened to browse your website and blog, it is funny how many fascinating things there are. Reading it would definitely go in my list of simple pleasures. Thanks again.
@@ -86,7 +100,7 @@ Another one from my LSU ResLife HelpDesk days, a client sent this email to my ma
 
 ---
 
-From a classmate from high school World History class:
+From a classmate in high school World History class:
 
 > You are rare. You actually listen to people then reply accordingly. That's why you're going to be so successful in your life. Good luck with everything.
 
