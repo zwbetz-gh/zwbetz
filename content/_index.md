@@ -23,7 +23,7 @@ Wanna get in touch? Email me at `endiZXR6QGdtYWlsLmNvbQ==` (Decode that Base64 s
 
 ## Elsewhere
 
-Find me elsewhere on [GitHub](https://github.com/zwbetz-gh).
+Find me on [GitHub](https://github.com/zwbetz-gh).
 
 ## Various
 
