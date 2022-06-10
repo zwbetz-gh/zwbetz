@@ -5,7 +5,7 @@ toc: false
 draft: false
 ---
 
-One of the cool things (curses?) of maintaining your own site is that you have total control over the frontend assets. Don't need those JavaScript widgets? Remove them. That CSS library has a bunch of unused classes? Remove them. You get the idea.
+One of the cool things (curses?) of maintaining your own site is that you have total control over the frontend assets. Don't need those JavaScript widgets? Remove them. That CSS library has a bunch of unused classes? [Remove them]({{< relref "how-to-use-purgecss-with-hugo" >}}). You get the idea.
 
 <!--more-->
 
