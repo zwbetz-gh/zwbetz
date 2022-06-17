@@ -5,12 +5,12 @@ date: 2019-06-07T13:09:06-05:00
 toc: true
 ---
 
-## Prerequisites 
+## Prerequisites
 
 - `sqlplus` (SQL*Plus) version 12.2.x or higher is installed and on your `PATH`. See install steps for [Mac]({{< relref "install-sqlplus-on-a-mac" >}}) and [Linux]({{< relref "install-sqlplus-on-linux" >}})
 - The following files are in the same directory
 
-## Files 
+## Files
 
 A `query.sql` file:
 
@@ -49,10 +49,10 @@ set +o allexport
 sql="$(<"query.sql")"
 
 # If sqlplus is not available, then exit
-if ! command -v sqlplus > /dev/null; then 
-  echo "This script requires sqlplus to be installed and on your PATH ..."
-  exit 1 
-fi 
+if ! command -v sqlplus > /dev/null ; then
+  echo "This script requires sqlplus to be installed and on your PATH. Exiting"
+  exit 1
+fi
 
 # Connect to the database, run the query, then disconnect
 echo -e "SET PAGESIZE 0\n SET FEEDBACK OFF\n ${sql}" | \

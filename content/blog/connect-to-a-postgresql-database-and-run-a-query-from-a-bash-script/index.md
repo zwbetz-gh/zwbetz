@@ -5,12 +5,12 @@ date: 2019-06-07T13:10:14-05:00
 toc: true
 ---
 
-## Prerequisites 
+## Prerequisites
 
 - `psql` (PostgreSQL) version 9.0.x or higher is installed and on your `PATH`. See install steps for [Mac]({{< relref "install-psql-on-mac" >}})
 - The following files are in the same directory
 
-## Files 
+## Files
 
 A `query.sql` file:
 
