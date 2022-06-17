@@ -56,7 +56,7 @@ sql="$(<"query.sql")"
 
 # Connect to the database, run the query, then disconnect
 echo -e "SET PAGESIZE 0\n SET FEEDBACK OFF\n ${sql}" | \
-sqlplus -S -L ${ORACLE_USERNAME}/${ORACLE_PASSWORD}@${ORACLE_HOST}:${ORACLE_PORT}/${ORACLE_DATABASE}
+sqlplus -S -L "${ORACLE_USERNAME}/${ORACLE_PASSWORD}@${ORACLE_HOST}:${ORACLE_PORT}/${ORACLE_DATABASE}"
 ```
 
 ## Usage
