@@ -15,7 +15,6 @@ toc: true
 A `query.sql` file:
 
 ```sql
--- this file must end in a new line
 SELECT 'foo'
 WHERE 1 = 1
 UNION ALL
@@ -43,17 +42,14 @@ set -o allexport
 source .env
 set +o allexport
 
-# Read query into a variable
-sql="$(<"query.sql")"
-
 # If psql is not available, then exit
-if ! command -v psql > /dev/null; then
-  echo "This script requires psql to be installed and on your PATH ..."
+if ! command -v psql > /dev/null ; then
+  echo "This script requires psql to be installed and on your PATH. Exiting"
   exit 1
 fi
 
 # Connect to the database, run the query, then disconnect
-psql -t -A -c "${sql}"
+psql -t -A -f ./query.sql
 ```
 
 ## Usage
@@ -82,6 +78,7 @@ $ ./script.sh > results.txt
 
 - The `-t` option turns off printing of column names and result row count footers
 - The `-A` option switches to unaligned output mode
+- The `-f` option reads the command from a file
 
 ## Related
 
