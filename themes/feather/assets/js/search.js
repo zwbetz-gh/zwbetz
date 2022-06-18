@@ -1,5 +1,5 @@
 (function () {
-  const LOG_ENABLED = false;
+  const LOG_ENABLED = true;
 
   const logObj = (objNameStr, obj) => {
     if (LOG_ENABLED) {
@@ -67,9 +67,6 @@
     postEls.forEach(postEl => {
       const titleStr = getPostTitleStr(postEl);
       const hit = isHit(queryWordsArr, titleStr);
-
-      logObj('queryWordsArr', queryWordsArr);
-      logObj('titleStr', titleStr);
 
       if (hit) {
         showPost(postEl);
