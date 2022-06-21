@@ -2,7 +2,7 @@
 title: "Revive Your Old Computer With Lubuntu Linux"
 date: 2022-06-20T15:30:35-05:00
 toc: false
-draft: true
+draft: false
 ---
 
 My father-in-law has an old Dell Inspiron 660s desktop computer from 2012. The hard drive crapped out, so he started looking for a new computer, planning to throw this one away.
