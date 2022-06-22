@@ -77,21 +77,13 @@ sonar_scan() {
 
   echo ""
 
-  if [[ "${current_dir}" == "rfs-fdnsds-mod-web" ]] ; then
-    "${SONAR_SCANNER_PATH}" \
-    -Dsonar.login="${token}" \
-    -Dsonar.projectKey="${current_dir}" \
-    -Dsonar.projectName="${current_dir}" \
-    -Dsonar.projectVersion="${current_commit}"
-  else
-    "${SONAR_SCANNER_PATH}" \
-    -Dsonar.login="${token}" \
-    -Dsonar.projectKey="${current_dir}" \
-    -Dsonar.projectName="${current_dir}" \
-    -Dsonar.projectVersion="${current_commit}" \
-    -Dsonar.java.binaries="build/classes" \
-    -Dsonar.java.libraries="${lombok_jar_path}" # Optional: Include lombok
-  fi
+  "${SONAR_SCANNER_PATH}" \
+  -Dsonar.login="${token}" \
+  -Dsonar.projectKey="${current_dir}" \
+  -Dsonar.projectName="${current_dir}" \
+  -Dsonar.projectVersion="${current_commit}" \
+  -Dsonar.java.binaries="build/classes" \
+  -Dsonar.java.libraries="${lombok_jar_path}" # Optional: Include lombok
 }
 ```
 
