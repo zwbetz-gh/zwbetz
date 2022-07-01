@@ -35,8 +35,9 @@ A living doc.
 | Unstage all changes | `git reset` |
 | Undo all modified files | `git checkout .` |
 | Delete untracked files | `git clean -f -d` |
-| Interactively rebase last n commits | `git rebase -i HEAD~n` |
+| Interactively rebase last `n` commits | `git rebase -i HEAD~n` |
 | Cleanup local repo | `git gc` |
 | Track case-only filename changes | `git mv -f` |
 | Ignore a file that was already committed | `git rm -r --cached . && git add .` |
+| Show short hash of latest commit where `n` is length | `git rev-parse --short=n HEAD` |
 {{< /table >}}
