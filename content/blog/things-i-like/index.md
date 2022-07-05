@@ -248,6 +248,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Wry Rules for navigating a flawed universe](https://www.artofmanliness.com/articles/wry-rules-for-navigating-a-flawed-universe/)
   * [Sunday Firesides: Give Them the Cream](https://www.artofmanliness.com/people/family/sunday-firesides-give-them-the-cream/)
   * [Feed Your Individuality on Non-Regurgitated Food](https://www.artofmanliness.com/character/advice/feed-your-individuality-on-non-regurgitated-food/)
+  * [Sunday Firesides: If You See Something, Say Something](https://www.artofmanliness.com/character/behavior/sunday-firesides-if-you-see-something-say-something/)
 * Foundations Magazine:
   * [Elbert Hubbard: Initiative and a message to Garcia](http://www.foundationsmag.com/garcia.html)
   * [Elbert Hubbard: Get out or get in line](http://www.foundationsmag.com/hubbardloyalty.html)
