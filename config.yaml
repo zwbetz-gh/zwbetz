@@ -28,7 +28,7 @@ permalinks:
   blog: /:filename/
 
 imaging:
-  quality: 100
+  quality: 75
 
 menu:
   nav:
