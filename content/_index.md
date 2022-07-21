@@ -17,7 +17,7 @@ My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learn
 
 ## Work
 
-I'm a Software Engineer at Sev1Tech (formerly Geocent).
+I'm a Software Developer at Sev1Tech (formerly Geocent).
 
 I have a B.S. in Information Systems and Decision Sciences from Louisiana State University (but we all know the learning never ends).
 
