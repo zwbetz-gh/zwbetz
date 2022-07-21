@@ -5,6 +5,10 @@ toc: true
 draft: false
 ---
 
+**Update:** As of June 19, 2022, this is now an official PurgeCSS [guide](https://purgecss.com/guides/hugo.html), yay.
+
+---
+
 If you haven't heard yet, [PurgeCSS](https://purgecss.com/) is awesome. Say you wanna use [Bootstrap](https://getbootstrap.com/), but you only need _some_ of the classes? You can do that!
 
 Instead of serving the _full_ CSS file with your site, you can use PurgeCSS to _purge_ the unused classes, which results in a much smaller CSS file. This tutorial shows you how to do that with my favorite static site generator, [Hugo](https://gohugo.io/).
