@@ -142,4 +142,5 @@ At the time of this writing, I bundle Bootstrap with some custom styles. When se
 
 ## References
 
-- <https://gohugo.io/hugo-pipes/postprocess/>
+- [PostProcess docs](https://gohugo.io/hugo-pipes/postprocess/)
+- [Using PurgeCSS with Hugo](https://christianoliff.com/blog/using-purgecss-with-hugo/) by Christian Oliff. I stumbled upon his article after writing this one, and I like the way he populates the PurgeCSS `content` array. Check it out
