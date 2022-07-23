@@ -15,11 +15,11 @@ const getSearchEl = (): HTMLInputElement => {
   return document.querySelector('#search') as HTMLInputElement;
 };
 
-const getCountEl = (): HTMLElement => {
+const getCountEl = (): HTMLSpanElement => {
   return document.querySelector('#count-value') as HTMLElement;
 };
 
-const getPostEls = (): NodeListOf<HTMLElement> => {
+const getPostEls = (): NodeListOf<HTMLParagraphElement> => {
   return document.querySelectorAll('#list p');
 };
 
@@ -27,8 +27,8 @@ const getQueryWords = (): string[] => {
   return getSearchEl().value.trim().toUpperCase().split(' ');
 };
 
-const getPostTitle = (postEl: HTMLElement): string => {
-  const el = postEl.querySelector('span.post-title') as HTMLElement;
+const getPostTitle = (postEl: HTMLParagraphElement): string => {
+  const el = postEl.querySelector('span.post-title') as HTMLSpanElement;
   const textContent = el.textContent as string;
   return textContent.trim().toUpperCase();
 };
@@ -39,11 +39,11 @@ const isHit = (queryWords: string[], title: string): boolean => {
   });
 };
 
-const showPost = (postEl: HTMLElement): void => {
+const showPost = (postEl: HTMLParagraphElement): void => {
   postEl.style.display = 'block';
 };
 
-const hidePost = (postEl: HTMLElement): void => {
+const hidePost = (postEl: HTMLParagraphElement): void => {
   postEl.style.display = 'none';
 };
 
