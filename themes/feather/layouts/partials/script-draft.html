@@ -1,8 +1,8 @@
 {{ $isDraft := eq .Draft true }}
-{{ $isNotServer := eq site.IsServer false }}
+{{ $isNotServer := not site.IsServer }}
 
 {{ if and $isDraft $isNotServer }}
-  {{ $js := resources.Get "js/draft.js" | minify | fingerprint }}
+  {{ $js := resources.Get "js/draft.ts" | js.Build | minify | fingerprint }}
   <script
     src="{{ $js.RelPermalink }}"
     integrity="{{ $js.Data.Integrity }}"
