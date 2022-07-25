@@ -97,11 +97,6 @@ JS:
 })();
 ```
 
-## Demo
-
-<div id="demo"></div>
-<script src="index.js"></script>
-
 ## Reference
 
 - The `Blob` object. [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
