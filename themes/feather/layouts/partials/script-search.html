@@ -1,11 +1,14 @@
 {{ $isBlog := eq .RelPermalink "/blog/" }}
+
 {{ $loadScript := and $isBlog site.Params.show_search }}
 
 {{ if $loadScript }}
   {{ $js := resources.Get "js/search.ts" | js.Build }}
+
   {{ if not site.IsServer }}
     {{ $js = $js | minify | fingerprint }}
   {{ end }}
+
   <script
     src="{{ $js.RelPermalink }}"
     integrity="{{ $js.Data.Integrity }}"

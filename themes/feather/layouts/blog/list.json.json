@@ -1,1 +1,14 @@
-{{- partial "blog-list.json" . -}}
+{{- $isBlog := eq .RelPermalink "/blog/" -}}
+{{- $pages := where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
+
+{{- $list := slice -}}
+
+{{- range $pages -}}
+	{{- $item := dict
+    "title" .Title
+    "url" .RelPermalink -}}
+
+	{{- $list = $list | append $item -}}
+{{- end -}}
+
+{{- $list | jsonify -}}

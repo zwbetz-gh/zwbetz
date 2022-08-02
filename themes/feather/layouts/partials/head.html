@@ -19,10 +19,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
 
-  {{ if eq .Draft true }}
-    <meta name="robots" content="noindex">
-  {{ end }}
-
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="{{ $bundleCss.RelPermalink }}" integrity="{{ $bundleCss.Data.Integrity }}">
 
@@ -33,8 +29,6 @@
         | safeHTML }}
     {{ end }}
   {{ end }}
-
-  {{ partial "script-draft.html" . }}
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
