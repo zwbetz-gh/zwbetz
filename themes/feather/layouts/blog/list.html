@@ -1,45 +1,23 @@
 {{ define "main" }}
-  {{ $isBlog := eq .RelPermalink "/blog/" }}
-
-  {{ $showSearch := and $isBlog site.Params.show_search }}
-
-  {{ $pages := where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" }}
+  {{ $pages := .RegularPages.ByPublishDate.Reverse }}
 
   <div class="container">
     <h1>{{ .Title }}</h1>
 
-    {{ if $showSearch }}
-      <input
-        class="form-control"
-        id="search"
-        type="text"
-        aria-label="Search by title"
-        placeholder="Loading..."
-        disabled
-      >
+    {{ range $pages }}
+      {{ $date := .PublishDate.Format site.Params.date_format }}
+      {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
+
+      <h3>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+      <p>
+        <strong>Published:</strong>
+        {{ $date }}
+        <br>
+        <strong>Summary:</strong>
+        {{ $summary }}
+      </p>
     {{ end }}
-
-    <p id="count">
-      <span id="count-label">
-        <strong>Count:</strong>
-      </span>
-      <span id="count-value">
-        {{ len $pages }}
-      </span>
-    </p>
-
-    <div id="list" class="">
-      {{ range $pages }}
-        <p>
-          <span class="post-date">
-            {{ .PublishDate.Format site.Params.date_format }}
-          </span>
-          <br>
-          <span class="post-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </span>
-        </p>
-      {{ end }}
-    </div>
   </div>
 {{ end }}

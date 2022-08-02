@@ -38,6 +38,9 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
+    - name: Search
+      url: /search/
+      weight: 3
 
   footer_nav:
     - name: Built With

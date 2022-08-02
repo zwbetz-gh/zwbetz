@@ -6,10 +6,10 @@
 
 {{ $customCss := resources.Get "css/custom.css" }}
 
-{{ $bundleCss := slice $bootstrapCss $customCss | resources.Concat "css/bundle.css" | resources.PostCSS }}
+{{ $bundledCss := slice $bootstrapCss $customCss | resources.Concat "css/bundled.css" | resources.PostCSS }}
 
 {{ if hugo.IsProduction }}
-  {{ $bundleCss = $bundleCss | minify | fingerprint | resources.PostProcess }}
+  {{ $bundledCss = $bundledCss | minify | fingerprint | resources.PostProcess }}
 {{ end }}
 
 <head>
@@ -20,7 +20,7 @@
   <meta name="description" content="{{ $summary }}">
 
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ $bundleCss.RelPermalink }}" integrity="{{ $bundleCss.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $bundledCss.RelPermalink }}" integrity="{{ $bundledCss.Data.Integrity }}">
 
   {{ if eq .RelPermalink "/blog/" }}
     {{ range .AlternativeOutputFormats }}

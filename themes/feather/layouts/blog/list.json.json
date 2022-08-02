@@ -1,5 +1,4 @@
-{{- $isBlog := eq .RelPermalink "/blog/" -}}
-{{- $pages := where site.RegularPages.ByPublishDate.Reverse "Section" "==" "blog" -}}
+{{- $pages := .RegularPages.ByPublishDate.Reverse -}}
 
 {{- $list := slice -}}
 

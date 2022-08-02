@@ -1,88 +1,109 @@
-const LOG_ENABLED = true;
+import stats from './stats';
+import Fuse from './fuse.js';
+import {Hit, Page} from './types.js';
 
-const logPerformance = (funcName: string, func: () => void): void => {
-  const startTime = performance.now();
-  func();
-  const endTime = performance.now();
-  const duration = (endTime - startTime).toFixed(2);
+const JSON_INDEX_URL = `${window.location.origin}/blog/index.json`;
+const QUERY_URL_PARAM = 'query';
 
-  if (LOG_ENABLED) {
-    console.log(`${funcName} took ${duration} ms`);
+const MAX_HITS_SHOWN = 10;
+
+const FUSE_OPTIONS = {
+  keys: ['title']
+};
+
+let fuse: any;
+
+const getSearchInputEl = (): HTMLInputElement => {
+  return document.querySelector('#search_input') as HTMLInputElement;
+};
+
+const getSearchResultsContainerEl = (): HTMLDivElement => {
+  return document.querySelector('#search_results_container') as HTMLDivElement;
+};
+
+const prepareSearchInputEl = (): void => {
+  getSearchInputEl().disabled = false;
+  getSearchInputEl().placeholder = 'Search by title';
+  getSearchInputEl().focus();
+};
+
+const initFuse = (pages: Page[]): void => {
+  fuse = new Fuse(pages, FUSE_OPTIONS);
+};
+
+const doSearchIfUrlParamExists = (): void => {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has(QUERY_URL_PARAM)) {
+    const encodedQuery = urlParams.get(QUERY_URL_PARAM) as string;
+    const query = decodeURIComponent(encodedQuery);
+    getSearchInputEl().value = query;
+    handleSearchEvent();
   }
 };
 
-const getSearchEl = (): HTMLInputElement => {
-  return document.querySelector('#search') as HTMLInputElement;
+const setUrlParam = (query: string): void => {
+  const urlParams = new URLSearchParams(window.location.search);
+  urlParams.set(QUERY_URL_PARAM, encodeURIComponent(query));
+  window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
 };
 
-const getCountEl = (): HTMLSpanElement => {
-  return document.querySelector('#count-value') as HTMLElement;
+const fetchJsonIndex = (): void => {
+  const startTime = performance.now();
+  fetch(JSON_INDEX_URL)
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      const pages: Page[] = data;
+      initFuse(pages);
+      prepareSearchInputEl();
+      doSearchIfUrlParamExists();
+      stats.setJsonIndexFetchTime(startTime, performance.now());
+    })
+    .catch(error => {
+      console.error(`Failed to fetch JSON index: ${error.message}`);
+    });
 };
 
-const getPostEls = (): NodeListOf<HTMLParagraphElement> => {
-  return document.querySelectorAll('#list p');
+const createHitHtml = (hit: Hit): string => {
+  return `\
+  <p>
+    <a href="${hit.item.url}">${hit.item.title}</a>
+  </p>`;
 };
 
-const getQueryWords = (): string[] => {
-  return getSearchEl().value.trim().toUpperCase().split(' ');
+const renderHits = (hits: Hit[]): void => {
+  const limitedHits = hits.slice(0, MAX_HITS_SHOWN);
+  const html = limitedHits.map(createHitHtml).join('\n');
+  getSearchResultsContainerEl().innerHTML = html;
 };
 
-const getPostTitle = (postEl: HTMLParagraphElement): string => {
-  const el = postEl.querySelector('span.post-title') as HTMLSpanElement;
-  const textContent = el.textContent as string;
-  return textContent.trim().toUpperCase();
+const getQuery = (): string => {
+  return getSearchInputEl().value.trim();
 };
 
-const isHit = (queryWords: string[], title: string): boolean => {
-  return queryWords.every(queryWordStr => {
-    return title.includes(queryWordStr);
-  });
+const getHits = (query: string): Hit[] => {
+  return fuse.search(query);
 };
 
-const showPost = (postEl: HTMLParagraphElement): void => {
-  postEl.style.display = 'block';
+const handleSearchEvent = (): void => {
+  const startTime = performance.now();
+  const query = getQuery();
+  const hits = getHits(query);
+  setUrlParam(query);
+  renderHits(hits);
+  stats.setSearchEventTime(startTime, performance.now());
 };
 
-const hidePost = (postEl: HTMLParagraphElement): void => {
-  postEl.style.display = 'none';
-};
-
-const updateCountEl = (count: number): void => {
-  getCountEl().textContent = String(count);
-};
-
-const filterPosts = (): void => {
-  const queryWords = getQueryWords();
-  const postEls = getPostEls();
-  let count = postEls.length;
-
-  postEls.forEach(postEl => {
-    const title = getPostTitle(postEl);
-    const hit = isHit(queryWords, title);
-
-    if (hit) {
-      showPost(postEl);
-    } else {
-      hidePost(postEl);
-      count--;
-    }
-  });
-
-  updateCountEl(count);
-};
-
-const handleKeyupEvent = (): void => {
-  logPerformance('filterPosts', filterPosts);
-};
-
-const enableSearchEl = (): void => {
-  getSearchEl().disabled = false;
-  getSearchEl().placeholder = 'Search by title';
+const handleDOMContentLoaded = (): void => {
+  if (getSearchInputEl()) {
+    fetchJsonIndex();
+    getSearchInputEl().addEventListener('keyup', handleSearchEvent);
+  }
 };
 
 const main = (): void => {
-  getSearchEl().addEventListener('keyup', handleKeyupEvent);
-  enableSearchEl();
+  document.addEventListener('DOMContentLoaded', handleDOMContentLoaded);
 };
 
 main();

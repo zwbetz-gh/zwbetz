@@ -1,0 +1,51 @@
+{{ define "main" }}
+  {{ $bundledJs := resources.Get "js/search.ts" | js.Build "js/bundled-search.js" }}
+
+  {{ if  site.IsServer }}
+    {{ $bundledJs = $bundledJs | minify | fingerprint }}
+  {{ end }}
+
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    <div class="mb-3">
+      <details>
+        <summary>Stats</summary>
+
+        <table class="table table-bordered table-primary ">
+          <thead>
+            <tr>
+              <th scope="col">Thing</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">JSON index fetch time</th>
+              <td id="stats_json_index_fetch_time"></td>
+            </tr>
+            <tr>
+              <th scope="row">Search event time</th>
+              <td id="stats_search_event_time"></td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+
+    <div class="mb-3">
+      <input
+        id="search_input"
+        class="form-control"
+        type="text"
+        aria-label="Search by title"
+        placeholder="Loading..."
+        disabled
+      >
+    </div>
+
+    <div id="search_results_container"></div>
+  </div>
+
+  <script type="text/javascript" src="{{ $bundledJs.RelPermalink }}" integrity="{{ $bundledJs.Data.Integrity }}"></script>
+{{ end }}
