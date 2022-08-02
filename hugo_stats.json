@@ -53,6 +53,7 @@
       "ul"
     ],
     "classes": [
+      "active",
       "btn",
       "btn-outline-light",
       "clamped_text",
@@ -61,6 +62,7 @@
       "custom-header",
       "custom-header-link",
       "custom-nav",
+      "custom-paginator",
       "custom-toc",
       "footnote-backref",
       "footnote-ref",
@@ -68,6 +70,9 @@
       "form-control",
       "highlight",
       "mb-3",
+      "page-item",
+      "page-link",
+      "pagination",
       "table",
       "table-bordered",
       "table-primary",

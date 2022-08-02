@@ -1,12 +1,6 @@
 /* general */
 
 :root {
-  --custom-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --custom-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
-  --custom-body-font-family: var(--custom-font-sans-serif);
   --custom-body-font-size: 16px;
   --custom-body-font-weight: 400;
   --custom-body-line-height: 1.6;
@@ -20,51 +14,28 @@
 }
 
 body {
-  margin: 0;
-  font-family: var(--custom-body-font-family);
   font-size: var(--custom-body-font-size);
   font-weight: var(--custom-body-font-weight);
   line-height: var(--custom-body-line-height);
   color: var(--custom-body-color);
-  text-align: var(--custom-body-text-align);
   background-color: var(--custom-body-background-color);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* container */
 
 .container {
   max-width: var(--custom-container-max-width);
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* blockquote */
 
 blockquote {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  margin-left: 0;
-  margin-right: 0;
   padding-left: 1rem;
   border-left-width: var(--custom-border-width-thick);
   border-left-style: var(--custom-border-style);
 }
 
 /* code */
-
-pre,
-code,
-kbd,
-samp {
-  font-family: var(--custom-font-monospace);
-  font-size: 1em;
-  direction: ltr /* rtl:ignore */;
-  unicode-bidi: bidi-override;
-}
 
 pre,
 code {
@@ -102,7 +73,7 @@ code {
   color: inherit;
 }
 
-a > code {
+a>code {
   color: inherit;
 }
 
@@ -152,14 +123,7 @@ figcaption {
 /* footer */
 
 .custom-footer {
-  margin-top: 8rem;
-  margin-bottom: 1rem;
-}
-
-/* search */
-
-#search {
-  width: 100%;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -185,4 +149,12 @@ figcaption {
 .custom-icon-text {
   display: inline-block;
   vertical-align: middle;
+}
+
+/* paginator */
+
+.custom-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }

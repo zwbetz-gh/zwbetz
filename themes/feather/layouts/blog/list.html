@@ -1,10 +1,11 @@
 {{ define "main" }}
   {{ $pages := .RegularPages.ByPublishDate.Reverse }}
+  {{ $paginator := .Paginate $pages }}
 
   <div class="container">
     <h1>{{ .Title }}</h1>
 
-    {{ range $pages }}
+    {{ range $paginator.Pages }}
       {{ $date := .PublishDate.Format site.Params.date_format }}
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
 
@@ -15,9 +16,33 @@
         <strong>Published:</strong>
         {{ $date }}
         <br>
-        <strong>Summary:</strong>
         {{ $summary }}
       </p>
     {{ end }}
+
+    <nav aria-label="Page navigation example" class="custom-paginator">
+      <ul class="pagination ">
+        {{ with $paginator.First }}
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">First</a></li>
+        {{ end }}
+
+        {{ with $paginator.Prev }}
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+        {{ end }}
+
+        <li class="page-item active" aria-current="page"><a class="page-link" href="{{ $paginator.URL }}">{{ $paginator.PageNumber }}</a></li>
+
+        {{ with $paginator.Next }}
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
+        {{ end }}
+
+        {{ with $paginator.Last }}
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">Last</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
   </div>
 {{ end }}
