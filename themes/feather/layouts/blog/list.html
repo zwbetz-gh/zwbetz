@@ -9,9 +9,9 @@
       {{ $date := .PublishDate.Format site.Params.date_format }}
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
 
-      <h3>
+      <div class="h4">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h3>
+      </div>
       <p>
         <strong>Published:</strong>
         {{ $date }}
