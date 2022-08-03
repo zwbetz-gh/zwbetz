@@ -27,13 +27,13 @@
         {{ end }}
 
         {{ with $paginator.Prev }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
         {{ end }}
 
         <li class="page-item active" aria-current="page"><a class="page-link" href="{{ $paginator.URL }}">{{ $paginator.PageNumber }}</a></li>
 
         {{ with $paginator.Next }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
         {{ end }}
 
         {{ with $paginator.Last }}
