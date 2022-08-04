@@ -29,12 +29,6 @@ const logSizeInBytes = (description, obj) => {
   const bytes = getSizeInBytes(obj);
   console.log(`${description} is approximately ${bytes} B`);
 };
-
-const logSizeInKilobytes = (description, obj) => {
-  const bytes = getSizeInBytes(obj);
-  const kb = (bytes / 1000).toFixed(2);
-  console.log(`${description} is approximately ${kb} kB`);
-};
 ```
 
 ## Usage
@@ -53,9 +47,6 @@ logSizeInBytes('str', str);
 
 logSizeInBytes('obj', obj);
 // => obj is approximately 51 B
-
-logSizeInKilobytes('obj', obj);
-// => obj is approximately 0.05 kB
 ```
 
 ## Notes

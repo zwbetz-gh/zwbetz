@@ -1,4 +1,4 @@
-{{ if not site.IsServer }}
+{{ if hugo.IsProduction }}
   {{ with site.Params.goat_counter_code }}
     <script
       data-goatcounter="https://{{ . }}.goatcounter.com/count"

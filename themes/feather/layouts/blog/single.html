@@ -4,5 +4,32 @@
     {{ partial "datestamp.html" . }}
     {{ partial "toc.html" . }}
     {{ .Content }}
+
+    <!-- CSS -->
+    {{ with .Page.Resources.GetMatch "index.css" }}
+      {{ $bundledCss := . }}
+      {{ if hugo.IsProduction }}
+        {{ $bundledCss = $bundledCss | minify | fingerprint }}
+      {{ end }}
+      <link
+        rel="stylesheet"
+        href="{{ $bundledCss.RelPermalink }}"
+        integrity="{{ $bundledCss.Data.Integrity }}"
+      >
+    {{ end }}
+
+    <!-- JS/TS -->
+    {{ with .Page.Resources.GetMatch "index.{js,ts}" }}
+      {{ $bundledJs := . | js.Build }}
+      {{ if hugo.IsProduction }}
+        {{ $bundledJs = $bundledJs | minify | fingerprint }}
+      {{ end }}
+      <script
+        type="text/javascript"
+        src="{{ $bundledJs.RelPermalink }}"
+        integrity="{{ $bundledJs.Data.Integrity }}"
+      ></script>
+    {{ end }}
+
   </div>
 {{ end }}

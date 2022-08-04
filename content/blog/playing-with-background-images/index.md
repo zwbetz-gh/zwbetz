@@ -8,8 +8,6 @@ Playing around with CSS background image and filter properties.
 
 <!--more-->
 
-See [index.css](index.css) and [index.js](index.js).
+See [index.css](index.css) and [index.ts](index.ts).
 
-<link href="index.css" rel="stylesheet">
 <div id="box"></div>
-<script src="index.js"></script>

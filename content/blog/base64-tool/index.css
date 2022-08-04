@@ -1,0 +1,11 @@
+textarea {
+  width: 100%;
+}
+
+#error {
+  color: #dc3545;
+}
+
+label {
+  font-weight: bold;
+}

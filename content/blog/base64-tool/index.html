@@ -6,16 +6,6 @@ draft: false
 
 <!--more-->
 
-<style>
-  textarea {
-    width: 100%;
-  }
-
-  #error {
-    color: #dc3545;
-  }
-</style>
-
 <form id="form">
   <div>
     <label for="input">Input</label>
@@ -47,52 +37,3 @@ draft: false
   </div>
   <br>
 </form>
-
-<script>
-  (function () {
-    function hideError() {
-      const errorEl = document.getElementById('error');
-      errorEl.textContent = '';
-      errorEl.style.display = 'none';
-    }
-
-    function showError(error) {
-      const errorEl = document.getElementById('error');
-      errorEl.textContent = String(error);
-      errorEl.style.display = 'block';
-    }
-
-    function parseInput() {
-      const inputVal = document.getElementById('input').value.trim();
-      const actionVal = document.getElementById('action').value;
-      if (actionVal == 'encode') {
-        return btoa(inputVal);
-      }
-      return atob(inputVal);
-    }
-
-    function createOutput() {
-      hideError();
-      let output = '';
-      try {
-        output = parseInput();
-      } catch (error) {
-        showError(error);
-      }
-      return output;
-    }
-
-    function handleSubmit(event) {
-      event.preventDefault();
-      const outputEl = document.getElementById('output');
-      outputEl.value = createOutput();
-    }
-
-    function main() {
-      const form = document.getElementById('form');
-      form.addEventListener('submit', handleSubmit);
-    }
-
-    main();
-  })();
-</script>
