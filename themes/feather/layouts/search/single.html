@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $bundledJs := resources.Get "js/search.ts" | js.Build "js/bundled-search.js" }}
 
-  {{ if  site.IsServer }}
+  {{ if not site.IsServer }}
     {{ $bundledJs = $bundledJs | minify | fingerprint }}
   {{ end }}
 
