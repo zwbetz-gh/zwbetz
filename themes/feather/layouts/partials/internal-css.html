@@ -1,0 +1,9 @@
+{{ with .Page.Resources.GetMatch "index.css" }}
+  {{ $css := . }}
+  {{ if hugo.IsProduction }}
+    {{ $css = $css | minify }}
+  {{ end }}
+  <style>
+    {{ $css.Content | safeCSS }}
+  </style>
+{{ end }}

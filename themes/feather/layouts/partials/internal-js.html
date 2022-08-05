@@ -1,0 +1,9 @@
+{{ with .Page.Resources.GetMatch "index.{js,ts}" }}
+  {{ $js := . | js.Build }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | minify }}
+  {{ end }}
+  <script>
+    {{ $js.Content | safeJS }}
+  </script>
+{{ end }}
