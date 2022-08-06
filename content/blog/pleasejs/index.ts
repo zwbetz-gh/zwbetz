@@ -56,11 +56,30 @@ const defaultOptions: PleaseOptions = {
   format: 'hex'
 };
 
-const makeColor = (options = defaultOptions) => {
-  return Please.make_color(options) as string[];
+const makeColor = (options = defaultOptions): string => {
+  return Please.make_color(options)[0];
 };
 
-const color = makeColor();
-console.log(color);
+const getRandomButton = (): HTMLButtonElement => {
+  return document.querySelector('#random_button') as HTMLButtonElement;
+};
 
-const div = document.querySelector('#playground');
+const getRandomColorDiv = (): HTMLDivElement => {
+  return document.querySelector('#random_color') as HTMLDivElement;
+};
+
+const getRandomColorTextDiv = (): HTMLDivElement => {
+  return document.querySelector('#random_color_text') as HTMLDivElement;
+};
+
+const handleRandomButtonClick = (): void => {
+  const color = makeColor();
+  getRandomColorDiv().style.backgroundColor = color;
+  getRandomColorTextDiv().innerHTML = color;
+};
+
+const main = (): void => {
+  getRandomButton().addEventListener('click', handleRandomButtonClick);
+};
+
+main();

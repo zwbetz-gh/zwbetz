@@ -2,74 +2,112 @@
 title: "Please.js"
 date: 2022-08-04T21:05:34-05:00
 draft: true
-summary: TODO
+summary: A tribute to the Please.js library.
 ---
 
-<div id="playground">
-  <div class="mb-3">
-    <label for="hue" class="form-label">
-      Hue
-    </label>
-    <input id="hue" class="form-control" aria-describedby="hue_help" type="number" min="0" max="360" step="1">
-    <div id="hue_help" class="form-text">
-      (0-360) By setting the hue, you determine the color.
-    </div>
-  </div>
+<p>
+  A tribute to the <a href="https://github.com/Fooidge/PleaseJS">Please.js</a> library.
+</p>
 
-  <div class="mb-3">
-    <label for="saturation" class="form-label">
-      Saturation
-    </label>
-    <input id="saturation" class="form-control" aria-describedby="saturation_help" type="number" min="0.0" max="1.0"
-      step="0.1">
-    <div id="saturation_help" class="form-text">
-      (0.0-1.0) By setting the saturation, you determine the distance from gray.
-    </div>
-  </div>
+<p>
+  At the time of this writing, Please.js no longer has a working demo, and was last committed to on Dec 17, 2014.
+</p>
 
-  <div class="mb-3">
-    <label for="value" class="form-label">
-      Value
-    </label>
-    <input id="value" class="form-control" type="number" min="0.0" max="1.0" step="0.1">
-  </div>
+<h2>
+  Create a Random Color
+</h2>
 
-  <div class="mb-3">
-    <label for="base_color" class="form-label">
-      Base Color
-    </label>
-    <input id="base_color" class="form-control" type="text">
-  </div>
-
-  <div class="mb-3">
-    <input id="grayscale" class="form-check-input" type="checkbox">
-    <label for="grayscale" class="form-check-label">
-      Grayscale
-    </label>
-  </div>
-
-  <div class="mb-3">
-    <input id="golden" class="form-check-input" type="checkbox">
-    <label for="golden" class="form-check-label">
-      Golden
-    </label>
-  </div>
-
-  <div class="mb-3">
-    <input id="full_random" class="form-check-input" type="checkbox">
-    <label for="full_random" class="form-check-label">
-      Full Random
-    </label>
-  </div>
-
-  <div class="mb-3">
-    <label for="format" class="form-label">
-      Format
-    </label>
-    <input id="format" class="form-control" type="text">
-  </div>
-
+<div class="mb-3">
+  <button id="random_button" type="button" class="btn btn-primary">Roll the dice</button>
 </div>
+
+<div class="mb-3">
+  <div id="random_color">
+    <div id="random_color_text">
+      TODO
+    </div>
+  </div>
+</div>
+
+<h2>
+  Customize a Color
+</h2>
+
+<div class="mb-3">
+  <label for="hue" class="form-label">
+    Hue
+  </label>
+  <input id="hue" class="form-control" aria-describedby="hue_help" type="number" min="0" max="360" step="1">
+  <div id="hue_help" class="form-text">
+    (0-360) By setting the hue, you determine the color.
+  </div>
+</div>
+
+<div class="mb-3">
+  <label for="saturation" class="form-label">
+    Saturation
+  </label>
+  <input id="saturation" class="form-control" aria-describedby="saturation_help" type="number" min="0.0" max="1.0"
+    step="0.1">
+  <div id="saturation_help" class="form-text">
+    (0.0-1.0) By setting the saturation, you determine the distance from gray.
+  </div>
+</div>
+
+<div class="mb-3">
+  <label for="value" class="form-label">
+    Value
+  </label>
+  <input id="value" class="form-control" aria-describedby="value_help" type="number" min="0.0" max="1.0" step="0.1">
+  <div id="value_help" class="form-text">
+    (0.0-1.0) By setting the value, you determine the balance between black and white.
+  </div>
+</div>
+
+<!-- TODO select of the colors -->
+<div class="mb-3">
+  <label for="base_color" class="form-label">
+    Base Color
+  </label>
+  <input id="base_color" class="form-control" aria-describedby="base_color_help" type="text">
+  <div id="base_color_help" class="form-text">
+    ('the name of an HTML color') Setting a base_color (e.g. 'pink') will create a random color within the HSV range of
+    the chosen color. Please will recognize any of the 146 standard HTML colors, it has a very good memory.
+  </div>
+</div>
+
+<div class="mb-3">
+  <input id="grayscale" class="form-check-input" aria-describedby="grayscale_help" type="checkbox">
+  <label for="grayscale" class="form-check-label">
+    Grayscale
+  </label>
+  <div id="grayscale_help" class="form-text">
+    (true/false) Setting either greyscale or grayscale (but we all know which one is correct) to true will cause all of
+    the colors you generate to be within the grey or gray range. This is effectively the same as setting your saturation
+    to 0.
+  </div>
+</div>
+
+<div class="mb-3">
+  <input id="golden" class="form-check-input" aria-describedby="golden_help" type="checkbox">
+  <label for="golden" class="form-check-label">
+    Golden
+  </label>
+  <div id="golden_help" class="form-text">
+    Setting golden to true randomizes your hue (overrides hue setting) and makes you a spectacular color based on the
+    golden ratio. It's so good, it's the default. Make sure to turn it off if you want to have more control over your
+    generated colors.
+  </div>
+</div>
+
+<!-- TODO select of the formats -->
+<div class="mb-3">
+  <label for="format" class="form-label">
+    Format
+  </label>
+  <input id="format" class="form-control" type="text">
+</div>
+
 
 
 

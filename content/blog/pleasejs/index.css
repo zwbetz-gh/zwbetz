@@ -1,0 +1,13 @@
+#random_color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border-radius: 0.375rem;
+  background-color: #212529;
+}
+
+#random_color_text {
+  color: #f8f9fa;
+  font-weight: bold;
+}
