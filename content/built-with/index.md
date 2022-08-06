@@ -14,4 +14,4 @@ Things used in the making of this site.
 - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
 - Deployed by [Netlify](https://www.netlify.com/)
 - Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
-- Client-side, fuzzy search courtesy of [Fuse.js](https://fusejs.io/) and Vanilla.js
+- Search by [Fuse.js](https://fusejs.io/)
