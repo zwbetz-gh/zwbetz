@@ -82,9 +82,13 @@ const handleRandomButtonClick = (): void => {
   makeRandomColor();
 };
 
-const main = (): void => {
+const handleDOMContentLoaded = (): void => {
   getRandomButton().addEventListener('click', handleRandomButtonClick);
   makeRandomColor();
+};
+
+const main = (): void => {
+  document.addEventListener('DOMContentLoaded', handleDOMContentLoaded);
 };
 
 main();
