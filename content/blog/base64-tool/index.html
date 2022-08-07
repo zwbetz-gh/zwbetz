@@ -7,33 +7,27 @@ draft: false
 <!--more-->
 
 <form id="form">
-  <div>
-    <label for="input">Input</label>
+  <div class="mb-3">
+    <label for="input" class="form-label">Input</label>
+    <textarea id="input" class="form-control" rows="3"></textarea>
+    <div id="error" style="display: none;"></div>
   </div>
-  <div>
-    <textarea id="input" rows="3"></textarea>
-  </div>
-  <div id="error" style="display: none;"></div>
-  <br>
-  <div>
-    <label for="action">Action</label>
-  </div>
-  <div>
-    <select id="action">
+
+  <div class="mb-3">
+    <label for="action" class="form-label">Action</label>
+    <select id="action" class="form-select">
       <option value="encode">Encode</option>
       <option value="decode">Decode</option>
     </select>
   </div>
-  <br>
-  <div>
-    <label for="output">Output (readonly)</label>
+
+  <div class="mb-3">
+    <label for="output" class="form-label">Output (readonly)</label>
+    <textarea id="output" class="form-control" rows="3" readonly></textarea>
   </div>
+
   <div>
-    <textarea id="output" rows="3" readonly></textarea>
+    <button id="button" class="btn btn-primary" type="submit">Submit</button>
   </div>
-  <br>
-  <div>
-    <button id="button" type="submit">Submit</button>
-  </div>
-  <br>
+
 </form>
