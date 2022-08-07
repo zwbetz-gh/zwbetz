@@ -72,14 +72,19 @@ const getRandomColorTextDiv = (): HTMLDivElement => {
   return document.querySelector('#random_color_text') as HTMLDivElement;
 };
 
-const handleRandomButtonClick = (): void => {
+const makeRandomColor = (): void => {
   const color = makeColor();
   getRandomColorDiv().style.backgroundColor = color;
   getRandomColorTextDiv().innerHTML = color;
 };
 
+const handleRandomButtonClick = (): void => {
+  makeRandomColor();
+};
+
 const main = (): void => {
   getRandomButton().addEventListener('click', handleRandomButtonClick);
+  makeRandomColor();
 };
 
 main();
