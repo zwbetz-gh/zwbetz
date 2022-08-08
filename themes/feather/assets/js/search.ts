@@ -1,6 +1,6 @@
 import stats from './stats';
-import Fuse from './fuse.js';
-import {Hit, Page} from './types.js';
+import Fuse from './fuse';
+import {Hit, Page} from './types';
 
 const JSON_INDEX_URL = `${window.location.origin}/blog/index.json`;
 const QUERY_URL_PARAM = 'query';
