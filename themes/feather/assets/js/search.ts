@@ -95,15 +95,11 @@ const handleSearchEvent = (): void => {
   stats.setSearchEventTime(startTime, performance.now());
 };
 
-const handleDOMContentLoaded = (): void => {
+const main = (): void => {
   if (getSearchInputEl()) {
     fetchJsonIndex();
     getSearchInputEl().addEventListener('keyup', handleSearchEvent);
   }
-};
-
-const main = (): void => {
-  document.addEventListener('DOMContentLoaded', handleDOMContentLoaded);
 };
 
 main();

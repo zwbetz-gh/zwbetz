@@ -247,7 +247,7 @@ const handleCustomizeButtonClick = (): void => {
 // ----------------------------------------
 // Main
 // ----------------------------------------
-const handleDOMContentLoaded = (): void => {
+const main = (): void => {
   getRandomButton().addEventListener('click', handleRandomButtonClick);
   getCustomizeButton().addEventListener('click', handleCustomizeButtonClick);
 
@@ -255,10 +255,6 @@ const handleDOMContentLoaded = (): void => {
 
   setBaseColorSelectOptions();
   handleCustomizeButtonClick();
-};
-
-const main = (): void => {
-  document.addEventListener('DOMContentLoaded', handleDOMContentLoaded);
 };
 
 main();
