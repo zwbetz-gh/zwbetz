@@ -26,8 +26,8 @@ export const BASE_COLOR_MAP = {
   darkblue: '00008B',
   darkcyan: '008B8B',
   darkgoldenrod: 'B8860B',
-  darkgray: 'A9A9A9',
-  darkgrey: 'A9A9A9',
+  // darkgray: 'A9A9A9',
+  // darkgrey: 'A9A9A9',
   darkgreen: '006400',
   darkkhaki: 'BDB76B',
   darkmagenta: '8B008B',
@@ -44,14 +44,14 @@ export const BASE_COLOR_MAP = {
   darkviolet: '9400D3',
   deeppink: 'FF1493',
   deepskyblue: '00BFFF',
-  dimgray: '696969',
-  dimgrey: '696969',
+  // dimgray: '696969',
+  // dimgrey: '696969',
   dodgerblue: '1E90FF',
   firebrick: 'B22222',
   floralwhite: 'FFFAF0',
   forestgreen: '228B22',
   fuchsia: 'FF00FF',
-  gainsboro: 'DCDCDC',
+  // gainsboro: 'DCDCDC',
   ghostwhite: 'F8F8FF',
   gold: 'FFD700',
   goldenrod: 'DAA520',
@@ -73,8 +73,8 @@ export const BASE_COLOR_MAP = {
   lightcoral: 'F08080',
   lightcyan: 'E0FFFF',
   lightgoldenrodyellow: 'FAFAD2',
-  lightgray: 'D3D3D3',
-  lightgrey: 'D3D3D3',
+  // lightgray: 'D3D3D3',
+  // lightgrey: 'D3D3D3',
   lightgreen: '90EE90',
   lightpink: 'FFB6C1',
   lightsalmon: 'FFA07A',
@@ -131,7 +131,7 @@ export const BASE_COLOR_MAP = {
   seagreen: '2E8B57',
   seashell: 'FFF5EE',
   sienna: 'A0522D',
-  silver: 'C0C0C0',
+  // silver: 'C0C0C0',
   skyblue: '87CEEB',
   slateblue: '6A5ACD',
   slategray: '708090',
@@ -155,15 +155,15 @@ export const BASE_COLOR_MAP = {
 type PleaseFormat = 'hex' | 'rgb' | 'rgb-string' | 'hsv';
 
 interface PleaseOptions {
-  hue: number | null;
-  saturation: number | null;
-  value: number | null;
-  base_color: string;
-  grayscale: boolean;
-  golden: boolean;
-  full_random: boolean;
-  colors_returned: number;
-  format: PleaseFormat;
+  hue?: number | null;
+  saturation?: number | null;
+  value?: number | null;
+  base_color?: string;
+  grayscale?: boolean;
+  golden?: boolean;
+  full_random?: boolean;
+  colors_returned?: number;
+  format?: PleaseFormat;
 }
 
 const defaultOptions: PleaseOptions = {
