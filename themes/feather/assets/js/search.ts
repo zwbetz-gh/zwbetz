@@ -1,14 +1,15 @@
 import stats from './stats';
 import Fuse from './fuse';
-import {Hit, Page} from './types';
+import {FuseOptions, Hit, Page} from './types';
 
 const JSON_INDEX_URL = `${window.location.origin}/blog/index.json`;
 const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 10;
 
-const FUSE_OPTIONS = {
-  keys: ['title']
+const FUSE_OPTIONS: FuseOptions = {
+  keys: ['title'],
+  ignoreLocation: true
 };
 
 let fuse: any;
