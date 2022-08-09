@@ -23,23 +23,47 @@
       <nav class="custom-paginator-buttons">
         <ul class="pagination">
           {{ with $paginator.First }}
-            <li class="page-item"><a class="page-link" href="{{ .URL }}">First</a></li>
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}">
+                First
+              </a>
+            </li>
           {{ end }}
 
           {{ with $paginator.Prev }}
-            <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}">
+                Previous
+              </a>
+            </li>
           {{ else }}
-            <li class="page-item disabled"><a class="page-link">Previous</a></li>
+            <li class="page-item disabled">
+              <a class="page-link">
+                Previous
+              </a>
+            </li>
           {{ end }}
 
           {{ with $paginator.Next }}
-            <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}">
+                Next
+              </a>
+            </li>
           {{ else }}
-            <li class="page-item disabled"><a class="page-link">Next</a></li>
+            <li class="page-item disabled">
+              <a class="page-link">
+                Next
+              </a>
+            </li>
           {{ end }}
 
           {{ with $paginator.Last }}
-            <li class="page-item"><a class="page-link" href="{{ .URL }}">Last</a></li>
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}">
+                Last
+              </a>
+            </li>
           {{ end }}
         </ul>
       </nav>
