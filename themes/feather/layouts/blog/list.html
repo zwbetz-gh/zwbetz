@@ -30,12 +30,6 @@
             <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
           {{ end }}
 
-          <li class="page-item active" aria-current="page">
-            <a class="page-link" href="{{ $paginator.URL }}">
-              {{ $paginator.PageNumber }}
-            </a>
-          </li>
-
           {{ with $paginator.Next }}
             <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
           {{ end }}
@@ -47,9 +41,11 @@
       </nav>
 
       <div class="custom-paginator-totals">
+        <strong>Current page:</strong> {{ $paginator.PageNumber }}
+        <br>
         <strong>Total pages:</strong> {{ $paginator.TotalPages }}
         <br>
-        <strong>Total posts:</strong> {{ $paginator.TotalNumberOfElements }}
+        <strong>Total blog posts:</strong> {{ $paginator.TotalNumberOfElements }}
       </div>
     </div>
 
