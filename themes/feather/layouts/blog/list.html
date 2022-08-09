@@ -28,10 +28,14 @@
 
           {{ with $paginator.Prev }}
             <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
+          {{ else }}
+            <li class="page-item disabled"><a class="page-link">Previous</a></li>
           {{ end }}
 
           {{ with $paginator.Next }}
             <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
+          {{ else }}
+            <li class="page-item disabled"><a class="page-link">Next</a></li>
           {{ end }}
 
           {{ with $paginator.Last }}
