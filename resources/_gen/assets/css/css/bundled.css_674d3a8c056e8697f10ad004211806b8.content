@@ -11043,6 +11043,7 @@ figcaption {
   padding-bottom: 0;
   border-width: var(--custom-border-width);
   border-style: var(--custom-border-style);
+  border-radius: var(--custom-border-radius);
 }
 
 /* header link */
@@ -11061,7 +11062,18 @@ figcaption {
 /* paginator */
 
 .custom-paginator {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-width: var(--custom-border-width);
+  border-style: var(--custom-border-style);
+  border-radius: var(--custom-border-radius);
+}
+
+.custom-paginator-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+}
+
+.custom-paginator-totals {
+  text-align: center;
 }

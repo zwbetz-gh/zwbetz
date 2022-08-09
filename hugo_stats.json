@@ -64,6 +64,8 @@
       "custom-header-link",
       "custom-nav",
       "custom-paginator",
+      "custom-paginator-buttons",
+      "custom-paginator-totals",
       "custom-toc",
       "footnote-backref",
       "footnote-ref",

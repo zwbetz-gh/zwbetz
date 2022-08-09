@@ -13,34 +13,45 @@
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h2>
       <p>
-        <strong>Published:</strong>
-        {{ $date }}
+        <strong>Published:</strong> {{ $date }}
         <br>
         {{ $summary }}
       </p>
     {{ end }}
 
-    <nav aria-label="Page navigation example" class="custom-paginator">
-      <ul class="pagination ">
-        {{ with $paginator.First }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">First</a></li>
-        {{ end }}
+    <div class="custom-paginator">
+      <nav class="custom-paginator-buttons">
+        <ul class="pagination">
+          {{ with $paginator.First }}
+            <li class="page-item"><a class="page-link" href="{{ .URL }}">First</a></li>
+          {{ end }}
 
-        {{ with $paginator.Prev }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
-        {{ end }}
+          {{ with $paginator.Prev }}
+            <li class="page-item"><a class="page-link" href="{{ .URL }}">Previous</a></li>
+          {{ end }}
 
-        <li class="page-item active" aria-current="page"><a class="page-link" href="{{ $paginator.URL }}">{{ $paginator.PageNumber }}</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="{{ $paginator.URL }}">
+              {{ $paginator.PageNumber }}
+            </a>
+          </li>
 
-        {{ with $paginator.Next }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
-        {{ end }}
+          {{ with $paginator.Next }}
+            <li class="page-item"><a class="page-link" href="{{ .URL }}">Next</a></li>
+          {{ end }}
 
-        {{ with $paginator.Last }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">Last</a></li>
-        {{ end }}
-      </ul>
-    </nav>
+          {{ with $paginator.Last }}
+            <li class="page-item"><a class="page-link" href="{{ .URL }}">Last</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+
+      <div class="custom-paginator-totals">
+        <strong>Total pages:</strong> {{ $paginator.TotalPages }}
+        <br>
+        <strong>Total posts:</strong> {{ $paginator.TotalNumberOfElements }}
+      </div>
+    </div>
 
   </div>
 {{ end }}
