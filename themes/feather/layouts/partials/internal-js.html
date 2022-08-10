@@ -1,4 +1,4 @@
-{{ with .Page.Resources.GetMatch "**index.{js,ts}" }}
+{{ with .Resources.GetMatch "**index.{js,ts}" }}
   {{ $js := . | js.Build }}
   {{ if hugo.IsProduction }}
     {{ $js = $js | minify }}

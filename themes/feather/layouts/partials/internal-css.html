@@ -1,4 +1,4 @@
-{{ with .Page.Resources.GetMatch "**index.css" }}
+{{ with .Resources.GetMatch "**index.css" }}
   {{ $css := . }}
   {{ if hugo.IsProduction }}
     {{ $css = $css | minify }}
