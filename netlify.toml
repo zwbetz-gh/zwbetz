@@ -3,7 +3,7 @@
   command = "chmod 755 task_resume_get.sh task_site_build.sh && ./task_site_build.sh"
 
 [build.environment]
-  HUGO_VERSION = "0.96.0"
+  HUGO_VERSION = "0.101.0"
   NODE_VERSION = "16"
 
 [build.processing.images]
