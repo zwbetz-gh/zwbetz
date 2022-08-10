@@ -69,9 +69,7 @@
       </nav>
 
       <div class="custom-paginator-totals">
-        <strong>Current page:</strong> {{ $paginator.PageNumber }}
-        <br>
-        <strong>Total pages:</strong> {{ $paginator.TotalPages }}
+        <strong>Current page:</strong> {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
         <br>
         <strong>Total blog posts:</strong> {{ $paginator.TotalNumberOfElements }}
       </div>
