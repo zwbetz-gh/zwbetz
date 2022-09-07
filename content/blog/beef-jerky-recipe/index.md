@@ -11,7 +11,7 @@ My dad let me borrow his jerky maker (I've since bought my own) -- a [NESCO FD-2
 
 ## Aug 28, 2022 Update, Sweet Chili Edition
 
-You can still try the original recipe if you want. But I've stumbled upon my new favorite.
+You can still try the original recipe if you want. But I've stumbled upon my new favorite. Mmm.
 
 I plan to try a few more seasoning packs from the Walmart aisle. Caribbean Jerk looks interesting.
 
@@ -19,19 +19,33 @@ I plan to try a few more seasoning packs from the Walmart aisle. Caribbean Jerk 
 
 - Beef: eye of round, sizzle steak, milanesa, etc.
 - Sweet Chili Wing Seasoning Mix
-    - I get the Walmart brand that's about $1, but it doesn't matter
+    - I get the Walmart brand which is about $1, but it doesn't matter
     - Use 1 pack of seasoning for every 1 pound of beef
-- Worcestershire sauce
+- A splash of Worcestershire sauce
 
 ### Directions
 
 1. Cut beef into thin strips
 1. Mix everything together and let marinate overnight
-1. Place in the dehydrator. Let is go for 3 to 4 hours
+1. Place in the dehydrator. Let it go for 3 to 4 hours
 
 {{< figure
 img="img/walmart-sweet-chili-wing-seasoning-mix.png"
 caption="Sweet Chili Wing Seasoning Mix from Walmart"
+command="Resize"
+options="600x" >}}
+
+### Results
+
+{{< figure
+img="img/jerky-sweet-chili.jpg"
+caption="A batch of Sweet Chili. Just the right mix of sweet and heat"
+command="Resize"
+options="600x" >}}
+
+{{< figure
+img="img/jerky-caribbean-jerk.jpg"
+caption="A batch of Caribbean Jerk. I'm glad I tried it, but I won't miss it"
 command="Resize"
 options="600x" >}}
 
