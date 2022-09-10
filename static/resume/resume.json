@@ -30,15 +30,15 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
+        "Was a Full Stack Developer on the code-challenge team that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
         "Performed full stack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software",
         "Led a team of Software Engineers as we worked through a backlog of bugs and optimization-related tickets",
         "Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
-        "Developed extensive end-to-end test suites via NightwatchJS, which run via Selenium Grid in our CI environments",
-        "Cut our pipeline build times in half by reusing NodeJS and Gradle dependency caches and optimizing Jenkins stages: NodeJS pipelines went from 1 hr to 30 mins, Gradle pipelines went from 40 mins to 15 mins",
-        "Wrote a Flyway-like tool that initializes indices then inserts JSON mappings and test data into Elasticsearch, via Spring Boot",
-        "Wrote a Jaspersoft Server Reports test framework via Bash/cURL",
-        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records via SQL/Bash/sqlplus/psql",
-        "Created and maintained development documentation that is used across USCIS"
+        "Cut our pipeline build times in half by reusing Node.js and Gradle dependency caches and optimizing Jenkins stages. Node.js pipelines went from 1 hr to 30 mins. Gradle pipelines went from 40 mins to 15 mins",
+        "Developed a custom tool to migrate and sync our searchable data from Postgres into Elasticsearch (now OpenSearch)",
+        "Developed extensive end-to-end tests, which run in a clean-room environment on a nightly schedule",
+        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records",
+        "Created and maintained general developer onboarding documentation that is used across USCIS"
       ]
     },
     {
