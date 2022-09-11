@@ -66,7 +66,11 @@ public class PaginationRunner implements ApplicationRunner {
   private Page<Map<String, Object>> findAll(Pageable pageable) {
     long startId = pageable.getOffset();
     long endId = startId + pageable.getPageSize();
-    String sql = String.format("SELECT * FROM word WHERE id > %s AND id <= %s", startId, endId);
+    String sql = String.format(
+        "SELECT * FROM word WHERE id > %s AND id <= %s",
+        startId,
+        endId
+    );
     logger.info("findAll sql: {}", sql);
     List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
     long total = countAll();
@@ -84,7 +88,10 @@ public class PaginationRunner implements ApplicationRunner {
     int totalPages = page.getTotalPages();
     int currentRowCount = page.getNumberOfElements();
     long totalRowCount = page.getTotalElements();
-    logger.info("On page {} of {}. Rows in this page: {}. Total rows: {}", currentPage, totalPages, currentRowCount, totalRowCount);
+    logger.info(
+        "On page {} of {}. Rows in this page: {}. Total rows: {}",
+        currentPage, totalPages, currentRowCount, totalRowCount
+    );
   }
 
   private void handleRow(Map<String, Object> row) {
