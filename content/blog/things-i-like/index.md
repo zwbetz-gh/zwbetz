@@ -336,6 +336,7 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [Summary of every Self-Help Book EVER](https://youtu.be/E7RgtMGL7CA)
 * Lex Fridman Podcast:
   * [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets](https://youtu.be/I845O57ZSy4)
+  * [Richard Haier: IQ Tests, Human Intelligence, and Group Differences](https://youtu.be/hppbxV9C63g)
 
 ## Strength Training
 
