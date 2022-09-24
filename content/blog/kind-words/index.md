@@ -70,6 +70,18 @@ The responses I got were absolutely heartwarming:
 
 ---
 
+> Zach takes on difficult and/or large problems that need to get worked with no hesitation.
+>
+> When Zach gets a problem, he finds a way to solve it. He’ll research, set up meetings, brainstorm, etc. He’ll spend the time and loop in the people he needs to get a problem solved.
+>
+> As a team lead, Zach is very involved with his team and very available to knowledge share and work his team members through blockers.
+>
+> Whatever Zach is being paid isn’t enough.
+>
+> -- Seamus, Senior Software Engineer
+
+---
+
 > Zach Betz is a 10x programmer. It is rare to find someone who is both incredibly good at their own work and yet willing and able to help others with theirs.
 >
 > Zach is famous in open-source circles, esp. as a contributor to Hugo. In addition to solving difficult problems, Zach always leaves behind very good documentation, which helps save countless hours for other developers who run into the same problem.
@@ -199,6 +211,26 @@ The responses I got were absolutely heartwarming:
 > I am highly recommending him to be Team leader or any other leadership position.
 >
 > -- Deepak, Software Engineer
+
+---
+
+> Zach is an excellent co-worker with vast knowledge about software, designing and analyzing system processes, and other related duties. I have been working with him for more than half a year, and he has been a great leader.
+>
+> One of his tasks was to streamline software processes and allow for efficient information flow and retrieval, and he did an excellent job in consistently managing and improving our systems. He is always on top of tasks, stays up to date on software developments, and finds the best solutions that fit the organization.
+>
+> He had the most extensive and diverse knowledge of software at REDACTED, and others sought his advice. I can't recommend him highly enough as a dependable and capable employee.
+>
+> -- Anish, Software Engineer
+
+---
+
+> Zach is the best developer I have encountered during my many years of consulting. He is super-engaged and a wonderful caretaker of the system. I have not encountered anyone with his depth and range of knowledge on so many programming languages and technologies.
+>
+> He deserves the maximum raise, keeping in mind that inflation was 9.62% this year, going by what the US Treasury Inflation Bonds are currently paying. Anything less than that is a pay decrease.
+>
+> Reference: https://www.treasurydirect.gov/indiv/research/indepth/ibonds/res_ibonds.htm
+>
+> -- Ben, DevSecOps Engineer
 
 ---
 
