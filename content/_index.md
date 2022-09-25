@@ -21,7 +21,7 @@ I'm a Software Developer at Sev1Tech (formerly Geocent).
 
 I have a B.S. in Information Systems and Decision Sciences from Louisiana State University (but we all know the learning never ends).
 
-Here's my [Resume](/resume/resume.html).
+Here's my [Resume](/resume/).
 
 ## Contact
 

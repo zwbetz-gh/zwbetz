@@ -8,14 +8,14 @@ FILES=(
   "resume.json"
 )
 
-git clone https://github.com/zwbetz-gh/json-resume.git ${TEMP_DIR}
+git clone https://github.com/zwbetz-gh/json-resume.git "${TEMP_DIR}"
 
-mkdir -p ${LOCAL_DIR}
+mkdir -p "${LOCAL_DIR}"
 
-for f in ${FILES[@]}; do
-  cp -v ${TEMP_DIR}/public/${f} ${LOCAL_DIR}/${f}
-done
+cp -v "${TEMP_DIR}/public/resume.json" "${LOCAL_DIR}/resume.json"
+cp -v "${TEMP_DIR}/public/resume.html" "${LOCAL_DIR}/resume.html"
+cp -v "${TEMP_DIR}/public/resume.html" "${LOCAL_DIR}/index.html"
 
-rm -rf ${TEMP_DIR}
+rm -r -f "${TEMP_DIR}"
 
 echo "Completed ${0} in ${SECONDS}s"
