@@ -17,7 +17,7 @@ For the style foundation, I went with [Bootstrap Reboot](https://getbootstrap.co
 
 Next up is JavaScript. The only JavaScript included on every page is the count script required by [GoatCounter](https://www.goatcounter.com/). It's about 9 kilobytes.
 
-The blog list page is special. It requires an extra script that enables searching by title. It's about 2 kilobytes. A JSON index is also required and it's currently 29 kilobytes. At 184 posts, that comes to about 0.16 kilobyte per post entry in the JSON index. If I ever get to 1,000 posts one day, that's about 160 kilobytes for the JSON index, which I may tolerate, or I may find a different "search" approach at the point [^different_search].
+The blog list page is special. It requires an extra script that enables searching by title. It's about 2 kilobytes. A JSON index is also required and it's currently 29 kilobytes. At 184 posts, that comes to about 0.16 kilobyte per post entry in the JSON index. If I ever get to 1,000 posts one day, that's about 160 kilobytes for the JSON index, which I may tolerate, or I may find a different "search" approach at the point [^different_search] [^different_search_2].
 
 You may be wondering, why bother writing your own search? Well, it's mostly for mobile usage. I can `Command` + `F` in a desktop browser, but I still need a way to search on mobile. Plus, my search matches on multiple substrings, which is useful when you only know a few keywords of the thing you're looking for.
 
@@ -26,3 +26,5 @@ The HTML size will obviously differ per page. But let's pick [one of the most te
 Going with the worst-case scenario (for a text-heavy page, not a page with many images, which is not the norm for this blog), that comes to about 88 kilobytes per page (9 kilobytes CSS + 9 kilobytes JavaScript + 70 kilobytes HTML). Not too bad. Keep in mind this is raw file size. It doesn't consider web server compression.
 
 [^different_search]: I've indeed found a [different search approach](https://github.com/zwbetz-gh/zwbetz/blob/88cd5e721050c2a4c04e549e7377112455c6e43a/themes/feather/assets/js/search.js). Who knows, it'll probably change again. But as of Jan 18, 2022, I no longer generate a JSON index. Instead, I use a sprinkle of JS to mutate the DOM on the blog list page. Works swell. Each keyup event takes 1-3 milliseconds to complete in Mac Desktop Chrome, resulting in feedback that _feels_ instant.
+
+[^different_search_2]: LOL... Around Jul 2022 I [tweaked it again](https://github.com/zwbetz-gh/zwbetz/blob/6a323644dfe2a123414feee1536d89be0d0a5056/themes/feather/assets/js/search.ts). Now I'm back to using a JSON index, but this time, Fuse.js was invited to the party. If you'd like to do this yourself, [here's a small write up](https://github.com/zwbetz-gh/hugo-client-side-search-template).
