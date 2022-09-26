@@ -7,9 +7,16 @@ const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 10;
 
+const MIN_MATCH_CHAR_LENGTH = 3;
+
+const LEFT_SIDE_MATCH_HTML = '<span style="font-weight: bold;">';
+const RIGHT_SIDE_MATCH_HTML = '</span>';
+
 const FUSE_OPTIONS: FuseOptions = {
   keys: ['title'],
-  ignoreLocation: true
+  ignoreLocation: true,
+  includeMatches: true,
+  minMatchCharLength: MIN_MATCH_CHAR_LENGTH
 };
 
 let fuse: any;
@@ -24,7 +31,7 @@ const getSearchResultsContainerEl = (): HTMLDivElement => {
 
 const prepareSearchInputEl = (): void => {
   getSearchInputEl().disabled = false;
-  getSearchInputEl().placeholder = 'Search by title';
+  getSearchInputEl().placeholder = `Search by title. Use ${MIN_MATCH_CHAR_LENGTH} or more characters`;
   getSearchInputEl().focus();
 };
 
@@ -34,6 +41,7 @@ const initFuse = (pages: Page[]): void => {
 
 const doSearchIfUrlParamExists = (): void => {
   const urlParams = new URLSearchParams(window.location.search);
+
   if (urlParams.has(QUERY_URL_PARAM)) {
     const encodedQuery = urlParams.get(QUERY_URL_PARAM) as string;
     const query = decodeURIComponent(encodedQuery);
@@ -66,10 +74,42 @@ const fetchJsonIndex = (): void => {
     });
 };
 
+const highlightMatches = (hit: Hit) => {
+  const text = hit.item.title;
+  const match = hit.matches.find(match => match.key === 'title');
+
+  if (!match) {
+    return text;
+  }
+
+  let highlightedText = '';
+  const charIndexToReplacementText = new Map<number, string>();
+
+  match.indices.forEach(indexPair => {
+    const startIndex = indexPair[0];
+    const endIndex = indexPair[1];
+
+    const startCharText = `${LEFT_SIDE_MATCH_HTML}${text[startIndex]}`;
+    const endCharText = `${text[endIndex]}${RIGHT_SIDE_MATCH_HTML}`;
+
+    charIndexToReplacementText.set(startIndex, startCharText);
+    charIndexToReplacementText.set(endIndex, endCharText);
+  });
+
+  for (let i = 0; i < text.length; i++) {
+    const replacementText = charIndexToReplacementText.get(i) || text[i];
+    highlightedText += replacementText;
+  }
+
+  return highlightedText;
+};
+
 const createHitHtml = (hit: Hit): string => {
+  const highlightedText = highlightMatches(hit);
+
   return `\
   <p>
-    <a href="${hit.item.url}">${hit.item.title}</a>
+    <a href="${hit.item.url}">${highlightedText}</a>
   </p>`;
 };
 
