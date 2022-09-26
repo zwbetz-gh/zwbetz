@@ -74,9 +74,9 @@ const fetchJsonIndex = (): void => {
     });
 };
 
-const highlightMatches = (hit: Hit) => {
-  const text = hit.item.title;
-  const match = hit.matches.find(match => match.key === 'title');
+const highlightMatches = (hit: Hit, key: string) => {
+  const text = hit.item[key];
+  const match = hit.matches.find(match => match.key === key);
 
   if (!match) {
     return text;
@@ -105,7 +105,7 @@ const highlightMatches = (hit: Hit) => {
 };
 
 const createHitHtml = (hit: Hit): string => {
-  const highlightedText = highlightMatches(hit);
+  const highlightedText = highlightMatches(hit, 'title');
 
   return `\
   <p>
