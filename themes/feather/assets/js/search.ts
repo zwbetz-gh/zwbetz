@@ -75,7 +75,7 @@ const fetchJsonIndex = (): void => {
 };
 
 const highlightMatches = (hit: Hit, key: string) => {
-  const text = hit.item[key];
+  const text: string = hit.item[key];
   const match = hit.matches.find(match => match.key === key);
 
   if (!match) {
