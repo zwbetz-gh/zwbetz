@@ -82,7 +82,6 @@ const highlightMatches = (hit: Hit, key: string) => {
     return text;
   }
 
-  let highlightedText = '';
   const charIndexToReplacementText = new Map<number, string>();
 
   match.indices.forEach(indexPair => {
@@ -96,12 +95,10 @@ const highlightMatches = (hit: Hit, key: string) => {
     charIndexToReplacementText.set(endIndex, endCharText);
   });
 
-  for (let i = 0; i < text.length; i++) {
-    const replacementText = charIndexToReplacementText.get(i) || text[i];
-    highlightedText += replacementText;
-  }
-
-  return highlightedText;
+  return text
+    .split('')
+    .map((char, index) => charIndexToReplacementText.get(index) || char)
+    .join('');
 };
 
 const createHitHtml = (hit: Hit): string => {
