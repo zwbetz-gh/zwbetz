@@ -82,6 +82,18 @@ The responses I got were absolutely heartwarming:
 
 ---
 
+> Zach is a natural leader and his leadership abilities have been demonstrated since transitioning into his role as a Team Lead.
+>
+> His strong knowledge of the application/tools and his approachable nature makes it easy for any team members to consult him about any issues.  Zach almost always has solutions to any problems and in few cases when he does not, he will find time to work closely with the team member to solve the problem by bringing in practical approach of breaking down large concepts into smaller, more manageable tasks and continuously research and experiment to find solutions.
+>
+> One of his greatest strengths is also his ability to manage multiple responsibilities as a lead. His contribution to not only development work but also testing and DevOps speaks for itself. Of all the qualities I mentioned the one I admire most is his willingness to share knowledge and encourage the team to think creatively about solutions by offering feedback, guidance and sharing ideas/techniques for improvement. For example, a test team member could approach him with a bug and later leave with a detailed knowledge of finding patterns, analyzing data and reviewing issues in logs for future reference.
+>
+> Zach builds great relationships, and this is reflected by how highly every team member speaks of him. He is an invaluable member of this project.
+>
+> -- Jason, Senior Automated Test Engineer
+
+---
+
 > Zach Betz is a 10x programmer. It is rare to find someone who is both incredibly good at their own work and yet willing and able to help others with theirs.
 >
 > Zach is famous in open-source circles, esp. as a contributor to Hugo. In addition to solving difficult problems, Zach always leaves behind very good documentation, which helps save countless hours for other developers who run into the same problem.
@@ -160,7 +172,7 @@ The responses I got were absolutely heartwarming:
 >
 > Not only for me, but also, I strongly believe that Zach is the first choice as a go to person, for everyone whoever is working on this project.
 >
-> -- Raghu, Automated Tester
+> -- Raghu, Automated Test Engineer
 
 ---
 
