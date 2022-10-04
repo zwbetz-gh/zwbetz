@@ -337,6 +337,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Lex Fridman Podcast:
   * [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets](https://youtu.be/I845O57ZSy4)
   * [Richard Haier: IQ Tests, Human Intelligence, and Group Differences](https://youtu.be/hppbxV9C63g)
+  * [Michael Levin: Biology, Life, Aliens, Evolution, Embryogenesis & Xenobots](https://youtu.be/p3lsYlod5OU)
 
 ## Strength Training
 
