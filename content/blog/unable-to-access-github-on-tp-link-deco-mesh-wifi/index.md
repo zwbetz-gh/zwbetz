@@ -17,7 +17,7 @@ I checked a few other websites, and my go-to speed test site, <https://fast.com/
 
 SSH uses port 22 by default. Was some process messing with it? You can find all processes using a specific port on Mac with `sudo lsof -i :22`, so I tried that, but no cigar.
 
-I disconnected from WiFi and tried by phone's hotspot. Boom, github.com loaded fine, and I could `git pull` as normal. Was AT&T messing with me? I chalked it up to residential internet flakiness and called it a night.
+I disconnected from WiFi and tried my phone's hotspot. Boom, github.com loaded fine, and I could `git pull` as normal. Was AT&T messing with me? I chalked it up to residential internet flakiness and called it a night.
 
 The next morning, I tried github.com again on WiFi... same issue. Okay, time to investigate my WiFi.
 
