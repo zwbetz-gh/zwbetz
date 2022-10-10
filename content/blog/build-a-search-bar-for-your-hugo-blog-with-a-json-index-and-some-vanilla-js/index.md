@@ -4,9 +4,13 @@ date: 2021-03-06T22:21:55-06:00
 toc: true
 ---
 
-My blog has become a personal knowledge base of sorts. As it's grown, doing the usual `Command` + `F` for browser-search doesn't always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that's my problem, but how to fix it?
+**Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
 
 <!--more-->
+
+---
+
+My blog has become a personal knowledge base of sorts. As it's grown, doing the usual `Command` + `F` for browser-search doesn't always cut it. I sometimes need to search for keywords within a blog post, yet only titles are shown on the blog list page. So, that's my problem, but how to fix it?
 
 Solutions do exist, but they entail connecting to an external search service, or pulling in a large JS framework. I wanted to keep things as close to home as possible and use good ole vanilla JS.
 

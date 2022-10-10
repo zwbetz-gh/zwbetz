@@ -4,9 +4,11 @@ date: 2020-06-14T20:22:51-05:00
 toc: false
 ---
 
-**WARNING:** THIS POST IS DEPRECATED. Instead, see [Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS]({{< relref "build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js" >}})
+**Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
 
 <!--more-->
+
+---
 
 This is something that I recently added to my [uswds hugo theme](https://github.com/zwbetz-gh/uswds-hugo-theme). I'm documenting it here for others, and to remind myself in the future. Code samples and a demo are below. In a nutshell, here's how it works:
 
