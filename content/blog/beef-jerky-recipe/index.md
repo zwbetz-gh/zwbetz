@@ -41,13 +41,13 @@ options="600x" >}}
 img="img/jerky-sweet-chili.jpg"
 caption="A batch of Sweet Chili. Just the right mix of sweet and heat"
 command="Resize"
-options="600x" >}}
+options="600x r270" >}}
 
 {{< figure
 img="img/jerky-caribbean-jerk.jpg"
 caption="A batch of Caribbean Jerk. I'm glad I tried it, but I won't miss it"
 command="Resize"
-options="600x" >}}
+options="600x r270" >}}
 
 ## Original
 
@@ -91,7 +91,7 @@ options="600x" >}}
 img="img/jerky-2.jpg"
 caption="Jerky trial 2 with eye of round. Dehydrated for about 6 hours. ~~This was my favorite batch so far~~"
 command="Resize"
-options="600x" >}}
+options="600x r270" >}}
 
 {{< figure
 img="img/jerky-3.jpg"
