@@ -1,6 +1,6 @@
 {{ $title := printf "%s | %s" .Title site.Title }}
 
-{{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
+{{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r " | default .Title }}
 
 {{ $bootstrapCss := resources.Get "css/bootstrap.css" }}
 
