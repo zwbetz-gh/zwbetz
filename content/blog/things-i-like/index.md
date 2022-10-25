@@ -301,6 +301,7 @@ A list of things that I like, in no particular order. This is a **living** docum
 * Dr. Jordan Peterson:
   * [The master and his emissary: Dr. Iain McGilchrist](https://www.youtube.com/watch?v=xtf4FDlpPZ8)
   * [Susan Blackmore -- Do we need God to make sense of life?](https://www.youtube.com/watch?v=syP-OtdCIho)
+  * [Neuroscience Meets Psychology | Dr. Andrew Huberman](https://youtu.be/z-mJEZbHFLs)
 * Michael Shermer:
   * [Giving the Devil his due: why freedom of inquiry in science and politics is inviolable](https://quillette.com/2018/06/10/giving-devil-due-freedom-inquiry-science-politics-inviolable/)
   * [The Evolution-Creationism controversy as a test case in equal time and free speech](https://michaelshermer.com/2018/05/evolution-creationism-controversy-as-test-case-in-equal-time-free-speech/)
@@ -338,6 +339,8 @@ A list of things that I like, in no particular order. This is a **living** docum
   * [John Carmack: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets](https://youtu.be/I845O57ZSy4)
   * [Richard Haier: IQ Tests, Human Intelligence, and Group Differences](https://youtu.be/hppbxV9C63g)
   * [Michael Levin: Biology, Life, Aliens, Evolution, Embryogenesis & Xenobots](https://youtu.be/p3lsYlod5OU)
+* The Meaning Code:
+  * [Michael Levin and John Vervaeke on Free Will, Character, Attention and Causal Relevance](https://youtu.be/nWMSlcZbEMw)
 
 ## Strength Training
 
