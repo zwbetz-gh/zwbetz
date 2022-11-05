@@ -254,6 +254,25 @@ The responses I got were absolutely heartwarming:
 >
 > -- Mike, JAMF Admin, Device Management Engineering Team
 
+---
+
+> Here is what I see from my perspective:
+>
+> I think Zach provides great value to the project and company beyond expectations:
+>
+> - Very attentive and quick to help others.
+> - Brings a positive and encouraging spirit to the project.
+> - Involved in different parts of the project and has good understanding of those parts. The application, devops, and testing.
+> - Strong development skills and emphasizes focus on good practices.
+> - Detail oriented in understanding and implementing stories.
+> - Involved in the coding challenge, while managing a team of developers on an on-going project. I think this shows abilities to handle multiple tasks and projects simultaneously.
+>
+> What to improve:
+>
+> - Clone yourself. Need more Zachs on this project.
+>
+> -- Leo, Senior Software Engineer
+
 ## Various
 
 From a coworker, a Developer:
