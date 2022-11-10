@@ -200,6 +200,7 @@
       "equal-to",
       "error",
       "every-or-all-match",
+      "excerpt",
       "expando",
       "expected-behavior",
       "explained",
