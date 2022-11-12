@@ -19,6 +19,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{{ $summary }}">
 
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+
   <title>{{ $title }}</title>
 
   <link rel="canonical" href="{{ .Permalink }}">
