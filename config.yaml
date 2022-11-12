@@ -61,7 +61,7 @@ params:
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
   images:
-    - nasa_earth_1280x1280.jpeg
+    - img/nasa_earth_1280x1280.jpeg
 
 markup:
   defaultMarkdownHandler: goldmark
