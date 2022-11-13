@@ -11039,8 +11039,10 @@ figcaption {
 .custom-toc {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-width: var(--custom-border-width);
   border-style: var(--custom-border-style);
   border-radius: var(--custom-border-radius);
@@ -11076,4 +11078,29 @@ figcaption {
 
 .custom-paginator-totals {
   text-align: center;
+}
+
+/* blog list */
+
+.custom-card {
+  margin-bottom: 2rem;
+  border: var(--custom-border-width) var(--custom-border-style);
+}
+
+.custom-card-footer {
+  background-color: inherit;
+  border-top: var(--custom-border-width) var(--custom-border-style);
+}
+
+/* blog single */
+
+.custom-datestamp {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: var(--custom-border-width) var(--custom-border-style);
+  border-radius: var(--custom-border-radius);
 }

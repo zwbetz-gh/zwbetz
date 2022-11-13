@@ -4,19 +4,22 @@
 
   <div class="container">
     <h1>{{ .Title }}</h1>
+    <div style="margin-bottom: 1rem;"></div>
 
     {{ range $paginator.Pages }}
       {{ $date := .PublishDate.Format site.Params.date_format }}
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
 
-      <h2>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
-      <p>
-        <strong>Published:</strong> {{ $date }}
-        <br>
-        {{ $summary }}
-      </p>
+      <div class="card custom-card">
+        <div class="card-body">
+          <h2 class="card-title h5">{{ .Title }}</h2>
+          <p class="card-text">{{ $summary }}</p>
+          <a href="{{ .RelPermalink }}" class="btn btn-primary" aria-label="Read more about {{ .Title }}">Read more</a>
+        </div>
+        <div class="card-footer custom-card-footer">
+          <strong>Published:</strong> {{ $date }}
+        </div>
+      </div>
     {{ end }}
 
     <div class="custom-paginator">

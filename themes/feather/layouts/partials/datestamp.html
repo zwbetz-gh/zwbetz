@@ -1,9 +1,10 @@
 {{ $ISO_FORMAT := "2006-01-02" }}
 
-<p>
+<div class="custom-datestamp">
   {{ $formattedPublishDate := .PublishDate.Format site.Params.date_format }}
   {{ $isoPublishDate := .PublishDate.Format $ISO_FORMAT }}
   <strong>Published:</strong> {{ $formattedPublishDate }}
+
   {{ if .Lastmod }}
     {{ $formattedLastmod := .Lastmod.Format site.Params.date_format }}
     {{ $isoLastmodDate := .Lastmod.Format $ISO_FORMAT }}
@@ -12,4 +13,4 @@
       <strong>Updated:</strong> {{ $formattedLastmod }}
     {{ end }}
   {{ end }}
-</p>
+</div>
