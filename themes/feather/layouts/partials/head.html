@@ -25,6 +25,7 @@
   <title>{{ $title }}</title>
 
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="{{ $bundledCss.RelPermalink }}" integrity="{{ $bundledCss.Data.Integrity }}">
 
   {{ partial "internal-css.html" . }}
 
@@ -38,8 +39,4 @@
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-  <style>
-    {{ $bundledCss.Content | safeCSS }}
-  </style>
 </head>
