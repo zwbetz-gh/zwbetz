@@ -17,7 +17,7 @@ My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learn
 
 ## Work
 
-I'm a Software Developer at Sev1Tech (formerly Geocent).
+I'm a Software Developer at [HLN Consulting, LLC](https://www.hln.com/).
 
 I have a B.S. in Information Systems and Decision Sciences from Louisiana State University (but we all know the learning never ends).
 
@@ -29,7 +29,7 @@ Wanna get in touch? Email me at `endiZXR6QGdtYWlsLmNvbQ==` (Decode that Base64 s
 
 ## Elsewhere
 
-Find me on [GitHub](https://github.com/zwbetz-gh).
+Find me on GitHub. My personal account is [@zwbetz-gh](https://github.com/zwbetz-gh).
 
 ## Various
 
