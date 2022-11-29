@@ -24,11 +24,20 @@
   },
   "work": [
     {
+      "company": "HLN Consulting, LLC",
+      "position": "Senior Software Developer",
+      "website": "https://www.hln.com/",
+      "startDate": "2022-11",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "company": "Sev1Tech (formerly Geocent)",
       "position": "Software Engineer 3",
       "website": "https://sev1tech.com",
       "startDate": "2016-02",
-      "endDate": "Present",
+      "endDate": "2022-11",
       "summary": "",
       "highlights": [
         "Was a core contributor on the code-challenge team that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
