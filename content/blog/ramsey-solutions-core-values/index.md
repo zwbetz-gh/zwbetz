@@ -2,7 +2,7 @@
 title: "Ramsey Solutions Core Values"
 date: 2022-12-02T21:08:20-06:00
 toc: false
-draft: true
+draft: false
 ---
 
 I was running some numbers with their [Mortgage Payoff Calculator](https://www.ramseysolutions.com/real-estate/mortgage-payoff-calculator) and decided to poke around their website. I stumbled upon their [Company](https://www.ramseysolutions.com/company) page and the core values listed warmed my heart and got me fired up. They're worth repeating here.
