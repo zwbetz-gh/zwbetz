@@ -11,9 +11,9 @@ Welcome to my corner of the internet.
 
 Come on in and make yourself at home. `zwbetz` is short for my full name, Zachary Wade Betz. I'm a husband, father, and generally curious person.
 
-My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. Here's the [RSS feed](/blog/index.xml).
-
 <!--more-->
+
+My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. Here's the [RSS feed](/blog/index.xml).
 
 ## Work
 
