@@ -43,7 +43,7 @@ Even a happy life cannot be without a measure of darkness, and the word happy wo
 
 {{< figure
 img="headshot.jpg"
-caption="Headshot. And here's one of my [family](/family.jpg)."
+caption="Headshot. And here's one of my [family](/family/)."
 command="Resize"
 options="600x" >}}
 

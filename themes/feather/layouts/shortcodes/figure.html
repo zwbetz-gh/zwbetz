@@ -1,6 +1,6 @@
 {{ $img := .Get "img" }}
 {{ $caption := .Get "caption" }}
-{{ $alt := .Get "alt" | default $caption }}
+{{ $alt := .Get "alt" | default $caption | default .Page.Title }}
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
 
@@ -25,7 +25,9 @@
   <a href="{{ $original.RelPermalink }}">
     <img src="{{ $new.RelPermalink }}" width="{{ $new.Width }}" height="{{ $new.Height }}" alt="{{ $alt }}">
   </a>
-  <figcaption>
-    {{ $figcaption }}
-  </figcaption>
+  {{ with $figcaption }}
+    <figcaption>
+      {{ . }}
+    </figcaption>
+  {{ end }}
 </figure>
