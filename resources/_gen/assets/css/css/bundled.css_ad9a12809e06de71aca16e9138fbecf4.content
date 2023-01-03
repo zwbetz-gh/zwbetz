@@ -11053,6 +11053,10 @@ figcaption {
   border-bottom: var(--custom-border-width) var(--custom-border-style);
 }
 
+.custom-title h1 {
+  margin-bottom: 0;
+}
+
 /* table of contents */
 
 .custom-toc {
