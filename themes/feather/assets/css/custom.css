@@ -144,6 +144,7 @@ figcaption {
   margin-bottom: 2rem;
   background-color: rgba(0, 0, 0, 0.1);
   border-bottom: var(--custom-border-width) var(--custom-border-style);
+  text-align: center;
 }
 
 .custom-title h1 {
