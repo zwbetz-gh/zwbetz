@@ -29,7 +29,11 @@ Wanna get in touch? Email me at `endiZXR6QGdtYWlsLmNvbQ==` (Decode that Base64 s
 
 ## Elsewhere
 
-Find me on GitHub. My personal account is [@zwbetz-gh](https://github.com/zwbetz-gh). My day job account is [@zach-betz-hln](https://github.com/zach-betz-hln).
+Find me on GitHub.
+
+My personal account is [@zwbetz-gh](https://github.com/zwbetz-gh).
+
+My day job account is [@zach-betz-hln](https://github.com/zach-betz-hln).
 
 ## Various
 
