@@ -1,6 +1,7 @@
 {{ define "main" }}
+  {{ partial "page-title.html" . }}
+
   <div class="container">
-    <h1>{{ .Title }}</h1>
     {{ partial "datestamp.html" . }}
     {{ partial "toc.html" . }}
     {{ .Content }}

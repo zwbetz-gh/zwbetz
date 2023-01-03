@@ -2,8 +2,9 @@
   {{ $pages := .RegularPages.ByPublishDate.Reverse }}
   {{ $paginator := .Paginate $pages }}
 
+  {{ partial "page-title.html" . }}
+
   <div class="container">
-    <h1>{{ .Title }}</h1>
     <div style="margin-bottom: 1rem;"></div>
 
     {{ range $paginator.Pages }}

@@ -5,9 +5,9 @@
     {{ $bundledJs = $bundledJs | minify | fingerprint }}
   {{ end }}
 
-  <div class="container">
-    <h1>{{ .Title }}</h1>
+  {{ partial "page-title.html" . }}
 
+  <div class="container">
     <div class="mb-3">
       <details>
         <summary>Stats</summary>
