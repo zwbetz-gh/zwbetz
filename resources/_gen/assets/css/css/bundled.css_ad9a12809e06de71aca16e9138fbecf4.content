@@ -11102,12 +11102,10 @@ figcaption {
 
 .custom-card {
   margin-bottom: 2rem;
-  border: var(--custom-border-width) var(--custom-border-style);
-}
-
-.custom-card-footer {
-  background-color: inherit;
-  border-top: var(--custom-border-width) var(--custom-border-style);
+  padding: 1rem;
+  border-width: var(--custom-border-width);
+  border-style: var(--custom-border-style);
+  border-radius: var(--custom-border-radius);
 }
 
 /* blog single */

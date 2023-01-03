@@ -11,15 +11,10 @@
       {{ $date := .PublishDate.Format site.Params.date_format }}
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
 
-      <div class="card custom-card">
-        <div class="card-body">
-          <h2 class="card-title h5">{{ .Title }}</h2>
-          <p class="card-text">{{ $summary }}</p>
-          <a href="{{ .RelPermalink }}" class="btn btn-primary" aria-label="Read more about {{ .Title }}">Read more</a>
-        </div>
-        <div class="card-footer custom-card-footer">
-          <strong>Published:</strong> {{ $date }}
-        </div>
+      <div class="custom-card">
+        <h2 class="h5">{{ .Title }}</h2>
+        <p>{{ $summary }}</p>
+        <a href="{{ .RelPermalink }}" class="btn btn-outline-primary" aria-label="Read more about {{ .Title }}">Read more</a>
       </div>
     {{ end }}
 
