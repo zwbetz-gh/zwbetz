@@ -208,10 +208,4 @@ figcaption {
 .custom-datestamp {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border: var(--custom-border-width) var(--custom-border-style);
-  border-radius: var(--custom-border-radius);
 }
