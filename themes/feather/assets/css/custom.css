@@ -21,6 +21,17 @@ body {
   background-color: var(--custom-body-background-color);
 }
 
+/* Sticky footer sourced from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+.custom-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.custom-content {
+  flex: 1;
+}
+
 /* container */
 
 .container {
@@ -101,6 +112,18 @@ figcaption {
   border-top-style: var(--custom-border-style);
 }
 
+/* header, footer */
+
+.custom-header {
+  margin-bottom: 2rem;
+  background-color: #212529;
+}
+
+.custom-footer {
+  margin-top: 2rem;
+  background-color: #212529;
+}
+
 /* nav */
 
 .custom-nav {
@@ -108,23 +131,8 @@ figcaption {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
-  background-color: #212529;
-  border-radius: var(--custom-border-radius);
-}
-
-/* header */
-
-.custom-header {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-/* footer */
-
-.custom-footer {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* table of contents */

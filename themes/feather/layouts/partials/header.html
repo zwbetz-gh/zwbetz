@@ -1,11 +1,9 @@
-<header>
+<header class="custom-header">
   <div class="container">
-    <div class="custom-header">
-      <nav class="custom-nav">
-        {{ range site.Menus.nav }}
-          <a class="btn btn-outline-light" href="{{ .URL }}" role="button">{{ .Name }}</a>
-        {{ end }}
-      </nav>
-    </div>
+    <nav class="custom-nav">
+      {{ range site.Menus.nav }}
+        <a class="btn btn-outline-light" href="{{ .URL }}" role="button">{{ .Name }}</a>
+      {{ end }}
+    </nav>
   </div>
 </header>

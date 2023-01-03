@@ -5,7 +5,7 @@ toc: false
 draft: false
 ---
 
-Things used in the making of this site.
+Things used to make this site:
 
 <!--more-->
 
@@ -15,5 +15,7 @@ Things used in the making of this site.
 - Search by [Fuse.js](https://fusejs.io/)
 - Deployed by [Netlify](https://www.netlify.com/)
 - Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
+
+Stickers:
 
 <a href="https://512kb.club"><img src="/img/green-team.svg"></a>

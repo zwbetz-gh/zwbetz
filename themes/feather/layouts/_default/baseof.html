@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="{{ site.Language.Lang }}">
   {{ partial "head.html" . }}
-  <body>
+  <body class="custom-body">
     {{ partial "header.html" . }}
-    <main>
+    <main class="custom-content">
       {{ block "main" . }}{{ end }}
     </main>    
     {{ partial "footer.html" . }}
