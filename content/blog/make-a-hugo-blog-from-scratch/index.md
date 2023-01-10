@@ -917,3 +917,7 @@ Cheers!
 {{< blockquote author="Scott" >}}
 I appreciate your blog and it has helped me a lot. I am currently developing in Hugo right now and your post on developing hugo from scratch really got me started. Most of the other tutorials were very cryptic. You laid it out more effectively so I was able to put something out. Thank you for finding the time to write so many great things.
 {{< /blockquote >}}
+
+{{< blockquote author="Darthagnon" >}}
+Zach's "Make a Hugo Blog from Scratch" takes you all the way from `hugo new site` to a fully-fleshed out vertical slice of a blog.
+{{< /blockquote >}}
