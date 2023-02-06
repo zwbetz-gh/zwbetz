@@ -4,7 +4,7 @@ date: 2021-03-31T15:59:19-05:00
 toc: false
 ---
 
-A living doc.
+A living doc of handy git commands.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ A living doc.
 | List remote branches | `git branch -r` |
 | Show status | `git status` |
 | Show diff | `git diff` |
-| Stage all changes | `git add .` |
+| Stage all changes | `git add --all` |
 | Commit staged changes | `git commit -m "<MESSAGE>"` |
 | Push local branch to remote branch | `git push` |
 | Merge remote branch into local branch | `git pull origin <BRANCH>` |
@@ -38,6 +38,6 @@ A living doc.
 | Interactively rebase last `n` commits | `git rebase -i HEAD~n` |
 | Cleanup local repo | `git gc` |
 | Track case-only filename changes | `git mv -f` |
-| Ignore a file that was already committed | `git rm -r --cached . && git add .` |
+| Ignore a file that was already committed | `git rm -r --cached . && git add --all` |
 | Show short hash of latest commit where `n` is length | `git rev-parse --short=n HEAD` |
 {{< /table >}}
