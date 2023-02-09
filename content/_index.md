@@ -4,7 +4,6 @@ date: 2019-02-13T15:51:29-06:00
 toc: false
 aliases:
   - /about/
-  - /contact/
 ---
 
 Welcome to my corner of the internet.
@@ -25,7 +24,7 @@ Here's my [Resume](/resume/).
 
 ## Contact
 
-Wanna get in touch? Email me at `endiZXR6QGdtYWlsLmNvbQ==` (Decode that Base64 string [here]({{< relref "base64-tool" >}})).
+See [Contact]({{< relref "contact" >}}).
 
 ## Elsewhere
 
