@@ -115,14 +115,14 @@ figcaption {
 /* header, footer */
 
 .custom-header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #212529;
 }
 
 .custom-footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 2rem;
   background-color: #212529;
 }
