@@ -14,7 +14,7 @@ Growing up, my dad (JB) was, and still is an avid fisherman. He prepared fish fo
 
 - Fish
 - Zatarain's Fish Fri
-- Tony Chachere’s seasoning
+- Tony Chachere's seasoning
 - Louisiana Hot Sauce
 - Mustard
 - Wax paper
