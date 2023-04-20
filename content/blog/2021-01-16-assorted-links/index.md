@@ -29,7 +29,7 @@ toc: false
 >
 > Conventionally, the first part of the path should be the **plural** form of the resource. This keeps nested paths simple to read and easy to understand.
 >
-> A path like `fashionboutique.com/customers/223/orders/12` is clear in what it points to, even if you’ve never seen this specific path before, because it is hierarchical and descriptive. We can see that we are accessing the order with `id` 12 for the customer with `id` 223.
+> A path like `fashionboutique.com/customers/223/orders/12` is clear in what it points to, even if you've never seen this specific path before, because it is hierarchical and descriptive. We can see that we are accessing the order with `id` 12 for the customer with `id` 223.
 
 ---
 
@@ -37,7 +37,7 @@ toc: false
 
 > The media used to derive its institutional power from this perception of separateness. Politicians feared investigation by the news media precisely because they knew audiences perceived them as neutral arbiters.
 >
-> Now there are no major commercial outlets not firmly associated with one or the other political party. Criticism of Republicans is as baked into New York Times coverage as the lambasting of Democrats is at Fox, and politicians don’t fear them as much because they know their constituents do not consider rival media sources credible. Probably, they don’t even read them. Echo chambers have limited utility in changing minds.
+> Now there are no major commercial outlets not firmly associated with one or the other political party. Criticism of Republicans is as baked into New York Times coverage as the lambasting of Democrats is at Fox, and politicians don't fear them as much because they know their constituents do not consider rival media sources credible. Probably, they don't even read them. Echo chambers have limited utility in changing minds.
 
 ---
 

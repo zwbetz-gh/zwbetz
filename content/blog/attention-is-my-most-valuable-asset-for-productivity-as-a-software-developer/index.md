@@ -62,10 +62,10 @@ Not Important and Urgent tasks are nasty attention thieves. They shout out to yo
 
 Not Important and Not Urgent tasks are usually not known to your users. Take internal documentation updates as an example. Thing is, they're an investment in yourself, which means a more productive future “you”. So don't forget to show them some love in your spare moments. 
 
-**Further reading.** If you don’t know who Cal Newport is, you’re missing out. He has a whole blog dedicated to this type of thing, and has written books such as _Deep Work_ and _Digital Minimalism_. Here are some of my favorite articles by him:
+**Further reading.** If you don't know who Cal Newport is, you're missing out. He has a whole blog dedicated to this type of thing, and has written books such as _Deep Work_ and _Digital Minimalism_. Here are some of my favorite articles by him:
 
 - [Have We Lost Our Tolerance For a Little Boredom?](https://www.calnewport.com/blog/2009/02/04/have-we-lost-our-tolerance-for-a-little-boredom/)
 - [Is Allowing Your Child to Study While on Facebook Morally Irresponsible?](https://www.calnewport.com/blog/2010/06/10/is-allowing-your-child-to-study-while-on-facebook-morally-equivalent-to-drinking-while-pregnant/)
 - [Monday Master Class: How to Reduce Stress and Get More Done By Building an Autopilot Schedule](https://www.calnewport.com/blog/2008/04/07/monday-master-class-how-to-reduce-stress-and-get-more-done-by-building-an-autopilot-schedule/)
 - [Are Passions Serendipitously Discovered or Painstakingly Constructed?](https://www.calnewport.com/blog/2009/11/24/are-passions-serendipitously-discovered-or-painstakingly-constructed/)
-- [Jerry Seinfeld’s Closed Door](https://www.calnewport.com/blog/2018/06/08/jerry-seinfelds-closed-door/)
+- [Jerry Seinfeld's Closed Door](https://www.calnewport.com/blog/2018/06/08/jerry-seinfelds-closed-door/)

@@ -30,4 +30,4 @@ If fall isn't here yet, it will be soon.
 
 ## Notes
 
-- I’ve also done mini muffins and regular sized muffins. Just adjust baking time accordingly
+- I've also done mini muffins and regular sized muffins. Just adjust baking time accordingly

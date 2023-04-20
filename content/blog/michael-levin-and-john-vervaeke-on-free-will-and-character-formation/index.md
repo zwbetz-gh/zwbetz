@@ -19,7 +19,7 @@ If nothing else, this conversation really hammers home the importance of an _int
 
 ## Excerpt
 
-> **John:** ... I know Michael you're well aware of the long standing freewill-determinism debate. And it sounds to me like you might be actually separating the phenomenological sense from self-determination. Or maybe you aren’t. And that's the question I'm asking you. Did that question make sense to you?
+> **John:** ... I know Michael you're well aware of the long standing freewill-determinism debate. And it sounds to me like you might be actually separating the phenomenological sense from self-determination. Or maybe you aren't. And that's the question I'm asking you. Did that question make sense to you?
 >
 > **Michael:** Yeah, it made complete sense. And I'm on board with your definition. Here's how I visualize this. For example, in one of Daniel Dennett's early books on free will he basically points out the following, which is a very simple logical distinction: When you zoom into any event that happens, there are only two possible things that we know about. One is determinism, meaning it was caused by some previous event. The other is true quantum randomness, meaning in a fundamental sense it is a-causal, so a particular particle decays, or it doesn't, and there literally is nothing prior that explains this. In the ensemble there's statistics, but for each individual event, that's it. We know of nothing else. And his argument is well neither of those things sounds like what we want from free will. You don't want your life to be determined and you don't want it to be random, that's not free will. Therefore, our concept is sort of like Santa Clause, it's not a coherent concept.
 >

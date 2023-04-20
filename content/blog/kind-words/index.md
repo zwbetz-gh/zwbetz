@@ -38,15 +38,15 @@ In preparation for my 2022 Annual Review, I sent the following email to a few fo
 
 The responses I got were absolutely heartwarming:
 
-> I have been on the REDACTED DevSecOps team since June of 2021. Throughout my entire time here Zach has been a key component, and perhaps even a cornerstone, of my success, my team’s success, the project’s success.
+> I have been on the REDACTED DevSecOps team since June of 2021. Throughout my entire time here Zach has been a key component, and perhaps even a cornerstone, of my success, my team's success, the project's success.
 >
 > Project success is dependent upon good communication and unity; these are the two factors that Zach brings at a higher capacity than anyone I am currently in contact with throughout my day-to-day work. Zach is consistently aware of what is going on in most all Teams channels and is able to connect teams and engineers together so that issues are discovered, researched, and fixed faster.
 >
-> Zach is typically the first developer to report any issues my DevOps team needs to address and provides clear GitHub issue tickets for my team to review. Zach is consistently available on Teams chat and is willing to answer my questions. As a DevOps engineer developers are my customers, and knowing developers’ needs, tasks, and work completed is critical to my success. Zach’s availability and great communication provides a key window for me to see into the REDACTED developer team’s work.
+> Zach is typically the first developer to report any issues my DevOps team needs to address and provides clear GitHub issue tickets for my team to review. Zach is consistently available on Teams chat and is willing to answer my questions. As a DevOps engineer developers are my customers, and knowing developers' needs, tasks, and work completed is critical to my success. Zach's availability and great communication provides a key window for me to see into the REDACTED developer team's work.
 >
-> Zach also demonstrates proficiency and awareness of the REDACTED DevSecOps team’s work to further unify my team with his. Zach is commonly the only developer to participate in DevOps discussions. Zach code reviews my work more than most of my own DevOps teammates, and his code reviews are the very best quality of any engineer I work with.
+> Zach also demonstrates proficiency and awareness of the REDACTED DevSecOps team's work to further unify my team with his. Zach is commonly the only developer to participate in DevOps discussions. Zach code reviews my work more than most of my own DevOps teammates, and his code reviews are the very best quality of any engineer I work with.
 >
-> Clearly Zach’s high awareness of both REDACTED developer work and REDACTED DevSecOps team’s work makes him a key component to the two teams’ unity. When I was new Zach helped onboard me into the project more than anyone other than perhaps REDACTED who was my team lead at the time.
+> Clearly Zach's high awareness of both REDACTED developer work and REDACTED DevSecOps team's work makes him a key component to the two teams' unity. When I was new Zach helped onboard me into the project more than anyone other than perhaps REDACTED who was my team lead at the time.
 >
 > -- Anthony, Senior DevSecOps Engineer
 
@@ -72,11 +72,11 @@ The responses I got were absolutely heartwarming:
 
 > Zach takes on difficult and/or large problems that need to get worked with no hesitation.
 >
-> When Zach gets a problem, he finds a way to solve it. He’ll research, set up meetings, brainstorm, etc. He’ll spend the time and loop in the people he needs to get a problem solved.
+> When Zach gets a problem, he finds a way to solve it. He'll research, set up meetings, brainstorm, etc. He'll spend the time and loop in the people he needs to get a problem solved.
 >
 > As a team lead, Zach is very involved with his team and very available to knowledge share and work his team members through blockers.
 >
-> Whatever Zach is being paid isn’t enough.
+> Whatever Zach is being paid isn't enough.
 >
 > -- Seamus, Senior Software Engineer
 
@@ -132,9 +132,9 @@ The responses I got were absolutely heartwarming:
 
 ---
 
-> I am writing on behalf of Zach Betz. I’ve had the pleasure of working with him on both contract work and bid proposal teams. He has been an integral member of both - his DevOps acumen coupled with senior-level full-stack development capabilities would be an asset to any company. He has proven proficient (and personally helped me out of jams) with React, Java, Jenkins pipeline work, and docker.
+> I am writing on behalf of Zach Betz. I've had the pleasure of working with him on both contract work and bid proposal teams. He has been an integral member of both - his DevOps acumen coupled with senior-level full-stack development capabilities would be an asset to any company. He has proven proficient (and personally helped me out of jams) with React, Java, Jenkins pipeline work, and docker.
 >
-> His ability to learn on the fly and adapt to new circumstances is exceptional, and his passion for useful and thorough documentation has saved me more than once. I still have a directory full of bash scripts that I pulled from Zach’s GitHub profile. I have also seen him thrive as both a software engineer and a team lead. His interpersonal skills are uncommon in our industry; he is well-liked and well-regarded by his team members and superiors alike.
+> His ability to learn on the fly and adapt to new circumstances is exceptional, and his passion for useful and thorough documentation has saved me more than once. I still have a directory full of bash scripts that I pulled from Zach's GitHub profile. I have also seen him thrive as both a software engineer and a team lead. His interpersonal skills are uncommon in our industry; he is well-liked and well-regarded by his team members and superiors alike.
 >
 > -- Adam, Software Engineer
 
@@ -144,7 +144,7 @@ The responses I got were absolutely heartwarming:
 >
 > He consistently exhibits a motivation to learn, continually researching topics that are beneficial to the team and project and striving for a better solution in a timely manner. Zach is engaging, articulate, and inclusive, encouraging and assisting others in best practices.
 >
-> He is approachable and has an infectious enthusiasm. I can’t recommend him highly enough.
+> He is approachable and has an infectious enthusiasm. I can't recommend him highly enough.
 >
 > -- Holly, Senior Software Engineer
 
@@ -162,7 +162,7 @@ The responses I got were absolutely heartwarming:
 
 ---
 
-> Hi Zach, it is an honor for me to write about you. You don’t know how much I love working with you. You are the one of the most favorable co-workers in my entire 22 years of experience in the IT industry. I am a little bit poor in writing in English and may not be able to pick right words about you. Anyway, here are my thoughts about you.
+> Hi Zach, it is an honor for me to write about you. You don't know how much I love working with you. You are the one of the most favorable co-workers in my entire 22 years of experience in the IT industry. I am a little bit poor in writing in English and may not be able to pick right words about you. Anyway, here are my thoughts about you.
 >
 > Zach is one of the most favorable people of my 22 years of IT experience. Generally, it is a rare combination of having talent and helping nature in one person. But Zach is very exceptional for that. He is not only very knowledgeable, but also a very helpful person. Even in busy and stressful situations also, he will be available to help people, answer questions and provide guidance. His technical and re-searching skills are amazing.
 >
@@ -182,13 +182,13 @@ The responses I got were absolutely heartwarming:
 
 ---
 
-> I have been very impressed with Zach’s work on our REDACTED project. He is an incredible asset to our company and project. Some examples of things I have noticed:
+> I have been very impressed with Zach's work on our REDACTED project. He is an incredible asset to our company and project. Some examples of things I have noticed:
 >
 > - His work to shorten process times that benefit all team members
 >     - Particular items include work on CI/CD builds and local builds (that affect each developer)
 > - Attention to various MS Teams threads and info shared to other REDACTED team members
 >     - For the REDACTED switch to JAMF for Mac GFE management, he offered lots of help to other users
-> - His ability to ‘multitask’ and to contribute on numerous different topics at nearly the same time
+> - His ability to ‘multitask' and to contribute on numerous different topics at nearly the same time
 > - His recent work as Tech Lead. He was already doing a lot of these things already, and now it is more official
 > - His contributions to the REDACTED code challenge and oral presentation
 >
@@ -248,9 +248,9 @@ The responses I got were absolutely heartwarming:
 
 > During our transition from using AirWatch to manage our Macs to the new tool, JAMF, we needed to implement a number of security changes that altered the way our end users were working. During this period, Zach was instrumental in helping us to support our developers.
 >
-> As an engineer, I’m one of only 2 people who provision applications and tools that the developers use. We don’t know how to use many of the tools we deploy. Zach is a critical contact, and his support was absolutely key to this major management change. His input made this modification go very smoothly. If not for his input, our team would have spent countless hours researching and learning applications that are not part of our positions.
+> As an engineer, I'm one of only 2 people who provision applications and tools that the developers use. We don't know how to use many of the tools we deploy. Zach is a critical contact, and his support was absolutely key to this major management change. His input made this modification go very smoothly. If not for his input, our team would have spent countless hours researching and learning applications that are not part of our positions.
 >
-> Zach is a critical member of our agency, and I can’t praise him enough for his efforts and contributions to the success of our mission.
+> Zach is a critical member of our agency, and I can't praise him enough for his efforts and contributions to the success of our mission.
 >
 > -- Mike, JAMF Admin, Device Management Engineering Team
 
@@ -293,7 +293,7 @@ From a coworker, a Database Administrator:
 >
 > **Me:** ... I came into the company as a tester, so once I transitioned into a developer it was hard for folks to see me as that. That means a lot. Thank you for advocating for me.
 >
-> **Her:** I never knew you as a tester. You’ve always been my go-to when I needed an answer or a solution to things. You're definitely one of the most organized coworkers that I know. I see you constantly working with people on Teams. You are an asset. I wouldn’t blame you if you wanted to look for other opportunities, but I selfishly would want to keep you on our team.
+> **Her:** I never knew you as a tester. You've always been my go-to when I needed an answer or a solution to things. You're definitely one of the most organized coworkers that I know. I see you constantly working with people on Teams. You are an asset. I wouldn't blame you if you wanted to look for other opportunities, but I selfishly would want to keep you on our team.
 
 ---
 
@@ -315,7 +315,7 @@ From a guy that opened a pull request on one of my Hugo themes:
 
 > **Him:** Dear Zachary, I just wanted to say Thank you for promptly revising my pull requests and for sharing your beautiful hugo theme in the first place. I recently happened to browse your website and blog, it is funny how many fascinating things there are. Reading it would definitely go in my list of simple pleasures. Thanks again.
 >
-> **Me:** Dear REDACTED, Your note has made my day. And thank you for contributing back to the hugo theme. That’s what open source is all about
+> **Me:** Dear REDACTED, Your note has made my day. And thank you for contributing back to the hugo theme. That's what open source is all about
 
 ---
 
@@ -354,7 +354,7 @@ Such a helpful young man with the best manners. I just love having him come over
 
 Another one from my LSU ResLife HelpDesk days, a client sent this email to my manager:
 
-> I’m telling you right now, if you send Zach back over here I’m going to ADOPT him. He was sooooo professional and helpful. I left before he finished, but please tell him Thank You VERY MUCH!!!  And thank you too for your prompt attention to my email troubles.
+> I'm telling you right now, if you send Zach back over here I'm going to ADOPT him. He was sooooo professional and helpful. I left before he finished, but please tell him Thank You VERY MUCH!!!  And thank you too for your prompt attention to my email troubles.
 
 ---
 

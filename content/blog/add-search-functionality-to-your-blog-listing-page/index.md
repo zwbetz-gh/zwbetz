@@ -42,7 +42,7 @@ Lastly, the text input is grabbed by id. If it exists, then an event listener is
   <li><a href="https://en.wikipedia.org/wiki/The_Accountant_(2016_film)">The Accountant</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Batman_Begins">Batman Begins</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Scrapheap_Challenge">Junkyard Wars</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/How_It%27s_Made">How It’s Made</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/How_It%27s_Made">How It's Made</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Never_Back_Down">Never Back Down</a></li>
   <li><a href="https://en.wikipedia.org/wiki/The_Prestige_(film)">The Prestige</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Shot_Caller_(film)">Shot Caller</a></li>

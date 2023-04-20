@@ -18,7 +18,7 @@ The lyrics are great:
 > I don't believe the price of gold\
 > The certainty of growing old\
 > That right is right and left is wrong\
-> That north and south can’t get along\
+> That north and south can't get along\
 > That east is east and west is west\
 > And being first is always best\
 > But I believe in love
@@ -27,13 +27,13 @@ The lyrics are great:
 > I believe in mom and dad\
 > And I believe in you
 >
-> Well I don’t believe that heaven waits\
+> Well I don't believe that heaven waits\
 > For only those who congregate\
 > I like to think of God as love\
-> He’s down below, he’s up above\
-> He’s watching people everywhere\
-> He knows who does and doesn’t care\
-> And I’m an ordinary man\
+> He's down below, he's up above\
+> He's watching people everywhere\
+> He knows who does and doesn't care\
+> And I'm an ordinary man\
 > Sometimes I wonder who I am\
 > But I believe in love
 >
@@ -42,17 +42,17 @@ The lyrics are great:
 > And I believe in you
 >
 > I know with all my certainty\
-> What’s going on with you and me\
+> What's going on with you and me\
 > Is a good thing\
-> It’s true, I believe in you
+> It's true, I believe in you
 >
-> I don’t believe virginity\
+> I don't believe virginity\
 > Is as common as it used to be\
 > In wording days and sleeping nights\
 > That black is black and white is white\
 > That Superman and Robin Hood\
 > Are still alive in Hollywood\
-> That gasoline’s in short supply\
+> That gasoline's in short supply\
 > The rising cost of getting by\
 > But I believe in love
 >

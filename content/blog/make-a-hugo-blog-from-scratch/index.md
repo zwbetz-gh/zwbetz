@@ -239,18 +239,18 @@ Are losing theirs and blaming it on you,
 If you can trust yourself when all men doubt you,
 But make allowance for their doubting too;
 If you can wait and not be tired by waiting,
-Or being lied about, don’t deal in lies,
-Or being hated, don’t give way to hating,
-And yet don’t look too good, nor talk too wise:
+Or being lied about, don't deal in lies,
+Or being hated, don't give way to hating,
+And yet don't look too good, nor talk too wise:
 
 If you can dream—and not make dreams your master;
 If you can think—and not make thoughts your aim;
 If you can meet with Triumph and Disaster
 And treat those two impostors just the same;
-If you can bear to hear the truth you’ve spoken
+If you can bear to hear the truth you've spoken
 Twisted by knaves to make a trap for fools,
 Or watch the things you gave your life to, broken,
-And stoop and build ’em up with worn-out tools:
+And stoop and build 'em up with worn-out tools:
 
 If you can make one heap of all your winnings
 And risk it on one turn of pitch-and-toss,
@@ -259,16 +259,16 @@ And never breathe a word about your loss;
 If you can force your heart and nerve and sinew
 To serve your turn long after they are gone,
 And so hold on when there is nothing in you
-Except the Will which says to them: ‘Hold on!’
+Except the Will which says to them: ‘Hold on!'
 
 If you can talk with crowds and keep your virtue,
 Or walk with Kings—nor lose the common touch,
 If neither foes nor loving friends can hurt you,
 If all men count with you, but none too much;
 If you can fill the unforgiving minute
-With sixty seconds’ worth of distance run,
-Yours is the Earth and everything that’s in it,
-And—which is more—you’ll be a Man, my son!
+With sixty seconds' worth of distance run,
+Yours is the Earth and everything that's in it,
+And—which is more—you'll be a Man, my son!
 ```
 
 Restart hugo server then navigate to `http://localhost:1313/if-by-rudyard-kipling/` to see the blog post.
@@ -385,7 +385,7 @@ draft: false
 
 That it will never come again
 Is what makes life so sweet.
-Believing what we don’t believe
+Believing what we don't believe
 Does not exhilarate.
 
 That if it be, it be at best
@@ -414,7 +414,7 @@ I think that I shall never see
 A poem lovely as a tree.
 
 A tree whose hungry mouth is prest
-Against the earth’s sweet flowing breast;
+Against the earth's sweet flowing breast;
 
 A tree that looks at God all day,
 And lifts her leafy arms to pray;
@@ -838,7 +838,7 @@ Your article should be included in the docs. It was exactly what I was looking f
 {{< /blockquote >}}
 
 {{< blockquote author="theadle" >}}
-Can’t thank you enough for this! That’s a lot of well organized work friend.
+Can't thank you enough for this! That's a lot of well organized work friend.
 {{< /blockquote >}}
 
 {{< blockquote author="nnise" >}}
@@ -846,7 +846,7 @@ Thank you so much for this. Amazing contribution!
 {{< /blockquote >}}
 
 {{< blockquote author="Ij888" >}}
-I’ve been meaning to write for a few years now, hopefully this should get me liftoff.
+I've been meaning to write for a few years now, hopefully this should get me liftoff.
 {{< /blockquote >}}
 
 {{< blockquote author="pawsys" >}}
@@ -899,11 +899,11 @@ Hello, a very detailed tutorial. Thank you for sharing the same.
 {{< /blockquote >}}
 
 {{< blockquote author="Steve" >}}
-Thanks very much for the Hugo tutorial on your site. I’m working on bootstrapping myself into this system - I actually wrote something conceptually very similar in Perl in the mid-90s, for generating static sites from template files and embedded code, though it didn’t have a server mode and was nowhere NEAR as fast :P Anyway, I’ve also struggled with the state of some of the official documentation as has been discussed on the forums, so I know it’s a concern. Your document has been the clearest and most helpful for me out of everything I’ve read so far, including the official docs on the Hugo site.
+Thanks very much for the Hugo tutorial on your site. I'm working on bootstrapping myself into this system - I actually wrote something conceptually very similar in Perl in the mid-90s, for generating static sites from template files and embedded code, though it didn't have a server mode and was nowhere NEAR as fast :P Anyway, I've also struggled with the state of some of the official documentation as has been discussed on the forums, so I know it's a concern. Your document has been the clearest and most helpful for me out of everything I've read so far, including the official docs on the Hugo site.
 {{< /blockquote >}}
 
 {{< blockquote author="Eric" >}}
-I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn’t understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on *Hugo* and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
+I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn't understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on *Hugo* and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
 {{< /blockquote >}}
 
 {{< blockquote author="Alistair" >}}

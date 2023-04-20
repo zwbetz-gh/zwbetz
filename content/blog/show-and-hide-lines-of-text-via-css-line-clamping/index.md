@@ -14,7 +14,7 @@ I went with a CSS approach. (As opposed to a JS approach of actually manipulatin
 
 - [-webkit-line-clamp](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
 - [white-space](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
-- [Line Clampin’ (Truncating Multiple Line Text)](https://css-tricks.com/line-clampin/)
+- [Line Clampin' (Truncating Multiple Line Text)](https://css-tricks.com/line-clampin/)
 
 ## Sample Code
 
