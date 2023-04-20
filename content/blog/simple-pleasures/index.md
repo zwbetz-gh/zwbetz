@@ -41,7 +41,7 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Having the family together for dinner
 1. When a shirt and pants fit just right
 1. When a tucked in shirt doesn't come untucked
-1. McDonald’s ice cream cone
+1. McDonald's ice cream cone
 1. Cold bed sheets
 1. When you walk outside and hot sun hits you
 1. Naps
@@ -59,7 +59,7 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. When your dog gets happy when you first drive up
 1. Drinking water after a run
 1. Full tank of gas
-1. Fountain Coke or Diet Coke from McDonald’s
+1. Fountain Coke or Diet Coke from McDonald's
 1. Cup of coffee at day break
 1. Putting the last puzzle piece in place
 1. All my kids sitting in church on Sundays
@@ -86,8 +86,8 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Waking up and remembering you don't have any homework
 1. Chick-fil-A sauce
 1. Yoga pants
-1. Kyle Franklin's chicken n’ dumplings
-1. JB’s fried fish, boiled shrimp & crabs
+1. Kyle Franklin's chicken n' dumplings
+1. JB's fried fish, boiled shrimp & crabs
 1. Beignets
 1. Sonic ice
 1. Smell of spent brass
@@ -120,7 +120,7 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Listening to sad music
 1. Chocolate milk
 1. Having all your friends together
-1. When something is cancelled that you didn’t wanna go to
+1. When something is cancelled that you didn't wanna go to
 1. Looking at old pictures
 1. The feeling of exceeding expectations
 1. When a bottle-fed baby burps
@@ -135,7 +135,7 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Milk and brownies
 1. That calming, peaceful feeling from being around grandparents
 1. Drinking coffee from a styrofoam cup
-1. When it’s storming, the power goes out, and you light candles
+1. When it's storming, the power goes out, and you light candles
 1. The smell of washed hair by your favorite shampoo/conditioner
 1. Warm towels out the dryer
 1. Fast internet and far reaching WiFi
@@ -151,7 +151,7 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. When a document is formatted nicely
 1. Buying and using quality things
 1. Going to the bathroom after you've been holding it for a while
-1. Seeing a loved one’s reaction for the first time to something you love (like an experience or seeing a nature sight)
+1. Seeing a loved one's reaction for the first time to something you love (like an experience or seeing a nature sight)
 1. Pad Thai, medium spicy
 1. Changing of the seasons, especially Summer to Fall
 1. Puppy breath
@@ -173,3 +173,4 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. When you fold your socks and there's a match for each one
 1. Fetching with your dogs on a beautiful day
 1. When all of your unit tests pass
+1. Playing with your kids
