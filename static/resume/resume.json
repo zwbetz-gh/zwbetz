@@ -19,6 +19,11 @@
         "network": "GitHub",
         "username": "zwbetz-gh",
         "url": "https://github.com/zwbetz-gh"
+      },
+      {
+        "network": "GitHub",
+        "username": "zach-betz-hln",
+        "url": "https://github.com/zach-betz-hln"
       }
     ]
   },
@@ -164,20 +169,8 @@
       "courses": []
     }
   ],
-  "securityClearances": [
-    {
-      "name": "DHS Public Trust"
-    },
-    {
-      "name": "DoD Confidential (inactive)"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "DHS Section 508 Trusted Tester v4",
-      "date": "2018"
-    }
-  ],
+  "securityClearances": [],
+  "certifications": [],
   "awards": [
     {
       "date": "2021",
