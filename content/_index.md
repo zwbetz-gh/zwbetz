@@ -30,9 +30,13 @@ See [Contact]({{< relref "contact" >}}).
 
 Find me on GitHub.
 
-My personal account is [@zwbetz-gh](https://github.com/zwbetz-gh).
+My personal account is [zwbetz-gh](https://github.com/zwbetz-gh).
 
-My day job account is [@zach-betz-hln](https://github.com/zach-betz-hln).
+My day job account is [zach-betz-hln](https://github.com/zach-betz-hln).
+
+## Photo
+
+See [photo](/photo/).
 
 ## Various
 
@@ -43,12 +47,6 @@ A quote by one of my favorite thinkers:
 {{< blockquote author="Carl Jung" >}}
 Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 {{< /blockquote >}}
-
-{{< figure
-img="headshot.jpg"
-caption="Headshot. And here's one of my [family](/family/)."
-command="Resize"
-options="600x" >}}
 
 ## Disclaimer
 

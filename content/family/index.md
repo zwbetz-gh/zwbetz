@@ -9,6 +9,6 @@ draft: false
 
 {{< figure
 img="family.jpg"
-caption=""
+caption="Gotta dress up in the woods every now and again."
 command="Resize"
 options="600x q100" >}}
