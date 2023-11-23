@@ -35,7 +35,13 @@
       "startDate": "2022-11",
       "endDate": "Present",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Performed fullstack development and maintenance of various NYC apps in the immunization domain",
+        "Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). It's desktop and mobile friendly with a responsive design. SMART Health Card support was added. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation",
+        "Developed a report service in Node.js. It accepts an HTML string with options, then renders a PDF",
+        "Optimized our React docker images so that the final stage only contained essential items: static assets and an HTTP server. On average, reduced image sizes from 500 MB to 55 MB",
+        "Developed stable end-to-end tests in Playwright. These tests automate a portion of our regression testing and allow us to make changes with more confidence"
+      ]
     },
     {
       "company": "Sev1Tech (formerly Geocent)",
@@ -45,7 +51,7 @@
       "endDate": "2022-11",
       "summary": "",
       "highlights": [
-        "Was a core contributor on the code-challenge team that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
+        "Core contributor on the code-challenge team (Ekagra Partners) that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
         "Performed full stack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software",
         "Led a team of Software Engineers as we worked through a backlog of bugs and optimization-related tickets",
         "Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
@@ -210,40 +216,35 @@
     "Software Development",
     "Technical Writing"
   ],
-  "tools": [
-    "Bash",
-    "C#",
-    "CSS",
-    "Docker Compose",
-    "Docker",
-    "Flyway",
-    "Git",
-    "Gradle",
-    "HTML",
-    "Hugo",
-    "Jaspersoft",
-    "Java",
-    "JavaScript",
-    "Jenkins",
-    "Jest",
-    "JUnit",
-    "Markdown",
-    "MkDocs",
-    "NGINX",
-    "Node.js",
-    "npm",
-    "Python",
-    "React",
-    "Redux",
-    "SchemaSpy",
-    "Shell",
-    "SonarQube",
-    "Spring Boot",
-    "SQL",
-    "SSRS",
-    "TypeScript",
-    "Windows Forms"
-  ],
+  "tools": {
+    "languages": [
+      "Bash",
+      "CSS",
+      "GraphQL",
+      "HTML",
+      "Java",
+      "JavaScript",
+      "Markdown",
+      "SQL",
+      "TypeScript"
+    ],
+    "frameworks": [
+      "Apollo",
+      "Express",
+      "Hugo",
+      "React",
+      "Playwright",
+      "Spring Boot"
+    ],
+    "tooling": [
+      "Docker",
+      "Git",
+      "Gradle",
+      "Maven",
+      "Vite",
+      "Yarn"
+    ]
+  },
   "languages": [
     {
       "language": "English",
