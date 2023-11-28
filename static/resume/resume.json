@@ -3,7 +3,8 @@
     "name": "Zachary Betz",
     "label": "Software Developer",
     "picture": "https://zwbetz.com/headshot.jpg",
-    "website": "https://zwbetz.com",
+    "website": "https://zwbetz.com/",
+    "contact": "https://zwbetz.com/contact/",
     "resume": "https://zwbetz.com/resume/",
     "summary": "I enjoy solving technical (and people) problems. I'm known as a reliable team player. I document religiously. My curiosity always has me looking for ways to improve current processes. Let's build something useful together.",
     "location": {
@@ -46,7 +47,7 @@
     {
       "company": "Sev1Tech (formerly Geocent)",
       "position": "Software Engineer 3",
-      "website": "https://sev1tech.com",
+      "website": "https://sev1tech.com/",
       "startDate": "2016-02",
       "endDate": "2022-11",
       "summary": "",
@@ -65,7 +66,7 @@
     {
       "company": "Freelance",
       "position": "Software Developer",
-      "website": "https://zwbetz.com",
+      "website": "https://zwbetz.com/",
       "startDate": "2016-02",
       "endDate": "Present",
       "summary": "",
@@ -77,7 +78,7 @@
     {
       "company": "Capgemini",
       "position": "Applications Consultant",
-      "website": "https://capgemini.com",
+      "website": "https://capgemini.com/",
       "startDate": "2015-06",
       "endDate": "2016-02",
       "summary": "",
