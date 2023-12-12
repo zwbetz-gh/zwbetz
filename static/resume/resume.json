@@ -212,10 +212,10 @@
     }
   ],
   "skills": [
-    "Conflict Resolution",
-    "Process Improvement",
     "Software Development",
-    "Technical Writing"
+    "Technical Writing",
+    "Process Improvement",
+    "Conflict Resolution"
   ],
   "tools": {
     "languages": [
