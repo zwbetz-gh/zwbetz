@@ -219,31 +219,32 @@
   ],
   "tools": {
     "languages": [
-      "Bash",
-      "CSS",
-      "GraphQL",
       "HTML",
-      "Java",
+      "CSS",
       "JavaScript",
-      "Markdown",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "Java",
       "SQL",
-      "TypeScript"
+      "Bash",
+      "Markdown"
     ],
     "frameworks": [
+      "React",
       "Apollo",
       "Express",
-      "Hugo",
-      "React",
       "Playwright",
-      "Spring Boot"
+      "Spring Boot",
+      "Hugo"
     ],
     "tooling": [
-      "Docker",
       "Git",
-      "Gradle",
-      "Maven",
+      "Docker",
+      "Yarn",
       "Vite",
-      "Yarn"
+      "Maven",
+      "Gradle"
     ]
   },
   "languages": [
