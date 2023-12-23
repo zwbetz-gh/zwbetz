@@ -48,9 +48,6 @@ menu:
     - name: Built With
       url: /built-with/
       weight: 1
-    - name: License
-      url: /license/
-      weight: 2
     - name: See an Issue?
       url: https://github.com/zwbetz-gh/zwbetz/issues
       weight: 3

@@ -48,6 +48,16 @@ A quote by one of my favorite thinkers:
 Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.
 {{< /blockquote >}}
 
-## Disclaimer
+Some of my favorite Bible verses:
 
-Opinions expressed here are my own and not those of my employer or any past employer.
+{{< blockquote author="Matthew 7:3-5" >}}
+“Why do you look at the speck of sawdust in your brother's eye and pay no attention to the plank in your own eye? How can you say to your brother, 'Let me take the speck out of your eye,' when all the time there is a plank in your own eye? You hypocrite, first take the plank out of your own eye, and then you will see clearly to remove the speck from your brother's eye.
+{{< /blockquote >}}
+
+{{< blockquote author="1 John 4:19" >}}
+We love because he first loved us.
+{{< /blockquote >}}
+
+## Boring Stuff
+
+See [Disclaimer](/disclaimer/) and [License](/license/).

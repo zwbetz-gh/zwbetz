@@ -5,6 +5,6 @@ toc: false
 draft: false
 ---
 
-Prose is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Prose is licensed under [CC0](https://creativecommons.org/public-domain/cc0/), also known as _No Rights Reserved_ or _Public Domain_.
 
 Code is licensed under [MIT](https://github.com/zwbetz-gh/zwbetz/blob/master/LICENSE).

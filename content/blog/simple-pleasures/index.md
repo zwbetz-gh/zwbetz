@@ -174,4 +174,4 @@ The original list consisted of just a few. As more come to mind, I add them here
 1. Fetching with your dogs on a beautiful day
 1. When all of your unit tests pass
 1. Playing with your kids
-1. Being wet all day then putting dry clothes on
+1. Being wet all day then putting on dry clothes
