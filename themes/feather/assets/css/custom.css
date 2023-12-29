@@ -50,8 +50,9 @@ blockquote {
 
 pre,
 code {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(29, 28, 29, 0.04);
   border-radius: var(--custom-border-radius);
+  border: 1px solid rgba(29, 28, 29, 0.13);
 }
 
 pre {
@@ -81,7 +82,7 @@ code {
   font-size: 0.875em;
   word-wrap: break-word;
   padding: 0.2em 0.4em;
-  color: inherit;
+  color: rgb(224, 30, 90);
 }
 
 a>code {
