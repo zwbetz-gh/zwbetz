@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "prettier": "prettier --write ."
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
