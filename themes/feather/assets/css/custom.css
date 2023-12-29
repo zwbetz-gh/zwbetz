@@ -143,7 +143,7 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(29, 28, 29, 0.04);
   border-bottom: var(--custom-border-width) var(--custom-border-style);
   text-align: center;
 }
