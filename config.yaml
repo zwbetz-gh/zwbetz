@@ -50,6 +50,9 @@ menu:
       weight: 1
     - name: See an Issue?
       url: https://github.com/zwbetz-gh/zwbetz/issues
+      weight: 2
+    - name: Disclaimer
+      url: /disclaimer/
       weight: 3
 
 params:

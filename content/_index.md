@@ -24,7 +24,7 @@ Here's my [Resume](/resume/).
 
 ## Contact
 
-See [Contact]({{< relref "contact" >}}).
+[Email me]({{< relref "contact" >}}).
 
 ## Elsewhere
 
@@ -36,7 +36,7 @@ My day job account is [zach-betz-hln](https://github.com/zach-betz-hln).
 
 ## Photo
 
-See [photo](/photo/).
+The ole [headshot](/photo/).
 
 ## Various
 
@@ -57,7 +57,3 @@ Some of my favorite Bible verses:
 {{< blockquote author="1 John 4:19" >}}
 We love because he first loved us.
 {{< /blockquote >}}
-
-## Boring Stuff
-
-See [Disclaimer](/disclaimer/) and [License](/license/).
