@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ $pages := where site.RegularPages "Section" "eq" "blog" }}
+{{ $pages := $pages.GroupByPublishDate "2006" "desc" }}
+
+{{ partial "page-title.html" . }}
+
+<div class="container">
+  {{ range $pages }}
+    <h2>{{ .Key }}</h2>
+
+    <ul>
+      {{ range .Pages }}
+      {{ $date := .PublishDate.Format "Jan 2" }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> - {{ $date }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>
+
+{{ end }}

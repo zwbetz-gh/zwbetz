@@ -1,0 +1,24 @@
+{{- $pages := where site.RegularPages "Section" "eq" "blog" -}}
+{{- $pages := $pages.GroupByPublishDate "2006" "desc" -}}
+
+{{- $list := slice -}}
+
+{{- range $pages -}}
+  {{- $pagesForKey := slice -}}
+
+  {{- range .Pages -}}
+    {{- $subItem := dict
+    "title" .LinkTitle
+    "url" .RelPermalink -}}
+
+    {{- $pagesForKey = $pagesForKey | append $subItem -}}
+  {{- end -}}
+
+	{{- $item := dict
+  "key" .Key
+  "pages" $pagesForKey -}}
+
+	{{- $list = $list | append $item -}}
+{{- end -}}
+
+{{- $list | jsonify -}}

@@ -5,8 +5,6 @@
   {{ partial "page-title.html" . }}
 
   <div class="container">
-    <div style="margin-bottom: 1rem;"></div>
-
     {{ range $paginator.Pages }}
       {{ $date := .PublishDate.Format site.Params.date_format }}
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}

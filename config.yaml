@@ -57,6 +57,9 @@ menu:
     - name: Disclaimer
       url: /disclaimer/
       weight: 3
+    - name: Archive
+      url: /archive/
+      weight: 4
 
 params:
   show_social_media_meta_tags: false
