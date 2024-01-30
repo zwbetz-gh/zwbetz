@@ -40,15 +40,12 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
-    - name: Archive
-      url: /archive/
-      weight: 3
     - name: Search
       url: /search/
-      weight: 4
+      weight: 3
     - name: Contact
       url: /contact/
-      weight: 5
+      weight: 4
 
   footer_nav:
     - name: Built With
@@ -60,6 +57,9 @@ menu:
     - name: Disclaimer
       url: /disclaimer/
       weight: 3
+    - name: Archive
+      url: /archive/
+      weight: 4
 
 params:
   show_social_media_meta_tags: false
