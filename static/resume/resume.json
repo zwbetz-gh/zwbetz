@@ -6,7 +6,7 @@
     "website": "https://zwbetz.com/",
     "contact": "https://zwbetz.com/contact/",
     "resume": "https://zwbetz.com/resume/",
-    "summary": "I enjoy solving technical (and people) problems. I'm known as a reliable team player. I document religiously. My curiosity always has me looking for ways to improve current processes. Let's build something useful together.",
+    "summary": "I enjoy solving technical problems and bringing people together. I'm known as a reliable team player. I document religiously. My curiosity always has me looking for ways to improve processes. Let's build something together.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -221,19 +221,14 @@
       "url": "https://zwbetz.com/make-a-hugo-blog-from-scratch/"
     }
   ],
-  "skills": [
-    "Software Development",
-    "Technical Writing",
-    "Process Improvement",
-    "Conflict Resolution"
-  ],
-  "tools": {
+  "skills": {
     "languages": [
       "HTML",
       "CSS",
       "JavaScript",
       "TypeScript",
       "Node.js",
+      "Bun",
       "GraphQL",
       "Java",
       "SQL",
@@ -251,6 +246,7 @@
     "tooling": [
       "Git",
       "Docker",
+      "npm",
       "Yarn",
       "Vite",
       "Maven",
