@@ -62,7 +62,7 @@
           <br>
           <strong>Frameworks:</strong> React, Apollo, Express, Playwright, Spring Boot, Hugo
           <br>
-          <strong>Tooling:</strong> Git, Docker, npm, Yarn, Vite, Maven, Gradle
+          <strong>Tooling:</strong> Git, Docker, Vite, npm, Yarn, Maven, Gradle
         </div>
       </div>
 
@@ -410,7 +410,7 @@
 
     
     <script>
-      const handleBeforeprint=()=>{const e=document.querySelectorAll(".resume-highlights");for(const t of e){const n=t.querySelectorAll("ul");t.replaceChildren(...n)}};window.addEventListener("beforeprint",handleBeforeprint)
+      const oldHtml=document.body.innerHTML,handleBeforeprint=()=>{const e=document.querySelectorAll(".resume-highlights");for(const t of e){const n=t.querySelectorAll("ul");t.replaceChildren(...n)}},handleAfterprint=()=>{document.body.innerHTML=oldHtml};window.addEventListener("beforeprint",handleBeforeprint),window.addEventListener("afterprint",handleAfterprint)
     </script>
   </body>
 </html>

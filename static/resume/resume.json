@@ -246,9 +246,9 @@
     "tooling": [
       "Git",
       "Docker",
+      "Vite",
       "npm",
       "Yarn",
-      "Vite",
       "Maven",
       "Gradle"
     ]
