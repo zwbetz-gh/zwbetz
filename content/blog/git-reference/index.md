@@ -152,10 +152,10 @@ git checkout .
 git clean -f -d
 ```
 
-## Interactively rebase last `n` commits
+## Interactively rebase last `N` commits
 
 ```
-git rebase -i HEAD~n
+git rebase -i HEAD~N
 ```
 
 ## Cleanup local repo
@@ -177,17 +177,17 @@ git rm -r --cached .
 git add --all
 ```
 
-## Show short hash of latest commit where `n` is length
+## Show short hash of latest commit where `N` is length
 
 ```
-git rev-parse --short=n HEAD
+git rev-parse --short=N HEAD
 ```
 
-## Squash last `n` commits
+## Squash last `N` commits
 
 ```
-git reset --soft HEAD~n
-git commit -m "summary of work"
+git reset --soft HEAD~N
+git commit -m "<MESSAGE>"
 git push --force-with-lease
 ```
 
