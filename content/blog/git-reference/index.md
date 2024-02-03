@@ -173,11 +173,33 @@ git mv -f
 ## Ignore a file that was already committed
 
 ```
-git rm -r --cached . && git add --all
+git rm -r --cached .
+git add --all
 ```
 
 ## Show short hash of latest commit where `n` is length
 
 ```
 git rev-parse --short=n HEAD
+```
+
+## Squash last `n` commits
+
+```
+git reset --soft HEAD~n
+git commit -m "summary of work"
+git push --force-with-lease
+```
+
+## Rebase your branch onto main
+
+```
+git fetch origin
+git rebase origin/main
+```
+
+or
+
+```
+git pull origin main --rebase
 ```
