@@ -59,7 +59,7 @@ git branch -D <BRANCH>
 ## Delete all local branches except for current banch
 
 ```
-git branch \| grep -v '^*' \| xargs git branch -D
+git branch | grep -v '^*' | xargs git branch -D
 ```
 
 ## Delete remote branch
