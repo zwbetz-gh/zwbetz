@@ -11123,6 +11123,8 @@ figcaption {
 }
 
 .custom-reply-box {
+  border-top: var(--custom-border-width) var(--custom-border-style);
+  padding-top: 2rem;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
