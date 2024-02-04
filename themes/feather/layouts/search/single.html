@@ -1,38 +1,27 @@
-{{ define "main" }}
-  {{ $bundledJs := resources.Get "js/search.ts" | js.Build "js/bundled-search.js" }}
+{{- define "main" -}}
+  {{- $pages := where site.RegularPages "Section" "eq" "blog" -}}
 
-  {{ if hugo.IsProduction }}
-    {{ $bundledJs = $bundledJs | minify | fingerprint }}
-  {{ end }}
+  {{- $list := slice -}}
 
-  {{ partial "page-title.html" . }}
+  {{- range $pages -}}
+    {{- $item := dict
+      "title" .Title
+      "url" .RelPermalink -}}
+
+    {{- $list = $list | append $item -}}
+  {{- end -}}
+
+  {{- $json := $list | jsonify -}}
+
+  {{- $bundledJs := resources.Get "js/search.ts" | js.Build "js/bundled-search.js" -}}
+
+  {{- if hugo.IsProduction -}}
+    {{- $bundledJs = $bundledJs | minify | fingerprint -}}
+  {{- end -}}
+
+  {{- partial "page-title.html" . -}}
 
   <div class="container">
-    <div class="mb-3">
-      <details>
-        <summary>Stats</summary>
-
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Thing</th>
-              <th scope="col">Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">JSON index fetch time</th>
-              <td id="stats_json_index_fetch_time"></td>
-            </tr>
-            <tr>
-              <th scope="row">Search event time</th>
-              <td id="stats_search_event_time"></td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
-    </div>
-
     <div class="mb-3">
       <input
         id="search_input"
@@ -47,5 +36,9 @@
     <div id="search_results_container"></div>
   </div>
 
-  <script src="{{ $bundledJs.RelPermalink }}" integrity="{{ $bundledJs.Data.Integrity }}"></script>
-{{ end }}
+  <script type="mime/invalid" id="json_for_search">
+    {{- $json -}}
+  </script>
+
+  <script src="{{- $bundledJs.RelPermalink -}}" integrity="{{- $bundledJs.Data.Integrity -}}"></script>
+{{- end -}}

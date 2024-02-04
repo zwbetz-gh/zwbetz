@@ -1,8 +1,6 @@
-import stats from './stats';
 import Fuse from './fuse';
 import {FuseOptions, Hit, Page} from './types';
 
-const JSON_INDEX_URL = `${window.location.origin}/blog/index.json`;
 const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 10;
@@ -29,14 +27,24 @@ const getSearchResultsContainerEl = (): HTMLDivElement => {
   return document.querySelector('#search_results_container') as HTMLDivElement;
 };
 
+const getJsonForSearchEl = (): HTMLScriptElement => {
+  return document.querySelector('#json_for_search') as HTMLScriptElement;
+};
+
 const prepareSearchInputEl = (): void => {
   getSearchInputEl().disabled = false;
   getSearchInputEl().placeholder = `Search by title. Use ${MIN_MATCH_CHAR_LENGTH} or more characters`;
   getSearchInputEl().focus();
 };
 
-const initFuse = (pages: Page[]): void => {
+const initFuse = (): void => {
+  console.time('parse json index');
+  const pages: Page[] = JSON.parse(getJsonForSearchEl().text);
+  console.timeEnd('parse json index');
+
+  console.time('init fuse');
   fuse = new Fuse(pages, FUSE_OPTIONS);
+  console.timeEnd('init fuse');
 };
 
 const doSearchIfUrlParamExists = (): void => {
@@ -54,24 +62,6 @@ const setUrlParam = (query: string): void => {
   const urlParams = new URLSearchParams(window.location.search);
   urlParams.set(QUERY_URL_PARAM, encodeURIComponent(query));
   window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
-};
-
-const fetchJsonIndex = (): void => {
-  const startTime = performance.now();
-  fetch(JSON_INDEX_URL)
-    .then(response => {
-      return response.json();
-    })
-    .then(data => {
-      const pages: Page[] = data;
-      initFuse(pages);
-      prepareSearchInputEl();
-      doSearchIfUrlParamExists();
-      stats.setJsonIndexFetchTime(startTime, performance.now());
-    })
-    .catch(error => {
-      console.error(`Failed to fetch JSON index: ${error.message}`);
-    });
 };
 
 const highlightMatches = (hit: Hit, key: string) => {
@@ -125,17 +115,19 @@ const getHits = (query: string): Hit[] => {
 };
 
 const handleSearchEvent = (): void => {
-  const startTime = performance.now();
+  console.time('search event');
   const query = getQuery();
   const hits = getHits(query);
   setUrlParam(query);
   renderHits(hits);
-  stats.setSearchEventTime(startTime, performance.now());
+  console.timeEnd('search event');
 };
 
 const main = (): void => {
   if (getSearchInputEl()) {
-    fetchJsonIndex();
+    initFuse();
+    prepareSearchInputEl();
+    doSearchIfUrlParamExists();
     getSearchInputEl().addEventListener('keyup', handleSearchEvent);
   }
 };
