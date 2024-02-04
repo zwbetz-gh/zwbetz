@@ -5,7 +5,7 @@ const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 10;
 
-const MIN_MATCH_CHAR_LENGTH = 3;
+const MIN_MATCH_CHAR_LENGTH = 2;
 
 const MATCH_BACKGROUND_COLOR = 'rgb(255, 193, 7)';
 const MATCH_COLOR = '#212529';
