@@ -53,16 +53,19 @@ menu:
 
   footer_nav:
     - name: Built With
+      pre: tool
       url: /built-with/
       weight: 1
     - name: See an Issue?
+      pre: help-circle
       url: https://github.com/zwbetz-gh/zwbetz/issues
       weight: 2
     - name: Disclaimer
+      pre: umbrella
       url: /disclaimer/
       weight: 3
     - name: Archive
-      # pre: archive
+      pre: archive
       url: /archive/
       weight: 4
 

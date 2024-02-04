@@ -6,7 +6,7 @@
           <div class="custom-icon-button-box">
             {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
             {{ partial $iconPath }}
-            {{ .Name }}
+            <span>{{ .Name }}</span>
           </div>
         </a>
       {{ end }}
