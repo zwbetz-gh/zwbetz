@@ -7,7 +7,9 @@ const MAX_HITS_SHOWN = 10;
 
 const MIN_MATCH_CHAR_LENGTH = 3;
 
-const LEFT_SIDE_MATCH_HTML = '<span style="font-weight: bold;">';
+const MATCH_BACKGROUND_COLOR = 'rgb(255, 193, 7)';
+const MATCH_COLOR = '#212529';
+const LEFT_SIDE_MATCH_HTML = `<span style="background-color: ${MATCH_BACKGROUND_COLOR}; color: ${MATCH_COLOR};">`;
 const RIGHT_SIDE_MATCH_HTML = '</span>';
 
 const FUSE_OPTIONS: FuseOptions = {
