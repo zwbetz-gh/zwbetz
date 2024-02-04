@@ -93,18 +93,25 @@ const highlightMatches = (hit: Hit, key: string) => {
     .join('');
 };
 
-const createHitHtml = (hit: Hit): string => {
-  const highlightedText = highlightMatches(hit, 'title');
-
+const createHitsHtml = (hits: Hit[]): string => {
   return `\
-  <p>
-    <a href="${hit.item.url}">${highlightedText}</a>
-  </p>`;
+  <ul>
+    ${hits
+      .map(hit => {
+        const highlightedText = highlightMatches(hit, 'title');
+
+        return `\
+      <li>
+        <a href="${hit.item.url}">${highlightedText}</a>
+      </li>`;
+      })
+      .join('\n')}
+  </ul>`;
 };
 
 const renderHits = (hits: Hit[]): void => {
   const limitedHits = hits.slice(0, MAX_HITS_SHOWN);
-  const html = limitedHits.map(createHitHtml).join('\n');
+  const html = createHitsHtml(limitedHits);
   getSearchResultsContainerEl().innerHTML = html;
 };
 
