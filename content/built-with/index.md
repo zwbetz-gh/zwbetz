@@ -11,6 +11,7 @@ Things used to make this site:
 
 - Made with [Hugo](https://gohugo.io/)
 - Styled with [Bootstrap](https://getbootstrap.com/)
+- Icons by [Feather](https://feathericons.com/)
 - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
 - Search by [Fuse.js](https://fusejs.io/)
 - Deployed by [Netlify](https://www.netlify.com/)

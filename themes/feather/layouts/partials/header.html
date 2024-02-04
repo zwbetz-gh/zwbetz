@@ -2,7 +2,13 @@
   <div class="container">
     <nav class="custom-nav">
       {{ range site.Menus.nav }}
-        <a class="btn btn-outline-light" href="{{ .URL }}" role="button">{{ .Name }}</a>
+        <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
+          <div class="custom-icon-button-box">
+            {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+            {{ partial $iconPath }}
+            {{ .Name }}
+          </div>
+        </a>
       {{ end }}
     </nav>
   </div>
