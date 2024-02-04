@@ -1,7 +1,12 @@
-{{ if ne .Params.show_reply_by_email false }}
+{{ $sectionIsBlog := eq .Section "blog" }}
+{{ $flagIsOkay := ne .Params.show_reply_by_email false }}
+{{ $shouldShow := and .IsPage $sectionIsBlog $flagIsOkay }}
+{{ if $shouldShow }}
   <div class="custom-reply-box">
-    <a class="btn btn-outline-primary" href="/contact/" role="button">
-      Reply by email
-    </a>
+    <div class="container">
+      <a class="btn btn-outline-primary" href="/contact/" role="button">
+        Reply by email
+      </a>
+    </div>
   </div>
 {{ end }}

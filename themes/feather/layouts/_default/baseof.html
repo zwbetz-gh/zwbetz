@@ -5,7 +5,8 @@
     {{ partial "header.html" . }}
     <main class="custom-content">
       {{ block "main" . }}{{ end }}
-    </main>    
+    </main>
+    {{ partial "reply-by-email.html" . }}
     {{ partial "footer.html" . }}
     {{ partial "internal-js.html" . }}
     {{ partial "script-goatcounter.html" . }}

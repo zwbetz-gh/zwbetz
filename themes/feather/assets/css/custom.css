@@ -21,6 +21,10 @@ body {
   background-color: var(--custom-body-background-color);
 }
 
+main {
+  margin-bottom: 2rem;
+}
+
 /* Sticky footer sourced from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
 .custom-body {
   display: flex;
@@ -124,7 +128,6 @@ figcaption {
 .custom-footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 2rem;
   background-color: #212529;
 }
 
@@ -217,8 +220,11 @@ figcaption {
 
 .custom-reply-box {
   border-top: var(--custom-border-width) var(--custom-border-style);
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.custom-reply-box .container {
   display: flex;
   justify-content: center;
   align-items: center;
