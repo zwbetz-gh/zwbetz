@@ -131,6 +131,11 @@ figcaption {
   background-color: #212529;
 }
 
+.custom-debug-info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* nav */
 
 .custom-nav {
