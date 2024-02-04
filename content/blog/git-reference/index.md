@@ -167,7 +167,7 @@ git gc
 ## Track case-only filename changes
 
 ```
-git mv -f
+git mv -f <PATH/TO/OLD/FILE> <PATH/TO/NEW/FILE>
 ```
 
 ## Ignore a file that was already committed
