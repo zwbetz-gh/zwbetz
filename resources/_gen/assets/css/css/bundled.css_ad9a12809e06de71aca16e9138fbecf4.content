@@ -10918,6 +10918,42 @@ textarea.form-control-lg {
   --custom-border-width-thick: 0.25rem;
   --custom-border-style: solid;
   --custom-container-max-width: 620px;
+  --custom-primary-color: #68421a;
+  --custom-h1-background-color: #e6c19b;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--custom-primary-color);
+  --bs-btn-border-color: var(--custom-primary-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--custom-primary-color);
+  --bs-btn-hover-border-color: var(--custom-primary-color);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--custom-primary-color);
+  --bs-btn-active-border-color: var(--custom-primary-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--custom-primary-color);
+  --bs-btn-disabled-border-color: var(--custom-primary-color);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--custom-primary-color);
+  --bs-btn-border-color: var(--custom-primary-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--custom-primary-color);
+  --bs-btn-hover-border-color: var(--custom-primary-color);
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--custom-primary-color);
+  --bs-btn-active-border-color: var(--custom-primary-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--custom-primary-color);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--custom-primary-color);
+  --bs-gradient: none;
 }
 
 body {
@@ -10930,6 +10966,14 @@ body {
 
 main {
   margin-bottom: 2rem;
+}
+
+main a,
+main a:visited,
+main a:hover,
+.page-link,
+.page-link:hover {
+  color: var(--custom-primary-color);
 }
 
 /* Sticky footer sourced from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
@@ -11029,13 +11073,13 @@ figcaption {
 .custom-header {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #212529;
+  background-color: var(--custom-primary-color);
 }
 
 .custom-footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #212529;
+  background-color: var(--custom-primary-color);
 }
 
 .custom-debug-info {
@@ -11065,7 +11109,7 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background-color: rgba(29, 28, 29, 0.04);
+  background-color: var(--custom-h1-background-color);
   border-bottom: var(--custom-border-width) var(--custom-border-style);
   text-align: center;
 }
