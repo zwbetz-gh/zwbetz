@@ -10,7 +10,7 @@ Things used to make this site:
 <!--more-->
 
 - Made with [Hugo](https://gohugo.io/), my favorite static site generator. It's simple, fast, and fun
-- Base styles with [Bootstrap](https://getbootstrap.com/) plus a sprinkle of custom CSS
+- Base styles from [Bootstrap](https://getbootstrap.com/) plus a sprinkle of custom CSS
 - Icons by [Feather](https://feathericons.com/)
 - Fuzzy search by [Fuse.js](https://fusejs.io/)
 - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
