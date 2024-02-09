@@ -191,6 +191,21 @@
         </td>
       </tr>
       <tr>
+        <th scope="row">.Section</th>
+        <td>{{ .Section }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Sections</th>
+        <td>
+          <details>
+            <summary>{{ .Sections }}</summary>
+            {{ range .Sections }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
         <th scope="row">.Summary</th>
         <td>{{ .Summary }}</td>
       </tr>
