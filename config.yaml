@@ -37,37 +37,37 @@ menu:
     - name: Home
       pre: home
       url: /
-      weight: 1
+      weight: 01
     - name: Blog
       pre: edit
       url: /blog/
-      weight: 2
+      weight: 02
     - name: Search
       pre: search
       url: /search/
-      weight: 3
+      weight: 03
     - name: Contact
       pre: mail
       url: /contact/
-      weight: 4
+      weight: 04
+    - name: Archive
+      pre: archive
+      url: /archive/
+      weight: 05
 
   footer_nav:
     - name: Built With
       pre: tool
       url: /built-with/
-      weight: 1
+      weight: 01
     - name: See an Issue?
       pre: help-circle
       url: https://github.com/zwbetz-gh/zwbetz/issues
-      weight: 2
+      weight: 02
     - name: Disclaimer
       pre: umbrella
       url: /disclaimer/
-      weight: 3
-    - name: Archive
-      pre: archive
-      url: /archive/
-      weight: 4
+      weight: 03
 
 params:
   show_social_media_meta_tags: false
