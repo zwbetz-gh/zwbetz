@@ -72,7 +72,7 @@ menu:
 params:
   show_social_media_meta_tags: false
   show_search: true
-  show_debug_table: true
+  show_debug_table: false
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
   images:
