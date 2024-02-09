@@ -1,0 +1,59 @@
+<div class="table-responsive">
+  <h2>os.Stat</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.IsDir</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).IsDir }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Mode</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).Mode }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.ModTime</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).ModTime }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Name</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ (os.Stat $path).Name }}
+          {{ end }}
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Size</th>
+        <td>
+          {{ with.File }}
+            {{ $path := print "content/" .Path }}
+            {{ print (os.Stat $path).Size " bytes" }}
+          {{ end }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

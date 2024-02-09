@@ -1,0 +1,41 @@
+<div class="table-responsive">
+  <h2>Section</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.CurrentSection</th>
+        <td>{{ .CurrentSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.FirstSection</th>
+        <td>{{ .FirstSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Parent</th>
+        <td>{{ .Parent }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Section</th>
+        <td>{{ .Section }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Sections</th>
+        <td>
+          <details>
+            <summary>{{ .Sections }}</summary>
+            {{ range .Sections }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

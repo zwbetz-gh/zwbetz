@@ -1,0 +1,120 @@
+<div class="table-responsive">
+  <h2>Page</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.Aliases</th>
+        <td>{{ .Aliases }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Date</th>
+        <td>{{ .Date }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Draft</th>
+        <td>{{ .Draft }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.FuzzyWordCount</th>
+        <td>{{ .FuzzyWordCount }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsHome</th>
+        <td>{{ .IsHome }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsNode</th>
+        <td>{{ .IsNode }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsPage</th>
+        <td>{{ .IsPage }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.IsSection</th>
+        <td>{{ .IsSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Kind</th>
+        <td>{{ .Kind }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Lastmod</th>
+        <td>{{ .Lastmod }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.NextInSection</th>
+        <td>{{ .NextInSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.OutputFormats</th>
+        <td>
+          <details>
+            <summary>{{ len .OutputFormats }}</summary>
+            {{ range .OutputFormats }}
+              {{ .Name }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Pages</th>
+        <td>
+          <details>
+            <summary>{{ .Pages }}</summary>
+            {{ range .Pages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Permalink</th>
+        <td>{{ .Permalink }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.PrevInSection</th>
+        <td>{{ .PrevInSection }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.PublishDate</th>
+        <td>{{ .PublishDate }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.ReadingTime</th>
+        <td>{{ .ReadingTime }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.RelPermalink</th>
+        <td>{{ .RelPermalink }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Summary</th>
+        <td>{{ .Summary }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Title</th>
+        <td>{{ .Title }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Type</th>
+        <td>{{ .Type }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Weight</th>
+        <td>{{ .Weight }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.WordCount</th>
+        <td>{{ .WordCount }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

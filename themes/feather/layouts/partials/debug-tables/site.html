@@ -1,0 +1,91 @@
+<div class="table-responsive">
+  <h2>Site</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">site.BaseURL</th>
+        <td>{{ site.BaseURL }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.BuildDrafts</th>
+        <td>{{ site.BuildDrafts }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Home</th>
+        <td>{{ site.Home }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.IsServer</th>
+        <td>{{ site.IsServer }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Language.Lang</th>
+        <td>{{ site.Language.Lang }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.LastChange</th>
+        <td>{{ site.LastChange }}</td>
+      </tr>
+      <tr>
+        <th scope="row">site.Pages</th>
+        <td>
+          <details>
+            <summary>{{ site.Pages }}</summary>
+            {{ range site.Pages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.RegularPages</th>
+        <td>
+          <details>
+            <summary>{{ site.RegularPages }}</summary>
+            {{ range site.RegularPages }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Sections</th>
+        <td>
+          <details>
+            <summary>{{ site.Sections }}</summary>
+            {{ range site.Sections }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Taxonomies</th>
+        <td>
+          <details>
+            <summary>{{ site.Taxonomies }}</summary>
+            {{ range site.Taxonomies }}
+              <details>
+                <summary>{{ len . }}</summary>
+                {{ range . }}
+                  {{ . }}<br>
+                {{ end }}
+              </details>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">site.Title</th>
+        <td>{{ site.Title }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
