@@ -129,36 +129,40 @@
     </thead>
     <tbody>
       <tr>
-        <th scope="row">.File.Path</th>
-        <td>{{ with .File }}{{ .Path }}{{ end }}</td>
-      </tr>
-      <tr>
-        <th scope="row">.File.LogicalName</th>
-        <td>{{ with .File }}{{ .LogicalName }}{{ end }}</td>
-      </tr>
-      <tr>
-        <th scope="row">.File.TranslationBaseName</th>
-        <td>{{ with .File }}{{ .TranslationBaseName }}{{ end }}</td>
+        <th scope="row">.File.BaseFileName</th>
+        <td>{{ with .File }}{{ .BaseFileName }}{{ end }}</td>
       </tr>
       <tr>
         <th scope="row">.File.ContentBaseName</th>
         <td>{{ with .File }}{{ .ContentBaseName }}{{ end }}</td>
       </tr>
       <tr>
-        <th scope="row">.File.BaseFileName</th>
-        <td>{{ with .File }}{{ .BaseFileName }}{{ end }}</td>
+        <th scope="row">.File.Dir</th>
+        <td>{{ with .File }}{{ .Dir }}{{ end }}</td>
       </tr>
       <tr>
         <th scope="row">.File.Ext</th>
         <td>{{ with .File }}{{ .Ext }}{{ end }}</td>
       </tr>
       <tr>
+        <th scope="row">.File.Filename</th>
+        <td>{{ with .File }}{{ .Filename }}{{ end }}</td>
+      </tr>
+      <tr>
         <th scope="row">.File.Lang</th>
         <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
       </tr>
       <tr>
-        <th scope="row">.File.Dir</th>
-        <td>{{ with .File }}{{ .Dir }}{{ end }}</td>
+        <th scope="row">.File.LogicalName</th>
+        <td>{{ with .File }}{{ .LogicalName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.Path</th>
+        <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.File.TranslationBaseName</th>
+        <td>{{ with .File }}{{ .TranslationBaseName }}{{ end }}</td>
       </tr>
       <tr>
         <th scope="row">.File.UniqueID</th>

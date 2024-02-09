@@ -12,7 +12,7 @@
   --custom-border-style: solid;
   --custom-container-max-width: 620px;
   --custom-primary-color: #68421a;
-  --custom-h1-background-color: #ebceaf;
+  --custom-secondary-color: #ebceaf;
 }
 
 .btn-primary {
@@ -180,8 +180,16 @@ figcaption {
 }
 
 .custom-debug-info {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.custom-debug-info details {
+  border-width: var(--custom-border-width);
+  border-style: var(--custom-border-style);
+  border-color: var(--custom-primary-color);
+  border-radius: var(--custom-border-radius);
+  padding: 0.5rem;
 }
 
 /* nav */
@@ -206,7 +214,7 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background-color: var(--custom-h1-background-color);
+  background-color: var(--custom-secondary-color);
   border-bottom-width: var(--custom-border-width);
   border-bottom-style: var(--custom-border-style);
   text-align: center;
