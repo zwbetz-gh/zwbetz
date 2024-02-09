@@ -119,6 +119,46 @@
     </tbody>
   </table>
 
+  <h2>GitInfo</h2>
+  <table class="{{ $tableClass }}">
+    <thead>
+      <tr>
+        <th scope="col">Variable</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">.GitInfo.AbbreviatedHash</th>
+        <td>{{ with .GitInfo }}{{ .AbbreviatedHash }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.AuthorDate</th>
+        <td>{{ with .GitInfo }}{{ .AuthorDate }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.AuthorEmail</th>
+        <td>Nope</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.AuthorName</th>
+        <td>{{ with .GitInfo }}{{ .AuthorName }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.CommitDate</th>
+        <td>{{ with .GitInfo }}{{ .CommitDate }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.Hash</th>
+        <td>{{ with .GitInfo }}{{ .Hash }}{{ end }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GitInfo.Subject</th>
+        <td>{{ with .GitInfo }}{{ .Subject }}{{ end }}</td>
+      </tr>
+    </tbody>
+  </table>
+
   <h2>File</h2>
   <table class="{{ $tableClass }}">
     <thead>
