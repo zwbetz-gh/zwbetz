@@ -11037,7 +11037,7 @@ code {
   font-size: 0.875em;
   word-wrap: break-word;
   padding: 0.2em 0.4em;
-  color: rgb(224, 30, 90);
+  color: inherit;
 }
 
 a>code {
