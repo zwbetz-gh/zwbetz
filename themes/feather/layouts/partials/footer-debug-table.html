@@ -1,6 +1,6 @@
 {{ if eq site.Params.show_debug_table true }}
   <div class="custom-debug-info">
-    <details>
+    <details open>
       <summary>Debug</summary>
       {{ partial "debug-table.html" . }}
     </details>

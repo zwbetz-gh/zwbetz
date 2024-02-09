@@ -11,7 +11,44 @@
     <tbody>
       <tr>
         <th scope="row">.Aliases</th>
-        <td>{{ .Aliases }}</td>
+        <td>
+          <details>
+            <summary>{{ len .Aliases }}</summary>
+            {{ range .Aliases }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.AlternativeOutputFormats</th>
+        <td>
+          <details>
+            <summary>{{ len .AlternativeOutputFormats }}</summary>
+            {{ range .AlternativeOutputFormats }}
+              {{ .Name }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.Ancestors</th>
+        <td>
+          <details>
+            <summary>{{ len .Ancestors }}</summary>
+            {{ range .Ancestors }}
+              {{ .Name }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">.BundleType</th>
+        <td>{{ .BundleType }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.CurrentSection</th>
+        <td>{{ .CurrentSection }}</td>
       </tr>
       <tr>
         <th scope="row">.Date</th>
@@ -22,8 +59,16 @@
         <td>{{ .Draft }}</td>
       </tr>
       <tr>
+        <th scope="row">.FirstSection</th>
+        <td>{{ .FirstSection }}</td>
+      </tr>
+      <tr>
         <th scope="row">.FuzzyWordCount</th>
         <td>{{ .FuzzyWordCount }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.GetTerms</th>
+        <td>{{ .GetTerms "tags" }}</td>
       </tr>
       <tr>
         <th scope="row">.IsHome</th>
@@ -42,12 +87,43 @@
         <td>{{ .IsSection }}</td>
       </tr>
       <tr>
+        <th scope="row">.IsTranslated</th>
+        <td>{{ .IsTranslated }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Keywords</th>
+        <td>
+          <details>
+            <summary>{{ len .Keywords }}</summary>
+            {{ range .Keywords }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
         <th scope="row">.Kind</th>
         <td>{{ .Kind }}</td>
       </tr>
       <tr>
+        <th scope="row">.Language</th>
+        <td>{{ .Language }}</td>
+      </tr>
+      <tr>
         <th scope="row">.Lastmod</th>
         <td>{{ .Lastmod }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Layout</th>
+        <td>{{ .Layout }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Len</th>
+        <td>{{ .Len }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.LinkTitle</th>
+        <td>{{ .LinkTitle }}</td>
       </tr>
       <tr>
         <th scope="row">.NextInSection</th>
@@ -76,8 +152,16 @@
         </td>
       </tr>
       <tr>
+        <th scope="row">.Parent</th>
+        <td>{{ .Parent }}</td>
+      </tr>
+      <tr>
         <th scope="row">.Permalink</th>
         <td>{{ .Permalink }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Prev</th>
+        <td>{{ .Prev }}</td>
       </tr>
       <tr>
         <th scope="row">.PrevInSection</th>
@@ -96,12 +180,27 @@
         <td>{{ .RelPermalink }}</td>
       </tr>
       <tr>
+        <th scope="row">.Resources</th>
+        <td>
+          <details>
+            <summary>{{ len .Resources }}</summary>
+            {{ range .Resources }}
+              {{ . }}<br>
+            {{ end }}
+          </details>
+        </td>
+      </tr>
+      <tr>
         <th scope="row">.Summary</th>
         <td>{{ .Summary }}</td>
       </tr>
       <tr>
         <th scope="row">.Title</th>
         <td>{{ .Title }}</td>
+      </tr>
+      <tr>
+        <th scope="row">.Truncated</th>
+        <td>{{ .Truncated }}</td>
       </tr>
       <tr>
         <th scope="row">.Type</th>
