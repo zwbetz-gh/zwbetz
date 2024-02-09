@@ -167,12 +167,16 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: var(--custom-primary-color);
+  border-bottom-width: var(--custom-border-width);
+  border-bottom-style: var(--custom-border-style);
 }
 
 .custom-footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: var(--custom-primary-color);
+  border-top-width: var(--custom-border-width);
+  border-top-style: var(--custom-border-style);
 }
 
 .custom-debug-info {
@@ -203,7 +207,8 @@ figcaption {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   background-color: var(--custom-h1-background-color);
-  border-bottom: var(--custom-border-width) var(--custom-border-style);
+  border-bottom-width: var(--custom-border-width);
+  border-bottom-style: var(--custom-border-style);
   text-align: center;
 }
 
