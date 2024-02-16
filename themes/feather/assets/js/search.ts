@@ -95,18 +95,16 @@ const highlightMatches = (hit: Hit, key: string) => {
 
 const createHitsHtml = (hits: Hit[]): string => {
   return `\
-  <ul>
     ${hits
       .map(hit => {
         const highlightedText = highlightMatches(hit, 'title');
 
         return `\
-      <li>
+      <p>
         <a href="${hit.item.url}">${highlightedText}</a>
-      </li>`;
+      </p>`;
       })
-      .join('\n')}
-  </ul>`;
+      .join('\n')}`;
 };
 
 const renderHits = (hits: Hit[]): void => {
