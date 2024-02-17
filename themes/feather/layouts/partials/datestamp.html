@@ -1,16 +1,20 @@
-{{ $ISO_FORMAT := "2006-01-02" }}
+{{ if ne .Params.show_datestamp false }}
 
-<div class="custom-datestamp">
-  {{ $formattedPublishDate := .PublishDate.Format site.Params.date_format }}
-  {{ $isoPublishDate := .PublishDate.Format $ISO_FORMAT }}
-  <strong>Published:</strong> {{ $formattedPublishDate }}
+  {{ $ISO_FORMAT := "2006-01-02" }}
 
-  {{ if .Lastmod }}
-    {{ $formattedLastmod := .Lastmod.Format site.Params.date_format }}
-    {{ $isoLastmodDate := .Lastmod.Format $ISO_FORMAT }}
-    {{ if gt $isoLastmodDate $isoPublishDate }}
-      <br>
-      <strong>Updated:</strong> {{ $formattedLastmod }}
+  <div class="custom-datestamp">
+    {{ $formattedPublishDate := .PublishDate.Format site.Params.date_format }}
+    {{ $isoPublishDate := .PublishDate.Format $ISO_FORMAT }}
+    <strong>Published:</strong> {{ $formattedPublishDate }}
+
+    {{ if .Lastmod }}
+      {{ $formattedLastmod := .Lastmod.Format site.Params.date_format }}
+      {{ $isoLastmodDate := .Lastmod.Format $ISO_FORMAT }}
+      {{ if gt $isoLastmodDate $isoPublishDate }}
+        <br>
+        <strong>Updated:</strong> {{ $formattedLastmod }}
+      {{ end }}
     {{ end }}
-  {{ end }}
-</div>
+  </div>
+
+{{ end }}
