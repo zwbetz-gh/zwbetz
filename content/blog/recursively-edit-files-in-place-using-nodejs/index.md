@@ -1,10 +1,10 @@
 ---
-title: "Recursively Edit Files In-Place Using NodeJS"
+title: "Recursively Edit Files In-Place Using Node.js"
 date: 2021-03-12T00:08:35-06:00
 toc: false
 ---
 
-I recently converted all my blog post titles to title-case with a [little NodeJS script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_various_title_case.js). So, am taking the teachable bits and sharing them here.
+I recently converted all my blog post titles to title-case with a [little Node.js script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_various_title_case.js). So, am taking the teachable bits and sharing them here.
 
 <!--more-->
 
@@ -19,7 +19,7 @@ Let's pretend you have a file tree that looks like this:
     └── file-1.txt
 ```
 
-Then let's pretend in each of these files, you need to replace the string `BEFORE` with the string `AFTER`. It can be done with the following NodeJS code:
+Then let's pretend in each of these files, you need to replace the string `BEFORE` with the string `AFTER`. It can be done with the following Node.js code:
 
 ```js
 const fs = require('fs');

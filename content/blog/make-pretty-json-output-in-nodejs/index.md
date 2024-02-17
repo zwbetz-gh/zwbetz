@@ -1,5 +1,5 @@
 ---
-title: "Make Pretty JSON Output in NodeJS"
+title: "Make Pretty JSON Output in Node.js"
 date: 2020-07-16T13:45:27-05:00
 toc: false
 ---

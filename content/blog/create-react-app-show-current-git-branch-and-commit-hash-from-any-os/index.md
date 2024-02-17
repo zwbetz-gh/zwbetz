@@ -24,7 +24,7 @@ The following solution works on macOS, Linux, and Windows.
 
 In a nutshell, it:
 
-- Runs a small NodeJS script
+- Runs a small Node.js script
 - This script uses the `git` CLI to grab the current git branch and commit hash, then writes that info to a JSON file
 - This JSON file is then available at build-time, so the React App can import it
 
@@ -45,7 +45,7 @@ The `git-info` script is new. It must be added as a pre-command to the existing 
 
 ### `src/gitInfo.js`
 
-NodeJS lets you execute shell commands with `child_process.execSync`. We wrap it with `execSyncWrapper` to clean things up. If there's an issue running a `git` command, the JSON file is still written, and the value is just `null`.
+Node.js lets you execute shell commands with `child_process.execSync`. We wrap it with `execSyncWrapper` to clean things up. If there's an issue running a `git` command, the JSON file is still written, and the value is just `null`.
 
 ```js
 const fs = require('fs');

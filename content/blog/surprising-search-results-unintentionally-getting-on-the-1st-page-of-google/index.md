@@ -36,7 +36,7 @@ As of Jan 14, 2022:
 | install sqlplus on mac | [Install SQL*Plus on a Mac]({{< relref "install-sqlplus-on-a-mac" >}}) | 2 |
 | grep file extension | [Use Grep to Recursively Search for Text for a Given File Extension]({{< relref "use-grep-to-recursively-search-for-text-for-a-given-file-extension" >}}) | 5 |
 | run sonarqube locally mac | [Setup and Run SonarQube on Mac]({{< relref "setup-and-run-sonarqube-on-mac" >}}) | 3 |
-| install node js without admin rights | [Install NodeJS on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}}) | 2 |
+| install node js without admin rights | [Install Node.js on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}}) | 2 |
 | bash .env file | [Set Environment Variables in Your Bash Shell From a .env File]({{< relref "set-environment-variables-in-your-bash-shell-from-a-env-file" >}}) | 4 |
 | fileutils.copyurltofile | [Download a File Over HTTPS Using Apache Commons' FileUtils]({{< relref "download-a-file-over-https-using-apache-commons-fileutils-copyurltofile" >}}) | 7 |
 {{< /table >}}

@@ -1,5 +1,5 @@
 ---
-title: "Massage a JSON File With a NodeJS Script"
+title: "Massage a JSON File With a Node.js Script"
 date: 2020-01-27T03:42:42-05:00
 ---
 
@@ -7,7 +7,7 @@ At work, some of our projects keep test data in large JSON files. These files ar
 
 <!--more-->
 
-I need an object-oriented way to massage these JSON files. Most languages these days support working with JSON, but I find JavaScript's syntax to be the most pleasant. Enter NodeJS -- it's JavaScript, for your local filesystem, and so much more. 
+I need an object-oriented way to massage these JSON files. Most languages these days support working with JSON, but I find JavaScript's syntax to be the most pleasant. Enter Node.js -- it's JavaScript, for your local filesystem, and so much more. 
 
 Given a JSON file named `input.json` that is an array of objects. 
 
@@ -46,7 +46,7 @@ Given a JSON file named `input.json` that is an array of objects.
 ]
 ```
 
-The following NodeJS script loops through each object and shows how to add a node, delete a node, and change the data type of a node. These changes are arbitrary, but they give you an example to go off of. Run the script with something like `node ./script.js`.
+The following Node.js script loops through each object and shows how to add a node, delete a node, and change the data type of a node. These changes are arbitrary, but they give you an example to go off of. Run the script with something like `node ./script.js`.
 
 ```js
 const fs = require('fs');

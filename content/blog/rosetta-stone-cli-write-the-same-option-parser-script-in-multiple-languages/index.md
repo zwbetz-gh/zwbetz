@@ -1,5 +1,5 @@
 ---
-title: "Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and NodeJS"
+title: "Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and Node.js"
 date: 2021-04-02T21:13:34-05:00
 toc: true
 ---
@@ -412,7 +412,7 @@ duration = get_duration_in_seconds(start_time, time.time())
 print("Completed in {0} s".format(duration))
 ```
 
-## NodeJS
+## Node.js
 
 ```js
 #!/usr/bin/env node

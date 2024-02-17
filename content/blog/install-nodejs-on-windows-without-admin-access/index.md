@@ -1,5 +1,5 @@
 ---
-title: "Install NodeJS on Windows Without Admin Access"
+title: "Install Node.js on Windows Without Admin Access"
 date: 2020-07-13T22:00:00-05:00
 toc: false
 ---

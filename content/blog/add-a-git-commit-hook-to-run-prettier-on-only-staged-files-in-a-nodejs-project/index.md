@@ -1,5 +1,5 @@
 ---
-title: "Add a Git Commit Hook to Run Prettier on Only Staged Files in a NodeJS Project"
+title: "Add a Git Commit Hook to Run Prettier on Only Staged Files in a Node.js Project"
 date: 2020-09-16T20:45:10-05:00
 toc: true
 ---

@@ -4,7 +4,7 @@ date: 2020-10-06T21:17:47-05:00
 toc: false
 ---
 
-When using volumes with Docker Compose, especially with NodeJS projects, sometimes vague errors show up, like file permission errors for reading or writing a file. When this happens, it can be helpful to rebuild your Docker Compose stack from scratch to resolve these errors.
+When using volumes with Docker Compose, especially with Node.js projects, sometimes vague errors show up, like file permission errors for reading or writing a file. When this happens, it can be helpful to rebuild your Docker Compose stack from scratch to resolve these errors.
 
 <!--more-->
 

@@ -28,4 +28,4 @@ Sometimes you need to install developer tools on a Windows machine, but you don'
 ## Related
 
 - [How to Add a Binary (or Executable, or Program) to Your PATH on macOS, Linux, or Windows]({{< relref "how-to-add-a-binary-to-your-path-on-macos-linux-windows" >}})
-- [Install NodeJS on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}})
+- [Install Node.js on Windows Without Admin Access]({{< relref "install-nodejs-on-windows-without-admin-access" >}})
