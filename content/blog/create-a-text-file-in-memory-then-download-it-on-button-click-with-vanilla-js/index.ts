@@ -5,11 +5,7 @@
  * @param contents The file contents
  * @param mimeType The MIME type
  */
-const download = (
-  filename: string,
-  contents: string,
-  mimeType = 'text/plain'
-) => {
+const download = (filename: string, contents: string, mimeType = 'text/plain') => {
   const blob = new Blob([contents], {type: mimeType});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -40,17 +36,11 @@ const setupDemo = () => {
   contentsLabel.htmlFor = 'demo_contents';
   contentsLabel.textContent = 'Contents:';
 
-  const contentsInput = document.createElement(
-    'textarea'
-  ) as HTMLTextAreaElement;
+  const contentsInput = document.createElement('textarea') as HTMLTextAreaElement;
   contentsInput.style.display = 'block';
   contentsInput.id = 'demo_contents';
   contentsInput.rows = 5;
-  contentsInput.value = [
-    'The quick brown fox jumps over the lazy dog.',
-    'Line 2.',
-    'Line 3.'
-  ].join('\n');
+  contentsInput.value = ['The quick brown fox jumps over the lazy dog.', 'Line 2.', 'Line 3.'].join('\n');
 
   const handleClick = () => {
     const filename = filenameInput.value;
@@ -65,13 +55,7 @@ const setupDemo = () => {
   button.type = 'button';
   button.onclick = handleClick;
 
-  const formEls = [
-    filenameLabel,
-    filenameInput,
-    contentsLabel,
-    contentsInput,
-    button
-  ];
+  const formEls = [filenameLabel, filenameInput, contentsLabel, contentsInput, button];
 
   for (const el of formEls) {
     form.appendChild(el);

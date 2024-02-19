@@ -11086,19 +11086,6 @@ figcaption {
   border-top-style: var(--custom-border-style);
 }
 
-.custom-debug-info {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.custom-debug-info details {
-  border-width: var(--custom-border-width);
-  border-style: var(--custom-border-style);
-  border-color: var(--custom-primary-color);
-  border-radius: var(--custom-border-radius);
-  padding: 0.5rem;
-}
-
 /* nav */
 
 .custom-nav {
@@ -11204,4 +11191,29 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* debug */
+
+#debug_modal {
+  min-width: 50vw;
+  min-height: 100vh;
+}
+
+.custom-debug-info-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.custom-debug-info-content details {
+  border: var(--custom-border-width) var(--custom-border-style);
+  border-radius: var(--custom-border-radius);
+  padding: 0.5rem;
+}
+
+.custom-debug-info-content>details {
+  margin-bottom: 1rem;
 }

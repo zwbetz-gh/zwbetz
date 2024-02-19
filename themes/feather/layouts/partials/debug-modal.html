@@ -1,0 +1,43 @@
+{{ if site.Params.show_debug }}
+  <dialog id="debug_modal">
+    <div class="custom-debug-info-header">
+      <div>Debug Info: <strong>{{ .Title }}</strong></div>
+      <button autofocus id="close_debug_modal" class="btn btn-outline-primary">Close</button>
+    </div>
+
+    <div class="custom-debug-info-content">
+      <details>
+        <summary>Page</summary>
+        {{ partial "debug-items/page.html" . }}
+      </details>
+
+      <details>
+        <summary>File</summary>
+        {{ partial "debug-items/file.html" . }}
+      </details>
+
+      <details>
+        <summary>Hugo</summary>
+        {{ partial "debug-items/hugo.html" . }}
+      </details>
+
+      <details>
+        <summary>Site</summary>
+        {{ partial "debug-items/site.html" . }}
+      </details>
+
+      <details>
+        <summary>GitInfo</summary>
+        {{ partial "debug-items/git-info.html" . }}
+      </details>
+    </div>
+  </dialog>
+
+  {{ $js := resources.Get "js/debug-modal.ts" | js.Build }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | minify | fingerprint }}
+  {{ end }}
+  <script>
+    {{ $js.Content | safeJS }}
+  </script>
+{{ end }}

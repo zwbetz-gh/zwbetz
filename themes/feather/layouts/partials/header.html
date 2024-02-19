@@ -2,13 +2,34 @@
   <div class="container-fluid">
     <nav class="custom-nav">
       {{ range site.Menus.nav }}
-        <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
-          <div class="custom-icon-button-box">
-            {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
-            {{ partial $iconPath }}
-            <span>{{ .Name }}</span>
-          </div>
-        </a>
+        {{ if .URL }}
+          <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
+            <div class="custom-icon-button-box">
+              {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+              {{ partial $iconPath }}
+              <span>{{ .Name }}</span>
+            </div>
+          </a>
+        {{ else }}
+          {{ $isDebug := eq .Name "Debug" }}
+          {{ if and $isDebug site.Params.show_debug }}
+            <button class="btn btn-outline-light" id="show_debug_modal">
+              <div class="custom-icon-button-box">
+                {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+                {{ partial $iconPath }}
+                <span>{{ .Name }}</span>
+              </div>
+            </button>
+          {{ else }}
+            <button class="btn btn-outline-light">
+              <div class="custom-icon-button-box">
+                {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+                {{ partial $iconPath }}
+                <span>{{ .Name }}</span>
+              </div>
+            </button>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </nav>
   </div>
