@@ -65,10 +65,6 @@
         <td>{{ .FuzzyWordCount }}</td>
       </tr>
       <tr>
-        <th scope="row">.GetTerms</th>
-        <td>{{ .GetTerms "tags" }}</td>
-      </tr>
-      <tr>
         <th scope="row">.IsHome</th>
         <td>{{ .IsHome }}</td>
       </tr>
@@ -87,17 +83,6 @@
       <tr>
         <th scope="row">.IsTranslated</th>
         <td>{{ .IsTranslated }}</td>
-      </tr>
-      <tr>
-        <th scope="row">.Keywords</th>
-        <td>
-          <details>
-            <summary>{{ len .Keywords }}</summary>
-            {{ range .Keywords }}
-              {{ . }}<br>
-            {{ end }}
-          </details>
-        </td>
       </tr>
       <tr>
         <th scope="row">.Kind</th>
@@ -134,17 +119,6 @@
             <summary>{{ len .OutputFormats }}</summary>
             {{ range .OutputFormats }}
               {{ .Name }}<br>
-            {{ end }}
-          </details>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">.Pages</th>
-        <td>
-          <details>
-            <summary>{{ .Pages }}</summary>
-            {{ range .Pages }}
-              {{ . }}<br>
             {{ end }}
           </details>
         </td>

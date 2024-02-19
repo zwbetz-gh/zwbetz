@@ -32,50 +32,12 @@
         <td>{{ site.LastChange }}</td>
       </tr>
       <tr>
-        <th scope="row">site.Pages</th>
-        <td>
-          <details>
-            <summary>{{ site.Pages }}</summary>
-            {{ range site.Pages }}
-              {{ . }}<br>
-            {{ end }}
-          </details>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">site.RegularPages</th>
-        <td>
-          <details>
-            <summary>{{ site.RegularPages }}</summary>
-            {{ range site.RegularPages }}
-              {{ . }}<br>
-            {{ end }}
-          </details>
-        </td>
-      </tr>
-      <tr>
         <th scope="row">site.Sections</th>
         <td>
           <details>
             <summary>{{ site.Sections }}</summary>
             {{ range site.Sections }}
               {{ . }}<br>
-            {{ end }}
-          </details>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">site.Taxonomies</th>
-        <td>
-          <details>
-            <summary>{{ site.Taxonomies }}</summary>
-            {{ range site.Taxonomies }}
-              <details>
-                <summary>{{ len . }}</summary>
-                {{ range . }}
-                  {{ . }}<br>
-                {{ end }}
-              </details>
             {{ end }}
           </details>
         </td>
