@@ -11195,25 +11195,39 @@ figcaption {
 
 /* debug */
 
+.custom-box-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #debug_modal {
   min-width: 50vw;
   min-height: 100vh;
 }
 
-.custom-debug-info-header {
+#close_debug_modal {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+}
+
+#debug_modal_title {
   display: flex;
-  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.custom-debug-info-content details {
+#debug_modal_content details {
   border: var(--custom-border-width) var(--custom-border-style);
   border-radius: var(--custom-border-radius);
   padding: 0.5rem;
 }
 
-.custom-debug-info-content>details {
+#debug_modal_content>details {
   margin-bottom: 1rem;
 }

@@ -1,11 +1,17 @@
 {{ if site.Params.show_debug }}
   <dialog id="debug_modal">
-    <div class="custom-debug-info-header">
-      <div>Debug Info: <strong>{{ .Title }}</strong></div>
-      <button autofocus id="close_debug_modal" class="btn btn-outline-primary">Close</button>
+    <div id="debug_modal_title">
+      <div>
+        Debug Info: <strong>{{ .Title }}</strong>
+      </div>
+      <button autofocus id="close_debug_modal">
+        <div class="custom-box-centered">
+          {{ partial "feather-icons/custom-x-circle.html" . }}
+        </div>
+      </button>
     </div>
 
-    <div class="custom-debug-info-content">
+    <div id="debug_modal_content">
       <details>
         <summary>Page</summary>
         {{ partial "debug-items/page.html" . }}
