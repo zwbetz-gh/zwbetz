@@ -3,7 +3,7 @@ import {FuseOptions, Hit, Page} from './types';
 
 const QUERY_URL_PARAM = 'query';
 
-const MAX_HITS_SHOWN = 10;
+const MAX_HITS_SHOWN = 20;
 
 const MIN_MATCH_CHAR_LENGTH = 2;
 
