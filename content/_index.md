@@ -36,7 +36,7 @@ My day job account is [zach-betz-hln](https://github.com/zach-betz-hln).
 
 ## Photo
 
-The ole [headshot](/photo/).
+The ole [headshot]({{< relref "photo" >}}).
 
 ## Various
 
