@@ -20,7 +20,9 @@
                 <span>{{ .Name }}</span>
               </div>
             </button>
-          {{ else }}
+          {{ end }}
+
+          {{ if not $isDebug }}
             <button class="btn btn-outline-light">
               <div class="custom-icon-button-box">
                 {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
