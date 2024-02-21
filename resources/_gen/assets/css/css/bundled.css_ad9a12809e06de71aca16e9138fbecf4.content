@@ -10917,7 +10917,7 @@ textarea.form-control-lg {
   --custom-border-width: 2px;
   --custom-border-width-thick: 0.25rem;
   --custom-border-style: solid;
-  --custom-container-max-width: 620px;
+  --custom-container-max-width: 700px;
   --custom-primary-color: #68421a;
   --custom-secondary-color: #ebceaf;
 }
