@@ -12,7 +12,11 @@
       <div class="custom-card">
         <h2 class="h5">{{ .Title }}</h2>
         <p>{{ $summary }}</p>
-        <a href="{{ .RelPermalink }}" class="btn btn-outline-primary" aria-label="Read more about {{ .Title }}">Read more</a>
+        <div class="custom-read-more-box">
+          <a href="{{ .RelPermalink }}"
+            class="btn btn-outline-primary custom-read-more-button"
+            aria-label="Read more about {{ .Title }}">Read more</a>
+        </div>
       </div>
     {{ end }}
 

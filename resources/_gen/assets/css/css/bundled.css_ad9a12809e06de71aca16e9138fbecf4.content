@@ -11174,6 +11174,16 @@ figcaption {
   border-radius: var(--custom-border-radius);
 }
 
+.custom-read-more-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-read-more-button {
+  width: 100%;
+}
+
 /* blog single */
 
 .custom-datestamp {
