@@ -14,7 +14,8 @@ Things used to make this site:
 - Icons by [Feather](https://feathericons.com/)
 - Fuzzy search by [Fuse.js](https://fusejs.io/)
 - Content in [GitHub](https://github.com/zwbetz-gh/zwbetz)
-- Deployed by [Netlify](https://www.netlify.com/)
+- DNS by [Cloudflare](https://www.cloudflare.com/)
+- Deployed to [Netlify](https://www.netlify.com/)
 - Analytics by [GoatCounter](https://zwbetz.goatcounter.com/)
 
 Stickers:
