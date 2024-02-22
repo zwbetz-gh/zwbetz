@@ -13,40 +13,40 @@ Anna-McClain turns 1 this month. We had a small birthday with family and a few f
 img="img/bricks.jpeg"
 caption="The fammm"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 {{< figure
 img="img/brother.jpeg"
 caption="Townes inching out a smile"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 {{< figure
 img="img/cake.jpeg"
 caption="CAKEEE! Kylynn homemade it. Pretty professional-looking if I do say so myself"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/cousin.jpeg"
 caption="Running the roads with cousin Ruthie-Reece"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 {{< figure
 img="img/mom.jpeg"
 caption="Momma's girl :)"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/tractor.jpeg"
 caption="Crown + John Deere, a fitting combo"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/tricycle.jpeg"
 caption="There's a theme here :) and soon enough she'll be able to pedal"
 command="Resize"
-options="600x" >}}
+options="700x" >}}

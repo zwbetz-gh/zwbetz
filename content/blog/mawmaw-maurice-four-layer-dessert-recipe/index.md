@@ -56,10 +56,10 @@ One of my all time fav desserts, courtesy of my wife's Mawmaw Maurice.
 img="img/four-layer-dessert-top.jpg"
 caption="Top shot."
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/four-layer-dessert-side.jpg"
 caption="Side shot."
 command="Resize"
-options="600x" >}}
+options="700x" >}}

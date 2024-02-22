@@ -33,7 +33,7 @@ I plan to try a few more seasoning packs from the Walmart aisle. Caribbean Jerk 
 img="img/walmart-sweet-chili-wing-seasoning-mix.png"
 caption="Sweet Chili Wing Seasoning Mix from Walmart"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 ### Results
 
@@ -41,13 +41,13 @@ options="600x" >}}
 img="img/jerky-sweet-chili.jpg"
 caption="A batch of Sweet Chili. Just the right mix of sweet and heat"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 {{< figure
 img="img/jerky-caribbean-jerk.jpg"
 caption="A batch of Caribbean Jerk. I'm glad I tried it, but I won't miss it"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 ## Original
 
@@ -85,25 +85,25 @@ On storage:
 img="img/jerky-1.jpg"
 caption="Jerky trial 1 with sizzle steak. Dehydrated for about 5 hours. Not too bad. Not quite chewy enough, though"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/jerky-2.jpg"
 caption="Jerky trial 2 with eye of round. Dehydrated for about 6 hours. ~~This was my favorite batch so far~~"
 command="Resize"
-options="600x r270" >}}
+options="700x r270" >}}
 
 {{< figure
 img="img/jerky-3.jpg"
 caption="Jerky trial 3 with sizzle steak. Dehydrated for about 6 hours. NESCO sent some seasoning packs with the maker. I'm glad I tried them, but I'll be returning to my own recipe"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/jerky-4.jpg"
 caption="Jerky trial 4 with milanesa. Dehydrated for about 6 hours. Walmart finally had milanesa in stock. I like how thin these turned out. My favorite batch so far"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 ### Beef
 
@@ -113,16 +113,16 @@ I've used eye of round and sizzle steaks with success. Other folks on the intern
 img="img/walmart-beef-eye-of-round.jpg"
 caption="Walmart beef eye of round"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/walmart-beef-milanesa.jpg"
 caption="Walmart beef milanesa"
 command="Resize"
-options="600x" >}}
+options="700x" >}}
 
 {{< figure
 img="img/walmart-beef-sizzle-steak.jpg"
 caption="Walmart beef sizzle steak"
 command="Resize"
-options="600x" >}}
+options="700x" >}}

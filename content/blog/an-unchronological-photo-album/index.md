@@ -21,4 +21,4 @@ My wife's Christmas present is a photo album of our son, a timeline ranging from
 
 {{< gallery 
 command="Resize" 
-options="600x" >}}
+options="700x" >}}

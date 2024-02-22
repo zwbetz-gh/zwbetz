@@ -11,4 +11,4 @@ draft: false
 img="photo.jpg"
 caption="Headshot. And here's one of my [family](/family/)."
 command="Resize"
-options="600x q100" >}}
+options="700x q100" >}}

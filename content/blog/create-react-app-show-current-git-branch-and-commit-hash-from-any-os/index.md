@@ -131,4 +131,4 @@ img="screenshot.png"
 alt="Screenshot of the app"
 caption="Behold, git info."
 command="Resize"
-options="600x" >}}
+options="700x" >}}

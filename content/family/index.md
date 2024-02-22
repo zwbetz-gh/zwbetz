@@ -11,4 +11,4 @@ draft: false
 img="family.jpg"
 caption="Gotta dress up in the woods every now and again."
 command="Resize"
-options="600x q100" >}}
+options="700x q100" >}}

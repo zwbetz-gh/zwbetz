@@ -70,4 +70,4 @@ The lyrics are great:
 img="img/catfishing.jpg"
 caption="Having a good ole time catfishing."
 command="Resize"
-options="600x" >}}
+options="700x" >}}

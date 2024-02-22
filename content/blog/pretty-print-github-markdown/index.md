@@ -32,4 +32,4 @@ document.head.append(style);
 img="chrome-bookmark.png" 
 caption="Google Chrome bookmark"
 command="Resize"
-options="600x" >}}
+options="700x" >}}

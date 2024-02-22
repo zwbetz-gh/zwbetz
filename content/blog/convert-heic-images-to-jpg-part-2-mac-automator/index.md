@@ -35,4 +35,4 @@ img="screenshot-1.png"
 alt="Screenshot of Mac Automator application"
 caption="Screenshot of Mac Automator application"
 command="Resize"
-options="600x" >}}
+options="700x" >}}

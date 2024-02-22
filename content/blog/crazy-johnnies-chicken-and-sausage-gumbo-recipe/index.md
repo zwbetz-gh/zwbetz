@@ -47,4 +47,4 @@ This recipe is an amalgamation of a few things: My dad had made some Crazy Johnn
 img="img/gumbo-1.jpg"
 caption="A bowl from the latest pot."
 command="Resize"
-options="600x" >}}
+options="700x" >}}
