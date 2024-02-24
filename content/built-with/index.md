@@ -20,4 +20,4 @@ Things used to make this site:
 
 Stickers:
 
-<a href="https://512kb.club"><img src="/img/green-team.svg"></a>
+<a href="https://512kb.club"><img src="/img/green-team.svg" width="234" height="30" loading="lazy"></a>
