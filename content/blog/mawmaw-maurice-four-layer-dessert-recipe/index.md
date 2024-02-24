@@ -32,7 +32,7 @@ One of my all time fav desserts, courtesy of my wife's Mawmaw Maurice.
 
 ### Directions: 1st Layer
 
-1. Preheat oven to 350 degrees Fahrenheit
+1. Preheat oven to 350 °F
 1. Mix together then pat into bottom of 9x13 inch dish
 1. Bake for 12-15 minutes
 1. Let it cool

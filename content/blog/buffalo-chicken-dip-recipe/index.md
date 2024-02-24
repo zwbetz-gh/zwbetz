@@ -15,7 +15,7 @@ draft: false
 
 ## Directions
 
-1. Preheat oven to 350 degrees Fahrenheit
+1. Preheat oven to 350 °F
 1. Mix all ingredients in large bowl then spoon into baking dish
 1. _Optional:_ cover with layer of shredded cheese
 1. Bake 20 mins or until heated through

@@ -22,7 +22,7 @@ If fall isn't here yet, it will be soon.
 
 ## Directions
 
-1. Preheat oven to 325 degrees Fahrenheit
+1. Preheat oven to 325 °F
 1. In mixing bowl, beat eggs. Add oil and canned pumpkin to eggs. Beat until smooth
 1. Combine remaining ingredients in another bowl. Gradually add dry ingredients to pumpkin mixture
 1. Pour batter in 2 greased loaf pans
