@@ -13,7 +13,7 @@ const RIGHT_SIDE_MATCH_HTML = '</span>';
 const FUSE_OPTIONS: FuseOptions = {
   keys: ['title'],
   ignoreLocation: true,
-  includeMatches: true,
+  includeMatches: false,
   minMatchCharLength: MIN_MATCH_CHAR_LENGTH
 };
 
@@ -95,11 +95,11 @@ const createHitsHtml = (hits: Hit[]): string => {
   return `\
     ${hits
       .map(hit => {
-        const highlightedText = highlightMatches(hit, 'title');
+        const title = FUSE_OPTIONS.includeMatches ? highlightMatches(hit, 'title') : hit.item.title;
 
         return `\
       <p>
-        <a href="${hit.item.url}">${highlightedText}</a>
+        <a href="${hit.item.url}">${title}</a>
       </p>`;
       })
       .join('\n')}`;
