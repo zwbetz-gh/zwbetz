@@ -338,8 +338,7 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-/* dark mode */
-/* NOTE this must be last in order to override light styles */
+/* dark mode - NOTE this must be placed last in the stylesheet in order to override the default light mode */
 
 @media (prefers-color-scheme: dark) {
   :root {
