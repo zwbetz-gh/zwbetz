@@ -13,7 +13,7 @@
 
   {{- $json := $list | jsonify -}}
 
-  {{- $bundledJs := resources.Get "js/search.ts" | js.Build "js/bundled-search.js" -}}
+  {{- $bundledJs := resources.Get "js/search/search.ts" | js.Build "js/bundled-search.js" -}}
 
   {{- if hugo.IsProduction -}}
     {{- $bundledJs = $bundledJs | minify | fingerprint -}}
