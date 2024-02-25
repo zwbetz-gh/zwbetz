@@ -12391,3 +12391,33 @@ figcaption {
 #debug_modal_content>details {
   margin-bottom: 1rem;
 }
+
+/* dark mode */
+/* NOTE this must be last in order to override light styles */
+
+@media (prefers-color-scheme: dark) {
+
+  /* root */
+  :root {
+    --custom-body-color: #dee2e6;
+    --custom-body-background-color: #212529;
+    --custom-primary-color: inherit;
+    --custom-secondary-color: inherit;
+  }
+
+  /* buttons */
+  .btn-outline-primary {
+    --bs-btn-border-color: var(--custom-body-color);
+  }
+
+  /* all code */
+  pre,
+  code {
+    background-color: #1b1f22;
+    border: 1px solid #495057;
+  }
+
+  /* inline code */
+  /* block code */
+  /* pagination */
+}

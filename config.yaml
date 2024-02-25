@@ -107,7 +107,8 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: pygments
+    # api, base16-snazzy, catppuccin-macchiato
+    style: catppuccin-macchiato
     tabWidth: 4
   tableOfContents:
     endLevel: 6
