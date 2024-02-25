@@ -44,7 +44,8 @@ Salad dressing:
 
 Sides:
 
-- pita bread
+- Hummus
+- Pita bread
 
 ## Directions
 
