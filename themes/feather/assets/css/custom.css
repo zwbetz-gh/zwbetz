@@ -14,6 +14,8 @@
   --custom-container-max-width: 700px;
   --custom-primary-color: #68421a;
   --custom-secondary-color: #ebceaf;
+  --custom-code-background-color: rgba(29, 28, 29, 0.04);
+  --custom-code-border-color: rgba(29, 28, 29, 0.13);
 }
 
 .btn-primary {
@@ -99,9 +101,9 @@ blockquote {
 
 pre,
 code {
-  background-color: rgba(29, 28, 29, 0.04);
+  background-color: var(--custom-code-background-color);
   border-radius: var(--custom-border-radius);
-  border: 1px solid rgba(29, 28, 29, 0.13);
+  border: 1px solid var(--custom-code-border-color);
 }
 
 pre {
@@ -340,28 +342,19 @@ figcaption {
 /* NOTE this must be last in order to override light styles */
 
 @media (prefers-color-scheme: dark) {
-
-  /* root */
   :root {
     --custom-body-color: #dee2e6;
-    --custom-body-background-color: #212529;
+    /* --custom-body-background-color: #212529; */
+    /* --custom-body-background-color: #282828; */
+    --custom-body-background-color: #353535;
     --custom-primary-color: inherit;
     --custom-secondary-color: inherit;
+    --custom-code-background-color: #282828;
+    --custom-code-border-color: #495057;
+
   }
 
-  /* buttons */
   .btn-outline-primary {
     --bs-btn-border-color: var(--custom-body-color);
   }
-
-  /* all code */
-  pre,
-  code {
-    background-color: #1b1f22;
-    border: 1px solid #495057;
-  }
-
-  /* inline code */
-  /* block code */
-  /* pagination */
 }

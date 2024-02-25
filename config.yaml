@@ -107,8 +107,8 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    # api, base16-snazzy, catppuccin-macchiato
-    style: catppuccin-macchiato
+    # api, base16-snazzy, catppuccin-macchiato, dracula, github-dark, gruvbox
+    style: gruvbox
     tabWidth: 4
   tableOfContents:
     endLevel: 6
