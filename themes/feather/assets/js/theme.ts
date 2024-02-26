@@ -7,21 +7,21 @@ type ThemeType = 'light' | 'dark' | 'auto';
 const main = (): void => {
   const preferredTheme = getPreferredTheme();
 
-  getSelectEl().value = preferredTheme;
+  getThemeToggleEl().value = preferredTheme;
   setStoredTheme(preferredTheme);
   setTheme(preferredTheme);
 
   window.addEventListener('DOMContentLoaded', () => {
-    getSelectEl().addEventListener('change', () => {
-      const selectedTheme = getSelectEl().value as ThemeType;
+    getThemeToggleEl().addEventListener('change', () => {
+      const selectedTheme = getThemeToggleEl().value as ThemeType;
       setStoredTheme(selectedTheme);
       setTheme(selectedTheme);
     });
   });
 };
 
-const getSelectEl = (): HTMLSelectElement => {
-  return document.querySelector('#theme') as HTMLSelectElement;
+const getThemeToggleEl = (): HTMLSelectElement => {
+  return document.querySelector('#custom_theme_toggle') as HTMLSelectElement;
 };
 
 const getPreferredTheme = (): ThemeType => {

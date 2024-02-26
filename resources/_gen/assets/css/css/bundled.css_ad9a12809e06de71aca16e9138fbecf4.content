@@ -12403,11 +12403,11 @@ figcaption {
   margin-top: 2rem;
 }
 
-#theme {
+#custom_theme_toggle {
   width: initial;
 }
 
-[data-bs-theme=dark] {
+[data-bs-theme="dark"] {
   --custom-body-color: #dee2e6;
   --custom-body-background-color: #353535;
   --custom-primary-color: inherit;
