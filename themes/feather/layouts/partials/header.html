@@ -38,11 +38,7 @@
     </nav>
 
     <div class="custom-theme-box">
-      <select id="theme" class="form-select">
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-        <option value="auto">Auto</option>
-      </select>
+      {{ partial "theme-select.html" . }}
     </div>
 
   </div>
