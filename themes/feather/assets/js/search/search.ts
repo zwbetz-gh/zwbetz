@@ -1,23 +1,27 @@
-import Fuse from './fuse';
-import {FuseOptions, Hit, Page} from './types';
+import RawFuse from './fuse.mjs';
+import {Fuse, FuseResult, IFuseOptions} from './fuse.d';
 
 const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 20;
-
 const MIN_MATCH_CHAR_LENGTH = 2;
 
 const LEFT_SIDE_MATCH_HTML = `<span style="">`;
 const RIGHT_SIDE_MATCH_HTML = '</span>';
 
-const FUSE_OPTIONS: FuseOptions = {
+interface Page {
+  title: string;
+  url: string;
+}
+
+const FUSE_OPTIONS: IFuseOptions<Page> = {
   keys: ['title'],
   ignoreLocation: true,
   includeMatches: false,
   minMatchCharLength: MIN_MATCH_CHAR_LENGTH
 };
 
-let fuse: any;
+let fuse: Fuse<Page>;
 
 const getSearchInputEl = (): HTMLInputElement => {
   return document.querySelector('#search_input') as HTMLInputElement;
@@ -43,7 +47,7 @@ const initFuse = (): void => {
   console.timeEnd('parse json index');
 
   console.time('init fuse');
-  fuse = new Fuse(pages, FUSE_OPTIONS);
+  fuse = new RawFuse(pages, FUSE_OPTIONS) as Fuse<Page>;
   console.timeEnd('init fuse');
 };
 
@@ -64,9 +68,9 @@ const setUrlParam = (query: string): void => {
   window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
 };
 
-const highlightMatches = (hit: Hit, key: string) => {
+const highlightMatches = (hit: FuseResult<Page>, key: string) => {
   const text: string = hit.item[key];
-  const match = hit.matches.find(match => match.key === key);
+  const match = hit.matches && hit.matches.find(match => match.key === key);
 
   if (!match) {
     return text;
@@ -91,7 +95,7 @@ const highlightMatches = (hit: Hit, key: string) => {
     .join('');
 };
 
-const createHitsHtml = (hits: Hit[]): string => {
+const createHitsHtml = (hits: FuseResult<Page>[]): string => {
   return `\
     ${hits
       .map(hit => {
@@ -105,7 +109,7 @@ const createHitsHtml = (hits: Hit[]): string => {
       .join('\n')}`;
 };
 
-const renderHits = (hits: Hit[]): void => {
+const renderHits = (hits: FuseResult<Page>[]): void => {
   const limitedHits = hits.slice(0, MAX_HITS_SHOWN);
   const html = createHitsHtml(limitedHits);
   getSearchResultsContainerEl().innerHTML = html;
@@ -115,7 +119,7 @@ const getQuery = (): string => {
   return getSearchInputEl().value.trim();
 };
 
-const getHits = (query: string): Hit[] => {
+const getHits = (query: string): FuseResult<Page>[] => {
   return fuse.search(query);
 };
 
