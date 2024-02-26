@@ -344,11 +344,11 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #theme {
-  max-width: 100px;
+  width: initial;
 }
 
 [data-bs-theme=dark] {
