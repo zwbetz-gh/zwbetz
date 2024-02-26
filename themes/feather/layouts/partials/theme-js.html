@@ -1,0 +1,7 @@
+{{ $js := resources.Get "js/theme.ts" | js.Build }}
+{{ if hugo.IsProduction }}
+  {{ $js = $js | minify }}
+{{ end }}
+<script>
+  {{ $js.Content | safeJS }}
+</script>

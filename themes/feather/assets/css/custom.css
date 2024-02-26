@@ -340,18 +340,24 @@ figcaption {
 
 /* dark mode - NOTE this must be placed last in the stylesheet in order to override the default light mode */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --custom-body-color: #dee2e6;
-    /* --custom-body-background-color: #212529; */
-    /* --custom-body-background-color: #282828; */
-    --custom-body-background-color: #353535;
-    --custom-primary-color: inherit;
-    --custom-secondary-color: inherit;
-    --custom-code-background-color: #282828;
-    --custom-code-border-color: #495057;
+.custom-theme-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 
-  }
+#theme {
+  max-width: 100px;
+}
+
+[data-bs-theme=dark] {
+  --custom-body-color: #dee2e6;
+  --custom-body-background-color: #353535;
+  --custom-primary-color: inherit;
+  --custom-secondary-color: inherit;
+  --custom-code-background-color: #282828;
+  --custom-code-border-color: #495057;
 
   .btn-outline-primary {
     --bs-btn-border-color: var(--custom-body-color);

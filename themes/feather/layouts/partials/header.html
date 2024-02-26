@@ -1,5 +1,6 @@
 <header class="custom-header">
   <div class="container-fluid">
+
     <nav class="custom-nav">
       {{ range site.Menus.nav }}
         {{ if .URL }}
@@ -33,6 +34,16 @@
           {{ end }}
         {{ end }}
       {{ end }}
+      
     </nav>
+
+    <div class="custom-theme-box">
+      <select id="theme" class="form-select">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="auto">Auto</option>
+      </select>
+    </div>
+
   </div>
 </header>
