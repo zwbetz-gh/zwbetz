@@ -1,3 +1,7 @@
+/**
+ * Adapted from https://getbootstrap.com/docs/5.3/customize/color-modes/#javascript
+ */
+
 type ThemeType = 'light' | 'dark' | 'auto';
 
 const main = (): void => {
