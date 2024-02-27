@@ -12394,7 +12394,8 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-/* dark mode - NOTE this must be placed last in the stylesheet in order to override the default light mode */
+/* dark mode */
+/* NOTE: this must be placed last in the stylesheet in order to override the default light mode */
 
 .custom-theme-box {
   display: flex;
@@ -12414,6 +12415,10 @@ figcaption {
   --custom-secondary-color: inherit;
   --custom-code-background-color: #282828;
   --custom-code-border-color: #495057;
+
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
 
   .btn-outline-primary {
     --bs-btn-border-color: var(--custom-body-color);
