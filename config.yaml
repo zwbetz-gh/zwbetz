@@ -107,7 +107,7 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: pygments
+    style: gruvbox
     tabWidth: 4
   tableOfContents:
     endLevel: 6
