@@ -1,7 +1,9 @@
-{{ $js := resources.Get "js/theme.ts" | js.Build }}
-{{ if hugo.IsProduction }}
-  {{ $js = $js | minify }}
+{{ if site.Params.dark_mode }}
+  {{ $js := resources.Get "js/theme.ts" | js.Build }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | minify }}
+  {{ end }}
+  <script>
+    {{ $js.Content | safeJS }}
+  </script>
 {{ end }}
-<script>
-  {{ $js.Content | safeJS }}
-</script>
