@@ -3,9 +3,16 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   defaultExtractor: content => {
     const els = JSON.parse(content).htmlElements;
     return [...(els.tags || []), ...(els.classes || []), ...(els.ids || [])];
+  },
+  safelist: {
+    greedy: [/data-bs-theme/]
   }
 });
 
 module.exports = {
-  plugins: [...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [])]
+  plugins: [
+    ...(process.env.HUGO_ENVIRONMENT === 'production'
+      ? [purgecss] // prod
+      : [purgecss]) // dev
+  ]
 };
