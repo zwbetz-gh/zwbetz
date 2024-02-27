@@ -12070,41 +12070,42 @@ textarea.form-control-lg {
   --custom-container-max-width: 700px;
   --custom-primary-color: #68421a;
   --custom-secondary-color: #ebceaf;
+  --custom-link-color: #68421a;
   --custom-code-background-color: rgba(29, 28, 29, 0.04);
   --custom-code-border-color: rgba(29, 28, 29, 0.13);
 }
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: var(--custom-primary-color);
-  --bs-btn-border-color: var(--custom-primary-color);
+  --bs-btn-bg: var(--custom-link-color);
+  --bs-btn-border-color: var(--custom-link-color);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--custom-primary-color);
-  --bs-btn-hover-border-color: var(--custom-primary-color);
+  --bs-btn-hover-bg: var(--custom-link-color);
+  --bs-btn-hover-border-color: var(--custom-link-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: var(--custom-primary-color);
-  --bs-btn-active-border-color: var(--custom-primary-color);
+  --bs-btn-active-bg: var(--custom-link-color);
+  --bs-btn-active-border-color: var(--custom-link-color);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: var(--custom-primary-color);
-  --bs-btn-disabled-border-color: var(--custom-primary-color);
+  --bs-btn-disabled-bg: var(--custom-link-color);
+  --bs-btn-disabled-border-color: var(--custom-link-color);
 }
 
 .btn-outline-primary {
-  --bs-btn-color: var(--custom-primary-color);
-  --bs-btn-border-color: var(--custom-primary-color);
+  --bs-btn-color: var(--custom-link-color);
+  --bs-btn-border-color: var(--custom-link-color);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--custom-primary-color);
-  --bs-btn-hover-border-color: var(--custom-primary-color);
+  --bs-btn-hover-bg: var(--custom-link-color);
+  --bs-btn-hover-border-color: var(--custom-link-color);
   --bs-btn-focus-shadow-rgb: 13, 110, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: var(--custom-primary-color);
-  --bs-btn-active-border-color: var(--custom-primary-color);
+  --bs-btn-active-bg: var(--custom-link-color);
+  --bs-btn-active-border-color: var(--custom-link-color);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: var(--custom-primary-color);
+  --bs-btn-disabled-color: var(--custom-link-color);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: var(--custom-primary-color);
+  --bs-btn-disabled-border-color: var(--custom-link-color);
   --bs-gradient: none;
 }
 
@@ -12125,7 +12126,7 @@ main a:visited,
 main a:hover,
 .page-link,
 .page-link:hover {
-  color: var(--custom-primary-color);
+  color: var(--custom-link-color);
 }
 
 /* Sticky footer sourced from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
@@ -12413,14 +12414,11 @@ figcaption {
   --custom-body-background-color: #353535;
   --custom-primary-color: inherit;
   --custom-secondary-color: inherit;
+  --custom-link-color: #e59a9a;
   --custom-code-background-color: #282828;
   --custom-code-border-color: #495057;
 
   img {
     filter: brightness(.8) contrast(1.2);
-  }
-
-  .btn-outline-primary {
-    --bs-btn-border-color: var(--custom-body-color);
   }
 }
