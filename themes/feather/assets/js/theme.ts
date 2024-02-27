@@ -12,17 +12,17 @@ const main = (): void => {
 
   // Wait for toggle el
   window.addEventListener('DOMContentLoaded', () => {
-    getThemeToggleEl().value = preferredTheme;
+    getToggleEl().value = preferredTheme;
 
-    getThemeToggleEl().addEventListener('change', () => {
-      const selectedTheme = getThemeToggleEl().value as ThemeType;
+    getToggleEl().addEventListener('change', () => {
+      const selectedTheme = getToggleEl().value as ThemeType;
       setStoredTheme(selectedTheme);
       setTheme(selectedTheme);
     });
   });
 };
 
-const getThemeToggleEl = (): HTMLSelectElement => {
+const getToggleEl = (): HTMLSelectElement => {
   return document.querySelector('#custom_theme_toggle') as HTMLSelectElement;
 };
 

@@ -338,7 +338,8 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-/* dark mode - NOTE this must be placed last in the stylesheet in order to override the default light mode */
+/* dark mode */
+/* NOTE: this must be placed last in the stylesheet in order to override the default light mode */
 
 .custom-theme-box {
   display: flex;
