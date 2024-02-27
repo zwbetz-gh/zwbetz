@@ -2,6 +2,7 @@
 <html lang="{{ site.Language.Lang }}">
   {{ partial "head.html" . }}
   <body class="custom-body">
+    {{ partial "theme-js.html" . }}
     {{ partial "header.html" . }}
     {{ partial "debug-modal.html" . }}
     <main class="custom-content">
@@ -10,7 +11,6 @@
     {{ partial "reply-by-email.html" . }}
     {{ partial "footer.html" . }}
     {{ partial "internal-js.html" . }}
-    {{ partial "theme-js.html" . }}
     {{ partial "script-goatcounter.html" . }}
   </body>
 </html>

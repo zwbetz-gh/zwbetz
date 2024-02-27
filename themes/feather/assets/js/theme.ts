@@ -5,18 +5,21 @@
 type ThemeType = 'light' | 'dark' | 'auto';
 
 const main = (): void => {
-  setThemeEverywhere(getPreferredTheme());
+  // Put this JS file at top of body, then set theme early, to prevent the "flash of light mode"
+  const preferredTheme = getPreferredTheme();
+  setStoredTheme(preferredTheme);
+  setTheme(preferredTheme);
 
-  getThemeToggleEl().addEventListener('change', () => {
-    const selectedTheme = getThemeToggleEl().value as ThemeType;
-    setThemeEverywhere(selectedTheme);
+  // Wait for toggle el
+  window.addEventListener('DOMContentLoaded', () => {
+    getThemeToggleEl().value = preferredTheme;
+
+    getThemeToggleEl().addEventListener('change', () => {
+      const selectedTheme = getThemeToggleEl().value as ThemeType;
+      setStoredTheme(selectedTheme);
+      setTheme(selectedTheme);
+    });
   });
-};
-
-const setThemeEverywhere = (theme: ThemeType): void => {
-  getThemeToggleEl().value = theme;
-  setStoredTheme(theme);
-  setTheme(theme);
 };
 
 const getThemeToggleEl = (): HTMLSelectElement => {
