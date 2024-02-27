@@ -5,19 +5,18 @@
 type ThemeType = 'light' | 'dark' | 'auto';
 
 const main = (): void => {
-  const preferredTheme = getPreferredTheme();
+  setThemeEverywhere(getPreferredTheme());
 
-  getThemeToggleEl().value = preferredTheme;
-  setStoredTheme(preferredTheme);
-  setTheme(preferredTheme);
-
-  window.addEventListener('DOMContentLoaded', () => {
-    getThemeToggleEl().addEventListener('change', () => {
-      const selectedTheme = getThemeToggleEl().value as ThemeType;
-      setStoredTheme(selectedTheme);
-      setTheme(selectedTheme);
-    });
+  getThemeToggleEl().addEventListener('change', () => {
+    const selectedTheme = getThemeToggleEl().value as ThemeType;
+    setThemeEverywhere(selectedTheme);
   });
+};
+
+const setThemeEverywhere = (theme: ThemeType): void => {
+  getThemeToggleEl().value = theme;
+  setStoredTheme(theme);
+  setTheme(theme);
 };
 
 const getThemeToggleEl = (): HTMLSelectElement => {
@@ -48,7 +47,8 @@ const setStoredTheme = (theme: ThemeType) => {
 
 const setTheme = (theme: ThemeType) => {
   if (theme === 'auto') {
-    document.documentElement.setAttribute('data-bs-theme', prefersDark() ? 'dark' : 'light');
+    const value: ThemeType = prefersDark() ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-bs-theme', value);
   } else {
     document.documentElement.setAttribute('data-bs-theme', theme);
   }
