@@ -7,4 +7,4 @@ node_modules/
 public/
 resources/
 static/
-themes/feather/assets/js/fuse.js
+themes/feather/assets/js/search/fuse.mjs
