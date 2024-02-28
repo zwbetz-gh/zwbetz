@@ -20,5 +20,5 @@ summary: Things used to make this site.
 
 ## Stickers
 
-- <a href="https://512kb.club"><img src="/img/green-team.svg" width="234" height="30" loading="lazy"></a>
-- Member of [darktheme.club](https://darktheme.club/)
+- Member of [The 512KB Club](https://512kb.club/)
+- Member of [The Darktheme Club](https://darktheme.club/)
