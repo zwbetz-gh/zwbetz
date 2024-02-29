@@ -7,7 +7,6 @@ type ThemeType = 'light' | 'dark' | 'auto';
 const main = (): void => {
   // Put this JS file at top of body, then set theme early, to prevent the "flash of light mode"
   const preferredTheme = getPreferredTheme();
-  setStoredTheme(preferredTheme);
   setTheme(preferredTheme);
 
   // Wait for toggle el
