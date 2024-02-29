@@ -20,6 +20,12 @@ const main = (): void => {
       setTheme(selectedTheme);
     });
   });
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (getStoredTheme() === 'auto') {
+      setTheme(getPreferredTheme());
+    }
+  });
 };
 
 const getToggleEl = (): HTMLSelectElement => {
