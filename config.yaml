@@ -68,10 +68,14 @@ menu:
       pre: help-circle
       url: https://github.com/zwbetz-gh/zwbetz/issues
       weight: 02
+    - name: License
+      pre: file-text
+      url: /license/
+      weight: 03
     - name: Disclaimer
       pre: umbrella
       url: /disclaimer/
-      weight: 03
+      weight: 04
 
 params:
   show_social_media_meta_tags: false
