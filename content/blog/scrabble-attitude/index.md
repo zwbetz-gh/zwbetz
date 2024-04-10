@@ -15,6 +15,6 @@ Mawmaw Betty's place is the bee's knees. She's the epitome of southern hospitali
 
 Game time. Scrabble was our first pick. I got lucky on the letters draw and played _voyage_ on my first turn. Fast forward a few rounds and Nicholette played _drawl_. The spelling felt odd for some reason, so I decided to challenge it. We couldn't quite remember the challenge rules, so we skimmed the rule pamphlet.
 
-_Drawl_ was indeed a word. I lost the challenge... But stumbled upon an expected section on _Attitude_. It's just part of the rule pamphlet, right? Yet it feels like more.
+_Drawl_ was indeed a word. I lost the challenge... But stumbled upon an unexpected section on _Attitude_. It's just part of the rule pamphlet, right? Yet it feels like more.
 
 > Keep in mind that anyone can beat anyone else with a certain amount of luck. Also remember that everyone draws poor combinations of tiles at times, so when you do, take pleasure in making the best play you can. Finally, don't dwell on your mistakes. Everyone makes them, so go easy on yourself and just enjoy playing.
