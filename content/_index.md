@@ -10,15 +10,9 @@ Welcome to my corner of the internet. Come on in and make yourself at home. `zwb
 
 <!--more-->
 
-**What**. My [Blog]({{< relref "blog" >}}) is a loose collection of thoughts, things learned, and who-knows-whats. Here's the [RSS feed](/blog/index.xml).
-
 **Work**. I'm a Software Developer at [HLN](https://www.hln.com/). Here's my [Resume](/resume/).
 
-**Contact**. [Email me]({{< relref "contact" >}}).
-
-**Elsewhere**. Find me on GitHub. My personal account is [zwbetz-gh](https://github.com/zwbetz-gh). My day job account is [zach-betz-hln](https://github.com/zach-betz-hln).
-
-**Photo**. The ole [headshot]({{< relref "photo" >}}).
+**Elsewhere**. Find me on GitHub. My day job account is [zach-betz-hln](https://github.com/zach-betz-hln). My personal account is [zwbetz-gh](https://github.com/zwbetz-gh).
 
 **Various**. A blog oldie: [Simple Pleasures]({{< relref "simple-pleasures" >}}).
 

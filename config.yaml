@@ -38,49 +38,18 @@ menu:
       pre: home
       url: /
       weight: 01
-    - name: Blog
+    - name: Links
       pre: edit
-      url: /blog/
+      url: /links/
       weight: 02
-    - name: Search
-      pre: search
-      url: /search/
-      weight: 03
-    - name: Contact
-      pre: mail
-      url: /contact/
-      weight: 04
-    - name: Archive
-      pre: archive
-      url: /archive/
-      weight: 05
-    - name: Debug
-      pre: eye
-      url: null
-      weight: 06
 
-  footer_nav:
-    - name: Built With
-      pre: tool
-      url: /built-with/
-      weight: 01
-    - name: See an Issue?
-      pre: help-circle
-      url: https://github.com/zwbetz-gh/zwbetz/issues
-      weight: 02
-    - name: License
-      pre: file-text
-      url: /license/
-      weight: 03
-    - name: Disclaimer
-      pre: umbrella
-      url: /disclaimer/
-      weight: 04
+  footer_nav: []
 
 params:
   show_social_media_meta_tags: false
   show_search: true
   show_debug: false
+  show_footer_nav: false
   dark_mode: true
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
