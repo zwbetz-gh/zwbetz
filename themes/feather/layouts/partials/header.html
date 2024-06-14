@@ -1,38 +1,40 @@
-<header class="custom-header">
-  <div class="container-fluid">
-    <nav class="custom-nav">
-      {{ range site.Menus.nav }}
-        {{ if .URL }}
-          <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
-            <div class="custom-icon-button-box">
-              {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
-              {{ partial $iconPath }}
-              <span>{{ .Name }}</span>
-            </div>
-          </a>
-        {{ else }}
-          {{ $isDebug := eq .Name "Debug" }}
-          {{ if and $isDebug site.Params.show_debug }}
-            <button class="btn btn-outline-light" id="show_debug_modal">
+{{ if ne .Params.show_header false }}
+  <header class="custom-header">
+    <div class="container-fluid">
+      <nav class="custom-nav">
+        {{ range site.Menus.nav }}
+          {{ if .URL }}
+            <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
               <div class="custom-icon-button-box">
                 {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
                 {{ partial $iconPath }}
                 <span>{{ .Name }}</span>
               </div>
-            </button>
-          {{ end }}
+            </a>
+          {{ else }}
+            {{ $isDebug := eq .Name "Debug" }}
+            {{ if and $isDebug site.Params.show_debug }}
+              <button class="btn btn-outline-light" id="show_debug_modal">
+                <div class="custom-icon-button-box">
+                  {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+                  {{ partial $iconPath }}
+                  <span>{{ .Name }}</span>
+                </div>
+              </button>
+            {{ end }}
 
-          {{ if not $isDebug }}
-            <button class="btn btn-outline-light">
-              <div class="custom-icon-button-box">
-                {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
-                {{ partial $iconPath }}
-                <span>{{ .Name }}</span>
-              </div>
-            </button>
+            {{ if not $isDebug }}
+              <button class="btn btn-outline-light">
+                <div class="custom-icon-button-box">
+                  {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
+                  {{ partial $iconPath }}
+                  <span>{{ .Name }}</span>
+                </div>
+              </button>
+            {{ end }}
           {{ end }}
         {{ end }}
-      {{ end }}
-    </nav>
-  </div>
-</header>
+      </nav>
+    </div>
+  </header>
+{{ end }}

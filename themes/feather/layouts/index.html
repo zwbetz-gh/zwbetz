@@ -1,8 +1,18 @@
-{{ define "main" }}
-  {{ partial "page-title.html" . }}
 
+{{ define "main" }}
+  {{ $img := .Page.Resources.GetMatch (printf "*%s*" .Params.headshot_img) }}
+  <div class="custom-home-headshot-box">
+    <img
+      class="custom-home-headshot-img"
+      src="{{ $img.RelPermalink }}"
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      alt="headshot"
+      loading="lazy"
+    >
+    <h1>{{ .Params.headshot_caption }}</h1>
+  </div>
   <div class="container">
-    {{ partial "toc.html" . }}
     {{ .Content }}
   </div>
 {{ end }}

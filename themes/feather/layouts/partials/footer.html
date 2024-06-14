@@ -1,8 +1,10 @@
-<footer>
-  <div class="custom-footer">
-    <div class="container-fluid">
-      {{ partial "footer-nav.html" . }}
-      {{ partial "theme-toggle.html" . }}
+{{ if ne .Params.show_header false }}
+  <footer>
+    <div class="custom-footer">
+      <div class="container-fluid">
+        {{ partial "footer-nav.html" . }}
+        {{ partial "theme-toggle.html" . }}
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+{{ end}}

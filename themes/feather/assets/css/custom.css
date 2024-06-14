@@ -165,6 +165,36 @@ figcaption {
   border-top-style: var(--custom-border-style);
 }
 
+/* home */
+
+.custom-home-container {
+  padding-top: 1rem;
+}
+
+.custom-home-headshot-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+  /* TODO pick a color */
+  background-color: #232d98;
+  background-color: #232eb0;
+  background-color: #5660d1;
+  background-color: #1d6281;
+  background-color: #2a519d;
+  color: #fff;
+  color: var(--custom-body-background-color)
+}
+
+.custom-home-headshot-img {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 5px solid #1a3261;
+}
+
 /* header, footer */
 
 .custom-header {
