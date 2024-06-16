@@ -12,9 +12,9 @@
   --custom-border-style: solid;
   /* NOTE when changing this, also change hugo figure resize options */
   --custom-container-max-width: 700px;
-  --custom-primary-color: #68421a;
-  --custom-secondary-color: #ebceaf;
-  --custom-link-color: #68421a;
+  --custom-primary-color: #2a519d;
+  --custom-secondary-color: #4674ce;
+  --custom-link-color: #1a0dab;
   --custom-code-background-color: rgba(29, 28, 29, 0.04);
   --custom-code-border-color: rgba(29, 28, 29, 0.13);
 }
@@ -179,18 +179,13 @@ figcaption {
   align-items: center;
   padding: 2rem 0;
   margin-bottom: 1rem;
-  /* TODO pick a color */
-  background-color: #232d98;
-  background-color: #232eb0;
-  background-color: #5660d1;
-  background-color: #1d6281;
-  background-color: #2a519d;
-  color: #fff;
+  text-align: center;
+  background-color: var(--custom-primary-color);
   color: var(--custom-body-background-color)
 }
 
 .custom-home-headshot-img {
-  max-width: 300px;
+  max-width: 200px;
   border-radius: 50%;
   border: 5px solid #1a3261;
 }

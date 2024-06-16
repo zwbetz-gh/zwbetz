@@ -6,8 +6,15 @@ aliases:
   - /about/
 show_header: false
 summary: Zachary Betz, Software Developer
-headshot_caption: Zachary Betz, Software Developer
+headshot_title: Zachary Betz
+headshot_subtitle: Software Developer
 headshot_img: headshot.jpg
 ---
 
-Welcome...
+Welcome to my personal site. I'm a Christian, husband, and father of 2.
+
+I'm a software developer at [HLN](https://www.hln.com/) where I do full-stack web development with a small team. It's a pleasure.
+
+Here's my [resume](/resume/) as well as [professional](https://github.com/zach-betz-hln) and [personal](https://github.com/zwbetz-gh) GitHub profiles.
+
+If you're feeling curious, explore some site [links](/links/).

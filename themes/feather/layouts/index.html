@@ -1,6 +1,8 @@
 
 {{ define "main" }}
   {{ $img := .Page.Resources.GetMatch (printf "*%s*" .Params.headshot_img) }}
+  <!-- Keep in sync with css max width -->
+  {{ $img := $img.Resize "200x" }}
   <div class="custom-home-headshot-box">
     <img
       class="custom-home-headshot-img"
@@ -8,9 +10,11 @@
       width="{{ $img.Width }}"
       height="{{ $img.Height }}"
       alt="headshot"
-      loading="lazy"
     >
-    <h1>{{ .Params.headshot_caption }}</h1>
+    <div>
+      <h1>{{ .Params.headshot_title }}</h1>
+      <div>{{ .Params.headshot_subtitle }}</div>
+    </div>
   </div>
   <div class="container">
     {{ .Content }}
