@@ -1,7 +1,7 @@
 {{ if site.Params.show_footer_nav }}
   <nav class="custom-nav">
     {{ range site.Menus.footer_nav }}
-      <a class="btn btn-outline-light" href="{{ .URL }}" role="button">
+      <a class="btn btn-sm btn-outline-light" href="{{ .URL }}" role="button">
         <div class="custom-icon-button-box">
           {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
           {{ partial $iconPath }}

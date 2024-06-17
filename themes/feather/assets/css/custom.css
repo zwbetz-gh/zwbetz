@@ -194,16 +194,15 @@ figcaption {
 /* header, footer */
 
 .custom-header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: var(--custom-primary-color);
-  border-bottom-width: var(--custom-border-width);
-  border-bottom-style: var(--custom-border-style);
+  border-bottom: 5px var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
 .custom-footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: var(--custom-primary-color);
   border-top-width: var(--custom-border-width);
   border-top-style: var(--custom-border-style);
@@ -231,7 +230,8 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background-color: var(--custom-secondary-color);
+  background-color: var(--custom-primary-color);
+  color: var(--custom-body-background-color);
   border-bottom-width: var(--custom-border-width);
   border-bottom-style: var(--custom-border-style);
   text-align: center;
@@ -315,9 +315,10 @@ figcaption {
 }
 
 .custom-reply-box {
+  background-color: var(--custom-primary-color);
   border-top: var(--custom-border-width) var(--custom-border-style);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .custom-reply-box .container {
@@ -373,12 +374,6 @@ figcaption {
 
 /* dark mode */
 /* NOTE: this must be placed last in the stylesheet in order to override the default light mode */
-
-.custom-theme-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 #custom_theme_toggle {
   width: initial;

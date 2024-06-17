@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <div class="container">
+    <ul>
+      {{ range .Params.links }}
+        <li>
+          <a href="{{ .link }}">
+            {{ .text }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

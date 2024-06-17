@@ -1,9 +1,8 @@
-{{ if ne .Params.show_header false }}
+{{ if and (ne site.Params.show_footer false) (ne .Params.show_footer false) }}
   <footer>
     <div class="custom-footer">
       <div class="container-fluid">
         {{ partial "footer-nav.html" . }}
-        {{ partial "theme-toggle.html" . }}
       </div>
     </div>
   </footer>
