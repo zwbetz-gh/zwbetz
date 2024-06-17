@@ -13,8 +13,6 @@ headshot_img: headshot.jpg
 
 Welcome to my personal site. I'm a Christian, husband, and father of 2.
 
-I'm a software developer at [HLN](https://www.hln.com/) where I do full-stack web development with a small team. It's a pleasure.
+I'm a software developer at [HLN](https://www.hln.com/), where I have the pleasure of doing full-stack web development with a small, fast-moving team.
 
-Here's my [resume](/resume/) as well as [professional](https://github.com/zach-betz-hln) and [personal](https://github.com/zwbetz-gh) GitHub profiles.
-
-If you're feeling curious, explore some site [links](/links/).
+Here's my [resume](/resume/), as well as [professional](https://github.com/zach-betz-hln) and [personal](https://github.com/zwbetz-gh) GitHub profiles.

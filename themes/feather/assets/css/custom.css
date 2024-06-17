@@ -13,6 +13,7 @@
   /* NOTE when changing this, also change hugo figure resize options */
   --custom-container-max-width: 700px;
   --custom-primary-color: #2a519d;
+  --custom-primary-darker-color: #1a3261;
   --custom-secondary-color: #4674ce;
   --custom-link-color: #1a0dab;
   --custom-code-background-color: rgba(29, 28, 29, 0.04);
@@ -187,7 +188,7 @@ figcaption {
 .custom-home-headshot-img {
   max-width: 200px;
   border-radius: 50%;
-  border: 5px solid #1a3261;
+  border: 5px solid var(--custom-primary-darker-color);
 }
 
 /* header, footer */
@@ -383,6 +384,7 @@ figcaption {
   width: initial;
 }
 
+/* TODO better dark colors */
 [data-bs-theme=dark] {
   --custom-body-color: #dee2e6;
   --custom-body-background-color: #353535;
