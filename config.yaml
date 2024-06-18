@@ -49,6 +49,7 @@ params:
   show_debug: true
   show_footer: true
   show_footer_nav: true
+  show_reply_by_email: false
   dark_mode: true
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006

@@ -1,14 +1,11 @@
 {{ $sectionIsBlog := eq .Section "blog" }}
 {{ $flagIsOkay := ne .Params.show_reply_by_email false }}
 {{ $shouldShow := and .IsPage $sectionIsBlog $flagIsOkay }}
-{{ if $shouldShow }}
+{{ if and $shouldShow site.Params.show_reply_by_email }}
   <div class="custom-reply-box">
     <div class="container">
-      <a class="btn btn-sm btn-light" href="/contact/" role="button">
-        <div class="custom-icon-button-box">
-          {{ partial "feather-icons/mail.html" }}
-          <span>Reply by email</span>
-        </div>
+      <a class="btn btn-sm btn-outline-primary" href="/contact/" role="button">
+        Reply by email
       </a>
     </div>
   </div>

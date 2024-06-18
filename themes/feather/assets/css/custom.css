@@ -204,8 +204,7 @@ figcaption {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: var(--custom-primary-color);
-  border-top-width: var(--custom-border-width);
-  border-top-style: var(--custom-border-style);
+  border-top: 5px var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
 /* nav */
@@ -227,13 +226,10 @@ figcaption {
 /* title */
 
 .custom-title {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
-  background-color: var(--custom-primary-color);
-  color: var(--custom-body-background-color);
-  border-bottom-width: var(--custom-border-width);
-  border-bottom-style: var(--custom-border-style);
+  border-bottom: var(--custom-border-width) var(--custom-border-style);
   text-align: center;
 }
 
@@ -315,7 +311,6 @@ figcaption {
 }
 
 .custom-reply-box {
-  background-color: var(--custom-primary-color);
   border-top: var(--custom-border-width) var(--custom-border-style);
   padding-top: 1rem;
   padding-bottom: 1rem;
