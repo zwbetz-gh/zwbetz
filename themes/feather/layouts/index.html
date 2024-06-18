@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $img := .Page.Resources.GetMatch (printf "*%s*" .Params.headshot_img) }}
-  {{ $img := $img.Resize "200x" }} <!-- Keep in sync with css max width -->
+  {{ $img := $img.Resize "200x q100" }} <!-- Keep in sync with css max width -->
 
   <div class="custom-home-headshot-box">
     <div class="container-fluid">
