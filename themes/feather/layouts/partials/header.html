@@ -4,30 +4,15 @@
       <nav class="custom-nav">
         {{ range site.Menus.nav }}
           {{ if .URL }}
-            <a class="btn btn-sm btn-light" href="{{ .URL }}">
+            <a class="btn btn-sm btn-outline-light" href="{{ .URL }}">
               {{ .Name }}
             </a>
           {{ else }}
-            {{ $isDebug := eq .Name "Debug" }}
-            {{ if and $isDebug site.Params.show_debug }}
-              <button class="btn btn-sm btn-light" id="show_debug_modal">
-                {{ .Name }}
-              </button>
-            {{ end }}
-
-            {{ if not $isDebug }}
-              <button class="btn btn-sm btn-light">
-                {{ .Name }}
-              </button>
-            {{ end }}
-          {{ end }}         
+            <button class="btn btn-sm btn-outline-light">
+              {{ .Name }}
+            </button>
+          {{ end }}
         {{ end }}
-
-        <select id="custom_theme_toggle" class="form-select form-select-sm" aria-label="Select the theme color">
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <option value="auto">Auto</option>
-        </select>
       </nav>
     </div>
   </header>

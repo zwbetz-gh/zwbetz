@@ -4,16 +4,18 @@
   <!-- Keep in sync with css max width -->
   {{ $img := $img.Resize "200x" }}
   <div class="custom-home-headshot-box">
-    <img
-      class="custom-home-headshot-img"
-      src="{{ $img.RelPermalink }}"
-      width="{{ $img.Width }}"
-      height="{{ $img.Height }}"
-      alt="headshot"
-    >
-    <div>
-      <h1>{{ .Params.headshot_title }}</h1>
-      <div>{{ .Params.headshot_subtitle }}</div>
+    <div class="container-fluid">
+      <img
+        class="custom-home-headshot-img"
+        src="{{ $img.RelPermalink }}"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}"
+        alt="headshot"
+      >
+      <div>
+        <h1>{{ .Params.headshot_title }}</h1>
+        <div>{{ .Params.headshot_subtitle }}</div>
+      </div>
     </div>
   </div>
   <div class="container">

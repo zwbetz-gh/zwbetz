@@ -1,13 +1,11 @@
 {{ if site.Params.show_footer_nav }}
   <nav class="custom-nav">
     {{ range site.Menus.footer_nav }}
-      <a class="btn btn-sm btn-outline-light" href="{{ .URL }}" role="button">
-        <div class="custom-icon-button-box">
-          {{ $iconPath := printf "feather-icons/%s.html" .Pre }}
-          {{ partial $iconPath }}
-          <span>{{ .Name }}</span>
-        </div>
+      <a class="btn btn-sm btn-outline-light" role="button" href="{{ .URL }}">
+        {{ .Name }}
       </a>
     {{ end }}
+    {{ partial "debug-modal-button.html" . }}
+    {{ partial "theme-toggle.html" . }}
   </nav>
 {{ end }}
