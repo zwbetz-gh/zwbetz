@@ -9,7 +9,7 @@ links:
     description: Email me
     link: /contact/
   - text: Blog
-    description: A loose collection of thoughts, things learned, and who-knows-whats.
+    description: A loose collection of thoughts, things learned, and who-knows-whats
     link: /blog/
   - text: Search
     description: Search posts

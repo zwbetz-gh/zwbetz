@@ -12074,6 +12074,7 @@ textarea.form-control-lg {
   --custom-link-color: #1a0dab;
   --custom-code-background-color: rgba(29, 28, 29, 0.04);
   --custom-code-border-color: rgba(29, 28, 29, 0.13);
+  --custom-home-headshot-color: #fcfcfc;
 }
 
 .btn-primary {
@@ -12238,7 +12239,8 @@ figcaption {
   margin-bottom: 1rem;
   text-align: center;
   background-color: var(--custom-primary-color);
-  color: var(--custom-body-background-color)
+  color: var(--custom-home-headshot-color);
+  border-bottom: var(--custom-border-width) var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
 .custom-home-headshot-img {
@@ -12253,14 +12255,14 @@ figcaption {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: var(--custom-primary-color);
-  border-bottom: 5px var(--custom-border-style) var(--custom-primary-darker-color);
+  border-bottom: var(--custom-border-width) var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
 .custom-footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: var(--custom-primary-color);
-  border-top: 5px var(--custom-border-style) var(--custom-primary-darker-color);
+  border-top: var(--custom-border-width) var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
 /* nav */
@@ -12389,6 +12391,7 @@ figcaption {
 #debug_modal {
   min-width: 50vw;
   min-height: 100vh;
+  background-color: var(--custom-body-background-color);
 }
 
 #close_debug_modal {
@@ -12430,13 +12433,13 @@ figcaption {
   width: initial;
 }
 
-/* TODO better dark colors */
 [data-bs-theme=dark] {
   --custom-body-color: #dee2e6;
   --custom-body-background-color: #353535;
   --custom-primary-color: inherit;
+  --custom-primary-darker-color: #dee2e6;
   --custom-secondary-color: inherit;
-  --custom-link-color: #e59a9a;
+  --custom-link-color: #6ea8fe;
   --custom-code-background-color: #282828;
   --custom-code-border-color: #495057;
 
