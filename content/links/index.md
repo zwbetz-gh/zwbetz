@@ -6,21 +6,30 @@ draft: false
 type: links
 links:
   - text: Contact
+    description: Email me
     link: /contact/
   - text: Blog
+    description: A loose collection of thoughts, things learned, and who-knows-whats.
     link: /blog/
   - text: Search
+    description: Search posts
     link: /search/
   - text: Archive
+    description: All posts
     link: /archive/
   - text: RSS feed
+    description: Old school sub
     link: /blog/index.xml
   - text: Built with
+    description: Things used to make this site
     link: /built-with/
   - text: See an issue?
+    description: Kindly open a bug report
     link: https://github.com/zwbetz-gh/zwbetz/issues
   - text: License
+    description: Share away, just give credit please
     link: /license/
   - text: Disclaimer
+    description: Boring legal stuff
     link: /disclaimer/
 ---

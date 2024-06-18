@@ -4,9 +4,7 @@
     <ul>
       {{ range .Params.links }}
         <li>
-          <a href="{{ .link }}">
-            {{ .text }}
-          </a>
+          <a href="{{ .link }}">{{ .text }}</a> - {{ .description }}
         </li>
       {{ end }}
     </ul>
