@@ -46,7 +46,7 @@ menu:
 params:
   show_social_media_meta_tags: false
   show_search: true
-  show_debug: true
+  show_debug: false
   show_footer: true
   show_footer_nav: true
   show_reply_by_email: false
