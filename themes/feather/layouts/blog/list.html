@@ -14,7 +14,7 @@
         <p>{{ $summary }}</p>
         <div class="custom-read-more-box">
           <a href="{{ .RelPermalink }}"
-            class="btn btn-outline-primary custom-read-more-button"
+            class="btn btn-sm btn-outline-primary custom-read-more-button"
             aria-label="Read more about {{ .Title }}">Read more</a>
         </div>
       </div>
@@ -22,7 +22,7 @@
 
     <div class="custom-paginator">
       <nav class="custom-paginator-buttons">
-        <ul class="pagination">
+        <ul class="pagination pagination-sm">
           {{ with $paginator.First }}
             <li class="page-item">
               <a class="page-link" href="{{ .URL }}">

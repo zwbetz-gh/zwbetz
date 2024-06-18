@@ -4,12 +4,12 @@
   <body class="custom-body">
     {{ partial "theme-js.html" . }}
     {{ partial "header.html" . }}
-    {{ partial "debug-modal.html" . }}
     <main class="custom-content">
       {{ block "main" . }}{{ end }}
     </main>
     {{ partial "reply-by-email.html" . }}
     {{ partial "footer.html" . }}
+    {{ partial "debug-modal.html" . }} <!-- must be the last html item -->
     {{ partial "internal-js.html" . }}
     {{ partial "script-goatcounter.html" . }}
   </body>
