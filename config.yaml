@@ -76,7 +76,7 @@ markup:
       xHTML: false
   highlight:
     codeFences: true
-    hl_Lines: ""
+    hl_Lines: ''
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true

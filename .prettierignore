@@ -1,6 +1,5 @@
 *.html
 *.md
-*.yaml
 *.json
 node_modules/
 public/
