@@ -1,5 +1,5 @@
 *.md
-layouts/shortcodes
+layouts/shortcodes/
 node_modules/
 public/
 resources/
