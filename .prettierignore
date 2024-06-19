@@ -1,9 +1,10 @@
-*.html
 *.md
+layouts/shortcodes
 node_modules/
 public/
 resources/
 static/
+themes/feather/**/*.html
 themes/feather/**/*.json.json
 themes/feather/assets/css/bootstrap.css
 themes/feather/assets/js/search/fuse.mjs
