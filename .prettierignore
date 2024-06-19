@@ -1,5 +1,4 @@
 *.html
-*.css
 *.md
 *.yaml
 *.json
@@ -7,4 +6,5 @@ node_modules/
 public/
 resources/
 static/
+themes/feather/assets/css/bootstrap.css
 themes/feather/assets/js/search/fuse.mjs

@@ -1156,7 +1156,7 @@ code {
   color: inherit;
 }
 
-a>code {
+a > code {
   color: inherit;
 }
 
@@ -1328,7 +1328,7 @@ figcaption {
   width: initial;
 }
 
-[data-bs-theme=dark] {
+[data-bs-theme='dark'] {
   --custom-body-color: #dee2e6;
   --custom-body-background-color: #353535;
   --custom-primary-color: inherit;
@@ -1339,6 +1339,6 @@ figcaption {
   --custom-code-border-color: #495057;
 
   img {
-    filter: brightness(.8) contrast(1.2);
+    filter: brightness(0.8) contrast(1.2);
   }
 }
