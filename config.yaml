@@ -1,7 +1,7 @@
 baseURL: https://zwbetz.com
 languageCode: en-us
 defaultContentLanguage: en
-title: zwbetz
+title: Zachary Betz
 theme: feather
 enableRobotsTXT: true
 timeout: 45000
