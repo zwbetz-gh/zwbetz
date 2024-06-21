@@ -12,7 +12,9 @@
     >
     <div>
       <h1>{{ .Params.headshot_title }}</h1>
-      <div>{{ .Params.headshot_subtitle }}</div>
+      {{ with .Params.headshot_subtitle }}
+        <div>{{ . }}</div>
+      {{ end }}
     </div>
   </div>
   <div class="container">

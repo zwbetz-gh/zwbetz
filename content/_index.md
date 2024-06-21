@@ -5,9 +5,9 @@ toc: false
 aliases:
   - /about/
 show_header: true
-summary: Zachary Betz, Software Developer
+summary: The personal site of Zachary Betz
 headshot_title: Zachary Betz
-headshot_subtitle: Software Developer
+headshot_subtitle: null
 headshot_img: headshot.jpg
 ---
 
