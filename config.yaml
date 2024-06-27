@@ -38,6 +38,8 @@ menu:
       url: /
     - name: Links
       url: /links/
+    - name: Search
+      url: /search/
 
   footer_nav:
     - name: Built with <3
