@@ -36,23 +36,24 @@ menu:
   nav:
     - name: Home
       url: /
-    - name: Links
-      url: /links/
+      weight: 1
     - name: Search
       url: /search/
+      weight: 2
+    - name: All Links
+      url: /links/
+      weight: 3
 
-  footer_nav:
-    - name: Built with <3
-      url: /built-with/
+  footer_nav: []
 
 params:
   show_social_media_meta_tags: false
   show_search: true
   show_debug: false
-  show_footer: true
-  show_footer_nav: true
+  show_footer: false
+  show_footer_nav: false
   show_reply_by_email: false
-  dark_mode: true
+  show_theme_toggle: true
   goat_counter_code: zwbetz
   date_format: Jan 2, 2006
   images:

@@ -1215,13 +1215,6 @@ figcaption {
   border-bottom: var(--custom-border-width) var(--custom-border-style) var(--custom-primary-darker-color);
 }
 
-.custom-footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: var(--custom-primary-color);
-  border-top: var(--custom-border-width) var(--custom-border-style) var(--custom-primary-darker-color);
-}
-
 /* nav */
 
 .custom-nav {
