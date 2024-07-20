@@ -1,5 +1,6 @@
 /* general */
 
+/* Some colors from https://designsystem.digital.gov/utilities/color/ */
 :root {
   --custom-body-font-size: 16px;
   --custom-body-font-weight: 400;
@@ -12,10 +13,10 @@
   --custom-border-style: solid;
   /* NOTE when changing this, also change hugo figure resize options */
   --custom-container-max-width: 700px;
-  --custom-primary-color: #2a519d;
-  --custom-primary-darker-color: #1a3261;
-  --custom-secondary-color: #4674ce;
-  --custom-link-color: #1a0dab;
+  --custom-primary-color: #005ea2;
+  --custom-primary-darker-color: #1a4480;
+  --custom-secondary-color: #73b3e7;
+  --custom-link-color: #005ea2;
   --custom-code-background-color: rgba(29, 28, 29, 0.04);
   --custom-code-border-color: rgba(29, 28, 29, 0.13);
   --custom-home-headshot-color: #fcfcfc;
@@ -293,16 +294,6 @@ figcaption {
   border-width: var(--custom-border-width);
   border-style: var(--custom-border-style);
   border-radius: var(--custom-border-radius);
-}
-
-.custom-read-more-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.custom-read-more-button {
-  width: 100%;
 }
 
 /* blog single */

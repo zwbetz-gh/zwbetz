@@ -1,6 +1,7 @@
 ---
 title: Blog
-summary: A loose collection of thoughts, things learned, and who-knows-whats.
+subtitle: A loose collection of quotes, things learned, and who-knows-whats
+summary: A loose collection of quotes, things learned, and who-knows-whats
 aliases:
   - /post/
 ---

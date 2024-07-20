@@ -37,12 +37,15 @@ menu:
     - name: Home
       url: /
       weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
     - name: Search
       url: /search/
-      weight: 2
-    - name: All Links
-      url: /links/
       weight: 3
+    - name: Links
+      url: /links/
+      weight: 4
 
   footer_nav: []
 

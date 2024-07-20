@@ -10,13 +10,10 @@
       {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
 
       <div class="custom-card">
-        <h2 class="h5">{{ .Title }}</h2>
+        <a href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}">
+          <h2 class="h5">{{ .Title }}</h2>
+        </a>
         <p>{{ $summary }}</p>
-        <div class="custom-read-more-box">
-          <a href="{{ .RelPermalink }}"
-            class="btn btn-sm btn-outline-primary custom-read-more-button"
-            aria-label="Read more about {{ .Title }}">Read more</a>
-        </div>
       </div>
     {{ end }}
 

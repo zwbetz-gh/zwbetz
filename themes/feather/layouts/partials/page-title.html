@@ -1,5 +1,8 @@
 <div class="custom-title">
   <div class="container">
     <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+      <div>{{ . }}</div>
+    {{ end }}
   </div>
 </div>

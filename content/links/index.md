@@ -1,22 +1,11 @@
 ---
-title: "All Links"
+title: "Links"
+subtitle: Things that didn't make it into the navbar
 date: 2024-05-09T21:34:41-05:00
 toc: false
 draft: false
 type: links
 links:
-  - text: Contact
-    description: Email me
-    link: /contact/
-
-  - text: Blog
-    description: A loose collection of thoughts, things learned, and who-knows-whats
-    link: /blog/
-
-  - text: Search
-    description: Search posts
-    link: /search/
-
   - text: Archive
     description: All posts
     link: /archive/
@@ -28,6 +17,10 @@ links:
   - text: RSS feed
     description: Old school sub
     link: /blog/index.xml
+
+  - text: Contact
+    description: Email me
+    link: /contact/
 
   - text: See an issue?
     description: Kindly open a bug report
