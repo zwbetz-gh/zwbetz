@@ -34,8 +34,8 @@ For example, this shortcode:
   <code>{{ .Page.File.Ext }}</code>
 </p>
 <p>
-  <strong>.Page.File.Lang</strong><br>
-  <code>{{ .Page.File.Lang }}</code>
+  <strong>.Page.Language.Lang</strong><br>
+  <code>{{ .Page.Language.Lang }}</code>
 </p>
 <p>
   <strong>.Page.File.Dir</strong><br>
