@@ -1,6 +1,7 @@
 ---
 title: "Links"
 subtitle: Things that didn't make it into the navbar
+summary: Things that didn't make it into the navbar
 date: 2024-05-09T21:34:41-05:00
 toc: false
 draft: false
@@ -33,4 +34,5 @@ links:
   - text: Disclaimer
     description: Boring legal stuff
     link: /disclaimer/
+
 ---

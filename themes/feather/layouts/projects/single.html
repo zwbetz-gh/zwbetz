@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .Params.projects }}
+          <tr>
+            <td>
+              <a href="{{ .link }}">{{ .text }}</a>
+            </td>
+            <td>
+              {{ .description }}
+            </td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+{{ end }}
