@@ -1,7 +1,7 @@
 ---
 title: "Projects"
-subtitle: Welcome to the playground
-summary: Welcome to the playground
+subtitle: Tinkering in spare moments
+summary: Tinkering in spare moments
 date: 2024-08-08T10:45:59-05:00
 toc: false
 draft: false
@@ -19,8 +19,8 @@ projects:
     description: An over-engineered resume from JSON
     link: https://github.com/zwbetz-gh/json-resume
 
-  - text: zwbetz.com
+  - text: zwbetz
     description: This site
-    link: /
+    link: https://github.com/zwbetz-gh/zwbetz
 
 ---
