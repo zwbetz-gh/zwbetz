@@ -23,4 +23,8 @@ projects:
     description: This site
     link: https://github.com/zwbetz-gh/zwbetz
 
+  - text: make-a-hugo-blog-from-scratch
+    description: Take a wild guess
+    link: https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch
+
 ---
