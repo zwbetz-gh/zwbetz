@@ -236,7 +236,7 @@
       "Bash",
       "Markdown"
     ],
-    "frameworks": ["React", "Apollo", "Express", "Playwright", "Spring Boot", "Hugo"],
+    "frameworks": ["React", "Remix", "Apollo", "Express", "Playwright", "Spring Boot", "Hugo"],
     "tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven", "Gradle"]
   },
   "languages": [
