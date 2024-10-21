@@ -42,18 +42,6 @@ menu:
       url: /projects/
       weight: 2
 
-    - name: Blog
-      url: /blog/
-      weight: 3
-
-    - name: Search
-      url: /search/
-      weight: 4
-
-    - name: Links
-      url: /links/
-      weight: 5
-
   footer_nav: []
 
 params:
