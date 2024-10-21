@@ -11,7 +11,7 @@ headshot_subtitle: null
 headshot_img: headshot.jpg
 ---
 
-Welcome to my personal site. I'm a (work-in-progress) Christian, husband, and father of 2.
+Welcome to my personal site. I'm a (work-in-progress) Christian, husband, and father of 3.
 
 I'm a software developer at [HLN](https://www.hln.com/), where I have the pleasure of doing full-stack web development with a small, nimble team.
 
