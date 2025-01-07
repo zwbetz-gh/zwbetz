@@ -6,7 +6,7 @@
 
 {{ $customCss := resources.Get "css/custom.css" }}
 
-{{ $bundledCss := slice $bootstrapCss $customCss | resources.Concat "css/bundled.css" | resources.PostCSS }}
+{{ $bundledCss := slice $bootstrapCss $customCss | resources.Concat "css/bundled.css" | css.PostCSS }}
 
 {{ if hugo.IsProduction }}
   {{ $bundledCss = $bundledCss | minify | fingerprint | resources.PostProcess }}

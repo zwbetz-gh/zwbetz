@@ -7,8 +7,10 @@ enableRobotsTXT: true
 timeout: 45000
 enableGitInfo: true
 buildDrafts: false
-paginate: 5
-paginatePath: page
+
+pagination:
+  pagerSize: 5
+  path: page
 
 build:
   writeStats: true
