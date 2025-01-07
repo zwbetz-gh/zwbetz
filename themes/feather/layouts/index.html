@@ -10,14 +10,9 @@
       height="{{ $img.Height }}"
       alt="headshot"
     >
-    <div>
-      <h1>{{ .Params.headshot_title }}</h1>
-      {{ with .Params.headshot_subtitle }}
-        <div>{{ . }}</div>
-      {{ end }}
-    </div>
   </div>
   <div class="container">
+    <h1>{{ .Params.intro }}</h1>
     {{ .Content }}
   </div>
 {{ end }}
