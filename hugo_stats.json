@@ -90,6 +90,7 @@
       "pagination",
       "pagination-sm",
       "table",
+      "table-bordered",
       "table-responsive",
       "usa-button"
     ],

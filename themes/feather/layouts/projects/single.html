@@ -1,12 +1,27 @@
 {{ define "main" }}
   {{ partial "page-title.html" . }}
   <div class="container">
-    <ul>
-      {{ range .Params.projects }}
-        <li>
-          <a href="{{ .link }}">{{ .text }}</a> - {{ .description }}
-        </li>
-      {{ end }}
-    </ul>
+    <!-- <div class="table-responsive"> -->
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Thing</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Params.projects }}
+            <tr>
+              <th scope="row">
+                <a href="{{ .link }}">{{ .text }}</a>
+              </th>
+              <td>
+                {{ .description }}
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    <!-- </div> -->
   </div>
 {{ end }}
