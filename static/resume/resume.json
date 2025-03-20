@@ -1,248 +1,257 @@
 {
-  "basics": {
-    "name": "Zachary Betz",
-    "label": "Software Developer",
-    "picture": "https://zwbetz.com/headshot.jpg",
-    "website": "https://zwbetz.com/",
-    "contact": "https://zwbetz.com/contact/",
-    "resume": "https://zwbetz.com/resume/",
-    "summary": "I enjoy solving technical problems and bringing people together. I'm known as a reliable team player. I document religiously. My curiosity always has me looking for ways to improve processes. Let's build something together.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Baton Rouge",
-      "countryCode": "US",
-      "region": "Louisiana"
-    },
-    "email": "endiZXR6QGdtYWlsLmNvbQ==",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "zwbetz-gh",
-        "url": "https://github.com/zwbetz-gh"
-      },
-      {
-        "network": "GitHub",
-        "username": "zach-betz-hln",
-        "url": "https://github.com/zach-betz-hln"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "HLN Consulting, LLC",
-      "position": "Senior Software Developer",
-      "website": "https://www.hln.com/",
-      "startDate": "2022-11",
-      "endDate": "Present",
-      "summary": "",
-      "showHighlights": true,
-      "highlights": [
-        "Performed fullstack development and maintenance of various NYC apps in the immunization domain",
-        "Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). Made it desktop and mobile friendly with a responsive design. Added SMART Health Card support. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation",
-        "Developed a PDF service in Node.js. It accepts HTML and renders a PDF. We're incrementally migrating from Jaspersoft to this",
-        "Developed a custom Dashboard-to-PDF service for Grafana. Text is extracted, visualizations are screenshotted, and data tables are parsed by intercepting network responses. The Grafana enterprise version offered a basic plugin for this, but our client used the community version. Our solution was cheaper and allowed deeper customization",
-        "Optimized our React Docker images so that the final stage only contained essential items: static assets and an HTTP server. On average, reduced image sizes from 500 MB to 55 MB (per GCP stats)",
-        "Developed stable end-to-end tests in Playwright. These tests automate a portion of our regression testing and allow us to make changes with more confidence",
-        "Overrode Keycloak (an identity and access management server) themes to give our single sign-on apps a custom feel. Theme templates were a mix of React and FreeMarker"
-      ]
-    },
-    {
-      "company": "Sev1Tech (formerly Geocent)",
-      "position": "Software Engineer 3",
-      "website": "https://sev1tech.com/",
-      "startDate": "2016-02",
-      "endDate": "2022-11",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Core contributor on the code-challenge team (Ekagra Partners) that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
-        "Performed full stack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software",
-        "Led a team of Software Engineers as we worked through a backlog of bugs and optimization-related tickets",
-        "Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
-        "Cut our pipeline build times in half by reusing Node.js and Gradle dependency caches and optimizing Jenkins stages. Node.js pipelines went from 1 hr to 30 mins. Gradle pipelines went from 40 mins to 15 mins",
-        "Developed a custom tool to migrate and sync our searchable data from Postgres into Elasticsearch (now OpenSearch)",
-        "Developed extensive end-to-end tests, which run in a clean-room environment on a nightly schedule",
-        "Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records",
-        "Created and maintained general developer onboarding documentation that is used across USCIS"
-      ]
-    },
-    {
-      "company": "Freelance",
-      "position": "Software Developer",
-      "website": "https://zwbetz.com/",
-      "startDate": "2016-02",
-      "endDate": "Present",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets",
-        "Developed a static website for a venture capital company"
-      ]
-    },
-    {
-      "company": "Capgemini",
-      "position": "Applications Consultant",
-      "website": "https://capgemini.com/",
-      "startDate": "2015-06",
-      "endDate": "2016-02",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting",
-        "Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins",
-        "Authored the app server migration documentation from Solaris/WebLogic to Linux/JBOSS",
-        "Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues",
-        "Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders"
-      ]
-    },
-    {
-      "company": "Framework IT Solutions",
-      "position": "Developer Intern",
-      "website": null,
-      "startDate": "2014-05",
-      "endDate": "2015-05",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8",
-        "Developed various construction equipment/sales rep reports using SSRS for a major equipment services client",
-        "Created stored procedures for data dumps, to be run on a nightly basis"
-      ]
-    },
-    {
-      "company": "Louisiana Highway Safety Research Group",
-      "position": "Data Intern",
-      "website": "http://hsrg.lsu.edu",
-      "startDate": "2013-08",
-      "endDate": "2014-05",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports",
-        "Used Splunk to monitor the network for low traffic points so that the database backups would run at those times"
-      ]
-    },
-    {
-      "company": "Louisiana State University",
-      "position": "Lead Student Computer Technician",
-      "website": "https://www.lsu.edu/reslife/",
-      "startDate": "2011-08",
-      "endDate": "2013-05",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Troubleshot LSU's wireless network and made requests for additional access points to be installed in low-coverage areas",
-        "Trained new employees on helpdesk processes and maintained knowledge management wiki",
-        "Repaired and maintained staff/student/lab computers and print servers",
-        "Created and distributed system images using Symantec Ghost"
-      ]
-    },
-    {
-      "company": "Louisiana State Employees' Retirement System",
-      "position": "Retirement Benefits Analyst",
-      "website": "https://lasersonline.org/",
-      "startDate": "2011-05",
-      "endDate": "2011-08",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Analyzed Retirement Documents and Letters for correct criteria",
-        "Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds"
-      ]
-    },
-    {
-      "company": "DETEL Computer Solutions",
-      "position": "System Builder",
-      "website": "https://www.detel.com/",
-      "startDate": "2008-05",
-      "endDate": "2010-08",
-      "summary": "",
-      "showHighlights": false,
-      "highlights": [
-        "Custom built over 600 desktop and laptop computers",
-        "Assembled and installed SMART boards for various Louisiana schools"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "Louisiana State University",
-      "area": "Information Systems and Decision Sciences (ISDS)",
-      "studyType": "Bachelor of Science",
-      "startDate": "2011",
-      "endDate": "2015",
-      "gpa": "3.0",
-      "courses": []
-    }
-  ],
-  "securityClearances": [],
-  "certifications": [],
-  "awards": [
-    {
-      "date": "2021",
-      "title": "Rising Star",
-      "awarder": "Sev1Tech Eagle Awards"
-    },
-    {
-      "date": "2019",
-      "title": "Top 5 Contributor",
-      "awarder": "Hugo's Support Forum"
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": ""
-    }
-  ],
-  "peerFeedback": [
-    {
-      "name": "From my 2022 Annual Review",
-      "url": "https://zwbetz.com/kind-words/"
-    }
-  ],
-  "writingSamples": [
-    {
-      "name": "Make a Hugo Blog From Scratch",
-      "url": "https://zwbetz.com/make-a-hugo-blog-from-scratch/"
-    }
-  ],
-  "skills": {
-    "languages": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "Node.js",
-      "Bun",
-      "GraphQL",
-      "Java",
-      "SQL",
-      "Bash",
-      "Markdown"
-    ],
-    "frameworks": ["React", "Remix", "Apollo", "Express", "Playwright", "Spring Boot", "Hugo"],
-    "tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven", "Gradle"]
-  },
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ]
+	"basics": {
+		"name": "Zachary Betz",
+		"label": "Software Developer",
+		"picture": "https://zwbetz.com/headshot.jpg",
+		"website": "https://zwbetz.com/",
+		"contact": "https://zwbetz.com/contact/",
+		"resume": "https://zwbetz.com/resume/",
+		"summary": "I enjoy solving technical problems and bringing people together. I'm known as a reliable team player. I document religiously. My curiosity always has me looking for ways to improve processes. Let's build something together.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Baton Rouge",
+			"countryCode": "US",
+			"region": "Louisiana"
+		},
+		"email": "endiZXR6QGdtYWlsLmNvbQ==",
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "zwbetz-gh",
+				"url": "https://github.com/zwbetz-gh"
+			},
+			{
+				"network": "GitHub",
+				"username": "zach-betz-hln",
+				"url": "https://github.com/zach-betz-hln"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "HLN Consulting, LLC",
+			"position": "Senior Software Developer",
+			"website": "https://www.hln.com/",
+			"startDate": "2022-11",
+			"endDate": "Present",
+			"summary": "",
+			"showHighlights": true,
+			"highlights": [
+				"Performed fullstack development and maintenance of various NYC apps in the immunization domain",
+				"Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). Made it desktop and mobile friendly with a responsive design. Added SMART Health Card support. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation",
+				"Developed a PDF service in Node.js. It accepts HTML and renders a PDF. We're incrementally migrating from Jaspersoft to this",
+				"Developed a custom Dashboard-to-PDF service for Grafana. Text is extracted, visualizations are screenshotted, and data tables are parsed by intercepting network responses. The Grafana enterprise version offered a basic plugin for this, but our client used the community version. Our solution was cheaper and allowed deeper customization",
+				"Optimized our React Docker images so that the final stage only contained essential items: static assets and an HTTP server. On average, reduced image sizes from 500 MB to 55 MB (per GCP stats)",
+				"Developed stable end-to-end tests in Playwright. These tests automate a portion of our regression testing and allow us to make changes with more confidence",
+				"Overrode Keycloak (an identity and access management server) themes to give our single sign-on apps a custom feel. Theme templates were a mix of React and FreeMarker",
+				"Simplified React, BFF, and Node.js development by adopting Biome (over Prettier/ESLint) with a shared configuration across all repos, which has improved pull request readability and reduced Bikeshedding"
+			]
+		},
+		{
+			"company": "Sev1Tech (formerly Geocent)",
+			"position": "Software Engineer 3",
+			"website": "https://sev1tech.com/",
+			"startDate": "2016-02",
+			"endDate": "2022-11",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Core contributor on the code-challenge team (Ekagra Partners) that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
+				"Performed full stack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software",
+				"Led a team of Software Engineers as we worked through a backlog of bugs and optimization-related tickets",
+				"Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
+				"Cut our pipeline build times in half by reusing Node.js and Gradle dependency caches and optimizing Jenkins stages. Node.js pipelines went from 1 hr to 30 mins. Gradle pipelines went from 40 mins to 15 mins",
+				"Developed a custom tool to migrate and sync our searchable data from Postgres into Elasticsearch (now OpenSearch)",
+				"Developed extensive end-to-end tests, which run in a clean-room environment on a nightly schedule",
+				"Wrote a diffing tool for AWS DMS to monitor the data replication of billions of records",
+				"Created and maintained general developer onboarding documentation that is used across USCIS"
+			]
+		},
+		{
+			"company": "Freelance",
+			"position": "Software Developer",
+			"website": "https://zwbetz.com/",
+			"startDate": "2016-02",
+			"endDate": "Present",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Developed desktop apps for a local petroleum transport company via C# and Windows Forms. Company accountant used apps to import timesheet spreadsheets into QuickBooks, then export payroll spreadsheets",
+				"Developed a static website for a venture capital company"
+			]
+		},
+		{
+			"company": "Capgemini",
+			"position": "Applications Consultant",
+			"website": "https://capgemini.com/",
+			"startDate": "2015-06",
+			"endDate": "2016-02",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Gathered requirements, designed, developed, and tested a Windows Forms/SQL Server proof-of-concept solution to manage boiler tube welds within plants. Used SSRS for reporting",
+				"Automated the deployment of a Maximo app using Rundeck. Reduced deployment time from 3 hrs to 40 mins",
+				"Authored the app server migration documentation from Solaris/WebLogic to Linux/JBOSS",
+				"Engaged in tri-weekly calls with offshore India team to discuss project status and debug app/database/infrastructure issues",
+				"Supported a real-time dashboard app which displayed generation/demand data to wholesale energy traders"
+			]
+		},
+		{
+			"company": "Framework IT Solutions",
+			"position": "Developer Intern",
+			"website": null,
+			"startDate": "2014-05",
+			"endDate": "2015-05",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Led the API conversion of a sports society iPhone app from iOS 6 to iOS 7/8",
+				"Developed various construction equipment/sales rep reports using SSRS for a major equipment services client",
+				"Created stored procedures for data dumps, to be run on a nightly basis"
+			]
+		},
+		{
+			"company": "Louisiana Highway Safety Research Group",
+			"position": "Data Intern",
+			"website": "http://hsrg.lsu.edu",
+			"startDate": "2013-08",
+			"endDate": "2014-05",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Transitioned annual LA Crash Data Fact Book compilation from manual Excel process to automated, parameterized SSRS reports",
+				"Used Splunk to monitor the network for low traffic points so that the database backups would run at those times"
+			]
+		},
+		{
+			"company": "Louisiana State University",
+			"position": "Lead Student Computer Technician",
+			"website": "https://www.lsu.edu/reslife/",
+			"startDate": "2011-08",
+			"endDate": "2013-05",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Troubleshot LSU's wireless network and made requests for additional access points to be installed in low-coverage areas",
+				"Trained new employees on helpdesk processes and maintained knowledge management wiki",
+				"Repaired and maintained staff/student/lab computers and print servers",
+				"Created and distributed system images using Symantec Ghost"
+			]
+		},
+		{
+			"company": "Louisiana State Employees' Retirement System",
+			"position": "Retirement Benefits Analyst",
+			"website": "https://lasersonline.org/",
+			"startDate": "2011-05",
+			"endDate": "2011-08",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Analyzed Retirement Documents and Letters for correct criteria",
+				"Managed work baskets for Change of Address, Beneficiaries, Drop Accounts, Repayment of Refunds, and Refunds"
+			]
+		},
+		{
+			"company": "DETEL Computer Solutions",
+			"position": "System Builder",
+			"website": "https://www.detel.com/",
+			"startDate": "2008-05",
+			"endDate": "2010-08",
+			"summary": "",
+			"showHighlights": false,
+			"highlights": [
+				"Custom built over 600 desktop and laptop computers",
+				"Assembled and installed SMART boards for various Louisiana schools"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "",
+			"position": "",
+			"website": "",
+			"startDate": "",
+			"endDate": "",
+			"summary": "",
+			"highlights": []
+		}
+	],
+	"education": [
+		{
+			"institution": "Louisiana State University",
+			"area": "Information Systems and Decision Sciences (ISDS)",
+			"studyType": "Bachelor of Science",
+			"startDate": "2011",
+			"endDate": "2015",
+			"gpa": "3.0",
+			"courses": []
+		}
+	],
+	"securityClearances": [],
+	"certifications": [],
+	"awards": [
+		{
+			"date": "2021",
+			"title": "Rising Star",
+			"awarder": "Sev1Tech Eagle Awards"
+		},
+		{
+			"date": "2019",
+			"title": "Top 5 Contributor",
+			"awarder": "Hugo's Support Forum"
+		}
+	],
+	"publications": [
+		{
+			"name": "",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "",
+			"summary": ""
+		}
+	],
+	"peerFeedback": [
+		{
+			"name": "From my 2022 Annual Review",
+			"url": "https://zwbetz.com/kind-words/"
+		}
+	],
+	"writingSamples": [
+		{
+			"name": "Make a Hugo Blog From Scratch",
+			"url": "https://zwbetz.com/make-a-hugo-blog-from-scratch/"
+		}
+	],
+	"skills": {
+		"languages": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"TypeScript",
+			"Node.js",
+			"Bun",
+			"GraphQL",
+			"Java",
+			"SQL",
+			"Bash",
+			"Markdown"
+		],
+		"frameworks": [
+			"React",
+			"Remix",
+			"Apollo",
+			"Express",
+			"Playwright",
+			"Spring Boot",
+			"Hugo"
+		],
+		"tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven", "Gradle"]
+	},
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native speaker"
+		}
+	]
 }
