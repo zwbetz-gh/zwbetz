@@ -39,7 +39,7 @@
 			"showHighlights": true,
 			"highlights": [
 				"Performed fullstack development and maintenance of various NYC apps in the immunization domain",
-				"Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). Made it desktop and mobile friendly with a responsive design. Added SMART Health Card support. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation",
+				"Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). Made it desktop and mobile friendly with a responsive design. Added SMART Health Card support. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation. The app scored 100 with Lighthouse in Chrome DevTools",
 				"Developed a PDF service in Node.js. It accepts HTML and renders a PDF. We're incrementally migrating from Jaspersoft to this",
 				"Developed a custom Dashboard-to-PDF service for Grafana. Text is extracted, visualizations are screenshotted, and data tables are parsed by intercepting network responses. The Grafana enterprise version offered a basic plugin for this, but our client used the community version. Our solution was cheaper and allowed deeper customization",
 				"Optimized our React Docker images so that the final stage only contained essential items: static assets and an HTTP server. On average, reduced image sizes from 500 MB to 55 MB (per GCP stats)",
@@ -57,8 +57,8 @@
 			"summary": "",
 			"showHighlights": false,
 			"highlights": [
-				"Core contributor on the code-challenge team (Ekagra Partners) that won the $76.4 million dollar Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
-				"Performed full stack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software",
+				"Core contributor on the code-challenge team (Ekagra Partners) that won the $76.4 million Fraud Investigation National Security Coordinated Heuristics (FINCH) contract with USCIS",
+				"Performed fullstack development on a React/NGINX frontend, Spring Boot backend, and Postgres database to support mission-critical software. This was for the $13.7 million Risk and Fraud DevSecOps Services (RFDS) contract with USCIS",
 				"Led a team of Software Engineers as we worked through a backlog of bugs and optimization-related tickets",
 				"Aided our DevOps team in continuously building, testing, and deploying our services, via Jenkins, into Kubernetes clusters across environments",
 				"Cut our pipeline build times in half by reusing Node.js and Gradle dependency caches and optimizing Jenkins stages. Node.js pipelines went from 1 hr to 30 mins. Gradle pipelines went from 40 mins to 15 mins",
