@@ -239,14 +239,14 @@
 		],
 		"frameworks": [
 			"React",
-			"Remix",
+			"React Router (formerly Remix)",
 			"Apollo",
 			"Express",
 			"Playwright",
 			"Spring Boot",
 			"Hugo"
 		],
-		"tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven", "Gradle"]
+		"tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven"]
 	},
 	"languages": [
 		{
