@@ -48,6 +48,10 @@ menu:
       url: /search/
       weight: 3
 
+    - name: Resume
+      url: /resume/
+      weight: 4
+
   footer_nav: []
 
 params:
