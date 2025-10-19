@@ -142,7 +142,7 @@ hugo new page-3.html
 Open `config.toml` then edit the `baseURL` and `title` variables as desired. Then add this line, which will prevent taxonomy files from being generated:
 
 ```toml
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 ```
 
 ## Preview, then generate the site
