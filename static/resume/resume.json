@@ -38,14 +38,14 @@
 			"summary": "",
 			"showHighlights": true,
 			"highlights": [
-				"Performed fullstack development and maintenance of various NYC apps in the immunization domain",
+				"Performed fullstack development and maintenance of various NYC apps in the public health domain",
+				"Simplified React, BFF, and Node.js development by adopting Biome tooling (over Prettier/ESLint) with a shared configuration across all TypeScript repos, which improved code readability and reduced Bikeshedding in pull requests",
 				"Rewrote the My Vaccine Record app (use it to lookup immunization records for yourself or your child). Made it desktop and mobile friendly with a responsive design. Added SMART Health Card support. We chose React/TypeScript for the frontend and Apollo GraphQL for the BFF. The BFF talks to our suite of microservices for needs such as authentication, authorization, patient search, immunization calculation, email notifications, and PDF report generation. The app scored 100/100 with Lighthouse in Chrome DevTools",
 				"Developed a PDF service in Node.js. It accepts HTML and renders a PDF. We migrated most of our Jaspersoft reports to this",
 				"Developed a custom Dashboard-to-PDF service for Grafana. Text is extracted, visualizations are screenshotted, and data tables are parsed by intercepting network responses. The Grafana enterprise version offered a basic plugin for this, but our client used the community version. Our solution was cheaper and allowed deeper customization",
 				"Optimized our React, BFF, and Node.js Docker images so that the final stage only contained essential items: static assets and an HTTP server. On average, reduced image sizes from 500 MB to 55 MB (per GCP stats)",
 				"Developed stable end-to-end tests in Playwright. These tests automate a portion of our regression testing and allow us to make changes with more confidence",
-				"Overrode Keycloak (an identity and access management server) themes to give our single sign-on apps a custom feel. Theme templates were a mix of React and FreeMarker",
-				"Simplified React, BFF, and Node.js development by adopting Biome (over Prettier/ESLint) with a shared configuration across all repos, which has improved pull request readability and reduced Bikeshedding"
+				"Overrode Keycloak (an identity and access management server) themes to give our single sign-on apps a custom feel. Theme templates were a mix of React and FreeMarker"
 			]
 		},
 		{
@@ -224,7 +224,7 @@
 		}
 	],
 	"skills": {
-		"languages": [
+		"languagesAndRuntimes": [
 			"HTML",
 			"CSS",
 			"JavaScript",
@@ -234,19 +234,34 @@
 			"GraphQL",
 			"Java",
 			"SQL",
+			"Shell",
 			"Bash",
 			"Markdown"
 		],
 		"frameworks": [
 			"React",
-			"React Router (formerly Remix)",
+			"React Router",
+			"Remix",
 			"Apollo",
 			"Express",
 			"Playwright",
 			"Spring Boot",
 			"Hugo"
 		],
-		"tooling": ["Git", "Docker", "Vite", "npm", "Yarn", "Maven"]
+		"tooling": [
+			"Git",
+			"Docker",
+			"Docker Compose",
+			"Vite",
+			"Vitest",
+			"Biome",
+			"Prettier",
+			"ESLint",
+			"Knip",
+			"npm",
+			"Yarn",
+			"Maven"
+		]
 	},
 	"languages": [
 		{
