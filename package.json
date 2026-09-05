@@ -10,8 +10,6 @@
     "generate-routes": "tsr generate",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "biome format --write",
-    "lint": "biome lint --write",
     "check": "biome check --write"
   },
   "dependencies": {
