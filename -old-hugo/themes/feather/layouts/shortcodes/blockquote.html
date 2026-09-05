@@ -1,0 +1,9 @@
+<blockquote>
+  <p>
+    {{ .Inner | markdownify }}
+    {{ with (.Get "author") }}
+      <br>
+      &mdash; {{ . }}
+    {{ end }}
+  </p>
+</blockquote>
