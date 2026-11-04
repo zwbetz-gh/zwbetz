@@ -11,7 +11,22 @@ const config = defineConfig({
   resolve: { tsconfigPaths: true },
   plugins: [
     devtools(),
-    nitro({ rollupConfig: { external: [/^@sentry\//] } }),
+    nitro({
+      rollupConfig: { external: [/^@sentry\//] },
+      rolldownConfig: {
+        onLog(level, log, defaultHandler) {
+          if (
+            level === "warn" &&
+            log.code === "MODULE_LEVEL_DIRECTIVE" &&
+            log.message.includes('"use client"')
+          ) {
+            return;
+          }
+
+          defaultHandler(level, log);
+        },
+      },
+    }),
     tailwindcss(),
     tanstackStart(),
     viteReact(),
