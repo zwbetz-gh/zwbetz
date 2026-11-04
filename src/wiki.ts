@@ -20,7 +20,7 @@ export const posts = Object.entries(files)
       throw new Error(`Invalid wiki frontmatter: ${path}`);
 
     return {
-      id: path.split("/").pop()?.replace(/\.md$/, ""),
+      id: path.slice(path.lastIndexOf("/") + 1).replace(/\.md$/, ""),
       title: fields.title,
       date: fields.date,
       document,

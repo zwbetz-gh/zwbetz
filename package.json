@@ -9,6 +9,7 @@
     "checks": "biome check --write && tsr generate && tsc && vite build",
     "check": "biome check --write",
     "generate-routes": "tsr generate",
+    "typecheck": "tsc",
     "dev": "vite dev --port 3000",
     "build": "vite build",
     "preview": "vite preview"
