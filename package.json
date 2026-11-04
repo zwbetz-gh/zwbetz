@@ -6,14 +6,16 @@
     "#/*": "./src/*"
   },
   "scripts": {
-    "dev": "vite dev --port 3000",
+    "checks": "biome check --write && tsr generate && tsc && vite build",
+    "check": "biome check --write",
     "generate-routes": "tsr generate",
+    "dev": "vite dev --port 3000",
     "build": "vite build",
-    "preview": "vite preview",
-    "check": "biome check --write"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.4",
+    "@tanstack/markdown": "^1.2.0",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
     "@tanstack/react-router-devtools": "latest",
