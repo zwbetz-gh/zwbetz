@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const walk = (dir) => {
   try {
@@ -8,7 +8,7 @@ const walk = (dir) => {
     list.forEach((file) => {
       file = path.join(dir, file);
       const stat = fs.statSync(file);
-      if (stat && stat.isDirectory()) {
+      if (stat?.isDirectory()) {
         // Recurse into subdir
         results = [...results, ...walk(file)];
       } else {
@@ -34,7 +34,9 @@ const edit = (filePath) => {
 const main = () => {
   const dir = "dir-1";
   const filePaths = walk(dir);
-  filePaths.forEach((filePath) => edit(filePath));
+  filePaths.forEach((filePath) => {
+    edit(filePath);
+  });
 };
 
 main();
