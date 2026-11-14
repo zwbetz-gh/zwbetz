@@ -1,0 +1,1238 @@
+[
+  {
+    "source": "-old-hugo/content/blog/2021-01-16-assorted-links/index.md",
+    "id": "2021-01-16-assorted-links",
+    "aliases": ["/2021-01-16-assorted-links/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/28-for-28/index.md",
+    "id": "28-for-28",
+    "aliases": ["/28-for-28/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/a-minimal-hugo-blog-layout/index.md",
+    "id": "a-minimal-hugo-blog-layout",
+    "aliases": [
+      "/a-minimal-hugo-blog-layout/",
+      "/2018/09/a-minimal-hugo-blog-layout/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/a-shell-script-wrapper-for-pgdump/index.md",
+    "id": "a-shell-script-wrapper-for-pgdump",
+    "aliases": ["/a-shell-script-wrapper-for-pgdump/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/adam-knew-eve/index.md",
+    "id": "adam-knew-eve",
+    "aliases": ["/adam-knew-eve/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/add-a-git-commit-hook-to-run-prettier-on-only-staged-files-in-a-nodejs-project/index.md",
+    "id": "add-a-git-commit-hook-to-run-prettier-on-only-staged-files-in-a-nodejs-project",
+    "aliases": [
+      "/add-a-git-commit-hook-to-run-prettier-on-only-staged-files-in-a-nodejs-project/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/add-search-functionality-to-your-blog-listing-page/index.md",
+    "id": "add-search-functionality-to-your-blog-listing-page",
+    "aliases": ["/add-search-functionality-to-your-blog-listing-page/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/add-your-account-as-a-sudoer-on-mac/index.md",
+    "id": "add-your-account-as-a-sudoer-on-mac",
+    "aliases": ["/add-your-account-as-a-sudoer-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/aliases-in-windows-command-prompt/index.md",
+    "id": "aliases-in-windows-command-prompt",
+    "aliases": [
+      "/aliases-in-windows-command-prompt/",
+      "/2018/03/aliases-in-windows-command-prompt/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/an-unchronological-photo-album/index.md",
+    "id": "an-unchronological-photo-album",
+    "aliases": ["/an-unchronological-photo-album/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/anna-mcclain-1st-birthday/index.md",
+    "id": "anna-mcclain-1st-birthday",
+    "aliases": ["/anna-mcclain-1st-birthday/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/apache-groovy-tidbits/index.md",
+    "id": "apache-groovy-tidbits",
+    "aliases": ["/apache-groovy-tidbits/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/aristotle-on-marriage-and-trust-as-the-foundation-of-civilization/index.md",
+    "id": "aristotle-on-marriage-and-trust-as-the-foundation-of-civilization",
+    "aliases": [
+      "/aristotle-on-marriage-and-trust-as-the-foundation-of-civilization/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/attention-is-my-most-valuable-asset-for-productivity-as-a-software-developer/index.md",
+    "id": "attention-is-my-most-valuable-asset-for-productivity-as-a-software-developer",
+    "aliases": [
+      "/attention-is-my-most-valuable-asset-for-productivity-as-a-software-developer/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/autodial-a-phone-extension-on-ios/index.md",
+    "id": "autodial-a-phone-extension-on-ios",
+    "aliases": [
+      "/autodial-a-phone-extension-on-ios/",
+      "/2018/09/autodial-a-phone-extension-on-ios/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/barbell-training-to-get-me-through-the-day/index.md",
+    "id": "barbell-training-to-get-me-through-the-day",
+    "aliases": ["/barbell-training-to-get-me-through-the-day/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bash-date-time-format-specifiers/index.md",
+    "id": "bash-date-time-format-specifiers",
+    "aliases": ["/bash-date-time-format-specifiers/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bash-function-to-delete-all-local-git-branches-except-for-those-you-want-to-keep/index.md",
+    "id": "bash-function-to-delete-all-local-git-branches-except-for-those-you-want-to-keep",
+    "aliases": [
+      "/bash-function-to-delete-all-local-git-branches-except-for-those-you-want-to-keep/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/bash-reference/index.md",
+    "id": "bash-reference",
+    "aliases": ["/bash-reference/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bash-shell-script-template/index.md",
+    "id": "bash-shell-script-template",
+    "aliases": ["/bash-shell-script-template/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bash-utility-functions/index.md",
+    "id": "bash-utility-functions",
+    "aliases": ["/bash-utility-functions/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/beef-jerky-recipe/index.md",
+    "id": "beef-jerky-recipe",
+    "aliases": ["/beef-jerky-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/beyond-the-western-malcolm-gladwell-on-the-four-categories-of-law-and-order-art/index.md",
+    "id": "beyond-the-western-malcolm-gladwell-on-the-four-categories-of-law-and-order-art",
+    "aliases": [
+      "/beyond-the-western-malcolm-gladwell-on-the-four-categories-of-law-and-order-art/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/book-snippets-the-subtle-art-of-not-giving-a-fuck/index.md",
+    "id": "book-snippets-the-subtle-art-of-not-giving-a-fuck",
+    "aliases": ["/book-snippets-the-subtle-art-of-not-giving-a-fuck/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bootstrap-4-with-bootstrap-3-styles/index.md",
+    "id": "bootstrap-4-with-bootstrap-3-styles",
+    "aliases": [
+      "/bootstrap-4-with-bootstrap-3-styles/",
+      "/2018/03/bootstrap-4-with-bootstrap-3-styles/",
+      "/2018/03/bootstrap-4-with-bootstrap-3-code-styles/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/boredom-as-a-human-drive/index.md",
+    "id": "boredom-as-a-human-drive",
+    "aliases": ["/boredom-as-a-human-drive/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bret-weinstein-on-metaphorical-truth/index.md",
+    "id": "bret-weinstein-on-metaphorical-truth",
+    "aliases": ["/bret-weinstein-on-metaphorical-truth/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/buffalo-chicken-dip-recipe/index.md",
+    "id": "buffalo-chicken-dip-recipe",
+    "aliases": ["/buffalo-chicken-dip-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in/index.md",
+    "id": "bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in",
+    "aliases": [
+      "/bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/index.md",
+    "id": "build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js",
+    "aliases": [
+      "/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/by-value-vs-by-reference-in-javascript/index.md",
+    "id": "by-value-vs-by-reference-in-javascript",
+    "aliases": ["/by-value-vs-by-reference-in-javascript/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/cajun-ninjas-pastalaya-recipe/index.md",
+    "id": "cajun-ninjas-pastalaya-recipe",
+    "aliases": ["/cajun-ninjas-pastalaya-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/cajun-ninjas-smothered-pork-chops-and-onion-gravy-recipe/index.md",
+    "id": "cajun-ninjas-smothered-pork-chops-and-onion-gravy-recipe",
+    "aliases": ["/cajun-ninjas-smothered-pork-chops-and-onion-gravy-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/camellias-famous-new-orleans-style-red-beans-recipe/index.md",
+    "id": "camellias-famous-new-orleans-style-red-beans-recipe",
+    "aliases": ["/camellias-famous-new-orleans-style-red-beans-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/change-mac-default-screenshot-save-location/index.md",
+    "id": "change-mac-default-screenshot-save-location",
+    "aliases": ["/change-mac-default-screenshot-save-location/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/change-terminal-prompt-on-mac/index.md",
+    "id": "change-terminal-prompt-on-mac",
+    "aliases": ["/change-terminal-prompt-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time/index.md",
+    "id": "check-flyway-migration-filename-prefix-for-uniqueness-at-build-time",
+    "aliases": [
+      "/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/check-if-a-program-exists-from-your-bash-script/index.md",
+    "id": "check-if-a-program-exists-from-your-bash-script",
+    "aliases": ["/check-if-a-program-exists-from-your-bash-script/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/check-if-an-element-exists-in-an-array-in-bash/index.md",
+    "id": "check-if-an-element-exists-in-an-array-in-bash",
+    "aliases": ["/check-if-an-element-exists-in-an-array-in-bash/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/chicken-shawarma-recipe/index.md",
+    "id": "chicken-shawarma-recipe",
+    "aliases": ["/chicken-shawarma-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/client-side-vs-server-side-analytics-data-comparison/index.md",
+    "id": "client-side-vs-server-side-analytics-data-comparison",
+    "aliases": ["/client-side-vs-server-side-analytics-data-comparison/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/cold-pasta-salad-recipe/index.md",
+    "id": "cold-pasta-salad-recipe",
+    "aliases": ["/cold-pasta-salad-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/combine-images-using-imagemagick/index.md",
+    "id": "combine-images-using-imagemagick",
+    "aliases": ["/combine-images-using-imagemagick/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/coming-from-java-or-a-c-like-language-to-hugo-go-templates/index.md",
+    "id": "coming-from-java-or-a-c-like-language-to-hugo-go-templates",
+    "aliases": ["/coming-from-java-or-a-c-like-language-to-hugo-go-templates/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/conflict-is-information/index.md",
+    "id": "conflict-is-information",
+    "aliases": ["/conflict-is-information/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script/index.md",
+    "id": "connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script",
+    "aliases": [
+      "/connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/connect-to-an-oracle-database-and-run-a-query-from-a-bash-script/index.md",
+    "id": "connect-to-an-oracle-database-and-run-a-query-from-a-bash-script",
+    "aliases": [
+      "/connect-to-an-oracle-database-and-run-a-query-from-a-bash-script/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/convert-a-blob-to-a-base64-string-with-a-javascript-promise/index.md",
+    "id": "convert-a-blob-to-a-base64-string-with-a-javascript-promise",
+    "aliases": ["/convert-a-blob-to-a-base64-string-with-a-javascript-promise/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/convert-a-pdf-file-to-png-or-jpg-with-imagemagick-on-mac/index.md",
+    "id": "convert-a-pdf-file-to-png-or-jpg-with-imagemagick-on-mac",
+    "aliases": ["/convert-a-pdf-file-to-png-or-jpg-with-imagemagick-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/convert-heic-images-to-jpg/index.md",
+    "id": "convert-heic-images-to-jpg",
+    "aliases": ["/convert-heic-images-to-jpg/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/convert-heic-images-to-jpg-part-2-mac-automator/index.md",
+    "id": "convert-heic-images-to-jpg-part-2-mac-automator",
+    "aliases": ["/convert-heic-images-to-jpg-part-2-mac-automator/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/convert-your-plain-old-html-site-to-hugo/index.md",
+    "id": "convert-your-plain-old-html-site-to-hugo",
+    "aliases": ["/convert-your-plain-old-html-site-to-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/copy-command-line-output-to-the-clipboard-on-mac-and-windows/index.md",
+    "id": "copy-command-line-output-to-the-clipboard-on-mac-and-windows",
+    "aliases": [
+      "/copy-command-line-output-to-the-clipboard-on-mac-and-windows/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/crazy-johnnies-chicken-and-sausage-gumbo-recipe/index.md",
+    "id": "crazy-johnnies-chicken-and-sausage-gumbo-recipe",
+    "aliases": ["/crazy-johnnies-chicken-and-sausage-gumbo-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/creamy-chicken-taco-soup-recipe/index.md",
+    "id": "creamy-chicken-taco-soup-recipe",
+    "aliases": ["/creamy-chicken-taco-soup-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js/index.md",
+    "id": "create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js",
+    "aliases": [
+      "/create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/create-an-html-table-from-a-toml-data-file-in-hugo/index.md",
+    "id": "create-an-html-table-from-a-toml-data-file-in-hugo",
+    "aliases": ["/create-an-html-table-from-a-toml-data-file-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/create-header-links-hugo-vs-javascript/index.md",
+    "id": "create-header-links-hugo-vs-javascript",
+    "aliases": ["/create-header-links-hugo-vs-javascript/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/create-react-app-show-current-git-branch-and-commit-hash-from-any-os/index.md",
+    "id": "create-react-app-show-current-git-branch-and-commit-hash-from-any-os",
+    "aliases": [
+      "/create-react-app-show-current-git-branch-and-commit-hash-from-any-os/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/crockers-rules/index.md",
+    "id": "crockers-rules",
+    "aliases": ["/crockers-rules/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/dads-boiled-crawfish-recipe/index.md",
+    "id": "dads-boiled-crawfish-recipe",
+    "aliases": ["/dads-boiled-crawfish-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/default-param-value-in-java/index.md",
+    "id": "default-param-value-in-java",
+    "aliases": [
+      "/default-param-value-in-java/",
+      "/2018/08/default-parameter-values-in-java/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/deploy-a-site-to-github-pages/index.md",
+    "id": "deploy-a-site-to-github-pages",
+    "aliases": ["/deploy-a-site-to-github-pages/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/discreet-drafts-in-hugo/index.md",
+    "id": "discreet-drafts-in-hugo",
+    "aliases": ["/discreet-drafts-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/do-you-really-know-whats-best-for-a-person/index.md",
+    "id": "do-you-really-know-whats-best-for-a-person",
+    "aliases": ["/do-you-really-know-whats-best-for-a-person/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/document-your-postgres-database-with-schemaspy-and-github-pages/index.md",
+    "id": "document-your-postgres-database-with-schemaspy-and-github-pages",
+    "aliases": [
+      "/document-your-postgres-database-with-schemaspy-and-github-pages/",
+      "/visualize-your-postgres-database-with-schemaspy-and-github-pages/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/dont-have-flyway-teams-roll-your-own-version-of-output-query-results/index.md",
+    "id": "dont-have-flyway-teams-roll-your-own-version-of-output-query-results",
+    "aliases": [
+      "/dont-have-flyway-teams-roll-your-own-version-of-output-query-results/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/download-a-file-over-https-using-apache-commons-fileutils-copyurltofile/index.md",
+    "id": "download-a-file-over-https-using-apache-commons-fileutils-copyurltofile",
+    "aliases": [
+      "/download-a-file-over-https-using-apache-commons-fileutils-copyurltofile/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/download-chromedriver-binary-and-add-to-your-PATH-for-automated-functional-testing/index.md",
+    "id": "download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing",
+    "aliases": [
+      "/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/",
+      "/2018/09/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/eerie-art/index.md",
+    "id": "eerie-art",
+    "aliases": ["/eerie-art/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/encourage-your-children/index.md",
+    "id": "encourage-your-children",
+    "aliases": ["/encourage-your-children/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/end-to-end-testing-rules/index.md",
+    "id": "end-to-end-testing-rules",
+    "aliases": ["/end-to-end-testing-rules/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/export-timed-query-results-from-sqlplus/index.md",
+    "id": "export-timed-query-results-from-sqlplus",
+    "aliases": ["/export-timed-query-results-from-sqlplus/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/file-variables-in-hugo/index.md",
+    "id": "file-variables-in-hugo",
+    "aliases": ["/file-variables-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/find-all-tables-that-do-not-have-a-given-column-in-postgres/index.md",
+    "id": "find-all-tables-that-do-not-have-a-given-column-in-postgres",
+    "aliases": ["/find-all-tables-that-do-not-have-a-given-column-in-postgres/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/fix-the-white-flash-on-page-load-when-using-a-dark-theme-on-a-static-site/index.md",
+    "id": "fix-the-white-flash-on-page-load-when-using-a-dark-theme-on-a-static-site",
+    "aliases": [
+      "/fix-the-white-flash-on-page-load-when-using-a-dark-theme-on-a-static-site/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/foil-chicken-recipe/index.md",
+    "id": "foil-chicken-recipe",
+    "aliases": ["/foil-chicken-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/from-loose-leaf-to-email-a-journey-of-jots/index.md",
+    "id": "from-loose-leaf-to-email-a-journey-of-jots",
+    "aliases": ["/from-loose-leaf-to-email-a-journey-of-jots/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/from-sql-to-java-string-and-back/index.md",
+    "id": "from-sql-to-java-string-and-back",
+    "aliases": ["/from-sql-to-java-string-and-back/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/generate-a-random-string-in-hugo/index.md",
+    "id": "generate-a-random-string-in-hugo",
+    "aliases": ["/generate-a-random-string-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/generate-lorem-ipsum-with-a-hugo-shortcode/index.md",
+    "id": "generate-lorem-ipsum-with-a-hugo-shortcode",
+    "aliases": ["/generate-lorem-ipsum-with-a-hugo-shortcode/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/get-the-approximate-size-of-a-js-object-in-bytes/index.md",
+    "id": "get-the-approximate-size-of-a-js-object-in-bytes",
+    "aliases": ["/get-the-approximate-size-of-a-js-object-in-bytes/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/get-your-feet-wet-with-java-parallel-streams/index.md",
+    "id": "get-your-feet-wet-with-java-parallel-streams",
+    "aliases": ["/get-your-feet-wet-with-java-parallel-streams/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/git-reference/index.md",
+    "id": "git-reference",
+    "aliases": ["/git-reference/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/grant-current-and-future-objects-to-user-in-postgres/index.md",
+    "id": "grant-current-and-future-objects-to-user-in-postgres",
+    "aliases": ["/grant-current-and-future-objects-to-user-in-postgres/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/hit-localhost-on-macos-from-virtualbox-win7-vm/index.md",
+    "id": "hit-localhost-on-macos-from-virtualbox-win7-vm",
+    "aliases": ["/hit-localhost-on-macos-from-virtualbox-win7-vm/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-add-a-binary-to-your-path-on-macos-linux-windows/index.md",
+    "id": "how-to-add-a-binary-to-your-path-on-macos-linux-windows",
+    "aliases": ["/how-to-add-a-binary-to-your-path-on-macos-linux-windows/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-add-an-apple-touch-icon-to-a-squarespace-site/index.md",
+    "id": "how-to-add-an-apple-touch-icon-to-a-squarespace-site",
+    "aliases": ["/how-to-add-an-apple-touch-icon-to-a-squarespace-site/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-change-your-zsh-shell-prompt/index.md",
+    "id": "how-to-change-your-zsh-shell-prompt",
+    "aliases": ["/how-to-change-your-zsh-shell-prompt/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-find-a-used-tcp-port-and-kill-the-associated-process-on-your-mac/index.md",
+    "id": "how-to-find-a-used-tcp-port-and-kill-the-associated-process-on-your-mac",
+    "aliases": [
+      "/how-to-find-a-used-tcp-port-and-kill-the-associated-process-on-your-mac/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-show-docker-memory-usage/index.md",
+    "id": "how-to-show-docker-memory-usage",
+    "aliases": ["/how-to-show-docker-memory-usage/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-symlink-python-to-python3-on-mac/index.md",
+    "id": "how-to-symlink-python-to-python3-on-mac",
+    "aliases": ["/how-to-symlink-python-to-python3-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/how-to-use-purgecss-with-hugo/index.md",
+    "id": "how-to-use-purgecss-with-hugo",
+    "aliases": ["/how-to-use-purgecss-with-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/huberman-on-eliminating-the-phone-distraction/index.md",
+    "id": "huberman-on-eliminating-the-phone-distraction",
+    "aliases": ["/huberman-on-eliminating-the-phone-distraction/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/i-asked-if-you-saw-an-issue-and-you-answered/index.md",
+    "id": "i-asked-if-you-saw-an-issue-and-you-answered",
+    "aliases": ["/i-asked-if-you-saw-an-issue-and-you-answered/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/i-believe-in-you-by-don-williams/index.md",
+    "id": "i-believe-in-you-by-don-williams",
+    "aliases": ["/i-believe-in-you-by-don-williams/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-docker-on-mac/index.md",
+    "id": "install-docker-on-mac",
+    "aliases": ["/install-docker-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-gradle-on-mac/index.md",
+    "id": "install-gradle-on-mac",
+    "aliases": ["/install-gradle-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-java-on-mac/index.md",
+    "id": "install-java-on-mac",
+    "aliases": ["/install-java-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-nodejs-on-mac/index.md",
+    "id": "install-nodejs-on-mac",
+    "aliases": ["/install-nodejs-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-nodejs-on-windows-without-admin-access/index.md",
+    "id": "install-nodejs-on-windows-without-admin-access",
+    "aliases": ["/install-nodejs-on-windows-without-admin-access/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-psql-on-mac/index.md",
+    "id": "install-psql-on-mac",
+    "aliases": ["/install-psql-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-python-on-windows-without-admin-access/index.md",
+    "id": "install-python-on-windows-without-admin-access",
+    "aliases": ["/install-python-on-windows-without-admin-access/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-ruby-version-manager-on-mac/index.md",
+    "id": "install-ruby-version-manager-on-mac",
+    "aliases": ["/install-ruby-version-manager-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-sqlplus-on-a-mac/index.md",
+    "id": "install-sqlplus-on-a-mac",
+    "aliases": ["/install-sqlplus-on-a-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-sqlplus-on-linux/index.md",
+    "id": "install-sqlplus-on-linux",
+    "aliases": ["/install-sqlplus-on-linux/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/install-yarn-on-mac/index.md",
+    "id": "install-yarn-on-mac",
+    "aliases": ["/install-yarn-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/ios-app-shout-out-contacts-sync-for-google-gmail/index.md",
+    "id": "ios-app-shout-out-contacts-sync-for-google-gmail",
+    "aliases": ["/ios-app-shout-out-contacts-sync-for-google-gmail/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/java-list-cheatsheet/index.md",
+    "id": "java-list-cheatsheet",
+    "aliases": ["/java-list-cheatsheet/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/javascript-array-vs-java-list-common-actions/index.md",
+    "id": "javascript-array-vs-java-list-common-actions",
+    "aliases": ["/javascript-array-vs-java-list-common-actions/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/jbs-fried-fish-recipe/index.md",
+    "id": "jbs-fried-fish-recipe",
+    "aliases": ["/jbs-fried-fish-recipe/", "/jbs-fried-fish/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/jocko-motivation-good/index.md",
+    "id": "jocko-motivation-good",
+    "aliases": ["/jocko-motivation-good/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/john-vervaeke-on-platos-cave/index.md",
+    "id": "john-vervaeke-on-platos-cave",
+    "aliases": ["/john-vervaeke-on-platos-cave/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/just-enough-tmux-to-do-what-i-need/index.md",
+    "id": "just-enough-tmux-to-do-what-i-need",
+    "aliases": ["/just-enough-tmux-to-do-what-i-need/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/just-enough-vi-to-open-a-file-edit-it-and-quit/index.md",
+    "id": "just-enough-vi-to-open-a-file-edit-it-and-quit",
+    "aliases": [
+      "/just-enough-vi-to-open-a-file-edit-it-and-quit/",
+      "/2018/09/just-enough-vi-to-open-a-file-edit-it-and-quit/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/keeping-my-iphone-6-alive-without-replacing-the-battery/index.md",
+    "id": "keeping-my-iphone-6-alive-without-replacing-the-battery",
+    "aliases": [
+      "/keeping-my-iphone-6-alive-without-replacing-the-battery/",
+      "/2018/08/keeping-my-iphone-6-alive-without-replacing-the-battery/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/kind-words/index.md",
+    "id": "kind-words",
+    "aliases": ["/kind-words/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/kylynns-chicken-salad-recipe/index.md",
+    "id": "kylynns-chicken-salad-recipe",
+    "aliases": ["/kylynns-chicken-salad-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/kylynns-oatmeal-chocolate-chip-cookies-recipe/index.md",
+    "id": "kylynns-oatmeal-chocolate-chip-cookies-recipe",
+    "aliases": [
+      "/kylynns-oatmeal-chocolate-chip-cookies-recipe/",
+      "/kylynns-oatmeal-chocolate-chip-cookies/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/kylynns-pumpkin-bread-recipe/index.md",
+    "id": "kylynns-pumpkin-bread-recipe",
+    "aliases": ["/kylynns-pumpkin-bread-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/linear-search-vs-binary-search-explained-with-javascript/index.md",
+    "id": "linear-search-vs-binary-search-explained-with-javascript",
+    "aliases": ["/linear-search-vs-binary-search-explained-with-javascript/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/log-docker-stats-to-a-file/index.md",
+    "id": "log-docker-stats-to-a-file",
+    "aliases": ["/log-docker-stats-to-a-file/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/mac-and-linux-environment-variables-in-terminal/index.md",
+    "id": "mac-and-linux-environment-variables-in-terminal",
+    "aliases": ["/mac-and-linux-environment-variables-in-terminal/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/mac-to-windows-command-line-mappings/index.md",
+    "id": "mac-to-windows-command-line-mappings",
+    "aliases": [
+      "/mac-to-windows-command-line-mappings/",
+      "/2018/09/mac-and-linux-to-windows-command-line-mappings/",
+      "/mac-and-linux-to-windows-command-line-mappings/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/macbook-tweaks/index.md",
+    "id": "macbook-tweaks",
+    "aliases": ["/macbook-tweaks/", "/2018/08/macbook-tweaks/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/make-a-beep-sound-when-console-outputs-certain-text/index.md",
+    "id": "make-a-beep-sound-when-console-outputs-certain-text",
+    "aliases": [
+      "/make-a-beep-sound-when-console-outputs-certain-text/",
+      "/2018/09/make-a-beep-sound-when-console-outputs-certain-text/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/make-a-hugo-blog-from-scratch/index.md",
+    "id": "make-a-hugo-blog-from-scratch",
+    "aliases": ["/make-a-hugo-blog-from-scratch/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/make-pretty-json-output-in-nodejs/index.md",
+    "id": "make-pretty-json-output-in-nodejs",
+    "aliases": ["/make-pretty-json-output-in-nodejs/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/mallory-ervin-easy-chili-recipe/index.md",
+    "id": "mallory-ervin-easy-chili-recipe",
+    "aliases": ["/mallory-ervin-easy-chili-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/massage-a-json-file-with-a-nodejs-script/index.md",
+    "id": "massage-a-json-file-with-a-nodejs-script",
+    "aliases": ["/massage-a-json-file-with-a-nodejs-script/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/maui-trip/index.md",
+    "id": "maui-trip",
+    "aliases": ["/maui-trip/", "/2018/08/maui-trip/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/mawmaw-bettys-milky-way-ice-cream-recipe/index.md",
+    "id": "mawmaw-bettys-milky-way-ice-cream-recipe",
+    "aliases": [
+      "/mawmaw-bettys-milky-way-ice-cream-recipe/",
+      "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream/",
+      "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/",
+      "/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/mawmaw-bettys-strawberry-pie-recipe/index.md",
+    "id": "mawmaw-bettys-strawberry-pie-recipe",
+    "aliases": [
+      "/mawmaw-bettys-strawberry-pie-recipe/",
+      "/mawmaw-bettys-strawberry-pie/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/mawmaw-maurice-four-layer-dessert-recipe/index.md",
+    "id": "mawmaw-maurice-four-layer-dessert-recipe",
+    "aliases": ["/mawmaw-maurice-four-layer-dessert-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/michael-levin-and-john-vervaeke-on-free-will-and-character-formation/index.md",
+    "id": "michael-levin-and-john-vervaeke-on-free-will-and-character-formation",
+    "aliases": [
+      "/michael-levin-and-john-vervaeke-on-free-will-and-character-formation/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/mkdocs-template-the-no-excuses-template-to-document-your-project/index.md",
+    "id": "mkdocs-template-the-no-excuses-template-to-document-your-project",
+    "aliases": [
+      "/mkdocs-template-the-no-excuses-template-to-document-your-project/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/my-collection-of-useful-bash-functions/index.md",
+    "id": "my-collection-of-useful-bash-functions",
+    "aliases": ["/my-collection-of-useful-bash-functions/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/naming-environment-variables/index.md",
+    "id": "naming-environment-variables",
+    "aliases": ["/naming-environment-variables/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/nature-gazing-henry-david-thoreau-shows-us-how-to-keep-our-ordinary-surroundings-perpetually-interesting/index.md",
+    "id": "nature-gazing-henry-david-thoreau-shows-us-how-to-keep-our-ordinary-surroundings-perpetually-interesting",
+    "aliases": [
+      "/nature-gazing-henry-david-thoreau-shows-us-how-to-keep-our-ordinary-surroundings-perpetually-interesting/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/nightwatchjs-template/index.md",
+    "id": "nightwatchjs-template",
+    "aliases": ["/nightwatchjs-template/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/nodejs-scripting-reference/index.md",
+    "id": "nodejs-scripting-reference",
+    "aliases": ["/nodejs-scripting-reference/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/on-being-comfortable/index.md",
+    "id": "on-being-comfortable",
+    "aliases": ["/on-being-comfortable/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/one-constructive-criticism-one-good-thing/index.md",
+    "id": "one-constructive-criticism-one-good-thing",
+    "aliases": ["/one-constructive-criticism-one-good-thing/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/open-a-new-google-chrome-tab-or-window-via-command-line-on-mac/index.md",
+    "id": "open-a-new-google-chrome-tab-or-window-via-command-line-on-mac",
+    "aliases": [
+      "/open-a-new-google-chrome-tab-or-window-via-command-line-on-mac/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/optimize-images-and-reduce-page-load-times-with-imagemagick/index.md",
+    "id": "optimize-images-and-reduce-page-load-times-with-imagemagick",
+    "aliases": [
+      "/optimize-images-and-reduce-page-load-times-with-imagemagick/",
+      "/2018/08/optimize-images-and-reduce-page-load-times-with-imagemagick/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/override-a-hugo-theme/index.md",
+    "id": "override-a-hugo-theme",
+    "aliases": ["/override-a-hugo-theme/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/overthinker/index.md",
+    "id": "overthinker",
+    "aliases": ["/overthinker/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/parse-a-url-in-hugo/index.md",
+    "id": "parse-a-url-in-hugo",
+    "aliases": ["/parse-a-url-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/partially-script-the-same-change-in-multiple-git-repos/index.md",
+    "id": "partially-script-the-same-change-in-multiple-git-repos",
+    "aliases": ["/partially-script-the-same-change-in-multiple-git-repos/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/passing-input-to-a-bash-function-via-arguments-or-stdin/index.md",
+    "id": "passing-input-to-a-bash-function-via-arguments-or-stdin",
+    "aliases": ["/passing-input-to-a-bash-function-via-arguments-or-stdin/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/personal-docs-on-the-find-command/index.md",
+    "id": "personal-docs-on-the-find-command",
+    "aliases": [
+      "/personal-docs-on-the-find-command/",
+      "/2018/09/brief-documentation-on-the-unix-find-command/",
+      "/2018/09/personal-docs-on-the-find-command/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/playing-with-background-images/index.md",
+    "id": "playing-with-background-images",
+    "aliases": ["/playing-with-background-images/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/playing-with-java-optional/index.md",
+    "id": "playing-with-java-optional",
+    "aliases": ["/playing-with-java-optional/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/pretty-print-github-markdown/index.md",
+    "id": "pretty-print-github-markdown",
+    "aliases": ["/pretty-print-github-markdown/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/prevent-the-display-system-and-disk-from-sleeping-on-mac/index.md",
+    "id": "prevent-the-display-system-and-disk-from-sleeping-on-mac",
+    "aliases": ["/prevent-the-display-system-and-disk-from-sleeping-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/preview-your-site-from-any-device-on-your-network-with-these-hugo-server-options/index.md",
+    "id": "preview-your-site-from-any-device-on-your-network-with-these-hugo-server-options",
+    "aliases": [
+      "/preview-your-site-from-any-device-on-your-network-with-these-hugo-server-options/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/quickbooks-windows-desktop-development-docs/index.md",
+    "id": "quickbooks-windows-desktop-development-docs",
+    "aliases": [
+      "/quickbooks-windows-desktop-development-docs/",
+      "/2018/09/quickbooks-windows-desktop-development-docs/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/quotes-on-endurance/index.md",
+    "id": "quotes-on-endurance",
+    "aliases": ["/quotes-on-endurance/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/quotes-on-resistance/index.md",
+    "id": "quotes-on-resistance",
+    "aliases": [
+      "/quotes-on-resistance/",
+      "/2018/08/what-emerson-nietzsche-lewis-and-peterson-knew/",
+      "/what-emerson-nietzsche-lewis-and-peterson-knew/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/ramsey-solutions-core-values/index.md",
+    "id": "ramsey-solutions-core-values",
+    "aliases": ["/ramsey-solutions-core-values/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/read-an-sql-query-from-a-file-and-run-it-on-startup-of-a-spring-boot-app/index.md",
+    "id": "read-an-sql-query-from-a-file-and-run-it-on-startup-of-a-spring-boot-app",
+    "aliases": [
+      "/read-an-sql-query-from-a-file-and-run-it-on-startup-of-a-spring-boot-app/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/rebuild-your-docker-compose-stack/index.md",
+    "id": "rebuild-your-docker-compose-stack",
+    "aliases": ["/rebuild-your-docker-compose-stack/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/recursively-edit-files-in-place-using-nodejs/index.md",
+    "id": "recursively-edit-files-in-place-using-nodejs",
+    "aliases": ["/recursively-edit-files-in-place-using-nodejs/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/recursively-rename-file-extensions-with-a-bash-script/index.md",
+    "id": "recursively-rename-file-extensions-with-a-bash-script",
+    "aliases": ["/recursively-rename-file-extensions-with-a-bash-script/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/resources-for-learning-to-code/index.md",
+    "id": "resources-for-learning-to-code",
+    "aliases": ["/resources-for-learning-to-code/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/reuse-the-gradle-dependency-cache-with-docker/index.md",
+    "id": "reuse-the-gradle-dependency-cache-with-docker",
+    "aliases": ["/reuse-the-gradle-dependency-cache-with-docker/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/revive-your-old-computer-with-lubuntu-linux/index.md",
+    "id": "revive-your-old-computer-with-lubuntu-linux",
+    "aliases": ["/revive-your-old-computer-with-lubuntu-linux/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages/index.md",
+    "id": "rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages",
+    "aliases": [
+      "/rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/routines-are-boring-right/index.md",
+    "id": "routines-are-boring-right",
+    "aliases": ["/routines-are-boring-right/", "/routines-are-dumb-right/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/run-hugo-server-with-custom-config-options/index.md",
+    "id": "run-hugo-server-with-custom-config-options",
+    "aliases": ["/run-hugo-server-with-custom-config-options/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/scrabble-attitude/index.md",
+    "id": "scrabble-attitude",
+    "aliases": ["/scrabble-attitude/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/index.md",
+    "id": "script-to-add-a-page-level-variable-to-content-front-matter-in-hugo",
+    "aliases": [
+      "/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/script-to-install-latest-hugo-release-on-linux-and-mac/index.md",
+    "id": "script-to-install-latest-hugo-release-on-linux-and-mac",
+    "aliases": [
+      "/script-to-install-latest-hugo-release-on-linux-and-mac/",
+      "/script-to-install-latest-hugo-release-on-ubuntu-and-mac/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/search-all-database-table-columns/index.md",
+    "id": "search-all-database-table-columns",
+    "aliases": ["/search-all-database-table-columns/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/selfies-in-the-road/index.md",
+    "id": "selfies-in-the-road",
+    "aliases": ["/selfies-in-the-road/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/set-environment-variables-in-your-bash-shell-from-a-env-file/index.md",
+    "id": "set-environment-variables-in-your-bash-shell-from-a-env-file",
+    "aliases": [
+      "/set-environment-variables-in-your-bash-shell-from-a-env-file/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/index.md",
+    "id": "set-environment-variables-in-your-bash-shell-from-a-env-file-version-2",
+    "aliases": [
+      "/set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/setup-and-run-sonarqube-on-mac/index.md",
+    "id": "setup-and-run-sonarqube-on-mac",
+    "aliases": ["/setup-and-run-sonarqube-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/shell-config-file-on-mac/index.md",
+    "id": "shell-config-file-on-mac",
+    "aliases": ["/shell-config-file-on-mac/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/show-and-hide-lines-of-text-via-css-line-clamping/index.md",
+    "id": "show-and-hide-lines-of-text-via-css-line-clamping",
+    "aliases": ["/show-and-hide-lines-of-text-via-css-line-clamping/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/show-hidden-files-in-mac-finder-by-default/index.md",
+    "id": "show-hidden-files-in-mac-finder-by-default",
+    "aliases": ["/show-hidden-files-in-mac-finder-by-default/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/simon-sinek-on-performance-vs-trust/index.md",
+    "id": "simon-sinek-on-performance-vs-trust",
+    "aliases": ["/simon-sinek-on-performance-vs-trust/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/simple-pleasures/index.md",
+    "id": "simple-pleasures",
+    "aliases": [
+      "/simple-pleasures/",
+      "/2018/03/little-pleasures/",
+      "/2018/03/simple-pleasures/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/site-redesign-every-kilobyte-counts/index.md",
+    "id": "site-redesign-every-kilobyte-counts",
+    "aliases": ["/site-redesign-every-kilobyte-counts/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/snippets-from-the-book-clean-code/index.md",
+    "id": "snippets-from-the-book-clean-code",
+    "aliases": ["/snippets-from-the-book-clean-code/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/someone-can-explain-the-theory-of-bike-riding-badly-yet-still-ride-a-bike-well/index.md",
+    "id": "someone-can-explain-the-theory-of-bike-riding-badly-yet-still-ride-a-bike-well",
+    "aliases": [
+      "/someone-can-explain-the-theory-of-bike-riding-badly-yet-still-ride-a-bike-well/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/speed-up-a-fedora-linux-vm-on-virtualbox/index.md",
+    "id": "speed-up-a-fedora-linux-vm-on-virtualbox",
+    "aliases": ["/speed-up-a-fedora-linux-vm-on-virtualbox/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/sql-query-pagination-with-spring-boot-and-jdbctemplate/index.md",
+    "id": "sql-query-pagination-with-spring-boot-and-jdbctemplate",
+    "aliases": ["/sql-query-pagination-with-spring-boot-and-jdbctemplate/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/strawberry-ice-cream-recipe/index.md",
+    "id": "strawberry-ice-cream-recipe",
+    "aliases": ["/strawberry-ice-cream-recipe/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/style-a-markdown-table-with-bootstrap-classes-in-hugo/index.md",
+    "id": "style-a-markdown-table-with-bootstrap-classes-in-hugo",
+    "aliases": ["/style-a-markdown-table-with-bootstrap-classes-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/surprising-search-results-unintentionally-getting-on-the-1st-page-of-google/index.md",
+    "id": "surprising-search-results-unintentionally-getting-on-the-1st-page-of-google",
+    "aliases": [
+      "/surprising-search-results-unintentionally-getting-on-the-1st-page-of-google/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/sweet-heat/index.md",
+    "id": "sweet-heat",
+    "aliases": ["/sweet-heat/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/syntax-highlighting-in-hugo-with-chroma/index.md",
+    "id": "syntax-highlighting-in-hugo-with-chroma",
+    "aliases": ["/syntax-highlighting-in-hugo-with-chroma/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/the-documentation-prerequisite-problem/index.md",
+    "id": "the-documentation-prerequisite-problem",
+    "aliases": ["/the-documentation-prerequisite-problem/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/the-foyer-phone-method/index.md",
+    "id": "the-foyer-phone-method",
+    "aliases": ["/the-foyer-phone-method/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/the-microsoft-console-colortool/index.md",
+    "id": "the-microsoft-console-colortool",
+    "aliases": ["/the-microsoft-console-colortool/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/the-mystery-of-the-expired-jwt/index.md",
+    "id": "the-mystery-of-the-expired-jwt",
+    "aliases": ["/the-mystery-of-the-expired-jwt/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/the-os-stat-function-in-hugo/index.md",
+    "id": "the-os-stat-function-in-hugo",
+    "aliases": ["/the-os-stat-function-in-hugo/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/there-is-a-richness-and-complexity-that-is-completely-inexhaustible-right-at-hand/index.md",
+    "id": "there-is-a-richness-and-complexity-that-is-completely-inexhaustible-right-at-hand",
+    "aliases": [
+      "/there-is-a-richness-and-complexity-that-is-completely-inexhaustible-right-at-hand/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/things-i-like/index.md",
+    "id": "things-i-like",
+    "aliases": ["/things-i-like/", "/2018/03/things-i-like/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/those-people-who-answer-your-question-as-a-gift/index.md",
+    "id": "those-people-who-answer-your-question-as-a-gift",
+    "aliases": ["/those-people-who-answer-your-question-as-a-gift/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life/index.md",
+    "id": "to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life",
+    "aliases": [
+      "/to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life/",
+      "/2018/09/to-take-a-trip-or-to-increase-the-baseline-qality-of-your-life/",
+      "/2018/09/to-take-a-trip-or-to-increase-the-baseline-quality-of-your-life/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/townes-6-ish-months-photos/index.md",
+    "id": "townes-6-ish-months-photos",
+    "aliases": [
+      "/townes-6-ish-months-photos/",
+      "/2018/08/townes-6-ish-month-photos/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/unable-to-access-github-on-tp-link-deco-mesh-wifi/index.md",
+    "id": "unable-to-access-github-on-tp-link-deco-mesh-wifi",
+    "aliases": ["/unable-to-access-github-on-tp-link-deco-mesh-wifi/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-a-centos-docker-image-to-build-and-deploy-a-hugo-modules-site-to-gitlab-pages/index.md",
+    "id": "use-a-centos-docker-image-to-build-and-deploy-a-hugo-modules-site-to-gitlab-pages",
+    "aliases": [
+      "/use-a-centos-docker-image-to-build-and-deploy-a-hugo-modules-site-to-gitlab-pages/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-extra-properties-to-consolidate-dependency-versions-in-your-build-gradle-file/index.md",
+    "id": "use-extra-properties-to-consolidate-dependency-versions-in-your-build-gradle-file",
+    "aliases": [
+      "/use-extra-properties-to-consolidate-dependency-versions-in-your-build-gradle-file/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-grep-to-recursively-search-for-text-for-a-given-file-extension/index.md",
+    "id": "use-grep-to-recursively-search-for-text-for-a-given-file-extension",
+    "aliases": [
+      "/use-grep-to-recursively-search-for-text-for-a-given-file-extension/",
+      "/2018/08/use-grep-to-recursively-search-for-text-for-a-given-file-extension/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-hugo-templating-in-your-external-css/index.md",
+    "id": "use-hugo-templating-in-your-external-css",
+    "aliases": ["/use-hugo-templating-in-your-external-css/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/index.md",
+    "id": "use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu",
+    "aliases": [
+      "/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/",
+      "/use-snap-to-install-the-hugo-edge-version-on-fedora/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/use-vscode-as-your-default-text-editor-for-git/index.md",
+    "id": "use-vscode-as-your-default-text-editor-for-git",
+    "aliases": ["/use-vscode-as-your-default-text-editor-for-git/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/wait-for-an-element-to-be-enabled-in-nightwatchjs/index.md",
+    "id": "wait-for-an-element-to-be-enabled-in-nightwatchjs",
+    "aliases": ["/wait-for-an-element-to-be-enabled-in-nightwatchjs/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/wait-for-element-text-to-equal-a-specific-value-in-nightwatchjs/index.md",
+    "id": "wait-for-element-text-to-equal-a-specific-value-in-nightwatchjs",
+    "aliases": [
+      "/wait-for-element-text-to-equal-a-specific-value-in-nightwatchjs/"
+    ]
+  },
+  {
+    "source": "-old-hugo/content/blog/well-done-westworld/index.md",
+    "id": "well-done-westworld",
+    "aliases": ["/well-done-westworld/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/what-joe-mooring-can-teach-us-about-top-notch-forum-support/index.md",
+    "id": "what-joe-mooring-can-teach-us-about-top-notch-forum-support",
+    "aliases": ["/what-joe-mooring-can-teach-us-about-top-notch-forum-support/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/why-is-my-gradle-build-in-docker-so-slow/index.md",
+    "id": "why-is-my-gradle-build-in-docker-so-slow",
+    "aliases": ["/why-is-my-gradle-build-in-docker-so-slow/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/windows-environment-variables-in-command-prompt/index.md",
+    "id": "windows-environment-variables-in-command-prompt",
+    "aliases": ["/windows-environment-variables-in-command-prompt/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/write-your-own-short-and-long-option-parser-in-bash/index.md",
+    "id": "write-your-own-short-and-long-option-parser-in-bash",
+    "aliases": ["/write-your-own-short-and-long-option-parser-in-bash/"]
+  },
+  {
+    "source": "-old-hugo/content/blog/you-cannot-selectively-numb-emotions/index.md",
+    "id": "you-cannot-selectively-numb-emotions",
+    "aliases": ["/you-cannot-selectively-numb-emotions/"]
+  }
+]

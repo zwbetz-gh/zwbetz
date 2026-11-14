@@ -1,0 +1,48 @@
+---
+title: "Bug Report: Disney+ App on Amazon Fire Tablet Does Not Stay Logged in"
+date: 2021-06-13
+aliases: ["/bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in/"]
+---
+
+
+My son likes to watch downloaded movies during long car rides. This bug is keeping that from happening.
+
+
+
+On 2021-06-13 I used the "Give Feedback" option at <https://help.disneyplus.com> to let them know of the issue and included a link to this bug report.
+
+Turns out there's an [amazon forum question](https://www.amazonforum.com/s/question/0D54P00007xcqXySAI/disney-plus-keeps-logging-out) for this issue. It has no working solutions, though, just fellow frustrated parents.
+
+## Describe the Bug
+
+My account does not stay logged in. It usually logs itself out anywhere from 10 minutes to 1 day after a login.
+
+This means that once a movie is downloaded to the Disney+ app, and the Amazon Fire Tablet is put into "Airplane Mode", the downloaded movie is unable to be watched.
+
+## Steps to Reproduce
+
+1. Open the Disney+ app
+2. Login
+3. Download a movie
+4. Put the Amazon Fire Tablet into "Airplane Mode"
+5. Press the Amazon Fire Tablet "Home" button
+6. Open the Disney+ app
+7. Are you logged out?
+8. Repeat steps 5-7 until you're logged out
+
+## Expected Behavior
+
+Once I login to the Disney+ app, I should stay logged in, even when the Amazon Fire Tablet is put into "Airplane Mode".
+
+## Version Info
+
+- **Amazon Fire Tablet:** Fire HD 8 (10th generation). Fire OS 7.3.1.9
+- **Disney+ App:** Version 1.15.1 (2105270)
+
+## Additional Context
+
+I've tried these workarounds, with no luck:
+
+- Reboot the Amazon Fire Tablet
+- Uninstall and reinstall the Disney+ app
+- Logout of Disney+ on all my devices

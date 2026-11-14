@@ -1,0 +1,51 @@
+---
+title: "Prevent the Display, System, and Disk From Sleeping on Mac"
+date: 2020-08-31
+aliases: ["/prevent-the-display-system-and-disk-from-sleeping-on-mac/"]
+---
+
+
+When you step away from your Mac, it can be useful to prevent it from sleeping. Say you want to grab some coffee, but not deal with unlocking your screen and such when you get back. It's as easy as running a quick command.
+
+
+
+Add the below function to your [shell config file](/wiki/shell-config-file-on-mac) then restart Terminal.
+
+## Shell Function
+
+```shell
+caffe() {
+  if [[ ${#} -lt 1 ]]; then
+    echo -e "Usage:\n  ${FUNCNAME[0]} HOURS"
+    echo -e "Sample:\n  ${FUNCNAME[0]} 1"    
+    return 1
+  fi
+  local hr=${1}
+  local min=$(python -c "print(${hr} * 60)")
+  local sec=$(python -c "print(${hr} * 60 * 60)")
+  local day=$(python -c "print(round(${hr} / 24, 2))")
+  echo "${hr} hr == ${min} min == ${sec} sec == ${day} day"
+  echo "Creating an assertion to prevent the display, system, and disk from sleeping"
+  caffeinate -d -i -m -s -u -t ${sec}
+}
+```
+
+## Usage
+
+**Wrong:** Calling with no arg:
+
+```
+$ caffe
+Usage:
+  caffe HOURS
+Sample:
+  caffe 1
+```
+
+**Right:** Calling with 1 arg:
+
+```
+$ caffe 24
+24 hr == 1440 min == 86400 sec == 1.0 day
+Creating an assertion to prevent the display, system, and disk from sleeping
+```

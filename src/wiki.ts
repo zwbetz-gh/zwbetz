@@ -1,4 +1,5 @@
 import { parseMarkdown } from "@tanstack/markdown/parser";
+import { parse } from "yaml";
 
 const files = import.meta.glob("./content/wiki/*.md", {
   eager: true,
@@ -9,12 +10,11 @@ const files = import.meta.glob("./content/wiki/*.md", {
 export const posts = Object.entries(files)
   .map(([path, source]) => {
     const document = parseMarkdown(source as string);
-    const fields = Object.fromEntries(
-      (document.frontmatter ?? "").split("\n").map((line) => {
-        const i = line.indexOf(":");
-        return [line.slice(0, i).trim(), line.slice(i + 1).trim()];
-      }),
-    );
+    const fields = parse(document.frontmatter ?? "") as {
+      title: string;
+      date: string;
+      aliases?: string[];
+    };
 
     if (!fields.title || !/^\d{4}-\d{2}-\d{2}$/.test(fields.date ?? ""))
       throw new Error(`Invalid wiki frontmatter: ${path}`);

@@ -10,12 +10,61 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BuiltWithRouteImport } from './routes/built-with'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DisclaimerRouteImport } from './routes/disclaimer'
+import { Route as FamilyRouteImport } from './routes/family'
+import { Route as LicenseRouteImport } from './routes/license'
+import { Route as LinksRouteImport } from './routes/links'
+import { Route as PhotoRouteImport } from './routes/photo'
+import { Route as ProjectsRouteImport } from './routes/projects'
 import { Route as WikiIndexRouteImport } from './routes/wiki.index'
 import { Route as WikiIdRouteImport } from './routes/wiki.$id'
+import { Route as WikiBase64ToolRouteImport } from './routes/wiki.base64-tool'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BuiltWithRoute = BuiltWithRouteImport.update({
+  id: '/built-with',
+  path: '/built-with',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisclaimerRoute = DisclaimerRouteImport.update({
+  id: '/disclaimer',
+  path: '/disclaimer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FamilyRoute = FamilyRouteImport.update({
+  id: '/family',
+  path: '/family',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LicenseRoute = LicenseRouteImport.update({
+  id: '/license',
+  path: '/license',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LinksRoute = LinksRouteImport.update({
+  id: '/links',
+  path: '/links',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PhotoRoute = PhotoRouteImport.update({
+  id: '/photo',
+  path: '/photo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProjectsRoute = ProjectsRouteImport.update({
+  id: '/projects',
+  path: '/projects',
   getParentRoute: () => rootRouteImport,
 } as any)
 const WikiIndexRoute = WikiIndexRouteImport.update({
@@ -28,34 +77,112 @@ const WikiIdRoute = WikiIdRouteImport.update({
   path: '/wiki/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WikiBase64ToolRoute = WikiBase64ToolRouteImport.update({
+  id: '/wiki/base64-tool',
+  path: '/wiki/base64-tool',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/built-with': typeof BuiltWithRoute
+  '/contact': typeof ContactRoute
+  '/disclaimer': typeof DisclaimerRoute
+  '/family': typeof FamilyRoute
+  '/license': typeof LicenseRoute
+  '/links': typeof LinksRoute
+  '/photo': typeof PhotoRoute
+  '/projects': typeof ProjectsRoute
   '/wiki/$id': typeof WikiIdRoute
+  '/wiki/base64-tool': typeof WikiBase64ToolRoute
   '/wiki/': typeof WikiIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/built-with': typeof BuiltWithRoute
+  '/contact': typeof ContactRoute
+  '/disclaimer': typeof DisclaimerRoute
+  '/family': typeof FamilyRoute
+  '/license': typeof LicenseRoute
+  '/links': typeof LinksRoute
+  '/photo': typeof PhotoRoute
+  '/projects': typeof ProjectsRoute
   '/wiki/$id': typeof WikiIdRoute
+  '/wiki/base64-tool': typeof WikiBase64ToolRoute
   '/wiki': typeof WikiIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/built-with': typeof BuiltWithRoute
+  '/contact': typeof ContactRoute
+  '/disclaimer': typeof DisclaimerRoute
+  '/family': typeof FamilyRoute
+  '/license': typeof LicenseRoute
+  '/links': typeof LinksRoute
+  '/photo': typeof PhotoRoute
+  '/projects': typeof ProjectsRoute
   '/wiki/$id': typeof WikiIdRoute
+  '/wiki/base64-tool': typeof WikiBase64ToolRoute
   '/wiki/': typeof WikiIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/wiki/$id' | '/wiki/'
+  fullPaths:
+    | '/'
+    | '/built-with'
+    | '/contact'
+    | '/disclaimer'
+    | '/family'
+    | '/license'
+    | '/links'
+    | '/photo'
+    | '/projects'
+    | '/wiki/$id'
+    | '/wiki/base64-tool'
+    | '/wiki/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/wiki/$id' | '/wiki'
-  id: '__root__' | '/' | '/wiki/$id' | '/wiki/'
+  to:
+    | '/'
+    | '/built-with'
+    | '/contact'
+    | '/disclaimer'
+    | '/family'
+    | '/license'
+    | '/links'
+    | '/photo'
+    | '/projects'
+    | '/wiki/$id'
+    | '/wiki/base64-tool'
+    | '/wiki'
+  id:
+    | '__root__'
+    | '/'
+    | '/built-with'
+    | '/contact'
+    | '/disclaimer'
+    | '/family'
+    | '/license'
+    | '/links'
+    | '/photo'
+    | '/projects'
+    | '/wiki/$id'
+    | '/wiki/base64-tool'
+    | '/wiki/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BuiltWithRoute: typeof BuiltWithRoute
+  ContactRoute: typeof ContactRoute
+  DisclaimerRoute: typeof DisclaimerRoute
+  FamilyRoute: typeof FamilyRoute
+  LicenseRoute: typeof LicenseRoute
+  LinksRoute: typeof LinksRoute
+  PhotoRoute: typeof PhotoRoute
+  ProjectsRoute: typeof ProjectsRoute
   WikiIdRoute: typeof WikiIdRoute
+  WikiBase64ToolRoute: typeof WikiBase64ToolRoute
   WikiIndexRoute: typeof WikiIndexRoute
 }
 
@@ -66,6 +193,62 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/built-with': {
+      id: '/built-with'
+      path: '/built-with'
+      fullPath: '/built-with'
+      preLoaderRoute: typeof BuiltWithRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/disclaimer': {
+      id: '/disclaimer'
+      path: '/disclaimer'
+      fullPath: '/disclaimer'
+      preLoaderRoute: typeof DisclaimerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/family': {
+      id: '/family'
+      path: '/family'
+      fullPath: '/family'
+      preLoaderRoute: typeof FamilyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/license': {
+      id: '/license'
+      path: '/license'
+      fullPath: '/license'
+      preLoaderRoute: typeof LicenseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/links': {
+      id: '/links'
+      path: '/links'
+      fullPath: '/links'
+      preLoaderRoute: typeof LinksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/photo': {
+      id: '/photo'
+      path: '/photo'
+      fullPath: '/photo'
+      preLoaderRoute: typeof PhotoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/projects': {
+      id: '/projects'
+      path: '/projects'
+      fullPath: '/projects'
+      preLoaderRoute: typeof ProjectsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/wiki/': {
@@ -82,12 +265,28 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WikiIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/wiki/base64-tool': {
+      id: '/wiki/base64-tool'
+      path: '/wiki/base64-tool'
+      fullPath: '/wiki/base64-tool'
+      preLoaderRoute: typeof WikiBase64ToolRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BuiltWithRoute: BuiltWithRoute,
+  ContactRoute: ContactRoute,
+  DisclaimerRoute: DisclaimerRoute,
+  FamilyRoute: FamilyRoute,
+  LicenseRoute: LicenseRoute,
+  LinksRoute: LinksRoute,
+  PhotoRoute: PhotoRoute,
+  ProjectsRoute: ProjectsRoute,
   WikiIdRoute: WikiIdRoute,
+  WikiBase64ToolRoute: WikiBase64ToolRoute,
   WikiIndexRoute: WikiIndexRoute,
 }
 export const routeTree = rootRouteImport
@@ -95,10 +294,11 @@ export const routeTree = rootRouteImport
   ._addFileTypes<FileRouteTypes>()
 
 import type { getRouter } from './router.tsx'
-import type { createStart } from '@tanstack/react-start'
+import type { startInstance } from './start.ts'
 declare module '@tanstack/react-start' {
   interface Register {
     ssr: true
     router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
   }
 }
