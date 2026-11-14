@@ -8,6 +8,18 @@ import { defineConfig } from "vite";
 const nitroConfig = {
   rolldownConfig: {
     onLog(level, log, defaultHandler) {
+      // Ignore warnings like these:
+
+      // [MODULE_LEVEL_DIRECTIVE] The semantics of the module level directive "use client" in "node_modules/.pnpm/@tanstack+react-router@1.170.46_react-dom@19.3.1_react@19.3.1__react@19.3.1/node_modules/@tanstack/react-router/dist/esm/index.js" may not be preserved when bundling.
+      //    ╭─[ node_modules/.pnpm/@tanstack+react-router@1.170.46_react-dom@19.3.1_react@19.3.1__react@19.3.1/node_modules/@tanstack/react-router/dist/esm/index.js:1:1 ]
+      //    │
+      //  1 │ "use client";
+      //    │ ──────┬──────
+      //    │       ╰──────── module level directive may not be preserved
+      //    │
+      //    │ Help: For more information, see https://rolldown.rs/in-depth/directives#other-directives
+      // ───╯
+
       if (
         level === "warn" &&
         log.code === "MODULE_LEVEL_DIRECTIVE" &&
