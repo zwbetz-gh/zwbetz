@@ -1,3 +1,15 @@
 allowBuilds:
   esbuild: true
   lightningcss: true
+permissions:
+  '@tanstack/devtools-vite':
+    skills: true
+  '@tanstack/markdown':
+    skills: [custom-extensions, docs-features, octane-rendering, production-pipelines, react-rendering, render-markdown]
+  '@tanstack/react-router':
+    skills: [router-query, migrate-from-react-router, react-router]
+  '@tanstack/react-start':
+    skills: [migrate-from-nextjs, react-start]
+skills:
+  dirs:
+    - .agents/skills

@@ -1,0 +1,14 @@
+# pnpm
+/custom-extensions
+/devtools-vite-plugin
+/docs-features
+/migrate-from-nextjs
+/migrate-from-react-router
+/octane-rendering
+/production-pipelines
+/react-rendering
+/react-router
+/react-start
+/render-markdown
+/router-query
+# pnpm end
