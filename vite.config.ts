@@ -6,9 +6,6 @@ import { type NitroPluginConfig, nitro } from "nitro/vite";
 import { defineConfig } from "vite";
 
 const nitroConfig = {
-  rollupConfig: {
-    external: [/^@sentry\//],
-  },
   rolldownConfig: {
     onLog(level, log, defaultHandler) {
       if (
