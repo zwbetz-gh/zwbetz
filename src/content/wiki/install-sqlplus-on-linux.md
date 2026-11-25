@@ -4,24 +4,21 @@ date: 2019-09-28
 aliases: ["/install-sqlplus-on-linux/"]
 ---
 
-
 When some random guy's blog ranks higher than the Oracle docs, what does that tell you?
-
-
 
 ## SQL*Plus Version 12.2.0.1.0
 
 1. Navigate to [Instant Client Downloads for Linux x86-64 (64-bit)](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
 1. Download these zip files:
-    1. `instantclient-basic-linux.x64-12.2.0.1.0.zip`
-    1. `instantclient-sqlplus-linux.x64-12.2.0.1.0.zip`
-1. Make dir for instant client then unzip zips
+   1. `instantclient-basic-linux.x64-12.2.0.1.0.zip`
+   1. `instantclient-sqlplus-linux.x64-12.2.0.1.0.zip`
+1.  Make dir for instant client then unzip zips
 
         mkdir -p /opt/oracle
         unzip -d /opt/oracle instantclient-basic-linux.x64-12.2.0.1.0.zip
         unzip -d /opt/oracle instantclient-sqlplus-linux.x64-12.2.0.1.0.zip
 
-1. The file listing of that dir should now look like
+1.  The file listing of that dir should now look like
 
         $ cd /opt/oracle/instantclient_12_2 && find . -type f | sort
         ./adrci
@@ -46,12 +43,12 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./uidrvci
         ./xstreams.jar
 
-1. Set the `LD_LIBRARY_PATH` and `PATH` env vars in your `~/.bashrc`
+1.  Set the `LD_LIBRARY_PATH` and `PATH` env vars in your `~/.bashrc`
 
         export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_2:$LD_LIBRARY_PATH
         export PATH=$LD_LIBRARY_PATH:$PATH
 
-1. Source your `~/.bashrc`
+1.  Source your `~/.bashrc`
 
         source ~/.bashrc
 
@@ -61,15 +58,15 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
 
 1. Navigate to [Instant Client Downloads for Linux x86-64 (64-bit)](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
 1. Download these zip files:
-    1. `instantclient-basic-linux.x64-19.3.0.0.0dbru.zip`
-    1. `instantclient-sqlplus-linux.x64-19.3.0.0.0dbru.zip`
-1. Make dir for instant client then unzip zips
+   1. `instantclient-basic-linux.x64-19.3.0.0.0dbru.zip`
+   1. `instantclient-sqlplus-linux.x64-19.3.0.0.0dbru.zip`
+1.  Make dir for instant client then unzip zips
 
         mkdir -p /opt/oracle
         unzip -d /opt/oracle instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
         unzip -d /opt/oracle instantclient-sqlplus-linux.x64-19.3.0.0.0dbru.zip 
 
-1. The file listing of that dir should now look like
+1.  The file listing of that dir should now look like
 
         $ cd /opt/oracle/instantclient_19_3 && find . -type f | sort
         ./adrci
@@ -97,12 +94,12 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./uidrvci
         ./xstreams.jar
 
-1. Set the `LD_LIBRARY_PATH` and `PATH` env vars in your `~/.bashrc`
+1.  Set the `LD_LIBRARY_PATH` and `PATH` env vars in your `~/.bashrc`
 
         export LD_LIBRARY_PATH=/opt/oracle/instantclient_19_3:$LD_LIBRARY_PATH
         export PATH=$LD_LIBRARY_PATH:$PATH
 
-1. Source your `~/.bashrc`
+1.  Source your `~/.bashrc`
 
         source ~/.bashrc
 

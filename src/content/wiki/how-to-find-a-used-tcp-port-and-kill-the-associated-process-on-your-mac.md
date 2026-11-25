@@ -1,13 +1,11 @@
 ---
 title: "How to Find a Used TCP Port and Kill the Associated Process on Your Mac"
 date: 2019-01-30
-aliases: ["/how-to-find-a-used-tcp-port-and-kill-the-associated-process-on-your-mac/"]
+aliases:
+  ["/how-to-find-a-used-tcp-port-and-kill-the-associated-process-on-your-mac/"]
 ---
 
-
 Sometimes the port you need is already used by another process. To find the offending process:
-
-
 
 ```
 sudo lsof -i tcp:<port>
@@ -25,4 +23,4 @@ For fun, the above commands can be combined into this one-liner:
 sudo kill $(sudo lsof -i tcp:<port> | tr -s " " | cut -d " " -f 2 | sed -n 2p)
 ```
 
-Credits to this [stackoverflow](https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac) post. 
+Credits to this [stackoverflow](https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac) post.

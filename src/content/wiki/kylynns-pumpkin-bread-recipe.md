@@ -4,10 +4,7 @@ date: 2021-09-21
 aliases: ["/kylynns-pumpkin-bread-recipe/"]
 ---
 
-
 If fall isn't here yet, it will be soon.
-
-
 
 ## Ingredients
 

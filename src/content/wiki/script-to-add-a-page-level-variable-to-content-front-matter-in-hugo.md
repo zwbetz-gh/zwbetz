@@ -1,15 +1,13 @@
 ---
 title: "Script to Add a Page-Level Variable to Content Front Matter in Hugo"
 date: 2018-10-10
-aliases: ["/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/"]
+aliases:
+  ["/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/"]
 ---
 
-
-This was originally a question posed on the [hugo discussion forums](https://discourse.gohugo.io/t/set-frontmatter-params-in-list-template/14645). 
+This was originally a question posed on the [hugo discussion forums](https://discourse.gohugo.io/t/set-frontmatter-params-in-list-template/14645).
 
 The user wanted to loop through all her content files and add a `weight` page-level variable to the front matter. The value of `weight` needed to be the first 2 characters of the content filename, since her content was named like `01_content.md`, `02_content.md`, etc.
-
-
 
 She then wanted to `range` through her pages by their weight, like so:
 
@@ -56,7 +54,7 @@ Call an `awk` program and pass it a `weight` variable:
 
 ```
 awk -v weight=$weight
-``` 
+```
 
 When the `awk` program encounters the 2nd occurrence of `---` (which is how you end front matter in YAML), it inserts the `weight` page-level variable on the line above:
 

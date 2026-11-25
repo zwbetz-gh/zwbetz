@@ -4,10 +4,7 @@ date: 2022-02-20
 aliases: ["/do-you-really-know-whats-best-for-a-person/"]
 ---
 
-
 I was listening to _The Diary Of A CEO with Steven Bartlett_ and, of course, I had to listen to [his interview with Jordan Peterson](https://youtu.be/3uLDin9A9pc). The particular exchange below stung me, and made me reconsider what I mean when saying the phrase "this is for the best."
-
-
 
 > **Steven:** If I've got a friend in my life, or, you know, partner, that I want to encourage to come out of their place of despair into a better place, how do I effectively do that without overpowering them or stifling them or making them feel inadequate, which is sometimes the consequence of trying to change someone you love?
 >

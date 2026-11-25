@@ -2,10 +2,7 @@
 title: "Disclaimer"
 ---
 
-
 This is my personal website. The opinions expressed here are my own and not those of my employer.
-
-
 
 My opinions change from time to time. I consider this a necessary consequence of continuous learning.
 

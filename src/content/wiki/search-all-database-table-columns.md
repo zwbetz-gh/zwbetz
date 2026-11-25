@@ -4,10 +4,7 @@ date: 2019-08-16
 aliases: ["/search-all-database-table-columns/"]
 ---
 
-
-Ever wanted to search an entire database for a column by name? Well, put your detective hat on, 'cause it's possible. 
-
-
+Ever wanted to search an entire database for a column by name? Well, put your detective hat on, 'cause it's possible.
 
 ## Oracle
 

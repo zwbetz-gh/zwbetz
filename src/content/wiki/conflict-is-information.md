@@ -4,10 +4,7 @@ date: 2022-06-13
 aliases: ["/conflict-is-information/"]
 ---
 
-
 The following is an excerpt from [AoM Podcast #799: Getting Along Is Overrated](https://www.artofmanliness.com/people/relationships/podcast-799-getting-along-is-overrated/), starting around the 20:00 mark.
-
-
 
 I like this advice and I see it in action on a weekly basis. One of the (rare) little pleasures of my job is a productive (often heated) meeting. There's something fun, maybe even noble, about getting skilled, assertive people in an architecture meeting, then letting them hash it out. There's no fear of hurting each other's feelings, just the pursuit of the best solution for the problem at hand.
 

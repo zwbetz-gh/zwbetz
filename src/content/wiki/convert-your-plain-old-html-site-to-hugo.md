@@ -4,12 +4,9 @@ date: 2019-05-19
 aliases: ["/convert-your-plain-old-html-site-to-hugo/"]
 ---
 
-
 Once you have a grasp of HTML and CSS, we all know how easy it is to throw together a simple site: create your homepage, copy that HTML to other pages, then change the content. This process isn't too bad if your site only has a few pages. But things get out of hand quickly once the number of pages grow.
 
-
-
-This is where the static site generator, Hugo, comes in handy. Its templating language keeps things DRY, and its built-in HTTP server allows you to preview local changes instantly. 
+This is where the static site generator, Hugo, comes in handy. Its templating language keeps things DRY, and its built-in HTTP server allows you to preview local changes instantly.
 
 ## Original HTML
 
@@ -51,13 +48,13 @@ hugo new site <your-site>
 
 ## Template: baseof
 
-The baseof template is, well, the "base" template, and we'll configure the other templates to inherit from it. 
+The baseof template is, well, the "base" template, and we'll configure the other templates to inherit from it.
 
 Notice the only HTML that differs per page are the `<title>` and `<main>` elements.
 
-For the `<title>` element, we'll display it as `Page Title | Site Title` for regular pages, then as `Site Title` for the homepage. 
+For the `<title>` element, we'll display it as `Page Title | Site Title` for regular pages, then as `Site Title` for the homepage.
 
-For the `<main>` element, we'll use a block, which means individual pages can define what goes here.  
+For the `<main>` element, we'll use a block, which means individual pages can define what goes here.
 
 Create file: `layouts/_default/baseof.html`
 
@@ -108,7 +105,7 @@ Create file: `layouts/_default/single.html`
 
 ## Template: index
 
-The index template is for your homepage. 
+The index template is for your homepage.
 
 Create file: `layouts/index.html`
 
@@ -122,7 +119,7 @@ Create file: `layouts/index.html`
 
 ## Migrate CSS
 
-You'll notice a `static` folder in your project. Everything in that folder gets copied as-is to the root of your site once it's generated. So copy your CSS file to `static/css/some-style.css`. 
+You'll notice a `static` folder in your project. Everything in that folder gets copied as-is to the root of your site once it's generated. So copy your CSS file to `static/css/some-style.css`.
 
 ## Migrate content
 
@@ -135,8 +132,7 @@ hugo new page-2.html
 hugo new page-3.html
 ```
 
-`_index.html` is your homepage content. The other pages will be regular page content. 
-
+`_index.html` is your homepage content. The other pages will be regular page content.
 
 ## Edit config file
 
@@ -148,7 +144,7 @@ disableKinds = ["taxonomy", "term"]
 
 ## Preview, then generate the site
 
-Preview your site with `hugo server -D`. Then once you're satisfied, generate it with `hugo -D`. The output files will be under the `public` folder. 
+Preview your site with `hugo server -D`. Then once you're satisfied, generate it with `hugo -D`. The output files will be under the `public` folder.
 
 ## Project structure
 

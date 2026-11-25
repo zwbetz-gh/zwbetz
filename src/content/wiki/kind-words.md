@@ -4,7 +4,6 @@ date: 2022-06-08
 aliases: ["/kind-words/"]
 ---
 
-
 I've collected kind words said to me over the years and stored them in notes, emails, etc., and now a few are documented here.
 
 I hesitated to publish this. Would people think it's vain? Is it weird to make these things public? I decided to go for it anyway, redacting names and info as needed.
@@ -12,8 +11,6 @@ I hesitated to publish this. Would people think it's vain? Is it weird to make t
 Mark Twain once said, _"I can live for two months on a good compliment."_ I agree. They serve as a nice pick-me-up on a bad day too.
 
 This is a living doc.
-
-
 
 ## 2022 Annual Review Update
 
@@ -185,9 +182,9 @@ The responses I got were absolutely heartwarming:
 > I have been very impressed with Zach's work on our REDACTED project. He is an incredible asset to our company and project. Some examples of things I have noticed:
 >
 > - His work to shorten process times that benefit all team members
->     - Particular items include work on CI/CD builds and local builds (that affect each developer)
+>   - Particular items include work on CI/CD builds and local builds (that affect each developer)
 > - Attention to various MS Teams threads and info shared to other REDACTED team members
->     - For the REDACTED switch to JAMF for Mac GFE management, he offered lots of help to other users
+>   - For the REDACTED switch to JAMF for Mac GFE management, he offered lots of help to other users
 > - His ability to ‘multitask' and to contribute on numerous different topics at nearly the same time
 > - His recent work as Tech Lead. He was already doing a lot of these things already, and now it is more official
 > - His contributions to the REDACTED code challenge and oral presentation
@@ -346,7 +343,7 @@ From an Engineer on the Device Management team of a government agency:
 From my LSU ResLife HelpDesk days, a client sent this email to my manager:
 
 > Good morning. Just wanted to let you know that Zach has just been here changing out my speakers (old ones had a short in them) and he is a delight!
-Such a helpful young man with the best manners. I just love having him come over to the complex and into my office.
+> Such a helpful young man with the best manners. I just love having him come over to the complex and into my office.
 >
 > Thanks bunches for my speakers and for Zach!
 

@@ -4,10 +4,7 @@ date: 2021-11-25
 aliases: ["/from-loose-leaf-to-email-a-journey-of-jots/"]
 ---
 
-
 When I was in middle and high school, I'd keep jots on a sheet of loose leaf paper throughout the day. I'd unfold it and refold it each time, the process was sort of romantic. Thoughts would come to me during class, and I knew if I didn't write them down, they'd float away.
-
-
 
 Now, these weren't your Golden Schoolboy jots. No, these were fun. Entries like: _"Work on getting x number of headshots to unlock new M16 camo"_, or _"See if James wants to do a tournament at his house Friday night"_. So, mostly Call of Duty related. Occasionally I'd throw in some soon-to-be-due homework or project assignments.
 

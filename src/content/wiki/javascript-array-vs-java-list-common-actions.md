@@ -4,10 +4,7 @@ date: 2021-05-02
 aliases: ["/javascript-array-vs-java-list-common-actions/"]
 ---
 
-
 I've found myself doing more Java-related work lately (project duty calls). So, with JS being as friendly as it is, thought it'd be fun to write a little comparison post.
-
-
 
 The Java language sometimes gets a bad rap for being verbose. And look, I get it, it's not my first pick. Yet, it's not so bad. Things have come a long way over the years. (And who can argue with Java's maturity). Just to prove it, checkout these common actions.
 
@@ -18,14 +15,16 @@ The Java language sometimes gets a bad rap for being verbose. And look, I get it
 ## For Each
 
 JavaScript:
+
 ```js
-test('forEach', () => {
+test("forEach", () => {
   const arr = [1, 2, 3];
   arr.forEach((el) => console.log(el));
 });
 ```
 
 Java:
+
 ```java
 @Test
 void forEach() {
@@ -37,8 +36,9 @@ void forEach() {
 ## Filter
 
 JavaScript:
+
 ```js
-test('filter', () => {
+test("filter", () => {
   const arr = [1, 2, 3];
   const actual = arr.filter((el) => el === 3);
   const expected = [3];
@@ -47,6 +47,7 @@ test('filter', () => {
 ```
 
 Java:
+
 ```java
 @Test
 void filter() {
@@ -63,8 +64,9 @@ void filter() {
 ## Map
 
 JavaScript:
+
 ```js
-test('map', () => {
+test("map", () => {
   const arr = [1, 2, 3];
   const actual = arr.map((el) => el * 2);
   const expected = [2, 4, 6];
@@ -73,6 +75,7 @@ test('map', () => {
 ```
 
 Java:
+
 ```java
 @Test
 void map() {
@@ -89,8 +92,9 @@ void map() {
 ## Reduce
 
 JavaScript:
+
 ```js
-test('reduce', () => {
+test("reduce", () => {
   const arr = [1, 2, 3];
   const actual = arr.reduce((subtotal, el) => subtotal + el);
   const expected = 6;
@@ -99,6 +103,7 @@ test('reduce', () => {
 ```
 
 Java:
+
 ```java
 @Test
 void reduce() {
@@ -111,12 +116,12 @@ void reduce() {
 }
 ```
 
-
 ## Some or Any Match
 
 JavaScript:
+
 ```js
-test('some', () => {
+test("some", () => {
   const arr = [1, 2, 3];
   const actual = arr.some((el) => el === 3);
   const expected = true;
@@ -125,6 +130,7 @@ test('some', () => {
 ```
 
 Java:
+
 ```java
 @Test
 void anyMatch() {
@@ -140,8 +146,9 @@ void anyMatch() {
 ## Every or All Match
 
 JavaScript:
+
 ```js
-test('every', () => {
+test("every", () => {
   const arr = [1, 2, 3];
   const actual = arr.every((el) => el === 3);
   const expected = false;
@@ -150,6 +157,7 @@ test('every', () => {
 ```
 
 Java:
+
 ```java
 @Test
 void allMatch() {

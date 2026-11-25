@@ -1,15 +1,16 @@
 ---
 title: "Download ChromeDriver Binary and Add to Your PATH"
 date: 2018-09-19
-aliases: ["/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/", "/2018/09/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/"]
+aliases:
+  [
+    "/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/",
+    "/2018/09/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/",
+  ]
 ---
-
 
 Many projects these days rely on `chromedriver`. Below are steps for Mac and Windows to download it, add it to your `PATH`, and verify setup.
 
 You can obviously place the `chromedriver` binary in any directory you like, I just used Mac `${HOME}/bin` and Windows `C:\bin` for this example.
-
-
 
 ## Sister Links
 
@@ -21,19 +22,22 @@ This article is basically a more specific version of [How to Add a Binary (or Ex
 1. Create directory `${HOME}/bin`
 1. [Download it](http://chromedriver.chromium.org/downloads) for Mac and save to `${HOME}/bin`
 1. Make it executable with
-    ```
-    chmod 755 ${HOME}/bin/chromedriver
-    ```
+
+   ```
+   chmod 755 ${HOME}/bin/chromedriver
+   ```
 1. Open your [shell config file](/wiki/shell-config-file-on-mac) in a text editor
 1. Add the below line then save the file
-    ```
-    export PATH="${HOME}/bin:${PATH}"
-    ```
+
+   ```
+   export PATH="${HOME}/bin:${PATH}"
+   ```
 1. **Restart** your Terminal
 1. Verify setup with
-    ```
-    chromedriver -v
-    ```
+
+   ```
+   chromedriver -v
+   ```
 
 ## Windows CLI
 
@@ -41,22 +45,24 @@ This article is basically a more specific version of [How to Add a Binary (or Ex
 1. Create directory `C:\bin`
 1. [Download it](http://chromedriver.chromium.org/downloads) for Windows and save to `C:\bin`
 1. Open Command Prompt and set the `PATH` for your account with
-    ```
-    setx PATH "C:\bin;%PATH%"
-    ```
+
+   ```
+   setx PATH "C:\bin;%PATH%"
+   ```
 1. **Restart** Command Prompt
 1. Verify setup with
-    ```
-    chromedriver.exe -v
-    ```
+
+   ```
+   chromedriver.exe -v
+   ```
 
 ## Windows GUI
 
 1. Create directory `C:\bin`
 1. [Download it](http://chromedriver.chromium.org/downloads) for Windows and save to `C:\bin`
 1. Depending on your Windows version
-    - If you're using Windows 8 or 10, press the Windows key, then search for and select **System (Control Panel)**
-    - If you're using Windows 7, right click the **Computer** icon on the desktop and click **Properties**
+   - If you're using Windows 8 or 10, press the Windows key, then search for and select **System (Control Panel)**
+   - If you're using Windows 7, right click the **Computer** icon on the desktop and click **Properties**
 1. Click **Advanced system settings**
 1. Click **Environment Variables**
 1. Under **System Variables**, find the `PATH` variable, select it, and click **Edit**. If there is no `PATH` variable, click **New**
@@ -64,6 +70,7 @@ This article is basically a more specific version of [How to Add a Binary (or Ex
 1. Click **OK**
 1. **Restart** Command Prompt
 1. Verify setup with
-    ```
-    chromedriver.exe -v
-    ```
+
+   ```
+   chromedriver.exe -v
+   ```

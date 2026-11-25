@@ -4,10 +4,7 @@ date: 2021-10-28
 aliases: ["/get-your-feet-wet-with-java-parallel-streams/"]
 ---
 
-
 Parallelism in Java can be spooky, but it doesn't have to be. Let's see how streams look when they're not sequential.
-
-
 
 ## Run it
 

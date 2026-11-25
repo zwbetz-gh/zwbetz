@@ -4,10 +4,7 @@ date: 2020-06-14
 aliases: ["/add-search-functionality-to-your-blog-listing-page/"]
 ---
 
-
 **Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
-
-
 
 ---
 
@@ -18,6 +15,7 @@ A text input element is used for searching, and a paragraph element holds the li
 The js code is wrapped in a [Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) so that the global scope is not polluted.
 
 A function is defined that updates the count, `updateCount`. Another function is defined that runs when an event happens, `onEvent`, which does a few things
+
 - Gets the entered search term then converts it to uppercase
 - Gets the list element
 - For each list item in the list, convert the inner text to uppercase, then compare it to the entered search term. If they match, show that list item, and increment a counter. If they don't match, hide that list item

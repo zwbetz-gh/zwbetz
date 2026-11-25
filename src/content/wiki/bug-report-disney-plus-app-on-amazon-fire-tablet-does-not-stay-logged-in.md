@@ -1,13 +1,11 @@
 ---
 title: "Bug Report: Disney+ App on Amazon Fire Tablet Does Not Stay Logged in"
 date: 2021-06-13
-aliases: ["/bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in/"]
+aliases:
+  ["/bug-report-disney-plus-app-on-amazon-fire-tablet-does-not-stay-logged-in/"]
 ---
 
-
 My son likes to watch downloaded movies during long car rides. This bug is keeping that from happening.
-
-
 
 On 2021-06-13 I used the "Give Feedback" option at <https://help.disneyplus.com> to let them know of the issue and included a link to this bug report.
 

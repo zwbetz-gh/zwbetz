@@ -4,10 +4,7 @@ date: 2019-10-01
 aliases: ["/log-docker-stats-to-a-file/"]
 ---
 
-
 Recently I needed to log the output of `docker stats` for a few of my containers in order to compare. The following snippet will log container stats to a file (`stats.txt`), and to stdout, every 1 second. Tweak it to your liking.
-
-
 
 ```
 while true; do docker stats --no-stream | tee --append stats.txt; sleep 1; done

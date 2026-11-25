@@ -4,12 +4,9 @@ date: 2018-11-12
 aliases: ["/create-an-html-table-from-a-toml-data-file-in-hugo/"]
 ---
 
+This post was inspired by a recent Hugo [discussion](https://discourse.gohugo.io/t/how-to-create-tables-more-simpler-without-markdown/15254). In a nutshell: instead of writing the table in markdown, the user wanted to build the table from a TOML data file. Below is _one_ way to solve this.
 
-This post was inspired by a recent Hugo [discussion](https://discourse.gohugo.io/t/how-to-create-tables-more-simpler-without-markdown/15254). In a nutshell: instead of writing the table in markdown, the user wanted to build the table from a TOML data file. Below is _one_ way to solve this. 
-
-
-
-Let's say the data file lived at `data/sample.toml`. The nice thing about doing it this way is that new rows/columns are easily added: 
+Let's say the data file lived at `data/sample.toml`. The nice thing about doing it this way is that new rows/columns are easily added:
 
 ```
 [table]

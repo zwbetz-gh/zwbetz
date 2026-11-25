@@ -4,10 +4,7 @@ date: 2020-10-11
 aliases: ["/deploy-a-site-to-github-pages/"]
 ---
 
-
 GitHub has a cool feature called GitHub Pages. It's basically free web hosting for your repo. Your site is served from branch `gh-pages`. And the url becomes `https://<USER_NAME>.github.io/<REPO_NAME>`
-
-
 
 There's a python package called `ghp-import` that does the heavy lifting for you. All you have to do is build your site as normal.
 
@@ -20,15 +17,14 @@ The following is a stripped-down version of necessary steps. For a more fleshed-
 ## Steps
 
 1. Install Python version 3.8 or higher
-1. Install the GitHub Pages Import package
+1.  Install the GitHub Pages Import package
 
         pip install ghp-import
 
 1. Build your site. This assumes the built site is under `<DIR>`
-1. Deploy your site
+1.  Deploy your site
 
         ghp-import -n -p -f -m <COMMIT_MSG> <DIR>
-
 ## ghp-import arguments
 
 ```

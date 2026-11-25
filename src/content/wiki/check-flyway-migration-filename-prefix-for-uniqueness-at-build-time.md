@@ -1,15 +1,13 @@
 ---
 title: "Check Flyway Migration Filename Prefix for Uniqueness at Build Time"
 date: 2021-02-19
-aliases: ["/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time/"]
+aliases:
+  ["/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time/"]
 ---
-
 
 When using Flyway, each migration filename prefix must be unique. If they're not unique, then Flyway will fail at **run-time**.
 
 This was not good enough (for me), because it meant that duplicate prefixes could be merged, and would not be discovered until the app was deployed.
-
-
 
 What to do about this? A small gradle task can be added that checks prefixes for uniqueness at **build-time**.
 

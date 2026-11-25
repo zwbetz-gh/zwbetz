@@ -4,10 +4,7 @@ date: 2019-09-09
 aliases: ["/combine-images-using-imagemagick/"]
 ---
 
-
 I often combine screenshots for documentation purposes. ImageMagick is great for this. Given a dir of images:
-
-
 
 ```bash
 # Make output dir

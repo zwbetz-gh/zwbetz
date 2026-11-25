@@ -4,10 +4,7 @@ date: 2022-06-20
 aliases: ["/revive-your-old-computer-with-lubuntu-linux/"]
 ---
 
-
 My father-in-law has an old Dell Inspiron 660s desktop computer from 2012. The hard drive crapped out, so he started looking for a new computer, planning to throw this one away.
-
-
 
 Here are the specs, which aren't too shabby for a 10 year old machine: OS: Windows 7, CPU: Dual-core Intel i3-2120 @ 3.3 GHz, Memory: 6 GB DDR3 1600 MHz.
 

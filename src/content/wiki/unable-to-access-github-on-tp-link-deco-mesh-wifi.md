@@ -4,10 +4,7 @@ date: 2022-09-27
 aliases: ["/unable-to-access-github-on-tp-link-deco-mesh-wifi/"]
 ---
 
-
 I keyword-loaded the title in hopes that the next person who runs into this issue can save themselves a few hours of investigation.
-
-
 
 There I was on the couch, it was a normal Monday night, just chipping away at a side project for fun. I attempted to go to github.com. Hmm, weird, the page was just hanging. Almost as if the domain couldn't resolve.
 

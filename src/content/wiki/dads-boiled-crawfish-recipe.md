@@ -4,10 +4,7 @@ date: 2023-04-19
 aliases: ["/dads-boiled-crawfish-recipe/"]
 ---
 
-
 Alongside his [fried fish](/wiki/jbs-fried-fish-recipe), this is my son and I's favorite thing that my dad makes.
-
-
 
 ## Equipment
 

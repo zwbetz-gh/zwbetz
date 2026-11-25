@@ -4,10 +4,7 @@ date: 2021-07-06
 aliases: ["/book-snippets-the-subtle-art-of-not-giving-a-fuck/"]
 ---
 
-
 This book gets a lot of hate on the interwebs. I likely never would have read it, but it was given to me as a gift... So, why not? Funny enough I ended up liking parts of it.
-
-
 
 The title is a bit over-the-top. The gist of the book is about rejecting the things that don't matter, in favor of the things that do, in order to live a better life. Simple enough, but without all the new-agey and intellectual prose. Instead, swear words and stories are favored.
 

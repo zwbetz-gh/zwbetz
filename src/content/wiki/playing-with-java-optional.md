@@ -4,12 +4,9 @@ date: 2021-10-01
 aliases: ["/playing-with-java-optional/"]
 ---
 
-
 `Optional` has been around since Java 8. And while I've heard of this magic box for some time, I've only recently explored it in-depth.
 
 I stumbled upon the video [Optional - The Mother of All Bikesheds by Stuart Marks](https://youtu.be/Ej0sss6cq14) and quite liked it. I'll adapt some of Stuart's snippets in this post to give a gentle introduction.
-
-
 
 Okay, let's write a method that gets an animal name by id. It'll accept a list of animals and the id to search on. It should always returns a string: either the animal name, or unknown.
 

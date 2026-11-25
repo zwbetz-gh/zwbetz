@@ -4,10 +4,7 @@ date: 2020-07-13
 aliases: ["/install-nodejs-on-windows-without-admin-access/"]
 ---
 
-
 Sometimes you need to install developer tools on a Windows machine, but you don't have Admin access. How to get around this, you say? Well, instead of running an installer, you download the binaries you need then add them to your `PATH`.
-
-
 
 This will install node version `14.16.0`
 
@@ -16,17 +13,16 @@ This will install node version `14.16.0`
 1. Get familiar with [Windows Environment Variables in Command Prompt](/wiki/windows-environment-variables-in-command-prompt)
 1. Download a zip of the 64-bit Windows binary <https://nodejs.org/dist/v14.16.0/node-v14.16.0-win-x64.zip>
 1. Create folder `%USERPROFILE%\bin\nodejs`, then extract the zip contents into this folder
-1. Open Command Prompt and set environment variables for your account
+1.  Open Command Prompt and set environment variables for your account
 
         setx NODEJS_HOME "%USERPROFILE%\bin\nodejs\node-v14.16.0-win-x64"
         setx PATH "%NODEJS_HOME%;%PATH%"
 
 1. **Restart** Command Prompt
-1. Confirm installation
+1.  Confirm installation
 
         node --version
         npm --version
-
 ## Known Issues
 
 [@cgronseth](https://github.com/cgronseth) opened an [issue](https://github.com/zwbetz-gh/zwbetz/issues/12) where he hit the character limit max. Turns out the [setx docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx#remarks) mention this too.

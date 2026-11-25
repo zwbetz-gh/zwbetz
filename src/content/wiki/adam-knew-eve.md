@@ -4,12 +4,9 @@ date: 2021-12-09
 aliases: ["/adam-knew-eve/"]
 ---
 
-
-I'm working my way through the _Awakening from the Meaning Crisis_ series by John Vervaeke. In [Episode 3: Continuous Cosmos and Modern World Grammar](https://youtu.be/C1AaqD8t3pk) he's laying out the foundation for just how saturated our language is with grammar from the Axial Age. 
+I'm working my way through the _Awakening from the Meaning Crisis_ series by John Vervaeke. In [Episode 3: Continuous Cosmos and Modern World Grammar](https://youtu.be/C1AaqD8t3pk) he's laying out the foundation for just how saturated our language is with grammar from the Axial Age.
 
 The videos have been _absolutely fascinating_ so far. I'm quite thankful that he took the time to makes these lectures and put them online. The snippet below is a quote from Episode 3. It was too beautiful not to share.
-
-
 
 > ... People sometimes note, and often humorously, that the Bible will talk about sexual intercourse with the verb "knowing". So, you'll get things like, "Adam knew his wife, Eve". And it's like, what does that mean? It means, has sex with. The word is "Da`ath".
 >

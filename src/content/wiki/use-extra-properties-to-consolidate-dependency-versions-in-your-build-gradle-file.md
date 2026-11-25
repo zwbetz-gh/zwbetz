@@ -1,13 +1,13 @@
 ---
 title: "Use Extra Properties to Consolidate Dependency Versions in Your build.gradle File"
 date: 2021-01-24
-aliases: ["/use-extra-properties-to-consolidate-dependency-versions-in-your-build-gradle-file/"]
+aliases:
+  [
+    "/use-extra-properties-to-consolidate-dependency-versions-in-your-build-gradle-file/",
+  ]
 ---
 
-
-When defining dependency versions in your `build.gradle` file, if dependencies share the same version, you have to repeat it each time. 
-
-
+When defining dependency versions in your `build.gradle` file, if dependencies share the same version, you have to repeat it each time.
 
 For example:
 

@@ -1,13 +1,13 @@
 ---
 title: "There Is a Richness and Complexity That Is Completely Inexhaustible Right at Hand"
 date: 2020-07-20
-aliases: ["/there-is-a-richness-and-complexity-that-is-completely-inexhaustible-right-at-hand/"]
+aliases:
+  [
+    "/there-is-a-richness-and-complexity-that-is-completely-inexhaustible-right-at-hand/",
+  ]
 ---
 
-
 The following is an excerpt from a [Jordan Peterson lecture](https://www.youtube.com/watch?v=6gFjB9FTN58&feature=youtu.be&t=479).
-
-
 
 > I had an interesting experience the other day. I went to The Keg. I go there because I have food allergies and they're very careful with people who have food allergies. The waiter took me to the table and he said that he had been watching my lectures and that's a very common experience. He was happy about that and he said that he had had 2 promotions at The Keg in the last 4 months because he'd been watching my lectures.
 >

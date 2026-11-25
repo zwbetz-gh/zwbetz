@@ -1,17 +1,19 @@
 ---
 title: "Simple Pleasures"
 date: 2018-03-09
-aliases: ["/simple-pleasures/", "/2018/03/little-pleasures/", "/2018/03/simple-pleasures/"]
+aliases:
+  [
+    "/simple-pleasures/",
+    "/2018/03/little-pleasures/",
+    "/2018/03/simple-pleasures/",
+  ]
 ---
-
 
 > I am beginning to learn that it is the sweet, simple things of life which are the real ones after all.
 
 After watching [why small pleasures are a big deal](https://www.youtube.com/watch?v=6Gv1CqAQVow), I started a list of my own. With a bit of passing around to family and friends, here's what we ended up with.
 
 The original list consisted of just a few. As more come to mind, I add them here.
-
-
 
 1. A haircut
 1. When the hairdresser massages your head while washing it

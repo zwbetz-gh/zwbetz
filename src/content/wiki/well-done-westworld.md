@@ -4,14 +4,11 @@ date: 2021-04-22
 aliases: ["/well-done-westworld/"]
 ---
 
-
 **WARNING:** Spoilers Ahead.
 
 I love thinking about consciousness. What is it? What are its requirements? How does it physically manifest? What are its evolutionary origins? Is it unique to us?
 
 If you like questions like these, you'll love Westworld. It explores these topics, while sucking you into multiple story lines.
-
-
 
 In Westworld there are hosts, which are like General Artificial Intelligence. Well, one of these hosts, Bernard, who you thought was a human all along, learns he's actually a host.
 

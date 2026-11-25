@@ -4,12 +4,9 @@ date: 2021-02-23
 aliases: ["/end-to-end-testing-rules/"]
 ---
 
-
 e2e testing projects have gained a sad reputation over the years. They're known to be slow, flaky, and time-consuming.
 
 Yet, it doesn't have to be this way. Can you imagine e2e tests that are fast, reliable, and clean? It's possible. And by following this small set of rules, you can set yourself up for success.
-
-
 
 ## Tests Must Be Independent
 
@@ -68,8 +65,6 @@ Be selective about what you e2e test. Aim to keep your total e2e test count rela
 <br>
 <br>
 
-
 ![Test Pyramid](/wiki/end-to-end-testing-rules/test-pyramid.png)
 
 The Test Pyramid, courtesy of <https://martinfowler.com/articles/practical-test-pyramid.html>
-

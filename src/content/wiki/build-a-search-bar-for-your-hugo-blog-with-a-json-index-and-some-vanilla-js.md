@@ -1,13 +1,13 @@
 ---
 title: "Build a Search Bar for Your Hugo Blog With a JSON Index and Some Vanilla JS"
 date: 2021-03-06
-aliases: ["/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/"]
+aliases:
+  [
+    "/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js/",
+  ]
 ---
 
-
 **Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
-
-
 
 ---
 
@@ -137,20 +137,20 @@ This is part 1 of 2 of the magic. It iterates all blog posts, then creates a lis
 This is part 2 of 2 of the magic. Here's how it works:
 
 - If the search bar exists on the page, then:
-    - Add the event listeners. Listen for checkbox `change` events, and search bar `keyup` events
-    - If the enable search checkbox is checked, fetch the JSON index. During the request, disable the search bar and show a loading placeholder. Once the request completes, enable the search bar. Keep two copies of the JSON index. One original, one filtered, so they can be compared
+  - Add the event listeners. Listen for checkbox `change` events, and search bar `keyup` events
+  - If the enable search checkbox is checked, fetch the JSON index. During the request, disable the search bar and show a loading placeholder. Once the request completes, enable the search bar. Keep two copies of the JSON index. One original, one filtered, so they can be compared
 - On each `keyup` event:
-    - If regex mode is **not** checked, then uppercase the search query and compare it against the uppercased index fields. If regex mode **is** checked, then test the regex query against the uppercased index fields. Either way, if there is a match, add it to the filtered list
-    - Re-render the count by checking the length of the filtered list
-    - Re-render the blog list. This code will look different for your blog because you must represent your UI in JS. Mine is fairly simple because it's just a `ul` element
+  - If regex mode is **not** checked, then uppercase the search query and compare it against the uppercased index fields. If regex mode **is** checked, then test the regex query against the uppercased index fields. Either way, if there is a match, add it to the filtered list
+  - Re-render the count by checking the length of the filtered list
+  - Re-render the blog list. This code will look different for your blog because you must represent your UI in JS. Mine is fairly simple because it's just a `ul` element
 
 ```js
 (function () {
-  const SEARCH_ID = 'search';
-  const ENABLE_SEARCH_ID = 'enable_search';
-  const REGEX_MODE_ID = 'regex_mode';
-  const COUNT_ID = 'count';
-  const LIST_ID = 'list';
+  const SEARCH_ID = "search";
+  const ENABLE_SEARCH_ID = "enable_search";
+  const REGEX_MODE_ID = "regex_mode";
+  const COUNT_ID = "count";
+  const LIST_ID = "list";
 
   let list = null;
   let filteredList = null;
@@ -166,7 +166,7 @@ This is part 2 of 2 of the magic. Here's how it works:
   const getCountEl = () => document.getElementById(COUNT_ID);
   const getListEl = () => document.getElementById(LIST_ID);
 
-  const disableSearchEl = placeholder => {
+  const disableSearchEl = (placeholder) => {
     getSearchEl().disabled = true;
     getSearchEl().placeholder = placeholder;
   };
@@ -174,7 +174,7 @@ This is part 2 of 2 of the magic. Here's how it works:
   const enableSearchEl = () => {
     getSearchEl().disabled = false;
     getSearchEl().placeholder =
-      'Case-insensitive search by title, content, or publish date';
+      "Case-insensitive search by title, content, or publish date";
   };
 
   const disableRegexModeEl = () => {
@@ -187,25 +187,25 @@ This is part 2 of 2 of the magic. Here's how it works:
 
   const fetchJsonIndex = () => {
     const startTime = performance.now();
-    disableSearchEl('Loading ...');
+    disableSearchEl("Loading ...");
     const url = `${window.location.origin}/index.json`;
     fetch(url)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         list = data.blog;
         filteredList = data.blog;
         enableSearchEl();
-        logPerformance('fetchJsonIndex', startTime, performance.now());
+        logPerformance("fetchJsonIndex", startTime, performance.now());
       })
-      .catch(error =>
-        console.error(`Failed to fetch JSON index: ${error.message}`)
+      .catch((error) =>
+        console.error(`Failed to fetch JSON index: ${error.message}`),
       );
   };
 
-  const filterList = regexMode => {
-    const regexQuery = new RegExp(getSearchEl().value, 'i');
+  const filterList = (regexMode) => {
+    const regexQuery = new RegExp(getSearchEl().value, "i");
     const query = getSearchEl().value.toUpperCase();
-    filteredList = list.filter(item => {
+    filteredList = list.filter((item) => {
       const title = item.Title.toUpperCase();
       const content = item.PlainContent.toUpperCase();
       const publishDate = item.PublishDateFormatted.toUpperCase();
@@ -231,21 +231,21 @@ This is part 2 of 2 of the magic. Here's how it works:
   };
 
   const renderList = () => {
-    const newList = document.createElement('ul');
+    const newList = document.createElement("ul");
     newList.id = LIST_ID;
 
-    filteredList.forEach(item => {
-      const li = document.createElement('li');
+    filteredList.forEach((item) => {
+      const li = document.createElement("li");
 
-      const publishDate = document.createElement('span');
+      const publishDate = document.createElement("span");
       publishDate.textContent = item.PublishDateFormatted;
 
-      const titleLink = document.createElement('a');
+      const titleLink = document.createElement("a");
       titleLink.href = item.RelPermalink;
       titleLink.textContent = item.Title;
 
       li.appendChild(publishDate);
-      li.appendChild(document.createTextNode(' '));
+      li.appendChild(document.createTextNode(" "));
       li.appendChild(titleLink);
 
       newList.appendChild(li);
@@ -261,7 +261,7 @@ This is part 2 of 2 of the magic. Here's how it works:
     filterList(regexMode);
     renderCount();
     renderList();
-    logPerformance('handleSearchEvent', startTime, performance.now());
+    logPerformance("handleSearchEvent", startTime, performance.now());
   };
 
   const handleEnableSearchEvent = () => {
@@ -269,15 +269,15 @@ This is part 2 of 2 of the magic. Here's how it works:
       fetchJsonIndex();
       enableRegexModeEl();
     } else {
-      disableSearchEl('Disabled ...');
+      disableSearchEl("Disabled ...");
       disableRegexModeEl();
     }
   };
 
   const addEventListeners = () => {
-    getEnableSearchEl().addEventListener('change', handleEnableSearchEvent);
-    getSearchEl().addEventListener('keyup', handleSearchEvent);
-    getRegexModeEl().addEventListener('change', handleSearchEvent);
+    getEnableSearchEl().addEventListener("change", handleEnableSearchEvent);
+    getSearchEl().addEventListener("keyup", handleSearchEvent);
+    getRegexModeEl().addEventListener("change", handleSearchEvent);
   };
 
   const main = () => {
@@ -306,19 +306,19 @@ Import the JS on all pages. This is usually done in your `layouts/_default/baseo
 ## References
 
 - Hugo
-    - [Homepage output formats](https://gohugo.io/templates/output-formats/#output-formats-for-pages)
-    - [Homepage layout lookup order](https://gohugo.io/templates/lookup-order/#examples-layout-lookup-for-home-page)
-    - [`jsonify` function](https://gohugo.io/functions/jsonify/#readout)
-    - [Newlines in template dictionaries](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
-    - [`.Plain` page variable](https://gohugo.io/variables/page/#page-variables)
+  - [Homepage output formats](https://gohugo.io/templates/output-formats/#output-formats-for-pages)
+  - [Homepage layout lookup order](https://gohugo.io/templates/lookup-order/#examples-layout-lookup-for-home-page)
+  - [`jsonify` function](https://gohugo.io/functions/jsonify/#readout)
+  - [Newlines in template dictionaries](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
+  - [`.Plain` page variable](https://gohugo.io/variables/page/#page-variables)
 - JS
-    - [`addEventListener()` function](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-    - [`keyup` event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event)
-    - [`fetch()` api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-    - [`window.location.origin`](https://developer.mozilla.org/en-US/docs/Web/API/Location/origin#examples)
-    - [`filter()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-    - [`replaceWith()` function](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith)
-    - [`RegExp` flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters)
-    - [`test()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
-    - [`change` event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
-    - [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+  - [`addEventListener()` function](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+  - [`keyup` event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event)
+  - [`fetch()` api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+  - [`window.location.origin`](https://developer.mozilla.org/en-US/docs/Web/API/Location/origin#examples)
+  - [`filter()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [`replaceWith()` function](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith)
+  - [`RegExp` flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters)
+  - [`test()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+  - [`change` event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
+  - [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)

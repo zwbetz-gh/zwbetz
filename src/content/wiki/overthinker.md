@@ -4,10 +4,7 @@ date: 2024-07-25
 aliases: ["/overthinker/"]
 ---
 
-
 My buddy Texas sent me this song by INZO. The first time I listened to it I got full body chills. The lyrics hit home. After a few listens, I was curious about the origin story. Turns out it's a sample of [Alan Watts](https://alanwatts.org/).
-
-
 
 Questions to ponder: How can we be more present in our daily life? Like, not just white knuckling resisting our phone, but actually being engrossed in the moment/task/conversation? If _Thinking_ should not be master, then what (or _who_) should be?
 

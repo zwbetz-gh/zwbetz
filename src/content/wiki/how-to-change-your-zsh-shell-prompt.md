@@ -4,10 +4,7 @@ date: 2022-12-02
 aliases: ["/how-to-change-your-zsh-shell-prompt/"]
 ---
 
-
 I've written about this kind of thing before with [Bash](/wiki/change-terminal-prompt-on-mac). Fast forward to now -- I'm setting up a new MacBook Pro for work and the [default shell](https://support.apple.com/en-us/HT208050) for macOS Catalina, and onwards, is zsh.
-
-
 
 I decided to give it a chance. Yes... I'm aware of [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) and all the cool themes. But I'm the weird fella that likes to do things by hand to understand them first, then let myself get fancy. Okay, let's jump in.
 

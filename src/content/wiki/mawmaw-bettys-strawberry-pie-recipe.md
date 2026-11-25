@@ -1,13 +1,11 @@
 ---
 title: "Mawmaw Betty's Strawberry Pie Recipe"
 date: 2019-04-21
-aliases: ["/mawmaw-bettys-strawberry-pie-recipe/", "/mawmaw-bettys-strawberry-pie/"]
+aliases:
+  ["/mawmaw-bettys-strawberry-pie-recipe/", "/mawmaw-bettys-strawberry-pie/"]
 ---
 
-
 Surprise yourself.
-
-
 
 ## Ingredients
 
@@ -24,4 +22,4 @@ Surprise yourself.
 1. Add lemon juice, blend more
 1. Fold in strawberries
 1. Fold in cool whip
-1. Chill overnight and serve next day 
+1. Chill overnight and serve next day

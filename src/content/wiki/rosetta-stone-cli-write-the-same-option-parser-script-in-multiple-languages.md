@@ -1,13 +1,13 @@
 ---
 title: "Rosetta Stone CLI: Write the Same Option Parser Script in Bash, Python, and Node.js"
 date: 2021-04-02
-aliases: ["/rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages/"]
+aliases:
+  [
+    "/rosetta-stone-cli-write-the-same-option-parser-script-in-multiple-languages/",
+  ]
 ---
 
-
 To really appreciate what a language does for you, it helps to compare it to other languages. Then you can see how (differently) common tasks are done. In this fun little exercise, we'll write the same option parser script in multiple languages.
-
-
 
 ## Sister Links
 
@@ -16,19 +16,19 @@ These scripts are available in [GitHub](https://github.com/zwbetz-gh/rosetta-sto
 ## Requirements
 
 1. Use as few external binaries and libraries as possible. **This means option parser libraries are off limits**
-1. Accept input in the form of
+1.  Accept input in the form of
 
         ./script [OPTIONS] -- <NAME>
 
 1. `[OPTIONS]` can be zero or multiple of
-      1. `-h` or `--help`
-      1. `-u` or `--uppercase`
-      1. `-p <PREFIX>` or ` --prefix <PREFIX>`
+   1. `-h` or `--help`
+   1. `-u` or `--uppercase`
+   1. `-p <PREFIX>` or ` --prefix <PREFIX>`
 1. If `-h` or `--help` is passed, print the usage, then exit with code `0`
-1. If  `-u` or `--uppercase` is passed, uppercase the  `<NAME>`
+1. If `-u` or `--uppercase` is passed, uppercase the `<NAME>`
 1. If `-p <PREFIX>` or ` --prefix <PREFIX>` is passed, change the greeting prefix. If `<PREFIX>` is empty, handle the error
 1. If an unknown option is passed, handle the error
-1. Print this line
+1.  Print this line
 
         Hello, <NAME>
         Your name backwards is <BACKWARDS_NAME>

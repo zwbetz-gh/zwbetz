@@ -4,10 +4,7 @@ date: 2021-06-03
 aliases: ["/reuse-the-gradle-dependency-cache-with-docker/"]
 ---
 
-
 Ever wondered where all those JAR files go?
-
-
 
 The Gradle dependency cache usually lives at `${HOME}/.gradle/`. So, to list out top-level packages, you would run:
 

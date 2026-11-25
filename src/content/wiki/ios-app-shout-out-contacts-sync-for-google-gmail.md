@@ -4,10 +4,7 @@ date: 2022-11-12
 aliases: ["/ios-app-shout-out-contacts-sync-for-google-gmail/"]
 ---
 
-
 Contacts Sync for Google Gmail is one of my favorite iOS apps. It sits in the background, silently doing one job, and it does it _well_.
-
-
 
 I stumbled upon it when looking for an existing solution to my contacts sync problem. My "single source of truth" for contact info is my iPhone's Contacts app. Relationships are something I really value, so I like to keep an up-to-date number and email for folks.
 

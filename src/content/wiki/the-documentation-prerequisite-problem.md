@@ -4,10 +4,7 @@ date: 2021-05-24
 aliases: ["/the-documentation-prerequisite-problem/"]
 ---
 
-
 I work with documentation often. Reading it, writing it, maintaining it. You get the idea. A reoccurring problem I encounter is this: _What should I assume the reader knows?_ And, given the answer to this, how can I write in a way so that the reader spends as little time as possible, to learn as much as possible?
-
-
 
 If I write too basically, that pleases the novice reader, but frustrates the advanced reader. If I write too niche, that frustrates the novice reader, but pleases the advanced reader. Alas, what to do?
 

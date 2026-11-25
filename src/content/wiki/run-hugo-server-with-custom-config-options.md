@@ -4,18 +4,15 @@ date: 2018-10-25
 aliases: ["/run-hugo-server-with-custom-config-options/"]
 ---
 
+The idea originally came from this [hugo discussion forum post](https://discourse.gohugo.io/t/help-test-upcoming-hugo-0-50/14880).
 
-The idea originally came from this [hugo discussion forum post](https://discourse.gohugo.io/t/help-test-upcoming-hugo-0-50/14880). 
+There was a commit (it has since been reverted) that removed the `disableFastRender` flag from the `config.toml` options. So instead of running `hugo server` and it picking up the flag from your config file, you'd now have to run `hugo server --disableFastRender`.
 
-There was a commit (it has since been reverted) that removed the `disableFastRender` flag from the `config.toml` options. So instead of running `hugo server` and it picking up the flag from your config file, you'd now have to run `hugo server --disableFastRender`. 
-
-
-
-I figured there had to be a way to alias this command in bash, and of course, there was. After reading through many examples of how others accomplished this with a bash function, the following did the trick for me. 
+I figured there had to be a way to alias this command in bash, and of course, there was. After reading through many examples of how others accomplished this with a bash function, the following did the trick for me.
 
 ## Bash Function
 
-For Mac users, add this to your [shell config file](/wiki/shell-config-file-on-mac). For Linux users, add this to your `.bashrc`. 
+For Mac users, add this to your [shell config file](/wiki/shell-config-file-on-mac). For Linux users, add this to your `.bashrc`.
 
 ```
 hugo() {

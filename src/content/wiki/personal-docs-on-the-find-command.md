@@ -1,13 +1,15 @@
 ---
 title: "Personal Docs on the Find Command"
 date: 2018-09-17
-aliases: ["/personal-docs-on-the-find-command/", "/2018/09/brief-documentation-on-the-unix-find-command/", "/2018/09/personal-docs-on-the-find-command/"]
+aliases:
+  [
+    "/personal-docs-on-the-find-command/",
+    "/2018/09/brief-documentation-on-the-unix-find-command/",
+    "/2018/09/personal-docs-on-the-find-command/",
+  ]
 ---
 
-
 `find` command options that I care about.
-
-
 
 ```
 find . -type f -name ".*keep"
@@ -19,4 +21,4 @@ The breakdown:
 
 `-type f` -- Specify the file type as regular file. Another common usage would be `-type d` for directory
 
-`-name ".*keep"` -- Pass a regex pattern for the file name. The `*` here is used as a wildcard. To literally search for a file name containing `*` then escape it like `\*` 
+`-name ".*keep"` -- Pass a regex pattern for the file name. The `*` here is used as a wildcard. To literally search for a file name containing `*` then escape it like `\*`

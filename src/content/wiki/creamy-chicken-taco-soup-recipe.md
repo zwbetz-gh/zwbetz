@@ -4,10 +4,7 @@ date: 2020-02-22
 aliases: ["/creamy-chicken-taco-soup-recipe/"]
 ---
 
-
 Satisfy your inner Chihuahua.
-
-
 
 ## Ingredients
 

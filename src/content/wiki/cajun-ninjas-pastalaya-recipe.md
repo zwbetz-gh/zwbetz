@@ -4,10 +4,7 @@ date: 2020-04-28
 aliases: ["/cajun-ninjas-pastalaya-recipe/"]
 ---
 
-
 This is not my recipe, it's [Cajun Ninja's](https://www.youtube.com/watch?v=X5YR9pGxH0E). Transcribing and tweaking it for archival purposes. It's a keeper.
-
-
 
 ## Ingredients
 

@@ -1,14 +1,14 @@
 ---
 title: "Beyond the Western: Malcolm Gladwell on the Four Categories of Law and Order Art"
 date: 2022-08-09
-aliases: ["/beyond-the-western-malcolm-gladwell-on-the-four-categories-of-law-and-order-art/"]
+aliases:
+  [
+    "/beyond-the-western-malcolm-gladwell-on-the-four-categories-of-law-and-order-art/",
+  ]
 ---
-
 
 The following is an excerpt from [JRE #1383 - Malcolm Gladwell](https://open.spotify.com/episode/2YXIDPs07hoBtyJjYwm6pN).
 
-
->
 > **Joe:** ... they seek comfort in this movie where, you know, it's going to work out in the end. It's going to. It's not like in the end a fucking meteor is going to land on the building and kill everybody.
 > And the screen is going to splatter with blood. Because, you know, their bodies explode. You're not going to see that in this movie, everything is going to work out great.
 >

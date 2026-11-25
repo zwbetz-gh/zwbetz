@@ -4,10 +4,7 @@ date: 2022-02-28
 aliases: ["/shell-config-file-on-mac/"]
 ---
 
-
 When writing about things like tool installation or environment setup on Mac, I often need to mention shell config files. So, instead of doing that each time, I'm going to (hopefully) write about it once, then reference it as needed.
-
-
 
 ## Which Shell Am I Currently Running?
 
@@ -27,12 +24,10 @@ ps -p $$
 
 ## Reference
 
-
-| Shell | Location | Login Config File | Interactive Config File |
-| --- | --- | --- | --- |
-| Bash | `/bin/bash` | `${HOME}/.bash_profile` | `${HOME}/.bashrc` |
-| Zsh | `/bin/zsh` | `${HOME}/.zprofile` | `${HOME}/.zshrc` |
-
+| Shell | Location    | Login Config File       | Interactive Config File |
+| ----- | ----------- | ----------------------- | ----------------------- |
+| Bash  | `/bin/bash` | `${HOME}/.bash_profile` | `${HOME}/.bashrc`       |
+| Zsh   | `/bin/zsh`  | `${HOME}/.zprofile`     | `${HOME}/.zshrc`        |
 
 [^explained]: Explained: `ps` is a tool for checking the status of a process. The `-p` option accepts a comma-separated list of process ids. `$$` is a special variable that holds the process id of the currently running shell.
 

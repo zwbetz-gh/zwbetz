@@ -4,7 +4,6 @@ date: 2022-03-29
 aliases: ["/how-to-use-purgecss-with-hugo/"]
 ---
 
-
 **Update:** As of June 19, 2022, this is now an official PurgeCSS [guide](https://purgecss.com/guides/hugo.html), yay.
 
 ---
@@ -12,8 +11,6 @@ aliases: ["/how-to-use-purgecss-with-hugo/"]
 If you haven't heard yet, [PurgeCSS](https://purgecss.com/) is awesome. Say you wanna use [Bootstrap](https://getbootstrap.com/), but you only need _some_ of the classes? You can do that!
 
 Instead of serving the _full_ CSS file with your site, you can use PurgeCSS to _purge_ the unused classes, which results in a much smaller CSS file. This tutorial shows you how to do that with my favorite static site generator, [Hugo](https://gohugo.io/).
-
-
 
 ## Minimal, Reproducible Example
 
@@ -59,23 +56,19 @@ If it's not already there, add `node_modules/` to your `.gitignore` file.
 Create a `postcss.config.js` file at the project root with these contents:
 
 ```js
-const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['./hugo_stats.json'],
-  defaultExtractor: content => {
+const purgecss = require("@fullhuman/postcss-purgecss")({
+  content: ["./hugo_stats.json"],
+  defaultExtractor: (content) => {
     const els = JSON.parse(content).htmlElements;
-    return [
-      ...(els.tags || []),
-      ...(els.classes || []),
-      ...(els.ids || []),
-    ];
+    return [...(els.tags || []), ...(els.classes || []), ...(els.ids || [])];
   },
-  safelist: []
+  safelist: [],
 });
 
 module.exports = {
   plugins: [
-    ...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [])
-  ]
+    ...(process.env.HUGO_ENVIRONMENT === "production" ? [purgecss] : []),
+  ],
 };
 ```
 

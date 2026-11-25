@@ -4,10 +4,7 @@ date: 2019-04-12
 aliases: ["/check-if-a-program-exists-from-your-bash-script/"]
 ---
 
-
 Lately I've had the Bash bug... and I'm continually impressed at what can be accomplished with this tool. Just the other day, I needed to check for the existence of some programs before doing the rest of my scripting work.
-
-
 
 Originally I was doing this with `which`, but after reading this [detailed stackoverflow answer](https://stackoverflow.com/a/677212), I'm now using the more portable `command -v`.
 

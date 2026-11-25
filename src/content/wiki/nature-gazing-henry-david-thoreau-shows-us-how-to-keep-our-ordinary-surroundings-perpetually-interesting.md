@@ -1,13 +1,13 @@
 ---
 title: "Nature Gazing: Henry David Thoreau Shows Us How to Keep Our Ordinary Surroundings Perpetually Interesting"
 date: 2022-04-10
-aliases: ["/nature-gazing-henry-david-thoreau-shows-us-how-to-keep-our-ordinary-surroundings-perpetually-interesting/"]
+aliases:
+  [
+    "/nature-gazing-henry-david-thoreau-shows-us-how-to-keep-our-ordinary-surroundings-perpetually-interesting/",
+  ]
 ---
 
-
 I'm a big AoM fan. Brett and Kate McKay know how to research the heck out of a topic then deliver a fun, engaging piece. Years ago I read their [How to REALLY Avoid Living a Life of Quiet Desperation](https://www.artofmanliness.com/character/advice/really-avoid-living-life-quiet-desperation/). It's worth your time.
-
-
 
 One story in particular from that article has always stuck with me: As a neighbor went about his day, every time he looked over, Thoreau was standing in the same spot, looking in the same place. All. Day. Long.
 

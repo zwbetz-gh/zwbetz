@@ -4,10 +4,7 @@ date: 2018-10-29
 aliases: ["/the-os-stat-function-in-hugo/"]
 ---
 
-
-The `os.Stat` function in Hugo ([see the docs](https://gohugo.io/functions/os.stat/)) is useful for getting info on a file. 
-
-
+The `os.Stat` function in Hugo ([see the docs](https://gohugo.io/functions/os.stat/)) is useful for getting info on a file.
 
 For example, say I wanted to get the info on this page. The following shortcode:
 

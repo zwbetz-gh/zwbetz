@@ -4,10 +4,7 @@ date: 2018-12-12
 aliases: ["/style-a-markdown-table-with-bootstrap-classes-in-hugo/"]
 ---
 
-
-Inspired by [this discussion](https://discourse.gohugo.io/t/how-to-customise-tables/15661/), I wanted the ability to style a markdown table with [Bootstrap table classes](https://getbootstrap.com/docs/4.1/content/tables/). In the past, I've accomplished this by [defining the table in a data file](/wiki/create-an-html-table-from-a-toml-data-file-in-hugo), then building it with a shortcode. 
-
-
+Inspired by [this discussion](https://discourse.gohugo.io/t/how-to-customise-tables/15661/), I wanted the ability to style a markdown table with [Bootstrap table classes](https://getbootstrap.com/docs/4.1/content/tables/). In the past, I've accomplished this by [defining the table in a data file](/wiki/create-an-html-table-from-a-toml-data-file-in-hugo), then building it with a shortcode.
 
 While this works fine, it's better for a different use case. I wanted something that meets the following criteria:
 
@@ -15,7 +12,7 @@ While this works fine, it's better for a different use case. I wanted something 
 - It lives in the content file, e.g. `content/post/some-post.md`
 - It's styled with Bootstrap table classes
 
-After a bit of tinkering, here's the shortcode I came up with. To use it, pass the markdown table between the shortcode, then pass the Bootstrap table classes as an argument. 
+After a bit of tinkering, here's the shortcode I came up with. To use it, pass the markdown table between the shortcode, then pass the Bootstrap table classes as an argument.
 
 ## Usage
 

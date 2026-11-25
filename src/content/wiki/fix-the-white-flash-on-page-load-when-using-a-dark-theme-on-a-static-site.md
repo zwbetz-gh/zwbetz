@@ -1,13 +1,13 @@
 ---
 title: "Fix the White Flash on Page Load When Using a Dark Theme on a Static Site"
 date: 2021-01-17
-aliases: ["/fix-the-white-flash-on-page-load-when-using-a-dark-theme-on-a-static-site/"]
+aliases:
+  [
+    "/fix-the-white-flash-on-page-load-when-using-a-dark-theme-on-a-static-site/",
+  ]
 ---
 
-
 I maintain a few Hugo themes, one of them named Cupper. Recently a [GitHub issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/47) was opened that described a white flash on page load when the dark theme was active. After some investigation, the bug was indeed real. A boy was it a tricky one.
-
-
 
 Roughly speaking, these events were happening:
 
@@ -45,11 +45,11 @@ function showTheme() {
 }
 
 function showContent() {
-  document.body.style.visibility = 'visible';
+  document.body.style.visibility = "visible";
   document.body.style.opacity = 1;
 }
 
-window.addEventListener('DOMContentLoaded', function () {
+window.addEventListener("DOMContentLoaded", function () {
   showTheme();
   showContent();
 });

@@ -4,10 +4,7 @@ date: 2022-11-11
 aliases: ["/the-mystery-of-the-expired-jwt/"]
 ---
 
-
 We recently swapped out the OAuth2 service account in one of our apps. The only config change needed was the base URL for the authorization server, the `client_id`, and the `client_secret` (only for the backend service). It should have been easy: For each service, edit the relevant environment variables, then redeploy it. Of course, after doing this, we could no longer log in...
-
-
 
 This particular app was a React frontend that talked to a Spring Boot backend. Everything lived in an on-premises Kubernetes setup.
 

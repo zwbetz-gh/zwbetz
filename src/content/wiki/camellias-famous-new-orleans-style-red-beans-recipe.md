@@ -4,10 +4,7 @@ date: 2021-04-06
 aliases: ["/camellias-famous-new-orleans-style-red-beans-recipe/"]
 ---
 
-
 Sourced from the back of the Camellia's Red Kidney Beans package.
-
-
 
 ## Ingredients
 

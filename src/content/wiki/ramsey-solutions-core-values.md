@@ -4,10 +4,7 @@ date: 2022-12-02
 aliases: ["/ramsey-solutions-core-values/"]
 ---
 
-
 I was running some numbers with their [Mortgage Payoff Calculator](https://www.ramseysolutions.com/real-estate/mortgage-payoff-calculator) and decided to poke around their website. I stumbled upon their [Company](https://www.ramseysolutions.com/company) page and the core values listed warmed my heart and got me fired up. They're worth repeating here.
-
-
 
 - **Colossians 3:23.** We do our work as unto the Lord.
 - **Crusade.** We are crusaders doing work that matters.

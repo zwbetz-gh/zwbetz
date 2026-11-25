@@ -1,9 +1,9 @@
 ---
 title: "Connect to a Postgres Database and Run a Query From a Bash Script"
 date: 2019-06-07
-aliases: ["/connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script/"]
+aliases:
+  ["/connect-to-a-postgresql-database-and-run-a-query-from-a-bash-script/"]
 ---
-
 
 ## Prerequisites
 

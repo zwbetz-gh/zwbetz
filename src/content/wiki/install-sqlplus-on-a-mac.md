@@ -4,24 +4,21 @@ date: 2019-06-07
 aliases: ["/install-sqlplus-on-a-mac/"]
 ---
 
-
 When some random guy's blog ranks higher than the Oracle docs, what does that tell you?
-
-
 
 ## SQL*Plus Version 12.2.0.1.0
 
 1. Navigate to [Oracle downloads](https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html), accept the license agreement, and login. If you don't already have an Oracle account, you'll need to create one
 1. Download these zip files:
-    1. `instantclient-basic-macos.x64-12.2.0.1.0-2.zip`
-    1. `instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip`
-1. Make dir for instant client then unzip zips
+   1. `instantclient-basic-macos.x64-12.2.0.1.0-2.zip`
+   1. `instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip`
+1.  Make dir for instant client then unzip zips
 
         mkdir -p ~/bin/oracle
         unzip -d ~/bin/oracle instantclient-basic-macos.x64-12.2.0.1.0-2.zip
         unzip -d ~/bin/oracle instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip
 
-1. The file listing of that dir should now look like:
+1.  The file listing of that dir should now look like:
 
         $ cd  ~/bin/oracle/instantclient_12_2 && find . -type f | sort
         ./BASIC_README
@@ -46,7 +43,7 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./uidrvci
         ./xstreams.jar
 
-1. Add this line to your [shell config file](/wiki/shell-config-file-on-mac), which will add `sqlplus` to your `PATH`
+1.  Add this line to your [shell config file](/wiki/shell-config-file-on-mac), which will add `sqlplus` to your `PATH`
 
         export LD_LIBRARY_PATH=${HOME}/bin/oracle/instantclient_12_2:${LD_LIBRARY_PATH}
         export PATH=${LD_LIBRARY_PATH}:${PATH}
@@ -58,15 +55,15 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
 
 1. Navigate to [Oracle downloads](https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html), accept the license agreement, and login. If you don't already have an Oracle account, you'll need to create one
 1. Download these zip files:
-    1. `instantclient-basic-macos.x64-19.3.0.0.0dbru.zip`
-    1. `instantclient-sqlplus-macos.x64-19.3.0.0.0dbru.zip`
-1. Make dir for instant client then unzip zips
+   1. `instantclient-basic-macos.x64-19.3.0.0.0dbru.zip`
+   1. `instantclient-sqlplus-macos.x64-19.3.0.0.0dbru.zip`
+1.  Make dir for instant client then unzip zips
 
         mkdir -p ~/bin/oracle
         unzip -d ~/bin/oracle instantclient-basic-macos.x64-19.3.0.0.0dbru.zip
         unzip -d ~/bin/oracle instantclient-sqlplus-macos.x64-19.3.0.0.0dbru.zip
 
-1. The file listing of that dir should now look like:
+1.  The file listing of that dir should now look like:
 
         $ cd  ~/bin/oracle/instantclient_19_3 && find . -type f | sort
         ./BASIC_LICENSE
@@ -92,7 +89,7 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
         ./uidrvci
         ./xstreams.jar
 
-1. Add this line to your [shell config file](/wiki/shell-config-file-on-mac), which will add `sqlplus` to your `PATH`
+1.  Add this line to your [shell config file](/wiki/shell-config-file-on-mac), which will add `sqlplus` to your `PATH`
 
         export LD_LIBRARY_PATH=${HOME}/bin/oracle/instantclient_19_3:${LD_LIBRARY_PATH}
         export PATH=${LD_LIBRARY_PATH}:${PATH}

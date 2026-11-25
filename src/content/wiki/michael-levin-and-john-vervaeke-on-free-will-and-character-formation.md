@@ -1,13 +1,11 @@
 ---
 title: "Michael Levin and John Vervaeke on Free Will and Character Formation"
 date: 2022-11-09
-aliases: ["/michael-levin-and-john-vervaeke-on-free-will-and-character-formation/"]
+aliases:
+  ["/michael-levin-and-john-vervaeke-on-free-will-and-character-formation/"]
 ---
 
-
 My buddy [John Munger](https://www.jdmunger.com) introduced me to both of these heavy hitters. First there was John Vervaeke with his [Awakening From the Meaning Crisis](https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ) YouTube series, which I'm still working through and it's been excellent so far. Then there was Michael Levin with his Lex Fridman conversation on [Biology, Life, Aliens, Evolution, Embryogenesis, and Xenobots](https://youtu.be/p3lsYlod5OU). His experiments on planarian flatworms are absolutely fascinating.
-
-
 
 Some people fear the YouTube _algorithm_, but I dig it, because it usually suggests things that I like. Which brings me to this conversation between Michael Levin and John Vervaeke, hosted by [Karen Wong](https://www.youtube.com/c/TheMeaningCode/featured). Watch the full video [here](https://youtu.be/nWMSlcZbEMw).
 

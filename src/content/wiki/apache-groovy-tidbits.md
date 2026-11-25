@@ -4,10 +4,7 @@ date: 2022-02-04
 aliases: ["/apache-groovy-tidbits/"]
 ---
 
-
 Lately I've been dabbling in [JSL (Jenkins Shared Libraries)](https://www.jenkins.io/doc/book/pipeline/shared-libraries/). The JSL is usually written in Groovy, so I thought it'd be interesting to read the [Groovy Language Documentation](https://docs.groovy-lang.org/docs/groovy-3.0.9/html/documentation/). Here are some of the tidbits I learned:
-
-
 
 ## List Literal
 

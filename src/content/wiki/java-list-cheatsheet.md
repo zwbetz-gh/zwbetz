@@ -4,10 +4,7 @@ date: 2021-10-17
 aliases: ["/java-list-cheatsheet/"]
 ---
 
-
 While at the hospital for the birth of our second child, I was reading [Java by Comparison](https://pragprog.com/titles/javacomp/java-by-comparison/), and liked their teaching style. Fast-forward to our last day there, I was taking a quick, scalding-hot shower, and thought, "Hey, it would be cool if there was a cheatsheet on how to do common list operations in Java". The thing you're reading is my go at that.
-
-
 
 ## Rules
 

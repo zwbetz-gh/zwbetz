@@ -1,13 +1,13 @@
 ---
 title: "Create a Text File in Memory Then Download It on Button Click With Vanilla JS"
 date: 2021-03-04
-aliases: ["/create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js/"]
+aliases:
+  [
+    "/create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js/",
+  ]
 ---
 
-
 This solution is simple. It's the coming up with this solution that took time. Alas, what's new.
-
-
 
 ## Demo
 

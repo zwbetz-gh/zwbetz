@@ -4,10 +4,7 @@ date: 2022-01-21
 aliases: ["/sweet-heat/"]
 ---
 
-
 I've been on a [beef jerky kick](/wiki/beef-jerky-recipe). After trails and trails of spice combinations, I couldn't help but notice something.
-
-
 
 No matter how spicy I make a batch, if I add a sweetener, like brown sugar, then I always taste the "sweet" before the "heat".
 

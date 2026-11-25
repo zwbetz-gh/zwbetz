@@ -4,7 +4,6 @@ date: 2021-04-07
 aliases: ["/windows-environment-variables-in-command-prompt/"]
 ---
 
-
 ## List All Environment Variables
 
 ```

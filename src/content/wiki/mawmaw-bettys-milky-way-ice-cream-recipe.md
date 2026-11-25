@@ -1,27 +1,30 @@
 ---
 title: "Mawmaw Betty's Milky Way Ice Cream Recipe"
 date: 2018-09-14
-aliases: ["/mawmaw-bettys-milky-way-ice-cream-recipe/", "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream/", "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/", "/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/"]
+aliases:
+  [
+    "/mawmaw-bettys-milky-way-ice-cream-recipe/",
+    "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream/",
+    "/2018/09/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/",
+    "/mawmaw-bettys-homemade-milky-way-ice-cream-recipe/",
+  ]
 ---
 
+This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad made this growing up. We've experimented with different candy bars over the years. My wife likes it with Twix. But I think Milky Ways still taste best.
 
-This recipe was given to me by my Mawmaw Betty. Her, my Pawpaw Allen, and my dad made this growing up. We've experimented with different candy bars over the years. My wife likes it with Twix. But I think Milky Ways still taste best. 
-
-Eating a cup of this ice cream after eating spicy boiled seafood always hits the spot. 
-
-
+Eating a cup of this ice cream after eating spicy boiled seafood always hits the spot.
 
 ## Ingredients 
 
-* 8 large Milky Way bars
-* 1 gallon milk
-* 2 teaspoons vanilla extract
-* 6 eggs
-* 1 cup sugar
-* 1 cans condensed milk
-* 1 carton heavy cream 
-* 8 lbs ice
-* 1/2 box rock salt
+- 8 large Milky Way bars
+- 1 gallon milk
+- 2 teaspoons vanilla extract
+- 6 eggs
+- 1 cup sugar
+- 1 cans condensed milk
+- 1 carton heavy cream
+- 8 lbs ice
+- 1/2 box rock salt
 
 ## Directions
 
@@ -34,7 +37,7 @@ Eating a cup of this ice cream after eating spicy boiled seafood always hits the
 
 ## Notes
 
-* If possible, put ice cream maker in a cool place. It will freeze much quicker
-* If you want richer, more custard-like ice cream, instead of using milk to fill the ice cream maker to proper capacity, use heavy cream
-* If you don't have rock salt, you can use regular table salt instead. Just don't use as much
-* If your ice cream maker motor is weak, don't put as much ice. It will stress the motor less and let it run longer
+- If possible, put ice cream maker in a cool place. It will freeze much quicker
+- If you want richer, more custard-like ice cream, instead of using milk to fill the ice cream maker to proper capacity, use heavy cream
+- If you don't have rock salt, you can use regular table salt instead. Just don't use as much
+- If your ice cream maker motor is weak, don't put as much ice. It will stress the motor less and let it run longer

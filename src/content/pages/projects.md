@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 ---
+
 - [Franklin Recipes](https://franklinrecipes.com/) — A collection of family recipes.
 
 - [sample-keycloak-react-oidc-context](https://github.com/authts/sample-keycloak-react-oidc-context) — Minimal, reproducible example for Keycloak + React.

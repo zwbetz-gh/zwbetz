@@ -2,10 +2,7 @@
 title: "Contact"
 ---
 
-
 Wanna get in touch?
-
-
 
 Email me at:
 

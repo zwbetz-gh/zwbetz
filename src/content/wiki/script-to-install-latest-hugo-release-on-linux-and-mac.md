@@ -1,13 +1,14 @@
 ---
 title: "Script to Install Latest Hugo Release on Linux and Mac"
 date: 2018-10-19
-aliases: ["/script-to-install-latest-hugo-release-on-linux-and-mac/", "/script-to-install-latest-hugo-release-on-ubuntu-and-mac/"]
+aliases:
+  [
+    "/script-to-install-latest-hugo-release-on-linux-and-mac/",
+    "/script-to-install-latest-hugo-release-on-ubuntu-and-mac/",
+  ]
 ---
 
-
 Running this script will install the latest (non-extended) hugo release. It was originally written for Linux. To make it work for Mac, find/replace occurrences of `Linux` with `macOS`.
-
-
 
 Since this script writes to `/usr/local/bin/`, it will likely need to be run with `sudo`. For example:
 

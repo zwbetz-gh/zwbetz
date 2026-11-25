@@ -4,10 +4,7 @@ date: 2021-12-04
 aliases: ["/site-redesign-every-kilobyte-counts/"]
 ---
 
-
 One of the cool things (curses?) of maintaining your own site is that you have total control over the frontend assets. Don't need those JavaScript widgets? Remove them. That CSS library has a bunch of unused classes? [Remove them](/wiki/how-to-use-purgecss-with-hugo). You get the idea.
-
-
 
 There's a movement (dare I call it that?) to create websites with less bloat. Some participants even set fun goals, like every page must be [less than 1 megabyte](https://github.com/bradleytaunt/1mb-club).
 

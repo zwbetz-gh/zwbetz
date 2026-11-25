@@ -4,10 +4,7 @@ date: 2021-07-05
 aliases: ["/linear-search-vs-binary-search-explained-with-javascript/"]
 ---
 
-
 How's that Latin proverb go again? "By teaching, we learn".
-
-
 
 ## Sample Problem
 
@@ -23,11 +20,11 @@ const linearSearch = (sortedArr, item) => {
     iterations++;
 
     if (item === sortedArr[i]) {
-      return {index: i, iterations};
+      return { index: i, iterations };
     }
   }
 
-  return {index: -1, iterations};
+  return { index: -1, iterations };
 };
 ```
 
@@ -45,7 +42,7 @@ const binarySearch = (sortedArr, item) => {
     const guess = sortedArr[middle];
 
     if (guess === item) {
-      return {index: middle, iterations};
+      return { index: middle, iterations };
     } else if (guess > item) {
       high = middle - 1;
     } else {
@@ -53,19 +50,19 @@ const binarySearch = (sortedArr, item) => {
     }
   }
 
-  return {index: -1, iterations};
+  return { index: -1, iterations };
 };
 ```
 
 ## Usage
 
 ```js
-const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 
-console.log(linearSearch(alphabet, 'z'));
+console.log(linearSearch(alphabet, "z"));
 // => { index: 25, iterations: 26 }
 
-console.log(binarySearch(alphabet, 'z'));
+console.log(binarySearch(alphabet, "z"));
 // => { index: 25, iterations: 5 }
 ```
 
@@ -90,7 +87,7 @@ Contrast this with binary search:
 
 On each iteration we guess the middle item. If it's not the middle item, then we narrow our search to **half** of the list items. Since the list is sorted, if our guess is too high, then we search the bottom half, and if our guess is too low, then we search the top half. Rinse and repeat.
 
-In "Big-O Notation" speak, we say that linear search is `O(n)`, and binary search is `O(log n)`. 
+In "Big-O Notation" speak, we say that linear search is `O(n)`, and binary search is `O(log n)`.
 
 ## Hammer it Home
 

@@ -4,10 +4,7 @@ date: 2018-11-27
 aliases: ["/file-variables-in-hugo/"]
 ---
 
-
-Hugo's `.File` variables ([see the docs](https://gohugo.io/variables/files/)) are useful for getting filesystem data on your content files. 
-
-
+Hugo's `.File` variables ([see the docs](https://gohugo.io/variables/files/)) are useful for getting filesystem data on your content files.
 
 For example, this shortcode:
 

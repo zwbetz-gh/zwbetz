@@ -4,12 +4,9 @@ date: 2020-08-31
 aliases: ["/setup-and-run-sonarqube-on-mac/"]
 ---
 
-
 Many projects these days have a dedicated SonarQube stage in their CI/CD pipelines. Yet, sometimes it's useful to run SonarQube locally to shorten the feedback loop of a) change code, b) run scan, c) view results.
 
 SonarQube has 2 main parts: SonarQube Server, which is a server that displays scan results (among other things), and Sonar Scanner, which does the actual scanning.
-
-
 
 ## SonarQube Version 9.4.0
 
@@ -172,22 +169,20 @@ sonar_scan() {
 
 ### Start sonarqube server
 
-1. Start server
+1.  Start server
 
         sonar_start
 
-1. Check server status
+1.  Check server status
 
         sonar_status
-
 ### Run a scan with sonar-scanner
 
 1. Navigate to the repo that you want to run a scan on
 1. Run all unit tests so that sonar will report test coverage
-1. Run a scan
+1.  Run a scan
 
         sonar_scan
-
 ### View scan results
 
 1. Navigate to <http://localhost:9000>

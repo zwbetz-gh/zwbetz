@@ -4,10 +4,7 @@ date: 2024-04-08
 aliases: ["/scrabble-attitude/"]
 ---
 
-
 How's your _Q-words-without-U_ game?
-
-
 
 My sister, Nicholette, was in town and she wanted to have a game night at Mawmaw Betty's. Sweet, I love game nights. Nicholette lives up north these days, so we're psyched anytime we get to hang. It ended up being a cozy crew: us, my other sister, Olivia, and Kylynn.
 

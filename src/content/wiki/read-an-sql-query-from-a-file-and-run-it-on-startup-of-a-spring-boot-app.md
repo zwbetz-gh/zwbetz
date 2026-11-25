@@ -1,13 +1,11 @@
 ---
 title: "Read an SQL Query From a File and Run It on Startup of a Spring Boot App"
 date: 2021-03-31
-aliases: ["/read-an-sql-query-from-a-file-and-run-it-on-startup-of-a-spring-boot-app/"]
+aliases:
+  ["/read-an-sql-query-from-a-file-and-run-it-on-startup-of-a-spring-boot-app/"]
 ---
 
-
 This is useful when you need to check the output of an SQL query on startup of a Spring Boot app. There are no template literal strings in Java 11, so for maintainability, the multi-line query is read from a file.
-
-
 
 In this minimal sample, a table of TODOs is queried. If rows are returned, a warning message is logged. Else, success.
 

@@ -1,13 +1,14 @@
 ---
 title: "Kylynn's Oatmeal Chocolate Chip Cookies Recipe"
 date: 2019-05-14
-aliases: ["/kylynns-oatmeal-chocolate-chip-cookies-recipe/", "/kylynns-oatmeal-chocolate-chip-cookies/"]
+aliases:
+  [
+    "/kylynns-oatmeal-chocolate-chip-cookies-recipe/",
+    "/kylynns-oatmeal-chocolate-chip-cookies/",
+  ]
 ---
 
-
 I dare you to eat only one.
-
-
 
 ## Ingredients
 
@@ -24,7 +25,7 @@ I dare you to eat only one.
 
 ## Directions
 
-1. Preheat oven to 375° F. If using convection, preheat to 375 as well. 
+1. Preheat oven to 375° F. If using convection, preheat to 375 as well.
 1. For regular oven, place rack in middle of oven. When using a convection oven, you should be able to bake on all racks at one time.
 1. Cut butter into pieces (about 2 tablespoons each) and place in mixing bowl. I use a Kitchen Aid and power it on 2 (low).
 1. After a few seconds, add granulated sugar, brown sugar and vanilla extract. Mix on low speed until creamy (this takes just a few seconds). The butter and the sugars should be mixed enough so no chunks of butter are visible.
@@ -36,7 +37,7 @@ I dare you to eat only one.
 1. Flatten slightly with the palm of your hand.
 1. If using convection, bake for 7-10 minutes until golden brown.
 1. If using regular (non-convection) oven, bake for 10-12 minutes.
-Cookies should be slightly golden and the cookie should not be wet on top.
+   Cookies should be slightly golden and the cookie should not be wet on top.
 1. Cool on baking sheets completely.
 
 ## Notes

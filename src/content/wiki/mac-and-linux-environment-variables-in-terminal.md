@@ -4,7 +4,6 @@ date: 2021-04-11
 aliases: ["/mac-and-linux-environment-variables-in-terminal/"]
 ---
 
-
 ## List All Environment Variables
 
 ```

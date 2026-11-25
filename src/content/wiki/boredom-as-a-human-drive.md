@@ -4,12 +4,9 @@ date: 2021-04-24
 aliases: ["/boredom-as-a-human-drive/"]
 ---
 
-
 I was listening to [Lex Fridman interview Cal Newport](https://youtu.be/y3Umo_jd5AA). They talk for 3 hours, and it's interesting all the way through. They cover deep work, social media usage, history of email, and much more.
 
 The following part of their conversation really stood out to me. I had never thought of boredom in this way, as an _action instinct_.
-
-
 
 > **Lex:** ... I think David Foster Wallace said the key to life is to be unborable. I've always kind of taken that to heart, which is like you should be able to, maybe artificially, generate anything. Like find something in your environment, your surroundings that's a source of joy. Like everything is fun.
 >

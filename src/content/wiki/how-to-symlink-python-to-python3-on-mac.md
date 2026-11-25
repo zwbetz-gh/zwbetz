@@ -4,10 +4,7 @@ date: 2022-05-21
 aliases: ["/how-to-symlink-python-to-python3-on-mac/"]
 ---
 
-
 I had a... problem. I was working with shell scripts that I didn't own. These scripts happened to use python. But, my Mac didn't have python, it only had python3 (which was still compatible).
-
-
 
 So, you may ask, why not just change the shell scripts to use python3? That wasn't an option. _Why_ it wasn't an option is irrelevant. Just roll with me, okay.
 

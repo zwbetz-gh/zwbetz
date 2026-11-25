@@ -4,10 +4,7 @@ date: 2020-07-20
 aliases: ["/jocko-motivation-good/"]
 ---
 
-
 My brother-in-law shared this [Jocko motivation video](https://youtu.be/IdTMDpizis8) with me the other day. **Warning:** be careful listening to it, it'll get you all jacked up. Transcription below.
-
-
 
 ---
 

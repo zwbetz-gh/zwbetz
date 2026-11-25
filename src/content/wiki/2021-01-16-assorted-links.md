@@ -4,7 +4,6 @@ date: 2021-01-16
 aliases: ["/2021-01-16-assorted-links/"]
 ---
 
-
 [How Darwin Thought: The Golden Rule of Thinking](https://fs.blog/2016/01/charles-darwin-thinker/)
 
 > I had, also, during many years, followed a golden rule, namely, that whenever a published fact, a new observation or thought came across me, which was opposed to my general results, to make a memorandum of it without fail and at once; for I had found by experience that such facts and thoughts were far more apt to escape from memory than favorable ones.

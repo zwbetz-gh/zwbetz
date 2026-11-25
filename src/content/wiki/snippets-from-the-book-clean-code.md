@@ -4,10 +4,7 @@ date: 2020-12-01
 aliases: ["/snippets-from-the-book-clean-code/"]
 ---
 
-
 The following are some of my favorite snippets from this book. Thanks, Uncle Bob.
-
-
 
 - **Title**: Clean Code: A Handbook of Agile Software Craftsmanship
 - **Author**: Robert C. Martin

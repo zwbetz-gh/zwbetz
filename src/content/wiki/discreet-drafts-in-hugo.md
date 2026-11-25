@@ -4,10 +4,7 @@ date: 2021-11-26
 aliases: ["/discreet-drafts-in-hugo/"]
 ---
 
-
 I sometimes pass around blog post drafts to friends and family for review. It's usually by email or text, which is fine. Yet, it would be cool if I could give them a real link, a _discreet draft_, if you will.
-
-
 
 I did a bit of searching on the Hugo Discourse forums, and of course, I was not the first person with this idea. A few others had implemented custom solutions, but I didn't see a writeup of how to do it from scratch. When encountering a knowledge gap like this, my tutorial-spidey-sense tingles, and I knew it was time to take a stab.
 
@@ -42,7 +39,6 @@ Create a `content/drafts/_index.md` file. Then in the front matter set `draft` t
 title: "Drafts"
 draft: true
 ---
-
 ```
 
 ## List Template
@@ -236,22 +232,22 @@ Create file `assets/js/draft.js` with the following:
 
 ```js
 (function () {
-  const PASSWORD = 'please';
-  const DIV_BACKGROUND_COLOR = '#fcfcfc';
-  const DIV_ID = 'draft_div';
-  const INPUT_ID = 'draft_input';
+  const PASSWORD = "please";
+  const DIV_BACKGROUND_COLOR = "#fcfcfc";
+  const DIV_ID = "draft_div";
+  const INPUT_ID = "draft_input";
 
   const createDiv = () => {
-    const div = document.createElement('div');
+    const div = document.createElement("div");
     div.id = DIV_ID;
-    div.style.display = 'flex';
-    div.style.justifyContent = 'center';
-    div.style.alignItems = 'center';
-    div.style.position = 'fixed';
+    div.style.display = "flex";
+    div.style.justifyContent = "center";
+    div.style.alignItems = "center";
+    div.style.position = "fixed";
     div.style.top = 0;
     div.style.left = 0;
-    div.style.width = '100%';
-    div.style.height = '100%';
+    div.style.width = "100%";
+    div.style.height = "100%";
     div.style.backgroundColor = DIV_BACKGROUND_COLOR;
     return div;
   };
@@ -261,7 +257,7 @@ Create file `assets/js/draft.js` with the following:
     div.remove();
   };
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const inputPassword = document.getElementById(INPUT_ID).value;
     if (inputPassword === PASSWORD) {
@@ -270,17 +266,17 @@ Create file `assets/js/draft.js` with the following:
   };
 
   const createForm = () => {
-    const form = document.createElement('form');
-    form.addEventListener('submit', handleSubmit);
+    const form = document.createElement("form");
+    form.addEventListener("submit", handleSubmit);
     return form;
   };
 
   const createInput = () => {
-    const input = document.createElement('input');
+    const input = document.createElement("input");
     input.id = INPUT_ID;
-    input.type = 'password';
-    input.autocomplete = 'one-time-code';
-    input.placeholder = 'Password';
+    input.type = "password";
+    input.autocomplete = "one-time-code";
+    input.placeholder = "Password";
     return input;
   };
 

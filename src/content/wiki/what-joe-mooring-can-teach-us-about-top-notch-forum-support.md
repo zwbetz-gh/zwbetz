@@ -4,10 +4,7 @@ date: 2022-02-22
 aliases: ["/what-joe-mooring-can-teach-us-about-top-notch-forum-support/"]
 ---
 
-
 [Joe Mooring](https://discourse.gohugo.io/u/jmooring/summary) is a contributor (among other useful things) over at the Hugo forum. At the time of this writing, if you look at [all-time users ordered by likes received](https://discourse.gohugo.io/u?order=likes_received&period=all), you'll see he's in 3rd place.
-
-
 
 I used to be in 3rd place (the bulk of my contributions were from 2018 to early 2021), but I've been out of the game lately, and he's been _very much in_ the game. It's quite fun to watch, actually.
 

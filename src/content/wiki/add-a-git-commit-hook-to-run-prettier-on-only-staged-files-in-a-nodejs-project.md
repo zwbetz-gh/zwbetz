@@ -1,13 +1,13 @@
 ---
 title: "Add a Git Commit Hook to Run Prettier on Only Staged Files in a Node.js Project"
 date: 2020-09-16
-aliases: ["/add-a-git-commit-hook-to-run-prettier-on-only-staged-files-in-a-nodejs-project/"]
+aliases:
+  [
+    "/add-a-git-commit-hook-to-run-prettier-on-only-staged-files-in-a-nodejs-project/",
+  ]
 ---
 
-
 [Prettier](https://www.npmjs.com/package/prettier) is a popular code formatter, and I especially like it for JS projects. You can add a script to run it with something like `npm run prettier`, but wouldn't it be nice if it would run automatically every time you did a git commit? On top of that, say your project is huge with thousands of files, wouldn't it be nice if prettier only ran on staged (changed) files?
-
-
 
 Well, all of this is possible. See below for details. Make sure to update dependency versions as needed.
 
@@ -47,9 +47,7 @@ package-lock.json
     "prettier": "prettier --write src"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run prettier"
-    ]
+    "*.js": ["npm run prettier"]
   },
   "husky": {
     "hooks": {

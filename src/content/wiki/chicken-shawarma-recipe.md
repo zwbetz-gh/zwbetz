@@ -4,10 +4,7 @@ date: 2024-02-23
 aliases: ["/chicken-shawarma-recipe/"]
 ---
 
-
 All these spices hit just right. This is one of our favorite family dinners.
-
-
 
 ## Ingredients
 

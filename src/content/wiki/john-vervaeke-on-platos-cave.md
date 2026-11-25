@@ -4,14 +4,11 @@ date: 2022-02-20
 aliases: ["/john-vervaeke-on-platos-cave/"]
 ---
 
-
 I once heard about _Plato's Cave_ in college lecture, but never like _this_. Kudos to Mr. Vervaeke. What a fun way to learn this myth.
 
 The following is an excerpt from [John Vervaeke's Ep. 5 - Awakening from the Meaning Crisis - Plato and the Cave](https://youtu.be/neDutbcedUY).
 
 Watch the full video. It's worth your time.
-
-
 
 > Plato had an interesting idea. (Draws Man-Lion-Monster on whiteboard). He said, "the man can learn", the man is capable of grasping theory, abstract symbolic representation of the case. Now, the lion isn't really capable of theory, but what the lion can do, is the lion can be trained. You can use your reason to train your lion. How do you do this?
 >

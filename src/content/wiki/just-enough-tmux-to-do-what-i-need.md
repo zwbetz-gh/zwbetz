@@ -4,12 +4,9 @@ date: 2019-02-07
 aliases: ["/just-enough-tmux-to-do-what-i-need/"]
 ---
 
+As mentioned in [Export timed query results from SQL*Plus](/wiki/export-timed-query-results-from-sqlplus), I have to SSH into an ubuntu box in order to run queries. Sometimes these queries take a while, so if my SSH connection times out, I'm out of luck.
 
-As mentioned in [Export timed query results from SQL*Plus](/wiki/export-timed-query-results-from-sqlplus), I have to SSH into an ubuntu box in order to run queries. Sometimes these queries take a while, so if my SSH connection times out, I'm out of luck. 
-
-
-
-Thankfully, I learned about tmux, and can now keep my SSH connection open as long as I'd like. Here are some useful tmux commands: 
+Thankfully, I learned about tmux, and can now keep my SSH connection open as long as I'd like. Here are some useful tmux commands:
 
 List sessions:
 

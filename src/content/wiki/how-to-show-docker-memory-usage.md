@@ -4,12 +4,9 @@ date: 2021-07-14
 aliases: ["/how-to-show-docker-memory-usage/"]
 ---
 
-
 I can view the total memory allocated to Docker with `docker system info`, as well as the amount and percent used for each container with `docker stats`.
 
 But how do I look at **total usage**? With a little Bash-foo, of course.
-
-
 
 Throw the following snippet into a Bash function or script and run when needed.
 

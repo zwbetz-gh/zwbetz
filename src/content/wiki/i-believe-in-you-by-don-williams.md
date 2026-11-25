@@ -4,10 +4,7 @@ date: 2022-12-04
 aliases: ["/i-believe-in-you-by-don-williams/"]
 ---
 
-
 My dad and his girlfriend invited us for a day on the Tickfaw River. Townes got to boat ride and net a catfish, so he was in heaven.
-
-
 
 We were trolling along, listening to some playlist called _Feel Good Country_ when _I Believe in You_ by [Don Williams](https://en.wikipedia.org/wiki/Don_Williams) started playing. I was at the front of the boat, facing away from everyone, and it wasn't long before I was silently tearing up, thinking to myself, _"Who sings this song and why haven't I heard it before?"_.
 
@@ -65,9 +62,6 @@ The lyrics are great:
 > I believe I mom and dad\
 > And I believe in you
 
-
-
 ![Having a good ole time catfishing.](/wiki/i-believe-in-you-by-don-williams/img/catfishing.jpg)
 
 Having a good ole time catfishing.
-

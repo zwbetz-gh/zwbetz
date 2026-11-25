@@ -4,10 +4,7 @@ date: 2018-12-02
 aliases: ["/generate-lorem-ipsum-with-a-hugo-shortcode/"]
 ---
 
-
-Inspired by this [discussion](https://discourse.gohugo.io/t/lorem-ipsum-shortcode-for-hugo/15604), I thought it'd be useful to generate Lorem Ipsum with a Hugo shortcode. 
-
-
+Inspired by this [discussion](https://discourse.gohugo.io/t/lorem-ipsum-shortcode-for-hugo/15604), I thought it'd be useful to generate Lorem Ipsum with a Hugo shortcode.
 
 ## Definition
 
@@ -21,11 +18,11 @@ Let's say you wanted to generate 20 paragraphs of dummy text. You could create a
 {{ end }}
 ```
 
-The `seq` function ([see the docs](https://gohugo.io/functions/seq/)) works well here since it generates a sequence of integers -- and we define how many integers to generate based on the argument we pass to the shortcode. 
-
+The `seq` function ([see the docs](https://gohugo.io/functions/seq/)) works well here since it generates a sequence of integers -- and we define how many integers to generate based on the argument we pass to the shortcode.
 
 ## Usage 
-An example usage: 
+
+An example usage:
 
 ```
 {{</* loremGen 20 */>}}

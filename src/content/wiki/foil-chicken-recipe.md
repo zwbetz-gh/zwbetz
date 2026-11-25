@@ -4,10 +4,7 @@ date: 2021-01-15
 aliases: ["/foil-chicken-recipe/"]
 ---
 
-
 It's hard to mess up.
-
-
 
 ## Ingredients
 

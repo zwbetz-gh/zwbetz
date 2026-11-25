@@ -4,10 +4,7 @@ date: 2021-09-21
 aliases: ["/check-if-an-element-exists-in-an-array-in-bash/"]
 ---
 
-
 Why didn't I just use Node.js or Python? Hey, you're getting distracted. That's not what this post is about. Just enjoy how hard someone else had to work to achieve this in Bash.
-
-
 
 ## Snippet
 

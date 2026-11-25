@@ -4,10 +4,7 @@ date: 2019-04-24
 aliases: ["/routines-are-boring-right/", "/routines-are-dumb-right/"]
 ---
 
-
 Growing up, I thought people with routines were silly. Why would you script so much of your life away? Where is the fun if you always know what you're gonna do? Who doesn't love a little chaos, right?
-
-
 
 It was not until college that I discovered the power and necessity of a routine. I was a decent student in that I virtually always went to class and participated, but my study habits were, well, poopoo. "Studying" consisted of cramming and coffee a few days before the exam. Something had to give. So, enter my first voluntary routine. I opened up Excel and created a row for each hour in the day. I [literally planned](http://www.calnewport.com/blog/2008/04/07/monday-master-class-how-to-reduce-stress-and-get-more-done-by-building-an-autopilot-schedule/) all 24 hours: sleep, school, work, **study**, meals, workout, etc. I followed this for two semesters, getting 4.0s in both.
 
@@ -19,11 +16,9 @@ Fast forward to the beginning of 2017. I was feeling all around "meh" about my b
 
 Factor in better sleeping habits and eating at a caloric surplus, and in one year I gained **25 lbs** of _wanted_ weight. I was the strongest I'd ever been, and I felt great.
 
-
 ![Before and after of my back](/wiki/routines-are-boring-right/before-and-after.jpg)
 
 **Left:** Jan 2017, weighed 175 lbs. **Right:** Dec 2017, weighed 200 lbs.
-
 
 Reading this back to myself. I sound kinda like an infomercial for routines. And that's okay. Because I really do want to sell you on them. If you think about it, we all follow a routine. It's just a matter of how much of that routine is **intentional**. I think Annie Dillard [says](https://www.brainpickings.org/2013/06/07/annie-dillard-the-writing-life-1/) it best:
 

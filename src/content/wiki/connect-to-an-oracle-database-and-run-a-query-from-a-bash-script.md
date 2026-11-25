@@ -4,7 +4,6 @@ date: 2019-06-07
 aliases: ["/connect-to-an-oracle-database-and-run-a-query-from-a-bash-script/"]
 ---
 
-
 ## Prerequisites
 
 - `sqlplus` (SQL*Plus) version 12.2.x or higher is installed and on your `PATH`. See install steps for [Mac](/wiki/install-sqlplus-on-a-mac) and [Linux](/wiki/install-sqlplus-on-linux)

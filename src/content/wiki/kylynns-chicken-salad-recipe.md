@@ -4,10 +4,7 @@ date: 2019-09-08
 aliases: ["/kylynns-chicken-salad-recipe/"]
 ---
 
-
 Perfect for beach snacking.
-
-
 
 ## Ingredients
 
@@ -30,11 +27,11 @@ Perfect for beach snacking.
 [Instant pot cook times for chicken breasts](https://amindfullmom.com/instant-pot-chicken-breasts/):
 
 - 6 oz chicken breasts:
-    - 6 mins on high pressure for fresh
-    - 10 mins on high pressure for frozen
-- 8 oz chicken breasts 
-    - 7 mins on high pressure for fresh
-    - 11 mins on high pressure for frozen
-- 10 oz chicken breasts 
-    - 8 mins on high pressure for fresh
-    - 12 mins on high pressure for frozen
+  - 6 mins on high pressure for fresh
+  - 10 mins on high pressure for frozen
+- 8 oz chicken breasts
+  - 7 mins on high pressure for fresh
+  - 11 mins on high pressure for frozen
+- 10 oz chicken breasts
+  - 8 mins on high pressure for fresh
+  - 12 mins on high pressure for frozen

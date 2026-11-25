@@ -4,10 +4,7 @@ date: 2020-04-11
 aliases: ["/cold-pasta-salad-recipe/"]
 ---
 
-
 We got this recipe from my parents. They got it from my dad's mom, Mawmaw Betty. I can easily eat four helpings of this stuff in one sitting.
-
-
 
 ## Ingredients
 

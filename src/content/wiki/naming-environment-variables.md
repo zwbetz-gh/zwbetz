@@ -4,12 +4,9 @@ date: 2021-01-24
 aliases: ["/naming-environment-variables/"]
 ---
 
-
 I often go back-and-forth on what to name env vars. Should I put an underscore here? Should I combine these words into one?
 
-
-
-While reading [spring's docs](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-relaxed-binding-from-environment-variables), I came across a concise set of rules for just that. Now, the rules are specific to spring configuration. But I like them as general rules too. 
+While reading [spring's docs](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-relaxed-binding-from-environment-variables), I came across a concise set of rules for just that. Now, the rules are specific to spring configuration. But I like them as general rules too.
 
 Anddd, I quote:
 

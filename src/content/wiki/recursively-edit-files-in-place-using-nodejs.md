@@ -4,10 +4,7 @@ date: 2021-03-12
 aliases: ["/recursively-edit-files-in-place-using-nodejs/"]
 ---
 
-
 I recently converted all my blog post titles to title-case with a [little Node.js script](https://github.com/zwbetz-gh/zwbetz/blob/master/task_various_title_case.js). So, am taking the teachable bits and sharing them here.
-
-
 
 Let's pretend you have a file tree that looks like this:
 
@@ -23,14 +20,14 @@ Let's pretend you have a file tree that looks like this:
 Then let's pretend in each of these files, you need to replace the string `BEFORE` with the string `AFTER`. It can be done with the following Node.js code:
 
 ```js
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const walk = dir => {
+const walk = (dir) => {
   try {
     let results = [];
     const list = fs.readdirSync(dir);
-    list.forEach(file => {
+    list.forEach((file) => {
       file = path.join(dir, file);
       const stat = fs.statSync(file);
       if (stat && stat.isDirectory()) {
@@ -47,19 +44,19 @@ const walk = dir => {
   }
 };
 
-const edit = filePath => {
-  const oldContent = fs.readFileSync(filePath, {encoding: 'utf8'});
+const edit = (filePath) => {
+  const oldContent = fs.readFileSync(filePath, { encoding: "utf8" });
   const regex = /BEFORE/;
-  const replaceVal = 'AFTER';
+  const replaceVal = "AFTER";
   const newContent = oldContent.replace(regex, replaceVal);
-  fs.writeFileSync(filePath, newContent, {encoding: 'utf-8'});
+  fs.writeFileSync(filePath, newContent, { encoding: "utf-8" });
   console.log(`Edited file: ${filePath}`);
 };
 
 const main = () => {
-  const dir = 'dir-1';
+  const dir = "dir-1";
   const filePaths = walk(dir);
-  filePaths.forEach(filePath => edit(filePath));
+  filePaths.forEach((filePath) => edit(filePath));
 };
 
 main();

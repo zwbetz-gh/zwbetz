@@ -4,10 +4,7 @@ date: 2021-06-23
 aliases: ["/convert-a-blob-to-a-base64-string-with-a-javascript-promise/"]
 ---
 
-
 Sometimes you need to do this in the browser. Here's how.
-
-
 
 ## Function
 
@@ -18,7 +15,7 @@ const convertBlobToBase64Async = (blob, mimeType) => {
     reader.onloadend = () => {
       const dataUrlPrefix = `data:${mimeType};base64,`;
       const base64WithDataUrlPrefix = reader.result;
-      const base64 = base64WithDataUrlPrefix.replace(dataUrlPrefix, '');
+      const base64 = base64WithDataUrlPrefix.replace(dataUrlPrefix, "");
       resolve(base64);
     };
     reader.onerror = reject;
@@ -30,8 +27,8 @@ const convertBlobToBase64Async = (blob, mimeType) => {
 ## Usage
 
 ```js
-const obj = { hello: 'world' };
-const mimeType = 'application/json';
+const obj = { hello: "world" };
+const mimeType = "application/json";
 const blob = new Blob([JSON.stringify(obj, null, 2)], { type: mimeType });
 
 // With await ...

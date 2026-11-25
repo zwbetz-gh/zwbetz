@@ -1,13 +1,13 @@
 ---
 title: "Use a CentOS Docker Image to Build and Deploy a Hugo (Modules) Site to GitLab Pages"
 date: 2020-12-22
-aliases: ["/use-a-centos-docker-image-to-build-and-deploy-a-hugo-modules-site-to-gitlab-pages/"]
+aliases:
+  [
+    "/use-a-centos-docker-image-to-build-and-deploy-a-hugo-modules-site-to-gitlab-pages/",
+  ]
 ---
 
-
 Am wrapping up a project for a client that needed a static site. They requested that it be built with Hugo and deployed to GitLab pages. The theme they wanted to base it off uses Hugo Modules, which in turn requires a Golang installation.
-
-
 
 I set things up so that when a commit is pushed to the `master` branch, a CI job is triggered. This job does the following:
 

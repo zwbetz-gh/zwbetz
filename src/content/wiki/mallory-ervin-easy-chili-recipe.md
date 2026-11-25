@@ -4,10 +4,7 @@ date: 2022-09-29
 aliases: ["/mallory-ervin-easy-chili-recipe/"]
 ---
 
-
 This is a Fall favorite of ours. We're actually making it this year for Anna-McClain's 1st birthday.
-
-
 
 Transcribing <https://malloryervin.com/2018/10/17/the-easiest-chili-recipe-my-fall-fave/> into plain text for easier lookup, courtesy of Mallory Ervin.
 

@@ -4,17 +4,14 @@ date: 2021-04-06
 aliases: ["/get-the-approximate-size-of-a-js-object-in-bytes/"]
 ---
 
-
 Sure, I can look at the Chrome DevTools Network tab to see the size of a resource. But what if I wanted to get the approximate size of a JS object programmatically? Well, it can be done. See the following:
-
-
 
 ## JavaScript
 
 ```js
-const getSizeInBytes = obj => {
+const getSizeInBytes = (obj) => {
   let str = null;
-  if (typeof obj === 'string') {
+  if (typeof obj === "string") {
     // If obj is a string, then use it
     str = obj;
   } else {
@@ -35,18 +32,18 @@ const logSizeInBytes = (description, obj) => {
 ## Usage
 
 ```js
-const str = 'foo';
+const str = "foo";
 
 const obj = {
-  name: 'Jane',
+  name: "Jane",
   age: 28,
-  dateOfBirth: '1992-12-01'
+  dateOfBirth: "1992-12-01",
 };
 
-logSizeInBytes('str', str);
+logSizeInBytes("str", str);
 // => str is approximately 3 B
 
-logSizeInBytes('obj', obj);
+logSizeInBytes("obj", obj);
 // => obj is approximately 51 B
 ```
 

@@ -4,10 +4,7 @@ date: 2022-09-10
 aliases: ["/sql-query-pagination-with-spring-boot-and-jdbctemplate/"]
 ---
 
-
 There are times when the amount of data you need to fetch is simply too large for a single trip. Don't fear, pagination is _one way_ to solve this.
-
-
 
 ## How it Works
 

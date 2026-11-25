@@ -4,7 +4,6 @@ date: 2022-02-13
 aliases: ["/buffalo-chicken-dip-recipe/"]
 ---
 
-
 ## Ingredients
 
 - 1 lb shredded cooked chicken

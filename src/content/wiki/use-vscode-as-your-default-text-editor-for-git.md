@@ -4,7 +4,6 @@ date: 2018-10-24
 aliases: ["/use-vscode-as-your-default-text-editor-for-git/"]
 ---
 
-
 Single-line commit messages in git are easy from the command line:
 
 ```
@@ -12,8 +11,6 @@ git commit -m "<SOME_MESSAGE>"
 ```
 
 But what about multi-line commit messages?
-
-
 
 If you're comfortable with vi, which is what git uses by default when you run `git commit`, then that's fine. But I prefer to use a GUI text editor such as [vscode](https://code.visualstudio.com/).
 

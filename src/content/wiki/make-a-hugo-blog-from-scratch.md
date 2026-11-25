@@ -4,12 +4,9 @@ date: 2019-01-13
 aliases: ["/make-a-hugo-blog-from-scratch/"]
 ---
 
-
 In my opinion, Hugo's current [quick start](https://gohugo.io/getting-started/quick-start/) is ample. It does just what the name says, _gets you started you quickly_.
 
 Still, there have many requests on the [forums](https://discourse.gohugo.io/) for a tutorial that dives deeper than the quick start, and gets into some templating basics. The thing you're reading is my go at that. Starting from scratch, we'll build a Hugo blog.
-
-
 
 ## Sister Links
 
@@ -585,7 +582,6 @@ Create file `layouts/partials/date-and-tags.html`:
 {{ end }}
 ```
 
-
 By default, hugo uses these [taxonomies](https://gohugo.io/content-management/taxonomies/):
 
 ```toml
@@ -610,7 +606,6 @@ The `date-and-tags.html` partial pulls a date [format](https://gohugo.io/functio
 ```
 
 Also, you may be wondering why we used `.PublishDate` instead of `.Date`. We did this because it gives us the [best of both worlds](https://gohugo.io/getting-started/configuration/#configure-dates): if `.PublishDate` is not set in the page front matter, then it falls back to `.Date`.
-
 
 Okay, now update `layouts/_default/single.html` to reference the partial:
 
@@ -865,7 +860,7 @@ The following are some of the lovely emails I've received about this post.
 
 > Thanks very much for the Hugo tutorial on your site. I'm working on bootstrapping myself into this system - I actually wrote something conceptually very similar in Perl in the mid-90s, for generating static sites from template files and embedded code, though it didn't have a server mode and was nowhere NEAR as fast :P Anyway, I've also struggled with the state of some of the official documentation as has been discussed on the forums, so I know it's a concern. Your document has been the clearest and most helpful for me out of everything I've read so far, including the official docs on the Hugo site.
 
-> I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn't understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on *Hugo* and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
+> I just wanted to let you know that I found your blog post this past weekend and that it was insanely helpful for me, like more than anything else I found. A lot of the other tutorials I found were more in the format “build a website with Hugo + [some web technology]” and they tend to focus more on using the tools but not really why I needed them. Put this in your config file, add this CLI tool, etc. As someone who knew absolutely nothing about the web stack I didn't understand at all why I needed five different tools just to make a website. Anyway, I appreciated how your post was 100% laser focused on _Hugo_ and was verbose enough for me to follow along and take ideas from. Thats all I wanted to say, thanks!
 
 > Hey there,
 > Just wanted to say that I really appreciated the Hugo tutorial.  I have had a long history with Jekyll, but only ever at a basic level.  I just got a new Mac M1 and have nothing but trouble getting Ruby, rbenv, RVM or asdf working well enough to start developing in Jekyll again.

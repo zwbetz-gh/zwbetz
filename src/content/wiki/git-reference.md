@@ -4,10 +4,7 @@ date: 2021-03-31
 aliases: ["/git-reference/"]
 ---
 
-
 A living doc of handy git commands.
-
-
 
 ## Init new repo
 

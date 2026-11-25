@@ -4,14 +4,12 @@ date: 2019-06-12
 aliases: ["/recursively-rename-file-extensions-with-a-bash-script/"]
 ---
 
-
-I was recently [helping](https://discourse.gohugo.io/t/rendering-code-blocks-properly-from-md-files/19126/3?u=zwbetz) a Hugo user rename all their content files from `.md` to `.mmark`. Posting it here since it's useful for more than just Hugo projects. 
-
-
+I was recently [helping](https://discourse.gohugo.io/t/rendering-code-blocks-properly-from-md-files/19126/3?u=zwbetz) a Hugo user rename all their content files from `.md` to `.mmark`. Posting it here since it's useful for more than just Hugo projects.
 
 ---
 
-Script: 
+Script:
+
 ```bash
 #!/bin/bash
 
@@ -39,6 +37,7 @@ done
 ```
 
 Example usage:
+
 ```plain
 $ ./script.bash
 Usage:

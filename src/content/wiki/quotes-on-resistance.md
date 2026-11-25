@@ -1,13 +1,15 @@
 ---
 title: "Quotes on Resistance"
 date: 2018-08-20
-aliases: ["/quotes-on-resistance/", "/2018/08/what-emerson-nietzsche-lewis-and-peterson-knew/", "/what-emerson-nietzsche-lewis-and-peterson-knew/"]
+aliases:
+  [
+    "/quotes-on-resistance/",
+    "/2018/08/what-emerson-nietzsche-lewis-and-peterson-knew/",
+    "/what-emerson-nietzsche-lewis-and-peterson-knew/",
+  ]
 ---
 
-
 My boi Lewis laying it down.
-
-
 
 > We gain the strength of the temptation we resist.
 

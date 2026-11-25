@@ -4,10 +4,7 @@ date: 2020-05-26
 aliases: ["/strawberry-ice-cream-recipe/"]
 ---
 
-
 Don't take it too seriously. Experiment, experiment, experiment.
-
-
 
 ## Ingredients
 

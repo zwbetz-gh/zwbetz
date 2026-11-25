@@ -4,10 +4,7 @@ date: 2019-06-29
 aliases: ["/passing-input-to-a-bash-function-via-arguments-or-stdin/"]
 ---
 
-
 I have a [collection of Bash functions](https://github.com/zwbetz-gh/dotfiles) that I often use. For some of them, I needed to ability to read input from all of the following:
-
-
 
 - positional arguments
 - stdin (standard input)

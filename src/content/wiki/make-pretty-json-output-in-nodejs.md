@@ -4,17 +4,14 @@ date: 2020-07-16
 aliases: ["/make-pretty-json-output-in-nodejs/"]
 ---
 
-
-By default, the `JSON.stringify` function outputs minified JSON, see [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). When logging or writing JSON, I usually like to make it look pretty. This can be done by tweaking the function arguments. The first argument is the data to convert. The second (optional) argument is a replacer function, we'll leave this null. The third (optional) argument is the space to use when formatting the JSON, we'll use 2 spaces. 
-
-
+By default, the `JSON.stringify` function outputs minified JSON, see [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). When logging or writing JSON, I usually like to make it look pretty. This can be done by tweaking the function arguments. The first argument is the data to convert. The second (optional) argument is a replacer function, we'll leave this null. The third (optional) argument is the space to use when formatting the JSON, we'll use 2 spaces.
 
 ## Sample
 
 ```js
-const fs = require('fs');
-const path = require('path');
-const process = require('process');
+const fs = require("fs");
+const path = require("path");
+const process = require("process");
 
 const makePrettyJson = (data) => {
   const string = JSON.stringify(data, null, 2);
@@ -33,15 +30,15 @@ const writeDataToFile = (data, filePath) => {
 const main = () => {
   const todoItem = {
     id: 1,
-    text: 'Buy milk and eggs',
-    done: false
+    text: "Buy milk and eggs",
+    done: false,
   };
   // Make it pretty
   const string = makePrettyJson(todoItem);
   // Log it
   console.log(string);
   // Write it
-  const filePath = path.resolve(process.cwd(), 'output.json');
+  const filePath = path.resolve(process.cwd(), "output.json");
   writeDataToFile(string, filePath);
 };
 

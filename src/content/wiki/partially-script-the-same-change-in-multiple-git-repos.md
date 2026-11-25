@@ -4,10 +4,7 @@ date: 2021-12-09
 aliases: ["/partially-script-the-same-change-in-multiple-git-repos/"]
 ---
 
-
 One of the disadvantages of a micro-service architecture is the config situation. Say you have 15 micro-services. Then say want to make the same change in each one. Well, now you have the pleasure of opening 15 pull requests.
-
-
 
 This is one of those weird tasks where the time it takes to automate the thing [outweighs](https://xkcd.com/1319/) the time it takes to do it manually.
 

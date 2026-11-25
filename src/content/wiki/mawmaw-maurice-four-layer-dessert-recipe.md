@@ -4,10 +4,7 @@ date: 2021-09-12
 aliases: ["/mawmaw-maurice-four-layer-dessert-recipe/"]
 ---
 
-
 One of my all time fav desserts, courtesy of my wife's Mawmaw Maurice.
-
-
 
 ## Ingredients
 
@@ -53,14 +50,10 @@ One of my all time fav desserts, courtesy of my wife's Mawmaw Maurice.
 
 ## Results
 
-
 ![Top shot.](/wiki/mawmaw-maurice-four-layer-dessert-recipe/img/four-layer-dessert-top.jpg)
 
 Top shot.
 
-
-
 ![Side shot.](/wiki/mawmaw-maurice-four-layer-dessert-recipe/img/four-layer-dessert-side.jpg)
 
 Side shot.
-

@@ -4,12 +4,9 @@ date: 2021-01-10
 aliases: ["/those-people-who-answer-your-question-as-a-gift/"]
 ---
 
-
 The following is an excerpt from [The Stack Overflow Podcast](https://the-stack-overflow-podcast.simplecast.com/episodes/welcome-to-2021-with-special-guest-joel-spolsky/transcript) where Joel Spolsky talks about Stack Overflow as a Gift Economy (among other things).
 
-
-
-It really is a magical place. People ask questions, the best answers are voted to the top, updates and comments are added along the way to give more context, and there's no fluff to sort through. Then strangers like you and me get to benefit from that. I think these places have a sacred quality to them -- repositories of accessible knowledge  are, well, a _gift_.
+It really is a magical place. People ask questions, the best answers are voted to the top, updates and comments are added along the way to give more context, and there's no fluff to sort through. Then strangers like you and me get to benefit from that. I think these places have a sacred quality to them -- repositories of accessible knowledge are, well, a _gift_.
 
 I also feel this way about quality blogs and YouTube channels. The fact that people take time out of their day to document a problem, and then a solution to that problem, is very cool. To those people: you know who you are. Keep doing you.
 

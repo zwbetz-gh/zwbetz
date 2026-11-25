@@ -1,15 +1,13 @@
 ---
 title: "Set Environment Variables in Your Bash Shell From a .env File (Version 2)"
 date: 2021-01-14
-aliases: ["/set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/"]
+aliases:
+  ["/set-environment-variables-in-your-bash-shell-from-a-env-file-version-2/"]
 ---
-
 
 This post is version 2 of [Set Environment Variables in Your Bash Shell From a Env File](/wiki/set-environment-variables-in-your-bash-shell-from-a-env-file).
 
 The advantage is it supports quoted values that contain spaces.
-
-
 
 ## .env file
 
@@ -34,16 +32,17 @@ set +o allexport
 ```
 
 ## Usage
-1. Unset env vars
+
+1.  Unset env vars
 
         unset FULL_NAME
         unset FOO
 
-1. Set env vars in your Bash shell
+1.  Set env vars in your Bash shell
 
         source setenv.sh
 
-1. Confirm env vars
+1.  Confirm env vars
 
         echo ${FULL_NAME}
         echo ${FOO}

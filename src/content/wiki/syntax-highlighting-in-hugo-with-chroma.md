@@ -4,17 +4,14 @@ date: 2019-01-21
 aliases: ["/syntax-highlighting-in-hugo-with-chroma/"]
 ---
 
-
 [Hugo](https://gohugo.io/) has built-in syntax highlighting, provided by [Chroma](https://github.com/alecthomas/chroma). To use it, you just need 2 lines in your `config.toml` file:
-
-
 
 ```
 pygmentsCodefences = true
 pygmentsStyle = "pygments"
 ```
 
-In the above, `pygments` is the name of the highlight style. To pick a different style, see the [style gallery](https://xyproto.github.io/splash/docs/all.html). 
+In the above, `pygments` is the name of the highlight style. To pick a different style, see the [style gallery](https://xyproto.github.io/splash/docs/all.html).
 
 Once you choose a style, you can highlight your code by using markdown code fences (3 backticks), then specifying the programming language. For example, say we wanted to highlight some HTML:
 

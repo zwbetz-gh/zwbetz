@@ -4,10 +4,7 @@ date: 2018-10-13
 aliases: ["/quotes-on-endurance/"]
 ---
 
-
 Nietzsche is one hell of a wordsmith.
-
-
 
 > An acorn is not an oak tree when it is sprouted. It must go through long summers and fierce winters, and endure all that frost, and snow, and thunder, and storms, and side-striking winds can bring, before it is a full grown oak. So a man is not a man when he is created; he is only begun. His manhood must come with years. He who goes through life prosperous, and comes to his grave without a wrinkle, is not half a man. Difficulties are God's errands and trainers, and only through them can one come to fullness of manhood.
 
