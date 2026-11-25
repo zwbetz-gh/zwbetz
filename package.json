@@ -17,26 +17,26 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
     "@tanstack/markdown": "^1.2.1",
-    "@tanstack/react-devtools": "0.10.14",
+    "@tanstack/react-devtools": "0.10.15",
     "@tanstack/react-router": "1.170.46",
-    "@tanstack/react-router-devtools": "1.167.3",
-    "@tanstack/react-start": "1.169.5",
-    "nitro": "3.0.260610-beta",
+    "@tanstack/react-router-devtools": "1.167.4",
+    "@tanstack/react-start": "1.169.7",
+    "nitro": "3.0.261103-rc",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "tailwindcss": "^4.3.5",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.5",
+    "@biomejs/biome": "2.6.9",
     "@tailwindcss/typography": "^0.5.20",
-    "@tanstack/devtools-vite": "0.8.6",
+    "@tanstack/devtools-vite": "0.8.7",
     "@tanstack/router-cli": "^1.168.0",
     "@types/node": "^26.6.7",
     "@types/react": "^19.3.1",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "vite": "^8.3.8"
   }
 }
