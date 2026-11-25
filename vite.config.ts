@@ -2,16 +2,13 @@ import tailwindcss from "@tailwindcss/vite";
 import { devtools } from "@tanstack/devtools-vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import viteReact from "@vitejs/plugin-react";
-import type { RolldownConfig } from "nitro/types";
 import { type NitroPluginConfig, nitro } from "nitro/vite";
 import { defineConfig } from "vite";
 
 const nitroConfig = {
   hooks: {
-    "rollup:before"(_nitro, config) {
-      // Nitro also uses this hook for Rolldown, but types it as Rollup config.
-      const codeSplitting = (config.output as RolldownConfig["output"])
-        ?.codeSplitting;
+    "build:config"(_nitro, { rolldown }) {
+      const codeSplitting = rolldown?.output?.codeSplitting;
       if (!codeSplitting || typeof codeSplitting !== "object") return;
 
       for (const [index, group] of (codeSplitting.groups ?? []).entries()) {
