@@ -1,17 +1,87 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-:root { color-scheme: light dark; font-family: system-ui, sans-serif; background: #fff; color: #222; }
-:root.dark { background: #161616; color: #eee; }
-body { margin: 0; line-height: 1.65; }
-header, main { width: min(44rem, calc(100% - 2rem)); margin: auto; }
-header { padding-top: 2rem; }
-nav { display: flex; align-items: center; gap: 1.5rem; }
-main { padding: 4rem 0; }
-a { color: inherit; text-underline-offset: .2em; }
-h1 { font-size: 2rem; line-height: 1.2; }
-time { color: #777; font-size: .9rem; }
-.posts { padding: 0; list-style: none; }
-.posts li { display: flex; gap: 1.5rem; margin: .75rem 0; }
-.prose { margin-top: 2rem; overflow-wrap: anywhere; }
-.prose pre { overflow-x: auto; padding: 1rem; background: #8882; }
-.prose img { max-width: 100%; }
+
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  --background: #ffffff;
+  --text: #24272c;
+  --muted: #606873;
+  --link: #205cba;
+  --border: #d5dae1;
+  --surface: #f3f5f7;
+  --error: #b42318;
+  --selection: #cfe1ff;
+  background: var(--background);
+  color: var(--text);
+}
+:root.dark {
+  color-scheme: dark;
+  --background: #191c21;
+  --text: #e6e9ee;
+  --muted: #abb3bf;
+  --link: #91bcff;
+  --border: #48515e;
+  --surface: #252a32;
+  --error: #ffaaa3;
+  --selection: #304f78;
+}
+body { margin: 0; font-size: 1.125rem; line-height: 1.7; }
+::selection { background: var(--selection); color: var(--text); }
+header, main { width: min(44rem, calc(100% - 2.5rem)); margin-inline: auto; }
+header { padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
+nav { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; font-size: 1rem; }
+nav a { color: var(--muted); text-decoration: none; padding-block: .4rem; }
+nav a:hover, nav a[aria-current="page"] { color: var(--text); text-decoration: underline; }
+main { padding-block: 3rem 5rem; }
+a { color: var(--link); text-underline-offset: .2em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+h1 { font-size: clamp(1.8rem, 5vw, 2.25rem); line-height: 1.25; letter-spacing: -.025em; font-weight: 700; margin: 0 0 1.5rem; overflow-wrap: anywhere; }
+p { margin-block: 1.25rem; }
+time { color: var(--muted); font-size: .9375rem; }
+.posts { padding: 0; list-style: none; margin-block: 2rem; }
+.posts li { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1.25rem; padding-block: .75rem; }
+.posts time { padding-top: .15rem; font-variant-numeric: tabular-nums; }
+.prose {
+  --tw-prose-body: var(--text);
+  --tw-prose-headings: var(--text);
+  --tw-prose-lead: var(--muted);
+  --tw-prose-links: var(--link);
+  --tw-prose-bold: var(--text);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-hr: var(--border);
+  --tw-prose-quotes: var(--text);
+  --tw-prose-quote-borders: var(--border);
+  --tw-prose-captions: var(--muted);
+  --tw-prose-kbd: var(--text);
+  --tw-prose-code: var(--text);
+  --tw-prose-pre-code: var(--text);
+  --tw-prose-pre-bg: var(--surface);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+  max-width: none; font-size: inherit; line-height: inherit; margin-top: 2rem; overflow-wrap: anywhere;
+}
+.prose pre { overflow-x: auto; padding: 1rem; border: 1px solid var(--border); border-radius: .35rem; }
+.prose :not(pre) > code { background: var(--surface); padding: .15em .3em; border-radius: .2rem; }
+.prose code::before, .prose code::after { content: none; }
+.prose img { max-width: 100%; height: auto; }
+.prose table { display: block; max-width: 100%; overflow-x: auto; }
+button, textarea, select { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: .35rem; }
+button { cursor: pointer; padding: .5rem 1rem; }
+button:hover { border-color: var(--link); }
+.theme-toggle { margin-left: auto; font-size: .875rem; min-width: 4.5rem; padding: .4rem .75rem; }
+form { display: grid; gap: 1.5rem; margin-top: 2rem; }
+form label { display: grid; gap: .5rem; }
+textarea { width: 100%; min-height: 10rem; padding: .75rem; }
+select { padding: .65rem; }
+form button { justify-self: start; }
+[role="alert"] { color: var(--error); margin: 0; }
+[role="alert"]:empty { display: none; }
+@media (max-width: 480px) {
+  body { font-size: 1.0625rem; }
+  main { padding-top: 2rem; }
+  nav { gap: .5rem 1rem; }
+  .posts li { grid-template-columns: minmax(0, 1fr); gap: .15rem; }
+}
