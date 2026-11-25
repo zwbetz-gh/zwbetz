@@ -59,8 +59,13 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body className="font-sans antialiased [overflow-wrap:anywhere]">
+        <a className="skip" href="#content">
+          Skip to content
+        </a>
         <Header />
-        {children}
+        <div id="content" tabIndex={-1}>
+          {children}
+        </div>
         <Footer />
         <TanStackDevtools
           config={{

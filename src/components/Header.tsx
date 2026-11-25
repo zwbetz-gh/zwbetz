@@ -4,6 +4,9 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   return (
     <header>
+      <Link className="brand" to="/">
+        Zachary Betz<span aria-hidden="true">.</span>
+      </Link>
       <nav aria-label="Main navigation">
         <Link to="/" activeOptions={{ exact: true }}>
           Home
