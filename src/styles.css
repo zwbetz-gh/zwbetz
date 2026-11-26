@@ -284,9 +284,7 @@ form button {
 * { box-sizing:border-box; }
 body { font-family:Bricolage,system-ui,sans-serif!important; }
 header { width:100%; background:var(--cobalt); border-bottom:3px solid #14163a; padding:.75rem max(1.25rem,calc((100% - 74rem)/2)); display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.5rem; }
-.brand { font-size:1.5rem; font-weight:800; letter-spacing:-.04em; color:white; text-decoration:none; white-space:nowrap; }
-.brand span { color:var(--yellow); }
-header nav { flex:1; justify-content:flex-end; gap:.35rem .7rem; }
+header nav { flex:1; justify-content:flex-start; gap:.35rem .7rem; }
 header nav a { color:white; padding:.25rem .5rem; border:2px solid transparent; border-radius:.6rem; }
 header nav a:hover,header nav a[aria-current='page'] { background:var(--yellow); border-color:#14163a; color:#14163a; text-decoration:none; }
 button { border:2px solid var(--outline); border-radius:.75rem; box-shadow:3px 3px 0 var(--outline); font-weight:700; transition:transform .15s,box-shadow .15s; }
