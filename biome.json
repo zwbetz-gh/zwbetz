@@ -7,12 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": [
-      "**",
-      "!-old-hugo",
-      "!**/src/routeTree.gen.ts",
-      "!**/src/styles.css"
-    ]
+    "includes": ["**", "!-old-hugo", "!**/src/routeTree.gen.ts"]
   },
   "formatter": {
     "enabled": true,
@@ -34,6 +29,11 @@
   "markdown": {
     "parser": {
       "frontmatter": true
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
     }
   },
   "javascript": {
