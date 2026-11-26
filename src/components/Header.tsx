@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Link className="brand" to="/">
-        Zachary Betz<span aria-hidden="true">.</span>
+        Zachary Betz
       </Link>
       <nav aria-label="Main navigation">
         <Link to="/" activeOptions={{ exact: true }}>
