@@ -283,16 +283,16 @@ form button {
 :root.dark { --background:#17192b; --text:#f1f0ff; --muted:#b9bdd5; --link:#a9bdff; --border:#464b6c; --surface:#252b45; --selection:#62560b; --outline:#8f99c4; }
 * { box-sizing:border-box; }
 body { font-family:Bricolage,system-ui,sans-serif!important; }
-header { width:100%; background:var(--cobalt); border-bottom:3px solid #14163a; padding:1.1rem max(1.25rem,calc((100% - 74rem)/2)); display:flex; flex-wrap:wrap; align-items:center; gap:1rem 2rem; }
+header { width:100%; background:var(--cobalt); border-bottom:3px solid #14163a; padding:.75rem max(1.25rem,calc((100% - 74rem)/2)); display:flex; flex-wrap:wrap; align-items:center; gap:.6rem 1.5rem; }
 .brand { font-size:1.5rem; font-weight:800; letter-spacing:-.04em; color:white; text-decoration:none; white-space:nowrap; }
 .brand span { color:var(--yellow); }
-header nav { flex:1; justify-content:flex-end; }
-header nav a { color:white; padding:.35rem .65rem; border:2px solid transparent; border-radius:.6rem; }
+header nav { flex:1; justify-content:flex-end; gap:.35rem .7rem; }
+header nav a { color:white; padding:.25rem .5rem; border:2px solid transparent; border-radius:.6rem; }
 header nav a:hover,header nav a[aria-current='page'] { background:var(--yellow); border-color:#14163a; color:#14163a; text-decoration:none; }
 button { border:2px solid var(--outline); border-radius:.75rem; box-shadow:3px 3px 0 var(--outline); font-weight:700; transition:transform .15s,box-shadow .15s; }
 button:hover { transform:translateY(-2px); }
 button:active { transform:translate(2px,2px); box-shadow:1px 1px 0 var(--outline); }
-.theme-toggle { margin-left:0; background:#fffdf7; color:#14163a; border-color:#14163a; box-shadow:3px 3px 0 #14163a; }
+.theme-toggle { margin-left:0; padding:.3rem .65rem; background:#fffdf7; color:#14163a; border-color:#14163a; box-shadow:3px 3px 0 #14163a; }
 main { padding-block:3rem 4rem; }
 h1 { font-size:clamp(2.25rem,6vw,4rem); line-height:1.05; letter-spacing:-.045em; font-weight:800; text-wrap:balance; }
 article > time { display:block; padding-bottom:1.5rem; border-bottom:2px dashed var(--border); }
@@ -306,5 +306,5 @@ time,code,pre { font-family:JetBrains,ui-monospace,monospace; }
 .site-footer { max-width:74rem; margin:auto; padding:1.5rem; border-top:2px dashed var(--border); display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; color:var(--muted); font-size:.9rem; }
 .skip { position:absolute; left:1rem; top:-10rem; z-index:50; background:var(--yellow); color:#14163a; padding:.75rem; border:2px solid #14163a; }
 .skip:focus { top:1rem; }
-@media(max-width:760px) { header nav { justify-content:flex-start; } header { gap:.75rem; } main { padding-top:2rem; } }
+@media(max-width:760px) { header nav { justify-content:flex-start; } header { gap:.5rem .85rem; } main { padding-top:2rem; } }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; transition:none!important; } button:hover,button:active { transform:none!important; } }
