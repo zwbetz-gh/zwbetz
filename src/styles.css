@@ -39,6 +39,20 @@ body {
   color: var(--text);
 }
 
+a {
+  color: var(--link);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
 header nav,
 main,
 .site-footer {
@@ -51,18 +65,21 @@ header {
   border-bottom: 1px solid var(--border);
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1.25rem;
-  font-size: 1rem;
-}
-
 nav a {
   color: var(--muted);
   text-decoration: none;
   padding-block: 0.4rem;
+}
+
+header nav a {
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 0.6rem;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 nav a:hover,
@@ -73,16 +90,6 @@ nav a[aria-current="page"] {
 
 main {
   padding-block: 1.75rem 3rem;
-}
-
-a {
-  color: var(--link);
-  text-underline-offset: 0.2em;
-  text-decoration-thickness: 1px;
-}
-
-a:hover {
-  text-decoration-thickness: 2px;
 }
 
 :focus-visible {
@@ -108,6 +115,12 @@ time {
   font-size: 0.9375rem;
 }
 
+time,
+code,
+pre {
+  font-family: JetBrains, ui-monospace, monospace;
+}
+
 .posts {
   padding: 0;
   list-style: none;
@@ -119,6 +132,12 @@ time {
   grid-template-columns: 7rem minmax(0, 1fr);
   gap: 1rem;
   padding-block: 0.15rem;
+}
+
+article > time {
+  display: block;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px dashed var(--border);
 }
 
 .posts time {
@@ -195,6 +214,20 @@ button {
   padding: 0.5rem 1rem;
 }
 
+button {
+  border: 2px solid var(--outline);
+  border-radius: 0.75rem;
+  box-shadow: 3px 3px 0 var(--outline);
+  font-weight: 700;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+form button {
+  justify-self: start;
+}
+
 button:hover {
   border-color: var(--link);
 }
@@ -225,10 +258,6 @@ textarea {
 
 select {
   padding: 0.65rem;
-}
-
-form button {
-  justify-self: start;
 }
 
 [role="alert"] {
@@ -320,7 +349,7 @@ form button {
   box-sizing: border-box;
 }
 body {
-  font-family: Bricolage, system-ui, sans-serif !important;
+  font-family: Bricolage, system-ui, sans-serif;
 }
 header {
   width: 100%;
@@ -336,12 +365,7 @@ header nav {
   justify-content: flex-start;
   gap: 0.35rem 0.7rem;
 }
-header nav a {
-  color: white;
-  padding: 0.25rem 0.5rem;
-  border: 2px solid transparent;
-  border-radius: 0.6rem;
-}
+
 header nav > a:first-child {
   margin-left: calc(-0.5rem - 2px);
 }
@@ -352,15 +376,7 @@ header nav a[aria-current="page"] {
   color: #14163a;
   text-decoration: none;
 }
-button {
-  border: 2px solid var(--outline);
-  border-radius: 0.75rem;
-  box-shadow: 3px 3px 0 var(--outline);
-  font-weight: 700;
-  transition:
-    transform 0.15s,
-    box-shadow 0.15s;
-}
+
 button:hover {
   transform: translateY(-2px);
 }
@@ -386,16 +402,7 @@ h1 {
   font-weight: 800;
   text-wrap: balance;
 }
-article > time {
-  display: block;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px dashed var(--border);
-}
-time,
-code,
-pre {
-  font-family: JetBrains, ui-monospace, monospace;
-}
+
 .prose {
   line-height: 1.75;
 }
@@ -458,11 +465,14 @@ pre {
   *,
   *::before,
   *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: Enforce the reduced-motion preference over component styles. */
     animation: none !important;
+    /* biome-ignore lint/complexity/noImportantStyles: Enforce the reduced-motion preference over component styles. */
     transition: none !important;
   }
   button:hover,
   button:active {
+    /* biome-ignore lint/complexity/noImportantStyles: Enforce the reduced-motion preference over component styles. */
     transform: none !important;
   }
 }
