@@ -111,4 +111,4 @@ build.finalizedBy(checkFlywayMigrationFilenamePrefixForUniqueness)
 
 ## Sister Repo
 
-<https://github.com/zwbetz-gh/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time>
+[Flyway migration filename uniqueness example](https://github.com/zwbetz-gh/check-flyway-migration-filename-prefix-for-uniqueness-at-build-time)

@@ -4,7 +4,7 @@ date: 2020-06-14
 aliases: ["/add-search-functionality-to-your-blog-listing-page/"]
 ---
 
-**Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
+**Note:** An improved version of this template is available at [Hugo client-side search template](https://github.com/zwbetz-gh/hugo-client-side-search-template). It supports fuzzy searching and match highlighting.
 
 ---
 

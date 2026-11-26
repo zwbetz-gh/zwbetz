@@ -10,8 +10,8 @@ Still, there have many requests on the [forums](https://discourse.gohugo.io/) fo
 
 ## Sister Links
 
-- **GitHub:** <https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch>
-- **Demo:** <https://make-a-hugo-blog-from-scratch.netlify.app>
+- **GitHub:** [Hugo blog example](https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch)
+- **Demo:** [Hugo blog demo](https://make-a-hugo-blog-from-scratch.netlify.app)
 
 ## Prerequisities and Notes
 

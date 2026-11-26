@@ -20,7 +20,7 @@ No worries, though. We can make one. This is best explained by comparing the Doc
 
 ## Sister Links
 
-- GitHub: <https://github.com/zwbetz-gh/reuse-the-gradle-dependency-cache-with-docker>
+- GitHub: [Gradle dependency cache with Docker example](https://github.com/zwbetz-gh/reuse-the-gradle-dependency-cache-with-docker)
 
 ## Regular Build
 

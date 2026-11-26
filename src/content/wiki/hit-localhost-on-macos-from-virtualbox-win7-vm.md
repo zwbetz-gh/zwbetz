@@ -59,4 +59,4 @@ You can confirm the default gateway of your VM by doing the following:
 
 To hit internal (vpn-only) sites, keep your network adapter as **NAT**.
 
-To hit external sites such as <https://duckduckgo.com/> then set your network adapter as **Bridged Adapter**.
+To hit external sites such as [DuckDuckGo](https://duckduckgo.com/) then set your network adapter as **Bridged Adapter**.

@@ -10,7 +10,7 @@ There I was on the couch, it was a normal Monday night, just chipping away at a 
 
 We have AT&T fiber and it's stable for the most part. There's a fiber box in the corner of our backyard, and every time a new neighbor gets service, the technician inevitably disconnects us by accident. But it was late, way past technician work hours.
 
-I checked a few other websites, and my go-to speed test site, <https://fast.com/>, all worked fine. So, it seemed specific to GitHub. I popped into a vscode terminal and did a `git pull`, sure enough, it hung too. So, not only HTTPS, but SSH was affected too. Was GitHub down? This was getting weirder.
+I checked a few other websites, and my go-to speed test site, [Fast.com](https://fast.com/), all worked fine. So, it seemed specific to GitHub. I popped into a vscode terminal and did a `git pull`, sure enough, it hung too. So, not only HTTPS, but SSH was affected too. Was GitHub down? This was getting weirder.
 
 SSH uses port 22 by default. Was some process messing with it? You can find all processes using a specific port on Mac with `sudo lsof -i :22`, so I tried that, but no cigar.
 

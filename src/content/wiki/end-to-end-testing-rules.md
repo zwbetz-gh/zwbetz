@@ -67,4 +67,4 @@ Be selective about what you e2e test. Aim to keep your total e2e test count rela
 
 ![Test Pyramid](/wiki/end-to-end-testing-rules/test-pyramid.png)
 
-The Test Pyramid, courtesy of <https://martinfowler.com/articles/practical-test-pyramid.html>
+The Test Pyramid, courtesy of [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)

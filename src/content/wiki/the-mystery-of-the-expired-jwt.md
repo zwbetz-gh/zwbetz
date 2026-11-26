@@ -12,7 +12,7 @@ I popped open the DevTools Network tab and repeated the usual steps to login to 
 
 So, my first area of investigation was to make sure the JWT that the frontend received from the authorization server looked normal. We were using the old OAuth2 service account in another environment, so I could log in to both environments and compare the JWTs.
 
-I decoded both JWTs at <https://jwt.io/> and they were virtually identical. The only difference was the "expires in" time. The old service account was 20 mins, the new service account was 10 mins. This was known and expected.
+I decoded both JWTs at [JWT.io](https://jwt.io/) and they were virtually identical. The only difference was the "expires in" time. The old service account was 20 mins, the new service account was 10 mins. This was known and expected.
 
 Okay, the JWT is fine, so time to investigate the server logs where the 401 was being returned.
 

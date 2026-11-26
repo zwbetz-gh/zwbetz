@@ -10,7 +10,7 @@ The Java language sometimes gets a bad rap for being verbose. And look, I get it
 
 ## Sister Links
 
-<https://github.com/zwbetz-gh/javascript-array-vs-java-list-common-actions>
+[JavaScript Array vs. Java List examples](https://github.com/zwbetz-gh/javascript-array-vs-java-list-common-actions)
 
 ## For Each
 

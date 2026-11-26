@@ -88,12 +88,12 @@ sonar_scan() {
 #### Generate a Token
 
 1. Run `sonar_console` then wait for it to startup
-1. Go to <http://localhost:9000>
+1. Go to [local SonarQube instance](http://localhost:9000)
 1. Login with default credentials of `admin` / `admin` then reset your password
-1. Go to <http://localhost:9000/projects/create?mode=manual>
+1. Go to [SonarQube project creation page](http://localhost:9000/projects/create?mode=manual)
 1. Enter `temp` for Project display name and Project key
 1. Click **Set Up**
-1. Go to <http://localhost:9000/dashboard?id=temp&selectedTutorial=manual>
+1. Go to [temp project setup page](http://localhost:9000/dashboard?id=temp&selectedTutorial=manual)
 1. Enter `temp` for your token name
 1. Click **Generate**
 1. Copy the generated token
@@ -103,7 +103,7 @@ sonar_scan() {
 1. `cd` the project that you want to run SonarQube on
 1. _Optionally_, run the unit tests for the repo. You only have to do this if you want SonarQube to report on _test coverage_. Otherwise, you can skip this step and just address the Code Smells and such reported by SonarQube
 1. Run `sonar_scan <TOKEN>` to start the scanner. Replace `<TOKEN>` with your actual token
-1. Once the scan is complete, view the results at <http://localhost:9000/projects>
+1. Once the scan is complete, view the results at [SonarQube projects page](http://localhost:9000/projects)
 
 ---
 
@@ -116,12 +116,12 @@ sonar_scan() {
 
 ### Install sonarqube
 
-1. Download sonarqube from <https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.4.2.36762.zip>
+1. Download sonarqube from [SonarQube 8.4.2 ZIP archive](https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.4.2.36762.zip)
 1. Extract the zip file to `~/bin`
 
 ### Install sonar-scanner
 
-1. Download sonar-scanner from <https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-macosx.zip>
+1. Download sonar-scanner from [SonarScanner CLI 4.4.0 for macOS](https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-macosx.zip)
 1. Extract the zip file to `~/bin`
 
 ### Add Shell Helper
@@ -185,11 +185,11 @@ sonar_scan() {
         sonar_scan
 ### View scan results
 
-1. Navigate to <http://localhost:9000>
+1. Navigate to [local SonarQube instance](http://localhost:9000)
 1. Click **Projects**
 
 ### Notes
 
 - Sonar can connect to an external RDS to store scan history, but this doc assumes you'll use the default embedded database
 - If you want to delete a project, you must login. The default username/password is `admin`/`admin`
-- It's possible to ignore rules via undocumented config <https://community.sonarsource.com/t/documentation-about-ignore-issues-seems-to-be-wrong-or-outdated/3353>
+- It's possible to ignore rules via undocumented config [SonarSource discussion about ignoring issues](https://community.sonarsource.com/t/documentation-about-ignore-issues-seems-to-be-wrong-or-outdated/3353)

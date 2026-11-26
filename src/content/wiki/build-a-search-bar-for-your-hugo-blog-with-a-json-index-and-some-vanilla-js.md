@@ -7,7 +7,7 @@ aliases:
   ]
 ---
 
-**Note:** An improved version of this template is available at <https://github.com/zwbetz-gh/hugo-client-side-search-template>. It supports fuzzy searching and match highlighting.
+**Note:** An improved version of this template is available at [Hugo client-side search template](https://github.com/zwbetz-gh/hugo-client-side-search-template). It supports fuzzy searching and match highlighting.
 
 ---
 
@@ -21,8 +21,8 @@ I'm documenting the relevant bits in case it's useful for someone else. Let's di
 
 ## Sister Links
 
-- **Demo:** <https://build-a-search-bar-for-your-hugo-blog.netlify.app>
-- **GitHub:** <https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js>
+- **Demo:** [Hugo search bar demo](https://build-a-search-bar-for-your-hugo-blog.netlify.app)
+- **GitHub:** [Hugo search bar example](https://github.com/zwbetz-gh/build-a-search-bar-for-your-hugo-blog-with-a-json-index-and-some-vanilla-js)
 
 ## Prerequisites
 

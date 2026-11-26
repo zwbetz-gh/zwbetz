@@ -11,7 +11,7 @@ Sometimes you need to install developer tools on a Windows machine, but you don'
 ## Install
 
 1. Get familiar with [Windows Environment Variables in Command Prompt](/wiki/windows-environment-variables-in-command-prompt)
-1. Download a zip of the 64-bit Windows binary <https://www.python.org/ftp/python/3.9.9/python-3.9.9-embed-amd64.zip>
+1. Download a zip of the 64-bit Windows binary [Python 3.9.9 for Windows (64-bit embeddable ZIP)](https://www.python.org/ftp/python/3.9.9/python-3.9.9-embed-amd64.zip)
 1. Create folder `%USERPROFILE%\bin\python`, then extract the zip contents into this folder
 1.  Open Command Prompt and run
 

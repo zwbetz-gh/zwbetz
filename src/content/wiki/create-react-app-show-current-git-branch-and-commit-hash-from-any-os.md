@@ -9,7 +9,7 @@ macOS and Linux solutions abound... but what about our Windows friends?
 
 ## Sister Links
 
-- **GitHub**: <https://github.com/zwbetz-gh/create-react-app-show-current-git-branch-and-commit-hash-from-any-os>
+- **GitHub**: [Create React App Git branch and commit hash example](https://github.com/zwbetz-gh/create-react-app-show-current-git-branch-and-commit-hash-from-any-os)
 
 ## The Problem
 

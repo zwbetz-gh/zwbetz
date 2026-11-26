@@ -16,5 +16,5 @@ I bought lifetime access in 2016 for $2.99. Some of the best 3 bucks I've ever s
 
 Links:
 
-- Their custom site: <https://contactssync.com/>
-- Their App Store entry: <https://apps.apple.com/us/app/contacts-sync-for-google-gmail/id454390333>
+- Their custom site: [Contacts Sync](https://contactssync.com/)
+- Their App Store entry: [Contacts Sync on the App Store](https://apps.apple.com/us/app/contacts-sync-for-google-gmail/id454390333)

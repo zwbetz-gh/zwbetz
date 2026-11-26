@@ -40,5 +40,5 @@ FileUtils.copyURLToFile(connection.getURL(), new File("/path/to/file"));
 
 Credits to these stackoverflow answers:
 
-- <https://stackoverflow.com/a/10135259>
-- <https://stackoverflow.com/a/32346644>
+- [Stack Overflow answer 10135259 on downloading files over HTTPS](https://stackoverflow.com/a/10135259)
+- [Stack Overflow answer 32346644 on downloading files over HTTPS](https://stackoverflow.com/a/32346644)

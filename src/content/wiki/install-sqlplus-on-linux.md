@@ -107,7 +107,7 @@ When some random guy's blog ranks higher than the Oracle docs, what does that te
 
 ---
 
-Note: If you get the following error, then see potential solutions at <https://stackoverflow.com/questions/10619298/libaio-so-1-cannot-open-shared-object-file>
+Note: If you get the following error, then see potential solutions at [Stack Overflow discussion about the missing libaio.so.1 library](https://stackoverflow.com/questions/10619298/libaio-so-1-cannot-open-shared-object-file)
 
 ```
 sqlplus: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory

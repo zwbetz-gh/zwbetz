@@ -12,7 +12,7 @@ Okay, let's write a method that gets an animal name by id. It'll accept a list o
 
 ## Sister Links
 
-- <https://github.com/zwbetz-gh/playing-with-java-optional>
+- [Java Optional examples](https://github.com/zwbetz-gh/playing-with-java-optional)
 
 ## Attempt 1
 

@@ -8,11 +8,11 @@ GitHub has a cool feature called GitHub Pages. It's basically free web hosting f
 
 There's a python package called `ghp-import` that does the heavy lifting for you. All you have to do is build your site as normal.
 
-The following is a stripped-down version of necessary steps. For a more fleshed-out version, see <https://github.com/zwbetz-gh/github-pages-deploy-pleasejs>
+The following is a stripped-down version of necessary steps. For a more fleshed-out version, see [GitHub Pages deployment example](https://github.com/zwbetz-gh/github-pages-deploy-pleasejs)
 
 ## Demo
 
-<https://zwbetz-gh.github.io/github-pages-deploy-pleasejs/>
+[GitHub Pages deployment demo](https://zwbetz-gh.github.io/github-pages-deploy-pleasejs/)
 
 ## Steps
 

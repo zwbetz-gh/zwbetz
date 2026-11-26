@@ -11,7 +11,7 @@ This will install node version `14.16.0`
 ## Install
 
 1. Get familiar with [Windows Environment Variables in Command Prompt](/wiki/windows-environment-variables-in-command-prompt)
-1. Download a zip of the 64-bit Windows binary <https://nodejs.org/dist/v14.16.0/node-v14.16.0-win-x64.zip>
+1. Download a zip of the 64-bit Windows binary [Node.js 14.16.0 for Windows (64-bit ZIP)](https://nodejs.org/dist/v14.16.0/node-v14.16.0-win-x64.zip)
 1. Create folder `%USERPROFILE%\bin\nodejs`, then extract the zip contents into this folder
 1.  Open Command Prompt and set environment variables for your account
 

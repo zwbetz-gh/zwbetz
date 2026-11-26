@@ -7,7 +7,7 @@ aliases:
 
 My son likes to watch downloaded movies during long car rides. This bug is keeping that from happening.
 
-On 2021-06-13 I used the "Give Feedback" option at <https://help.disneyplus.com> to let them know of the issue and included a link to this bug report.
+On 2021-06-13 I used the "Give Feedback" option at [Disney+ Help Center](https://help.disneyplus.com) to let them know of the issue and included a link to this bug report.
 
 Turns out there's an [amazon forum question](https://www.amazonforum.com/s/question/0D54P00007xcqXySAI/disney-plus-keeps-logging-out) for this issue. It has no working solutions, though, just fellow frustrated parents.
 

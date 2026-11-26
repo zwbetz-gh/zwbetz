@@ -8,7 +8,7 @@ Normally, on say a static site, this would be a matter of uploading files to a s
 
 ## Steps
 
-1. Navigate to <https://realfavicongenerator.net>
+1. Navigate to [RealFaviconGenerator](https://realfavicongenerator.net)
    1. Upload your image
    1. Follow the steps to tweak the icon design. For example, I went with a white background color of `#ffffff`
    1. Download the generated favicon files and the generated `head` HTML
@@ -20,7 +20,7 @@ Normally, on say a static site, this would be a matter of uploading files to a s
 1. In the "Real Favicon" generated `head` HTML, replace each `href` attribute with its corresponding CDN link
 1. Navigate to **Squarespace** => **Settings** => **Advanced** => **Code Injection**. From here, you'll paste the `head` HTML you just edited. See below for a sample
 1. Now it's time to test your Apple Touch Icon
-   1. Navigate to <https://realfavicongenerator.net/favicon_checker>, paste in your site URL, then run the check. Confirm that the iOS Safari image looks how you want it to.
+   1. Navigate to [RealFaviconGenerator favicon checker](https://realfavicongenerator.net/favicon_checker), paste in your site URL, then run the check. Confirm that the iOS Safari image looks how you want it to.
    1. Or, you could just navigate to your site from your iPhone then save it to your homescreen, the real test
 
 ## Sample `head` HTML
