@@ -10,9 +10,9 @@ function Wiki() {
       <ul className="posts">
         {posts.map((post) => (
           <li key={post.id}>
-            <time dateTime={post.date}>{post.date}</time>
             <Link to="/wiki/$id" params={{ id: post.id }}>
-              {post.title}
+              <time dateTime={post.date}>{post.date}</time>
+              <span>{post.title}</span>
             </Link>
           </li>
         ))}

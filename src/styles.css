@@ -136,11 +136,12 @@ pre {
   margin-block: 1rem;
 }
 
-.posts li {
+.posts li > a {
   display: grid;
   grid-template-columns: 7rem minmax(0, 1fr);
   gap: 1rem;
-  padding-block: 0.15rem;
+  padding-block: 0.65rem;
+  text-decoration-line: none;
 }
 
 article > time {
@@ -291,7 +292,7 @@ select {
     gap: 0.5rem 1rem;
   }
 
-  .posts li {
+  .posts li > a {
     grid-template-columns: minmax(0, 1fr);
     gap: 0.15rem;
   }
@@ -402,7 +403,6 @@ h1 {
   border-left: 4px solid var(--secondary);
 }
 .posts li {
-  padding-block: 0.65rem;
   border-bottom: 1px dashed var(--border);
   border-radius: 0.3rem;
 }
