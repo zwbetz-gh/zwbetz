@@ -299,7 +299,6 @@ article > time { display:block; padding-bottom:1.5rem; border-bottom:2px dashed 
 time,code,pre { font-family:JetBrains,ui-monospace,monospace; }
 .prose { line-height:1.75; }
 .prose h2 { font-size:1.85rem; letter-spacing:-.03em; }
-.prose h2::after { content:''; display:block; width:3rem; height:.4rem; border:1px solid var(--outline); background:var(--yellow); border-radius:1rem; margin-top:.65rem; }
 .prose pre { border:2px solid var(--outline); border-radius:.85rem; box-shadow:4px 4px 0 var(--outline); }
 .prose blockquote { border-left:4px solid var(--yellow); }
 .posts li { padding-block:.65rem; border-bottom:1px dashed var(--border); border-radius:.3rem; }
