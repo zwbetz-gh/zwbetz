@@ -335,8 +335,9 @@ select {
   box-sizing: border-box;
 }
 header {
+  --header-min-height: 4.5rem;
   width: 100%;
-  min-height: 5rem;
+  min-height: var(--header-min-height);
   background: var(--primary);
   border-bottom: 3px solid var(--ink);
   padding: 0.75rem 0;
@@ -499,7 +500,6 @@ h1 {
   header nav > a:first-child {
     align-self: flex-start;
     margin-left: 0;
-    padding: 0.65rem 0.75rem;
   }
   header nav {
     flex-direction: row;
@@ -520,7 +520,7 @@ h1 {
   }
   header {
     align-items: flex-start;
-    padding-block: calc((5rem - 2rem - 3px) / 2);
+    padding-block: calc((var(--header-min-height) - 2rem - 3px) / 2);
     gap: 0.5rem 0.85rem;
   }
   main {
