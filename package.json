@@ -6,7 +6,7 @@
     "#/*": "./src/*"
   },
   "scripts": {
-    "ok": "biome check --write && tsr generate && tsc && vite build",
+    "ok": "biome check --write && tsr generate && tsc && vite build --logLevel warn",
     "check": "biome check --write",
     "generate-routes": "tsr generate",
     "typecheck": "tsc",
