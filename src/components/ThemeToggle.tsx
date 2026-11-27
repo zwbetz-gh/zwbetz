@@ -57,9 +57,7 @@ export default function ThemeToggle() {
     };
   }, [mode]);
 
-  function toggleMode() {
-    const nextMode: ThemeMode =
-      mode === "light" ? "dark" : mode === "dark" ? "auto" : "light";
+  function changeMode(nextMode: ThemeMode) {
     setMode(nextMode);
     applyThemeMode(nextMode);
     try {
@@ -67,20 +65,16 @@ export default function ThemeToggle() {
     } catch {}
   }
 
-  const label =
-    mode === "auto"
-      ? "Theme mode: auto (system). Click to switch to light mode."
-      : `Theme mode: ${mode}. Click to switch mode.`;
-
   return (
-    <button
-      type="button"
-      onClick={toggleMode}
-      aria-label={label}
-      title={label}
+    <select
+      value={mode}
+      onChange={(event) => changeMode(event.currentTarget.value as ThemeMode)}
+      aria-label="Theme"
       className="theme-toggle"
     >
-      {mode === "auto" ? "Auto" : mode === "dark" ? "Dark" : "Light"}
-    </button>
+      <option value="auto">Auto</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
   );
 }
