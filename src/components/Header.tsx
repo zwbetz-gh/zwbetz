@@ -4,15 +4,17 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   return (
     <header>
-      <nav aria-label="Main navigation">
-        <Link to="/" activeOptions={{ exact: true }}>
-          Home
-        </Link>
-        <Link to="/wiki">Wiki</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/links">Links</Link>
+      <div className="header-content">
+        <nav aria-label="Main navigation">
+          <Link to="/" activeOptions={{ exact: true }}>
+            Home
+          </Link>
+          <Link to="/wiki">Wiki</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/links">Links</Link>
+        </nav>
         <ThemeToggle />
-      </nav>
+      </div>
     </header>
   );
 }
