@@ -18,6 +18,8 @@ import { Route as LicenseRouteImport } from './routes/license'
 import { Route as LinksRouteImport } from './routes/links'
 import { Route as PhotoRouteImport } from './routes/photo'
 import { Route as ProjectsRouteImport } from './routes/projects'
+import { Route as ToolsIndexRouteImport } from './routes/tools.index'
+import { Route as ToolsHtmlElementsRouteImport } from './routes/tools.html-elements'
 import { Route as WikiIndexRouteImport } from './routes/wiki.index'
 import { Route as WikiIdRouteImport } from './routes/wiki.$id'
 import { Route as WikiBase64ToolRouteImport } from './routes/wiki.base64-tool'
@@ -67,6 +69,16 @@ const ProjectsRoute = ProjectsRouteImport.update({
   path: '/projects',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ToolsIndexRoute = ToolsIndexRouteImport.update({
+  id: '/tools/',
+  path: '/tools/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ToolsHtmlElementsRoute = ToolsHtmlElementsRouteImport.update({
+  id: '/tools/html-elements',
+  path: '/tools/html-elements',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WikiIndexRoute = WikiIndexRouteImport.update({
   id: '/wiki/',
   path: '/wiki/',
@@ -93,8 +105,10 @@ export interface FileRoutesByFullPath {
   '/links': typeof LinksRoute
   '/photo': typeof PhotoRoute
   '/projects': typeof ProjectsRoute
+  '/tools/html-elements': typeof ToolsHtmlElementsRoute
   '/wiki/$id': typeof WikiIdRoute
   '/wiki/base64-tool': typeof WikiBase64ToolRoute
+  '/tools/': typeof ToolsIndexRoute
   '/wiki/': typeof WikiIndexRoute
 }
 export interface FileRoutesByTo {
@@ -107,8 +121,10 @@ export interface FileRoutesByTo {
   '/links': typeof LinksRoute
   '/photo': typeof PhotoRoute
   '/projects': typeof ProjectsRoute
+  '/tools/html-elements': typeof ToolsHtmlElementsRoute
   '/wiki/$id': typeof WikiIdRoute
   '/wiki/base64-tool': typeof WikiBase64ToolRoute
+  '/tools': typeof ToolsIndexRoute
   '/wiki': typeof WikiIndexRoute
 }
 export interface FileRoutesById {
@@ -122,8 +138,10 @@ export interface FileRoutesById {
   '/links': typeof LinksRoute
   '/photo': typeof PhotoRoute
   '/projects': typeof ProjectsRoute
+  '/tools/html-elements': typeof ToolsHtmlElementsRoute
   '/wiki/$id': typeof WikiIdRoute
   '/wiki/base64-tool': typeof WikiBase64ToolRoute
+  '/tools/': typeof ToolsIndexRoute
   '/wiki/': typeof WikiIndexRoute
 }
 export interface FileRouteTypes {
@@ -138,8 +156,10 @@ export interface FileRouteTypes {
     | '/links'
     | '/photo'
     | '/projects'
+    | '/tools/html-elements'
     | '/wiki/$id'
     | '/wiki/base64-tool'
+    | '/tools/'
     | '/wiki/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -152,8 +172,10 @@ export interface FileRouteTypes {
     | '/links'
     | '/photo'
     | '/projects'
+    | '/tools/html-elements'
     | '/wiki/$id'
     | '/wiki/base64-tool'
+    | '/tools'
     | '/wiki'
   id:
     | '__root__'
@@ -166,8 +188,10 @@ export interface FileRouteTypes {
     | '/links'
     | '/photo'
     | '/projects'
+    | '/tools/html-elements'
     | '/wiki/$id'
     | '/wiki/base64-tool'
+    | '/tools/'
     | '/wiki/'
   fileRoutesById: FileRoutesById
 }
@@ -181,8 +205,10 @@ export interface RootRouteChildren {
   LinksRoute: typeof LinksRoute
   PhotoRoute: typeof PhotoRoute
   ProjectsRoute: typeof ProjectsRoute
+  ToolsHtmlElementsRoute: typeof ToolsHtmlElementsRoute
   WikiIdRoute: typeof WikiIdRoute
   WikiBase64ToolRoute: typeof WikiBase64ToolRoute
+  ToolsIndexRoute: typeof ToolsIndexRoute
   WikiIndexRoute: typeof WikiIndexRoute
 }
 
@@ -251,6 +277,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProjectsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tools/': {
+      id: '/tools/'
+      path: '/tools'
+      fullPath: '/tools/'
+      preLoaderRoute: typeof ToolsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tools/html-elements': {
+      id: '/tools/html-elements'
+      path: '/tools/html-elements'
+      fullPath: '/tools/html-elements'
+      preLoaderRoute: typeof ToolsHtmlElementsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/wiki/': {
       id: '/wiki/'
       path: '/wiki'
@@ -285,8 +325,10 @@ const rootRouteChildren: RootRouteChildren = {
   LinksRoute: LinksRoute,
   PhotoRoute: PhotoRoute,
   ProjectsRoute: ProjectsRoute,
+  ToolsHtmlElementsRoute: ToolsHtmlElementsRoute,
   WikiIdRoute: WikiIdRoute,
   WikiBase64ToolRoute: WikiBase64ToolRoute,
+  ToolsIndexRoute: ToolsIndexRoute,
   WikiIndexRoute: WikiIndexRoute,
 }
 export const routeTree = rootRouteImport

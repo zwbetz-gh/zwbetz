@@ -425,6 +425,10 @@ h1 {
 .prose blockquote {
   border-left: 4px solid var(--secondary);
 }
+.tool-list > li {
+  padding-block: 0.75rem;
+}
+
 .posts li {
   border-bottom: 1px dashed var(--border);
   border-radius: 0.3rem;
@@ -572,4 +576,82 @@ h1 {
     /* biome-ignore lint/complexity/noImportantStyles: Enforce the reduced-motion preference over component styles. */
     transform: none !important;
   }
+}
+
+.tool-list {
+  padding-left: 1.25rem;
+}
+
+.tool-list p {
+  margin-block: 0.25rem;
+  color: var(--muted);
+}
+
+.element-search {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.element-search input {
+  width: 100%;
+  padding: 0.75rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: 0.35rem;
+}
+
+.element-group {
+  margin-top: 2rem;
+}
+
+.element-group h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.element-example {
+  border-bottom: 1px dashed var(--border);
+}
+
+.element-example > summary {
+  cursor: pointer;
+  padding-block: 0.85rem;
+}
+
+.element-example > summary code {
+  color: var(--link);
+  font-weight: 600;
+  margin-right: 0.75rem;
+}
+
+.element-example > summary span {
+  color: var(--muted);
+}
+
+.element-example-body {
+  padding-bottom: 1rem;
+}
+
+.element-example pre {
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+}
+
+.element-example iframe {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  margin-top: 0.75rem;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  color-scheme: inherit;
 }
