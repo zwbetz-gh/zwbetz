@@ -457,6 +457,9 @@ h1 {
   top: 1rem;
 }
 @media (max-width: 760px) {
+  .header-menu {
+    --menu-spacing: 0.75rem;
+  }
   .header-menu:not([open])::details-content {
     content-visibility: hidden;
   }
@@ -490,7 +493,7 @@ h1 {
   }
   .header-content {
     padding-block: 1rem 0.25rem;
-    gap: 0.75rem;
+    gap: var(--menu-spacing);
   }
   .header-content {
     flex-direction: column;
@@ -503,6 +506,8 @@ h1 {
   }
   header nav {
     flex-direction: row;
+    border-block-start: 2px dashed var(--ink);
+    padding-block-start: var(--menu-spacing);
     justify-content: flex-start;
     gap: 0.35rem;
   }
@@ -510,12 +515,11 @@ h1 {
     margin-inline-start: 0;
     justify-content: flex-end;
     border-block-start: 2px dashed var(--ink);
-    padding-block-start: 0.75rem;
+    padding-block-start: var(--menu-spacing);
     font-size: 0.875rem;
     color: var(--on-primary);
   }
   .header-theme .theme-toggle {
-    padding: 0.2rem 0.4rem;
     box-shadow: none;
   }
   header {
