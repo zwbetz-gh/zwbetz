@@ -12,8 +12,8 @@ function Tools() {
       <p>Small tools and references for building things on the web.</p>
       <ul className="tool-list">
         <li>
-          <Link to="/tools/html-elements">HTML Elements</Link>
-          <p>Explore HTML tags, example markup, and browser previews.</p>
+          <Link to="/tools/html-elements">Style Guide</Link>
+          <p>A living collection of typography and form elements.</p>
         </li>
       </ul>
     </main>

@@ -91,6 +91,15 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+.guide-toolbar :where(nav) a {
+  color: var(--text);
+}
+.guide-toolbar :where(nav) span {
+  font-family: JetBrains, ui-monospace, monospace;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
 nav a:hover,
 nav a[aria-current="page"] {
   color: var(--text);
@@ -587,71 +596,251 @@ h1 {
   color: var(--muted);
 }
 
-.element-search {
-  display: grid;
-  gap: 0.5rem;
-  margin-top: 1.5rem;
+.style-guide {
+  width: min(64rem, calc(100% - 2.5rem));
 }
-
+.guide-back,
+.guide-eyebrow,
+.guide-count,
+.guide-section-number,
+.guide-monogram span {
+  font-family: JetBrains, ui-monospace, monospace;
+  font-size: 0.75rem;
+}
+.guide-back {
+  color: var(--muted);
+}
+.guide-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 3rem;
+  align-items: center;
+  padding-block: 2rem 3rem;
+}
+.guide-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.guide-intro h1 {
+  font-size: clamp(3rem, 8vw, 6rem);
+}
+.guide-lede {
+  max-width: 32rem;
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+.guide-monogram {
+  width: min(100%, 20rem);
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: 50% 50% 0.75rem 0.75rem;
+  font-size: clamp(5rem, 14vw, 11rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.08em;
+  transform: rotate(3deg);
+}
+.guide-monogram span {
+  margin-top: 1.5rem;
+  letter-spacing: 0.2em;
+}
+.guide-toolbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1.5rem;
+  border-block: 1px solid var(--outline);
+  padding-block: 1rem;
+}
 .element-search input {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.65rem 0.85rem;
   font: inherit;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+.guide-count {
+  color: var(--muted);
+}
+.guide-section {
+  margin-top: 4rem;
+  scroll-margin-top: 2rem;
+}
+.guide-section-intro {
+  display: flex;
+  gap: 1.25rem;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+.guide-section-number {
+  color: var(--link);
+}
+.guide-section-intro h2 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+.guide-section-intro p {
+  color: var(--muted);
+  max-width: 36rem;
+}
+.specimen-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+.specimen {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+.specimen-caption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  align-items: baseline;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px dashed var(--border);
+}
+.specimen-caption h3 {
+  font: inherit;
+  color: var(--link);
+}
+.specimen-caption span {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.specimen-preview {
+  padding: 2rem 1.5rem;
+  display: flow-root;
+}
+.specimen-preview > :first-child {
+  margin-top: 0;
+}
+.specimen-preview > :last-child {
+  margin-bottom: 0;
+}
+.specimen-preview :where(h1, h2, h3, h4, h5, h6) {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+.specimen-preview h1 {
+  font-size: 3.5rem;
+}
+.specimen-preview h2 {
+  font-size: 2.75rem;
+}
+.specimen-preview h3 {
+  font-size: 2rem;
+}
+.specimen-preview h4 {
+  font-size: 1.5rem;
+}
+.specimen-preview h5 {
+  font-size: 1.25rem;
+}
+.specimen-preview h6 {
+  font-size: 1rem;
+}
+.specimen-preview :where(ul, ol) {
+  padding-left: 1.5rem;
+}
+.specimen-preview ul {
+  list-style: disc;
+}
+.specimen-preview ol {
+  list-style: decimal;
+}
+.specimen-preview blockquote {
+  margin-inline: 0;
+  border-left: 3px solid var(--secondary);
+  padding-left: 1.25rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.specimen-preview dt {
+  font-weight: 700;
+}
+.specimen-preview dd {
+  margin-left: 1rem;
+  color: var(--muted);
+}
+.specimen-preview mark {
+  background: var(--secondary);
+  color: var(--ink);
+  padding-inline: 0.15em;
+}
+.specimen-preview kbd {
+  border: 1px solid var(--outline);
+  border-bottom-width: 3px;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.4rem;
+  font-family: JetBrains, ui-monospace, monospace;
+}
+.specimen-preview :where(input, textarea, select) {
+  max-width: 100%;
+  padding: 0.65rem;
   color: var(--text);
   background: var(--surface);
   border: 1px solid var(--outline);
-  border-radius: 0.35rem;
-}
-
-.element-group {
-  margin-top: 2rem;
-}
-
-.element-group h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-}
-
-.element-example {
-  border-bottom: 1px dashed var(--border);
-}
-
-.element-example > h3 {
-  margin: 0;
+  border-radius: 0.4rem;
   font: inherit;
-  padding-block: 0.85rem;
 }
-
-.element-example > h3 code {
-  color: var(--link);
-  font-weight: 600;
-  margin-right: 0.75rem;
+.specimen-preview label {
+  display: grid;
+  gap: 0.5rem;
 }
-
-.element-example > h3 span {
-  color: var(--muted);
-}
-
-.element-example-body {
-  padding-bottom: 1rem;
-}
-
-.element-example pre {
+.specimen-preview fieldset {
+  border: 1px solid var(--outline);
   padding: 1rem;
+  border-radius: 0.5rem;
+  min-width: 0;
+}
+.specimen-preview legend {
+  padding-inline: 0.4rem;
+}
+.specimen-preview :where(meter, progress) {
+  width: 100%;
+  accent-color: var(--link);
+}
+.specimen-source {
+  margin: 0;
+  padding: 0.85rem 1.25rem;
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 0.35rem;
-  overflow-x: auto;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border-top: 1px solid var(--border);
+}
+.guide-colophon {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--border);
+  color: var(--muted);
   font-size: 0.875rem;
 }
-
-.element-example iframe {
-  display: block;
-  width: 100%;
-  margin-top: 0.75rem;
-  background: var(--background);
-  border: 1px solid var(--border);
-  border-radius: 0.35rem;
-  color-scheme: inherit;
+@media (max-width: 640px) {
+  .guide-intro {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .guide-monogram {
+    display: none;
+  }
 }

@@ -1,13 +1,28 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import elements from "../html-elements";
 
 export const Route = createFileRoute("/tools/html-elements")({
-  head: () => ({ meta: [{ title: "HTML Elements | Zachary Betz" }] }),
+  head: () => ({ meta: [{ title: "Style Guide | Zachary Betz" }] }),
   component: HtmlElements,
 });
 
-const categories = [...new Set(elements.map((element) => element.category))];
+const groups = [
+  {
+    name: "Typography",
+    id: "typography",
+    number: "01",
+    description:
+      "The shape of a sentence. From a big first impression to the smallest fine print.",
+  },
+  {
+    name: "Form Elements",
+    id: "forms",
+    number: "02",
+    description:
+      "An invitation to interact. Try the inputs, make a selection, and find your focus.",
+  },
+] as const;
 
 function HtmlElements() {
   const [search, setSearch] = useState("");
@@ -19,103 +34,111 @@ function HtmlElements() {
   );
 
   return (
-    <main>
-      <p>
-        <Link to="/tools">Tools</Link>
-      </p>
-      <h1>HTML Elements</h1>
-      <p>
-        Every current HTML element, grouped by purpose, with example markup and
-        browser previews.
-      </p>
-      <p>
-        Based on the{" "}
-        <a href="https://html.spec.whatwg.org/multipage/indices.html#elements-3">
-          HTML Living Standard
-        </a>
-        . Obsolete tags, SVG, and MathML are excluded. Browser support varies
-        for newer elements. Media examples show controls without loading files;
-        canvas drawing requires JavaScript.
-      </p>
-      <label className="element-search">
-        Search elements
-        <input
-          type="search"
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-          placeholder="Try <input>, heading, or table"
-        />
-      </label>
-      <p role="status">
-        {matches.length} of {elements.length} elements
+    <main className="style-guide" onSubmit={(event) => event.preventDefault()}>
+      <Link to="/tools" className="guide-back">
+        ← Tools
+      </Link>
+      <div className="guide-intro">
+        <div>
+          <p className="guide-eyebrow">The building blocks / HTML</p>
+          <h1>
+            A little
+            <br />
+            style guide.
+          </h1>
+          <p className="guide-lede">
+            Type with character. Controls with purpose. A living collection of
+            the everyday elements that make a page.
+          </p>
+        </div>
+        <div className="guide-monogram" aria-hidden="true">
+          Aa<span>← → &amp; 123</span>
+        </div>
+      </div>
+      <div className="guide-toolbar">
+        <nav aria-label="Style guide sections">
+          {groups.map((group) => (
+            <a key={group.id} href={`#${group.id}`}>
+              <span>{group.number}</span> {group.name}
+            </a>
+          ))}
+        </nav>
+        <label className="element-search">
+          <span className="sr-only">Search elements</span>
+          <input
+            type="search"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            placeholder="Find an element…"
+          />
+        </label>
+      </div>
+      <p className="guide-count" role="status">
+        {matches.length} specimens{query && ` matching “${search}”`}
       </p>
       {matches.length === 0 && (
         <p>No elements found. Try another tag or description.</p>
       )}
-      {categories.map((category) => {
+      {groups.map((group) => {
         const items = matches.filter(
-          (element) => element.category === category,
+          (element) => element.category === group.name,
         );
         if (items.length === 0) return null;
         return (
           <section
-            className="element-group"
-            key={category}
-            aria-label={category}
+            className="guide-section"
+            id={group.id}
+            key={group.id}
+            aria-labelledby={`${group.id}-heading`}
           >
-            <h2>{category}</h2>
-            {items.map((element) => (
-              <ElementExample key={element.tag} element={element} />
-            ))}
+            <div className="guide-section-intro">
+              <span className="guide-section-number">{group.number}</span>
+              <div>
+                <h2 id={`${group.id}-heading`}>{group.name}</h2>
+                <p>{group.description}</p>
+              </div>
+            </div>
+            <div className={`specimen-grid specimen-grid-${group.id}`}>
+              {items.map((element) => (
+                <ElementExample key={element.tag} element={element} />
+              ))}
+            </div>
           </section>
         );
       })}
+      <p className="guide-colophon">
+        Set in Bricolage &amp; JetBrains Mono. Built with{" "}
+        <a href="https://html.spec.whatwg.org/multipage/indices.html#elements-3">
+          HTML
+        </a>
+        . Try switching themes to see these elements in another light.
+      </p>
     </main>
   );
 }
 
 function ElementExample({ element }: { element: (typeof elements)[number] }) {
-  const observer = useRef<ResizeObserver | null>(null);
-
-  useEffect(() => () => observer.current?.disconnect(), []);
-
+  // Keep each specimen's form associations separate from the other examples.
+  const markup = element.example.replace(
+    /\b(id|for|list)="([^"]+)"/g,
+    `$1="specimen-${element.tag}-$2"`,
+  );
   return (
-    <div className="element-example">
-      <h3>
-        <code>{`<${element.tag}>`}</code>
+    <div className="specimen">
+      <div className="specimen-caption">
+        <h3>
+          <code>{`<${element.tag}>`}</code>
+        </h3>
         <span>{element.description}</span>
-      </h3>
-      <div className="element-example-body">
-        <pre>
-          <code>{element.example}</code>
-        </pre>
-        {element.preview ? (
-          <iframe
-            title={`Preview of the ${element.tag} element`}
-            sandbox="allow-same-origin"
-            loading="lazy"
-            onLoad={(event) => {
-              const frame = event.currentTarget;
-              const body = frame.contentDocument?.body;
-              if (!body) return;
-
-              observer.current?.disconnect();
-              const resize = () => {
-                frame.style.height = `${Math.ceil(body.getBoundingClientRect().height) + 32}px`;
-              };
-              observer.current = new ResizeObserver(resize);
-              observer.current.observe(body);
-              resize();
-            }}
-            srcDoc={`<!doctype html><html lang="en"><head><meta charset="utf-8"><style>:root{color-scheme:light dark}body{display:flow-root;font:16px/1.5 system-ui;margin:16px;overflow-wrap:anywhere}img,video,canvas,iframe{max-width:100%}table{border-collapse:collapse}td,th{border:1px solid;padding:8px}input,select,textarea,button{font:inherit;max-width:100%}dialog{position:static}a{color:LinkText}</style></head><body>${element.example}</body></html>`}
-          />
-        ) : (
-          <p>
-            This element needs a document, resource, or scripting context. See
-            the markup above.
-          </p>
-        )}
       </div>
+      <div
+        className="specimen-preview"
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: Specimens are trusted static markup from the local TypeScript module.
+        dangerouslySetInnerHTML={{ __html: markup }}
+      />
+      <pre className="specimen-source">
+        <code>{element.example}</code>
+      </pre>
     </div>
   );
 }
