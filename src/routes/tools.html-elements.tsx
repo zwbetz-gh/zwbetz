@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import elements from "../html-elements";
 
 export const Route = createFileRoute("/tools/html-elements")({
@@ -25,8 +25,8 @@ function HtmlElements() {
       </p>
       <h1>HTML Elements</h1>
       <p>
-        Every current HTML element, grouped by purpose. Open an example to see
-        its markup and a browser preview.
+        Every current HTML element, grouped by purpose, with example markup and
+        browser previews.
       </p>
       <p>
         Based on the{" "}
@@ -75,29 +75,40 @@ function HtmlElements() {
 }
 
 function ElementExample({ element }: { element: (typeof elements)[number] }) {
-  const [open, setOpen] = useState(false);
+  const observer = useRef<ResizeObserver | null>(null);
+
+  useEffect(() => () => observer.current?.disconnect(), []);
+
   return (
-    <details
-      className="element-example"
-      onToggle={(event) => setOpen(event.currentTarget.open)}
-    >
-      <summary>
+    <div className="element-example">
+      <h3>
         <code>{`<${element.tag}>`}</code>
         <span>{element.description}</span>
-      </summary>
+      </h3>
       <div className="element-example-body">
         <pre>
           <code>{element.example}</code>
         </pre>
         {element.preview ? (
-          open && (
-            <iframe
-              title={`Preview of the ${element.tag} element`}
-              sandbox=""
-              loading="lazy"
-              srcDoc={`<!doctype html><html lang="en"><head><meta charset="utf-8"><style>:root{color-scheme:light dark}body{font:16px/1.5 system-ui;margin:16px;overflow-wrap:anywhere}img,video,canvas,iframe{max-width:100%}table{border-collapse:collapse}td,th{border:1px solid;padding:8px}input,select,textarea,button{font:inherit;max-width:100%}dialog{position:static}a{color:LinkText}</style></head><body>${element.example}</body></html>`}
-            />
-          )
+          <iframe
+            title={`Preview of the ${element.tag} element`}
+            sandbox="allow-same-origin"
+            loading="lazy"
+            onLoad={(event) => {
+              const frame = event.currentTarget;
+              const body = frame.contentDocument?.body;
+              if (!body) return;
+
+              observer.current?.disconnect();
+              const resize = () => {
+                frame.style.height = `${Math.ceil(body.getBoundingClientRect().height) + 32}px`;
+              };
+              observer.current = new ResizeObserver(resize);
+              observer.current.observe(body);
+              resize();
+            }}
+            srcDoc={`<!doctype html><html lang="en"><head><meta charset="utf-8"><style>:root{color-scheme:light dark}body{display:flow-root;font:16px/1.5 system-ui;margin:16px;overflow-wrap:anywhere}img,video,canvas,iframe{max-width:100%}table{border-collapse:collapse}td,th{border:1px solid;padding:8px}input,select,textarea,button{font:inherit;max-width:100%}dialog{position:static}a{color:LinkText}</style></head><body>${element.example}</body></html>`}
+          />
         ) : (
           <p>
             This element needs a document, resource, or scripting context. See
@@ -105,6 +116,6 @@ function ElementExample({ element }: { element: (typeof elements)[number] }) {
           </p>
         )}
       </div>
-    </details>
+    </div>
   );
 }

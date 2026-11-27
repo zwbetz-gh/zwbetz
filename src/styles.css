@@ -617,18 +617,19 @@ h1 {
   border-bottom: 1px dashed var(--border);
 }
 
-.element-example > summary {
-  cursor: pointer;
+.element-example > h3 {
+  margin: 0;
+  font: inherit;
   padding-block: 0.85rem;
 }
 
-.element-example > summary code {
+.element-example > h3 code {
   color: var(--link);
   font-weight: 600;
   margin-right: 0.75rem;
 }
 
-.element-example > summary span {
+.element-example > h3 span {
   color: var(--muted);
 }
 
@@ -648,7 +649,6 @@ h1 {
 .element-example iframe {
   display: block;
   width: 100%;
-  height: 15rem;
   margin-top: 0.75rem;
   background: var(--background);
   border: 1px solid var(--border);
