@@ -14,7 +14,6 @@ export default function Header() {
               Home
             </Link>
             <Link to="/wiki">Wiki</Link>
-            <Link to="/projects">Projects</Link>
             <Link to="/links">Links</Link>
           </nav>
           <div className="header-theme">
