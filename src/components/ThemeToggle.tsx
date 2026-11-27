@@ -1,6 +1,18 @@
 import { useEffect, useState } from "react";
 
-type ThemeMode = "light" | "dark" | "auto";
+const THEME_MODES = ["auto", "light", "dark"] as const;
+type ThemeMode = (typeof THEME_MODES)[number];
+type ResolvedTheme = Exclude<ThemeMode, "auto">;
+
+const THEME_LABELS: Record<ThemeMode, string> = {
+  auto: "Auto",
+  light: "Light",
+  dark: "Dark",
+};
+
+function isThemeMode(value: unknown): value is ThemeMode {
+  return THEME_MODES.some((mode) => mode === value);
+}
 
 function getInitialMode(): ThemeMode {
   if (typeof window === "undefined") {
@@ -11,16 +23,24 @@ function getInitialMode(): ThemeMode {
   try {
     stored = window.localStorage.getItem("theme");
   } catch {}
-  if (stored === "light" || stored === "dark" || stored === "auto") {
+  if (isThemeMode(stored)) {
     return stored;
   }
 
   return "auto";
 }
 
-function applyThemeMode(mode: ThemeMode) {
+function resolveTheme(mode: ThemeMode): ResolvedTheme {
+  if (mode !== "auto") {
+    return mode;
+  }
+
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const resolved = mode === "auto" ? (prefersDark ? "dark" : "light") : mode;
+  return prefersDark ? "dark" : "light";
+}
+
+function applyThemeMode(mode: ThemeMode) {
+  const resolved = resolveTheme(mode);
 
   document.documentElement.classList.remove("light", "dark");
   document.documentElement.classList.add(resolved);
@@ -68,13 +88,20 @@ export default function ThemeToggle() {
   return (
     <select
       value={mode}
-      onChange={(event) => changeMode(event.currentTarget.value as ThemeMode)}
+      onChange={(event) => {
+        const nextMode = event.currentTarget.value;
+        if (isThemeMode(nextMode)) {
+          changeMode(nextMode);
+        }
+      }}
       aria-label="Theme"
       className="theme-toggle"
     >
-      <option value="auto">Auto</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
+      {THEME_MODES.map((themeMode) => (
+        <option key={themeMode} value={themeMode}>
+          {THEME_LABELS[themeMode]}
+        </option>
+      ))}
     </select>
   );
 }
