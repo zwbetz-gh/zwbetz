@@ -527,6 +527,33 @@ h1 {
     padding-top: 2rem;
   }
 }
+@supports (interpolate-size: allow-keywords) and selector(::details-content) {
+  @media (max-width: 760px) and (prefers-reduced-motion: no-preference) {
+    .header-menu {
+      interpolate-size: allow-keywords;
+    }
+
+    .header-menu::details-content {
+      block-size: 0;
+      opacity: 0;
+      overflow: clip;
+      transition:
+        block-size 180ms ease,
+        opacity 180ms ease,
+        content-visibility 180ms allow-discrete;
+    }
+
+    .header-menu[open]::details-content {
+      block-size: auto;
+      opacity: 1;
+    }
+
+    :where(.header-menu:not([open])) > .header-content {
+      display: flex;
+    }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
